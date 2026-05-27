@@ -15,6 +15,10 @@ on:
         description: 'Three-letter WFO identifier, such as LIX'
         required: true
         default: 'LIX'
+      dat_tracks_url:
+        description: 'Optional DAT GeoJSON or ArcGIS REST JSON URL for tornado tracks'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -42,8 +46,9 @@ jobs:
           BUILD_YEAR: ${{ github.event.inputs.year }}
           BUILD_MONTH: ${{ github.event.inputs.month }}
           BUILD_WFO: ${{ github.event.inputs.wfo }}
+          DAT_TRACKS_URL: ${{ github.event.inputs.dat_tracks_url }}
         run: |
-          python scripts/build_month.py --year "$BUILD_YEAR" --month "$BUILD_MONTH" --wfo "$BUILD_WFO"
+          python scripts/build_month.py --year "$BUILD_YEAR" --month "$BUILD_MONTH" --wfo "$BUILD_WFO" --dat-tracks-url "$DAT_TRACKS_URL"
 
       - name: Commit generated Storm Data prep files
         run: |
