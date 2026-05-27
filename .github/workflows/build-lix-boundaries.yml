@@ -1,7 +1,12 @@
-name: Build LIX boundary GeoJSON
+name: Build boundary GeoJSON
 
 on:
   workflow_dispatch:
+    inputs:
+      wfos:
+        description: 'Comma-separated WFOs to build WFO-specific counties/zones for'
+        required: true
+        default: 'LIX'
 
 permissions:
   contents: write
@@ -24,18 +29,18 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install geopandas shapely pyproj fiona
 
-      - name: Build LIX boundary GeoJSON
+      - name: Build boundary GeoJSON
         run: |
-          python scripts/build_lix_boundaries.py
+          python scripts/build_lix_boundaries.py --wfos "${{ github.event.inputs.wfos }}"
 
       - name: Commit generated boundary files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/boundaries/LIX/*.geojson
+          git add docs/data/boundaries/*.geojson docs/data/boundaries/by_wfo/**/*.geojson
           if git diff --cached --quiet; then
             echo "No boundary file changes to commit."
           else
-            git commit -m "Build LIX boundary GeoJSON files"
+            git commit -m "Build boundary GeoJSON files"
             git push
           fi
