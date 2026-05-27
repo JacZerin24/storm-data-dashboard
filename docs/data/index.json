@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "description": "Public data index for the Storm Data Dashboard.",
   "available_months": [
     {
@@ -9,6 +9,18 @@
       "events_json": "data/stormdata/2024/05/LIX/events.json",
       "events_geojson": "data/stormdata/2024/05/LIX/events.geojson",
       "summary_json": "data/stormdata/2024/05/LIX/summary.json"
+    }
+  ],
+  "available_prep_months": [
+    {
+      "year": 2026,
+      "month": "04",
+      "wfo": "LIX",
+      "dashboard_json": "data/stormprep/2026/04/LIX/dashboard.json",
+      "reports_geojson": "data/stormprep/2026/04/LIX/reports.geojson",
+      "products_json": "data/stormprep/2026/04/LIX/products.json",
+      "warnings_geojson": "data/stormprep/2026/04/LIX/warnings.geojson",
+      "summary_json": "data/stormprep/2026/04/LIX/summary.json"
     }
   ]
 }
