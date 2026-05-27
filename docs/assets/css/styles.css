@@ -56,13 +56,16 @@ button {
   cursor: pointer;
 }
 
-#map-placeholder {
-  height: 360px;
-  border: 2px dashed #bcccdc;
-  display: grid;
-  place-items: center;
-  color: #627d98;
+#map {
+  height: 420px;
+  border: 1px solid #bcccdc;
+  border-radius: 8px;
+  overflow: hidden;
   background: #f0f4f8;
+}
+
+.leaflet-popup-content {
+  line-height: 1.35;
 }
 
 table {
