@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Storm Data Dashboard</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Storm Data Dashboard</h1>
+    <p>Select a month, year, and WFO to view official Storm Data entries.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label>
+        Month
+        <select id="month-select">
+          <option value="01">January</option>
+          <option value="02">February</option>
+          <option value="03">March</option>
+          <option value="04">April</option>
+          <option value="05">May</option>
+          <option value="06">June</option>
+          <option value="07">July</option>
+          <option value="08">August</option>
+          <option value="09">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+      </label>
+
+      <label>
+        Year
+        <input id="year-input" type="number" min="1950" max="2100" value="2024" />
+      </label>
+
+      <label>
+        WFO
+        <input id="wfo-input" type="text" value="LIX" maxlength="3" />
+      </label>
+
+      <button id="load-button">Load Events</button>
+    </section>
+
+    <section id="status-panel">
+      <h2>Status</h2>
+      <p>This is the initial static dashboard scaffold. Real data loading will be added later.</p>
+    </section>
+
+    <section id="summary-panel">
+      <h2>Summary</h2>
+      <p>No data loaded yet.</p>
+    </section>
+
+    <section id="map-panel">
+      <h2>Map</h2>
+      <div id="map-placeholder">Map will go here.</div>
+    </section>
+
+    <section id="table-panel">
+      <h2>Events</h2>
+      <div id="events-table">Event table will go here.</div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
