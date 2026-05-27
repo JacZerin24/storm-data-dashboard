@@ -29,7 +29,13 @@ jobs:
           python scripts/build_lix_boundaries.py
 
       - name: Commit generated boundary files
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Build LIX boundary GeoJSON files
-          file_pattern: docs/data/boundaries/LIX/*.geojson
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/boundaries/LIX/*.geojson
+          if git diff --cached --quiet; then
+            echo "No boundary file changes to commit."
+          else
+            git commit -m "Build LIX boundary GeoJSON files"
+            git push
+          fi
