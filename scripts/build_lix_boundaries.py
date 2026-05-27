@@ -1,16 +1,16 @@
-"""Build public LIX boundary GeoJSON layers for the Storm Data Dashboard.
+"""Build public boundary GeoJSON layers for the Storm Data Dashboard.
 
-This script downloads public NWS AWIPS shapefiles and writes simplified GeoJSON
-files under docs/data/boundaries/LIX/.
+This script downloads public NWS AWIPS shapefiles and writes:
 
-The frontend expects:
-- docs/data/boundaries/LIX/cwa.geojson
-- docs/data/boundaries/LIX/counties_parishes.geojson
-- docs/data/boundaries/LIX/land_zones.geojson
-- docs/data/boundaries/LIX/marine_zones.geojson
+- docs/data/boundaries/all_cwas.geojson
+- docs/data/boundaries/by_wfo/<WFO>/cwa.geojson
+- docs/data/boundaries/by_wfo/<WFO>/counties_parishes.geojson
+- docs/data/boundaries/by_wfo/<WFO>/land_zones.geojson
+- docs/data/boundaries/by_wfo/<WFO>/marine_zones.geojson
 
 PowerShell usage:
 python .\scripts\build_lix_boundaries.py
+python .\scripts\build_lix_boundaries.py --wfos LIX,MOB,JAN,LCH
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ import geopandas as gpd
 import pandas as pd
 
 
-WFO = "LIX"
+DEFAULT_WFOS = ["LIX"]
 
 # Public NWS AWIPS shapefiles. CWA/public zones/marine zones are under WSOM;
 # counties are under the County folder on weather.gov.
@@ -101,14 +101,14 @@ def read_source_layer(layer_key: str, source_url: str, tmpdir: Path) -> gpd.GeoD
     return gdf
 
 
-def filter_by_wfo_columns(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def filter_by_wfo_columns(gdf: gpd.GeoDataFrame, wfo: str) -> gpd.GeoDataFrame:
     mask = pd.Series(False, index=gdf.index)
     used_columns = []
 
     for col in FILTER_COLUMNS:
         if col in gdf.columns:
             used_columns.append(col)
-            mask = mask | gdf[col].astype(str).str.upper().str.contains(WFO, na=False)
+            mask = mask | gdf[col].astype(str).str.upper().str.contains(wfo, na=False)
 
     if used_columns:
         log(f"  WFO filter columns used: {', '.join(used_columns)}")
@@ -118,15 +118,15 @@ def filter_by_wfo_columns(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf[mask].copy()
 
 
-def filter_cwa(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    filtered = filter_by_wfo_columns(gdf)
+def filter_cwa(gdf: gpd.GeoDataFrame, wfo: str) -> gpd.GeoDataFrame:
+    filtered = filter_by_wfo_columns(gdf, wfo)
 
     if filtered.empty:
         preview_cols = [col for col in FILTER_COLUMNS if col in gdf.columns]
         if preview_cols:
             log("  CWA filter preview:")
             log(str(gdf[preview_cols].head(10)))
-        raise RuntimeError("Could not find LIX CWA feature in CWA shapefile.")
+        raise RuntimeError(f"Could not find {wfo} CWA feature in CWA shapefile.")
 
     return filtered
 
@@ -152,17 +152,17 @@ def spatial_filter_to_cwa(gdf: gpd.GeoDataFrame, cwa_gdf: gpd.GeoDataFrame) -> g
     return gdf_4326[mask].copy()
 
 
-def filter_for_lix(layer_key: str, gdf: gpd.GeoDataFrame, cwa_gdf: gpd.GeoDataFrame | None) -> gpd.GeoDataFrame:
+def filter_for_wfo(layer_key: str, gdf: gpd.GeoDataFrame, wfo: str, cwa_gdf: gpd.GeoDataFrame | None) -> gpd.GeoDataFrame:
     if layer_key == "cwa":
-        return filter_cwa(gdf)
+        return filter_cwa(gdf, wfo)
 
-    filtered = filter_by_wfo_columns(gdf)
+    filtered = filter_by_wfo_columns(gdf, wfo)
 
     if not filtered.empty:
         return filtered
 
     if cwa_gdf is not None and not cwa_gdf.empty:
-        log("  No WFO-column matches found; using spatial intersection with LIX CWA.")
+        log(f"  No WFO-column matches found for {wfo}; using spatial intersection with {wfo} CWA.")
         return spatial_filter_to_cwa(gdf, cwa_gdf)
 
     return gdf.iloc[0:0].copy()
@@ -198,72 +198,95 @@ def clean_for_geojson(gdf: gpd.GeoDataFrame, layer_key: str, simplify_tolerance:
     return gdf
 
 
-def write_empty_geojson(path: Path, layer_key: str, source_url: str) -> None:
-    data = {
-        "type": "FeatureCollection",
-        "metadata": {
-            "schema_version": "0.1.0",
-            "wfo": WFO,
-            "layer": layer_key,
-            "source": source_url,
-            "public_release_status": "public-source-derived",
-            "warning": "No features were found for this layer.",
-        },
-        "features": [],
-    }
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-
-
-def add_metadata(path: Path, layer_key: str, source_url: str) -> None:
+def add_metadata(path: Path, metadata: dict) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
-    data["metadata"] = {
-        "schema_version": "0.1.0",
-        "wfo": WFO,
-        "layer": layer_key,
-        "source": source_url,
-        "public_release_status": "public-source-derived",
-    }
+    data["metadata"] = metadata
     path.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
-def build_layer(
+def write_geojson(gdf: gpd.GeoDataFrame, output_path: Path, metadata: dict) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if gdf.empty:
+        data = {
+            "type": "FeatureCollection",
+            "metadata": metadata | {"warning": "No features were found for this layer."},
+            "features": [],
+        }
+        output_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        return
+
+    gdf.to_file(output_path, driver="GeoJSON")
+    add_metadata(output_path, metadata)
+
+
+def build_all_cwas(raw_cwa: gpd.GeoDataFrame, output_dir: Path, simplify_tolerance: float) -> None:
+    log("Building all CWA boundary layer")
+    cwa = clean_for_geojson(raw_cwa, "cwa", simplify_tolerance)
+    output_path = output_dir / "all_cwas.geojson"
+    write_geojson(
+        cwa,
+        output_path,
+        {
+            "schema_version": "0.1.0",
+            "layer": "all_cwas",
+            "source": SOURCES["cwa"],
+            "public_release_status": "public-source-derived",
+        },
+    )
+    log(f"Wrote {output_path}")
+
+
+def build_wfo_layer(
     layer_key: str,
     source_url: str,
     output_dir: Path,
     simplify_tolerance: float,
     raw_gdf: gpd.GeoDataFrame,
+    wfo: str,
     cwa_gdf: gpd.GeoDataFrame | None,
 ) -> gpd.GeoDataFrame:
-    output_path = output_dir / OUTPUTS[layer_key]
+    output_path = output_dir / "by_wfo" / wfo / OUTPUTS[layer_key]
 
-    gdf = filter_for_lix(layer_key, raw_gdf, cwa_gdf)
-    log(f"  LIX features: {len(gdf)}")
+    gdf = filter_for_wfo(layer_key, raw_gdf, wfo, cwa_gdf)
+    log(f"  {wfo} {layer_key} features: {len(gdf)}")
 
     gdf = clean_for_geojson(gdf, layer_key, simplify_tolerance)
-    log(f"  Clean features: {len(gdf)}")
+    log(f"  {wfo} {layer_key} clean features: {len(gdf)}")
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if gdf.empty and layer_key == "cwa":
+        raise RuntimeError(f"{wfo} CWA layer is empty after filtering; cannot build reliable WFO boundaries.")
 
-    if gdf.empty:
-        if layer_key == "cwa":
-            raise RuntimeError("CWA layer is empty after filtering; cannot build reliable LIX boundaries.")
-        log(f"  WARNING: {layer_key} produced no features. Writing empty GeoJSON so the dashboard can still load.")
-        write_empty_geojson(output_path, layer_key, source_url)
-    else:
-        gdf.to_file(output_path, driver="GeoJSON")
-        add_metadata(output_path, layer_key, source_url)
-
+    write_geojson(
+        gdf,
+        output_path,
+        {
+            "schema_version": "0.1.0",
+            "wfo": wfo,
+            "layer": layer_key,
+            "source": source_url,
+            "public_release_status": "public-source-derived",
+        },
+    )
     log(f"Wrote {output_path}")
     return gdf
 
 
+def parse_wfos(value: str) -> list[str]:
+    return [item.strip().upper() for item in value.split(",") if item.strip()]
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build LIX boundary GeoJSON files.")
+    parser = argparse.ArgumentParser(description="Build Storm Data Dashboard boundary GeoJSON files.")
     parser.add_argument(
         "--output-dir",
-        default="docs/data/boundaries/LIX",
+        default="docs/data/boundaries",
         help="Output directory for public boundary GeoJSON files.",
+    )
+    parser.add_argument(
+        "--wfos",
+        default=",".join(DEFAULT_WFOS),
+        help="Comma-separated WFO list to build WFO-specific counties/zones for.",
     )
     parser.add_argument(
         "--simplify-tolerance",
@@ -277,6 +300,10 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     output_dir = Path(args.output_dir)
+    wfos = parse_wfos(args.wfos)
+
+    if not wfos:
+        raise RuntimeError("At least one WFO must be provided.")
 
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
@@ -285,24 +312,30 @@ def main() -> None:
         for layer_key, source_url in SOURCES.items():
             raw_layers[layer_key] = read_source_layer(layer_key, source_url, tmpdir)
 
-        cwa_gdf = build_layer(
-            "cwa",
-            SOURCES["cwa"],
-            output_dir,
-            args.simplify_tolerance,
-            raw_layers["cwa"],
-            None,
-        )
+        build_all_cwas(raw_layers["cwa"], output_dir, args.simplify_tolerance)
 
-        for layer_key in ["counties", "land_zones", "marine_zones"]:
-            build_layer(
-                layer_key,
-                SOURCES[layer_key],
+        for wfo in wfos:
+            log(f"Building WFO-specific boundary layers for {wfo}")
+            cwa_gdf = build_wfo_layer(
+                "cwa",
+                SOURCES["cwa"],
                 output_dir,
                 args.simplify_tolerance,
-                raw_layers[layer_key],
-                cwa_gdf,
+                raw_layers["cwa"],
+                wfo,
+                None,
             )
+
+            for layer_key in ["counties", "land_zones", "marine_zones"]:
+                build_wfo_layer(
+                    layer_key,
+                    SOURCES[layer_key],
+                    output_dir,
+                    args.simplify_tolerance,
+                    raw_layers[layer_key],
+                    wfo,
+                    cwa_gdf,
+                )
 
     log("Done.")
 
