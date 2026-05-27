@@ -1,61 +1,43 @@
 let map;
 let eventLayer;
-let boundaryLayerControl;
-let cwaBoundaryLayer;
+let allCwaBoundaryLayer;
+let selectedCwaBoundaryLayer;
 let countyBoundaryLayer;
 let landZoneBoundaryLayer;
 let marineZoneBoundaryLayer;
 
-const boundaryLayersConfig = [
-  {
-    key: 'cwa',
-    label: 'CWA Boundary',
-    path: 'data/boundaries/LIX/cwa.geojson',
-    alwaysOn: true,
-    style: {
-      color: '#111827',
-      weight: 3,
-      opacity: 1,
-      fillOpacity: 0
-    }
+const boundaryStyles = {
+  all_cwas: {
+    color: '#4b5563',
+    weight: 1,
+    opacity: 0.65,
+    fillOpacity: 0
   },
-  {
-    key: 'counties',
-    label: 'Counties/Parishes',
-    path: 'data/boundaries/LIX/counties_parishes.geojson',
-    alwaysOn: false,
-    style: {
-      color: '#6b7280',
-      weight: 1.5,
-      opacity: 0.9,
-      fillOpacity: 0.02
-    }
+  selected_cwa: {
+    color: '#111827',
+    weight: 3,
+    opacity: 1,
+    fillOpacity: 0
   },
-  {
-    key: 'land_zones',
-    label: 'Land Zones',
-    path: 'data/boundaries/LIX/land_zones.geojson',
-    alwaysOn: false,
-    style: {
-      color: '#2563eb',
-      weight: 1.5,
-      opacity: 0.9,
-      fillOpacity: 0.02
-    }
+  counties: {
+    color: '#6b7280',
+    weight: 1.5,
+    opacity: 0.9,
+    fillOpacity: 0.02
   },
-  {
-    key: 'marine_zones',
-    label: 'Marine Zones',
-    path: 'data/boundaries/LIX/marine_zones.geojson',
-    alwaysOn: false,
-    style: {
-      color: '#0891b2',
-      weight: 1.5,
-      opacity: 0.9,
-      fillOpacity: 0.04
-    }
+  land_zones: {
+    color: '#2563eb',
+    weight: 1.5,
+    opacity: 0.9,
+    fillOpacity: 0.02
+  },
+  marine_zones: {
+    color: '#0891b2',
+    weight: 1.5,
+    opacity: 0.9,
+    fillOpacity: 0.04
   }
-];
+};
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -81,19 +63,21 @@ function initializeMap() {
     attribution: 'OpenStreetMap contributors'
   }).addTo(map);
 
-  cwaBoundaryLayer = L.layerGroup().addTo(map);
+  allCwaBoundaryLayer = L.layerGroup().addTo(map);
+  selectedCwaBoundaryLayer = L.layerGroup().addTo(map);
   countyBoundaryLayer = L.layerGroup();
   landZoneBoundaryLayer = L.layerGroup();
   marineZoneBoundaryLayer = L.layerGroup();
 
   const overlays = {
-    'CWA Boundary': cwaBoundaryLayer,
-    'Counties/Parishes': countyBoundaryLayer,
-    'Land Zones': landZoneBoundaryLayer,
-    'Marine Zones': marineZoneBoundaryLayer
+    'All CWA Boundaries': allCwaBoundaryLayer,
+    'Selected WFO CWA': selectedCwaBoundaryLayer,
+    'Selected WFO Counties/Parishes': countyBoundaryLayer,
+    'Selected WFO Land Zones': landZoneBoundaryLayer,
+    'Selected WFO Marine Zones': marineZoneBoundaryLayer
   };
 
-  boundaryLayerControl = L.control.layers(null, overlays, {
+  L.control.layers(null, overlays, {
     collapsed: false
   }).addTo(map);
 
@@ -120,27 +104,11 @@ function initializeMap() {
     }
   }).addTo(map);
 
-  loadBoundaryLayers();
+  loadAllCwaBoundaries();
 
   setTimeout(function () {
     map.invalidateSize();
   }, 100);
-}
-
-function getBoundaryGroup(key) {
-  if (key === 'cwa') {
-    return cwaBoundaryLayer;
-  }
-  if (key === 'counties') {
-    return countyBoundaryLayer;
-  }
-  if (key === 'land_zones') {
-    return landZoneBoundaryLayer;
-  }
-  if (key === 'marine_zones') {
-    return marineZoneBoundaryLayer;
-  }
-  return null;
 }
 
 function getFirstProperty(properties, names) {
@@ -153,10 +121,10 @@ function getFirstProperty(properties, names) {
 }
 
 function buildBoundaryPopup(properties) {
-  const name = getFirstProperty(properties, ['NAME', 'name', 'CWA', 'WFO', 'ZONE', 'ID', 'STATE_ZONE', 'STATEZONE', 'COUNTYNAME']);
-  const state = getFirstProperty(properties, ['STATE', 'state']);
-  const zone = getFirstProperty(properties, ['ZONE', 'zone', 'STATE_ZONE', 'STATEZONE']);
-  const wfo = getFirstProperty(properties, ['WFO', 'wfo', 'CWA', 'cwa']);
+  const name = getFirstProperty(properties, ['NAME', 'name', 'CWA', 'WFO', 'ZONE', 'ID', 'STATE_ZONE', 'STATEZONE', 'COUNTYNAME', 'COUNTY']);
+  const state = getFirstProperty(properties, ['STATE', 'state', 'ST']);
+  const zone = getFirstProperty(properties, ['ZONE', 'zone', 'STATE_ZONE', 'STATEZONE', 'ID']);
+  const wfo = getFirstProperty(properties, ['WFO', 'wfo', 'CWA', 'cwa', 'GL_WFO']);
 
   const rows = [];
 
@@ -169,7 +137,7 @@ function buildBoundaryPopup(properties) {
     rows.push('State: ' + escapeHtml(state));
   }
   if (zone) {
-    rows.push('Zone: ' + escapeHtml(zone));
+    rows.push('Zone/ID: ' + escapeHtml(zone));
   }
   if (wfo) {
     rows.push('WFO/CWA: ' + escapeHtml(wfo));
@@ -178,61 +146,118 @@ function buildBoundaryPopup(properties) {
   return rows.join('<br>');
 }
 
-async function loadOneBoundaryLayer(config) {
-  const group = getBoundaryGroup(config.key);
-
-  if (!group) {
-    return false;
-  }
-
-  const response = await fetch(config.path);
-
-  if (!response.ok) {
-    return false;
-  }
-
-  const geojson = await response.json();
-
-  const layer = L.geoJSON(geojson, {
-    style: config.style,
+function makeBoundaryGeoJsonLayer(geojson, style) {
+  return L.geoJSON(geojson, {
+    style: style,
     onEachFeature: function (feature, layer) {
       layer.bindPopup(buildBoundaryPopup(feature.properties || {}));
     }
   });
+}
 
-  layer.addTo(group);
+async function fetchGeoJson(path) {
+  const response = await fetch(path);
 
+  if (!response.ok) {
+    return null;
+  }
+
+  return response.json();
+}
+
+async function loadAllCwaBoundaries() {
+  const boundaryStatus = document.getElementById('boundary-status');
+  const path = 'data/boundaries/all_cwas.geojson';
+  const geojson = await fetchGeoJson(path);
+
+  if (!geojson) {
+    if (boundaryStatus) {
+      boundaryStatus.textContent = 'All CWA boundaries have not been generated yet. Run the boundary build workflow.';
+    }
+    return;
+  }
+
+  allCwaBoundaryLayer.clearLayers();
+  makeBoundaryGeoJsonLayer(geojson, boundaryStyles.all_cwas).addTo(allCwaBoundaryLayer);
+
+  if (boundaryStatus) {
+    boundaryStatus.textContent = 'Loaded all CWA boundaries. Select a WFO/month/year to load WFO-specific counties and zones.';
+  }
+}
+
+async function loadOneWfoBoundaryLayer(path, targetGroup, style) {
+  targetGroup.clearLayers();
+
+  const geojson = await fetchGeoJson(path);
+
+  if (!geojson) {
+    return false;
+  }
+
+  makeBoundaryGeoJsonLayer(geojson, style).addTo(targetGroup);
   return true;
 }
 
-async function loadBoundaryLayers() {
+async function loadWfoBoundaryLayers(wfo) {
   const boundaryStatus = document.getElementById('boundary-status');
-  const loadedLabels = [];
-  const missingLabels = [];
+  const basePath = 'data/boundaries/by_wfo/' + wfo;
 
-  for (const config of boundaryLayersConfig) {
-    try {
-      const loaded = await loadOneBoundaryLayer(config);
-      if (loaded) {
-        loadedLabels.push(config.label);
-      } else {
-        missingLabels.push(config.label);
-      }
-    } catch (error) {
-      missingLabels.push(config.label);
-    }
+  selectedCwaBoundaryLayer.clearLayers();
+  countyBoundaryLayer.clearLayers();
+  landZoneBoundaryLayer.clearLayers();
+  marineZoneBoundaryLayer.clearLayers();
+
+  const results = [];
+
+  results.push({
+    label: 'selected CWA',
+    loaded: await loadOneWfoBoundaryLayer(basePath + '/cwa.geojson', selectedCwaBoundaryLayer, boundaryStyles.selected_cwa)
+  });
+  results.push({
+    label: 'counties/parishes',
+    loaded: await loadOneWfoBoundaryLayer(basePath + '/counties_parishes.geojson', countyBoundaryLayer, boundaryStyles.counties)
+  });
+  results.push({
+    label: 'land zones',
+    loaded: await loadOneWfoBoundaryLayer(basePath + '/land_zones.geojson', landZoneBoundaryLayer, boundaryStyles.land_zones)
+  });
+  results.push({
+    label: 'marine zones',
+    loaded: await loadOneWfoBoundaryLayer(basePath + '/marine_zones.geojson', marineZoneBoundaryLayer, boundaryStyles.marine_zones)
+  });
+
+  if (!map.hasLayer(countyBoundaryLayer)) {
+    countyBoundaryLayer.addTo(map);
   }
+  if (!map.hasLayer(landZoneBoundaryLayer)) {
+    landZoneBoundaryLayer.addTo(map);
+  }
+  if (!map.hasLayer(marineZoneBoundaryLayer)) {
+    marineZoneBoundaryLayer.addTo(map);
+  }
+
+  const loaded = results.filter(function (item) {
+    return item.loaded;
+  }).map(function (item) {
+    return item.label;
+  });
+
+  const missing = results.filter(function (item) {
+    return !item.loaded;
+  }).map(function (item) {
+    return item.label;
+  });
 
   if (boundaryStatus) {
-    if (loadedLabels.length > 0) {
-      boundaryStatus.textContent = 'Loaded boundary layers: ' + loadedLabels.join(', ') + '.';
+    if (loaded.length > 0) {
+      boundaryStatus.textContent = 'Loaded ' + escapeHtml(wfo) + ' boundary layers: ' + loaded.join(', ') + '.';
     } else {
-      boundaryStatus.textContent = 'Boundary layers have not been generated yet. Run the boundary build workflow or script.';
+      boundaryStatus.textContent = 'No WFO-specific boundary layers found for ' + escapeHtml(wfo) + '. Run the boundary build workflow.';
     }
   }
 
-  if (missingLabels.length > 0) {
-    console.warn('Missing boundary layers:', missingLabels.join(', '));
+  if (missing.length > 0) {
+    console.warn('Missing WFO boundary layers for ' + wfo + ':', missing.join(', '));
   }
 
   setTimeout(function () {
@@ -312,6 +337,8 @@ document.getElementById('load-button').addEventListener('click', async function 
   statusPanel.innerHTML = '<h2>Status</h2><p>Loading: ' + escapeHtml(eventsPath) + '</p>';
 
   try {
+    await loadWfoBoundaryLayers(wfo);
+
     const response = await fetch(eventsPath);
 
     if (!response.ok) {
@@ -332,7 +359,7 @@ document.getElementById('load-button').addEventListener('click', async function 
     await loadGeoJson(geoJsonPath);
 
     statusPanel.innerHTML = '<h2>Status</h2><p>Loaded ' + escapeHtml(events.length) +
-      ' event(s) and mapped available GeoJSON features for ' + escapeHtml(wfo) + ' ' +
+      ' event(s), all CWA boundaries, and selected WFO boundary layers for ' + escapeHtml(wfo) + ' ' +
       escapeHtml(year + '-' + month) + '.</p>';
   } catch (error) {
     statusPanel.innerHTML = '<h2>Status</h2><p>' + escapeHtml(error.message) + '</p>' +
