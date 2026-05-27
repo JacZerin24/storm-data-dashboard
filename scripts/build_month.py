@@ -33,7 +33,7 @@ import pandas as pd
 import requests
 
 
-SCHEMA_VERSION = "0.2.2"
+SCHEMA_VERSION = "0.2.3"
 USER_AGENT = "storm-data-dashboard/0.2 (GitHub Pages storm prep prototype)"
 
 IEM_LSR_ENDPOINT = "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py"
@@ -275,14 +275,34 @@ def build_nws_alerts_url(wfo: str, start: datetime, end: datetime) -> str:
     return prepared_url(f"{NWS_API_BASE}/alerts", {"office": wfo, "start": iso_z(start), "end": iso_z(end)})
 
 
+def empty_warning_alerts(metadata: dict[str, Any], source_url: str, note: str) -> dict[str, Any]:
+    return {"type": "FeatureCollection", "metadata": metadata | {"source": source_url, "note": note}, "features": []}
+
+
 def fetch_warning_alerts(wfo: str, start: datetime, end: datetime, metadata: dict[str, Any]) -> tuple[dict[str, Any], str, str | None]:
     url = build_nws_alerts_url(wfo, start, end)
+    now = datetime.now(timezone.utc)
+
+    # weather.gov API alert history is only useful for very recent windows. Older
+    # monthly archive requests often return 400s, so skip them cleanly instead of
+    # showing scary Bad Request messages in the dashboard.
+    if end < now - timedelta(days=8):
+        note = "NWS API alerts skipped because this month is outside the recent alert-history window. Use warning/product archive links instead."
+        log(note)
+        return empty_warning_alerts(metadata, url, note), url, None
+
+    if start > now + timedelta(days=1):
+        note = "NWS API alerts skipped because this month is in the future."
+        log(note)
+        return empty_warning_alerts(metadata, url, note), url, None
+
     log(f"Fetching NWS API alerts from {url}")
     try:
         data = fetch_json(url)
     except requests.RequestException as exc:
-        empty = {"type": "FeatureCollection", "metadata": metadata | {"source": url, "warning": str(exc)}, "features": []}
-        return empty, url, f"NWS alerts fetch failed: {exc}"
+        warning = f"NWS alerts fetch failed: {exc}"
+        empty = empty_warning_alerts(metadata, url, warning)
+        return empty, url, warning
 
     features = []
     for feature in data.get("features", []):
@@ -417,7 +437,7 @@ def build_product_links(wfo: str, start: datetime, end: datetime, lsr_url: str, 
     primary_links = [
         {"label": "IEM Local Storm Reports CSV used by this build", "url": lsr_url, "note": "Candidate LSR source used to build reports.geojson and dashboard.json."},
         {"label": "IEM NWS text product archive search", "url": IEM_AFOS_LIST_URL, "note": "Use this to search archived NWS text products by center or product ID for the selected month."},
-        {"label": "NWS API alerts query used by this build", "url": alerts_url, "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."},
+        {"label": "NWS API alerts query used by this build", "url": alerts_url, "note": "NWS API alert history is limited; older months use product archive links instead."},
         {"label": "NOAA/NWS Damage Assessment Toolkit viewer", "url": DAT_VIEWER_URL, "note": "Use for public tornado/damage survey review. Direct DAT track extraction is not wired until a verified public data endpoint is confirmed."},
         {"label": "NCEI StormEvents bulk CSV directory", "url": NCEI_STORMEVENTS_DIR, "note": "Used to find StormEvents_details CSVs for tornado begin/end track coordinates when available."},
     ]
@@ -519,6 +539,10 @@ def main() -> None:
     tornado_tracks, ncei_url, ncei_warning = tornado_tracks_from_ncei(year, month, wfo, metadata)
     if ncei_warning:
         source_warnings.append(ncei_warning)
+
+    tornado_report_count = sum(1 for report in reports if report.get("event_category") == "tornado")
+    if tornado_report_count > 0 and len(tornado_tracks.get("features", [])) == 0:
+        source_warnings.append("Tornado candidate reports were found, but no tornado track features are available yet from NCEI/DAT-configured sources for this WFO/month.")
 
     products = build_product_links(wfo, start, end, lsr_url, alerts_url, ncei_url)
     summary = build_summary(reports, warnings_geojson, tornado_tracks, year, month, wfo, source_warnings)
