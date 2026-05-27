@@ -19,21 +19,20 @@ import argparse
 import json
 import tempfile
 from pathlib import Path
-from urllib.request import urlretrieve
+from urllib.request import Request, urlopen
 
 import geopandas as gpd
 
 
 WFO = "LIX"
 
-# Public NWS AWIPS shapefiles. These versioned shapefiles match the common
-# AWIPS GIS filenames used operationally, but this can be updated later if NWS
-# publishes newer versions.
+# Public NWS AWIPS shapefiles. Note that CWA, county, and public zone files
+# use an underscore before the date, but marine zone files do not.
 SOURCES = {
     "cwa": "https://www.weather.gov/source/gis/Shapefiles/WSOM/w_16ap26.zip",
     "counties": "https://www.weather.gov/source/gis/Shapefiles/WSOM/c_16ap26.zip",
     "land_zones": "https://www.weather.gov/source/gis/Shapefiles/WSOM/z_16ap26.zip",
-    "marine_zones": "https://www.weather.gov/source/gis/Shapefiles/WSOM/mz_16ap26.zip",
+    "marine_zones": "https://www.weather.gov/source/gis/Shapefiles/WSOM/mz16ap26.zip",
 }
 
 
@@ -46,11 +45,22 @@ OUTPUTS = {
 
 
 KEEP_FIELDS = {
-    "cwa": ["WFO", "CWA", "NAME", "STATE"],
+    "cwa": ["WFO", "CWA", "NAME", "STATE", "ST", "CITYSTATE"],
     "counties": ["STATE", "CWA", "WFO", "NAME", "COUNTYNAME", "FIPS", "TIME_ZONE"],
     "land_zones": ["STATE", "ZONE", "CWA", "WFO", "NAME", "STATE_ZONE", "TIME_ZONE"],
-    "marine_zones": ["STATE", "ZONE", "CWA", "WFO", "NAME", "ID"],
+    "marine_zones": ["ID", "WFO", "GL_WFO", "NAME"],
 }
+
+
+def download_file(url: str, output_path: Path) -> None:
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "storm-data-dashboard-boundary-builder/0.1",
+        },
+    )
+    with urlopen(request, timeout=60) as response:
+        output_path.write_bytes(response.read())
 
 
 def normalize_columns(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
@@ -70,7 +80,7 @@ def filter_for_lix(gdf: gpd.GeoDataFrame, layer_key: str) -> gpd.GeoDataFrame:
         return gdf[mask].copy()
 
     mask = False
-    for col in ["WFO", "CWA"]:
+    for col in ["WFO", "CWA", "GL_WFO"]:
         if col in gdf.columns:
             mask = mask | gdf[col].astype(str).str.upper().str.contains(WFO, na=False)
 
@@ -88,8 +98,13 @@ def clean_for_geojson(gdf: gpd.GeoDataFrame, layer_key: str, simplify_tolerance:
     else:
         gdf = gdf.to_crs("EPSG:4326")
 
-    # Repair invalid geometries where possible.
-    gdf["geometry"] = gdf.geometry.make_valid()
+    # Repair invalid geometries where possible. The buffer(0) fallback covers
+    # older geospatial library stacks that do not expose GeoSeries.make_valid().
+    try:
+        gdf["geometry"] = gdf.geometry.make_valid()
+    except AttributeError:
+        gdf["geometry"] = gdf.geometry.buffer(0)
+
     gdf = gdf[~gdf.geometry.is_empty & gdf.geometry.notna()].copy()
 
     if simplify_tolerance > 0:
@@ -123,7 +138,7 @@ def build_layer(layer_key: str, source_url: str, output_dir: Path, simplify_tole
     with tempfile.TemporaryDirectory() as tmpdir:
         zip_path = Path(tmpdir) / f"{layer_key}.zip"
         print(f"Downloading {layer_key}: {source_url}")
-        urlretrieve(source_url, zip_path)
+        download_file(source_url, zip_path)
 
         print(f"Reading {layer_key}")
         gdf = gpd.read_file(f"zip://{zip_path}")
