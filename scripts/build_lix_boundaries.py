@@ -28,11 +28,11 @@ import pandas as pd
 
 WFO = "LIX"
 
-# Public NWS AWIPS shapefiles. Note that CWA, county, and public zone files
-# use an underscore before the date, but marine zone files do not.
+# Public NWS AWIPS shapefiles. CWA/public zones/marine zones are under WSOM;
+# counties are under the County folder on weather.gov.
 SOURCES = {
     "cwa": "https://www.weather.gov/source/gis/Shapefiles/WSOM/w_16ap26.zip",
-    "counties": "https://www.weather.gov/source/gis/Shapefiles/WSOM/c_16ap26.zip",
+    "counties": "https://www.weather.gov/source/gis/Shapefiles/County/c_16ap26.zip",
     "land_zones": "https://www.weather.gov/source/gis/Shapefiles/WSOM/z_16ap26.zip",
     "marine_zones": "https://www.weather.gov/source/gis/Shapefiles/WSOM/mz16ap26.zip",
 }
@@ -143,7 +143,11 @@ def spatial_filter_to_cwa(gdf: gpd.GeoDataFrame, cwa_gdf: gpd.GeoDataFrame) -> g
     gdf_4326 = gdf.to_crs("EPSG:4326")
     cwa_4326 = cwa_gdf.to_crs("EPSG:4326")
 
-    cwa_geom = cwa_4326.geometry.union_all()
+    try:
+        cwa_geom = cwa_4326.geometry.union_all()
+    except AttributeError:
+        cwa_geom = cwa_4326.geometry.unary_union
+
     mask = gdf_4326.geometry.intersects(cwa_geom)
     return gdf_4326[mask].copy()
 
