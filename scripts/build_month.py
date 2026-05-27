@@ -13,6 +13,9 @@ static Storm Data prep package for GitHub Pages:
 PowerShell example:
 python .\scripts\build_month.py --year 2026 --month 5 --wfo LIX
 
+DAT tornado tracks:
+python .\scripts\build_month.py --year 2026 --month 5 --wfo LIX --dat-tracks-url "https://..."
+
 Important: these files are a preparation aid, not the final certified Storm
 Data record.
 """
@@ -22,7 +25,6 @@ from __future__ import annotations
 import argparse
 import io
 import json
-import re
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -33,14 +35,13 @@ import pandas as pd
 import requests
 
 
-SCHEMA_VERSION = "0.2.3"
+SCHEMA_VERSION = "0.2.4"
 USER_AGENT = "storm-data-dashboard/0.2 (GitHub Pages storm prep prototype)"
 
 IEM_LSR_ENDPOINT = "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py"
 IEM_AFOS_LIST_URL = "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
 NWS_API_BASE = "https://api.weather.gov"
 DAT_VIEWER_URL = "https://apps.dat.noaa.gov/stormdamage/damageviewer/"
-NCEI_STORMEVENTS_DIR = "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
 
 PRODUCT_GROUPS = [
     {"group": "Local storm reports and public statements", "pils": ["LSR", "PNS"], "purpose": "Candidate reports, survey statements, public information statements, and local documentation."},
@@ -72,8 +73,6 @@ STANDARD_TIME_OVERRIDES: dict[str, tuple[int, str]] = {
     "LOX": (-8, "PST"), "SGX": (-8, "PST"), "MTR": (-8, "PST"), "STO": (-8, "PST"), "HNX": (-8, "PST"), "EKA": (-8, "PST"), "MFR": (-8, "PST"), "PQR": (-8, "PST"), "SEW": (-8, "PST"), "OTX": (-8, "PST"),
     "AFG": (-9, "AKST"), "AJK": (-9, "AKST"), "AFC": (-9, "AKST"), "HFO": (-10, "HST"), "SJU": (-4, "AST"), "GUM": (10, "ChST"), "PPG": (-11, "SST"),
 }
-
-MONTH_NAME_TO_NUM = {name.upper(): idx for idx, name in enumerate(["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]) if name}
 
 
 def log(message: str) -> None:
@@ -116,11 +115,6 @@ def to_float(value: Any) -> float | None:
         return float(text)
     except ValueError:
         return None
-
-
-def to_int(value: Any) -> int | None:
-    number = to_float(value)
-    return int(number) if number is not None else None
 
 
 def event_category(report_type: Any) -> str:
@@ -282,15 +276,10 @@ def empty_warning_alerts(metadata: dict[str, Any], source_url: str, note: str) -
 def fetch_warning_alerts(wfo: str, start: datetime, end: datetime, metadata: dict[str, Any]) -> tuple[dict[str, Any], str, str | None]:
     url = build_nws_alerts_url(wfo, start, end)
     now = datetime.now(timezone.utc)
-
-    # weather.gov API alert history is only useful for very recent windows. Older
-    # monthly archive requests often return 400s, so skip them cleanly instead of
-    # showing scary Bad Request messages in the dashboard.
     if end < now - timedelta(days=8):
         note = "NWS API alerts skipped because this month is outside the recent alert-history window. Use warning/product archive links instead."
         log(note)
         return empty_warning_alerts(metadata, url, note), url, None
-
     if start > now + timedelta(days=1):
         note = "NWS API alerts skipped because this month is in the future."
         log(note)
@@ -301,8 +290,7 @@ def fetch_warning_alerts(wfo: str, start: datetime, end: datetime, metadata: dic
         data = fetch_json(url)
     except requests.RequestException as exc:
         warning = f"NWS alerts fetch failed: {exc}"
-        empty = empty_warning_alerts(metadata, url, warning)
-        return empty, url, warning
+        return empty_warning_alerts(metadata, url, warning), url, warning
 
     features = []
     for feature in data.get("features", []):
@@ -316,117 +304,79 @@ def fetch_warning_alerts(wfo: str, start: datetime, end: datetime, metadata: dic
     return {"type": "FeatureCollection", "metadata": metadata | {"source": url}, "features": features}, url, None
 
 
-def find_ncei_details_url(year: int) -> tuple[str | None, str | None]:
-    try:
-        html = fetch_text(NCEI_STORMEVENTS_DIR, timeout=90)
-    except requests.RequestException as exc:
-        return None, f"NCEI directory fetch failed: {exc}"
-    pattern = rf"StormEvents_details-ftp_v1\.0_d{year}_c\d+\.csv\.gz"
-    matches = sorted(set(re.findall(pattern, html)))
-    if not matches:
-        return None, f"No NCEI StormEvents_details file found for {year}."
-    return NCEI_STORMEVENTS_DIR + matches[-1], None
-
-
-def read_ncei_details(year: int) -> tuple[pd.DataFrame | None, str | None, str | None]:
-    url, warning = find_ncei_details_url(year)
-    if warning or not url:
-        return None, url, warning
-    log(f"Fetching NCEI StormEvents details from {url}")
-    try:
-        response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=180)
-        response.raise_for_status()
-        df = pd.read_csv(io.BytesIO(response.content), compression="gzip", low_memory=False)
-    except Exception as exc:
-        return None, url, f"NCEI StormEvents details fetch/read failed: {exc}"
-    df.columns = [str(col).strip().upper() for col in df.columns]
-    return df, url, None
-
-
-def stormevents_month_number(row: pd.Series) -> int | None:
-    ym = to_int(row.get("BEGIN_YEARMONTH"))
-    if ym:
-        return ym % 100
-    month_name = clean_text(row.get("MONTH_NAME"))
-    if month_name:
-        return MONTH_NAME_TO_NUM.get(month_name.upper())
+def arcgis_geometry_to_geojson(geometry: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not geometry:
+        return None
+    if "paths" in geometry:
+        paths = geometry.get("paths") or []
+        if len(paths) == 1:
+            return {"type": "LineString", "coordinates": paths[0]}
+        if len(paths) > 1:
+            return {"type": "MultiLineString", "coordinates": paths}
+    if "rings" in geometry:
+        rings = geometry.get("rings") or []
+        if rings:
+            return {"type": "Polygon", "coordinates": rings}
+    if "x" in geometry and "y" in geometry:
+        return {"type": "Point", "coordinates": [geometry.get("x"), geometry.get("y")]}
+    if "type" in geometry and "coordinates" in geometry:
+        return geometry
     return None
 
 
-def tornado_tracks_from_ncei(year: int, month: int, wfo: str, metadata: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None]:
-    df, source_url, warning = read_ncei_details(year)
-    if warning or df is None:
-        return empty_tornado_tracks(metadata | {"source": source_url or NCEI_STORMEVENTS_DIR, "source_warning": warning}), source_url, warning
+def normalize_dat_feature(feature: dict[str, Any], idx: int, dat_url: str) -> dict[str, Any] | None:
+    geometry = feature.get("geometry")
+    properties = feature.get("properties") or feature.get("attributes") or {}
+    geojson_geometry = arcgis_geometry_to_geojson(geometry)
+    if geojson_geometry is None:
+        return None
+    properties = dict(properties)
+    properties.setdefault("label", properties.get("event_type") or properties.get("EventType") or properties.get("damage_type") or "DAT Tornado Track")
+    properties.setdefault("event_type", "Tornado")
+    properties.setdefault("source", "NOAA/NWS Damage Assessment Toolkit")
+    properties.setdefault("source_url", dat_url)
+    properties.setdefault("note", "Track feature loaded from configured DAT source URL.")
+    return {"type": "Feature", "id": feature.get("id") or properties.get("OBJECTID") or f"dat-track-{idx + 1}", "properties": properties, "geometry": geojson_geometry}
 
-    if "WFO" not in df.columns or "EVENT_TYPE" not in df.columns:
-        warning = "NCEI details file missing WFO or EVENT_TYPE columns."
-        return empty_tornado_tracks(metadata | {"source": source_url, "source_warning": warning}), source_url, warning
 
-    mask = (df["WFO"].astype(str).str.upper().str.strip() == wfo) & df["EVENT_TYPE"].astype(str).str.upper().str.contains("TORNADO", na=False)
-    df = df[mask].copy()
-    if not df.empty:
-        df = df[df.apply(lambda row: stormevents_month_number(row) == month, axis=1)].copy()
+def empty_tornado_tracks(metadata: dict[str, Any], note: str, source: str | None = None) -> dict[str, Any]:
+    return {"type": "FeatureCollection", "metadata": metadata | {"layer": "tornado_tracks", "source": source or DAT_VIEWER_URL, "source_type": "DAT", "note": note}, "features": []}
+
+
+def tornado_tracks_from_dat(dat_tracks_url: str | None, metadata: dict[str, Any]) -> tuple[dict[str, Any], str | None, str | None]:
+    if not dat_tracks_url:
+        warning = "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+        return empty_tornado_tracks(metadata, warning), None, warning
+
+    log(f"Fetching DAT tornado tracks from {dat_tracks_url}")
+    try:
+        data = fetch_json(dat_tracks_url, timeout=180)
+    except requests.RequestException as exc:
+        warning = f"DAT tornado track fetch failed: {exc}"
+        return empty_tornado_tracks(metadata, warning, dat_tracks_url), dat_tracks_url, warning
 
     features = []
-    for _, row in df.iterrows():
-        begin_lat = to_float(row.get("BEGIN_LAT"))
-        begin_lon = to_float(row.get("BEGIN_LON"))
-        end_lat = to_float(row.get("END_LAT"))
-        end_lon = to_float(row.get("END_LON"))
-        if begin_lat is None or begin_lon is None:
-            continue
-        if end_lat is not None and end_lon is not None and (round(begin_lat, 5), round(begin_lon, 5)) != (round(end_lat, 5), round(end_lon, 5)):
-            geometry = {"type": "LineString", "coordinates": [[begin_lon, begin_lat], [end_lon, end_lat]]}
-        else:
-            geometry = {"type": "Point", "coordinates": [begin_lon, begin_lat]}
-        event_id = clean_text(row.get("EVENT_ID"))
-        features.append({
-            "type": "Feature",
-            "id": event_id,
-            "properties": {
-                "event_id": event_id,
-                "episode_id": clean_text(row.get("EPISODE_ID")),
-                "label": clean_text(row.get("EVENT_TYPE")) or "Tornado",
-                "event_type": clean_text(row.get("EVENT_TYPE")),
-                "rating": clean_text(row.get("TOR_F_SCALE")),
-                "begin_location": clean_text(row.get("BEGIN_LOCATION")),
-                "end_location": clean_text(row.get("END_LOCATION")),
-                "county_or_zone": clean_text(row.get("CZ_NAME")),
-                "state": clean_text(row.get("STATE")),
-                "begin_date_time": clean_text(row.get("BEGIN_DATE_TIME")),
-                "end_date_time": clean_text(row.get("END_DATE_TIME")),
-                "tor_length": to_float(row.get("TOR_LENGTH")),
-                "tor_width": to_float(row.get("TOR_WIDTH")),
-                "source": "NCEI StormEvents_details bulk CSV",
-                "source_url": source_url,
-                "note": "NCEI StormEvents track from begin/end coordinates. Use DAT/public survey info for in-progress operational verification when available.",
-            },
-            "geometry": geometry,
-        })
+    raw_features = data.get("features", [])
+    for idx, feature in enumerate(raw_features):
+        normalized = normalize_dat_feature(feature, idx, dat_tracks_url)
+        if normalized is not None:
+            features.append(normalized)
 
     track_geojson = {
         "type": "FeatureCollection",
         "metadata": metadata | {
             "layer": "tornado_tracks",
-            "source": source_url,
-            "source_type": "NCEI StormEvents_details bulk CSV",
+            "source": dat_tracks_url,
+            "source_type": "DAT",
             "dat_viewer": DAT_VIEWER_URL,
-            "note": "Track layer is populated from NCEI StormEvents begin/end coordinates when available. DAT direct extraction still requires a verified public endpoint or supplied GeoJSON.",
+            "note": "Track layer is populated only from the configured DAT source URL.",
         },
         "features": features,
     }
-    return track_geojson, source_url, None
+    return track_geojson, dat_tracks_url, None
 
 
-def empty_tornado_tracks(metadata: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "type": "FeatureCollection",
-        "metadata": metadata | {"layer": "tornado_tracks", "source": DAT_VIEWER_URL, "note": "No tornado track features available from configured public track sources."},
-        "features": [],
-    }
-
-
-def build_product_links(wfo: str, start: datetime, end: datetime, lsr_url: str, alerts_url: str, ncei_url: str | None) -> dict[str, Any]:
+def build_product_links(wfo: str, start: datetime, end: datetime, lsr_url: str, alerts_url: str, dat_tracks_url: str | None) -> dict[str, Any]:
     groups = []
     for group in PRODUCT_GROUPS:
         links = []
@@ -438,11 +388,10 @@ def build_product_links(wfo: str, start: datetime, end: datetime, lsr_url: str, 
         {"label": "IEM Local Storm Reports CSV used by this build", "url": lsr_url, "note": "Candidate LSR source used to build reports.geojson and dashboard.json."},
         {"label": "IEM NWS text product archive search", "url": IEM_AFOS_LIST_URL, "note": "Use this to search archived NWS text products by center or product ID for the selected month."},
         {"label": "NWS API alerts query used by this build", "url": alerts_url, "note": "NWS API alert history is limited; older months use product archive links instead."},
-        {"label": "NOAA/NWS Damage Assessment Toolkit viewer", "url": DAT_VIEWER_URL, "note": "Use for public tornado/damage survey review. Direct DAT track extraction is not wired until a verified public data endpoint is confirmed."},
-        {"label": "NCEI StormEvents bulk CSV directory", "url": NCEI_STORMEVENTS_DIR, "note": "Used to find StormEvents_details CSVs for tornado begin/end track coordinates when available."},
+        {"label": "NOAA/NWS Damage Assessment Toolkit viewer", "url": DAT_VIEWER_URL, "note": "Use for public tornado/damage survey review."},
     ]
-    if ncei_url:
-        primary_links.append({"label": "NCEI StormEvents details file used for tornado tracks", "url": ncei_url, "note": "Source for tornado_tracks.geojson when matching tornado records are available."})
+    if dat_tracks_url:
+        primary_links.append({"label": "DAT tornado track source used by this build", "url": dat_tracks_url, "note": "Source for tornado_tracks.geojson."})
 
     return {"metadata": {"schema_version": SCHEMA_VERSION, "wfo": wfo, "start_utc": iso_z(start), "end_utc": iso_z(end), "generated_utc": utc_now()}, "primary_links": primary_links, "product_groups": groups}
 
@@ -503,6 +452,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--year", required=True, type=int, help="Four-digit year to build.")
     parser.add_argument("--month", required=True, type=int, choices=range(1, 13), help="Month number, 1-12.")
     parser.add_argument("--wfo", required=True, help="Three-letter WFO identifier, such as LIX.")
+    parser.add_argument("--dat-tracks-url", default="", help="DAT GeoJSON or ArcGIS REST JSON URL to use for tornado_tracks.geojson. Leave blank to produce a DAT-not-configured warning.")
     parser.add_argument("--out-root", default="docs/data/stormprep", help="Root output folder for public prep JSON.")
     parser.add_argument("--index", default="docs/data/index.json", help="Public data index JSON path.")
     parser.add_argument("--update-index", type=int, default=1, choices=[0, 1], help="Whether to update docs/data/index.json.")
@@ -514,6 +464,7 @@ def main() -> None:
     year = args.year
     month = args.month
     wfo = args.wfo.strip().upper()
+    dat_tracks_url = args.dat_tracks_url.strip() or None
     start, end = month_window(year, month)
     generated_utc = utc_now()
     metadata = {
@@ -527,6 +478,7 @@ def main() -> None:
         "mode": "storm_data_prep",
         "public_release_status": "public-source-derived",
         "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+        "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     }
 
     source_warnings: list[str] = []
@@ -536,15 +488,15 @@ def main() -> None:
     warnings_geojson, alerts_url, alerts_warning = fetch_warning_alerts(wfo, start, end, metadata)
     if alerts_warning:
         source_warnings.append(alerts_warning)
-    tornado_tracks, ncei_url, ncei_warning = tornado_tracks_from_ncei(year, month, wfo, metadata)
-    if ncei_warning:
-        source_warnings.append(ncei_warning)
+    tornado_tracks, dat_source_url, dat_warning = tornado_tracks_from_dat(dat_tracks_url, metadata)
+    if dat_warning:
+        source_warnings.append(dat_warning)
 
     tornado_report_count = sum(1 for report in reports if report.get("event_category") == "tornado")
     if tornado_report_count > 0 and len(tornado_tracks.get("features", [])) == 0:
-        source_warnings.append("Tornado candidate reports were found, but no tornado track features are available yet from NCEI/DAT-configured sources for this WFO/month.")
+        source_warnings.append("Tornado candidate reports were found, but DAT tornado tracks were not available for this build.")
 
-    products = build_product_links(wfo, start, end, lsr_url, alerts_url, ncei_url)
+    products = build_product_links(wfo, start, end, lsr_url, alerts_url, dat_source_url)
     summary = build_summary(reports, warnings_geojson, tornado_tracks, year, month, wfo, source_warnings)
     reports_geojson = report_geojson(reports, metadata | {"source": lsr_url})
 
@@ -553,7 +505,7 @@ def main() -> None:
     dashboard = {
         "metadata": metadata,
         "summary": summary,
-        "sources": {"iem_lsr_csv": lsr_url, "nws_api_alerts": alerts_url, "iem_text_archive": IEM_AFOS_LIST_URL, "dat_viewer": DAT_VIEWER_URL, "ncei_stormevents_details": ncei_url},
+        "sources": {"iem_lsr_csv": lsr_url, "nws_api_alerts": alerts_url, "iem_text_archive": IEM_AFOS_LIST_URL, "dat_viewer": DAT_VIEWER_URL, "dat_tornado_tracks": dat_source_url},
         "source_warnings": source_warnings,
         "candidate_reports": reports,
         "product_collections": products,
