@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       wfos:
-        description: 'Comma-separated WFOs to build WFO-specific counties/zones for'
+        description: 'Comma-separated WFOs to build, or ALL to auto-discover all WFOs from the CWA shapefile'
         required: true
-        default: 'LIX'
+        default: 'ALL'
 
 permissions:
   contents: write
