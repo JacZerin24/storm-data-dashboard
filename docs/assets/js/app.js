@@ -1,5 +1,6 @@
 let map;
 let eventLayer;
+let warningLayer;
 let allCwaBoundaryLayer;
 let selectedCwaBoundaryLayer;
 let countyBoundaryLayer;
@@ -7,36 +8,11 @@ let landZoneBoundaryLayer;
 let marineZoneBoundaryLayer;
 
 const boundaryStyles = {
-  all_cwas: {
-    color: '#4b5563',
-    weight: 1,
-    opacity: 0.65,
-    fillOpacity: 0
-  },
-  selected_cwa: {
-    color: '#111827',
-    weight: 3,
-    opacity: 1,
-    fillOpacity: 0
-  },
-  counties: {
-    color: '#6b7280',
-    weight: 1.5,
-    opacity: 0.9,
-    fillOpacity: 0.02
-  },
-  land_zones: {
-    color: '#2563eb',
-    weight: 1.5,
-    opacity: 0.9,
-    fillOpacity: 0.02
-  },
-  marine_zones: {
-    color: '#0891b2',
-    weight: 1.5,
-    opacity: 0.9,
-    fillOpacity: 0.04
-  }
+  all_cwas: { color: '#4b5563', weight: 1, opacity: 0.65, fillOpacity: 0 },
+  selected_cwa: { color: '#111827', weight: 3, opacity: 1, fillOpacity: 0 },
+  counties: { color: '#6b7280', weight: 1.5, opacity: 0.9, fillOpacity: 0.02 },
+  land_zones: { color: '#2563eb', weight: 1.5, opacity: 0.9, fillOpacity: 0.02 },
+  marine_zones: { color: '#0891b2', weight: 1.5, opacity: 0.9, fillOpacity: 0.04 }
 };
 
 function escapeHtml(value) {
@@ -50,9 +26,7 @@ function escapeHtml(value) {
 
 function initializeMap() {
   if (map) {
-    setTimeout(function () {
-      map.invalidateSize();
-    }, 0);
+    setTimeout(function () { map.invalidateSize(); }, 0);
     return;
   }
 
@@ -68,47 +42,39 @@ function initializeMap() {
   countyBoundaryLayer = L.layerGroup();
   landZoneBoundaryLayer = L.layerGroup();
   marineZoneBoundaryLayer = L.layerGroup();
+  warningLayer = L.layerGroup();
 
   const overlays = {
     'All CWA Boundaries': allCwaBoundaryLayer,
     'Selected WFO CWA': selectedCwaBoundaryLayer,
     'Selected WFO Counties/Parishes': countyBoundaryLayer,
     'Selected WFO Land Zones': landZoneBoundaryLayer,
-    'Selected WFO Marine Zones': marineZoneBoundaryLayer
+    'Selected WFO Marine Zones': marineZoneBoundaryLayer,
+    'NWS API Warning/Alert Polygons': warningLayer
   };
 
-  L.control.layers(null, overlays, {
-    collapsed: false
-  }).addTo(map);
+  L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
   eventLayer = L.geoJSON(null, {
     pointToLayer: function (feature, latlng) {
-      return L.circleMarker(latlng, {
-        radius: 8,
-        weight: 2,
-        opacity: 1,
-        fillOpacity: 0.75
-      });
+      return L.circleMarker(latlng, { radius: 8, weight: 2, opacity: 1, fillOpacity: 0.75 });
     },
     onEachFeature: function (feature, layer) {
       const properties = feature.properties || {};
       const popupHtml = [
-        '<strong>' + escapeHtml(properties.event_type || 'Storm Data Event') + '</strong>',
+        '<strong>' + escapeHtml(properties.report_type || properties.event_type || 'Candidate Report') + '</strong>',
         escapeHtml(properties.county_or_zone || ''),
-        escapeHtml(properties.begin_time_utc || ''),
+        escapeHtml(properties.city || ''),
+        escapeHtml(properties.valid_utc || properties.begin_time_utc || ''),
         escapeHtml((properties.magnitude ?? '') + ' ' + (properties.magnitude_units || '')),
         '<small>' + escapeHtml(properties.event_narrative || '') + '</small>'
       ].join('<br>');
-
       layer.bindPopup(popupHtml);
     }
   }).addTo(map);
 
   loadAllCwaBoundaries();
-
-  setTimeout(function () {
-    map.invalidateSize();
-  }, 100);
+  setTimeout(function () { map.invalidateSize(); }, 100);
 }
 
 function getFirstProperty(properties, names) {
@@ -125,24 +91,11 @@ function buildBoundaryPopup(properties) {
   const state = getFirstProperty(properties, ['STATE', 'state', 'ST']);
   const zone = getFirstProperty(properties, ['ZONE', 'zone', 'STATE_ZONE', 'STATEZONE', 'ID']);
   const wfo = getFirstProperty(properties, ['WFO', 'wfo', 'CWA', 'cwa', 'GL_WFO']);
-
   const rows = [];
-
-  if (name) {
-    rows.push('<strong>' + escapeHtml(name) + '</strong>');
-  } else {
-    rows.push('<strong>Boundary Feature</strong>');
-  }
-  if (state) {
-    rows.push('State: ' + escapeHtml(state));
-  }
-  if (zone) {
-    rows.push('Zone/ID: ' + escapeHtml(zone));
-  }
-  if (wfo) {
-    rows.push('WFO/CWA: ' + escapeHtml(wfo));
-  }
-
+  rows.push('<strong>' + escapeHtml(name || 'Boundary Feature') + '</strong>');
+  if (state) rows.push('State: ' + escapeHtml(state));
+  if (zone) rows.push('Zone/ID: ' + escapeHtml(zone));
+  if (wfo) rows.push('WFO/CWA: ' + escapeHtml(wfo));
   return rows.join('<br>');
 }
 
@@ -155,45 +108,28 @@ function makeBoundaryGeoJsonLayer(geojson, style) {
   });
 }
 
-async function fetchGeoJson(path) {
+async function fetchJson(path) {
   const response = await fetch(path);
-
-  if (!response.ok) {
-    return null;
-  }
-
+  if (!response.ok) return null;
   return response.json();
 }
 
 async function loadAllCwaBoundaries() {
   const boundaryStatus = document.getElementById('boundary-status');
-  const path = 'data/boundaries/all_cwas.geojson';
-  const geojson = await fetchGeoJson(path);
-
+  const geojson = await fetchJson('data/boundaries/all_cwas.geojson');
   if (!geojson) {
-    if (boundaryStatus) {
-      boundaryStatus.textContent = 'All CWA boundaries have not been generated yet. Run the boundary build workflow.';
-    }
+    if (boundaryStatus) boundaryStatus.textContent = 'All CWA boundaries have not been generated yet. Run the boundary build workflow.';
     return;
   }
-
   allCwaBoundaryLayer.clearLayers();
   makeBoundaryGeoJsonLayer(geojson, boundaryStyles.all_cwas).addTo(allCwaBoundaryLayer);
-
-  if (boundaryStatus) {
-    boundaryStatus.textContent = 'Loaded all CWA boundaries. Select a WFO/month/year to load WFO-specific counties and zones.';
-  }
+  if (boundaryStatus) boundaryStatus.textContent = 'Loaded all CWA boundaries. Select a WFO/month/year to load WFO-specific counties/zones and Storm Data prep files.';
 }
 
 async function loadOneWfoBoundaryLayer(path, targetGroup, style) {
   targetGroup.clearLayers();
-
-  const geojson = await fetchGeoJson(path);
-
-  if (!geojson) {
-    return false;
-  }
-
+  const geojson = await fetchJson(path);
+  if (!geojson) return false;
   makeBoundaryGeoJsonLayer(geojson, style).addTo(targetGroup);
   return true;
 }
@@ -208,117 +144,81 @@ async function loadWfoBoundaryLayers(wfo) {
   marineZoneBoundaryLayer.clearLayers();
 
   const results = [];
+  results.push({ label: 'selected CWA', loaded: await loadOneWfoBoundaryLayer(basePath + '/cwa.geojson', selectedCwaBoundaryLayer, boundaryStyles.selected_cwa) });
+  results.push({ label: 'counties/parishes', loaded: await loadOneWfoBoundaryLayer(basePath + '/counties_parishes.geojson', countyBoundaryLayer, boundaryStyles.counties) });
+  results.push({ label: 'land zones', loaded: await loadOneWfoBoundaryLayer(basePath + '/land_zones.geojson', landZoneBoundaryLayer, boundaryStyles.land_zones) });
+  results.push({ label: 'marine zones', loaded: await loadOneWfoBoundaryLayer(basePath + '/marine_zones.geojson', marineZoneBoundaryLayer, boundaryStyles.marine_zones) });
 
-  results.push({
-    label: 'selected CWA',
-    loaded: await loadOneWfoBoundaryLayer(basePath + '/cwa.geojson', selectedCwaBoundaryLayer, boundaryStyles.selected_cwa)
-  });
-  results.push({
-    label: 'counties/parishes',
-    loaded: await loadOneWfoBoundaryLayer(basePath + '/counties_parishes.geojson', countyBoundaryLayer, boundaryStyles.counties)
-  });
-  results.push({
-    label: 'land zones',
-    loaded: await loadOneWfoBoundaryLayer(basePath + '/land_zones.geojson', landZoneBoundaryLayer, boundaryStyles.land_zones)
-  });
-  results.push({
-    label: 'marine zones',
-    loaded: await loadOneWfoBoundaryLayer(basePath + '/marine_zones.geojson', marineZoneBoundaryLayer, boundaryStyles.marine_zones)
-  });
+  if (!map.hasLayer(countyBoundaryLayer)) countyBoundaryLayer.addTo(map);
+  if (!map.hasLayer(landZoneBoundaryLayer)) landZoneBoundaryLayer.addTo(map);
+  if (!map.hasLayer(marineZoneBoundaryLayer)) marineZoneBoundaryLayer.addTo(map);
 
-  if (!map.hasLayer(countyBoundaryLayer)) {
-    countyBoundaryLayer.addTo(map);
-  }
-  if (!map.hasLayer(landZoneBoundaryLayer)) {
-    landZoneBoundaryLayer.addTo(map);
-  }
-  if (!map.hasLayer(marineZoneBoundaryLayer)) {
-    marineZoneBoundaryLayer.addTo(map);
-  }
-
-  const loaded = results.filter(function (item) {
-    return item.loaded;
-  }).map(function (item) {
-    return item.label;
-  });
-
-  const missing = results.filter(function (item) {
-    return !item.loaded;
-  }).map(function (item) {
-    return item.label;
-  });
-
+  const loaded = results.filter(item => item.loaded).map(item => item.label);
   if (boundaryStatus) {
-    if (loaded.length > 0) {
-      boundaryStatus.textContent = 'Loaded ' + escapeHtml(wfo) + ' boundary layers: ' + loaded.join(', ') + '.';
-    } else {
-      boundaryStatus.textContent = 'No WFO-specific boundary layers found for ' + escapeHtml(wfo) + '. Run the boundary build workflow.';
-    }
+    boundaryStatus.textContent = loaded.length > 0
+      ? 'Loaded ' + escapeHtml(wfo) + ' boundary layers: ' + loaded.join(', ') + '.'
+      : 'No WFO-specific boundary layers found for ' + escapeHtml(wfo) + '. Run the boundary build workflow.';
   }
-
-  if (missing.length > 0) {
-    console.warn('Missing WFO boundary layers for ' + wfo + ':', missing.join(', '));
-  }
-
-  setTimeout(function () {
-    map.invalidateSize();
-  }, 100);
+  setTimeout(function () { map.invalidateSize(); }, 100);
 }
 
-async function loadGeoJson(geoJsonPath) {
+async function loadReportGeoJson(path) {
   initializeMap();
   eventLayer.clearLayers();
-
-  const response = await fetch(geoJsonPath);
-
-  if (!response.ok) {
-    throw new Error('GeoJSON file not found: ' + geoJsonPath);
-  }
-
-  const geojson = await response.json();
+  const geojson = await fetchJson(path);
+  if (!geojson) throw new Error('Reports GeoJSON file not found: ' + path);
   eventLayer.addData(geojson);
-
   setTimeout(function () {
     map.invalidateSize();
-
     const bounds = eventLayer.getBounds();
-
-    if (bounds.isValid()) {
-      map.fitBounds(bounds, {
-        padding: [30, 30],
-        maxZoom: 10
-      });
-    }
+    if (bounds.isValid()) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 10 });
   }, 100);
 }
 
-function renderEventTable(events) {
-  if (events.length === 0) {
-    return '<p>No events found.</p>';
-  }
+async function loadWarningsGeoJson(path) {
+  warningLayer.clearLayers();
+  const geojson = await fetchJson(path);
+  if (!geojson) return false;
+  L.geoJSON(geojson, {
+    style: { color: '#dc2626', weight: 2, opacity: 0.9, fillOpacity: 0.08 },
+    onEachFeature: function (feature, layer) {
+      const properties = feature.properties || {};
+      layer.bindPopup([
+        '<strong>' + escapeHtml(properties.event || 'NWS Alert') + '</strong>',
+        escapeHtml(properties.headline || ''),
+        escapeHtml(properties.effective || ''),
+        escapeHtml(properties.expires || ''),
+        '<small>' + escapeHtml(properties.description || '') + '</small>'
+      ].join('<br>'));
+    }
+  }).addTo(warningLayer);
+  if (!map.hasLayer(warningLayer)) warningLayer.addTo(map);
+  return true;
+}
 
-  const rows = events.map(function (event) {
-    return '<tr>' +
-      '<td>' + escapeHtml(event.begin_time_utc || '') + '</td>' +
-      '<td>' + escapeHtml(event.event_type || '') + '</td>' +
-      '<td>' + escapeHtml(event.county_or_zone || event.cz_name || '') + '</td>' +
-      '<td>' + escapeHtml((event.magnitude ?? '') + ' ' + (event.magnitude_units || '')) + '</td>' +
-      '<td>' + escapeHtml(event.event_narrative || '') + '</td>' +
-      '</tr>';
+function renderReportTable(reports) {
+  if (!reports || reports.length === 0) return '<p>No candidate reports found.</p>';
+  const rows = reports.map(report => '<tr>' +
+    '<td>' + escapeHtml(report.valid_utc || '') + '</td>' +
+    '<td>' + escapeHtml(report.report_type || '') + '</td>' +
+    '<td>' + escapeHtml([report.city, report.county, report.state].filter(Boolean).join(', ')) + '</td>' +
+    '<td>' + escapeHtml(report.magnitude ?? '') + '</td>' +
+    '<td>' + escapeHtml(report.source || '') + '</td>' +
+    '<td>' + escapeHtml(report.remark || '') + '</td>' +
+    '</tr>').join('');
+  return '<table><thead><tr><th>Time UTC</th><th>Report Type</th><th>Location</th><th>Magnitude</th><th>Source</th><th>Remark</th></tr></thead><tbody>' + rows + '</tbody></table>';
+}
+
+function renderProductLinks(productCollections) {
+  if (!productCollections) return '<p>No product link collection available.</p>';
+  const primary = productCollections.primary_links || [];
+  const groups = productCollections.product_groups || [];
+  const primaryHtml = primary.map(link => '<li><a href="' + escapeHtml(link.url) + '" target="_blank" rel="noopener">' + escapeHtml(link.label) + '</a><br><small>' + escapeHtml(link.note || '') + '</small></li>').join('');
+  const groupHtml = groups.map(group => {
+    const links = (group.links || []).map(link => '<a class="product-pill" href="' + escapeHtml(link.url) + '" target="_blank" rel="noopener">' + escapeHtml(link.pil) + '</a>').join('');
+    return '<div class="product-group"><h3>' + escapeHtml(group.group) + '</h3><p>' + escapeHtml(group.purpose || '') + '</p><div class="product-pills">' + links + '</div></div>';
   }).join('');
-
-  return '<table>' +
-    '<thead>' +
-    '<tr>' +
-    '<th>Time UTC</th>' +
-    '<th>Type</th>' +
-    '<th>Location</th>' +
-    '<th>Magnitude</th>' +
-    '<th>Narrative</th>' +
-    '</tr>' +
-    '</thead>' +
-    '<tbody>' + rows + '</tbody>' +
-    '</table>';
+  return '<h3>Primary source links</h3><ul>' + primaryHtml + '</ul>' + groupHtml;
 }
 
 document.getElementById('load-button').addEventListener('click', async function () {
@@ -330,52 +230,44 @@ document.getElementById('load-button').addEventListener('click', async function 
   const summaryPanel = document.getElementById('summary-panel');
   const eventsTable = document.getElementById('events-table');
 
-  const basePath = 'data/stormdata/' + year + '/' + month + '/' + wfo;
-  const eventsPath = basePath + '/events.json';
-  const geoJsonPath = basePath + '/events.geojson';
+  const basePath = 'data/stormprep/' + year + '/' + month + '/' + wfo;
+  const dashboardPath = basePath + '/dashboard.json';
+  const reportsPath = basePath + '/reports.geojson';
+  const warningsPath = basePath + '/warnings.geojson';
 
-  statusPanel.innerHTML = '<h2>Status</h2><p>Loading: ' + escapeHtml(eventsPath) + '</p>';
+  statusPanel.innerHTML = '<h2>Status</h2><p>Loading Storm Data prep package: ' + escapeHtml(dashboardPath) + '</p>';
 
   try {
     await loadWfoBoundaryLayers(wfo);
+    const dashboard = await fetchJson(dashboardPath);
+    if (!dashboard) throw new Error('Storm Data prep package not found: ' + dashboardPath);
 
-    const response = await fetch(eventsPath);
-
-    if (!response.ok) {
-      throw new Error('File not found: ' + eventsPath);
-    }
-
-    const data = await response.json();
-    const events = data.events || [];
+    const summary = dashboard.summary || {};
+    const warnings = dashboard.source_warnings || [];
 
     summaryPanel.innerHTML = '<h2>Summary</h2>' +
-      '<p><strong>WFO:</strong> ' + escapeHtml(data.metadata.wfo) + '</p>' +
-      '<p><strong>Month:</strong> ' + escapeHtml(data.metadata.year + '-' + String(data.metadata.month).padStart(2, '0')) + '</p>' +
-      '<p><strong>Total events:</strong> ' + escapeHtml(events.length) + '</p>' +
-      '<p><strong>Schema version:</strong> ' + escapeHtml(data.metadata.schema_version) + '</p>';
+      '<p><strong>Mode:</strong> Storm Data prep</p>' +
+      '<p><strong>WFO:</strong> ' + escapeHtml(wfo) + '</p>' +
+      '<p><strong>Month:</strong> ' + escapeHtml(year + '-' + month) + '</p>' +
+      '<p><strong>Candidate reports:</strong> ' + escapeHtml(summary.total_candidate_reports ?? 0) + '</p>' +
+      '<p><strong>Mapped reports:</strong> ' + escapeHtml(summary.mapped_candidate_reports ?? 0) + '</p>' +
+      '<p><strong>NWS API alerts:</strong> ' + escapeHtml(summary.nws_api_alert_count ?? 0) + '</p>' +
+      (warnings.length ? '<p><strong>Source warnings:</strong> ' + escapeHtml(warnings.join(' | ')) + '</p>' : '');
 
-    eventsTable.innerHTML = renderEventTable(events);
+    eventsTable.innerHTML = '<h2>Candidate reports</h2>' + renderReportTable(dashboard.candidate_reports || []) +
+      '<h2>Public product links</h2>' + renderProductLinks(dashboard.product_collections);
 
-    await loadGeoJson(geoJsonPath);
+    await loadReportGeoJson(reportsPath);
+    await loadWarningsGeoJson(warningsPath);
 
-    statusPanel.innerHTML = '<h2>Status</h2><p>Loaded ' + escapeHtml(events.length) +
-      ' event(s), all CWA boundaries, and selected WFO boundary layers for ' + escapeHtml(wfo) + ' ' +
-      escapeHtml(year + '-' + month) + '.</p>';
+    statusPanel.innerHTML = '<h2>Status</h2><p>Loaded Storm Data prep package for ' + escapeHtml(wfo) + ' ' + escapeHtml(year + '-' + month) + '.</p>';
   } catch (error) {
     statusPanel.innerHTML = '<h2>Status</h2><p>' + escapeHtml(error.message) + '</p>' +
-      '<p>This usually means that sample data has not been created for that year/month/WFO yet.</p>';
-
-    summaryPanel.innerHTML = '<h2>Summary</h2><p>No data loaded.</p>';
-    eventsTable.innerHTML = '<p>No event table available.</p>';
+      '<p>Run the <strong>Build Storm Data Prep Month</strong> GitHub Action for this year/month/WFO, then refresh the page.</p>';
+    summaryPanel.innerHTML = '<h2>Summary</h2><p>No prep package loaded.</p>';
+    eventsTable.innerHTML = '<p>No candidate report table available.</p>';
   }
 });
 
-window.addEventListener('load', function () {
-  initializeMap();
-});
-
-window.addEventListener('resize', function () {
-  if (map) {
-    map.invalidateSize();
-  }
-});
+window.addEventListener('load', function () { initializeMap(); });
+window.addEventListener('resize', function () { if (map) map.invalidateSize(); });
