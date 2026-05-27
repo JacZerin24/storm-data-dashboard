@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "PHI",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:35Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "PHI",
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
+    "candidate_report_counts": {
+      "flooding": 2,
+      "marine": 5,
+      "thunderstorm_wind": 8
+    },
+    "candidate_report_type_counts": {
+      "COASTAL FLOOD": 2,
+      "MARINE TSTM WIND": 5,
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 4
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PHI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=PHI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PHI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-PHI-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012330",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Clayton",
+      "county": "Kent",
+      "state": "DE",
+      "source": "911 Call Center",
+      "remark": "Several reports of large trees and power lines down in Clayton. Time estimated from radar.",
+      "lat": 39.29,
+      "lon": -75.63,
+      "ugc": "DEC001",
+      "ugc_name": "Kent",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012330",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Clayton",
+      "county": "Kent",
+      "state": "DE",
+      "source": "911 Call Center",
+      "remark": "Tree down onto a house in the Clayton Courts neighborhood. Time estimated from radar.",
+      "lat": 39.3,
+      "lon": -75.63,
+      "ugc": "DEC001",
+      "ugc_name": "Kent",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012334",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Smyrna",
+      "county": "Kent",
+      "state": "DE",
+      "source": "911 Call Center",
+      "remark": "Several reports of large trees and power lines down in Smyrna. Time estimated from radar.",
+      "lat": 39.3,
+      "lon": -75.6,
+      "ugc": "DEC001",
+      "ugc_name": "Kent",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012335",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 42.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Clayton",
+      "county": "Kent",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Wunderground station KDECLAYT7.",
+      "lat": 39.28,
+      "lon": -75.65,
+      "ugc": "DEC001",
+      "ugc_name": "Kent",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012339",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "1 N Smyrna",
+      "county": "New Castle",
+      "state": "DE",
+      "source": "Dept of Highways",
+      "remark": "DelDOT station at DEMA EOC.",
+      "lat": 39.32,
+      "lon": -75.61,
+      "ugc": "DEC003",
+      "ugc_name": "New Castle",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012345",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "1 N Smyrna",
+      "county": "New Castle",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Wudnerground station KDESMYRN24.",
+      "lat": 39.32,
+      "lon": -75.61,
+      "ugc": "DEC003",
+      "ugc_name": "New Castle",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604020015",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Stow Creek Twp",
+      "county": "Cumberland",
+      "state": "NJ",
+      "source": "Mesonet",
+      "remark": "NJWxNet Mesonet station Greenwich.",
+      "lat": 39.44,
+      "lon": -75.38,
+      "ugc": "NJC011",
+      "ugc_name": "Cumberland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604020319",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Milford",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "911 Call Center",
+      "remark": "Multiple reports of trees down in Milford. Time estimated from radar.",
+      "lat": 38.91,
+      "lon": -75.43,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051520",
+      "wfo": "PHI",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Washington Park",
+      "county": "ANZ430",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "40 MPH gust at Wilmington.",
+      "lat": 39.65,
+      "lon": -75.58,
+      "ugc": "ANZ430",
+      "ugc_name": "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051550",
+      "wfo": "PHI",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Port Penn",
+      "county": "ANZ430",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Lower Alloways Creek NJWxNet.",
+      "lat": 39.51,
+      "lon": -75.54,
+      "ugc": "ANZ430",
+      "ugc_name": "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051630",
+      "wfo": "PHI",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "6 ESE Woodland Beach",
+      "county": "ANZ430",
+      "state": "DE",
+      "source": "Buoy",
+      "remark": "Ship John Shoal.",
+      "lat": 39.3,
+      "lon": -75.38,
+      "ugc": "ANZ430",
+      "ugc_name": "Delaware Bay waters north of East Point NJ to Slaughter Beach DE",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051655",
+      "wfo": "PHI",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "Mantoloking",
+      "county": "ANZ451",
+      "state": "NJ",
+      "source": "Mesonet",
+      "remark": "Mantoloking WxFlow station.",
+      "lat": 40.04,
+      "lon": -74.04,
+      "ugc": "ANZ451",
+      "ugc_name": "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051817",
+      "wfo": "PHI",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Indian Beach",
+      "county": "ANZ455",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Dewey Beach mesonet.",
+      "lat": 38.69,
+      "lon": -75.07,
+      "ugc": "ANZ455",
+      "ugc_name": "Coastal waters from Cape Henlopen to Fenwick Island DE out 20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604190149",
+      "wfo": "PHI",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Pleasantville",
+      "county": "Atlantic",
+      "state": "NJ",
+      "source": "Dept of Highways",
+      "remark": "Flooding on US 40 in Egg Harbor Township. All lanes closed.",
+      "lat": 39.38,
+      "lon": -74.5,
+      "ugc": "NJC001",
+      "ugc_name": "Atlantic",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604190256",
+      "wfo": "PHI",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Pleasantville",
+      "county": "Atlantic",
+      "state": "NJ",
+      "source": "Dept of Highways",
+      "remark": "Flooding on US 30 in both directions west of County Route 646/Delilah Road in Absecon City. All lanes closed.",
+      "lat": 39.4,
+      "lon": -74.49,
+      "ugc": "NJC001",
+      "ugc_name": "Atlantic",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "PHI",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:36Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=PHI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for PHI",
+            "url": "https://api.weather.gov/products/types/LSR/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for PHI",
+            "url": "https://api.weather.gov/products/types/PNS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for PHI",
+            "url": "https://api.weather.gov/products/types/TOR/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for PHI",
+            "url": "https://api.weather.gov/products/types/SVR/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for PHI",
+            "url": "https://api.weather.gov/products/types/SVS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for PHI",
+            "url": "https://api.weather.gov/products/types/SPS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for PHI",
+            "url": "https://api.weather.gov/products/types/WCN/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for PHI",
+            "url": "https://api.weather.gov/products/types/FFW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for PHI",
+            "url": "https://api.weather.gov/products/types/FFS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for PHI",
+            "url": "https://api.weather.gov/products/types/FLS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for PHI",
+            "url": "https://api.weather.gov/products/types/FLW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for PHI",
+            "url": "https://api.weather.gov/products/types/FLS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for PHI",
+            "url": "https://api.weather.gov/products/types/RVS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for PHI",
+            "url": "https://api.weather.gov/products/types/ESF/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for PHI",
+            "url": "https://api.weather.gov/products/types/SMW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for PHI",
+            "url": "https://api.weather.gov/products/types/MWS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for PHI",
+            "url": "https://api.weather.gov/products/types/MWW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for PHI",
+            "url": "https://api.weather.gov/products/types/CFW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for PHI",
+            "url": "https://api.weather.gov/products/types/CWF/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for PHI",
+            "url": "https://api.weather.gov/products/types/HLS/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for PHI",
+            "url": "https://api.weather.gov/products/types/NPW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for PHI",
+            "url": "https://api.weather.gov/products/types/WSW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for PHI",
+            "url": "https://api.weather.gov/products/types/RFW/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for PHI",
+            "url": "https://api.weather.gov/products/types/DGT/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for PHI",
+            "url": "https://api.weather.gov/products/types/HWO/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for PHI",
+            "url": "https://api.weather.gov/products/types/AFD/locations/PHI",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "ILM",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:03Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-1",
+      "properties": {
+        "report_id": "iem-lsr-ILM-1",
+        "report_type": "RIP CURRENTS",
+        "event_category": "marine",
+        "valid_utc": "202604031957",
+        "county_or_zone": "New Hanover",
+        "city": "Carolina Beach",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard/Beach",
+        "event_narrative": "Carolina Beach Ocean Rescue reported 15 rescues today (as of the time of this report) and strong rip currents."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.89,
+          34.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-2",
+      "properties": {
+        "report_id": "iem-lsr-ILM-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202604051830",
+        "county_or_zone": "Marion",
+        "city": "5 E Sellers",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "One tree down and part of another tree snapped in Temperance Hill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-3",
+      "properties": {
+        "report_id": "iem-lsr-ILM-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202604301243",
+        "county_or_zone": "AMZ256",
+        "city": "Winyah Bay",
+        "state": "SC",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.18,
+          33.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-4",
+      "properties": {
+        "report_id": "iem-lsr-ILM-4",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202604301318",
+        "county_or_zone": "Horry",
+        "city": "3 NNW Socastee",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Lightning struck a home on Farrier Drive_ causing damage and displacing three residents."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.03,
+          33.73
+        ]
+      }
+    }
+  ]
+}

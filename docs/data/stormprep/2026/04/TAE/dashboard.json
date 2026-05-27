@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "TAE",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:53Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "TAE",
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
+    "candidate_report_counts": {
+      "hail": 6,
+      "other": 1,
+      "thunderstorm_wind": 10
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 6,
+      "RAIN": 1,
+      "TSTM WND DMG": 7,
+      "TSTM WND GST": 3
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=TAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-TAE-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012020",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Marianna",
+      "county": "Jackson",
+      "state": "FL",
+      "source": "Public",
+      "remark": "report of pea size hail in Marianna.",
+      "lat": 30.76,
+      "lon": -85.25,
+      "ugc": "FLC063",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012045",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Singer Road",
+      "county": "Washington",
+      "state": "FL",
+      "source": "Public",
+      "remark": "video of small hail from Singer Road about 2 miles from Econfina Creek.",
+      "lat": 30.44,
+      "lon": -85.49,
+      "ugc": "FLC133",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012142",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "Napier Field",
+      "county": "Dale",
+      "state": "AL",
+      "source": "ASOS",
+      "remark": "KDHN gusted to 45 mph.",
+      "lat": 31.32,
+      "lon": -85.46,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012144",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Headland",
+      "county": "Henry",
+      "state": "AL",
+      "source": "Mesonet",
+      "remark": "Ambient weather station gusted to 43 mph.",
+      "lat": 31.33,
+      "lon": -85.34,
+      "ugc": "ALC067",
+      "ugc_name": "Henry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031950",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Spence Airport",
+      "county": "Colquitt",
+      "state": "GA",
+      "source": "Law Enforcement",
+      "remark": "Tree across entire roadway at Old Berlin Road and Horseshoe Drive.",
+      "lat": 31.1,
+      "lon": -83.72,
+      "ugc": "GAC071",
+      "ugc_name": "Colquitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031951",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Autreyville",
+      "county": "Colquitt",
+      "state": "GA",
+      "source": "Public",
+      "remark": "A fertilizer tank was blown over.",
+      "lat": 31.1,
+      "lon": -83.74,
+      "ugc": "GAC071",
+      "ugc_name": "Colquitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604032000",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Spence Airport",
+      "county": "Colquitt",
+      "state": "GA",
+      "source": "Public",
+      "remark": "report of quarter size hail from the Moultrie area.",
+      "lat": 31.13,
+      "lon": -83.73,
+      "ugc": "GAC071",
+      "ugc_name": "Colquitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604032004",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "1 ESE South Moultrie",
+      "county": "Colquitt",
+      "state": "GA",
+      "source": "Public",
+      "remark": "pea to nickel size hail reported on the southeast side of Moultrie.",
+      "lat": 31.15,
+      "lon": -83.76,
+      "ugc": "GAC071",
+      "ugc_name": "Colquitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604032116",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Harding",
+      "county": "Tift",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Tree down near Jacob Hall Road and Chula Brookfield Road.",
+      "lat": 31.51,
+      "lon": -83.41,
+      "ugc": "GAC277",
+      "ugc_name": "Tift",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604032120",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Chula",
+      "county": "Tift",
+      "state": "GA",
+      "source": "Public",
+      "remark": "A tree was blown down in a yard along Chula Brookfield Road going towards Chula.",
+      "lat": 31.56,
+      "lon": -83.5,
+      "ugc": "GAC277",
+      "ugc_name": "Tift",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604032140",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Madrid",
+      "county": "Houston",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Pea size hail was reported for about 15 minutes in the Madrid area.",
+      "lat": 31.04,
+      "lon": -85.4,
+      "ugc": "ALC069",
+      "ugc_name": "Houston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604042043",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 NW Midland City",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Public",
+      "remark": null,
+      "lat": 31.34,
+      "lon": -85.51,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604042045",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Browns Crossroads",
+      "county": "Dale",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "Tree down near County Rd 59 and 61.",
+      "lat": 31.39,
+      "lon": -85.52,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604042100",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Mabson",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Tree down near County Road 36 and County Road 347.",
+      "lat": 31.47,
+      "lon": -85.52,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604042104",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "Decatur Co a/P",
+      "county": "Decatur",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Mesonet station TT665 Bainbridge.",
+      "lat": 30.97,
+      "lon": -84.63,
+      "ugc": "GAC087",
+      "ugc_name": "Decatur",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604042108",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Barefield Crossro",
+      "county": "Dale",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "Tree down blocking County Road 64.",
+      "lat": 31.56,
+      "lon": -85.47,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604260230",
+      "wfo": "TAE",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.18,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Pecan City",
+      "county": "Dougherty",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "The UGA mesonet station at the Marine Corps Logistics Base measured 3.18 inches of rain in a 3 hour period.",
+      "lat": 31.55,
+      "lon": -84.05,
+      "ugc": "GAC095",
+      "ugc_name": "Dougherty",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "TAE",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:53Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=TAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for TAE",
+            "url": "https://api.weather.gov/products/types/LSR/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for TAE",
+            "url": "https://api.weather.gov/products/types/PNS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for TAE",
+            "url": "https://api.weather.gov/products/types/TOR/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for TAE",
+            "url": "https://api.weather.gov/products/types/SVR/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for TAE",
+            "url": "https://api.weather.gov/products/types/SVS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for TAE",
+            "url": "https://api.weather.gov/products/types/SPS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for TAE",
+            "url": "https://api.weather.gov/products/types/WCN/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for TAE",
+            "url": "https://api.weather.gov/products/types/FFW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for TAE",
+            "url": "https://api.weather.gov/products/types/FFS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for TAE",
+            "url": "https://api.weather.gov/products/types/FLS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for TAE",
+            "url": "https://api.weather.gov/products/types/FLW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for TAE",
+            "url": "https://api.weather.gov/products/types/FLS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for TAE",
+            "url": "https://api.weather.gov/products/types/RVS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for TAE",
+            "url": "https://api.weather.gov/products/types/ESF/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for TAE",
+            "url": "https://api.weather.gov/products/types/SMW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for TAE",
+            "url": "https://api.weather.gov/products/types/MWS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for TAE",
+            "url": "https://api.weather.gov/products/types/MWW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for TAE",
+            "url": "https://api.weather.gov/products/types/CFW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for TAE",
+            "url": "https://api.weather.gov/products/types/CWF/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for TAE",
+            "url": "https://api.weather.gov/products/types/HLS/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for TAE",
+            "url": "https://api.weather.gov/products/types/NPW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for TAE",
+            "url": "https://api.weather.gov/products/types/WSW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for TAE",
+            "url": "https://api.weather.gov/products/types/RFW/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for TAE",
+            "url": "https://api.weather.gov/products/types/DGT/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for TAE",
+            "url": "https://api.weather.gov/products/types/HWO/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for TAE",
+            "url": "https://api.weather.gov/products/types/AFD/locations/TAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

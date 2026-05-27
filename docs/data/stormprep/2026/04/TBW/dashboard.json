@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "TBW",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:54Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "TBW",
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
+    "candidate_report_counts": {
+      "fire_smoke": 1,
+      "hail": 1,
+      "thunderstorm_wind": 1,
+      "tornado": 6
+    },
+    "candidate_report_type_counts": {
+      "FUNNEL CLOUD": 4,
+      "HAIL": 1,
+      "TSTM WND GST": 1,
+      "WATERSPOUT": 2,
+      "WILDFIRE": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=TBW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-TBW-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022010",
+      "wfo": "TBW",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.7,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Southwest Interna",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Corrects previous funnel cloud report from 3 NNE Southwest Internat. Public relayed picture via social media of pea to dime size hail near Gateway. Time estimated from radar.",
+      "lat": 26.58,
+      "lon": -81.75,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022010",
+      "wfo": "TBW",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Southwest Interna",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Public relayed picture via social media of pea to dime size hail near Gateway. Time estimated from radar.",
+      "lat": 26.58,
+      "lon": -81.75,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022036",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Whiskey Creek",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Updates previous funnel cloud report from 1 WNW Whiskey Creek. Broadcast media relayed picture of a likely funnel cloud taken near the intersection of McGregor Blvd and Winkler Rd_ later determined t",
+      "lat": 26.57,
+      "lon": -81.9,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022044",
+      "wfo": "TBW",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Whiskey Creek",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media relayed picture of a likely funnel cloud taken near the intersection of McGregor Blvd and Winkler Rd.",
+      "lat": 26.57,
+      "lon": -81.9,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022100",
+      "wfo": "TBW",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Suncoast Estates",
+      "county": "Charlotte",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "FDEM relayed report from FHP of closure of I-75 at mile marker 149 near Granville Rd due to a nearby wildfire.",
+      "lat": 26.78,
+      "lon": -81.89,
+      "ugc": "FLC015",
+      "ugc_name": "Charlotte",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022200",
+      "wfo": "TBW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Feather Sound",
+      "county": "Pinellas",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "ASOS station KPIE St Pete-Clearwater Intl.",
+      "lat": 27.91,
+      "lon": -82.69,
+      "ugc": "FLC103",
+      "ugc_name": "Pinellas",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604062210",
+      "wfo": "TBW",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Fort Myers Shores",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media relayed a video of a funnel cloud taken from the River Hall Community.",
+      "lat": 26.7,
+      "lon": -81.7,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604261426",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WNW Palm Harbor",
+      "county": "GMZ853",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Video from public of waterspout west of Three Rooker Island.",
+      "lat": 28.12,
+      "lon": -82.86,
+      "ugc": "GMZ853",
+      "ugc_name": "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604272135",
+      "wfo": "TBW",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SW Fort Myers Villas",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media relayed a video of a rope funnel cloud taken from Alico Rd near Ben Hill Griffin Pkwy in Fort Myers. Location was estimated from radar data.",
+      "lat": 26.49,
+      "lon": -81.92,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "TBW",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:54Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=TBW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for TBW",
+            "url": "https://api.weather.gov/products/types/LSR/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for TBW",
+            "url": "https://api.weather.gov/products/types/PNS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for TBW",
+            "url": "https://api.weather.gov/products/types/TOR/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for TBW",
+            "url": "https://api.weather.gov/products/types/SVR/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for TBW",
+            "url": "https://api.weather.gov/products/types/SVS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for TBW",
+            "url": "https://api.weather.gov/products/types/SPS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for TBW",
+            "url": "https://api.weather.gov/products/types/WCN/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for TBW",
+            "url": "https://api.weather.gov/products/types/FFW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for TBW",
+            "url": "https://api.weather.gov/products/types/FFS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for TBW",
+            "url": "https://api.weather.gov/products/types/FLS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for TBW",
+            "url": "https://api.weather.gov/products/types/FLW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for TBW",
+            "url": "https://api.weather.gov/products/types/FLS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for TBW",
+            "url": "https://api.weather.gov/products/types/RVS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for TBW",
+            "url": "https://api.weather.gov/products/types/ESF/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for TBW",
+            "url": "https://api.weather.gov/products/types/SMW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for TBW",
+            "url": "https://api.weather.gov/products/types/MWS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for TBW",
+            "url": "https://api.weather.gov/products/types/MWW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for TBW",
+            "url": "https://api.weather.gov/products/types/CFW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for TBW",
+            "url": "https://api.weather.gov/products/types/CWF/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for TBW",
+            "url": "https://api.weather.gov/products/types/HLS/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for TBW",
+            "url": "https://api.weather.gov/products/types/NPW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for TBW",
+            "url": "https://api.weather.gov/products/types/WSW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for TBW",
+            "url": "https://api.weather.gov/products/types/RFW/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for TBW",
+            "url": "https://api.weather.gov/products/types/DGT/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for TBW",
+            "url": "https://api.weather.gov/products/types/HWO/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for TBW",
+            "url": "https://api.weather.gov/products/types/AFD/locations/TBW",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

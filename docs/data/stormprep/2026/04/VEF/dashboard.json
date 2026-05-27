@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "VEF",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:59Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "VEF",
+    "total_candidate_reports": 29,
+    "mapped_candidate_reports": 29,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 29
+    },
+    "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 27,
+      "TSTM WND GST": 2
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=VEF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=VEF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=VEF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-VEF-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604010015",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A22AD 2.9 SW Mercury (ARL SORD). Single gust to 58 mph.",
+      "lat": 36.62,
+      "lon": -116.02,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604010053",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 SW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "ASOS station KDRA Desert Rock Airport. Single gust of 58 mph.",
+      "lat": 36.62,
+      "lon": -116.03,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604010215",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "19 N Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A06AE 19.4 N Mercury (ARL SORD). Gusts over 58 mph began at 1915 and continued through 1945.",
+      "lat": 36.94,
+      "lon": -116.04,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604010726",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "19 S Haiwee",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "The Five Mile RAWS site began recording wind gusts in excess of 58 mph at 0026 PDT. These gusts continued until 0226 PDT. The peak gust observed during this time was 59 mph at 0026 PDT.",
+      "lat": 35.87,
+      "lon": -117.92,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604022251",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "30 SSW Trona",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 35.37,
+      "lon": -117.57,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604121150",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 73.0,
+      "magnitude_qualifier": null,
+      "city": "6 NE Mt. Charleston",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station NV015 Angel Peak. Single gust to 73 mph.",
+      "lat": 36.32,
+      "lon": -115.58,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604121502",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "3 SW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "ASOS station KDRA Desert Rock Airport. Single gust of 68 mph.",
+      "lat": 36.62,
+      "lon": -116.03,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604122259",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "Mountain Springs",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 36.02,
+      "lon": -115.51,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604130100",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSW The Strip",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Public",
+      "remark": null,
+      "lat": 36.09,
+      "lon": -115.18,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170151",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "30 SSW Trona",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 35.37,
+      "lon": -117.57,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170610",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 76.0,
+      "magnitude_qualifier": null,
+      "city": "11 W Alamo",
+      "county": "Lincoln",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Gusts over 70 mph measured at Tikaboo Peak sensor between 2310 and 0510. Peak gust was 76 mph at 0510. NTIK.",
+      "lat": 37.34,
+      "lon": -115.36,
+      "ugc": "NVC017",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170726",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "19 S Haiwee",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Five Mile RAWS recorded a peak gusts of 66 mph at 1226 AM this morning. Winds gusted over 58 mph between 0026 AM and 0626 AM.",
+      "lat": 35.87,
+      "lon": -117.92,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170753",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 SW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "Gust of 58 mph measured at Desert Rock Airport at 0053. KDRA.",
+      "lat": 36.62,
+      "lon": -116.03,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170800",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSW The Strip",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Gusts over 58 mph measured at WeatherSTEM Allegiant Stadium sensor between 0100 and 0130. Peak gust was 61 mph at 0120. 1554W.",
+      "lat": 36.09,
+      "lon": -115.18,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604170941",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 74.0,
+      "magnitude_qualifier": null,
+      "city": "12 SW Elgin",
+      "county": "Lincoln",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Gusts over 58 mph measured at Kane Springs sensor between 0241 and 0341. Peak gust was 74 mph at 0241. KNSN2.",
+      "lat": 37.25,
+      "lon": -114.71,
+      "ugc": "NVC017",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212042",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "5 NW Independence",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station IDPC1 Independence 4 WNW. Single gust to 60 mph.",
+      "lat": 36.84,
+      "lon": -118.27,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212120",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "3 W West Bishop",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 601SE Sce Deep Canyon. Single gust to 59 mph.",
+      "lat": 37.37,
+      "lon": -118.5,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212126",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "19 S Haiwee",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station FMRC1 Ridgecrest - Fivemile Canyon. Gusts of 58 or greater began at 1426 and ended at 1526. Peak Gust 61 mph at 1426.",
+      "lat": 35.87,
+      "lon": -117.92,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212130",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Round Valley",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 834SE Sce Pvp Cg. Single gust to 60 mph.",
+      "lat": 37.4,
+      "lon": -118.52,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212130",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 78.0,
+      "magnitude_qualifier": null,
+      "city": "Hoover Dam",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station HDMNV Us-93 Hoover Dam Bridge - Nevada_ Gusts of 58 mph or greater began at 1239 and ended at 1832. Peak gust 78 mph at 1430.",
+      "lat": 36.01,
+      "lon": -114.74,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212215",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "19 N Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A06AE 19.4 N Mercury (ARL SORD). Gusts of 58 mph or greater began at 1515 and ended at 1545. Peak gust 70 mph at 1515.",
+      "lat": 36.94,
+      "lon": -116.04,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212300",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "7 E Landers",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "D7835 Joshua Tree Mesonet site. Gusts of 58 mph or greater began at 1600 and ended at 1645. Peak gust of 65 mph occured at 1600.",
+      "lat": 34.25,
+      "lon": -116.28,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212315",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "27 E Scottys Junction",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A20AB 31.9 NE Beatty (ARL SORD). Gusts of 58 or greater began at 1325 and ended at 1455. Peak gust was 58 which occurred multiple times.",
+      "lat": 37.34,
+      "lon": -116.57,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212315",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "27 E Scottys Junction",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A20AB 31.9 NE Beatty (ARL SORD). Single gust to 58 mph.",
+      "lat": 37.34,
+      "lon": -116.57,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212330",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 N Round Valley",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station SE102 2.9 N Round Valley (SCE). Single gust to 60 mph.",
+      "lat": 37.46,
+      "lon": -118.59,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604212341",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "12 SW Elgin",
+      "county": "Lincoln",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Gusts of 58 mph or greater began at 1641 and ended at 2041.",
+      "lat": 37.25,
+      "lon": -114.71,
+      "ugc": "NVC017",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604220000",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "37 SW Rachel",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station A12AI Sord Station 38. Gusts of 58 mph or greater began at 1645 and ended at 1715. Peak gust of 61 mph at 1700.",
+      "lat": 37.23,
+      "lon": -116.16,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604220010",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 87.0,
+      "magnitude_qualifier": null,
+      "city": "6 NE Mt. Charleston",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Utility Company",
+      "remark": "Gusts of 70 mph or greater began at 1710 and ended at 0030.",
+      "lat": 36.32,
+      "lon": -115.58,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280030",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "11 NW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 36.78,
+      "lon": -116.12,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "VEF",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:22:00Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=VEF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for VEF",
+            "url": "https://api.weather.gov/products/types/LSR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for VEF",
+            "url": "https://api.weather.gov/products/types/PNS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for VEF",
+            "url": "https://api.weather.gov/products/types/TOR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for VEF",
+            "url": "https://api.weather.gov/products/types/SVR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for VEF",
+            "url": "https://api.weather.gov/products/types/SVS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for VEF",
+            "url": "https://api.weather.gov/products/types/SPS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for VEF",
+            "url": "https://api.weather.gov/products/types/WCN/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for VEF",
+            "url": "https://api.weather.gov/products/types/FFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for VEF",
+            "url": "https://api.weather.gov/products/types/FFS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for VEF",
+            "url": "https://api.weather.gov/products/types/FLS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for VEF",
+            "url": "https://api.weather.gov/products/types/FLW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for VEF",
+            "url": "https://api.weather.gov/products/types/FLS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for VEF",
+            "url": "https://api.weather.gov/products/types/RVS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for VEF",
+            "url": "https://api.weather.gov/products/types/ESF/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for VEF",
+            "url": "https://api.weather.gov/products/types/SMW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for VEF",
+            "url": "https://api.weather.gov/products/types/MWS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for VEF",
+            "url": "https://api.weather.gov/products/types/MWW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for VEF",
+            "url": "https://api.weather.gov/products/types/CFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for VEF",
+            "url": "https://api.weather.gov/products/types/CWF/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for VEF",
+            "url": "https://api.weather.gov/products/types/HLS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for VEF",
+            "url": "https://api.weather.gov/products/types/NPW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for VEF",
+            "url": "https://api.weather.gov/products/types/WSW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for VEF",
+            "url": "https://api.weather.gov/products/types/RFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for VEF",
+            "url": "https://api.weather.gov/products/types/DGT/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for VEF",
+            "url": "https://api.weather.gov/products/types/HWO/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for VEF",
+            "url": "https://api.weather.gov/products/types/AFD/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

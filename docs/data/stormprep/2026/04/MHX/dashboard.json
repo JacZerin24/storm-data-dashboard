@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MHX",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:22Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MHX",
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
+    "candidate_report_counts": {
+      "marine": 19,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "MARINE TSTM WIND": 19,
+      "TSTM WND DMG": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=MHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MHX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051955",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "7 NNE Mackeys",
+      "county": "AMZ230",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Wind gust recorded on a personal weather station as thunderstorms moved through the area. Report came in via WeatherFlow.",
+      "lat": 36.03,
+      "lon": -76.6,
+      "ugc": "AMZ230",
+      "ugc_name": "Albemarle Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604052015",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Bath",
+      "county": "AMZ136",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "36 knot wind gust measured on a personal weather station as thunderstorms moved through the area. Report came in via WeatherFlow.",
+      "lat": 35.5,
+      "lon": -76.81,
+      "ugc": "AMZ136",
+      "ugc_name": "Pamlico and Pungo Rivers",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604052059",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "3 WNW East Lake",
+      "county": "AMZ131",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Alligator Bridge Wxflow gusted to 40 knots.",
+      "lat": 35.9,
+      "lon": -76.0,
+      "ugc": "AMZ131",
+      "ugc_name": "Alligator River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604060440",
+      "wfo": "MHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Stonewall",
+      "county": "Pamlico",
+      "state": "NC",
+      "source": "NWS Storm Survey",
+      "remark": "*** 1 INJ *** Delayed report. In coordination with Pamlico County Emergency Management_ a survey of damage along HWY 55 in Stonewall found damage consistent with straight line winds of 80 to 90 mph.",
+      "lat": 35.13,
+      "lon": -76.74,
+      "ugc": "NCC137",
+      "ugc_name": "Pamlico",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604060542",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Ocracoke Lighthou",
+      "county": "AMZ135",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "35 kt wind gust recorded at the Ocracoke XOCR WeatherFlow Station in the Pamlico Sound as thunderstorms moved through the area.",
+      "lat": 35.15,
+      "lon": -76.01,
+      "ugc": "AMZ135",
+      "ugc_name": "Pamlico Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191637",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 47.0,
+      "magnitude_qualifier": null,
+      "city": "Whalebone",
+      "county": "AMZ150",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Non-thunderstorm winds associated with a cold front gusted to 47 mph (41 kt).",
+      "lat": 35.91,
+      "lon": -75.59,
+      "ugc": "AMZ150",
+      "ugc_name": "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191641",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 W Nags Head",
+      "county": "AMZ231",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Non-thunderstorm winds associated with a cold front gusted to 40 mph.",
+      "lat": 35.94,
+      "lon": -75.66,
+      "ugc": "AMZ231",
+      "ugc_name": "Croatan and Roanoke Sounds",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191653",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Oregon Inlet",
+      "county": "Dare",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Corrects previous marine tstm wind report from 1 SSE Oregon Inlet. Winds associated with a cold front gusted to 46 mph (40 kt).",
+      "lat": 35.77,
+      "lon": -75.53,
+      "ugc": "NCC055",
+      "ugc_name": "Dare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191703",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "3 WNW East Lake",
+      "county": "AMZ131",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Alligator Bridge - XALI WeatherFlow Station gusted to 37kt. Gusts were associated with cold front.",
+      "lat": 35.9,
+      "lon": -76.01,
+      "ugc": "AMZ131",
+      "ugc_name": "Alligator River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191717",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Oregon Inlet",
+      "county": "Dare",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Winds associated with a cold front gusted to 46 mph (40 kt).",
+      "lat": 35.77,
+      "lon": -75.53,
+      "ugc": "NCC055",
+      "ugc_name": "Dare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191751",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 47.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Waves",
+      "county": "AMZ135",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Winds associated with a cold front gusted to 47 mph (41 kt).",
+      "lat": 35.57,
+      "lon": -75.49,
+      "ugc": "AMZ135",
+      "ugc_name": "Pamlico Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191757",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "11 ESE Middletown",
+      "county": "AMZ135",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Pamlico Sound - XPM2 WeatherFlow Station gusted to 40kt. Winds were associated with cold front.",
+      "lat": 35.43,
+      "lon": -75.83,
+      "ugc": "AMZ135",
+      "ugc_name": "Pamlico Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191757",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "1 N Avon",
+      "county": "AMZ135",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Avon Sound - XAVN WeatherFlow Station gusted to 40kt. Winds were associated with cold front.",
+      "lat": 35.37,
+      "lon": -75.51,
+      "ugc": "AMZ135",
+      "ugc_name": "Pamlico Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191838",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "Hatteras Island Fishing",
+      "county": "Dare",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Winds associated with a cold front gusted to 39 mph (34 kt).",
+      "lat": 35.58,
+      "lon": -75.47,
+      "ugc": "NCC055",
+      "ugc_name": "Dare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604191840",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "18 SSE Cape Hatteras Li",
+      "county": "AMZ154",
+      "state": "NC",
+      "source": "Buoy",
+      "remark": "Diamond Shoals (41025) gusted to 46kt. Winds were associated with cold front.",
+      "lat": 35.01,
+      "lon": -75.4,
+      "ugc": "AMZ154",
+      "ugc_name": "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604192000",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Cape Lookout Ligh",
+      "county": "Carteret",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Cape Lookout Weather Station reported 44kt gust. Winds were associated with a cold front.",
+      "lat": 34.61,
+      "lon": -76.53,
+      "ugc": "NCC031",
+      "ugc_name": "Carteret",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604192000",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Ocracoke Lighthou",
+      "county": "AMZ135",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Ocracoke - XOCR WeatherFlow Station reported 44kt gust. Winds were associated with a cold front.",
+      "lat": 35.15,
+      "lon": -76.01,
+      "ugc": "AMZ135",
+      "ugc_name": "Pamlico Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604192000",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "Marshallberg",
+      "county": "AMZ158",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Bernies Station WeatherFlow Station reported 44kt gust. Winds were associated with a cold front.",
+      "lat": 34.73,
+      "lon": -76.52,
+      "ugc": "AMZ158",
+      "ugc_name": "S of Cape Lookout NC to Surf City NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604192040",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 47.0,
+      "magnitude_qualifier": null,
+      "city": "18 SSE Cape Hatteras Li",
+      "county": "AMZ154",
+      "state": "NC",
+      "source": "Buoy",
+      "remark": "Diamond Shoals Buoy reported wind gust of 41 knots associated with the cold front.",
+      "lat": 35.03,
+      "lon": -75.36,
+      "ugc": "AMZ154",
+      "ugc_name": "S of Cape Hatteras NC to Ocracoke Inlet NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604241930",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Duck",
+      "county": "AMZ150",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Peak wind gust of 39kt measured at the Duck Pier.",
+      "lat": 36.18,
+      "lon": -75.75,
+      "ugc": "AMZ150",
+      "ugc_name": "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "MHX",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:22Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=MHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for MHX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for MHX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for MHX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for MHX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for MHX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for MHX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for MHX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for MHX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for MHX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MHX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for MHX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MHX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for MHX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for MHX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for MHX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for MHX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for MHX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for MHX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for MHX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for MHX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for MHX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for MHX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for MHX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for MHX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for MHX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for MHX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/MHX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "SEW",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:46Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SEW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SEW-1",
+      "properties": {
+        "report_id": "iem-lsr-SEW-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202604151915",
+        "county_or_zone": "Lewis",
+        "city": "2 SE Mossyrock",
+        "state": "WA",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45,
+          46.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SEW-2",
+      "properties": {
+        "report_id": "iem-lsr-SEW-2",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202604152200",
+        "county_or_zone": "PZZ135",
+        "city": "3 ENE Winslow",
+        "state": "WA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Short lived waterspout observed over Puget Sound. Received video from broadcast media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46,
+          47.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SEW-3",
+      "properties": {
+        "report_id": "iem-lsr-SEW-3",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202604160246",
+        "county_or_zone": "King",
+        "city": "5 E North Bend",
+        "state": "WA",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.68,
+          47.47
+        ]
+      }
+    }
+  ]
+}

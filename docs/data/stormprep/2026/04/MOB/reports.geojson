@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MOB",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:24Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-1",
+      "properties": {
+        "report_id": "iem-lsr-MOB-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202604062057",
+        "county_or_zone": "Wayne",
+        "city": "3 WNW Whistler",
+        "state": "MS",
+        "magnitude": 90.0,
+        "magnitude_units": null,
+        "source": "NWS Storm Survey",
+        "event_narrative": "A swath of straight-line winds was evident via high resolution Planet satellite imagery that occurred with a line of severe thunderstorms east of Pleasant Grove and north of Highway 84 near Van Hoove"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.86,
+          31.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-2",
+      "properties": {
+        "report_id": "iem-lsr-MOB-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202604251300",
+        "county_or_zone": "GMZ631",
+        "city": "East End of Dauphin",
+        "state": "AL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Site DILA1 recorded a wind gust of 34 knots (~39 mph)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.08,
+          30.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-3",
+      "properties": {
+        "report_id": "iem-lsr-MOB-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202604261540",
+        "county_or_zone": "Mobile",
+        "city": "1 SSE Brookley Field",
+        "state": "AL",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "KBFM ASOS reports a wind gust of 40 knots (~46 mph)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.07,
+          30.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-4",
+      "properties": {
+        "report_id": "iem-lsr-MOB-4",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202604261746",
+        "county_or_zone": "GMZ634",
+        "city": "5 E Oriole Beach",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Santa Rosa Sound WeatherFlow station (DB127) reported a wind gust of 35 knots (~40 mph)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.01,
+          30.38
+        ]
+      }
+    }
+  ]
+}

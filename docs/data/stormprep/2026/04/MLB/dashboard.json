@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MLB",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:24Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MLB",
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
+    "candidate_report_counts": {
+      "flooding": 2,
+      "marine": 2,
+      "other": 5,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 2,
+      "FUNNEL CLOUD": 1,
+      "MARINE TSTM WIND": 1,
+      "RAIN": 5,
+      "RIP CURRENTS": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MLB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=MLB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MLB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MLB-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604052300",
+      "wfo": "MLB",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Clermont",
+      "county": "Lake",
+      "state": "FL",
+      "source": "Public",
+      "remark": "[Delayed Report] Public video posted to social media shows a funnel cloud that formed around 7 PM as storms were developing_ near to north of Lake Louisa.",
+      "lat": 28.5,
+      "lon": -81.74,
+      "ugc": "FLC069",
+      "ugc_name": "Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604060230",
+      "wfo": "MLB",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE ChampionsGate",
+      "county": "Osceola",
+      "state": "FL",
+      "source": "Local Official",
+      "remark": "[delayed report - time estimated] Water over roadway_ causing closure at intersection of Sinclair and N Old Lake Wilson Rds. Relayed via state EM. No buildings affected. Observations indicate 1.5 to",
+      "lat": 28.3,
+      "lon": -81.59,
+      "ugc": "FLC097",
+      "ugc_name": "Osceola",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604070024",
+      "wfo": "MLB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 5.58,
+      "magnitude_qualifier": null,
+      "city": "3 S Bayside Lakes",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Weather Underground site KFLPALMB740.",
+      "lat": 27.91,
+      "lon": -80.67,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604070026",
+      "wfo": "MLB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.25,
+      "magnitude_qualifier": null,
+      "city": "5 S Bayside Lakes",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Weather Underground site KFLPALMB916.",
+      "lat": 27.87,
+      "lon": -80.67,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604070026",
+      "wfo": "MLB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.65,
+      "magnitude_qualifier": null,
+      "city": "6 S Bayside Lakes",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Weather Underground site KFLPALMB671.",
+      "lat": 27.87,
+      "lon": -80.65,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604070027",
+      "wfo": "MLB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.64,
+      "magnitude_qualifier": null,
+      "city": "2 S Bayside Lakes",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Weather Underground site KFLPALMB480.",
+      "lat": 27.92,
+      "lon": -80.67,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604070028",
+      "wfo": "MLB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.37,
+      "magnitude_qualifier": null,
+      "city": "3 SE Bayside Lakes",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Weather Underground site KFLPALMB741.",
+      "lat": 27.92,
+      "lon": -80.63,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604091523",
+      "wfo": "MLB",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Tradition",
+      "county": "St. Lucie",
+      "state": "FL",
+      "source": "Local Official",
+      "remark": "City of Port St Lucie social media reports traffic at SW Rutland Street and SW Fairgreen Road is being re-routed around Rutland due to standing water. Fairgreen is reportedly closed to traffic for th",
+      "lat": 27.29,
+      "lon": -80.43,
+      "ugc": "FLC111",
+      "ugc_name": "St. Lucie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141705",
+      "wfo": "MLB",
+      "report_type": "RIP CURRENTS",
+      "event_category": "marine",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Cocoa Beach",
+      "county": "AMZ552",
+      "state": "FL",
+      "source": "Fire Dept/Rescue",
+      "remark": "*** 2 FATAL_ 1 INJ *** Brevard County Ocean Rescue reports two rip currentrelated fatalities earlier today around 1:00 p.m. in Cocoa Beach. According to local media_ a woman in her 30s entered the w",
+      "lat": 28.31,
+      "lon": -80.61,
+      "ugc": "AMZ552",
+      "ugc_name": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604252344",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Melbourne",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "Melbourne International Airport measured a peak wind gust of 40MPH/35KT from the south at 7:44 PM.",
+      "lat": 28.1,
+      "lon": -80.65,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "MLB",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:24Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=MLB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for MLB",
+            "url": "https://api.weather.gov/products/types/LSR/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for MLB",
+            "url": "https://api.weather.gov/products/types/PNS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for MLB",
+            "url": "https://api.weather.gov/products/types/TOR/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for MLB",
+            "url": "https://api.weather.gov/products/types/SVR/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for MLB",
+            "url": "https://api.weather.gov/products/types/SVS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for MLB",
+            "url": "https://api.weather.gov/products/types/SPS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for MLB",
+            "url": "https://api.weather.gov/products/types/WCN/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for MLB",
+            "url": "https://api.weather.gov/products/types/FFW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for MLB",
+            "url": "https://api.weather.gov/products/types/FFS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MLB",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for MLB",
+            "url": "https://api.weather.gov/products/types/FLW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MLB",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for MLB",
+            "url": "https://api.weather.gov/products/types/RVS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for MLB",
+            "url": "https://api.weather.gov/products/types/ESF/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for MLB",
+            "url": "https://api.weather.gov/products/types/SMW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for MLB",
+            "url": "https://api.weather.gov/products/types/MWS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for MLB",
+            "url": "https://api.weather.gov/products/types/MWW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for MLB",
+            "url": "https://api.weather.gov/products/types/CFW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for MLB",
+            "url": "https://api.weather.gov/products/types/CWF/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for MLB",
+            "url": "https://api.weather.gov/products/types/HLS/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for MLB",
+            "url": "https://api.weather.gov/products/types/NPW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for MLB",
+            "url": "https://api.weather.gov/products/types/WSW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for MLB",
+            "url": "https://api.weather.gov/products/types/RFW/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for MLB",
+            "url": "https://api.weather.gov/products/types/DGT/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for MLB",
+            "url": "https://api.weather.gov/products/types/HWO/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for MLB",
+            "url": "https://api.weather.gov/products/types/AFD/locations/MLB",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

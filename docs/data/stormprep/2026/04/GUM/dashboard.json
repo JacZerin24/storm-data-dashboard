@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "GUM",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:57Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "GUM",
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
+    "candidate_report_counts": {
+      "flooding": 6,
+      "other": 13,
+      "thunderstorm_wind": 5
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 4,
+      "NON-TSTM WND DMG": 1,
+      "NON-TSTM WND GST": 4,
+      "RAIN": 2,
+      "STORM SURGE": 2,
+      "TROPICAL CYCLONE": 11
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GUM-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604132354",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Dandan",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Official NWS Obs",
+      "remark": null,
+      "lat": 15.12,
+      "lon": 145.73,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140026",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "45 E Sinapalu",
+      "county": "PMZ152",
+      "state": "MP",
+      "source": "Buoy",
+      "remark": "SOFAR Buoy at 12:26 AM ChST on April 14th measured 12.6m (41.34 feet) at coordinates 14.175N 146.4787E.",
+      "lat": 14.18,
+      "lon": 145.9,
+      "ugc": "PMZ152",
+      "ugc_name": "Rota Coastal Waters",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140100",
+      "wfo": "GUM",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 67.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Apra Harbor",
+      "county": "PMZ151",
+      "state": "GU",
+      "source": "Buoy",
+      "remark": "Apra Harbor.",
+      "lat": 13.44,
+      "lon": 144.66,
+      "ugc": "PMZ151",
+      "ugc_name": "Guam Coastal Waters",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140100",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Apra Harbor",
+      "county": "PMZ151",
+      "state": "GU",
+      "source": "Buoy",
+      "remark": "Corrects previous non-tstm wnd gst report from 1 NNE Apra Harbor. Apra Harbor.",
+      "lat": 13.44,
+      "lon": 144.66,
+      "ugc": "PMZ151",
+      "ugc_name": "Guam Coastal Waters",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140542",
+      "wfo": "GUM",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 88.0,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Tiyan",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Official NWS Obs",
+      "remark": "Peak wind gust.",
+      "lat": 13.49,
+      "lon": 144.8,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140542",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Tiyan",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Official NWS Obs",
+      "remark": "Corrects previous non-tstm wnd gst report from 1 ENE Tiyan. Peak wind gust.",
+      "lat": 13.49,
+      "lon": 144.8,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140605",
+      "wfo": "GUM",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 81.0,
+      "magnitude_qualifier": null,
+      "city": "1 N Andersen Afb",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Other Federal",
+      "remark": "Andersen AFB observation.",
+      "lat": 13.58,
+      "lon": 144.92,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140605",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Andersen Afb",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Official NWS Obs",
+      "remark": "Corrects previous non-tstm wnd gst report from 1 N Andersen Afb. Andersen AFB observation.",
+      "lat": 13.58,
+      "lon": 144.92,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140735",
+      "wfo": "GUM",
+      "report_type": "STORM SURGE",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Maite",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": "1 to 3 feet of storm surge onto Marine Corps. Drive per NWS employee.",
+      "lat": 13.48,
+      "lon": 144.76,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140735",
+      "wfo": "GUM",
+      "report_type": "STORM SURGE",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Maite",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": "1 to 3 feet of storm surge onto Marine Corps. Report via NWS employee.",
+      "lat": 13.48,
+      "lon": 144.76,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140745",
+      "wfo": "GUM",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Maite",
+      "county": "Guam",
+      "state": "GU",
+      "source": "NWS Storm Survey",
+      "remark": "NWS employee enroute to the office reported an ambulance traversing water estimated to be 1 foot deep in the far right lane (eastbound) of a 7 lane road (Marine Corps. Drive). Debris on the road with",
+      "lat": 13.48,
+      "lon": 144.76,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140745",
+      "wfo": "GUM",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Maite",
+      "county": "Guam",
+      "state": "GU",
+      "source": "NWS Storm Survey",
+      "remark": "NWS employee enroute to the office reported an ambulance traversing water estimated to be 1 foot deep in the far right lane (eastbound) of a 7-lane road (Marine Corps. Drive). Debris on the road with",
+      "lat": 13.48,
+      "lon": 144.76,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604140915",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Tamuning",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": "Public observation for site KGUTAMUN1.",
+      "lat": 13.5,
+      "lon": 144.78,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141158",
+      "wfo": "GUM",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 130.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Dandan",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Official NWS Obs",
+      "remark": "Western Eyewall made landfall on Tinian and Saipan at 09:34 ChST.",
+      "lat": 15.12,
+      "lon": 145.73,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141158",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Dandan",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Official NWS Obs",
+      "remark": "Corrects previous non-tstm wnd gst report from 1 SSW Dandan. Western Eyewall made landfall on Tinian and Saipan at 09:34 ChST.",
+      "lat": 15.12,
+      "lon": 145.73,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141221",
+      "wfo": "GUM",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Gualo Rai",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Public",
+      "remark": "Flooding several feet deep.",
+      "lat": 15.19,
+      "lon": 145.72,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141230",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NW Garapan",
+      "county": "PMZ154",
+      "state": "MP",
+      "source": "Buoy",
+      "remark": "The Tanapag Buoy shows seas of 28.2 feet as of 10:30 PM ChST. No observations observed since then. Buoy penetrated eye wall and was in the northern part of the eye per satellite imagery and Doppler r",
+      "lat": 15.27,
+      "lon": 145.66,
+      "ugc": "PMZ154",
+      "ugc_name": "Saipan Coastal Waters",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141240",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Toto",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Official NWS Obs",
+      "remark": "Corrects previous non-tstm wnd dmg report from 1 NNW Toto. Utility lines down at 125 W. Malate St.",
+      "lat": 13.47,
+      "lon": 144.78,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141240",
+      "wfo": "GUM",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Toto",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Official NWS Obs",
+      "remark": "Utility lines down at 125 W. Malate St.",
+      "lat": 13.47,
+      "lon": 144.78,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141256",
+      "wfo": "GUM",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Gualo Rai",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Public",
+      "remark": "Flooding up to the bumpers of mid-sized cars. Video via social media.",
+      "lat": 15.19,
+      "lon": 145.72,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141337",
+      "wfo": "GUM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 11.64,
+      "magnitude_qualifier": null,
+      "city": "1 SE Ordot",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": null,
+      "lat": 13.44,
+      "lon": 144.78,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141359",
+      "wfo": "GUM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 6.58,
+      "magnitude_qualifier": null,
+      "city": "Tiyan",
+      "county": "Guam",
+      "state": "GU",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 13.48,
+      "lon": 144.79,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141507",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Andersen AFB",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Other Federal",
+      "remark": "PK WND 25074/07 (1:07 AM ChST)...which translates to 84 mph. wind gust from the WSW.",
+      "lat": 13.58,
+      "lon": 144.92,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604141715",
+      "wfo": "GUM",
+      "report_type": "TROPICAL CYCLONE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S San Roque",
+      "county": "Saipan",
+      "state": "MP",
+      "source": "Public",
+      "remark": "Wireless Ridge pressure of 27.20 IN./921.12 mb.",
+      "lat": 15.23,
+      "lon": 145.77,
+      "ugc": "MPC110",
+      "ugc_name": "Saipan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "GUM",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:57Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for GUM",
+            "url": "https://api.weather.gov/products/types/LSR/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for GUM",
+            "url": "https://api.weather.gov/products/types/PNS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for GUM",
+            "url": "https://api.weather.gov/products/types/TOR/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for GUM",
+            "url": "https://api.weather.gov/products/types/SVR/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for GUM",
+            "url": "https://api.weather.gov/products/types/SVS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for GUM",
+            "url": "https://api.weather.gov/products/types/SPS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for GUM",
+            "url": "https://api.weather.gov/products/types/WCN/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for GUM",
+            "url": "https://api.weather.gov/products/types/FFW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for GUM",
+            "url": "https://api.weather.gov/products/types/FFS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for GUM",
+            "url": "https://api.weather.gov/products/types/FLS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for GUM",
+            "url": "https://api.weather.gov/products/types/FLW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for GUM",
+            "url": "https://api.weather.gov/products/types/FLS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for GUM",
+            "url": "https://api.weather.gov/products/types/RVS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for GUM",
+            "url": "https://api.weather.gov/products/types/ESF/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for GUM",
+            "url": "https://api.weather.gov/products/types/SMW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for GUM",
+            "url": "https://api.weather.gov/products/types/MWS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for GUM",
+            "url": "https://api.weather.gov/products/types/MWW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for GUM",
+            "url": "https://api.weather.gov/products/types/CFW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for GUM",
+            "url": "https://api.weather.gov/products/types/CWF/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for GUM",
+            "url": "https://api.weather.gov/products/types/HLS/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for GUM",
+            "url": "https://api.weather.gov/products/types/NPW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for GUM",
+            "url": "https://api.weather.gov/products/types/WSW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for GUM",
+            "url": "https://api.weather.gov/products/types/RFW/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for GUM",
+            "url": "https://api.weather.gov/products/types/DGT/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for GUM",
+            "url": "https://api.weather.gov/products/types/HWO/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for GUM",
+            "url": "https://api.weather.gov/products/types/AFD/locations/GUM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "BMX",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:27Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "BMX",
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
+    "candidate_report_counts": {
+      "hail": 6,
+      "thunderstorm_wind": 12
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 6,
+      "TSTM WND DMG": 12
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=BMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BMX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604250204",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Kinterbish",
+      "county": "Sumter",
+      "state": "AL",
+      "source": "Emergency Mngr",
+      "remark": "Trees reported down near Kinterbish in Sumter County. Time and location approximate.",
+      "lat": 32.33,
+      "lon": -88.31,
+      "ugc": "ALC119",
+      "ugc_name": "Sumter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604250209",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Kinterbish",
+      "county": "Sumter",
+      "state": "AL",
+      "source": "Emergency Mngr",
+      "remark": "Trees reported down along CR10 in Sumter County. Time and location approximate.",
+      "lat": 32.34,
+      "lon": -88.29,
+      "ugc": "ALC119",
+      "ugc_name": "Sumter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604250217",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Ward",
+      "county": "Sumter",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "A tree was downed on Sumter County Rd 9 near Highway 17. Time estimated by radar.",
+      "lat": 32.43,
+      "lon": -88.27,
+      "ugc": "ALC119",
+      "ugc_name": "Sumter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281528",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Vernon",
+      "county": "Lamar",
+      "state": "AL",
+      "source": "Broadcast Media",
+      "remark": "Quarter size hail in Vernon.",
+      "lat": 33.76,
+      "lon": -88.11,
+      "ugc": "ALC075",
+      "ugc_name": "Lamar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281531",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Vernon",
+      "county": "Lamar",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Numerous photos of quarter size hail across Vernon. Time estimated from radar.",
+      "lat": 33.75,
+      "lon": -88.11,
+      "ugc": "ALC075",
+      "ugc_name": "Lamar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281551",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Detroit",
+      "county": "Lamar",
+      "state": "AL",
+      "source": "Broadcast Media",
+      "remark": "Nickel size hail in Detroit.",
+      "lat": 34.03,
+      "lon": -88.17,
+      "ugc": "ALC075",
+      "ugc_name": "Lamar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281600",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.7,
+      "magnitude_qualifier": null,
+      "city": "Alexander City",
+      "county": "Tallapoosa",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Dime size hail in Alexander City.",
+      "lat": 32.94,
+      "lon": -85.95,
+      "ugc": "ALC123",
+      "ugc_name": "Tallapoosa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281617",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Pea Ridge",
+      "county": "Marion",
+      "state": "AL",
+      "source": "Fire Dept/Rescue",
+      "remark": "At least quarter size hail covering roads in Pea Ridge_ near County Road 42 and County Road 37.",
+      "lat": 34.08,
+      "lon": -87.9,
+      "ugc": "ALC093",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281621",
+      "wfo": "BMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Pearces Mill",
+      "county": "Marion",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Social media reports of quarter size hail near Pearces Mill. Time estimated from radar.",
+      "lat": 34.12,
+      "lon": -87.84,
+      "ugc": "ALC093",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604281633",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Delmar",
+      "county": "Winston",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Various reports of trees down across the Delmer community. Time estimated from radar. Corrected to change time.",
+      "lat": 34.14,
+      "lon": -87.61,
+      "ugc": "ALC133",
+      "ugc_name": "Winston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604282005",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Hamilton",
+      "county": "Marion",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "Several reports of trees down across and east of Hamilton. Time estimated from radar.",
+      "lat": 34.14,
+      "lon": -87.98,
+      "ugc": "ALC093",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290416",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Byrd",
+      "county": "Marion",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "Various reports across western Marion county of trees down. Time estimated from radar.",
+      "lat": 34.1,
+      "lon": -88.15,
+      "ugc": "ALC093",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290433",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Delmar",
+      "county": "Winston",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Various reports of trees down across the Delmer community.",
+      "lat": 34.14,
+      "lon": -87.61,
+      "ugc": "ALC133",
+      "ugc_name": "Winston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290509",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Richard Arthur Fi",
+      "county": "Fayette",
+      "state": "AL",
+      "source": "Emergency Mngr",
+      "remark": "A tin roof was blown off a concession stand at Guthrie Smith Park. Some concrete blocks were blown off the second floor of the structure. Time estimated from radar.",
+      "lat": 33.72,
+      "lon": -87.81,
+      "ugc": "ALC057",
+      "ugc_name": "Fayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290509",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Fayette",
+      "county": "Fayette",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Various reports of trees down along Highway 18 in Fayette. Time estimated from radar.",
+      "lat": 33.68,
+      "lon": -87.83,
+      "ugc": "ALC057",
+      "ugc_name": "Fayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290539",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Parrish",
+      "county": "Walker",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Various reports of trees down across the Parrish community. Time estimated by radar.",
+      "lat": 33.73,
+      "lon": -87.25,
+      "ugc": "ALC127",
+      "ugc_name": "Walker",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604290620",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Shannon",
+      "county": "Jefferson",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Large tree down on Shannon Road near Bessemer. Time estimated from radar.",
+      "lat": 33.4,
+      "lon": -86.9,
+      "ugc": "ALC073",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300315",
+      "wfo": "BMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Irondale",
+      "county": "Jefferson",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Several trees were knocked down around a cul-de-sac on Stonehenge place with a couple falling on homes.",
+      "lat": 33.53,
+      "lon": -86.68,
+      "ugc": "ALC073",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "BMX",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:27Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=BMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for BMX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for BMX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for BMX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for BMX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for BMX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for BMX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for BMX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for BMX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for BMX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for BMX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for BMX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for BMX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for BMX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for BMX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for BMX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for BMX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for BMX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for BMX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for BMX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for BMX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for BMX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for BMX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for BMX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for BMX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for BMX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for BMX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/BMX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

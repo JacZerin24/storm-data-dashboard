@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "AFC",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:19Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "AFC",
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
+    "candidate_report_counts": {
+      "winter": 6
+    },
+    "candidate_report_type_counts": {
+      "ICE JAM": 1,
+      "SNOW": 5
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=AFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-AFC-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604121806",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 3.0,
+      "magnitude_qualifier": null,
+      "city": "9 SE Anchorage",
+      "county": "Anchorage",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "Storm-total snowfall. Currently 30 degrees. Very wet snow.",
+      "lat": 61.1,
+      "lon": -149.72,
+      "ugc": "AKC020",
+      "ugc_name": "Anchorage",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604122334",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "Anchorage (Potter Valle",
+      "county": "Anchorage",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "Storm total snowfall. 0.37 inches of liquid water equivalent.",
+      "lat": 61.06,
+      "lon": -149.76,
+      "ugc": "AKC020",
+      "ugc_name": "Anchorage",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604181845",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "5 E Valdez",
+      "county": "Chugach",
+      "state": "AK",
+      "source": "CO-OP Observer",
+      "remark": "Snow water equivalent of 0.67 inches.",
+      "lat": 61.11,
+      "lon": -146.22,
+      "ugc": "AKC063",
+      "ugc_name": "Chugach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604190000",
+      "wfo": "AFC",
+      "report_type": "ICE JAM",
+      "event_category": "winter",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Anchor Point",
+      "county": "Kenai Peninsula",
+      "state": "AK",
+      "source": "Public",
+      "remark": "Ice jam formed on Anchor River between 3 and 4 pm AKDT. Water is at the edge of the bike path near the Old Sterling Highway bridge.",
+      "lat": 59.77,
+      "lon": -151.84,
+      "ugc": "AKC122",
+      "ugc_name": "Kenai Peninsula",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604192308",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 0.8,
+      "magnitude_qualifier": null,
+      "city": "5 E Valdez",
+      "county": "Chugach",
+      "state": "AK",
+      "source": "CO-OP Observer",
+      "remark": null,
+      "lat": 61.11,
+      "lon": -146.22,
+      "ugc": "AKC063",
+      "ugc_name": "Chugach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604201520",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 9.6,
+      "magnitude_qualifier": null,
+      "city": "Valdez",
+      "county": "Chugach",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "9.6 in of snow_ 1.02 in of SWE.",
+      "lat": 61.11,
+      "lon": -146.22,
+      "ugc": "AKC063",
+      "ugc_name": "Chugach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "AFC",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:19Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=AFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for AFC",
+            "url": "https://api.weather.gov/products/types/LSR/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for AFC",
+            "url": "https://api.weather.gov/products/types/PNS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for AFC",
+            "url": "https://api.weather.gov/products/types/TOR/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for AFC",
+            "url": "https://api.weather.gov/products/types/SVR/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for AFC",
+            "url": "https://api.weather.gov/products/types/SVS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for AFC",
+            "url": "https://api.weather.gov/products/types/SPS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for AFC",
+            "url": "https://api.weather.gov/products/types/WCN/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for AFC",
+            "url": "https://api.weather.gov/products/types/FFW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for AFC",
+            "url": "https://api.weather.gov/products/types/FFS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for AFC",
+            "url": "https://api.weather.gov/products/types/FLS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for AFC",
+            "url": "https://api.weather.gov/products/types/FLW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for AFC",
+            "url": "https://api.weather.gov/products/types/FLS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for AFC",
+            "url": "https://api.weather.gov/products/types/RVS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for AFC",
+            "url": "https://api.weather.gov/products/types/ESF/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for AFC",
+            "url": "https://api.weather.gov/products/types/SMW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for AFC",
+            "url": "https://api.weather.gov/products/types/MWS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for AFC",
+            "url": "https://api.weather.gov/products/types/MWW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for AFC",
+            "url": "https://api.weather.gov/products/types/CFW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for AFC",
+            "url": "https://api.weather.gov/products/types/CWF/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for AFC",
+            "url": "https://api.weather.gov/products/types/HLS/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for AFC",
+            "url": "https://api.weather.gov/products/types/NPW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for AFC",
+            "url": "https://api.weather.gov/products/types/WSW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for AFC",
+            "url": "https://api.weather.gov/products/types/RFW/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for AFC",
+            "url": "https://api.weather.gov/products/types/DGT/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for AFC",
+            "url": "https://api.weather.gov/products/types/HWO/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for AFC",
+            "url": "https://api.weather.gov/products/types/AFD/locations/AFC",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

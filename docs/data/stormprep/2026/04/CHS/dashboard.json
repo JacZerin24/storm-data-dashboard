@@ -1,0 +1,646 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "CHS",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:35Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "CHS",
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
+    "candidate_report_counts": {
+      "fire_smoke": 1,
+      "flooding": 4,
+      "hail": 3,
+      "other": 8,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "COASTAL FLOOD": 4,
+      "HAIL": 3,
+      "RAIN": 8,
+      "TSTM WND GST": 1,
+      "WILDFIRE": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CHS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=CHS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CHS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-CHS-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031813",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.42,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Rincon",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located along Saddleclub Way.",
+      "lat": 32.23,
+      "lon": -81.28,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031814",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.88,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Meinhard",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located near South Effingham Elementary School.",
+      "lat": 32.21,
+      "lon": -81.28,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031815",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.82,
+      "magnitude_qualifier": null,
+      "city": "2 NE Bloomingdale",
+      "county": "Chatham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located along Champlain Drive.",
+      "lat": 32.15,
+      "lon": -81.28,
+      "ugc": "GAC051",
+      "ugc_name": "Chatham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031815",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.69,
+      "magnitude_qualifier": null,
+      "city": "2 N Bloomingdale",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "A home weather station located off Godley Road has measured 3.69 inches of rain with nearly all of that falling since 12:30 pm.",
+      "lat": 32.17,
+      "lon": -81.3,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031900",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.06,
+      "magnitude_qualifier": null,
+      "city": "2 NE Bloomingdale",
+      "county": "Chatham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located along Champlain Drive. Update to previous report.",
+      "lat": 32.15,
+      "lon": -81.28,
+      "ugc": "GAC051",
+      "ugc_name": "Chatham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031900",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.28,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Meinhard",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located near South Effingham Elementary School. Update to previous report.",
+      "lat": 32.21,
+      "lon": -81.28,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031900",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.5,
+      "magnitude_qualifier": null,
+      "city": "2 NE Bloomingdale",
+      "county": "Chatham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Home weather station located along Tahoe Drive.",
+      "lat": 32.15,
+      "lon": -81.27,
+      "ugc": "GAC051",
+      "ugc_name": "Chatham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604031900",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.11,
+      "magnitude_qualifier": null,
+      "city": "2 N Bloomingdale",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Public",
+      "remark": "A home weather station located off Godley Road has measured more than 4 inches of rain since 12:30 pm. Update to previous report.",
+      "lat": 32.17,
+      "lon": -81.3,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604052018",
+      "wfo": "CHS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "4 NW Pritchardville",
+      "county": "Jasper",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "Trained Storm Spotter reported pea-sized hail at the corner of Beachcomber Blvd and Tiki Terrace.",
+      "lat": 32.28,
+      "lon": -81.0,
+      "ugc": "SCC053",
+      "ugc_name": "Jasper",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604190148",
+      "wfo": "CHS",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Charleston",
+      "county": "Charleston",
+      "state": "SC",
+      "source": "Other Federal",
+      "remark": "A maximum tide level of 7.37 ft MLLW (1.61 ft MHHW) was observed at the Charleston Harbor tide gage. Shallow Coastal Flooding typically begins along the coasts of Charleston and Colleton counties whe",
+      "lat": 32.78,
+      "lon": -79.93,
+      "ugc": "SCC019",
+      "ugc_name": "Charleston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604200236",
+      "wfo": "CHS",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Charleston",
+      "county": "Charleston",
+      "state": "SC",
+      "source": "Other Federal",
+      "remark": "CHTS1 Minor Coastal Flooding: A maximum tide level of 7.25 ft MLLW (1.48 ft MHHW) was observed at the Charleston Harbor tide gage. Shallow Coastal Flooding typically begins along the coasts of Charle",
+      "lat": 32.78,
+      "lon": -79.93,
+      "ugc": "SCC019",
+      "ugc_name": "Charleston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604201720",
+      "wfo": "CHS",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": 149.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Egypt",
+      "county": "Effingham",
+      "state": "GA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Effingham County Fire Rescue indicated a wildfire that began yesterday around 120 PM was 100% contained this afternoon. A barn and pine tree farm was lost in the fire. No injuries reported.",
+      "lat": 32.45,
+      "lon": -81.45,
+      "ugc": "GAC103",
+      "ugc_name": "Effingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604210324",
+      "wfo": "CHS",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Charleston",
+      "county": "Charleston",
+      "state": "SC",
+      "source": "Other Federal",
+      "remark": "A maximum tide level of 7.3 ft MLLW (1.54 ft MHHW) was observed at the Charleston Harbor tide gage. Shallow Coastal Flooding typically begins along the coasts of Charleston and Colleton counties when",
+      "lat": 32.78,
+      "lon": -79.93,
+      "ugc": "SCC019",
+      "ugc_name": "Charleston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604220412",
+      "wfo": "CHS",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Charleston",
+      "county": "Charleston",
+      "state": "SC",
+      "source": "Other Federal",
+      "remark": "CHTS1 Minor Coastal Flooding: A maximum tide level of 7.07 ft MLLW (1.3 ft MHHW) was observed at the Charleston Harbor tide gage. Shallow Coastal Flooding typically begins along the coasts of Charles",
+      "lat": 32.78,
+      "lon": -79.93,
+      "ugc": "SCC019",
+      "ugc_name": "Charleston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604301136",
+      "wfo": "CHS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Cainhoy",
+      "county": "Berkeley",
+      "state": "SC",
+      "source": "Public",
+      "remark": "The National Weather Service received a picture showing hail to the size of quarters near Cainhoy. Most of the hail was smaller_ but a few pieces to quarter size were mixed in at times. Time estimate",
+      "lat": 32.92,
+      "lon": -79.86,
+      "ugc": "SCC015",
+      "ugc_name": "Berkeley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604301146",
+      "wfo": "CHS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 W Cainhoy",
+      "county": "Berkeley",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "A trained spotter relayed images of pea size hail near the Wando area. The hail fell for about 4 minutes.",
+      "lat": 32.93,
+      "lon": -79.85,
+      "ugc": "SCC015",
+      "ugc_name": "Berkeley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604301200",
+      "wfo": "CHS",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Moncks Corner",
+      "county": "Berkeley",
+      "state": "SC",
+      "source": "Official NWS Obs",
+      "remark": null,
+      "lat": 33.25,
+      "lon": -80.04,
+      "ugc": "SCC015",
+      "ugc_name": "Berkeley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "CHS",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:35Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=CHS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for CHS",
+            "url": "https://api.weather.gov/products/types/LSR/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for CHS",
+            "url": "https://api.weather.gov/products/types/PNS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for CHS",
+            "url": "https://api.weather.gov/products/types/TOR/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for CHS",
+            "url": "https://api.weather.gov/products/types/SVR/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for CHS",
+            "url": "https://api.weather.gov/products/types/SVS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for CHS",
+            "url": "https://api.weather.gov/products/types/SPS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for CHS",
+            "url": "https://api.weather.gov/products/types/WCN/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for CHS",
+            "url": "https://api.weather.gov/products/types/FFW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for CHS",
+            "url": "https://api.weather.gov/products/types/FFS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for CHS",
+            "url": "https://api.weather.gov/products/types/FLS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for CHS",
+            "url": "https://api.weather.gov/products/types/FLW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for CHS",
+            "url": "https://api.weather.gov/products/types/FLS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for CHS",
+            "url": "https://api.weather.gov/products/types/RVS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for CHS",
+            "url": "https://api.weather.gov/products/types/ESF/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for CHS",
+            "url": "https://api.weather.gov/products/types/SMW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for CHS",
+            "url": "https://api.weather.gov/products/types/MWS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for CHS",
+            "url": "https://api.weather.gov/products/types/MWW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for CHS",
+            "url": "https://api.weather.gov/products/types/CFW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for CHS",
+            "url": "https://api.weather.gov/products/types/CWF/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for CHS",
+            "url": "https://api.weather.gov/products/types/HLS/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for CHS",
+            "url": "https://api.weather.gov/products/types/NPW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for CHS",
+            "url": "https://api.weather.gov/products/types/WSW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for CHS",
+            "url": "https://api.weather.gov/products/types/RFW/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for CHS",
+            "url": "https://api.weather.gov/products/types/DGT/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for CHS",
+            "url": "https://api.weather.gov/products/types/HWO/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for CHS",
+            "url": "https://api.weather.gov/products/types/AFD/locations/CHS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

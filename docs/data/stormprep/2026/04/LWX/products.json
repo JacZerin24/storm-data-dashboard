@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "wfo": "LWX",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:18Z"
+  },
+  "primary_links": [
+    {
+      "label": "IEM Local Storm Reports CSV used by this build",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+      "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+    },
+    {
+      "label": "IEM NWS text product archive search",
+      "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+      "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+    },
+    {
+      "label": "NWS API alerts query used by this build",
+      "url": "https://api.weather.gov/alerts?office=LWX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+      "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+    }
+  ],
+  "product_groups": [
+    {
+      "group": "Local storm reports and public statements",
+      "pils": [
+        "LSR",
+        "PNS"
+      ],
+      "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+      "links": [
+        {
+          "pil": "LSR",
+          "label": "Recent NWS API LSR products for LWX",
+          "url": "https://api.weather.gov/products/types/LSR/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "PNS",
+          "label": "Recent NWS API PNS products for LWX",
+          "url": "https://api.weather.gov/products/types/PNS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Convective warnings and statements",
+      "pils": [
+        "TOR",
+        "SVR",
+        "SVS",
+        "SPS",
+        "WCN"
+      ],
+      "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+      "links": [
+        {
+          "pil": "TOR",
+          "label": "Recent NWS API TOR products for LWX",
+          "url": "https://api.weather.gov/products/types/TOR/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SVR",
+          "label": "Recent NWS API SVR products for LWX",
+          "url": "https://api.weather.gov/products/types/SVR/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SVS",
+          "label": "Recent NWS API SVS products for LWX",
+          "url": "https://api.weather.gov/products/types/SVS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SPS",
+          "label": "Recent NWS API SPS products for LWX",
+          "url": "https://api.weather.gov/products/types/SPS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "WCN",
+          "label": "Recent NWS API WCN products for LWX",
+          "url": "https://api.weather.gov/products/types/WCN/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Flood and hydro products",
+      "pils": [
+        "FFW",
+        "FFS",
+        "FLS",
+        "FLW",
+        "FLS",
+        "RVS",
+        "ESF"
+      ],
+      "purpose": "Flash flood, flood, river, and hydrologic context.",
+      "links": [
+        {
+          "pil": "FFW",
+          "label": "Recent NWS API FFW products for LWX",
+          "url": "https://api.weather.gov/products/types/FFW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FFS",
+          "label": "Recent NWS API FFS products for LWX",
+          "url": "https://api.weather.gov/products/types/FFS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FLS",
+          "label": "Recent NWS API FLS products for LWX",
+          "url": "https://api.weather.gov/products/types/FLS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FLW",
+          "label": "Recent NWS API FLW products for LWX",
+          "url": "https://api.weather.gov/products/types/FLW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FLS",
+          "label": "Recent NWS API FLS products for LWX",
+          "url": "https://api.weather.gov/products/types/FLS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "RVS",
+          "label": "Recent NWS API RVS products for LWX",
+          "url": "https://api.weather.gov/products/types/RVS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "ESF",
+          "label": "Recent NWS API ESF products for LWX",
+          "url": "https://api.weather.gov/products/types/ESF/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Marine and coastal products",
+      "pils": [
+        "SMW",
+        "MWS",
+        "MWW",
+        "CFW",
+        "CWF",
+        "HLS"
+      ],
+      "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+      "links": [
+        {
+          "pil": "SMW",
+          "label": "Recent NWS API SMW products for LWX",
+          "url": "https://api.weather.gov/products/types/SMW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "MWS",
+          "label": "Recent NWS API MWS products for LWX",
+          "url": "https://api.weather.gov/products/types/MWS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "MWW",
+          "label": "Recent NWS API MWW products for LWX",
+          "url": "https://api.weather.gov/products/types/MWW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "CFW",
+          "label": "Recent NWS API CFW products for LWX",
+          "url": "https://api.weather.gov/products/types/CFW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "CWF",
+          "label": "Recent NWS API CWF products for LWX",
+          "url": "https://api.weather.gov/products/types/CWF/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "HLS",
+          "label": "Recent NWS API HLS products for LWX",
+          "url": "https://api.weather.gov/products/types/HLS/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Non-convective, winter, heat/cold, and fire products",
+      "pils": [
+        "NPW",
+        "WSW",
+        "RFW",
+        "DGT",
+        "HWO",
+        "AFD"
+      ],
+      "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+      "links": [
+        {
+          "pil": "NPW",
+          "label": "Recent NWS API NPW products for LWX",
+          "url": "https://api.weather.gov/products/types/NPW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "WSW",
+          "label": "Recent NWS API WSW products for LWX",
+          "url": "https://api.weather.gov/products/types/WSW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "RFW",
+          "label": "Recent NWS API RFW products for LWX",
+          "url": "https://api.weather.gov/products/types/RFW/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "DGT",
+          "label": "Recent NWS API DGT products for LWX",
+          "url": "https://api.weather.gov/products/types/DGT/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "HWO",
+          "label": "Recent NWS API HWO products for LWX",
+          "url": "https://api.weather.gov/products/types/HWO/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "AFD",
+          "label": "Recent NWS API AFD products for LWX",
+          "url": "https://api.weather.gov/products/types/AFD/locations/LWX",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    }
+  ]
+}

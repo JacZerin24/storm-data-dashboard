@@ -1,0 +1,691 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MTR",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:28Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "MTR",
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
+    "candidate_report_counts": {
+      "flooding": 6,
+      "hail": 1,
+      "marine": 3,
+      "other": 3,
+      "thunderstorm_wind": 5,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 6,
+      "FUNNEL CLOUD": 1,
+      "HAIL": 1,
+      "LANDSLIDE": 1,
+      "MARINE TSTM WIND": 3,
+      "NON-TSTM WND DMG": 2,
+      "NON-TSTM WND GST": 1,
+      "RAIN": 2,
+      "TSTM WND GST": 2
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MTR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=MTR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MTR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MTR-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604112325",
+      "wfo": "MTR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Mill Valley",
+      "county": "Marin",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reports a downed tree blocking all lanes. Soils are saturated with the ongoing rain. Nearby observation stations reported wind gusts up to 45 mph in the area.",
+      "lat": 37.9,
+      "lon": -122.6,
+      "ugc": "CAC041",
+      "ugc_name": "Marin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604112340",
+      "wfo": "MTR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Cotati",
+      "county": "Sonoma",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "California Highway Patrol reports a downed tree blocking westbound lanes on Bodega Ave nearby Middle Two Rock Rd. Locally observed wind gust in Two Rocks was 33 mph at 4:40pm. Soils are saturated wit",
+      "lat": 38.26,
+      "lon": -122.75,
+      "ugc": "CAC097",
+      "ugc_name": "Sonoma",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604112350",
+      "wfo": "MTR",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "13 SW Bolinas",
+      "county": "PZZ571",
+      "state": "CA",
+      "source": "Buoy",
+      "remark": "Buoy 46026 reported a peak wind gust of 44.7 knots (51 mph) at 4:50 PM.",
+      "lat": 37.75,
+      "lon": -122.84,
+      "ugc": "PZZ571",
+      "ugc_name": "Waters from Point Reyes to Pigeon Point 10-60 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120008",
+      "wfo": "MTR",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 12.0,
+      "magnitude_qualifier": null,
+      "city": "2 S Colma",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "Corrects previous rain report from 2 S Colma. CHP reported 1 foot of flooding in all lanes on I-280. Video on social media also shows heavy rain on the highway at 5:40pm.",
+      "lat": 37.65,
+      "lon": -122.45,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120008",
+      "wfo": "MTR",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 24.0,
+      "magnitude_qualifier": null,
+      "city": "2 S Colma",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reported a small amount (2 feet) of flooding. Video on social media also shows heavy rain on the highway at 5:40pm.",
+      "lat": 37.65,
+      "lon": -122.45,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120008",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Colma",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "Corrects previous rain report from 2 S Colma. CHP reported 1 foot of flooding in all lanes on I-280. Video on social media also shows heavy rain on the highway at 5:40pm.",
+      "lat": 37.65,
+      "lon": -122.45,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120026",
+      "wfo": "MTR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 49.0,
+      "magnitude_qualifier": null,
+      "city": "2 NE Millbrae",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "ASOS",
+      "remark": "Corrects previous tstm wnd gst report from 2 NE Millbrae. KSFO reported a peak wind gust (via remarks) of 49 mph (43 knots) at 526 PM.",
+      "lat": 37.62,
+      "lon": -122.38,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120026",
+      "wfo": "MTR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 49.0,
+      "magnitude_qualifier": null,
+      "city": "2 NE Millbrae",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Public",
+      "remark": "KSFO reported a peak wind gust (via remarks) of 49 mph (43 knots) at 526 PM.",
+      "lat": 37.62,
+      "lon": -122.38,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120031",
+      "wfo": "MTR",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Brisbane",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Ambient Weather Network reported a 39mph wind gust at 531pm.",
+      "lat": 37.67,
+      "lon": -122.38,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120050",
+      "wfo": "MTR",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Redwood City",
+      "county": "San Mateo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Redwood City Ambient Weather Network station measured a 39 mph wind gust at 550 PM.",
+      "lat": 37.51,
+      "lon": -122.2,
+      "ugc": "CAC081",
+      "ugc_name": "San Mateo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120101",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Berkeley",
+      "county": "Alameda",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reports 1 foot of flooding on I-580 E off ramp at MacArthur exit.",
+      "lat": 37.83,
+      "lon": -122.29,
+      "ugc": "CAC001",
+      "ugc_name": "Alameda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120104",
+      "wfo": "MTR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 W Walnut Creek",
+      "county": "Contra Costa",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Resident in Walnut Creek reported pea-sized hail via Twitter (X) post.",
+      "lat": 37.9,
+      "lon": -122.06,
+      "ugc": "CAC013",
+      "ugc_name": "Contra Costa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120140",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Piedmont",
+      "county": "Alameda",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reports an estimated 10 inches of flooding on right hand side of WB I-580 nearby the Fruitvale Ave on ramp.",
+      "lat": 37.83,
+      "lon": -122.27,
+      "ugc": "CAC001",
+      "ugc_name": "Alameda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120142",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Live Oak",
+      "county": "Santa Cruz",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reports some standing water on SB Cabrillo Highway near Morrisey Blvd which is causing hydroplane hazards.",
+      "lat": 36.99,
+      "lon": -122.0,
+      "ugc": "CAC087",
+      "ugc_name": "Santa Cruz",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120257",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE West Menlo Park",
+      "county": "Santa Clara",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "Six to eight inches of water were reported on northbound Interstate 280 just south of the Alpine Road interchange.",
+      "lat": 37.41,
+      "lon": -122.19,
+      "ugc": "CAC085",
+      "ugc_name": "Santa Clara",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604162230",
+      "wfo": "MTR",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "7 NNW Calistoga",
+      "county": "Sonoma",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station PG132 Mt St Helena.",
+      "lat": 38.67,
+      "lon": -122.63,
+      "ugc": "CAC097",
+      "ugc_name": "Sonoma",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604210120",
+      "wfo": "MTR",
+      "report_type": "LANDSLIDE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Ben Lomond",
+      "county": "Santa Cruz",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reported 2 big rocks blocking the roadway on SB CA-9 highway.",
+      "lat": 37.11,
+      "lon": -122.11,
+      "ugc": "CAC087",
+      "ugc_name": "Santa Cruz",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604210239",
+      "wfo": "MTR",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Ashland",
+      "county": "Alameda",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "CHP reports flooding in the slow lane on EB I-580 nearby the 164th Ave off ramp.",
+      "lat": 37.7,
+      "lon": -122.11,
+      "ugc": "CAC001",
+      "ugc_name": "Alameda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604211710",
+      "wfo": "MTR",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 N Milpitas",
+      "county": "Alameda",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Social media user on X (formerly Twitter) posted a few pictures of a small funnel cloud in response to one of our posts. Location is approximate but nearby Mission Peak Regional Park. Pictures are al",
+      "lat": 37.5,
+      "lon": -121.91,
+      "ugc": "CAC001",
+      "ugc_name": "Alameda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "MTR",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:29Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=MTR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for MTR",
+            "url": "https://api.weather.gov/products/types/LSR/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for MTR",
+            "url": "https://api.weather.gov/products/types/PNS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for MTR",
+            "url": "https://api.weather.gov/products/types/TOR/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for MTR",
+            "url": "https://api.weather.gov/products/types/SVR/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for MTR",
+            "url": "https://api.weather.gov/products/types/SVS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for MTR",
+            "url": "https://api.weather.gov/products/types/SPS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for MTR",
+            "url": "https://api.weather.gov/products/types/WCN/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for MTR",
+            "url": "https://api.weather.gov/products/types/FFW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for MTR",
+            "url": "https://api.weather.gov/products/types/FFS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MTR",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for MTR",
+            "url": "https://api.weather.gov/products/types/FLW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MTR",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for MTR",
+            "url": "https://api.weather.gov/products/types/RVS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for MTR",
+            "url": "https://api.weather.gov/products/types/ESF/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for MTR",
+            "url": "https://api.weather.gov/products/types/SMW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for MTR",
+            "url": "https://api.weather.gov/products/types/MWS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for MTR",
+            "url": "https://api.weather.gov/products/types/MWW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for MTR",
+            "url": "https://api.weather.gov/products/types/CFW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for MTR",
+            "url": "https://api.weather.gov/products/types/CWF/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for MTR",
+            "url": "https://api.weather.gov/products/types/HLS/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for MTR",
+            "url": "https://api.weather.gov/products/types/NPW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for MTR",
+            "url": "https://api.weather.gov/products/types/WSW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for MTR",
+            "url": "https://api.weather.gov/products/types/RFW/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for MTR",
+            "url": "https://api.weather.gov/products/types/DGT/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for MTR",
+            "url": "https://api.weather.gov/products/types/HWO/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for MTR",
+            "url": "https://api.weather.gov/products/types/AFD/locations/MTR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

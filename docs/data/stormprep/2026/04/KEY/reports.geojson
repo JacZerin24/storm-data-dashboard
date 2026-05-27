@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "KEY",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:09Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-1",
+      "properties": {
+        "report_id": "iem-lsr-KEY-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202604022308",
+        "county_or_zone": "GMZ042",
+        "city": "8 ESE North Key Largo",
+        "state": "FL",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "An easterly wind gust of 44 knots_ or 50 mph_ was recorded by the XCFL WeatherFlow mesonet site at Carysfort Reef Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.21,
+          25.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-2",
+      "properties": {
+        "report_id": "iem-lsr-KEY-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202604022308",
+        "county_or_zone": "GMZ042",
+        "city": "8 ESE North Key Largo",
+        "state": "FL",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "An easterly wind gust of 44 knots_ or 50 mph_ was recorded by the XCFL WeatherFlow mesonet site at Carysfort Reef Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.21,
+          25.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-3",
+      "properties": {
+        "report_id": "iem-lsr-KEY-3",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202604071903",
+        "county_or_zone": "GMZ044",
+        "city": "1 S Cudjoe Key",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "A broadcast meteorologist observed a waterspout offshore of Cudjoe Key. The waterspout was thin_ with a distinct visible spray ring. The waterspout was visible by the observer for at least several mi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5,
+          24.65
+        ]
+      }
+    }
+  ]
+}

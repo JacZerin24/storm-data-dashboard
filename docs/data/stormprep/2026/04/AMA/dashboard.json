@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "AMA",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:22Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "AMA",
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
+    "candidate_report_counts": {
+      "hail": 4,
+      "thunderstorm_wind": 9
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 4,
+      "NON-TSTM WND GST": 4,
+      "TSTM WND GST": 5
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-AMA-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604092333",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "10 ESE Valley de Oro",
+      "county": "Potter",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Wind gust of 59 mph recorded at Mesonet station 82 Amarillo 15NNW.",
+      "lat": 35.42,
+      "lon": -101.93,
+      "ugc": "TXC375",
+      "ugc_name": "Potter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604100109",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "7 E Borger",
+      "county": "Hutchinson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Wind gust of 58 mph measured at Mesonet station 7 miles east of Borger_ TX.",
+      "lat": 35.67,
+      "lon": -101.28,
+      "ugc": "TXC233",
+      "ugc_name": "Hutchinson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604100109",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "7 E Borger",
+      "county": "Hutchinson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Wind gust of 58 mph measured at Mesonet station 7 miles east of Borger_ TX (8:09 PM). Strongest wind gust occurred at 8:29 PM_ at 65 mph.",
+      "lat": 35.67,
+      "lon": -101.28,
+      "ugc": "TXC233",
+      "ugc_name": "Hutchinson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604100121",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Guymon",
+      "county": "Texas",
+      "state": "OK",
+      "source": "ASOS",
+      "remark": "Wind gust of 66 mph recorded at the Guymon Airport ASOS station.",
+      "lat": 36.68,
+      "lon": -101.51,
+      "ugc": "OKC139",
+      "ugc_name": "Texas",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604100630",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "6 E Canadian",
+      "county": "Hemphill",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "A shower collapsed over the mesonet site and produced a severe wind gust. Though the shower was formerly a thunderstorm no convective activity was present during the wind gust event.",
+      "lat": 35.92,
+      "lon": -100.28,
+      "ugc": "TXC211",
+      "ugc_name": "Hemphill",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604102040",
+      "wfo": "AMA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Dalhart",
+      "county": "Dallam",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Penny sized hail accumulating. Picture confirmation received from the Corral RV Park in Dalhart_ TX.",
+      "lat": 36.07,
+      "lon": -102.51,
+      "ugc": "TXC111",
+      "ugc_name": "Dallam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604102046",
+      "wfo": "AMA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Dalhart",
+      "county": "Dallam",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Confirmation of penny sized hail from the Hilmar Cheese Company_ INC in Dalhart.",
+      "lat": 36.09,
+      "lon": -102.5,
+      "ugc": "TXC111",
+      "ugc_name": "Dallam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604102048",
+      "wfo": "AMA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "3 NE Dalhart",
+      "county": "Dallam",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Quarter sized hail falling on highway 54 NE of Dalhart. Public confirmation.",
+      "lat": 36.09,
+      "lon": -102.48,
+      "ugc": "TXC111",
+      "ugc_name": "Dallam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604102110",
+      "wfo": "AMA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "3 SE Dalhart",
+      "county": "Hartley",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Penny sized hail reported reported by public_ confirmed with video.",
+      "lat": 36.03,
+      "lon": -102.48,
+      "ugc": "TXC205",
+      "ugc_name": "Hartley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120207",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Guymon",
+      "county": "Texas",
+      "state": "OK",
+      "source": "ASOS",
+      "remark": "Wind gust of 59 mph measured at the ASOS station KGUY Guymon (ASOS).",
+      "lat": 36.68,
+      "lon": -101.5,
+      "ugc": "OKC139",
+      "ugc_name": "Texas",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604180144",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 69.0,
+      "magnitude_qualifier": null,
+      "city": "3 SW Dalhart",
+      "county": "Hartley",
+      "state": "TX",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 36.02,
+      "lon": -102.55,
+      "ugc": "TXC205",
+      "ugc_name": "Hartley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604180204",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Hereford",
+      "county": "Deaf Smith",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Second consecutive 61 mph gust measured a minute later at 9:05 PM as well.",
+      "lat": 34.83,
+      "lon": -102.42,
+      "ugc": "TXC117",
+      "ugc_name": "Deaf Smith",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604180353",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "6 SE Wellington",
+      "county": "Collingsworth",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "measured at the Wellington 6SE mesonet.",
+      "lat": 34.79,
+      "lon": -100.16,
+      "ugc": "TXC087",
+      "ugc_name": "Collingsworth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "AMA",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:23Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for AMA",
+            "url": "https://api.weather.gov/products/types/LSR/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for AMA",
+            "url": "https://api.weather.gov/products/types/PNS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for AMA",
+            "url": "https://api.weather.gov/products/types/TOR/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for AMA",
+            "url": "https://api.weather.gov/products/types/SVR/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for AMA",
+            "url": "https://api.weather.gov/products/types/SVS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for AMA",
+            "url": "https://api.weather.gov/products/types/SPS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for AMA",
+            "url": "https://api.weather.gov/products/types/WCN/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for AMA",
+            "url": "https://api.weather.gov/products/types/FFW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for AMA",
+            "url": "https://api.weather.gov/products/types/FFS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for AMA",
+            "url": "https://api.weather.gov/products/types/FLS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for AMA",
+            "url": "https://api.weather.gov/products/types/FLW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for AMA",
+            "url": "https://api.weather.gov/products/types/FLS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for AMA",
+            "url": "https://api.weather.gov/products/types/RVS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for AMA",
+            "url": "https://api.weather.gov/products/types/ESF/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for AMA",
+            "url": "https://api.weather.gov/products/types/SMW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for AMA",
+            "url": "https://api.weather.gov/products/types/MWS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for AMA",
+            "url": "https://api.weather.gov/products/types/MWW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for AMA",
+            "url": "https://api.weather.gov/products/types/CFW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for AMA",
+            "url": "https://api.weather.gov/products/types/CWF/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for AMA",
+            "url": "https://api.weather.gov/products/types/HLS/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for AMA",
+            "url": "https://api.weather.gov/products/types/NPW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for AMA",
+            "url": "https://api.weather.gov/products/types/WSW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for AMA",
+            "url": "https://api.weather.gov/products/types/RFW/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for AMA",
+            "url": "https://api.weather.gov/products/types/DGT/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for AMA",
+            "url": "https://api.weather.gov/products/types/HWO/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for AMA",
+            "url": "https://api.weather.gov/products/types/AFD/locations/AMA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

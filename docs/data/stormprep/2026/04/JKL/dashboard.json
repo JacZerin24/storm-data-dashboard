@@ -1,0 +1,660 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "JKL",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:09Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "JKL",
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
+    "candidate_report_counts": {
+      "hail": 8,
+      "thunderstorm_wind": 10
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 8,
+      "TSTM WND DMG": 10
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=JKL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=JKL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=JKL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-JKL-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012020",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Greear",
+      "county": "Morgan",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Social media video shows pile of approximately quarter sized hail near West Liberty. Time estimated by radar.",
+      "lat": 37.88,
+      "lon": -83.31,
+      "ugc": "KYC175",
+      "ugc_name": "Morgan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012027",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "West Liberty",
+      "county": "Morgan",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Social media user shared photo of hail stone and estimates ping pong size. Hail was retrieved off of Liberty Rd near ARH Hospital. Time estimated from radar.",
+      "lat": 37.92,
+      "lon": -83.27,
+      "ugc": "KYC175",
+      "ugc_name": "Morgan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012029",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Pomp",
+      "county": "Morgan",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Social media user posted a video of hail and reported golf ball sized hailstones near the intersection of KY519 and KY7. Time estimated by radar.",
+      "lat": 37.95,
+      "lon": -83.29,
+      "ugc": "KYC175",
+      "ugc_name": "Morgan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604012049",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SE Elkfork",
+      "county": "Morgan",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Social media video of lots of hail falling along KY-589_ about 1.5 miles from its intersection with KY-172. The individual reports that the largest hail stones were quarter-sized. Exact time estimate",
+      "lat": 37.95,
+      "lon": -83.12,
+      "ugc": "KYC175",
+      "ugc_name": "Morgan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280248",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "Korea",
+      "county": "Menifee",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 37.94,
+      "lon": -83.48,
+      "ugc": "KYC165",
+      "ugc_name": "Menifee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280510",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Inverness",
+      "county": "Breathitt",
+      "state": "KY",
+      "source": "Public",
+      "remark": null,
+      "lat": 37.53,
+      "lon": -83.39,
+      "ugc": "KYC025",
+      "ugc_name": "Breathitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280547",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "1 SE Mcandrews",
+      "county": "Pike",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 37.56,
+      "lon": -82.26,
+      "ugc": "KYC195",
+      "ugc_name": "Pike",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280608",
+      "wfo": "JKL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "Fresh Meadows",
+      "county": "Harlan",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Via Spotter Network.",
+      "lat": 36.84,
+      "lon": -83.37,
+      "ugc": "KYC095",
+      "ugc_name": "Harlan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280620",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Ewington",
+      "county": "Montgomery",
+      "state": "KY",
+      "source": "County Official",
+      "remark": "The Montgomery Road Department reported an 18 inch limb down on Quisenberry Road about a 1000 feet from the intersection of US-60.",
+      "lat": 38.11,
+      "lon": -83.89,
+      "ugc": "KYC173",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280627",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Ringos Mills",
+      "county": "Fleming",
+      "state": "KY",
+      "source": "Dept of Highways",
+      "remark": "Trees down along Rawlings Rd. Time estimated by radar.",
+      "lat": 38.27,
+      "lon": -83.6,
+      "ugc": "KYC069",
+      "ugc_name": "Fleming",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280627",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Muses Mills",
+      "county": "Fleming",
+      "state": "KY",
+      "source": "Dept of Highways",
+      "remark": "Tree down along Anderson Branch Rd. Time estimated by radar.",
+      "lat": 38.37,
+      "lon": -83.53,
+      "ugc": "KYC069",
+      "ugc_name": "Fleming",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280628",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Oggs Station",
+      "county": "Montgomery",
+      "state": "KY",
+      "source": "County Official",
+      "remark": "The Montgomery County Road Department reported a 12 inch limb down on Reffitt Road close to the intersection of KY-213.",
+      "lat": 38.0,
+      "lon": -83.84,
+      "ugc": "KYC173",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280633",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Bean",
+      "county": "Montgomery",
+      "state": "KY",
+      "source": "County Official",
+      "remark": "The Montgomery County Garage reported a several inch diameter limb down on Lower Spruce Road about halfway between KY-1050 and KY-599.",
+      "lat": 37.94,
+      "lon": -83.82,
+      "ugc": "KYC173",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280656",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "New Coomer",
+      "county": "Morgan",
+      "state": "KY",
+      "source": "County Official",
+      "remark": "The Morgan County Road Department reported a tree down across New Cummer Road near the intersection of Upper Long Branch Road.",
+      "lat": 37.89,
+      "lon": -83.35,
+      "ugc": "KYC175",
+      "ugc_name": "Morgan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280707",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Bethany",
+      "county": "Wolfe",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Two trees were reported down on Cave Branch Road near Bethany. The event time is radar estimated.",
+      "lat": 37.65,
+      "lon": -83.49,
+      "ugc": "KYC237",
+      "ugc_name": "Wolfe",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280717",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Dumont",
+      "county": "Breathitt",
+      "state": "KY",
+      "source": "Trained Spotter",
+      "remark": "Tree down near Happy Church in Jackson.",
+      "lat": 37.53,
+      "lon": -83.36,
+      "ugc": "KYC025",
+      "ugc_name": "Breathitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280720",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Howard Creek",
+      "county": "Breathitt",
+      "state": "KY",
+      "source": "Public",
+      "remark": "Social media user reports downed tree at intersection of KY 1110 and KY 397. Time estimated by radar.",
+      "lat": 37.48,
+      "lon": -83.37,
+      "ugc": "KYC025",
+      "ugc_name": "Breathitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JKL-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604280759",
+      "wfo": "JKL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Quinton",
+      "county": "Pulaski",
+      "state": "KY",
+      "source": "Dept of Highways",
+      "remark": "Tree down on phoneline along Lakeview Ave.",
+      "lat": 36.94,
+      "lon": -84.61,
+      "ugc": "KYC199",
+      "ugc_name": "Pulaski",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "JKL",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:09Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=JKL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for JKL",
+            "url": "https://api.weather.gov/products/types/LSR/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for JKL",
+            "url": "https://api.weather.gov/products/types/PNS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for JKL",
+            "url": "https://api.weather.gov/products/types/TOR/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for JKL",
+            "url": "https://api.weather.gov/products/types/SVR/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for JKL",
+            "url": "https://api.weather.gov/products/types/SVS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for JKL",
+            "url": "https://api.weather.gov/products/types/SPS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for JKL",
+            "url": "https://api.weather.gov/products/types/WCN/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for JKL",
+            "url": "https://api.weather.gov/products/types/FFW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for JKL",
+            "url": "https://api.weather.gov/products/types/FFS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for JKL",
+            "url": "https://api.weather.gov/products/types/FLS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for JKL",
+            "url": "https://api.weather.gov/products/types/FLW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for JKL",
+            "url": "https://api.weather.gov/products/types/FLS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for JKL",
+            "url": "https://api.weather.gov/products/types/RVS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for JKL",
+            "url": "https://api.weather.gov/products/types/ESF/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for JKL",
+            "url": "https://api.weather.gov/products/types/SMW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for JKL",
+            "url": "https://api.weather.gov/products/types/MWS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for JKL",
+            "url": "https://api.weather.gov/products/types/MWW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for JKL",
+            "url": "https://api.weather.gov/products/types/CFW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for JKL",
+            "url": "https://api.weather.gov/products/types/CWF/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for JKL",
+            "url": "https://api.weather.gov/products/types/HLS/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for JKL",
+            "url": "https://api.weather.gov/products/types/NPW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for JKL",
+            "url": "https://api.weather.gov/products/types/WSW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for JKL",
+            "url": "https://api.weather.gov/products/types/RFW/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for JKL",
+            "url": "https://api.weather.gov/products/types/DGT/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for JKL",
+            "url": "https://api.weather.gov/products/types/HWO/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for JKL",
+            "url": "https://api.weather.gov/products/types/AFD/locations/JKL",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

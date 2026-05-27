@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "RAH",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:21:42Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "RAH",
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
+    "candidate_report_counts": {
+      "hail": 7,
+      "thunderstorm_wind": 10
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 7,
+      "TSTM WND DMG": 10
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=RAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-RAH-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051722",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Roanoke Rapids",
+      "county": "Halifax",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down along 700 block of Carolina Avenue.",
+      "lat": 36.45,
+      "lon": -77.64,
+      "ugc": "NCC083",
+      "ugc_name": "Halifax",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051722",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Roanoke Rapids",
+      "county": "Halifax",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Power line down near Clinton St and Roanoke Ave.",
+      "lat": 36.45,
+      "lon": -77.66,
+      "ugc": "NCC083",
+      "ugc_name": "Halifax",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604051722",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Roanoke Rapids",
+      "county": "Halifax",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down along 1000 block of Hamilton St.",
+      "lat": 36.46,
+      "lon": -77.66,
+      "ugc": "NCC083",
+      "ugc_name": "Halifax",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300145",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNE Lake Townsend",
+      "county": "Guilford",
+      "state": "NC",
+      "source": "Utility Company",
+      "remark": "Hundred power outages reported due to trees on powerlines.",
+      "lat": 36.23,
+      "lon": -79.76,
+      "ugc": "NCC081",
+      "ugc_name": "Guilford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300148",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Lake Townsend",
+      "county": "Guilford",
+      "state": "NC",
+      "source": "Utility Company",
+      "remark": "Hundred power outages from trees down on power lines.",
+      "lat": 36.22,
+      "lon": -79.8,
+      "ugc": "NCC081",
+      "ugc_name": "Guilford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300152",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Locust",
+      "county": "Stanly",
+      "state": "NC",
+      "source": "Public",
+      "remark": "1 inch hail observed near Locust_ NC.",
+      "lat": 35.26,
+      "lon": -80.43,
+      "ugc": "NCC167",
+      "ugc_name": "Stanly",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300210",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Mebane",
+      "county": "Alamance",
+      "state": "NC",
+      "source": "Public",
+      "remark": null,
+      "lat": 36.09,
+      "lon": -79.27,
+      "ugc": "NCC001",
+      "ugc_name": "Alamance",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300212",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "3 SW Mebane",
+      "county": "Alamance",
+      "state": "NC",
+      "source": "Broadcast Media",
+      "remark": "Picture passed along via social media shows a hail stone ranging from 1 to 1.5 inches. Time and approximate location estimated from radar.",
+      "lat": 36.07,
+      "lon": -79.31,
+      "ugc": "NCC001",
+      "ugc_name": "Alamance",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300215",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "2 S Mebane",
+      "county": "Alamance",
+      "state": "NC",
+      "source": "Public",
+      "remark": "mPING report of dime sized hail near the 3900 block along Long Meadow Drive.",
+      "lat": 36.06,
+      "lon": -79.27,
+      "ugc": "NCC001",
+      "ugc_name": "Alamance",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300230",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Oxford",
+      "county": "Granville",
+      "state": "NC",
+      "source": "Utility Company",
+      "remark": "Hundred power outages from trees on powerlines.",
+      "lat": 36.32,
+      "lon": -78.58,
+      "ugc": "NCC077",
+      "ugc_name": "Granville",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300235",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Carrboro",
+      "county": "Orange",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Several hundred power outages from trees down on powerlines.",
+      "lat": 35.95,
+      "lon": -79.12,
+      "ugc": "NCC135",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300235",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Carrboro",
+      "county": "Orange",
+      "state": "NC",
+      "source": "Utility Company",
+      "remark": "Several hundred power outages from trees down on powerlines.",
+      "lat": 35.95,
+      "lon": -79.12,
+      "ugc": "NCC135",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300241",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "2 N Carrboro",
+      "county": "Orange",
+      "state": "NC",
+      "source": "Public",
+      "remark": "mPING report of half inch hail on Wyndham Dr.",
+      "lat": 35.94,
+      "lon": -79.09,
+      "ugc": "NCC135",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300244",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Carrboro",
+      "county": "Orange",
+      "state": "NC",
+      "source": "Public",
+      "remark": "One inch hail measured near Carrboro.",
+      "lat": 35.91,
+      "lon": -79.08,
+      "ugc": "NCC135",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300244",
+      "wfo": "RAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Carrboro",
+      "county": "Orange",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Report from mPING: Quarter (1.00 in.).",
+      "lat": 35.91,
+      "lon": -79.09,
+      "ugc": "NCC135",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300248",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Fearrington",
+      "county": "Chatham",
+      "state": "NC",
+      "source": "Utility Company",
+      "remark": "Thousand power outages from trees on powerlines.",
+      "lat": 35.83,
+      "lon": -79.04,
+      "ugc": "NCC037",
+      "ugc_name": "Chatham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604300302",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Carpenter",
+      "county": "Chatham",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down near the intersection of New Hope Church Road and Indian Creek Lane.",
+      "lat": 35.82,
+      "lon": -78.93,
+      "ugc": "NCC037",
+      "ugc_name": "Chatham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "RAH",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:21:42Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=RAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for RAH",
+            "url": "https://api.weather.gov/products/types/LSR/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for RAH",
+            "url": "https://api.weather.gov/products/types/PNS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for RAH",
+            "url": "https://api.weather.gov/products/types/TOR/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for RAH",
+            "url": "https://api.weather.gov/products/types/SVR/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for RAH",
+            "url": "https://api.weather.gov/products/types/SVS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for RAH",
+            "url": "https://api.weather.gov/products/types/SPS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for RAH",
+            "url": "https://api.weather.gov/products/types/WCN/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for RAH",
+            "url": "https://api.weather.gov/products/types/FFW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for RAH",
+            "url": "https://api.weather.gov/products/types/FFS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for RAH",
+            "url": "https://api.weather.gov/products/types/FLS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for RAH",
+            "url": "https://api.weather.gov/products/types/FLW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for RAH",
+            "url": "https://api.weather.gov/products/types/FLS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for RAH",
+            "url": "https://api.weather.gov/products/types/RVS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for RAH",
+            "url": "https://api.weather.gov/products/types/ESF/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for RAH",
+            "url": "https://api.weather.gov/products/types/SMW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for RAH",
+            "url": "https://api.weather.gov/products/types/MWS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for RAH",
+            "url": "https://api.weather.gov/products/types/MWW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for RAH",
+            "url": "https://api.weather.gov/products/types/CFW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for RAH",
+            "url": "https://api.weather.gov/products/types/CWF/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for RAH",
+            "url": "https://api.weather.gov/products/types/HLS/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for RAH",
+            "url": "https://api.weather.gov/products/types/NPW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for RAH",
+            "url": "https://api.weather.gov/products/types/WSW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for RAH",
+            "url": "https://api.weather.gov/products/types/RFW/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for RAH",
+            "url": "https://api.weather.gov/products/types/DGT/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for RAH",
+            "url": "https://api.weather.gov/products/types/HWO/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for RAH",
+            "url": "https://api.weather.gov/products/types/AFD/locations/RAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}

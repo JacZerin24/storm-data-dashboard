@@ -1,0 +1,885 @@
+{
+  "generated_utc": "2026-05-27T21:22:00Z",
+  "year": 2026,
+  "month": 4,
+  "total_wfos": 125,
+  "successful_wfos": 121,
+  "failed_wfos": 4,
+  "results": [
+    {
+      "wfo": "ABQ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ABQ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ABQ/dashboard.json\nWrote docs/data/stormprep/2026/04/ABQ/reports.geojson\nWrote docs/data/stormprep/2026/04/ABQ/products.json\nWrote docs/data/stormprep/2026/04/ABQ/warnings.geojson\nWrote docs/data/stormprep/2026/04/ABQ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ABR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ABR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ABR/dashboard.json\nWrote docs/data/stormprep/2026/04/ABR/reports.geojson\nWrote docs/data/stormprep/2026/04/ABR/products.json\nWrote docs/data/stormprep/2026/04/ABR/warnings.geojson\nWrote docs/data/stormprep/2026/04/ABR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "AFC",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=AFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/AFC/dashboard.json\nWrote docs/data/stormprep/2026/04/AFC/reports.geojson\nWrote docs/data/stormprep/2026/04/AFC/products.json\nWrote docs/data/stormprep/2026/04/AFC/warnings.geojson\nWrote docs/data/stormprep/2026/04/AFC/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "AFG",
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 496, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 449, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 186, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 306, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1947, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 215, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 832, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 897, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 868, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 885, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2084, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 12, saw 17\n\n"
+    },
+    {
+      "wfo": "AJK",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=AJK&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/AJK/dashboard.json\nWrote docs/data/stormprep/2026/04/AJK/reports.geojson\nWrote docs/data/stormprep/2026/04/AJK/products.json\nWrote docs/data/stormprep/2026/04/AJK/warnings.geojson\nWrote docs/data/stormprep/2026/04/AJK/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "AKQ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=AKQ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/AKQ/dashboard.json\nWrote docs/data/stormprep/2026/04/AKQ/reports.geojson\nWrote docs/data/stormprep/2026/04/AKQ/products.json\nWrote docs/data/stormprep/2026/04/AKQ/warnings.geojson\nWrote docs/data/stormprep/2026/04/AKQ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ALY",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ALY&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ALY/dashboard.json\nWrote docs/data/stormprep/2026/04/ALY/reports.geojson\nWrote docs/data/stormprep/2026/04/ALY/products.json\nWrote docs/data/stormprep/2026/04/ALY/warnings.geojson\nWrote docs/data/stormprep/2026/04/ALY/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "AMA",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/AMA/dashboard.json\nWrote docs/data/stormprep/2026/04/AMA/reports.geojson\nWrote docs/data/stormprep/2026/04/AMA/products.json\nWrote docs/data/stormprep/2026/04/AMA/warnings.geojson\nWrote docs/data/stormprep/2026/04/AMA/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "APX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=APX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/APX/dashboard.json\nWrote docs/data/stormprep/2026/04/APX/reports.geojson\nWrote docs/data/stormprep/2026/04/APX/products.json\nWrote docs/data/stormprep/2026/04/APX/warnings.geojson\nWrote docs/data/stormprep/2026/04/APX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ARX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ARX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ARX/dashboard.json\nWrote docs/data/stormprep/2026/04/ARX/reports.geojson\nWrote docs/data/stormprep/2026/04/ARX/products.json\nWrote docs/data/stormprep/2026/04/ARX/warnings.geojson\nWrote docs/data/stormprep/2026/04/ARX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BGM",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BGM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BGM/dashboard.json\nWrote docs/data/stormprep/2026/04/BGM/reports.geojson\nWrote docs/data/stormprep/2026/04/BGM/products.json\nWrote docs/data/stormprep/2026/04/BGM/warnings.geojson\nWrote docs/data/stormprep/2026/04/BGM/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BIS",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BIS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BIS/dashboard.json\nWrote docs/data/stormprep/2026/04/BIS/reports.geojson\nWrote docs/data/stormprep/2026/04/BIS/products.json\nWrote docs/data/stormprep/2026/04/BIS/warnings.geojson\nWrote docs/data/stormprep/2026/04/BIS/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BMX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BMX/dashboard.json\nWrote docs/data/stormprep/2026/04/BMX/reports.geojson\nWrote docs/data/stormprep/2026/04/BMX/products.json\nWrote docs/data/stormprep/2026/04/BMX/warnings.geojson\nWrote docs/data/stormprep/2026/04/BMX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BOI",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BOI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BOI/dashboard.json\nWrote docs/data/stormprep/2026/04/BOI/reports.geojson\nWrote docs/data/stormprep/2026/04/BOI/products.json\nWrote docs/data/stormprep/2026/04/BOI/warnings.geojson\nWrote docs/data/stormprep/2026/04/BOI/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BOU",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BOU&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BOU/dashboard.json\nWrote docs/data/stormprep/2026/04/BOU/reports.geojson\nWrote docs/data/stormprep/2026/04/BOU/products.json\nWrote docs/data/stormprep/2026/04/BOU/warnings.geojson\nWrote docs/data/stormprep/2026/04/BOU/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BOX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BOX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BOX/dashboard.json\nWrote docs/data/stormprep/2026/04/BOX/reports.geojson\nWrote docs/data/stormprep/2026/04/BOX/products.json\nWrote docs/data/stormprep/2026/04/BOX/warnings.geojson\nWrote docs/data/stormprep/2026/04/BOX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BRO",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BRO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BRO/dashboard.json\nWrote docs/data/stormprep/2026/04/BRO/reports.geojson\nWrote docs/data/stormprep/2026/04/BRO/products.json\nWrote docs/data/stormprep/2026/04/BRO/warnings.geojson\nWrote docs/data/stormprep/2026/04/BRO/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BTV",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BTV&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BTV/dashboard.json\nWrote docs/data/stormprep/2026/04/BTV/reports.geojson\nWrote docs/data/stormprep/2026/04/BTV/products.json\nWrote docs/data/stormprep/2026/04/BTV/warnings.geojson\nWrote docs/data/stormprep/2026/04/BTV/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BUF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BUF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BUF/dashboard.json\nWrote docs/data/stormprep/2026/04/BUF/reports.geojson\nWrote docs/data/stormprep/2026/04/BUF/products.json\nWrote docs/data/stormprep/2026/04/BUF/warnings.geojson\nWrote docs/data/stormprep/2026/04/BUF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "BYZ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=BYZ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/BYZ/dashboard.json\nWrote docs/data/stormprep/2026/04/BYZ/reports.geojson\nWrote docs/data/stormprep/2026/04/BYZ/products.json\nWrote docs/data/stormprep/2026/04/BYZ/warnings.geojson\nWrote docs/data/stormprep/2026/04/BYZ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CAE",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CAE/dashboard.json\nWrote docs/data/stormprep/2026/04/CAE/reports.geojson\nWrote docs/data/stormprep/2026/04/CAE/products.json\nWrote docs/data/stormprep/2026/04/CAE/warnings.geojson\nWrote docs/data/stormprep/2026/04/CAE/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CAR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CAR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CAR/dashboard.json\nWrote docs/data/stormprep/2026/04/CAR/reports.geojson\nWrote docs/data/stormprep/2026/04/CAR/products.json\nWrote docs/data/stormprep/2026/04/CAR/warnings.geojson\nWrote docs/data/stormprep/2026/04/CAR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CHS",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CHS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CHS/dashboard.json\nWrote docs/data/stormprep/2026/04/CHS/reports.geojson\nWrote docs/data/stormprep/2026/04/CHS/products.json\nWrote docs/data/stormprep/2026/04/CHS/warnings.geojson\nWrote docs/data/stormprep/2026/04/CHS/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CLE",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CLE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CLE/dashboard.json\nWrote docs/data/stormprep/2026/04/CLE/reports.geojson\nWrote docs/data/stormprep/2026/04/CLE/products.json\nWrote docs/data/stormprep/2026/04/CLE/warnings.geojson\nWrote docs/data/stormprep/2026/04/CLE/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CRP",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CRP&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CRP/dashboard.json\nWrote docs/data/stormprep/2026/04/CRP/reports.geojson\nWrote docs/data/stormprep/2026/04/CRP/products.json\nWrote docs/data/stormprep/2026/04/CRP/warnings.geojson\nWrote docs/data/stormprep/2026/04/CRP/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "CTP",
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 496, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 449, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 186, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 306, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1947, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 215, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 832, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 897, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 868, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 885, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2084, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 13, saw 17\n\n"
+    },
+    {
+      "wfo": "CYS",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CYS&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CYS&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/CYS/dashboard.json\nWrote docs/data/stormprep/2026/04/CYS/reports.geojson\nWrote docs/data/stormprep/2026/04/CYS/products.json\nWrote docs/data/stormprep/2026/04/CYS/warnings.geojson\nWrote docs/data/stormprep/2026/04/CYS/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "DDC",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=DDC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/DDC/dashboard.json\nWrote docs/data/stormprep/2026/04/DDC/reports.geojson\nWrote docs/data/stormprep/2026/04/DDC/products.json\nWrote docs/data/stormprep/2026/04/DDC/warnings.geojson\nWrote docs/data/stormprep/2026/04/DDC/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "DLH",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=DLH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/DLH/dashboard.json\nWrote docs/data/stormprep/2026/04/DLH/reports.geojson\nWrote docs/data/stormprep/2026/04/DLH/products.json\nWrote docs/data/stormprep/2026/04/DLH/warnings.geojson\nWrote docs/data/stormprep/2026/04/DLH/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "DMX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=DMX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/DMX/dashboard.json\nWrote docs/data/stormprep/2026/04/DMX/reports.geojson\nWrote docs/data/stormprep/2026/04/DMX/products.json\nWrote docs/data/stormprep/2026/04/DMX/warnings.geojson\nWrote docs/data/stormprep/2026/04/DMX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "DTX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=DTX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/DTX/dashboard.json\nWrote docs/data/stormprep/2026/04/DTX/reports.geojson\nWrote docs/data/stormprep/2026/04/DTX/products.json\nWrote docs/data/stormprep/2026/04/DTX/warnings.geojson\nWrote docs/data/stormprep/2026/04/DTX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "DVN",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=DVN&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/DVN/dashboard.json\nWrote docs/data/stormprep/2026/04/DVN/reports.geojson\nWrote docs/data/stormprep/2026/04/DVN/products.json\nWrote docs/data/stormprep/2026/04/DVN/warnings.geojson\nWrote docs/data/stormprep/2026/04/DVN/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "EAX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=EAX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/EAX/dashboard.json\nWrote docs/data/stormprep/2026/04/EAX/reports.geojson\nWrote docs/data/stormprep/2026/04/EAX/products.json\nWrote docs/data/stormprep/2026/04/EAX/warnings.geojson\nWrote docs/data/stormprep/2026/04/EAX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "EKA",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=EKA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/EKA/dashboard.json\nWrote docs/data/stormprep/2026/04/EKA/reports.geojson\nWrote docs/data/stormprep/2026/04/EKA/products.json\nWrote docs/data/stormprep/2026/04/EKA/warnings.geojson\nWrote docs/data/stormprep/2026/04/EKA/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "EPZ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=EPZ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/EPZ/dashboard.json\nWrote docs/data/stormprep/2026/04/EPZ/reports.geojson\nWrote docs/data/stormprep/2026/04/EPZ/products.json\nWrote docs/data/stormprep/2026/04/EPZ/warnings.geojson\nWrote docs/data/stormprep/2026/04/EPZ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "EWX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=EWX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/EWX/dashboard.json\nWrote docs/data/stormprep/2026/04/EWX/reports.geojson\nWrote docs/data/stormprep/2026/04/EWX/products.json\nWrote docs/data/stormprep/2026/04/EWX/warnings.geojson\nWrote docs/data/stormprep/2026/04/EWX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "FFC",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FFC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=FFC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/FFC/dashboard.json\nWrote docs/data/stormprep/2026/04/FFC/reports.geojson\nWrote docs/data/stormprep/2026/04/FFC/products.json\nWrote docs/data/stormprep/2026/04/FFC/warnings.geojson\nWrote docs/data/stormprep/2026/04/FFC/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "FGF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=FGF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/FGF/dashboard.json\nWrote docs/data/stormprep/2026/04/FGF/reports.geojson\nWrote docs/data/stormprep/2026/04/FGF/products.json\nWrote docs/data/stormprep/2026/04/FGF/warnings.geojson\nWrote docs/data/stormprep/2026/04/FGF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "FGZ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=FGZ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/FGZ/dashboard.json\nWrote docs/data/stormprep/2026/04/FGZ/reports.geojson\nWrote docs/data/stormprep/2026/04/FGZ/products.json\nWrote docs/data/stormprep/2026/04/FGZ/warnings.geojson\nWrote docs/data/stormprep/2026/04/FGZ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "FSD",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=FSD&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/FSD/dashboard.json\nWrote docs/data/stormprep/2026/04/FSD/reports.geojson\nWrote docs/data/stormprep/2026/04/FSD/products.json\nWrote docs/data/stormprep/2026/04/FSD/warnings.geojson\nWrote docs/data/stormprep/2026/04/FSD/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "FWD",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=FWD&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/FWD/dashboard.json\nWrote docs/data/stormprep/2026/04/FWD/reports.geojson\nWrote docs/data/stormprep/2026/04/FWD/products.json\nWrote docs/data/stormprep/2026/04/FWD/warnings.geojson\nWrote docs/data/stormprep/2026/04/FWD/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GGW",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GGW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GGW/dashboard.json\nWrote docs/data/stormprep/2026/04/GGW/reports.geojson\nWrote docs/data/stormprep/2026/04/GGW/products.json\nWrote docs/data/stormprep/2026/04/GGW/warnings.geojson\nWrote docs/data/stormprep/2026/04/GGW/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GID",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GID&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GID/dashboard.json\nWrote docs/data/stormprep/2026/04/GID/reports.geojson\nWrote docs/data/stormprep/2026/04/GID/products.json\nWrote docs/data/stormprep/2026/04/GID/warnings.geojson\nWrote docs/data/stormprep/2026/04/GID/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GJT",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GJT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GJT/dashboard.json\nWrote docs/data/stormprep/2026/04/GJT/reports.geojson\nWrote docs/data/stormprep/2026/04/GJT/products.json\nWrote docs/data/stormprep/2026/04/GJT/warnings.geojson\nWrote docs/data/stormprep/2026/04/GJT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GLD",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GLD&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GLD/dashboard.json\nWrote docs/data/stormprep/2026/04/GLD/reports.geojson\nWrote docs/data/stormprep/2026/04/GLD/products.json\nWrote docs/data/stormprep/2026/04/GLD/warnings.geojson\nWrote docs/data/stormprep/2026/04/GLD/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GRB",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GRB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GRB/dashboard.json\nWrote docs/data/stormprep/2026/04/GRB/reports.geojson\nWrote docs/data/stormprep/2026/04/GRB/products.json\nWrote docs/data/stormprep/2026/04/GRB/warnings.geojson\nWrote docs/data/stormprep/2026/04/GRB/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GRR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GRR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GRR/dashboard.json\nWrote docs/data/stormprep/2026/04/GRR/reports.geojson\nWrote docs/data/stormprep/2026/04/GRR/products.json\nWrote docs/data/stormprep/2026/04/GRR/warnings.geojson\nWrote docs/data/stormprep/2026/04/GRR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GSP",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GSP&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GSP/dashboard.json\nWrote docs/data/stormprep/2026/04/GSP/reports.geojson\nWrote docs/data/stormprep/2026/04/GSP/products.json\nWrote docs/data/stormprep/2026/04/GSP/warnings.geojson\nWrote docs/data/stormprep/2026/04/GSP/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GUM",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GUM/dashboard.json\nWrote docs/data/stormprep/2026/04/GUM/reports.geojson\nWrote docs/data/stormprep/2026/04/GUM/products.json\nWrote docs/data/stormprep/2026/04/GUM/warnings.geojson\nWrote docs/data/stormprep/2026/04/GUM/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "GYX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=GYX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/GYX/dashboard.json\nWrote docs/data/stormprep/2026/04/GYX/reports.geojson\nWrote docs/data/stormprep/2026/04/GYX/products.json\nWrote docs/data/stormprep/2026/04/GYX/warnings.geojson\nWrote docs/data/stormprep/2026/04/GYX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "HFO",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HFO&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=HFO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/HFO/dashboard.json\nWrote docs/data/stormprep/2026/04/HFO/reports.geojson\nWrote docs/data/stormprep/2026/04/HFO/products.json\nWrote docs/data/stormprep/2026/04/HFO/warnings.geojson\nWrote docs/data/stormprep/2026/04/HFO/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "HGX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=HGX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/HGX/dashboard.json\nWrote docs/data/stormprep/2026/04/HGX/reports.geojson\nWrote docs/data/stormprep/2026/04/HGX/products.json\nWrote docs/data/stormprep/2026/04/HGX/warnings.geojson\nWrote docs/data/stormprep/2026/04/HGX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "HNX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=HNX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/HNX/dashboard.json\nWrote docs/data/stormprep/2026/04/HNX/reports.geojson\nWrote docs/data/stormprep/2026/04/HNX/products.json\nWrote docs/data/stormprep/2026/04/HNX/warnings.geojson\nWrote docs/data/stormprep/2026/04/HNX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "HUN",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HUN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=HUN&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/HUN/dashboard.json\nWrote docs/data/stormprep/2026/04/HUN/reports.geojson\nWrote docs/data/stormprep/2026/04/HUN/products.json\nWrote docs/data/stormprep/2026/04/HUN/warnings.geojson\nWrote docs/data/stormprep/2026/04/HUN/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ICT",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ICT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ICT/dashboard.json\nWrote docs/data/stormprep/2026/04/ICT/reports.geojson\nWrote docs/data/stormprep/2026/04/ICT/products.json\nWrote docs/data/stormprep/2026/04/ICT/warnings.geojson\nWrote docs/data/stormprep/2026/04/ICT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ILM",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ILM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ILM/dashboard.json\nWrote docs/data/stormprep/2026/04/ILM/reports.geojson\nWrote docs/data/stormprep/2026/04/ILM/products.json\nWrote docs/data/stormprep/2026/04/ILM/warnings.geojson\nWrote docs/data/stormprep/2026/04/ILM/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ILN",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ILN&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ILN/dashboard.json\nWrote docs/data/stormprep/2026/04/ILN/reports.geojson\nWrote docs/data/stormprep/2026/04/ILN/products.json\nWrote docs/data/stormprep/2026/04/ILN/warnings.geojson\nWrote docs/data/stormprep/2026/04/ILN/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "ILX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=ILX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/ILX/dashboard.json\nWrote docs/data/stormprep/2026/04/ILX/reports.geojson\nWrote docs/data/stormprep/2026/04/ILX/products.json\nWrote docs/data/stormprep/2026/04/ILX/warnings.geojson\nWrote docs/data/stormprep/2026/04/ILX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "IND",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=IND&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/IND/dashboard.json\nWrote docs/data/stormprep/2026/04/IND/reports.geojson\nWrote docs/data/stormprep/2026/04/IND/products.json\nWrote docs/data/stormprep/2026/04/IND/warnings.geojson\nWrote docs/data/stormprep/2026/04/IND/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "IWX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=IWX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/IWX/dashboard.json\nWrote docs/data/stormprep/2026/04/IWX/reports.geojson\nWrote docs/data/stormprep/2026/04/IWX/products.json\nWrote docs/data/stormprep/2026/04/IWX/warnings.geojson\nWrote docs/data/stormprep/2026/04/IWX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "JAN",
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "ata-dashboard/storm-data-dashboard/scripts/build_month.py\", line 496, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 449, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 186, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 306, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1947, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 215, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 832, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 897, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 868, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 885, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2084, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 164, saw 17\n\n"
+    },
+    {
+      "wfo": "JAX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=JAX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/JAX/dashboard.json\nWrote docs/data/stormprep/2026/04/JAX/reports.geojson\nWrote docs/data/stormprep/2026/04/JAX/products.json\nWrote docs/data/stormprep/2026/04/JAX/warnings.geojson\nWrote docs/data/stormprep/2026/04/JAX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "JKL",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=JKL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/JKL/dashboard.json\nWrote docs/data/stormprep/2026/04/JKL/reports.geojson\nWrote docs/data/stormprep/2026/04/JKL/products.json\nWrote docs/data/stormprep/2026/04/JKL/warnings.geojson\nWrote docs/data/stormprep/2026/04/JKL/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "KEY",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=KEY&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/KEY/dashboard.json\nWrote docs/data/stormprep/2026/04/KEY/reports.geojson\nWrote docs/data/stormprep/2026/04/KEY/products.json\nWrote docs/data/stormprep/2026/04/KEY/warnings.geojson\nWrote docs/data/stormprep/2026/04/KEY/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LBF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LBF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LBF/dashboard.json\nWrote docs/data/stormprep/2026/04/LBF/reports.geojson\nWrote docs/data/stormprep/2026/04/LBF/products.json\nWrote docs/data/stormprep/2026/04/LBF/warnings.geojson\nWrote docs/data/stormprep/2026/04/LBF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LCH",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LCH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LCH/dashboard.json\nWrote docs/data/stormprep/2026/04/LCH/reports.geojson\nWrote docs/data/stormprep/2026/04/LCH/products.json\nWrote docs/data/stormprep/2026/04/LCH/warnings.geojson\nWrote docs/data/stormprep/2026/04/LCH/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LIX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LIX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LIX/dashboard.json\nWrote docs/data/stormprep/2026/04/LIX/reports.geojson\nWrote docs/data/stormprep/2026/04/LIX/products.json\nWrote docs/data/stormprep/2026/04/LIX/warnings.geojson\nWrote docs/data/stormprep/2026/04/LIX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LKN",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LKN&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LKN/dashboard.json\nWrote docs/data/stormprep/2026/04/LKN/reports.geojson\nWrote docs/data/stormprep/2026/04/LKN/products.json\nWrote docs/data/stormprep/2026/04/LKN/warnings.geojson\nWrote docs/data/stormprep/2026/04/LKN/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LMK",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LMK&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LMK/dashboard.json\nWrote docs/data/stormprep/2026/04/LMK/reports.geojson\nWrote docs/data/stormprep/2026/04/LMK/products.json\nWrote docs/data/stormprep/2026/04/LMK/warnings.geojson\nWrote docs/data/stormprep/2026/04/LMK/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LOT",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LOT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LOT/dashboard.json\nWrote docs/data/stormprep/2026/04/LOT/reports.geojson\nWrote docs/data/stormprep/2026/04/LOT/products.json\nWrote docs/data/stormprep/2026/04/LOT/warnings.geojson\nWrote docs/data/stormprep/2026/04/LOT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LOX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LOX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LOX/dashboard.json\nWrote docs/data/stormprep/2026/04/LOX/reports.geojson\nWrote docs/data/stormprep/2026/04/LOX/products.json\nWrote docs/data/stormprep/2026/04/LOX/warnings.geojson\nWrote docs/data/stormprep/2026/04/LOX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LSX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LSX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LSX/dashboard.json\nWrote docs/data/stormprep/2026/04/LSX/reports.geojson\nWrote docs/data/stormprep/2026/04/LSX/products.json\nWrote docs/data/stormprep/2026/04/LSX/warnings.geojson\nWrote docs/data/stormprep/2026/04/LSX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LUB",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LUB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LUB/dashboard.json\nWrote docs/data/stormprep/2026/04/LUB/reports.geojson\nWrote docs/data/stormprep/2026/04/LUB/products.json\nWrote docs/data/stormprep/2026/04/LUB/warnings.geojson\nWrote docs/data/stormprep/2026/04/LUB/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LWX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LWX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LWX/dashboard.json\nWrote docs/data/stormprep/2026/04/LWX/reports.geojson\nWrote docs/data/stormprep/2026/04/LWX/products.json\nWrote docs/data/stormprep/2026/04/LWX/warnings.geojson\nWrote docs/data/stormprep/2026/04/LWX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "LZK",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LZK&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=LZK&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/LZK/dashboard.json\nWrote docs/data/stormprep/2026/04/LZK/reports.geojson\nWrote docs/data/stormprep/2026/04/LZK/products.json\nWrote docs/data/stormprep/2026/04/LZK/warnings.geojson\nWrote docs/data/stormprep/2026/04/LZK/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MAF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MAF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MAF/dashboard.json\nWrote docs/data/stormprep/2026/04/MAF/reports.geojson\nWrote docs/data/stormprep/2026/04/MAF/products.json\nWrote docs/data/stormprep/2026/04/MAF/warnings.geojson\nWrote docs/data/stormprep/2026/04/MAF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MEG",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MEG&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MEG/dashboard.json\nWrote docs/data/stormprep/2026/04/MEG/reports.geojson\nWrote docs/data/stormprep/2026/04/MEG/products.json\nWrote docs/data/stormprep/2026/04/MEG/warnings.geojson\nWrote docs/data/stormprep/2026/04/MEG/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MFL",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MFL&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MFL/dashboard.json\nWrote docs/data/stormprep/2026/04/MFL/reports.geojson\nWrote docs/data/stormprep/2026/04/MFL/products.json\nWrote docs/data/stormprep/2026/04/MFL/warnings.geojson\nWrote docs/data/stormprep/2026/04/MFL/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MFR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MFR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MFR/dashboard.json\nWrote docs/data/stormprep/2026/04/MFR/reports.geojson\nWrote docs/data/stormprep/2026/04/MFR/products.json\nWrote docs/data/stormprep/2026/04/MFR/warnings.geojson\nWrote docs/data/stormprep/2026/04/MFR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MHX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MHX/dashboard.json\nWrote docs/data/stormprep/2026/04/MHX/reports.geojson\nWrote docs/data/stormprep/2026/04/MHX/products.json\nWrote docs/data/stormprep/2026/04/MHX/warnings.geojson\nWrote docs/data/stormprep/2026/04/MHX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MKX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MKX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MKX/dashboard.json\nWrote docs/data/stormprep/2026/04/MKX/reports.geojson\nWrote docs/data/stormprep/2026/04/MKX/products.json\nWrote docs/data/stormprep/2026/04/MKX/warnings.geojson\nWrote docs/data/stormprep/2026/04/MKX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MLB",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MLB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MLB/dashboard.json\nWrote docs/data/stormprep/2026/04/MLB/reports.geojson\nWrote docs/data/stormprep/2026/04/MLB/products.json\nWrote docs/data/stormprep/2026/04/MLB/warnings.geojson\nWrote docs/data/stormprep/2026/04/MLB/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MOB",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MOB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MOB/dashboard.json\nWrote docs/data/stormprep/2026/04/MOB/reports.geojson\nWrote docs/data/stormprep/2026/04/MOB/products.json\nWrote docs/data/stormprep/2026/04/MOB/warnings.geojson\nWrote docs/data/stormprep/2026/04/MOB/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MPX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MPX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MPX/dashboard.json\nWrote docs/data/stormprep/2026/04/MPX/reports.geojson\nWrote docs/data/stormprep/2026/04/MPX/products.json\nWrote docs/data/stormprep/2026/04/MPX/warnings.geojson\nWrote docs/data/stormprep/2026/04/MPX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MQT",
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "ata-dashboard/storm-data-dashboard/scripts/build_month.py\", line 496, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 449, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 186, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 306, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1947, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 215, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 832, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 897, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 868, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 885, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2084, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 308, saw 17\n\n"
+    },
+    {
+      "wfo": "MRX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MRX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MRX/dashboard.json\nWrote docs/data/stormprep/2026/04/MRX/reports.geojson\nWrote docs/data/stormprep/2026/04/MRX/products.json\nWrote docs/data/stormprep/2026/04/MRX/warnings.geojson\nWrote docs/data/stormprep/2026/04/MRX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MSO",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MSO&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MSO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MSO/dashboard.json\nWrote docs/data/stormprep/2026/04/MSO/reports.geojson\nWrote docs/data/stormprep/2026/04/MSO/products.json\nWrote docs/data/stormprep/2026/04/MSO/warnings.geojson\nWrote docs/data/stormprep/2026/04/MSO/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "MTR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MTR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/MTR/dashboard.json\nWrote docs/data/stormprep/2026/04/MTR/reports.geojson\nWrote docs/data/stormprep/2026/04/MTR/products.json\nWrote docs/data/stormprep/2026/04/MTR/warnings.geojson\nWrote docs/data/stormprep/2026/04/MTR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "OAX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=OAX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/OAX/dashboard.json\nWrote docs/data/stormprep/2026/04/OAX/reports.geojson\nWrote docs/data/stormprep/2026/04/OAX/products.json\nWrote docs/data/stormprep/2026/04/OAX/warnings.geojson\nWrote docs/data/stormprep/2026/04/OAX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "OHX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=OHX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/OHX/dashboard.json\nWrote docs/data/stormprep/2026/04/OHX/reports.geojson\nWrote docs/data/stormprep/2026/04/OHX/products.json\nWrote docs/data/stormprep/2026/04/OHX/warnings.geojson\nWrote docs/data/stormprep/2026/04/OHX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "OKX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=OKX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/OKX/dashboard.json\nWrote docs/data/stormprep/2026/04/OKX/reports.geojson\nWrote docs/data/stormprep/2026/04/OKX/products.json\nWrote docs/data/stormprep/2026/04/OKX/warnings.geojson\nWrote docs/data/stormprep/2026/04/OKX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "OTX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=OTX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/OTX/dashboard.json\nWrote docs/data/stormprep/2026/04/OTX/reports.geojson\nWrote docs/data/stormprep/2026/04/OTX/products.json\nWrote docs/data/stormprep/2026/04/OTX/warnings.geojson\nWrote docs/data/stormprep/2026/04/OTX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "OUN",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=OUN&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/OUN/dashboard.json\nWrote docs/data/stormprep/2026/04/OUN/reports.geojson\nWrote docs/data/stormprep/2026/04/OUN/products.json\nWrote docs/data/stormprep/2026/04/OUN/warnings.geojson\nWrote docs/data/stormprep/2026/04/OUN/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PAH",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PAH/dashboard.json\nWrote docs/data/stormprep/2026/04/PAH/reports.geojson\nWrote docs/data/stormprep/2026/04/PAH/products.json\nWrote docs/data/stormprep/2026/04/PAH/warnings.geojson\nWrote docs/data/stormprep/2026/04/PAH/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PBZ",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PBZ&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PBZ/dashboard.json\nWrote docs/data/stormprep/2026/04/PBZ/reports.geojson\nWrote docs/data/stormprep/2026/04/PBZ/products.json\nWrote docs/data/stormprep/2026/04/PBZ/warnings.geojson\nWrote docs/data/stormprep/2026/04/PBZ/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PDT",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PDT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PDT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PDT/dashboard.json\nWrote docs/data/stormprep/2026/04/PDT/reports.geojson\nWrote docs/data/stormprep/2026/04/PDT/products.json\nWrote docs/data/stormprep/2026/04/PDT/warnings.geojson\nWrote docs/data/stormprep/2026/04/PDT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PHI",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PHI&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PHI/dashboard.json\nWrote docs/data/stormprep/2026/04/PHI/reports.geojson\nWrote docs/data/stormprep/2026/04/PHI/products.json\nWrote docs/data/stormprep/2026/04/PHI/warnings.geojson\nWrote docs/data/stormprep/2026/04/PHI/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PIH",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PIH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PIH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PIH/dashboard.json\nWrote docs/data/stormprep/2026/04/PIH/reports.geojson\nWrote docs/data/stormprep/2026/04/PIH/products.json\nWrote docs/data/stormprep/2026/04/PIH/warnings.geojson\nWrote docs/data/stormprep/2026/04/PIH/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PPG",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PPG&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PPG&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PPG/dashboard.json\nWrote docs/data/stormprep/2026/04/PPG/reports.geojson\nWrote docs/data/stormprep/2026/04/PPG/products.json\nWrote docs/data/stormprep/2026/04/PPG/warnings.geojson\nWrote docs/data/stormprep/2026/04/PPG/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PQE",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PQE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PQE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PQE/dashboard.json\nWrote docs/data/stormprep/2026/04/PQE/reports.geojson\nWrote docs/data/stormprep/2026/04/PQE/products.json\nWrote docs/data/stormprep/2026/04/PQE/warnings.geojson\nWrote docs/data/stormprep/2026/04/PQE/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PQR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PQR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PQR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PQR/dashboard.json\nWrote docs/data/stormprep/2026/04/PQR/reports.geojson\nWrote docs/data/stormprep/2026/04/PQR/products.json\nWrote docs/data/stormprep/2026/04/PQR/warnings.geojson\nWrote docs/data/stormprep/2026/04/PQR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PQW",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PQW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PQW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PQW/dashboard.json\nWrote docs/data/stormprep/2026/04/PQW/reports.geojson\nWrote docs/data/stormprep/2026/04/PQW/products.json\nWrote docs/data/stormprep/2026/04/PQW/warnings.geojson\nWrote docs/data/stormprep/2026/04/PQW/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PSR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PSR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PSR/dashboard.json\nWrote docs/data/stormprep/2026/04/PSR/reports.geojson\nWrote docs/data/stormprep/2026/04/PSR/products.json\nWrote docs/data/stormprep/2026/04/PSR/warnings.geojson\nWrote docs/data/stormprep/2026/04/PSR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "PUB",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=PUB&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/PUB/dashboard.json\nWrote docs/data/stormprep/2026/04/PUB/reports.geojson\nWrote docs/data/stormprep/2026/04/PUB/products.json\nWrote docs/data/stormprep/2026/04/PUB/warnings.geojson\nWrote docs/data/stormprep/2026/04/PUB/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "RAH",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=RAH&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/RAH/dashboard.json\nWrote docs/data/stormprep/2026/04/RAH/reports.geojson\nWrote docs/data/stormprep/2026/04/RAH/products.json\nWrote docs/data/stormprep/2026/04/RAH/warnings.geojson\nWrote docs/data/stormprep/2026/04/RAH/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "REV",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=REV&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=REV&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/REV/dashboard.json\nWrote docs/data/stormprep/2026/04/REV/reports.geojson\nWrote docs/data/stormprep/2026/04/REV/products.json\nWrote docs/data/stormprep/2026/04/REV/warnings.geojson\nWrote docs/data/stormprep/2026/04/REV/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "RIW",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=RIW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/RIW/dashboard.json\nWrote docs/data/stormprep/2026/04/RIW/reports.geojson\nWrote docs/data/stormprep/2026/04/RIW/products.json\nWrote docs/data/stormprep/2026/04/RIW/warnings.geojson\nWrote docs/data/stormprep/2026/04/RIW/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "RLX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RLX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=RLX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/RLX/dashboard.json\nWrote docs/data/stormprep/2026/04/RLX/reports.geojson\nWrote docs/data/stormprep/2026/04/RLX/products.json\nWrote docs/data/stormprep/2026/04/RLX/warnings.geojson\nWrote docs/data/stormprep/2026/04/RLX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "RNK",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=RNK&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/RNK/dashboard.json\nWrote docs/data/stormprep/2026/04/RNK/reports.geojson\nWrote docs/data/stormprep/2026/04/RNK/products.json\nWrote docs/data/stormprep/2026/04/RNK/warnings.geojson\nWrote docs/data/stormprep/2026/04/RNK/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SEW",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SEW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SEW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SEW/dashboard.json\nWrote docs/data/stormprep/2026/04/SEW/reports.geojson\nWrote docs/data/stormprep/2026/04/SEW/products.json\nWrote docs/data/stormprep/2026/04/SEW/warnings.geojson\nWrote docs/data/stormprep/2026/04/SEW/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SGF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SGF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SGF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SGF/dashboard.json\nWrote docs/data/stormprep/2026/04/SGF/reports.geojson\nWrote docs/data/stormprep/2026/04/SGF/products.json\nWrote docs/data/stormprep/2026/04/SGF/warnings.geojson\nWrote docs/data/stormprep/2026/04/SGF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SGX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SGX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SGX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SGX/dashboard.json\nWrote docs/data/stormprep/2026/04/SGX/reports.geojson\nWrote docs/data/stormprep/2026/04/SGX/products.json\nWrote docs/data/stormprep/2026/04/SGX/warnings.geojson\nWrote docs/data/stormprep/2026/04/SGX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SHV",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SHV&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SHV/dashboard.json\nWrote docs/data/stormprep/2026/04/SHV/reports.geojson\nWrote docs/data/stormprep/2026/04/SHV/products.json\nWrote docs/data/stormprep/2026/04/SHV/warnings.geojson\nWrote docs/data/stormprep/2026/04/SHV/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SJT",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SJT/dashboard.json\nWrote docs/data/stormprep/2026/04/SJT/reports.geojson\nWrote docs/data/stormprep/2026/04/SJT/products.json\nWrote docs/data/stormprep/2026/04/SJT/warnings.geojson\nWrote docs/data/stormprep/2026/04/SJT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SJU",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJU&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SJU&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SJU/dashboard.json\nWrote docs/data/stormprep/2026/04/SJU/reports.geojson\nWrote docs/data/stormprep/2026/04/SJU/products.json\nWrote docs/data/stormprep/2026/04/SJU/warnings.geojson\nWrote docs/data/stormprep/2026/04/SJU/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "SLC",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=SLC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/SLC/dashboard.json\nWrote docs/data/stormprep/2026/04/SLC/reports.geojson\nWrote docs/data/stormprep/2026/04/SLC/products.json\nWrote docs/data/stormprep/2026/04/SLC/warnings.geojson\nWrote docs/data/stormprep/2026/04/SLC/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "STO",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=STO&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=STO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/STO/dashboard.json\nWrote docs/data/stormprep/2026/04/STO/reports.geojson\nWrote docs/data/stormprep/2026/04/STO/products.json\nWrote docs/data/stormprep/2026/04/STO/warnings.geojson\nWrote docs/data/stormprep/2026/04/STO/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TAE",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TAE&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TAE/dashboard.json\nWrote docs/data/stormprep/2026/04/TAE/reports.geojson\nWrote docs/data/stormprep/2026/04/TAE/products.json\nWrote docs/data/stormprep/2026/04/TAE/warnings.geojson\nWrote docs/data/stormprep/2026/04/TAE/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TBW",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TBW&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TBW/dashboard.json\nWrote docs/data/stormprep/2026/04/TBW/reports.geojson\nWrote docs/data/stormprep/2026/04/TBW/products.json\nWrote docs/data/stormprep/2026/04/TBW/warnings.geojson\nWrote docs/data/stormprep/2026/04/TBW/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TFX",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TFX&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TFX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TFX/dashboard.json\nWrote docs/data/stormprep/2026/04/TFX/reports.geojson\nWrote docs/data/stormprep/2026/04/TFX/products.json\nWrote docs/data/stormprep/2026/04/TFX/warnings.geojson\nWrote docs/data/stormprep/2026/04/TFX/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TOP",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TOP&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TOP/dashboard.json\nWrote docs/data/stormprep/2026/04/TOP/reports.geojson\nWrote docs/data/stormprep/2026/04/TOP/products.json\nWrote docs/data/stormprep/2026/04/TOP/warnings.geojson\nWrote docs/data/stormprep/2026/04/TOP/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TSA",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TSA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TSA/dashboard.json\nWrote docs/data/stormprep/2026/04/TSA/reports.geojson\nWrote docs/data/stormprep/2026/04/TSA/products.json\nWrote docs/data/stormprep/2026/04/TSA/warnings.geojson\nWrote docs/data/stormprep/2026/04/TSA/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "TWC",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=TWC&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/TWC/dashboard.json\nWrote docs/data/stormprep/2026/04/TWC/reports.geojson\nWrote docs/data/stormprep/2026/04/TWC/products.json\nWrote docs/data/stormprep/2026/04/TWC/warnings.geojson\nWrote docs/data/stormprep/2026/04/TWC/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "UNR",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=UNR&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=UNR&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/UNR/dashboard.json\nWrote docs/data/stormprep/2026/04/UNR/reports.geojson\nWrote docs/data/stormprep/2026/04/UNR/products.json\nWrote docs/data/stormprep/2026/04/UNR/warnings.geojson\nWrote docs/data/stormprep/2026/04/UNR/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    },
+    {
+      "wfo": "VEF",
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=VEF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/04/VEF/dashboard.json\nWrote docs/data/stormprep/2026/04/VEF/reports.geojson\nWrote docs/data/stormprep/2026/04/VEF/products.json\nWrote docs/data/stormprep/2026/04/VEF/warnings.geojson\nWrote docs/data/stormprep/2026/04/VEF/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
+    }
+  ]
+}

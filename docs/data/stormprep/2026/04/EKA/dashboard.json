@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "EKA",
+    "start_utc": "2026-04-01T00:00:00Z",
+    "end_utc": "2026-05-01T00:00:00Z",
+    "generated_utc": "2026-05-27T21:20:45Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived"
+  },
+  "summary": {
+    "schema_version": "0.2.0",
+    "year": 2026,
+    "month": 4,
+    "wfo": "EKA",
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
+    "candidate_report_counts": {
+      "hail": 4,
+      "thunderstorm_wind": 4,
+      "winter": 2
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 4,
+      "NON-TSTM WND DMG": 3,
+      "SNOW": 2,
+      "TSTM WND GST": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EKA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=EKA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EKA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-EKA-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604020543",
+      "wfo": "EKA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 NE Crescent City",
+      "county": "Del Norte",
+      "state": "CA",
+      "source": "Cocorahs",
+      "remark": "15 minutes of steady small hail mixed with rain.",
+      "lat": 41.76,
+      "lon": -124.19,
+      "ugc": "CAC015",
+      "ugc_name": "Del Norte",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604091945",
+      "wfo": "EKA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Orleans",
+      "county": "Humboldt",
+      "state": "CA",
+      "source": "Newspaper",
+      "remark": "Up to quarter (1 inch) sized hail reported in Orleans.",
+      "lat": 41.3,
+      "lon": -123.54,
+      "ugc": "CAC023",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604092036",
+      "wfo": "EKA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Orleans",
+      "county": "Humboldt",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Multiple reports of half inch to near quarter sized hail in Orleans.",
+      "lat": 41.3,
+      "lon": -123.54,
+      "ugc": "CAC023",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604092039",
+      "wfo": "EKA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "12 SE Gasquet",
+      "county": "Del Norte",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Ship Mtn RAWS measured a wind gust of 65 mph. Time estimated from radar.",
+      "lat": 41.73,
+      "lon": -123.8,
+      "ugc": "CAC015",
+      "ugc_name": "Del Norte",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604092215",
+      "wfo": "EKA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "3 S Peanut",
+      "county": "Trinity",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Half penny sized hail reported near the junction of Highway 3/Highway 36. Time estimated by radar.",
+      "lat": 40.42,
+      "lon": -123.17,
+      "ugc": "CAC105",
+      "ugc_name": "Trinity",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604112325",
+      "wfo": "EKA",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lucerne",
+      "county": "Lake",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "TREE DOWN BLKING BOTH LANES/TOOK POWER POLE DOWN ALSO/TRANSFER LINES.",
+      "lat": 39.09,
+      "lon": -122.8,
+      "ugc": "CAC033",
+      "ugc_name": "Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120005",
+      "wfo": "EKA",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Blue Lake",
+      "county": "Humboldt",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "Powerlines and tree down_ blocking the roadway. CHP Incident 260411HM0133.",
+      "lat": 40.9,
+      "lon": -124.01,
+      "ugc": "CAC023",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120039",
+      "wfo": "EKA",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Douglas City",
+      "county": "Trinity",
+      "state": "CA",
+      "source": "Dept of Highways",
+      "remark": "TREE DOWN BLKG BOTH LANES.",
+      "lat": 40.62,
+      "lon": -122.94,
+      "ugc": "CAC105",
+      "ugc_name": "Trinity",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604120208",
+      "wfo": "EKA",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Ruth",
+      "county": "Trinity",
+      "state": "CA",
+      "source": "Trained Spotter",
+      "remark": "About an inch of rain in the last 24 hours. Snow started around 4:45PM.",
+      "lat": 40.29,
+      "lon": -123.44,
+      "ugc": "CAC105",
+      "ugc_name": "Trinity",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202604130205",
+      "wfo": "EKA",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Ruth",
+      "county": "Trinity",
+      "state": "CA",
+      "source": "Trained Spotter",
+      "remark": "1.5 inches of rain fell. Around 2 inches of snow in the morning. More snow may have fallen and melted.",
+      "lat": 40.29,
+      "lon": -123.44,
+      "ugc": "CAC105",
+      "ugc_name": "Trinity",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.0",
+      "wfo": "EKA",
+      "start_utc": "2026-04-01T00:00:00Z",
+      "end_utc": "2026-05-01T00:00:00Z",
+      "generated_utc": "2026-05-27T21:20:45Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=EKA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
+        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for EKA",
+            "url": "https://api.weather.gov/products/types/LSR/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for EKA",
+            "url": "https://api.weather.gov/products/types/PNS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for EKA",
+            "url": "https://api.weather.gov/products/types/TOR/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for EKA",
+            "url": "https://api.weather.gov/products/types/SVR/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for EKA",
+            "url": "https://api.weather.gov/products/types/SVS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for EKA",
+            "url": "https://api.weather.gov/products/types/SPS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for EKA",
+            "url": "https://api.weather.gov/products/types/WCN/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "FLS",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for EKA",
+            "url": "https://api.weather.gov/products/types/FFW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for EKA",
+            "url": "https://api.weather.gov/products/types/FFS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for EKA",
+            "url": "https://api.weather.gov/products/types/FLS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for EKA",
+            "url": "https://api.weather.gov/products/types/FLW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for EKA",
+            "url": "https://api.weather.gov/products/types/FLS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for EKA",
+            "url": "https://api.weather.gov/products/types/RVS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for EKA",
+            "url": "https://api.weather.gov/products/types/ESF/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for EKA",
+            "url": "https://api.weather.gov/products/types/SMW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for EKA",
+            "url": "https://api.weather.gov/products/types/MWS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for EKA",
+            "url": "https://api.weather.gov/products/types/MWW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for EKA",
+            "url": "https://api.weather.gov/products/types/CFW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for EKA",
+            "url": "https://api.weather.gov/products/types/CWF/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for EKA",
+            "url": "https://api.weather.gov/products/types/HLS/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for EKA",
+            "url": "https://api.weather.gov/products/types/NPW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for EKA",
+            "url": "https://api.weather.gov/products/types/WSW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for EKA",
+            "url": "https://api.weather.gov/products/types/RFW/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for EKA",
+            "url": "https://api.weather.gov/products/types/DGT/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for EKA",
+            "url": "https://api.weather.gov/products/types/HWO/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for EKA",
+            "url": "https://api.weather.gov/products/types/AFD/locations/EKA",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "summary_json": "summary.json"
+  }
+}
