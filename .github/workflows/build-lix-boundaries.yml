@@ -2,11 +2,6 @@ name: Build boundary GeoJSON
 
 on:
   workflow_dispatch:
-    inputs:
-      wfos:
-        description: 'Comma-separated WFOs to build, or ALL to auto-discover all WFOs from the CWA shapefile'
-        required: true
-        default: 'ALL'
 
 permissions:
   contents: write
@@ -31,7 +26,7 @@ jobs:
 
       - name: Build boundary GeoJSON
         run: |
-          python scripts/build_lix_boundaries.py --wfos "${{ github.event.inputs.wfos }}"
+          python scripts/build_boundaries.py
 
       - name: Commit generated boundary files
         run: |
