@@ -1,5 +1,61 @@
 let map;
 let eventLayer;
+let boundaryLayerControl;
+let cwaBoundaryLayer;
+let countyBoundaryLayer;
+let landZoneBoundaryLayer;
+let marineZoneBoundaryLayer;
+
+const boundaryLayersConfig = [
+  {
+    key: 'cwa',
+    label: 'CWA Boundary',
+    path: 'data/boundaries/LIX/cwa.geojson',
+    alwaysOn: true,
+    style: {
+      color: '#111827',
+      weight: 3,
+      opacity: 1,
+      fillOpacity: 0
+    }
+  },
+  {
+    key: 'counties',
+    label: 'Counties/Parishes',
+    path: 'data/boundaries/LIX/counties_parishes.geojson',
+    alwaysOn: false,
+    style: {
+      color: '#6b7280',
+      weight: 1.5,
+      opacity: 0.9,
+      fillOpacity: 0.02
+    }
+  },
+  {
+    key: 'land_zones',
+    label: 'Land Zones',
+    path: 'data/boundaries/LIX/land_zones.geojson',
+    alwaysOn: false,
+    style: {
+      color: '#2563eb',
+      weight: 1.5,
+      opacity: 0.9,
+      fillOpacity: 0.02
+    }
+  },
+  {
+    key: 'marine_zones',
+    label: 'Marine Zones',
+    path: 'data/boundaries/LIX/marine_zones.geojson',
+    alwaysOn: false,
+    style: {
+      color: '#0891b2',
+      weight: 1.5,
+      opacity: 0.9,
+      fillOpacity: 0.04
+    }
+  }
+];
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -25,6 +81,22 @@ function initializeMap() {
     attribution: 'OpenStreetMap contributors'
   }).addTo(map);
 
+  cwaBoundaryLayer = L.layerGroup().addTo(map);
+  countyBoundaryLayer = L.layerGroup();
+  landZoneBoundaryLayer = L.layerGroup();
+  marineZoneBoundaryLayer = L.layerGroup();
+
+  const overlays = {
+    'CWA Boundary': cwaBoundaryLayer,
+    'Counties/Parishes': countyBoundaryLayer,
+    'Land Zones': landZoneBoundaryLayer,
+    'Marine Zones': marineZoneBoundaryLayer
+  };
+
+  boundaryLayerControl = L.control.layers(null, overlays, {
+    collapsed: false
+  }).addTo(map);
+
   eventLayer = L.geoJSON(null, {
     pointToLayer: function (feature, latlng) {
       return L.circleMarker(latlng, {
@@ -47,6 +119,121 @@ function initializeMap() {
       layer.bindPopup(popupHtml);
     }
   }).addTo(map);
+
+  loadBoundaryLayers();
+
+  setTimeout(function () {
+    map.invalidateSize();
+  }, 100);
+}
+
+function getBoundaryGroup(key) {
+  if (key === 'cwa') {
+    return cwaBoundaryLayer;
+  }
+  if (key === 'counties') {
+    return countyBoundaryLayer;
+  }
+  if (key === 'land_zones') {
+    return landZoneBoundaryLayer;
+  }
+  if (key === 'marine_zones') {
+    return marineZoneBoundaryLayer;
+  }
+  return null;
+}
+
+function getFirstProperty(properties, names) {
+  for (const name of names) {
+    if (properties[name] !== undefined && properties[name] !== null && properties[name] !== '') {
+      return properties[name];
+    }
+  }
+  return '';
+}
+
+function buildBoundaryPopup(properties) {
+  const name = getFirstProperty(properties, ['NAME', 'name', 'CWA', 'WFO', 'ZONE', 'ID', 'STATE_ZONE', 'STATEZONE', 'COUNTYNAME']);
+  const state = getFirstProperty(properties, ['STATE', 'state']);
+  const zone = getFirstProperty(properties, ['ZONE', 'zone', 'STATE_ZONE', 'STATEZONE']);
+  const wfo = getFirstProperty(properties, ['WFO', 'wfo', 'CWA', 'cwa']);
+
+  const rows = [];
+
+  if (name) {
+    rows.push('<strong>' + escapeHtml(name) + '</strong>');
+  } else {
+    rows.push('<strong>Boundary Feature</strong>');
+  }
+  if (state) {
+    rows.push('State: ' + escapeHtml(state));
+  }
+  if (zone) {
+    rows.push('Zone: ' + escapeHtml(zone));
+  }
+  if (wfo) {
+    rows.push('WFO/CWA: ' + escapeHtml(wfo));
+  }
+
+  return rows.join('<br>');
+}
+
+async function loadOneBoundaryLayer(config) {
+  const group = getBoundaryGroup(config.key);
+
+  if (!group) {
+    return false;
+  }
+
+  const response = await fetch(config.path);
+
+  if (!response.ok) {
+    return false;
+  }
+
+  const geojson = await response.json();
+
+  const layer = L.geoJSON(geojson, {
+    style: config.style,
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup(buildBoundaryPopup(feature.properties || {}));
+    }
+  });
+
+  layer.addTo(group);
+
+  return true;
+}
+
+async function loadBoundaryLayers() {
+  const boundaryStatus = document.getElementById('boundary-status');
+  const loadedLabels = [];
+  const missingLabels = [];
+
+  for (const config of boundaryLayersConfig) {
+    try {
+      const loaded = await loadOneBoundaryLayer(config);
+      if (loaded) {
+        loadedLabels.push(config.label);
+      } else {
+        missingLabels.push(config.label);
+      }
+    } catch (error) {
+      missingLabels.push(config.label);
+    }
+  }
+
+  if (boundaryStatus) {
+    if (loadedLabels.length > 0) {
+      boundaryStatus.textContent = 'Loaded boundary layers: ' + loadedLabels.join(', ') + '.';
+    } else {
+      boundaryStatus.textContent = 'Boundary layers have not been generated yet. Run the boundary build workflow or script.';
+    }
+  }
+
+  if (missingLabels.length > 0) {
+    console.warn('Missing boundary layers:', missingLabels.join(', '));
+  }
 
   setTimeout(function () {
     map.invalidateSize();
