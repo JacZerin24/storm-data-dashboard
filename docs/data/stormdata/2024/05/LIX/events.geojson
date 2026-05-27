@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.1.0",
+    "year": 2024,
+    "month": 5,
+    "wfo": "LIX",
+    "source": "sample-placeholder"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "sample-001",
+      "properties": {
+        "event_id": "sample-001",
+        "event_type": "Thunderstorm Wind",
+        "event_category": "thunderstorm_wind",
+        "begin_time_utc": "2024-05-13T20:15:00Z",
+        "county_or_zone": "Orleans Parish",
+        "magnitude": 60,
+        "magnitude_units": "mph",
+        "event_narrative": "Sample placeholder event for frontend testing only."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.07, 29.95]
+      }
+    }
+  ]
+}
