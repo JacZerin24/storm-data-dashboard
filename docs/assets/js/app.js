@@ -12,6 +12,9 @@ function escapeHtml(value) {
 
 function initializeMap() {
   if (map) {
+    setTimeout(function () {
+      map.invalidateSize();
+    }, 0);
     return;
   }
 
@@ -44,6 +47,10 @@ function initializeMap() {
       layer.bindPopup(popupHtml);
     }
   }).addTo(map);
+
+  setTimeout(function () {
+    map.invalidateSize();
+  }, 100);
 }
 
 async function loadGeoJson(geoJsonPath) {
@@ -59,14 +66,18 @@ async function loadGeoJson(geoJsonPath) {
   const geojson = await response.json();
   eventLayer.addData(geojson);
 
-  const bounds = eventLayer.getBounds();
+  setTimeout(function () {
+    map.invalidateSize();
 
-  if (bounds.isValid()) {
-    map.fitBounds(bounds, {
-      padding: [30, 30],
-      maxZoom: 10
-    });
-  }
+    const bounds = eventLayer.getBounds();
+
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, {
+        padding: [30, 30],
+        maxZoom: 10
+      });
+    }
+  }, 100);
 }
 
 function renderEventTable(events) {
@@ -145,4 +156,12 @@ document.getElementById('load-button').addEventListener('click', async function 
   }
 });
 
-initializeMap();
+window.addEventListener('load', function () {
+  initializeMap();
+});
+
+window.addEventListener('resize', function () {
+  if (map) {
+    map.invalidateSize();
+  }
+});
