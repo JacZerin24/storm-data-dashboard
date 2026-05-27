@@ -1,50 +1,81 @@
-"""Build one public Storm Data dashboard month from one downloaded Storm Events CSV.
+"""Build one Storm Data prep month from public web sources.
 
-This is the first real ingest script for the static GitHub Pages dashboard.
-It reads a local/public Storm Events CSV, filters one WFO/year/month, and writes:
+This script is the GitHub Actions-friendly monthly builder. It pulls public
+helper sources for one WFO/month/year and writes static dashboard files:
 
-- docs/data/stormdata/YYYY/MM/WFO/events.json
-- docs/data/stormdata/YYYY/MM/WFO/events.geojson
-- docs/data/stormdata/YYYY/MM/WFO/summary.json
+- docs/data/stormprep/YYYY/MM/WFO/dashboard.json
+- docs/data/stormprep/YYYY/MM/WFO/reports.geojson
+- docs/data/stormprep/YYYY/MM/WFO/products.json
+- docs/data/stormprep/YYYY/MM/WFO/warnings.geojson
+- docs/data/stormprep/YYYY/MM/WFO/summary.json
 
 PowerShell example:
-python .\scripts\build_month.py `
-  --csv .\data\raw\storm_events_2024.csv `
-  --year 2024 `
-  --month 5 `
-  --wfo LIX
+python .\scripts\build_month.py --year 2026 --month 5 --wfo LIX
 
-Notes:
-- The CSV should be a public Storm Events / Storm Data style CSV.
-- This script does not publish raw CSV files.
-- It only writes dashboard-ready JSON/GeoJSON under docs/data/.
+Important: these files are a preparation aid. They are not the official final
+Storm Data record. They collect public reports, public links, and available
+warning/alert context in one static dashboard package.
 """
 
 from __future__ import annotations
 
 import argparse
+import calendar
+import io
 import json
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlencode
 
 import pandas as pd
-from dateutil import parser as date_parser
+import requests
 
 
-SCHEMA_VERSION = "0.1.0"
+SCHEMA_VERSION = "0.2.0"
+USER_AGENT = "storm-data-dashboard/0.2 (GitHub Pages storm prep prototype)"
+
+IEM_LSR_ENDPOINT = "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py"
+IEM_AFOS_LIST_URL = "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+NWS_API_BASE = "https://api.weather.gov"
+
+PRODUCT_GROUPS = [
+    {
+        "group": "Local storm reports and public statements",
+        "pils": ["LSR", "PNS"],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+    },
+    {
+        "group": "Convective warnings and statements",
+        "pils": ["TOR", "SVR", "SVS", "SPS", "WCN"],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+    },
+    {
+        "group": "Flood and hydro products",
+        "pils": ["FFW", "FFS", "FLS", "FLW", "FLS", "RVS", "ESF"],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+    },
+    {
+        "group": "Marine and coastal products",
+        "pils": ["SMW", "MWS", "MWW", "CFW", "CWF", "HLS"],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+    },
+    {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": ["NPW", "WSW", "RFW", "DGT", "HWO", "AFD"],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+    },
+]
 
 EVENT_CATEGORY_RULES: list[tuple[str, list[str]]] = [
-    ("tornado", ["TORNADO", "WATERSPOUT"]),
+    ("tornado", ["TORNADO", "WATERSPOUT", "WATER SPOUT", "FUNNEL"]),
     ("hail", ["HAIL"]),
-    ("thunderstorm_wind", ["THUNDERSTORM WIND", "TSTM WIND", "HIGH WIND", "STRONG WIND"]),
-    ("flooding", ["FLASH FLOOD", "FLOOD", "COASTAL FLOOD", "LAKESHORE FLOOD", "STORM SURGE"]),
-    ("drought", ["DROUGHT"]),
-    ("heat_cold", ["EXCESSIVE HEAT", "HEAT", "EXTREME COLD", "COLD", "WIND CHILL", "FROST", "FREEZE"]),
-    ("tropical_coastal", ["HURRICANE", "TROPICAL STORM", "TROPICAL DEPRESSION", "RIP CURRENT", "HIGH SURF"]),
-    ("winter", ["WINTER", "SNOW", "ICE", "SLEET", "BLIZZARD", "AVALANCHE", "LAKE-EFFECT"]),
-    ("marine", ["MARINE", "SEICHE"]),
+    ("thunderstorm_wind", ["TSTM WND", "THUNDERSTORM WIND", "DOWNBURST"]),
+    ("flooding", ["FLASH FLOOD", "FLOOD", "HEAVY RAIN", "STORM SURGE", "COASTAL FLOOD"]),
+    ("heat_cold", ["HEAT", "COLD", "FREEZE", "WIND CHILL"]),
+    ("winter", ["SNOW", "SLEET", "ICE", "BLIZZARD", "WINTER"]),
+    ("marine", ["MARINE", "SEICHE", "SURF", "RIP CURRENT"]),
     ("fire_smoke", ["WILDFIRE", "DENSE SMOKE"]),
     ("other", []),
 ]
@@ -54,141 +85,51 @@ def log(message: str) -> None:
     print(message, flush=True)
 
 
-def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    df.columns = [str(col).strip().upper() for col in df.columns]
-    return df
+def utc_now() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def get_value(row: pd.Series, *names: str, default: Any = None) -> Any:
-    for name in names:
-        key = name.upper()
-        if key in row.index:
-            value = row[key]
-            if pd.isna(value):
-                continue
-            return value
-    return default
+def month_window(year: int, month: int) -> tuple[datetime, datetime]:
+    start = datetime(year, month, 1, 0, 0, tzinfo=timezone.utc)
+    if month == 12:
+        end = datetime(year + 1, 1, 1, 0, 0, tzinfo=timezone.utc)
+    else:
+        end = datetime(year, month + 1, 1, 0, 0, tzinfo=timezone.utc)
+    return start, end
 
 
-def to_int(value: Any) -> int | None:
-    if value is None or pd.isna(value):
-        return None
-    try:
-        text = str(value).strip()
-        if text == "":
-            return None
-        return int(float(text))
-    except (TypeError, ValueError):
-        return None
-
-
-def to_float(value: Any) -> float | None:
-    if value is None or pd.isna(value):
-        return None
-    try:
-        text = str(value).strip()
-        if text == "":
-            return None
-        return float(text)
-    except (TypeError, ValueError):
-        return None
+def iso_z(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def clean_text(value: Any) -> str | None:
-    if value is None or pd.isna(value):
+    if value is None:
         return None
+    try:
+        if pd.isna(value):
+            return None
+    except TypeError:
+        pass
     text = str(value).strip()
     if text == "" or text.lower() == "nan":
         return None
     return text
 
 
-def parse_storm_time(value: Any) -> str | None:
+def to_float(value: Any) -> float | None:
     text = clean_text(value)
-    if not text:
+    if text is None:
         return None
-
     try:
-        dt = date_parser.parse(text, fuzzy=True)
-    except (ValueError, TypeError, OverflowError):
-        return None
-
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    else:
-        dt = dt.astimezone(timezone.utc)
-
-    return dt.isoformat().replace("+00:00", "Z")
-
-
-def parse_time_from_parts(yearmonth: Any, day: Any, hhmm: Any) -> str | None:
-    ym = clean_text(yearmonth)
-    dd = to_int(day)
-    time_value = clean_text(hhmm)
-
-    if not ym or dd is None or not time_value:
-        return None
-
-    ym = ym.replace(".0", "")
-    if len(ym) < 6:
-        return None
-
-    try:
-        year = int(ym[:4])
-        month = int(ym[4:6])
-        digits = "".join(ch for ch in time_value if ch.isdigit())
-        digits = digits.zfill(4)[-4:]
-        hour = int(digits[:2])
-        minute = int(digits[2:])
-        dt = datetime(year, month, dd, hour, minute, tzinfo=timezone.utc)
-        return dt.isoformat().replace("+00:00", "Z")
+        return float(text)
     except ValueError:
         return None
 
 
-def get_begin_time_utc(row: pd.Series) -> str | None:
-    direct = parse_storm_time(get_value(row, "BEGIN_DATE_TIME"))
-    if direct:
-        return direct
-    return parse_time_from_parts(
-        get_value(row, "BEGIN_YEARMONTH"),
-        get_value(row, "BEGIN_DAY"),
-        get_value(row, "BEGIN_TIME"),
-    )
-
-
-def get_end_time_utc(row: pd.Series) -> str | None:
-    direct = parse_storm_time(get_value(row, "END_DATE_TIME"))
-    if direct:
-        return direct
-    return parse_time_from_parts(
-        get_value(row, "END_YEARMONTH"),
-        get_value(row, "END_DAY"),
-        get_value(row, "END_TIME"),
-    )
-
-
-def normalize_month(value: Any) -> int | None:
-    month = to_int(value)
-    if month is not None and 1 <= month <= 12:
-        return month
-
-    text = clean_text(value)
-    if not text:
-        return None
-
-    try:
-        return date_parser.parse(text).month
-    except (ValueError, TypeError, OverflowError):
-        return None
-
-
-def event_category(event_type: Any) -> str:
-    text = clean_text(event_type)
+def event_category(report_type: Any) -> str:
+    text = clean_text(report_type)
     if not text:
         return "other"
-
     upper = text.upper()
     for category, needles in EVENT_CATEGORY_RULES:
         if category == "other":
@@ -198,162 +139,240 @@ def event_category(event_type: Any) -> str:
     return "other"
 
 
-def filter_month(df: pd.DataFrame, year: int, month: int, wfo: str) -> pd.DataFrame:
-    filtered = df.copy()
-
-    if "YEAR" in filtered.columns:
-        filtered = filtered[pd.to_numeric(filtered["YEAR"], errors="coerce") == year]
-    elif "BEGIN_YEARMONTH" in filtered.columns:
-        ym = pd.to_numeric(filtered["BEGIN_YEARMONTH"], errors="coerce")
-        filtered = filtered[(ym // 100) == year]
-
-    if "MONTH_NAME" in filtered.columns:
-        months = filtered["MONTH_NAME"].apply(normalize_month)
-        filtered = filtered[months == month]
-    elif "BEGIN_YEARMONTH" in filtered.columns:
-        ym = pd.to_numeric(filtered["BEGIN_YEARMONTH"], errors="coerce")
-        filtered = filtered[(ym % 100) == month]
-
-    if "WFO" not in filtered.columns:
-        raise RuntimeError("Input CSV does not include a WFO column. WFO filtering cannot be done safely yet.")
-
-    filtered = filtered[filtered["WFO"].astype(str).str.upper().str.strip() == wfo]
-
-    return filtered.copy()
+def prepared_url(base: str, params: dict[str, Any]) -> str:
+    return base + "?" + urlencode(params)
 
 
-def build_event(row: pd.Series) -> dict[str, Any]:
-    event_type = clean_text(get_value(row, "EVENT_TYPE"))
-    begin_lat = to_float(get_value(row, "BEGIN_LAT"))
-    begin_lon = to_float(get_value(row, "BEGIN_LON"))
-    end_lat = to_float(get_value(row, "END_LAT"))
-    end_lon = to_float(get_value(row, "END_LON"))
+def fetch_text(url: str, timeout: int = 60) -> str:
+    headers = {"User-Agent": USER_AGENT}
+    response = requests.get(url, headers=headers, timeout=timeout)
+    response.raise_for_status()
+    return response.text
 
-    magnitude = to_float(get_value(row, "MAGNITUDE"))
-    if magnitude is not None and magnitude.is_integer():
-        magnitude = int(magnitude)
 
-    return {
-        "event_id": clean_text(get_value(row, "EVENT_ID")),
-        "episode_id": clean_text(get_value(row, "EPISODE_ID")),
-        "event_type": event_type,
-        "event_category": event_category(event_type),
-        "begin_time_utc": get_begin_time_utc(row),
-        "end_time_utc": get_end_time_utc(row),
-        "state": clean_text(get_value(row, "STATE")),
-        "cz_type": clean_text(get_value(row, "CZ_TYPE")),
-        "cz_name": clean_text(get_value(row, "CZ_NAME")),
-        "county_or_zone": clean_text(get_value(row, "CZ_NAME")),
-        "wfo": clean_text(get_value(row, "WFO")),
-        "begin_lat": begin_lat,
-        "begin_lon": begin_lon,
-        "end_lat": end_lat,
-        "end_lon": end_lon,
-        "begin_location": clean_text(get_value(row, "BEGIN_LOCATION")),
-        "end_location": clean_text(get_value(row, "END_LOCATION")),
-        "magnitude": magnitude,
-        "magnitude_units": clean_text(get_value(row, "MAGNITUDE_TYPE")),
-        "source": clean_text(get_value(row, "SOURCE")),
-        "flood_cause": clean_text(get_value(row, "FLOOD_CAUSE")),
-        "tor_f_scale": clean_text(get_value(row, "TOR_F_SCALE")),
-        "tor_length": to_float(get_value(row, "TOR_LENGTH")),
-        "tor_width": to_float(get_value(row, "TOR_WIDTH")),
-        "injuries_direct": to_int(get_value(row, "INJURIES_DIRECT")) or 0,
-        "injuries_indirect": to_int(get_value(row, "INJURIES_INDIRECT")) or 0,
-        "deaths_direct": to_int(get_value(row, "DEATHS_DIRECT")) or 0,
-        "deaths_indirect": to_int(get_value(row, "DEATHS_INDIRECT")) or 0,
-        "property_damage": clean_text(get_value(row, "DAMAGE_PROPERTY")),
-        "crop_damage": clean_text(get_value(row, "DAMAGE_CROPS")),
-        "event_narrative": clean_text(get_value(row, "EVENT_NARRATIVE")),
-        "episode_narrative": clean_text(get_value(row, "EPISODE_NARRATIVE")),
-        "data_source": clean_text(get_value(row, "DATA_SOURCE")),
-        "source_links": [],
+def fetch_json(url: str, timeout: int = 60) -> dict[str, Any]:
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/geo+json, application/json",
     }
+    response = requests.get(url, headers=headers, timeout=timeout)
+    response.raise_for_status()
+    return response.json()
 
 
-def event_geometry(event: dict[str, Any]) -> dict[str, Any] | None:
-    begin_lat = event.get("begin_lat")
-    begin_lon = event.get("begin_lon")
-    end_lat = event.get("end_lat")
-    end_lon = event.get("end_lon")
+def build_iem_lsr_url(wfo: str, start: datetime, end: datetime) -> str:
+    params = {
+        "wfo": wfo,
+        "sts": iso_z(start),
+        "ets": iso_z(end),
+        "fmt": "csv",
+    }
+    return prepared_url(IEM_LSR_ENDPOINT, params)
 
-    if begin_lat is None or begin_lon is None:
-        return None
 
-    if (
-        end_lat is not None
-        and end_lon is not None
-        and (round(float(begin_lat), 5), round(float(begin_lon), 5)) != (round(float(end_lat), 5), round(float(end_lon), 5))
-    ):
-        return {
-            "type": "LineString",
-            "coordinates": [[begin_lon, begin_lat], [end_lon, end_lat]],
+def fetch_lsr_reports(wfo: str, start: datetime, end: datetime) -> tuple[list[dict[str, Any]], str, str | None]:
+    url = build_iem_lsr_url(wfo, start, end)
+    log(f"Fetching LSRs from {url}")
+
+    try:
+        text = fetch_text(url)
+    except requests.RequestException as exc:
+        return [], url, f"LSR fetch failed: {exc}"
+
+    if not text.strip():
+        return [], url, None
+
+    try:
+        df = pd.read_csv(io.StringIO(text))
+    except pd.errors.EmptyDataError:
+        return [], url, None
+
+    df.columns = [str(col).strip().upper() for col in df.columns]
+
+    reports: list[dict[str, Any]] = []
+    for idx, row in df.iterrows():
+        valid = clean_text(row.get("VALID"))
+        report_type = clean_text(row.get("TYPETEXT"))
+        lat = to_float(row.get("LAT"))
+        lon = to_float(row.get("LON"))
+        mag = to_float(row.get("MAG"))
+
+        report = {
+            "report_id": f"iem-lsr-{wfo}-{idx + 1}",
+            "source_dataset": "IEM Local Storm Reports archive",
+            "valid_utc": valid,
+            "wfo": clean_text(row.get("WFO")) or wfo,
+            "report_type": report_type,
+            "event_category": event_category(report_type),
+            "magnitude": mag,
+            "magnitude_qualifier": clean_text(row.get("QUALIFY")),
+            "city": clean_text(row.get("CITY")),
+            "county": clean_text(row.get("COUNTY")),
+            "state": clean_text(row.get("STATE")),
+            "source": clean_text(row.get("SOURCE")),
+            "remark": clean_text(row.get("REMARK")),
+            "lat": lat,
+            "lon": lon,
+            "ugc": clean_text(row.get("UGC")),
+            "ugc_name": clean_text(row.get("UGCNAME")),
+            "source_url": url,
         }
+        reports.append(report)
 
-    return {
-        "type": "Point",
-        "coordinates": [begin_lon, begin_lat],
-    }
+    return reports, url, None
 
 
-def build_geojson(events: list[dict[str, Any]], metadata: dict[str, Any]) -> dict[str, Any]:
+def report_geojson(reports: list[dict[str, Any]], metadata: dict[str, Any]) -> dict[str, Any]:
     features = []
-
-    for event in events:
-        geometry = event_geometry(event)
-        if geometry is None:
+    for report in reports:
+        lat = report.get("lat")
+        lon = report.get("lon")
+        if lat is None or lon is None:
             continue
-
-        properties = {
-            "event_id": event.get("event_id"),
-            "episode_id": event.get("episode_id"),
-            "event_type": event.get("event_type"),
-            "event_category": event.get("event_category"),
-            "begin_time_utc": event.get("begin_time_utc"),
-            "end_time_utc": event.get("end_time_utc"),
-            "county_or_zone": event.get("county_or_zone"),
-            "magnitude": event.get("magnitude"),
-            "magnitude_units": event.get("magnitude_units"),
-            "event_narrative": event.get("event_narrative"),
-        }
-
         features.append(
             {
                 "type": "Feature",
-                "id": event.get("event_id"),
-                "properties": properties,
-                "geometry": geometry,
+                "id": report.get("report_id"),
+                "properties": {
+                    "report_id": report.get("report_id"),
+                    "report_type": report.get("report_type"),
+                    "event_category": report.get("event_category"),
+                    "valid_utc": report.get("valid_utc"),
+                    "county_or_zone": report.get("county"),
+                    "city": report.get("city"),
+                    "state": report.get("state"),
+                    "magnitude": report.get("magnitude"),
+                    "magnitude_units": None,
+                    "source": report.get("source"),
+                    "event_narrative": report.get("remark"),
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [lon, lat],
+                },
+            }
+        )
+    return {"type": "FeatureCollection", "metadata": metadata, "features": features}
+
+
+def build_nws_alerts_url(wfo: str, start: datetime, end: datetime) -> str:
+    params = {
+        "office": wfo,
+        "start": iso_z(start),
+        "end": iso_z(end),
+    }
+    return prepared_url(f"{NWS_API_BASE}/alerts", params)
+
+
+def fetch_warning_alerts(wfo: str, start: datetime, end: datetime, metadata: dict[str, Any]) -> tuple[dict[str, Any], str, str | None]:
+    url = build_nws_alerts_url(wfo, start, end)
+    log(f"Fetching NWS API alerts from {url}")
+
+    try:
+        data = fetch_json(url)
+    except requests.RequestException as exc:
+        empty = {"type": "FeatureCollection", "metadata": metadata | {"source": url, "warning": str(exc)}, "features": []}
+        return empty, url, f"NWS alerts fetch failed: {exc}"
+
+    features = []
+    for feature in data.get("features", []):
+        props = feature.get("properties", {}) or {}
+        features.append(
+            {
+                "type": "Feature",
+                "id": props.get("id") or feature.get("id"),
+                "properties": {
+                    "id": props.get("id") or feature.get("id"),
+                    "event": props.get("event"),
+                    "headline": props.get("headline"),
+                    "sent": props.get("sent"),
+                    "effective": props.get("effective"),
+                    "expires": props.get("expires"),
+                    "ends": props.get("ends"),
+                    "status": props.get("status"),
+                    "messageType": props.get("messageType"),
+                    "severity": props.get("severity"),
+                    "certainty": props.get("certainty"),
+                    "urgency": props.get("urgency"),
+                    "areaDesc": props.get("areaDesc"),
+                    "description": props.get("description"),
+                    "instruction": props.get("instruction"),
+                },
+                "geometry": feature.get("geometry"),
             }
         )
 
+    return {"type": "FeatureCollection", "metadata": metadata | {"source": url}, "features": features}, url, None
+
+
+def build_product_links(wfo: str, start: datetime, end: datetime, lsr_url: str, alerts_url: str) -> dict[str, Any]:
+    groups = []
+    for group in PRODUCT_GROUPS:
+        links = []
+        for pil in group["pils"]:
+            links.append(
+                {
+                    "pil": pil,
+                    "label": f"Recent NWS API {pil} products for {wfo}",
+                    "url": f"{NWS_API_BASE}/products/types/{pil}/locations/{wfo}",
+                    "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review.",
+                }
+            )
+        groups.append({**group, "links": links})
+
     return {
-        "type": "FeatureCollection",
-        "metadata": metadata,
-        "features": features,
+        "metadata": {
+            "schema_version": SCHEMA_VERSION,
+            "wfo": wfo,
+            "start_utc": iso_z(start),
+            "end_utc": iso_z(end),
+            "generated_utc": utc_now(),
+        },
+        "primary_links": [
+            {
+                "label": "IEM Local Storm Reports CSV used by this build",
+                "url": lsr_url,
+                "note": "Candidate LSR source used to build reports.geojson and dashboard.json.",
+            },
+            {
+                "label": "IEM NWS text product archive search",
+                "url": IEM_AFOS_LIST_URL,
+                "note": "Use this to search archived NWS text products by center or product ID for the selected month.",
+            },
+            {
+                "label": "NWS API alerts query used by this build",
+                "url": alerts_url,
+                "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months.",
+            },
+        ],
+        "product_groups": groups,
     }
 
 
-def build_summary(events: list[dict[str, Any]], year: int, month: int, wfo: str) -> dict[str, Any]:
-    category_counts = Counter(event.get("event_category") or "other" for event in events)
-    type_counts = Counter(event.get("event_type") or "Unknown" for event in events)
+def build_summary(
+    reports: list[dict[str, Any]],
+    warnings_geojson: dict[str, Any],
+    year: int,
+    month: int,
+    wfo: str,
+    source_warnings: list[str],
+) -> dict[str, Any]:
+    category_counts = Counter(report.get("event_category") or "other" for report in reports)
+    type_counts = Counter(report.get("report_type") or "Unknown" for report in reports)
+    warning_counts = Counter((feature.get("properties") or {}).get("event") or "Unknown" for feature in warnings_geojson.get("features", []))
 
     return {
         "schema_version": SCHEMA_VERSION,
         "year": year,
         "month": month,
         "wfo": wfo,
-        "total_events": len(events),
-        "mapped_events": sum(1 for event in events if event_geometry(event) is not None),
-        "event_counts": dict(sorted(category_counts.items())),
-        "event_type_counts": dict(sorted(type_counts.items())),
-        "fatalities": {
-            "direct": sum(event.get("deaths_direct") or 0 for event in events),
-            "indirect": sum(event.get("deaths_indirect") or 0 for event in events),
-        },
-        "injuries": {
-            "direct": sum(event.get("injuries_direct") or 0 for event in events),
-            "indirect": sum(event.get("injuries_indirect") or 0 for event in events),
-        },
+        "total_candidate_reports": len(reports),
+        "mapped_candidate_reports": sum(1 for report in reports if report.get("lat") is not None and report.get("lon") is not None),
+        "candidate_report_counts": dict(sorted(category_counts.items())),
+        "candidate_report_type_counts": dict(sorted(type_counts.items())),
+        "nws_api_alert_count": len(warnings_geojson.get("features", [])),
+        "nws_api_alert_type_counts": dict(sorted(warning_counts.items())),
+        "source_warnings": source_warnings,
     }
 
 
@@ -369,12 +388,14 @@ def update_index(index_path: Path, year: int, month: int, wfo: str) -> None:
         "year": year,
         "month": month_text,
         "wfo": wfo,
-        "events_json": f"data/stormdata/{year}/{month_text}/{wfo}/events.json",
-        "events_geojson": f"data/stormdata/{year}/{month_text}/{wfo}/events.geojson",
-        "summary_json": f"data/stormdata/{year}/{month_text}/{wfo}/summary.json",
+        "dashboard_json": f"data/stormprep/{year}/{month_text}/{wfo}/dashboard.json",
+        "reports_geojson": f"data/stormprep/{year}/{month_text}/{wfo}/reports.geojson",
+        "products_json": f"data/stormprep/{year}/{month_text}/{wfo}/products.json",
+        "warnings_geojson": f"data/stormprep/{year}/{month_text}/{wfo}/warnings.geojson",
+        "summary_json": f"data/stormprep/{year}/{month_text}/{wfo}/summary.json",
     }
 
-    if index_path.exists():
+    if index_path.exists() and index_path.read_text(encoding="utf-8").strip():
         data = json.loads(index_path.read_text(encoding="utf-8"))
     else:
         data = {
@@ -383,22 +404,22 @@ def update_index(index_path: Path, year: int, month: int, wfo: str) -> None:
             "available_months": [],
         }
 
-    months = data.setdefault("available_months", [])
-    months = [item for item in months if not (item.get("year") == year and item.get("month") == month_text and item.get("wfo") == wfo)]
-    months.append(record)
-    months = sorted(months, key=lambda item: (item.get("year", 0), item.get("month", ""), item.get("wfo", "")))
-    data["available_months"] = months
+    data["schema_version"] = SCHEMA_VERSION
+    prep_months = data.setdefault("available_prep_months", [])
+    prep_months = [item for item in prep_months if not (item.get("year") == year and item.get("month") == month_text and item.get("wfo") == wfo)]
+    prep_months.append(record)
+    prep_months = sorted(prep_months, key=lambda item: (item.get("year", 0), item.get("month", ""), item.get("wfo", "")))
+    data["available_prep_months"] = prep_months
 
     write_json(index_path, data)
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build one WFO/month from a downloaded Storm Events CSV.")
-    parser.add_argument("--csv", required=True, help="Path to downloaded Storm Events CSV.")
+    parser = argparse.ArgumentParser(description="Build one Storm Data prep dashboard month from public web sources.")
     parser.add_argument("--year", required=True, type=int, help="Four-digit year to build.")
     parser.add_argument("--month", required=True, type=int, choices=range(1, 13), help="Month number, 1-12.")
     parser.add_argument("--wfo", required=True, help="Three-letter WFO identifier, such as LIX.")
-    parser.add_argument("--out-root", default="docs/data/stormdata", help="Root output folder for public storm data JSON.")
+    parser.add_argument("--out-root", default="docs/data/stormprep", help="Root output folder for public prep JSON.")
     parser.add_argument("--index", default="docs/data/index.json", help="Public data index JSON path.")
     parser.add_argument("--update-index", type=int, default=1, choices=[0, 1], help="Whether to update docs/data/index.json.")
     return parser.parse_args()
@@ -406,47 +427,63 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    csv_path = Path(args.csv)
     year = args.year
     month = args.month
     wfo = args.wfo.strip().upper()
+    start, end = month_window(year, month)
+    generated_utc = utc_now()
 
-    if not csv_path.exists():
-        raise FileNotFoundError(f"CSV not found: {csv_path}")
-
-    log(f"Reading {csv_path}")
-    df = pd.read_csv(csv_path, low_memory=False)
-    df = normalize_columns(df)
-    log(f"Input rows: {len(df)}")
-
-    filtered = filter_month(df, year, month, wfo)
-    log(f"Rows for {wfo} {year}-{month:02d}: {len(filtered)}")
-
-    events = [build_event(row) for _, row in filtered.iterrows()]
-
-    generated_utc = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     metadata = {
         "schema_version": SCHEMA_VERSION,
         "year": year,
         "month": month,
         "wfo": wfo,
+        "start_utc": iso_z(start),
+        "end_utc": iso_z(end),
         "generated_utc": generated_utc,
-        "source": str(csv_path),
+        "mode": "storm_data_prep",
         "public_release_status": "public-source-derived",
     }
+
+    source_warnings: list[str] = []
+    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)
+    if lsr_warning:
+        source_warnings.append(lsr_warning)
+
+    warnings_geojson, alerts_url, alerts_warning = fetch_warning_alerts(wfo, start, end, metadata)
+    if alerts_warning:
+        source_warnings.append(alerts_warning)
+
+    products = build_product_links(wfo, start, end, lsr_url, alerts_url)
+    summary = build_summary(reports, warnings_geojson, year, month, wfo, source_warnings)
+    reports_geojson = report_geojson(reports, metadata | {"source": lsr_url})
 
     month_text = f"{month:02d}"
     out_dir = Path(args.out_root) / str(year) / month_text / wfo
 
-    events_json = {
+    dashboard = {
         "metadata": metadata,
-        "events": events,
+        "summary": summary,
+        "sources": {
+            "iem_lsr_csv": lsr_url,
+            "nws_api_alerts": alerts_url,
+            "iem_text_archive": IEM_AFOS_LIST_URL,
+        },
+        "source_warnings": source_warnings,
+        "candidate_reports": reports,
+        "product_collections": products,
+        "files": {
+            "reports_geojson": f"reports.geojson",
+            "products_json": f"products.json",
+            "warnings_geojson": f"warnings.geojson",
+            "summary_json": f"summary.json",
+        },
     }
-    geojson = build_geojson(events, metadata)
-    summary = build_summary(events, year, month, wfo)
 
-    write_json(out_dir / "events.json", events_json)
-    write_json(out_dir / "events.geojson", geojson)
+    write_json(out_dir / "dashboard.json", dashboard)
+    write_json(out_dir / "reports.geojson", reports_geojson)
+    write_json(out_dir / "products.json", products)
+    write_json(out_dir / "warnings.geojson", warnings_geojson)
     write_json(out_dir / "summary.json", summary)
 
     if args.update_index == 1:
