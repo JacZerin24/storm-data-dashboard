@@ -4,9 +4,9 @@ Last updated: 2026-05-27
 
 ## Current project goal
 
-Build a static GitHub Pages dashboard where a user selects month, year, and WFO identifier, then views official Storm Data entries for that WFO/month.
+Build a static GitHub Pages dashboard where a user selects month, year, and WFO identifier, then views a Storm Data preparation package for that WFO/month.
 
-The project should eventually support tornadoes, thunderstorm wind, hail, flood/flash flood, drought, heat/cold, tropical/coastal, winter, marine, and other Storm Data event types permitted by the applicable NWS directive.
+The dashboard is intended to support the 60-day Storm Data preparation workflow by putting public candidate reports, relevant public NWS product links, warning/alert context, and map boundaries in one place. It is a preparation aid, not the final certified Storm Data record.
 
 ## Current phase
 
@@ -16,24 +16,33 @@ The project should eventually support tornadoes, thunderstorm wind, hail, flood/
 - [x] Phase 3: Create basic static frontend
 - [x] Phase 4: Add basic Leaflet map/table loading
 - [x] Phase 5: Add all-CWA and WFO-specific boundary layers
-- [x] Phase 6: Add first real Storm Data CSV ingest script
-- [ ] Phase 7: Test real ingest with one downloaded Storm Events CSV
-- [ ] Phase 8: Add directive-aware event type grouping
-- [ ] Phase 9: Add QA/verification helpers
-- [ ] Phase 10: Expand hazards and edge cases
-- [ ] Phase 11: Publish/refine GitHub Pages workflow
+- [x] Phase 6: Rename boundary builder to `scripts/build_boundaries.py`
+- [x] Phase 7: Convert `scripts/build_month.py` into a public Storm Data prep builder
+- [x] Phase 8: Add GitHub Actions workflow to build one Storm Data prep month
+- [ ] Phase 9: Test workflow with real WFO/month cases and fix source-specific edge cases
+- [ ] Phase 10: Add directive-aware event type grouping
+- [ ] Phase 11: Add QA/verification helpers
+- [ ] Phase 12: Expand hazards and evidence links
 
 ## Current status summary
 
-The dashboard has a working static GitHub Pages scaffold. It can load a sample LIX May 2024 `events.json` file, display the event in a table, and plot the matching `events.geojson` feature on a Leaflet map.
-
-The map now loads all CWA boundaries and dynamically loads WFO-specific CWA, counties/parishes, land zones, and marine zones based on the WFO entered by the user.
+The dashboard has a working static GitHub Pages scaffold. It loads all CWA boundaries and dynamically loads WFO-specific CWA, counties/parishes, land zones, and marine zones based on the WFO entered by the user.
 
 The boundary builder has been renamed from `scripts/build_lix_boundaries.py` to `scripts/build_boundaries.py`. The old LIX-specific script name was removed.
 
-A first real `scripts/build_month.py` ingest script now exists. It reads one downloaded public Storm Events CSV, filters one WFO/year/month, and writes dashboard-ready `events.json`, `events.geojson`, and `summary.json` files under `docs/data/stormdata/`.
+`scripts/build_month.py` is now a Storm Data prep builder. It pulls public helper sources for one WFO/month/year and writes static files under `docs/data/stormprep/YYYY/MM/WFO/`:
 
-The next recommended step is to download one public Storm Events CSV and test `build_month.py` for a known WFO/month.
+```text
+dashboard.json
+reports.geojson
+products.json
+warnings.geojson
+summary.json
+```
+
+A new GitHub Actions workflow, **Build Storm Data Prep Month**, can be run manually with year, month, and WFO inputs. It runs `scripts/build_month.py`, then commits the generated storm prep package into `docs/data/stormprep/`.
+
+The frontend now loads Storm Data prep packages from `docs/data/stormprep/` instead of only the older sample `docs/data/stormdata/` output.
 
 ## Key decisions made
 
@@ -45,27 +54,28 @@ The next recommended step is to download one public Storm Events CSV and test `b
 | 2026-05-27 | Add Leaflet through CDN for initial prototype | Keeps the frontend simple and static |
 | 2026-05-27 | Prebuild boundaries with GitHub Actions | Static GitHub Pages cannot create boundary files on demand |
 | 2026-05-27 | Build all CWA boundaries and WFO-specific folders | Lets public users type a WFO and load matching counties/zones if files exist |
-| 2026-05-27 | Start real ingest from a local downloaded public Storm Events CSV | Keeps the first ingest test simple before adding automated downloading |
+| 2026-05-27 | Use GitHub Actions to build Storm Data prep packages | Lets the dashboard pull public sources without manual local CSV downloads |
+| 2026-05-27 | Keep prep data separate from final Storm Data archive data | Avoids confusing candidate/prep evidence with final certified Storm Events records |
 
 ## Open questions
 
 | Question | Notes | Priority |
 |---|---|---|
-| What exact Storm Events CSV download source should be standardized first? | Manual NCEI CSV download or NOAA bulk CSV URL. | High |
-| How should WFO attribution be handled when older records are missing or inconsistent? | Current first pass requires a `WFO` column. | High |
+| Which additional public sources should be added first? | SPC storm reports, MRMS/rainfall links, public PNS/survey pages, WPC products, NHC tropical products. | High |
+| How should WFO attribution be handled for sources that do not include WFO directly? | Current prep builder starts with WFO-filtered public sources and WFO boundaries. | High |
 | What event types should be grouped together in the UI? | Needs directive-aware event type config. | Medium |
 | What source links/metadata should be exposed publicly? | Avoid private/internal evidence. | High |
 
 ## Public data output plan
 
-Planned public files under `docs/data/`:
+Storm Data prep package:
 
 ```text
-docs/data/index.json
-docs/data/wfos.json
-docs/data/stormdata/YYYY/MM/WFO/events.json
-docs/data/stormdata/YYYY/MM/WFO/events.geojson
-docs/data/stormdata/YYYY/MM/WFO/summary.json
+docs/data/stormprep/YYYY/MM/WFO/dashboard.json
+docs/data/stormprep/YYYY/MM/WFO/reports.geojson
+docs/data/stormprep/YYYY/MM/WFO/products.json
+docs/data/stormprep/YYYY/MM/WFO/warnings.geojson
+docs/data/stormprep/YYYY/MM/WFO/summary.json
 ```
 
 Boundary files:
@@ -78,17 +88,13 @@ docs/data/boundaries/by_wfo/WFO/land_zones.geojson
 docs/data/boundaries/by_wfo/WFO/marine_zones.geojson
 ```
 
-## Current sample dataset
+Older/sample official Storm Data-style files may still exist under:
 
 ```text
-WFO: LIX
-Year: 2024
-Month: 05
-Files:
-- docs/data/stormdata/2024/05/LIX/events.json
-- docs/data/stormdata/2024/05/LIX/events.geojson
-- docs/data/stormdata/2024/05/LIX/summary.json
+docs/data/stormdata/YYYY/MM/WFO/
 ```
+
+but the active dashboard now expects the storm prep package under `docs/data/stormprep/`.
 
 ## Frontend status
 
@@ -100,9 +106,11 @@ Implemented:
 - WFO selector
 - Load button
 - Summary panel
-- Event table
+- Candidate report table
+- Public product link groups
 - Leaflet map
-- Sample GeoJSON plotting
+- Candidate report plotting from `reports.geojson`
+- NWS API alert/warning polygon layer from `warnings.geojson` when available
 - All CWA boundary layer
 - WFO-specific CWA layer
 - WFO-specific counties/parishes layer
@@ -111,64 +119,77 @@ Implemented:
 
 Not yet implemented:
 
-- Real Storm Data ingest test with an actual CSV
+- Directive-aware hazard grouping from config
 - Event type filters
 - Search
 - Detailed event panel
-- Directive-aware hazard grouping from config
+- Dedicated final/certified Storm Data comparison mode
 - Images/evidence panel
 - QA flags
+- Scheduled recurring build workflow
 
-## Scripts
+## Scripts and workflows
 
-| Script | Purpose | Status |
+| Item | Purpose | Status |
 |---|---|---|
-| `scripts/build_month.py` | Build one WFO/month into public JSON/GeoJSON from one downloaded Storm Events CSV | First real version added, needs testing |
+| `scripts/build_month.py` | Build one WFO/month Storm Data prep package from public web sources | First GitHub Actions version added, needs testing |
 | `scripts/build_boundaries.py` | Build all CWA boundaries and WFO-specific boundary folders | Working prototype |
+| `.github/workflows/build-stormprep-month.yml` | Manual GitHub Action to build one year/month/WFO prep package | Added |
+| `.github/workflows/build-lix-boundaries.yml` | Manual GitHub Action to build boundary GeoJSON | Still named historically, but calls `build_boundaries.py` |
 | `scripts/build_index.py` | Build dashboard index files | Placeholder only |
 | `scripts/validate_output.py` | Validate public output files | Placeholder only |
 
 ## Known risks
 
 - Accidentally publishing private/internal evidence files.
-- Storm Data event type naming inconsistencies.
-- WFO attribution may be non-trivial for older or inconsistent records.
+- Public sources may be incomplete or delayed.
+- IEM LSR archive is a useful helper source but should not be treated as the final official Storm Data record by itself.
+- NWS API alert history is limited for older months, so `warnings.geojson` may be empty for older cases.
+- Storm Data event type naming and NWSI grouping still need directive-aware logic.
 - Some event types may not map cleanly to points or tracks.
 - Public imagery licensing must be tracked before display.
 - Large all-WFO boundary output may need optimization or simplification later.
 
 ## Next recommended step
 
-Download one public Storm Events CSV and test:
-
-```powershell
-python .\scripts\build_month.py `
-  --csv .\data\raw\storm_events_2024.csv `
-  --year 2024 `
-  --month 5 `
-  --wfo LIX
-```
-
-Then confirm these files are created or updated:
+Run the new manual GitHub Action:
 
 ```text
-docs/data/stormdata/2024/05/LIX/events.json
-docs/data/stormdata/2024/05/LIX/events.geojson
-docs/data/stormdata/2024/05/LIX/summary.json
-docs/data/index.json
+Actions → Build Storm Data Prep Month → Run workflow
 ```
+
+Use a test case such as:
+
+```text
+Year: 2026
+Month: 5
+WFO: LIX
+```
+
+After the workflow finishes, confirm these files exist:
+
+```text
+docs/data/stormprep/2026/05/LIX/dashboard.json
+docs/data/stormprep/2026/05/LIX/reports.geojson
+docs/data/stormprep/2026/05/LIX/products.json
+docs/data/stormprep/2026/05/LIX/warnings.geojson
+docs/data/stormprep/2026/05/LIX/summary.json
+```
+
+Then hard refresh the GitHub Pages dashboard and load the same year/month/WFO.
 
 ## Chat handoff notes
 
 ### What was completed
 
 - Starter repo scaffold created.
-- Sample JSON/GeoJSON/summary files added for LIX May 2024.
-- Static dashboard loads sample JSON and displays an event table.
-- Leaflet added and sample GeoJSON point plotting implemented.
+- Static dashboard loads data from GitHub Pages.
+- Leaflet map added.
 - All CWA and WFO-specific boundary layer support added.
 - Boundary builder renamed to `scripts/build_boundaries.py`.
-- First real `scripts/build_month.py` CSV ingest script added.
+- Manual Storm Data prep GitHub Action added.
+- `scripts/build_month.py` now pulls public LSR/NWS helper sources and writes a storm prep package.
+- Frontend now loads storm prep package files from `docs/data/stormprep/`.
 
 ### What files changed
 
@@ -176,32 +197,22 @@ docs/data/index.json
 - `docs/assets/js/app.js`
 - `docs/assets/css/styles.css`
 - `docs/data/index.json`
-- `docs/data/stormdata/2024/05/LIX/events.json`
-- `docs/data/stormdata/2024/05/LIX/events.geojson`
-- `docs/data/stormdata/2024/05/LIX/summary.json`
 - `docs/data/boundaries/`
 - `.github/workflows/build-lix-boundaries.yml`
+- `.github/workflows/build-stormprep-month.yml`
 - `scripts/build_boundaries.py`
 - `scripts/build_month.py`
 - `PROJECT_STATUS.md`
 
-### What decisions were made
-
-- Keep public dashboard output under `docs/data/`.
-- Keep internal/private data out of GitHub Pages.
-- Use Leaflet for the map prototype.
-- Prebuild boundary files instead of attempting browser-side shapefile processing.
-- Start real Storm Data ingest from one manually downloaded public CSV before automating downloads.
-
 ### What needs to happen next
 
-- Test `scripts/build_month.py` with one real downloaded Storm Events CSV.
-- Confirm actual CSV column compatibility.
-- Add validation checks for required fields.
-- Improve event category mapping using `config/event_types.yml`.
+- Test **Build Storm Data Prep Month** with LIX and at least one other WFO.
+- Fix any source-specific errors from the first workflow run.
+- Add more public evidence/source links.
+- Add directive-aware categorization and filters.
 
 ### Problems/errors encountered
 
 - GitHub Pages may show cached JavaScript briefly after updates. Use hard refresh if needed.
 - Boundary workflow initially failed due to shapefile source URL issues and was patched.
-- Workflow now builds all CWA/WFO-specific boundary files successfully.
+- NWS API alert history may be empty for older months; this is expected and should be documented in the dashboard.
