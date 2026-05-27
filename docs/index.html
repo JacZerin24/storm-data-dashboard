@@ -6,6 +6,12 @@
 
   <title>Storm Data Dashboard</title>
 
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQW9YgjpGgz5t5sqwJr4yfwL7oobVg="
+    crossorigin=""
+  />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
@@ -49,7 +55,7 @@
 
     <section id="status-panel">
       <h2>Status</h2>
-      <p>This is the initial static dashboard scaffold. Real data loading will be added later.</p>
+      <p>This dashboard can now load sample event JSON and plot sample GeoJSON on the map. Use May 2024 and LIX to test it.</p>
     </section>
 
     <section id="summary-panel">
@@ -59,7 +65,7 @@
 
     <section id="map-panel">
       <h2>Map</h2>
-      <div id="map-placeholder">Map will go here.</div>
+      <div id="map" aria-label="Storm Data event map"></div>
     </section>
 
     <section id="table-panel">
@@ -68,6 +74,11 @@
     </section>
   </main>
 
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
