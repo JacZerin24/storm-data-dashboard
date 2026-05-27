@@ -1,0 +1,35 @@
+name: Build LIX boundary GeoJSON
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-boundaries:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install geospatial dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install geopandas shapely pyproj fiona
+
+      - name: Build LIX boundary GeoJSON
+        run: |
+          python scripts/build_lix_boundaries.py
+
+      - name: Commit generated boundary files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Build LIX boundary GeoJSON files
+          file_pattern: docs/data/boundaries/LIX/*.geojson
