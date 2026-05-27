@@ -21,7 +21,7 @@ const reportStyles = {
   hail: { color: '#15803d', fillColor: '#22c55e' },
   thunderstorm_wind: { color: '#1e3a8a', fillColor: '#2563eb' },
   tornado: { color: '#991b1b', fillColor: '#dc2626' },
-  flooding: { color: '#6d28d9', fillColor: '#8b5cf6' },
+  flooding: { color: '#064e3b', fillColor: '#047857' },
   heat_cold: { color: '#c2410c', fillColor: '#fb923c' },
   winter: { color: '#0f766e', fillColor: '#2dd4bf' },
   fire_smoke: { color: '#7c2d12', fillColor: '#f97316' },
@@ -45,6 +45,7 @@ function normalizeCategory(properties) {
   if (category === 'hail' || type.includes('HAIL')) return 'hail';
   if (category === 'tornado' || type.includes('TORNADO')) return 'tornado';
   if (category === 'thunderstorm_wind' || type.includes('TSTM WND') || type.includes('THUNDERSTORM WIND') || type.includes('WIND GST') || type.includes('WIND DMG')) return 'thunderstorm_wind';
+  if (category === 'flooding' || type.includes('FLASH FLOOD') || type.includes('FLOOD')) return 'flooding';
   if (category && reportStyles[category]) return category;
   return 'other';
 }
@@ -185,6 +186,7 @@ function addLegend() {
       '<div><span style="background:#dc2626"></span>Tornado</div>' +
       '<div><span style="background:#22c55e"></span>Hail</div>' +
       '<div><span style="background:#2563eb"></span>Land wind/gust/damage</div>' +
+      '<div><span style="background:#047857"></span>Flash flooding/flooding</div>' +
       '<div><span style="background:#7dd3fc"></span>Marine</div>' +
       '<div><span style="background:#9ca3af"></span>Other</div>';
     return div;
