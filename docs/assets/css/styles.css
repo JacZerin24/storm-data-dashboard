@@ -122,21 +122,10 @@ button {
   top: 0;
 }
 
-.leaflet-map-pane {
-  z-index: 400;
-}
-
-.leaflet-tile-pane {
-  z-index: 200;
-}
-
-.leaflet-overlay-pane {
-  z-index: 400;
-}
-
-.leaflet-popup-pane {
-  z-index: 700;
-}
+.leaflet-map-pane { z-index: 400; }
+.leaflet-tile-pane { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-popup-pane { z-index: 700; }
 
 .leaflet-control-container .leaflet-top,
 .leaflet-control-container .leaflet-bottom {
@@ -145,21 +134,10 @@ button {
   pointer-events: none;
 }
 
-.leaflet-top {
-  top: 0;
-}
-
-.leaflet-right {
-  right: 0;
-}
-
-.leaflet-bottom {
-  bottom: 0;
-}
-
-.leaflet-left {
-  left: 0;
-}
+.leaflet-top { top: 0; }
+.leaflet-right { right: 0; }
+.leaflet-bottom { bottom: 0; }
+.leaflet-left { left: 0; }
 
 .leaflet-control {
   position: relative;
@@ -178,6 +156,8 @@ button {
 
 .leaflet-popup-content {
   line-height: 1.35;
+  max-height: 240px;
+  overflow-y: auto;
 }
 
 table {
@@ -196,4 +176,50 @@ td {
 
 th {
   background: #f0f4f8;
+}
+
+#events-table h2 {
+  margin-top: 1.25rem;
+}
+
+#events-table h2:first-child {
+  margin-top: 0;
+}
+
+.product-group {
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+  background: #f8fafc;
+}
+
+.product-group h3 {
+  margin: 0 0 0.35rem 0;
+}
+
+.product-group p {
+  margin: 0 0 0.5rem 0;
+  color: #52606d;
+}
+
+.product-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.product-pill {
+  display: inline-block;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid #bcccdc;
+  border-radius: 999px;
+  background: white;
+  color: #102a43;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product-pill:hover {
+  background: #e6f6ff;
 }
