@@ -10,6 +10,7 @@ This script downloads public NWS AWIPS shapefiles and writes:
 
 PowerShell usage:
 python .\scripts\build_lix_boundaries.py
+python .\scripts\build_lix_boundaries.py --wfos ALL
 python .\scripts\build_lix_boundaries.py --wfos LIX,MOB,JAN,LCH
 """
 
@@ -26,7 +27,7 @@ import geopandas as gpd
 import pandas as pd
 
 
-DEFAULT_WFOS = ["LIX"]
+DEFAULT_WFOS = "ALL"
 
 # Public NWS AWIPS shapefiles. CWA/public zones/marine zones are under WSOM;
 # counties are under the County folder on weather.gov.
@@ -99,6 +100,25 @@ def read_source_layer(layer_key: str, source_url: str, tmpdir: Path) -> gpd.GeoD
     log(f"  Raw features: {len(gdf)}")
     log(f"  Columns: {', '.join(map(str, gdf.columns))}")
     return gdf
+
+
+def discover_wfos(raw_cwa: gpd.GeoDataFrame) -> list[str]:
+    for col in ["WFO", "CWA"]:
+        if col in raw_cwa.columns:
+            values = raw_cwa[col].dropna().astype(str).str.upper().str.strip()
+            wfos = sorted(value for value in values.unique() if len(value) == 3 and value.isalpha())
+            if wfos:
+                log(f"Discovered {len(wfos)} WFOs from CWA field {col}.")
+                return wfos
+
+    raise RuntimeError("Could not auto-discover WFOs from the CWA shapefile.")
+
+
+def resolve_wfos(value: str, raw_cwa: gpd.GeoDataFrame) -> list[str]:
+    cleaned = value.strip().upper()
+    if cleaned in {"ALL", "*", "AUTO"}:
+        return discover_wfos(raw_cwa)
+    return [item.strip().upper() for item in value.split(",") if item.strip()]
 
 
 def filter_by_wfo_columns(gdf: gpd.GeoDataFrame, wfo: str) -> gpd.GeoDataFrame:
@@ -272,10 +292,6 @@ def build_wfo_layer(
     return gdf
 
 
-def parse_wfos(value: str) -> list[str]:
-    return [item.strip().upper() for item in value.split(",") if item.strip()]
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build Storm Data Dashboard boundary GeoJSON files.")
     parser.add_argument(
@@ -285,8 +301,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--wfos",
-        default=",".join(DEFAULT_WFOS),
-        help="Comma-separated WFO list to build WFO-specific counties/zones for.",
+        default=DEFAULT_WFOS,
+        help="Comma-separated WFO list, or ALL to auto-discover all WFOs from the CWA shapefile.",
     )
     parser.add_argument(
         "--simplify-tolerance",
@@ -300,10 +316,6 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     output_dir = Path(args.output_dir)
-    wfos = parse_wfos(args.wfos)
-
-    if not wfos:
-        raise RuntimeError("At least one WFO must be provided.")
 
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
@@ -312,6 +324,11 @@ def main() -> None:
         for layer_key, source_url in SOURCES.items():
             raw_layers[layer_key] = read_source_layer(layer_key, source_url, tmpdir)
 
+        wfos = resolve_wfos(args.wfos, raw_layers["cwa"])
+        if not wfos:
+            raise RuntimeError("At least one WFO must be provided or discovered.")
+
+        log(f"Building WFO-specific boundary layers for {len(wfos)} WFOs: {', '.join(wfos)}")
         build_all_cwas(raw_layers["cwa"], output_dir, args.simplify_tolerance)
 
         for wfo in wfos:
