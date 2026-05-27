@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.1",
     "wfo": "LIX",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:21:12Z"
+    "generated_utc": "2026-05-27T22:42:19Z"
   },
   "primary_links": [
     {
@@ -21,6 +21,11 @@
       "label": "NWS API alerts query used by this build",
       "url": "https://api.weather.gov/alerts?office=LIX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
       "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+    },
+    {
+      "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+      "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+      "note": "Use for public tornado/damage survey review. Dashboard track extraction is prepared but not wired to a verified DAT API yet."
     }
   ],
   "product_groups": [
@@ -96,7 +101,6 @@
         "FFS",
         "FLS",
         "FLW",
-        "FLS",
         "RVS",
         "ESF"
       ],
@@ -124,12 +128,6 @@
           "pil": "FLW",
           "label": "Recent NWS API FLW products for LIX",
           "url": "https://api.weather.gov/products/types/FLW/locations/LIX",
-          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-        },
-        {
-          "pil": "FLS",
-          "label": "Recent NWS API FLS products for LIX",
-          "url": "https://api.weather.gov/products/types/FLS/locations/LIX",
           "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
         },
         {

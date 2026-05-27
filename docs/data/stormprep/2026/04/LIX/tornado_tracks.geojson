@@ -11,8 +11,9 @@
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
-    "source": "https://api.weather.gov/alerts?office=LIX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "warning": "400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LIX&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "layer": "tornado_tracks",
+    "source": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "note": "Placeholder. DAT track extraction requires a verified public data endpoint or manually supplied public GeoJSON."
   },
   "features": []
 }
