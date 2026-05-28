@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "BMX",
+  "total_candidate_reports": 62,
+  "mapped_candidate_reports": 62,
+  "candidate_report_counts": {
+    "flooding": 10,
+    "hail": 17,
+    "other": 16,
+    "thunderstorm_wind": 15,
+    "tornado": 4
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 10,
+    "HAIL": 17,
+    "RAIN": 16,
+    "TORNADO": 4,
+    "TSTM WND DMG": 13,
+    "TSTM WND GST": 2
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BMX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

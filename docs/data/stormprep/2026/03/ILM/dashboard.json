@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "ILM",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:47:56Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "ILM",
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
+    "candidate_report_counts": {
+      "marine": 2,
+      "thunderstorm_wind": 15
+    },
+    "candidate_report_type_counts": {
+      "MARINE TSTM WIND": 2,
+      "NON-TSTM WND DMG": 1,
+      "TSTM WND DMG": 11,
+      "TSTM WND GST": 3
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=ILM&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ILM-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603082200",
+      "standard_time_display": "2026-03-08 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Conway",
+      "county": "Horry",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Tree down in Homewood_ SC. Time estimated by radar.",
+      "lat": 33.88,
+      "lon": -79.05,
+      "ugc": "SCC051",
+      "ugc_name": "Horry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603082200",
+      "standard_time_display": "2026-03-08 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Conway",
+      "county": "Horry",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Tree down on power line at Erskrine Dr and Singleton.",
+      "lat": 33.84,
+      "lon": -79.06,
+      "ugc": "SCC051",
+      "ugc_name": "Horry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121543",
+      "standard_time_display": "2026-03-12 10:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Kingstree",
+      "county": "Williamsburg",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Several trees down in the Salters area. Possible roof damage to a home.",
+      "lat": 33.61,
+      "lon": -79.86,
+      "ugc": "SCC089",
+      "ugc_name": "Williamsburg",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121630",
+      "standard_time_display": "2026-03-12 11:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Conway",
+      "county": "Horry",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Trees down in Conway",
+      "lat": 33.84,
+      "lon": -79.06,
+      "ugc": "SCC051",
+      "ugc_name": "Horry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121713",
+      "standard_time_display": "2026-03-12 12:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "East Arcadia",
+      "county": "Bladen",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Trees down in the Buckhead/Bolten area",
+      "lat": 34.38,
+      "lon": -78.31,
+      "ugc": "NCC017",
+      "ugc_name": "Bladen",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121717",
+      "standard_time_display": "2026-03-12 12:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW East Arcadia",
+      "county": "Columbus",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Down and twisted trees were reported. One home sustained minor vinyl siding damage.",
+      "lat": 34.37,
+      "lon": -78.34,
+      "ugc": "NCC047",
+      "ugc_name": "Columbus",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121725",
+      "standard_time_display": "2026-03-12 12:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Riegelwood",
+      "county": "Columbus",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Trees reported down on house and powerlines.",
+      "lat": 34.32,
+      "lon": -78.27,
+      "ugc": "NCC047",
+      "ugc_name": "Columbus",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121740",
+      "standard_time_display": "2026-03-12 12:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Sandy Creek",
+      "county": "Brunswick",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Trees down along Old Maco Rd_ near Shiloh Methodist Church. Time estimated by radar.",
+      "lat": 34.23,
+      "lon": -78.12,
+      "ugc": "NCC019",
+      "ugc_name": "Brunswick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121742",
+      "standard_time_display": "2026-03-12 12:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "Johnny Mercer Pier",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Other Federal",
+      "remark": null,
+      "lat": 34.21,
+      "lon": -77.8,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121745",
+      "standard_time_display": "2026-03-12 12:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Rocky Point",
+      "county": "Pender",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Multiple trees down across the western part of the county_ including one downed tree onto a car on US HWY 177 S.",
+      "lat": 34.43,
+      "lon": -77.88,
+      "ugc": "NCC141",
+      "ugc_name": "Pender",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121750",
+      "standard_time_display": "2026-03-12 12:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "Johnny Mercer Pier",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Other Federal",
+      "remark": null,
+      "lat": 34.21,
+      "lon": -77.8,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121750",
+      "standard_time_display": "2026-03-12 12:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Rocky Point",
+      "county": "Pender",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Media relayed report from the public of 2 trees down along Castle Hayne Rd near Lanier Ave. Time estimated from radar and report time.",
+      "lat": 34.45,
+      "lon": -77.88,
+      "ugc": "NCC141",
+      "ugc_name": "Pender",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121755",
+      "standard_time_display": "2026-03-12 12:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Seagate",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Palm tree down in yard on Bradford Rd in Wilmington",
+      "lat": 34.2,
+      "lon": -77.85,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603121905",
+      "standard_time_display": "2026-03-12 14:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Whiteville",
+      "county": "Columbus",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Strong winds behind cold front brought a tree down onto power lines on Old Lumberton Rd new 701 in Whiteville.",
+      "lat": 34.39,
+      "lon": -78.73,
+      "ugc": "NCC047",
+      "ugc_name": "Columbus",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603162153",
+      "standard_time_display": "2026-03-16 16:53 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Florence",
+      "county": "Florence",
+      "state": "SC",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 34.19,
+      "lon": -79.72,
+      "ugc": "SCC041",
+      "ugc_name": "Florence",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603162247",
+      "standard_time_display": "2026-03-16 17:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Lumberton",
+      "county": "Robeson",
+      "state": "NC",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 34.61,
+      "lon": -79.06,
+      "ugc": "NCC155",
+      "ugc_name": "Robeson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603162254",
+      "standard_time_display": "2026-03-16 17:54 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "4 S LUMBERTON",
+      "county": "Robeson",
+      "state": "NC",
+      "source": "Public",
+      "remark": null,
+      "lat": 34.56,
+      "lon": -79.06,
+      "ugc": "NCC155",
+      "ugc_name": "Robeson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "ILM",
+      "start_utc": "2026-03-01T00:00:00Z",
+      "end_utc": "2026-04-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:47:57Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=ILM&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for ILM",
+            "url": "https://api.weather.gov/products/types/LSR/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for ILM",
+            "url": "https://api.weather.gov/products/types/PNS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for ILM",
+            "url": "https://api.weather.gov/products/types/TOR/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for ILM",
+            "url": "https://api.weather.gov/products/types/SVR/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for ILM",
+            "url": "https://api.weather.gov/products/types/SVS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for ILM",
+            "url": "https://api.weather.gov/products/types/SPS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for ILM",
+            "url": "https://api.weather.gov/products/types/WCN/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for ILM",
+            "url": "https://api.weather.gov/products/types/FFW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for ILM",
+            "url": "https://api.weather.gov/products/types/FFS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for ILM",
+            "url": "https://api.weather.gov/products/types/FLS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for ILM",
+            "url": "https://api.weather.gov/products/types/FLW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for ILM",
+            "url": "https://api.weather.gov/products/types/RVS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for ILM",
+            "url": "https://api.weather.gov/products/types/ESF/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for ILM",
+            "url": "https://api.weather.gov/products/types/SMW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for ILM",
+            "url": "https://api.weather.gov/products/types/MWS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for ILM",
+            "url": "https://api.weather.gov/products/types/MWW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for ILM",
+            "url": "https://api.weather.gov/products/types/CFW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for ILM",
+            "url": "https://api.weather.gov/products/types/CWF/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for ILM",
+            "url": "https://api.weather.gov/products/types/HLS/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for ILM",
+            "url": "https://api.weather.gov/products/types/NPW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for ILM",
+            "url": "https://api.weather.gov/products/types/WSW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for ILM",
+            "url": "https://api.weather.gov/products/types/RFW/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for ILM",
+            "url": "https://api.weather.gov/products/types/DGT/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for ILM",
+            "url": "https://api.weather.gov/products/types/HWO/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for ILM",
+            "url": "https://api.weather.gov/products/types/AFD/locations/ILM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

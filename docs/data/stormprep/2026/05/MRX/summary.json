@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "MRX",
+  "total_candidate_reports": 21,
+  "mapped_candidate_reports": 21,
+  "candidate_report_counts": {
+    "flooding": 8,
+    "thunderstorm_wind": 12,
+    "tornado": 1
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 8,
+    "TORNADO": 1,
+    "TSTM WND DMG": 12
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

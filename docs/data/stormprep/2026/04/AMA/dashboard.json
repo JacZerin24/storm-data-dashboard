@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "AMA",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:20:22Z",
+    "generated_utc": "2026-05-28T12:45:52Z",
     "mode": "storm_data_prep",
-    "public_release_status": "public-source-derived"
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
   },
   "summary": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "AMA",
@@ -28,23 +30,28 @@
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
     ]
   },
   "sources": {
     "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
     "nws_api_alerts": "https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-AMA-1",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604092333",
+      "standard_time_display": "2026-04-09 17:33 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -65,6 +72,8 @@
       "report_id": "iem-lsr-AMA-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604100109",
+      "standard_time_display": "2026-04-09 19:09 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -85,6 +94,8 @@
       "report_id": "iem-lsr-AMA-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604100109",
+      "standard_time_display": "2026-04-09 19:09 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -105,6 +116,8 @@
       "report_id": "iem-lsr-AMA-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604100121",
+      "standard_time_display": "2026-04-09 19:21 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -125,6 +138,8 @@
       "report_id": "iem-lsr-AMA-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604100630",
+      "standard_time_display": "2026-04-10 00:30 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -145,6 +160,8 @@
       "report_id": "iem-lsr-AMA-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102040",
+      "standard_time_display": "2026-04-10 13:40 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -165,6 +182,8 @@
       "report_id": "iem-lsr-AMA-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102046",
+      "standard_time_display": "2026-04-10 13:46 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -185,6 +204,8 @@
       "report_id": "iem-lsr-AMA-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102048",
+      "standard_time_display": "2026-04-10 13:48 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -205,6 +226,8 @@
       "report_id": "iem-lsr-AMA-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102110",
+      "standard_time_display": "2026-04-10 14:10 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -225,6 +248,8 @@
       "report_id": "iem-lsr-AMA-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604120207",
+      "standard_time_display": "2026-04-11 20:07 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -245,6 +270,8 @@
       "report_id": "iem-lsr-AMA-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604180144",
+      "standard_time_display": "2026-04-17 18:44 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -265,6 +292,8 @@
       "report_id": "iem-lsr-AMA-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604180204",
+      "standard_time_display": "2026-04-17 19:04 MST",
+      "standard_time_zone": "MST",
       "wfo": "AMA",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -285,6 +314,8 @@
       "report_id": "iem-lsr-AMA-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604180353",
+      "standard_time_display": "2026-04-17 21:53 CST",
+      "standard_time_zone": "CST",
       "wfo": "AMA",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -304,11 +335,11 @@
   ],
   "product_collections": {
     "metadata": {
-      "schema_version": "0.2.0",
+      "schema_version": "0.2.4",
       "wfo": "AMA",
       "start_utc": "2026-04-01T00:00:00Z",
       "end_utc": "2026-05-01T00:00:00Z",
-      "generated_utc": "2026-05-27T21:20:23Z"
+      "generated_utc": "2026-05-28T12:45:52Z"
     },
     "primary_links": [
       {
@@ -324,7 +355,12 @@
       {
         "label": "NWS API alerts query used by this build",
         "url": "https://api.weather.gov/alerts?office=AMA&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
       }
     ],
     "product_groups": [
@@ -400,7 +436,6 @@
           "FFS",
           "FLS",
           "FLW",
-          "FLS",
           "RVS",
           "ESF"
         ],
@@ -428,12 +463,6 @@
             "pil": "FLW",
             "label": "Recent NWS API FLW products for AMA",
             "url": "https://api.weather.gov/products/types/FLW/locations/AMA",
-            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-          },
-          {
-            "pil": "FLS",
-            "label": "Recent NWS API FLS products for AMA",
-            "url": "https://api.weather.gov/products/types/FLS/locations/AMA",
             "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
           },
           {
@@ -556,6 +585,7 @@
     "reports_geojson": "reports.geojson",
     "products_json": "products.json",
     "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
     "summary_json": "summary.json"
   }
 }

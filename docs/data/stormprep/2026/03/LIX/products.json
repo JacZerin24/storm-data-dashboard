@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "schema_version": "0.2.2",
+    "schema_version": "0.2.4",
     "wfo": "LIX",
     "start_utc": "2026-03-01T00:00:00Z",
     "end_utc": "2026-04-01T00:00:00Z",
-    "generated_utc": "2026-05-27T22:53:12Z"
+    "generated_utc": "2026-05-28T12:48:05Z"
   },
   "primary_links": [
     {
@@ -20,22 +20,12 @@
     {
       "label": "NWS API alerts query used by this build",
       "url": "https://api.weather.gov/alerts?office=LIX&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
-      "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+      "note": "NWS API alert history is limited; older months use product archive links instead."
     },
     {
       "label": "NOAA/NWS Damage Assessment Toolkit viewer",
       "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
-      "note": "Use for public tornado/damage survey review. Direct DAT track extraction is not wired until a verified public data endpoint is confirmed."
-    },
-    {
-      "label": "NCEI StormEvents bulk CSV directory",
-      "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
-      "note": "Used to find StormEvents_details CSVs for tornado begin/end track coordinates when available."
-    },
-    {
-      "label": "NCEI StormEvents details file used for tornado tracks",
-      "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2026_c20260519.csv.gz",
-      "note": "Source for tornado_tracks.geojson when matching tornado records are available."
+      "note": "Use for public tornado/damage survey review."
     }
   ],
   "product_groups": [

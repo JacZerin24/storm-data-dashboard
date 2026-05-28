@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "BYZ",
+  "total_candidate_reports": 213,
+  "mapped_candidate_reports": 213,
+  "candidate_report_counts": {
+    "hail": 1,
+    "heat_cold": 6,
+    "other": 60,
+    "thunderstorm_wind": 143,
+    "tornado": 1,
+    "winter": 2
+  },
+  "candidate_report_type_counts": {
+    "EXTREME COLD": 6,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 1,
+    "NON-TSTM WND GST": 99,
+    "RAIN": 60,
+    "SNOW": 2,
+    "TSTM WND GST": 44
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BYZ&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

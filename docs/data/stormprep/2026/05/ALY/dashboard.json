@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "ALY",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:14Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "ALY",
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
+    "candidate_report_counts": {
+      "other": 12
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 12
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ALY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=ALY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ALY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ALY-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062139",
+      "standard_time_display": "2026-05-06 16:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.1,
+      "magnitude_qualifier": null,
+      "city": "1 SW Warrensburg",
+      "county": "Warren",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station AY088 Warrensburg.",
+      "lat": 43.49,
+      "lon": -73.79,
+      "ugc": "NYC113",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062232",
+      "standard_time_display": "2026-05-06 17:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.36,
+      "magnitude_qualifier": null,
+      "city": "5 WSW Granville",
+      "county": "Washington",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station AY225 Hartford.",
+      "lat": 43.38,
+      "lon": -73.35,
+      "ugc": "NYC115",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062239",
+      "standard_time_display": "2026-05-06 17:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.6,
+      "magnitude_qualifier": null,
+      "city": "Warrensburg",
+      "county": "Warren",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "WeatherNet6.",
+      "lat": 43.49,
+      "lon": -73.79,
+      "ugc": "NYC113",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062310",
+      "standard_time_display": "2026-05-06 18:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.29,
+      "magnitude_qualifier": null,
+      "city": "Queensbury",
+      "county": "Warren",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "WeatherNet6.",
+      "lat": 43.31,
+      "lon": -73.71,
+      "ugc": "NYC113",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062323",
+      "standard_time_display": "2026-05-06 18:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "Ganesvoort",
+      "county": "Saratoga",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "WeatherNet6.",
+      "lat": 43.23,
+      "lon": -73.7,
+      "ugc": "NYC091",
+      "ugc_name": "Saratoga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605062332",
+      "standard_time_display": "2026-05-06 18:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.44,
+      "magnitude_qualifier": null,
+      "city": "Granville",
+      "county": "Washington",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "WeatherNet6.",
+      "lat": 43.38,
+      "lon": -73.35,
+      "ugc": "NYC115",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070011",
+      "standard_time_display": "2026-05-06 19:11 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.12,
+      "magnitude_qualifier": null,
+      "city": "Saratoga Springs",
+      "county": "Saratoga",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "WeatherNet6.",
+      "lat": 43.08,
+      "lon": -73.78,
+      "ugc": "NYC091",
+      "ugc_name": "Saratoga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070105",
+      "standard_time_display": "2026-05-06 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.01,
+      "magnitude_qualifier": null,
+      "city": "9 NW Bolton Landing",
+      "county": "Warren",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station CHES Chestertown.",
+      "lat": 43.65,
+      "lon": -73.78,
+      "ugc": "NYC113",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070105",
+      "standard_time_display": "2026-05-06 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.09,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Indian Lake",
+      "county": "Hamilton",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station ILAK Indian Lake.",
+      "lat": 43.79,
+      "lon": -74.24,
+      "ugc": "NYC041",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070105",
+      "standard_time_display": "2026-05-06 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.15,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Schuylerville",
+      "county": "Saratoga",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station SCHU Schuylerville.",
+      "lat": 43.12,
+      "lon": -73.58,
+      "ugc": "NYC091",
+      "ugc_name": "Saratoga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070105",
+      "standard_time_display": "2026-05-06 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.23,
+      "magnitude_qualifier": null,
+      "city": "5 S Whitehall",
+      "county": "Washington",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station WHIT 5 S Whitehall.",
+      "lat": 43.49,
+      "lon": -73.42,
+      "ugc": "NYC115",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605070105",
+      "standard_time_display": "2026-05-06 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.31,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Hudson Falls",
+      "county": "Warren",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "Mesonet station GFAL Glens Falls.",
+      "lat": 43.34,
+      "lon": -73.6,
+      "ugc": "NYC113",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "ALY",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:15Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=ALY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for ALY",
+            "url": "https://api.weather.gov/products/types/LSR/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for ALY",
+            "url": "https://api.weather.gov/products/types/PNS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for ALY",
+            "url": "https://api.weather.gov/products/types/TOR/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for ALY",
+            "url": "https://api.weather.gov/products/types/SVR/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for ALY",
+            "url": "https://api.weather.gov/products/types/SVS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for ALY",
+            "url": "https://api.weather.gov/products/types/SPS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for ALY",
+            "url": "https://api.weather.gov/products/types/WCN/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for ALY",
+            "url": "https://api.weather.gov/products/types/FFW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for ALY",
+            "url": "https://api.weather.gov/products/types/FFS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for ALY",
+            "url": "https://api.weather.gov/products/types/FLS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for ALY",
+            "url": "https://api.weather.gov/products/types/FLW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for ALY",
+            "url": "https://api.weather.gov/products/types/RVS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for ALY",
+            "url": "https://api.weather.gov/products/types/ESF/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for ALY",
+            "url": "https://api.weather.gov/products/types/SMW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for ALY",
+            "url": "https://api.weather.gov/products/types/MWS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for ALY",
+            "url": "https://api.weather.gov/products/types/MWW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for ALY",
+            "url": "https://api.weather.gov/products/types/CFW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for ALY",
+            "url": "https://api.weather.gov/products/types/CWF/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for ALY",
+            "url": "https://api.weather.gov/products/types/HLS/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for ALY",
+            "url": "https://api.weather.gov/products/types/NPW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for ALY",
+            "url": "https://api.weather.gov/products/types/WSW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for ALY",
+            "url": "https://api.weather.gov/products/types/RFW/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for ALY",
+            "url": "https://api.weather.gov/products/types/DGT/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for ALY",
+            "url": "https://api.weather.gov/products/types/HWO/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for ALY",
+            "url": "https://api.weather.gov/products/types/AFD/locations/ALY",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "ILX",
+  "total_candidate_reports": 213,
+  "mapped_candidate_reports": 213,
+  "candidate_report_counts": {
+    "flooding": 6,
+    "hail": 23,
+    "other": 157,
+    "thunderstorm_wind": 27
+  },
+  "candidate_report_type_counts": {
+    "DUST STORM": 20,
+    "FLOOD": 6,
+    "HAIL": 23,
+    "NON-TSTM WND DMG": 1,
+    "RAIN": 137,
+    "TSTM WND DMG": 23,
+    "TSTM WND GST": 3
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

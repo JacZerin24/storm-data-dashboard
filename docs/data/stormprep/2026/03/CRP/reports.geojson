@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "CRP",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:47:34Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-1",
+      "properties": {
+        "report_id": "iem-lsr-CRP-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202603080100",
+        "standard_time_display": "2026-03-07 19:00 CST",
+        "wfo": "CRP",
+        "county_or_zone": "McMullen",
+        "city": "5 N Loma Alta",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "Loma Alta Co-OP observer estimated hail dime to quarter sized. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.51,
+          28.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-2",
+      "properties": {
+        "report_id": "iem-lsr-CRP-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202603080217",
+        "standard_time_display": "2026-03-07 20:17 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Duval",
+        "city": "Freer",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Measured quarter size hail near the intersection of Hahl Street and TX-16 with reports of power outages in the area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.62,
+          27.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-3",
+      "properties": {
+        "report_id": "iem-lsr-CRP-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202603081435",
+        "standard_time_display": "2026-03-08 08:35 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Webb",
+        "city": "5 SSW Encinal",
+        "state": "TX",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "Dime sized hail reported 4.7 miles south-southwest of Encinal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.38,
+          27.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-4",
+      "properties": {
+        "report_id": "iem-lsr-CRP-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603160417",
+        "standard_time_display": "2026-03-15 22:17 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 NE Cotulla",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KCOT Cotulla."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.22,
+          28.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-5",
+      "properties": {
+        "report_id": "iem-lsr-CRP-5",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603160754",
+        "standard_time_display": "2026-03-16 01:54 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "1 SSE CC Airport",
+        "state": "TX",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KCRP Corpus Christi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5,
+          27.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-6",
+      "properties": {
+        "report_id": "iem-lsr-CRP-6",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603160849",
+        "standard_time_display": "2026-03-16 02:49 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Aransas",
+        "city": "1 NW Fulton",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KRKP Rockport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.05,
+          28.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-7",
+      "properties": {
+        "report_id": "iem-lsr-CRP-7",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603160904",
+        "standard_time_display": "2026-03-16 03:04 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "1 ESE Cc Nas",
+        "state": "TX",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KNGP C. Christi NAS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27,
+          27.68
+        ]
+      }
+    }
+  ]
+}

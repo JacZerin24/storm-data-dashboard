@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "FGZ",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:47:44Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-1",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603311944",
+        "standard_time_display": "2026-03-31 12:44 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Apache",
+        "city": "1 NNW Saint Johns",
+        "state": "AZ",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KSJN St. Johns Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.38,
+          34.52
+        ]
+      }
+    }
+  ]
+}

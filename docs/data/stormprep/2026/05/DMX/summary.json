@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "DMX",
+  "total_candidate_reports": 92,
+  "mapped_candidate_reports": 92,
+  "candidate_report_counts": {
+    "flooding": 7,
+    "hail": 31,
+    "other": 13,
+    "thunderstorm_wind": 24,
+    "tornado": 17
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 7,
+    "HAIL": 31,
+    "LIGHTNING": 1,
+    "NON-TSTM WND DMG": 4,
+    "NON-TSTM WND GST": 1,
+    "RAIN": 12,
+    "TORNADO": 17,
+    "TSTM WND DMG": 12,
+    "TSTM WND GST": 7
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DMX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "MAF",
+  "total_candidate_reports": 73,
+  "mapped_candidate_reports": 73,
+  "candidate_report_counts": {
+    "flooding": 23,
+    "hail": 30,
+    "other": 3,
+    "thunderstorm_wind": 17
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 20,
+    "FLOOD": 3,
+    "HAIL": 30,
+    "LANDSPOUT": 3,
+    "NON-TSTM WND GST": 3,
+    "TSTM WND DMG": 1,
+    "TSTM WND GST": 13
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

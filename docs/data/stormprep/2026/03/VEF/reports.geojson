@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "VEF",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:48:46Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-1",
+      "properties": {
+        "report_id": "iem-lsr-VEF-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603051118",
+        "standard_time_display": "2026-03-05 03:18 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "7 E Landers",
+        "state": "CA",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "CWOP site D7835 observed a wind gust of 59 mph between 0318 and 0325."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.27,
+          34.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-2",
+      "properties": {
+        "report_id": "iem-lsr-VEF-2",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603051850",
+        "standard_time_display": "2026-03-05 10:50 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "16 S Kelso",
+        "state": "CA",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station UCGR 15.9 S Kelso (DRI). Wind gusts in excess of 58 mph between 0450and 1050. Peak gust 68 mph at 1050am."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.65,
+          34.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-3",
+      "properties": {
+        "report_id": "iem-lsr-VEF-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603071626",
+        "standard_time_display": "2026-03-07 08:26 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Inyo",
+        "city": "19 S Haiwee",
+        "state": "CA",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Wind gusts in excess of 58 mph were measured from 1226 AM to 926 AM PST_ with a peak gust of 68 mph at 826 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.92,
+          35.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-4",
+      "properties": {
+        "report_id": "iem-lsr-VEF-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202603311833",
+        "standard_time_display": "2026-03-31 11:33 MST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "24 SSE Littlefield",
+        "state": "AZ",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station QTWA3 Tweeds Point. At 1133 MST the Tweeds Point RAWS began recording wind gusts in excess of 58 mph. These gusts continued until 1633 MST. The peak gust observed during this time was"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.73,
+          36.58
+        ]
+      }
+    }
+  ]
+}

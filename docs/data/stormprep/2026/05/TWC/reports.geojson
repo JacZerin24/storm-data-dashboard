@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "TWC",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:45Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-1",
+      "properties": {
+        "report_id": "iem-lsr-TWC-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605122213",
+        "standard_time_display": "2026-05-12 15:13 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "2 SSW Tucson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Correcting event type from Non Thunderstorm Wind Damage to Thunderstorm Wind Damage. Roof damage to a large steel warehouse building from dry microburst. Time estimated by nearby observation at KDMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9,
+          32.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-2",
+      "properties": {
+        "report_id": "iem-lsr-TWC-2",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605122213",
+        "standard_time_display": "2026-05-12 15:13 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "2 SSW Tucson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Roof damage to a large steel warehouse building. Time estimated by nearby observation at KDMA."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9,
+          32.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-3",
+      "properties": {
+        "report_id": "iem-lsr-TWC-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605250015",
+        "standard_time_display": "2026-05-24 17:15 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "2 SE Tucson",
+        "state": "AZ",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KDMA Davis Monthan AFB."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.87,
+          32.17
+        ]
+      }
+    }
+  ]
+}

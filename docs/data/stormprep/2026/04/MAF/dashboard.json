@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "MAF",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:21:19Z",
+    "generated_utc": "2026-05-28T12:46:41Z",
     "mode": "storm_data_prep",
-    "public_release_status": "public-source-derived"
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
   },
   "summary": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "MAF",
@@ -31,23 +33,28 @@
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
     ]
   },
   "sources": {
     "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
     "nws_api_alerts": "https://api.weather.gov/alerts?office=MAF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-MAF-1",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604012251",
+      "standard_time_display": "2026-04-01 15:51 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -68,6 +75,8 @@
       "report_id": "iem-lsr-MAF-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604012251",
+      "standard_time_display": "2026-04-01 15:51 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -88,6 +97,8 @@
       "report_id": "iem-lsr-MAF-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604012350",
+      "standard_time_display": "2026-04-01 17:50 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -108,6 +119,8 @@
       "report_id": "iem-lsr-MAF-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604012357",
+      "standard_time_display": "2026-04-01 17:57 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -128,6 +141,8 @@
       "report_id": "iem-lsr-MAF-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020102",
+      "standard_time_display": "2026-04-01 19:02 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -148,6 +163,8 @@
       "report_id": "iem-lsr-MAF-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020109",
+      "standard_time_display": "2026-04-01 19:09 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "TSTM WND DMG",
       "event_category": "thunderstorm_wind",
@@ -168,6 +185,8 @@
       "report_id": "iem-lsr-MAF-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020517",
+      "standard_time_display": "2026-04-01 22:17 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -188,6 +207,8 @@
       "report_id": "iem-lsr-MAF-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020552",
+      "standard_time_display": "2026-04-01 22:52 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -208,6 +229,8 @@
       "report_id": "iem-lsr-MAF-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604112046",
+      "standard_time_display": "2026-04-11 13:46 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -228,6 +251,8 @@
       "report_id": "iem-lsr-MAF-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604132342",
+      "standard_time_display": "2026-04-13 17:42 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -248,6 +273,8 @@
       "report_id": "iem-lsr-MAF-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604132345",
+      "standard_time_display": "2026-04-13 17:45 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -268,6 +295,8 @@
       "report_id": "iem-lsr-MAF-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604150155",
+      "standard_time_display": "2026-04-14 19:55 CST",
+      "standard_time_zone": "CST",
       "wfo": "MAF",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -288,6 +317,8 @@
       "report_id": "iem-lsr-MAF-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604162352",
+      "standard_time_display": "2026-04-16 16:52 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -308,6 +339,8 @@
       "report_id": "iem-lsr-MAF-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604172036",
+      "standard_time_display": "2026-04-17 13:36 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -328,6 +361,8 @@
       "report_id": "iem-lsr-MAF-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604181338",
+      "standard_time_display": "2026-04-18 06:38 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -348,6 +383,8 @@
       "report_id": "iem-lsr-MAF-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604231736",
+      "standard_time_display": "2026-04-23 10:36 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -368,6 +405,8 @@
       "report_id": "iem-lsr-MAF-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604261958",
+      "standard_time_display": "2026-04-26 12:58 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "HIGH SUST WINDS",
       "event_category": "other",
@@ -388,6 +427,8 @@
       "report_id": "iem-lsr-MAF-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604262130",
+      "standard_time_display": "2026-04-26 14:30 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -408,6 +449,8 @@
       "report_id": "iem-lsr-MAF-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604262152",
+      "standard_time_display": "2026-04-26 14:52 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -428,6 +471,8 @@
       "report_id": "iem-lsr-MAF-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604262200",
+      "standard_time_display": "2026-04-26 15:00 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -448,6 +493,8 @@
       "report_id": "iem-lsr-MAF-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604262235",
+      "standard_time_display": "2026-04-26 15:35 MST",
+      "standard_time_zone": "MST",
       "wfo": "MAF",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -467,11 +514,11 @@
   ],
   "product_collections": {
     "metadata": {
-      "schema_version": "0.2.0",
+      "schema_version": "0.2.4",
       "wfo": "MAF",
       "start_utc": "2026-04-01T00:00:00Z",
       "end_utc": "2026-05-01T00:00:00Z",
-      "generated_utc": "2026-05-27T21:21:19Z"
+      "generated_utc": "2026-05-28T12:46:41Z"
     },
     "primary_links": [
       {
@@ -487,7 +534,12 @@
       {
         "label": "NWS API alerts query used by this build",
         "url": "https://api.weather.gov/alerts?office=MAF&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
       }
     ],
     "product_groups": [
@@ -563,7 +615,6 @@
           "FFS",
           "FLS",
           "FLW",
-          "FLS",
           "RVS",
           "ESF"
         ],
@@ -591,12 +642,6 @@
             "pil": "FLW",
             "label": "Recent NWS API FLW products for MAF",
             "url": "https://api.weather.gov/products/types/FLW/locations/MAF",
-            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-          },
-          {
-            "pil": "FLS",
-            "label": "Recent NWS API FLS products for MAF",
-            "url": "https://api.weather.gov/products/types/FLS/locations/MAF",
             "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
           },
           {
@@ -719,6 +764,7 @@
     "reports_geojson": "reports.geojson",
     "products_json": "products.json",
     "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
     "summary_json": "summary.json"
   }
 }

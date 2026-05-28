@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "PAH",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:22Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "PAH",
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
+    "candidate_report_counts": {
+      "hail": 7,
+      "other": 1,
+      "thunderstorm_wind": 8
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 7,
+      "RAIN": 1,
+      "TSTM WND DMG": 7,
+      "TSTM WND GST": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PAH&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=PAH&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PAH&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-PAH-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605161905",
+      "standard_time_display": "2026-05-16 13:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Benton",
+      "county": "Franklin",
+      "state": "IL",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 38.0,
+      "lon": -88.92,
+      "ugc": "ILC055",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605161906",
+      "standard_time_display": "2026-05-16 13:06 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "1 S Benton",
+      "county": "Franklin",
+      "state": "IL",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 38.0,
+      "lon": -88.92,
+      "ugc": "ILC055",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605161915",
+      "standard_time_display": "2026-05-16 13:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Benton",
+      "county": "Franklin",
+      "state": "IL",
+      "source": "Broadcast Media",
+      "remark": "Several reports of dime to nickel sized hail and large branches down in the Benton vicinity.",
+      "lat": 38.01,
+      "lon": -88.92,
+      "ugc": "ILC055",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162146",
+      "standard_time_display": "2026-05-16 15:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Dix",
+      "county": "Jefferson",
+      "state": "IL",
+      "source": "Public",
+      "remark": "Hail up to the size of golf balls damaged vehicles and roofs along Highway 37 between Mt Vernon and Dix.",
+      "lat": 38.4,
+      "lon": -88.93,
+      "ugc": "ILC081",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162154",
+      "standard_time_display": "2026-05-16 15:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "5 SE Dix",
+      "county": "Jefferson",
+      "state": "IL",
+      "source": "Public",
+      "remark": null,
+      "lat": 38.4,
+      "lon": -88.87,
+      "ugc": "ILC081",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162232",
+      "standard_time_display": "2026-05-16 16:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 W Fairfield",
+      "county": "Wayne",
+      "state": "IL",
+      "source": "Emergency Mngr",
+      "remark": null,
+      "lat": 38.38,
+      "lon": -88.41,
+      "ugc": "ILC191",
+      "ugc_name": "Wayne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162252",
+      "standard_time_display": "2026-05-16 16:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Golden Gate",
+      "county": "Wayne",
+      "state": "IL",
+      "source": "Public",
+      "remark": "Time estimated via radar. Report received via social media.",
+      "lat": 38.34,
+      "lon": -88.21,
+      "ugc": "ILC191",
+      "ugc_name": "Wayne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162313",
+      "standard_time_display": "2026-05-16 17:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Grayville",
+      "county": "Edwards",
+      "state": "IL",
+      "source": "Law Enforcement",
+      "remark": "Tree down on power lines.",
+      "lat": 38.27,
+      "lon": -88.0,
+      "ugc": "ILC047",
+      "ugc_name": "Edwards",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605162322",
+      "standard_time_display": "2026-05-16 17:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "4 SSW Grayville",
+      "county": "White",
+      "state": "IL",
+      "source": "Public",
+      "remark": "Time estimated via radar. Report received via social media.",
+      "lat": 38.21,
+      "lon": -88.02,
+      "ugc": "ILC193",
+      "ugc_name": "White",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605182028",
+      "standard_time_display": "2026-05-18 14:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.7,
+      "magnitude_qualifier": null,
+      "city": "3 SW Princeton",
+      "county": "Gibson",
+      "state": "IN",
+      "source": "Trained Spotter",
+      "remark": "Delayed report.",
+      "lat": 38.32,
+      "lon": -87.61,
+      "ugc": "INC051",
+      "ugc_name": "Gibson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605182047",
+      "standard_time_display": "2026-05-18 14:47 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Miner",
+      "county": "Scott",
+      "state": "MO",
+      "source": "Emergency Mngr",
+      "remark": "A large section of a home was blown in. Multiple trees were uprooted.",
+      "lat": 36.95,
+      "lon": -89.55,
+      "ugc": "MOC201",
+      "ugc_name": "Scott",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605182059",
+      "standard_time_display": "2026-05-18 14:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Darmstadt",
+      "county": "Vanderburgh",
+      "state": "IN",
+      "source": "Fire Dept/Rescue",
+      "remark": "Delayed report. Trees and power lines down over Mount Pleasant Road to the east of Darmstadt Road.",
+      "lat": 38.06,
+      "lon": -87.57,
+      "ugc": "INC163",
+      "ugc_name": "Vanderburgh",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605182255",
+      "standard_time_display": "2026-05-18 16:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Junction",
+      "county": "Gallatin",
+      "state": "IL",
+      "source": "Broadcast Media",
+      "remark": "A large tree fell onto a portable restroom.",
+      "lat": 37.72,
+      "lon": -88.21,
+      "ugc": "ILC059",
+      "ugc_name": "Gallatin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605182255",
+      "standard_time_display": "2026-05-18 16:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Shawneetown",
+      "county": "Gallatin",
+      "state": "IL",
+      "source": "Utility Company",
+      "remark": "Three power poles were downed at the corner of Buckeye Rd and Rigsby Rd.",
+      "lat": 37.65,
+      "lon": -88.21,
+      "ugc": "ILC059",
+      "ugc_name": "Gallatin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192032",
+      "standard_time_display": "2026-05-19 14:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Chrisney",
+      "county": "Spencer",
+      "state": "IN",
+      "source": "Emergency Mngr",
+      "remark": "Late report. A couple cedar trees were snapped along County Road 800 North just south of Chrisney.",
+      "lat": 38.0,
+      "lon": -87.04,
+      "ugc": "INC147",
+      "ugc_name": "Spencer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605231230",
+      "standard_time_display": "2026-05-23 06:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.64,
+      "magnitude_qualifier": null,
+      "city": "Evansville",
+      "county": "Vanderburgh",
+      "state": "IN",
+      "source": "Trained Spotter",
+      "remark": "0.64\" measured total rainfall at Washington and Vann streets.",
+      "lat": 37.98,
+      "lon": -87.54,
+      "ugc": "INC163",
+      "ugc_name": "Vanderburgh",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "PAH",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:45:23Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=PAH&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for PAH",
+            "url": "https://api.weather.gov/products/types/LSR/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for PAH",
+            "url": "https://api.weather.gov/products/types/PNS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for PAH",
+            "url": "https://api.weather.gov/products/types/TOR/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for PAH",
+            "url": "https://api.weather.gov/products/types/SVR/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for PAH",
+            "url": "https://api.weather.gov/products/types/SVS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for PAH",
+            "url": "https://api.weather.gov/products/types/SPS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for PAH",
+            "url": "https://api.weather.gov/products/types/WCN/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for PAH",
+            "url": "https://api.weather.gov/products/types/FFW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for PAH",
+            "url": "https://api.weather.gov/products/types/FFS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for PAH",
+            "url": "https://api.weather.gov/products/types/FLS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for PAH",
+            "url": "https://api.weather.gov/products/types/FLW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for PAH",
+            "url": "https://api.weather.gov/products/types/RVS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for PAH",
+            "url": "https://api.weather.gov/products/types/ESF/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for PAH",
+            "url": "https://api.weather.gov/products/types/SMW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for PAH",
+            "url": "https://api.weather.gov/products/types/MWS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for PAH",
+            "url": "https://api.weather.gov/products/types/MWW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for PAH",
+            "url": "https://api.weather.gov/products/types/CFW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for PAH",
+            "url": "https://api.weather.gov/products/types/CWF/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for PAH",
+            "url": "https://api.weather.gov/products/types/HLS/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for PAH",
+            "url": "https://api.weather.gov/products/types/NPW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for PAH",
+            "url": "https://api.weather.gov/products/types/WSW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for PAH",
+            "url": "https://api.weather.gov/products/types/RFW/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for PAH",
+            "url": "https://api.weather.gov/products/types/DGT/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for PAH",
+            "url": "https://api.weather.gov/products/types/HWO/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for PAH",
+            "url": "https://api.weather.gov/products/types/AFD/locations/PAH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

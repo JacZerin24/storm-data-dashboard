@@ -1,0 +1,792 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "BGM",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:18Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "BGM",
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
+    "candidate_report_counts": {
+      "hail": 13,
+      "other": 3,
+      "thunderstorm_wind": 6
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 13,
+      "RAIN": 3,
+      "TSTM WND DMG": 6
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BGM&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=BGM&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BGM&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BGM-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605051941",
+      "standard_time_display": "2026-05-05 14:41 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Castle Creek",
+      "county": "Broome",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree down across the roadway on guard rail.",
+      "lat": 42.25,
+      "lon": -75.96,
+      "ugc": "NYC007",
+      "ugc_name": "Broome",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605101330",
+      "standard_time_display": "2026-05-10 08:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.36,
+      "magnitude_qualifier": null,
+      "city": "Delhi",
+      "county": "Delaware",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.28,
+      "lon": -74.92,
+      "ugc": "NYC025",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131943",
+      "standard_time_display": "2026-05-13 14:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Kanona",
+      "county": "Steuben",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Pea sized hail reported in the Kanona area of Steuben County NY.",
+      "lat": 42.38,
+      "lon": -77.36,
+      "ugc": "NYC101",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131945",
+      "standard_time_display": "2026-05-13 14:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "Auburn",
+      "county": "Cayuga",
+      "state": "NY",
+      "source": "Public",
+      "remark": "This was with the first single storm that passed through_ before the stronger line of storms about 45 mintues later.",
+      "lat": 42.93,
+      "lon": -76.57,
+      "ugc": "NYC011",
+      "ugc_name": "Cayuga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131958",
+      "standard_time_display": "2026-05-13 14:58 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Packwood Corners",
+      "county": "Seneca",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "Intersection of Brewer Road and Waterloo-Geneva Road. Estimated 45 mph gusts as well. Relayed by NWS BUF.",
+      "lat": 42.9,
+      "lon": -76.91,
+      "ugc": "NYC099",
+      "ugc_name": "Seneca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132009",
+      "standard_time_display": "2026-05-13 15:09 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Magee",
+      "county": "Seneca",
+      "state": "NY",
+      "source": "Public",
+      "remark": null,
+      "lat": 42.94,
+      "lon": -76.82,
+      "ugc": "NYC099",
+      "ugc_name": "Seneca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132025",
+      "standard_time_display": "2026-05-13 15:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "Seneca Falls",
+      "county": "Seneca",
+      "state": "NY",
+      "source": "Public",
+      "remark": null,
+      "lat": 42.91,
+      "lon": -76.79,
+      "ugc": "NYC099",
+      "ugc_name": "Seneca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132030",
+      "standard_time_display": "2026-05-13 15:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Auburn",
+      "county": "Cayuga",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Wires down in one location_ tree down in another_ both in vicinity of Adams Street as per county dispatch feed. Radar-estimated time.",
+      "lat": 42.94,
+      "lon": -76.55,
+      "ugc": "NYC011",
+      "ugc_name": "Cayuga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132030",
+      "standard_time_display": "2026-05-13 15:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Throopsville",
+      "county": "Cayuga",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Large tree and wires down on Potter Road as per county dispatch feed. Radar-estimated time.",
+      "lat": 42.99,
+      "lon": -76.58,
+      "ugc": "NYC011",
+      "ugc_name": "Cayuga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132038",
+      "standard_time_display": "2026-05-13 15:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 W Marysville",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Pea-sized hail.",
+      "lat": 42.98,
+      "lon": -76.45,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132042",
+      "standard_time_display": "2026-05-13 15:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Skaneateles",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "Radar-estimated time.",
+      "lat": 42.95,
+      "lon": -76.43,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132048",
+      "standard_time_display": "2026-05-13 15:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Marcellus",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.98,
+      "lon": -76.34,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132055",
+      "standard_time_display": "2026-05-13 15:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Baldwinsville",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Wires down. Radar-estimated time.",
+      "lat": 43.16,
+      "lon": -76.33,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132105",
+      "standard_time_display": "2026-05-13 16:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Liverpool",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Wires down. Radar-estimated time.",
+      "lat": 43.1,
+      "lon": -76.21,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132113",
+      "standard_time_display": "2026-05-13 16:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Mattydale",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "Small hail around or less than pea-sized.",
+      "lat": 43.11,
+      "lon": -76.15,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132130",
+      "standard_time_display": "2026-05-13 16:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Manlius",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree and wires down. Radar-estimated time.",
+      "lat": 43.0,
+      "lon": -75.98,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132238",
+      "standard_time_display": "2026-05-13 17:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 NE Weltonville",
+      "county": "Tioga",
+      "state": "NY",
+      "source": "Public",
+      "remark": null,
+      "lat": 42.21,
+      "lon": -76.24,
+      "ugc": "NYC107",
+      "ugc_name": "Tioga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132241",
+      "standard_time_display": "2026-05-13 17:41 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "3 S Owego",
+      "county": "Tioga",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "Time estimated by radar.",
+      "lat": 42.06,
+      "lon": -76.25,
+      "ugc": "NYC107",
+      "ugc_name": "Tioga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132300",
+      "standard_time_display": "2026-05-13 18:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "NWS Binghamton",
+      "county": "Broome",
+      "state": "NY",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 42.21,
+      "lon": -75.99,
+      "ugc": "NYC007",
+      "ugc_name": "Broome",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132318",
+      "standard_time_display": "2026-05-13 18:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 SE Port Crane",
+      "county": "Broome",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Mostly sleet sized hail_ couple pea sizone stones. Lasted a minute with very gusty winds.",
+      "lat": 42.15,
+      "lon": -75.81,
+      "ugc": "NYC007",
+      "ugc_name": "Broome",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605241345",
+      "standard_time_display": "2026-05-24 08:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.1,
+      "magnitude_qualifier": null,
+      "city": "Hornell",
+      "county": "Steuben",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.33,
+      "lon": -77.66,
+      "ugc": "NYC101",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605241438",
+      "standard_time_display": "2026-05-24 09:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.97,
+      "magnitude_qualifier": null,
+      "city": "Delhi",
+      "county": "Delaware",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.28,
+      "lon": -74.91,
+      "ugc": "NYC025",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "BGM",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:18Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=BGM&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for BGM",
+            "url": "https://api.weather.gov/products/types/LSR/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for BGM",
+            "url": "https://api.weather.gov/products/types/PNS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for BGM",
+            "url": "https://api.weather.gov/products/types/TOR/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for BGM",
+            "url": "https://api.weather.gov/products/types/SVR/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for BGM",
+            "url": "https://api.weather.gov/products/types/SVS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for BGM",
+            "url": "https://api.weather.gov/products/types/SPS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for BGM",
+            "url": "https://api.weather.gov/products/types/WCN/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for BGM",
+            "url": "https://api.weather.gov/products/types/FFW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for BGM",
+            "url": "https://api.weather.gov/products/types/FFS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for BGM",
+            "url": "https://api.weather.gov/products/types/FLS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for BGM",
+            "url": "https://api.weather.gov/products/types/FLW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for BGM",
+            "url": "https://api.weather.gov/products/types/RVS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for BGM",
+            "url": "https://api.weather.gov/products/types/ESF/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for BGM",
+            "url": "https://api.weather.gov/products/types/SMW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for BGM",
+            "url": "https://api.weather.gov/products/types/MWS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for BGM",
+            "url": "https://api.weather.gov/products/types/MWW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for BGM",
+            "url": "https://api.weather.gov/products/types/CFW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for BGM",
+            "url": "https://api.weather.gov/products/types/CWF/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for BGM",
+            "url": "https://api.weather.gov/products/types/HLS/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for BGM",
+            "url": "https://api.weather.gov/products/types/NPW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for BGM",
+            "url": "https://api.weather.gov/products/types/WSW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for BGM",
+            "url": "https://api.weather.gov/products/types/RFW/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for BGM",
+            "url": "https://api.weather.gov/products/types/DGT/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for BGM",
+            "url": "https://api.weather.gov/products/types/HWO/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for BGM",
+            "url": "https://api.weather.gov/products/types/AFD/locations/BGM",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

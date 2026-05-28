@@ -1,0 +1,810 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "BOX",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:22Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "BOX",
+    "total_candidate_reports": 23,
+    "mapped_candidate_reports": 23,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 23
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND DMG": 23
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BOX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=BOX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BOX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BOX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192050",
+      "standard_time_display": "2026-05-19 15:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Burlington",
+      "county": "Hartford",
+      "state": "CT",
+      "source": "Trained Spotter",
+      "remark": "In Burlington tree and wires reported down on Johnnycake mountain road. Relayed by amateur radio.",
+      "lat": 41.75,
+      "lon": -72.99,
+      "ugc": "CTC003",
+      "ugc_name": "Hartford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192050",
+      "standard_time_display": "2026-05-19 15:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Burlington",
+      "county": "Hartford",
+      "state": "CT",
+      "source": "Trained Spotter",
+      "remark": "In Burlington tree and wires reported down on Johnnycake mountain road. Relayed by amateur radio.",
+      "lat": 41.75,
+      "lon": -73.0,
+      "ugc": "CTC003",
+      "ugc_name": "Hartford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192111",
+      "standard_time_display": "2026-05-19 16:11 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Belchertown",
+      "county": "Hampshire",
+      "state": "MA",
+      "source": "Amateur Radio",
+      "remark": "In Belchertown_ a large tree and wires were down on Michael Sears Rd and North Liberty St.",
+      "lat": 42.24,
+      "lon": -72.36,
+      "ugc": "MAC015",
+      "ugc_name": "Hampshire",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192115",
+      "standard_time_display": "2026-05-19 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Leicester",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Trained Spotter",
+      "remark": "In Leicester a large tree was reported down.",
+      "lat": 42.25,
+      "lon": -71.9,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192117",
+      "standard_time_display": "2026-05-19 16:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Lancaster",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Lancaster tree and wires were reported down near Havard Road. Relayed by amateur radio.",
+      "lat": 42.46,
+      "lon": -71.67,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192120",
+      "standard_time_display": "2026-05-19 16:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Leicester",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Trained Spotter",
+      "remark": "Corrects previous tstm wnd dmg report from Leicester. In Leicester a large tree was reported down.",
+      "lat": 42.25,
+      "lon": -71.9,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192124",
+      "standard_time_display": "2026-05-19 16:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Maynard",
+      "county": "Middlesex",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "Near Maynard tree reported down on Sudbury road. Relayed by amateur radio.",
+      "lat": 42.44,
+      "lon": -71.43,
+      "ugc": "MAC017",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192126",
+      "standard_time_display": "2026-05-19 16:26 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Maynard",
+      "county": "Middlesex",
+      "state": "MA",
+      "source": "Trained Spotter",
+      "remark": "In Sudbury_ a tree was down blocking half the road on Hudson Rd.",
+      "lat": 42.39,
+      "lon": -71.44,
+      "ugc": "MAC017",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192128",
+      "standard_time_display": "2026-05-19 16:28 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Concord",
+      "county": "Middlesex",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "*** 2 INJ *** In Concord a tree was reported down on a car. 2 minor injuries reported. Relayed by amateur radio.",
+      "lat": 42.46,
+      "lon": -71.39,
+      "ugc": "MAC017",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192130",
+      "standard_time_display": "2026-05-19 16:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Vernon",
+      "county": "Tolland",
+      "state": "CT",
+      "source": "Law Enforcement",
+      "remark": "In Vernon_ a tree and power lines were down. Relayed by amateur radio.",
+      "lat": 41.84,
+      "lon": -72.46,
+      "ugc": "CTC013",
+      "ugc_name": "Tolland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192132",
+      "standard_time_display": "2026-05-19 16:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Hudson",
+      "county": "Middlesex",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Hudson_ a tree and wires were down on Bertha St. Relayed by amateur radio.",
+      "lat": 42.41,
+      "lon": -71.55,
+      "ugc": "MAC017",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192134",
+      "standard_time_display": "2026-05-19 16:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Worcester AP",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "ASOS",
+      "remark": "Peak gust of 59 kts or 68 mph reported at Worcester airport.",
+      "lat": 42.28,
+      "lon": -71.87,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192135",
+      "standard_time_display": "2026-05-19 16:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Willington",
+      "county": "Tolland",
+      "state": "CT",
+      "source": "Law Enforcement",
+      "remark": "In Willington_ a tree was down. Relayed by amateur radio.",
+      "lat": 41.9,
+      "lon": -72.29,
+      "ugc": "CTC013",
+      "ugc_name": "Tolland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192140",
+      "standard_time_display": "2026-05-19 16:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Shrewsbury",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "Near Worcester a part of a rubber roof on Amory building blew off. Relayed by amateur radio.",
+      "lat": 42.3,
+      "lon": -71.76,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192145",
+      "standard_time_display": "2026-05-19 16:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Paxton",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Amateur Radio",
+      "remark": "In Paxton_ trees and wires were down on multiple streets including Holbrook Ln and West St.",
+      "lat": 42.31,
+      "lon": -71.94,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192158",
+      "standard_time_display": "2026-05-19 16:58 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Killingly",
+      "county": "Windham",
+      "state": "CT",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Killingly_ there was a tree and wires down on Valley rd. Relayed by amateur radio.",
+      "lat": 41.85,
+      "lon": -71.83,
+      "ugc": "CTC015",
+      "ugc_name": "Windham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192200",
+      "standard_time_display": "2026-05-19 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Northborough",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Amateur Radio",
+      "remark": "In Northborough on west street trees and wires were reported down. Relayed by amateur radio.",
+      "lat": 42.31,
+      "lon": -71.64,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192200",
+      "standard_time_display": "2026-05-19 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Oxford",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "Corrects previous tstm wnd dmg report from Oxford. In Oxford trees and wires were reported down in multiple locations including on cars. Relayed by amateur radio.",
+      "lat": 42.12,
+      "lon": -71.87,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192200",
+      "standard_time_display": "2026-05-19 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Oxford",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Oxford trees and wires were reported down in multiple locations. Relayed by amateur radio.",
+      "lat": 42.12,
+      "lon": -71.87,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192205",
+      "standard_time_display": "2026-05-19 17:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Sutton",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Amateur Radio",
+      "remark": "In Sutton_ a tree was down on wires causing them to catch on fire.",
+      "lat": 42.12,
+      "lon": -71.79,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192215",
+      "standard_time_display": "2026-05-19 17:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Needham",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Amateur Radio",
+      "remark": "In Needham on Great Plain Avenue near the Golf course a large tree branch was reported down. Relayed by amateur radio.",
+      "lat": 42.28,
+      "lon": -71.23,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192224",
+      "standard_time_display": "2026-05-19 17:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Milton",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Milton_ a tree was down on a car on Ford Ranch Rd.",
+      "lat": 42.23,
+      "lon": -71.08,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605192225",
+      "standard_time_display": "2026-05-19 17:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Norfolk",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Norfolk_ wires were down on Cleveland St. Relayed by amateur radio.",
+      "lat": 42.14,
+      "lon": -71.33,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "BOX",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:22Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=BOX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for BOX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for BOX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for BOX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for BOX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for BOX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for BOX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for BOX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for BOX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for BOX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for BOX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for BOX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for BOX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for BOX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for BOX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for BOX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for BOX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for BOX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for BOX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for BOX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for BOX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for BOX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for BOX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for BOX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for BOX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for BOX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/BOX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

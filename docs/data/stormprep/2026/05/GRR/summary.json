@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "GRR",
+  "total_candidate_reports": 123,
+  "mapped_candidate_reports": 123,
+  "candidate_report_counts": {
+    "hail": 14,
+    "marine": 2,
+    "other": 3,
+    "thunderstorm_wind": 104
+  },
+  "candidate_report_type_counts": {
+    "HAIL": 14,
+    "LIGHTNING": 1,
+    "MARINE TSTM WIND": 2,
+    "NON-TSTM WND GST": 18,
+    "RAIN": 2,
+    "TSTM WND DMG": 42,
+    "TSTM WND GST": 44
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GRR&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

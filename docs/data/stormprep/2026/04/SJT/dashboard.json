@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "SJT",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:21:50Z",
+    "generated_utc": "2026-05-28T12:47:07Z",
     "mode": "storm_data_prep",
-    "public_release_status": "public-source-derived"
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
   },
   "summary": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "SJT",
@@ -32,23 +34,30 @@
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
     "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJT&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
     "nws_api_alerts": "https://api.weather.gov/alerts?office=SJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-SJT-1",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020027",
+      "standard_time_display": "2026-04-01 18:27 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -69,6 +78,8 @@
       "report_id": "iem-lsr-SJT-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020122",
+      "standard_time_display": "2026-04-01 19:22 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -89,6 +100,8 @@
       "report_id": "iem-lsr-SJT-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604020256",
+      "standard_time_display": "2026-04-01 20:56 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND DMG",
       "event_category": "thunderstorm_wind",
@@ -109,6 +122,8 @@
       "report_id": "iem-lsr-SJT-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604120143",
+      "standard_time_display": "2026-04-11 19:43 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND DMG",
       "event_category": "thunderstorm_wind",
@@ -129,6 +144,8 @@
       "report_id": "iem-lsr-SJT-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604120438",
+      "standard_time_display": "2026-04-11 22:38 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TORNADO",
       "event_category": "tornado",
@@ -149,6 +166,8 @@
       "report_id": "iem-lsr-SJT-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604120438",
+      "standard_time_display": "2026-04-11 22:38 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TORNADO",
       "event_category": "tornado",
@@ -169,6 +188,8 @@
       "report_id": "iem-lsr-SJT-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604130130",
+      "standard_time_display": "2026-04-12 19:30 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -189,6 +210,8 @@
       "report_id": "iem-lsr-SJT-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604130517",
+      "standard_time_display": "2026-04-12 23:17 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -209,6 +232,8 @@
       "report_id": "iem-lsr-SJT-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140005",
+      "standard_time_display": "2026-04-13 18:05 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -229,6 +254,8 @@
       "report_id": "iem-lsr-SJT-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140026",
+      "standard_time_display": "2026-04-13 18:26 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -249,6 +276,8 @@
       "report_id": "iem-lsr-SJT-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140032",
+      "standard_time_display": "2026-04-13 18:32 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -269,6 +298,8 @@
       "report_id": "iem-lsr-SJT-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140032",
+      "standard_time_display": "2026-04-13 18:32 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -289,6 +320,8 @@
       "report_id": "iem-lsr-SJT-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604152156",
+      "standard_time_display": "2026-04-15 15:56 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -309,6 +342,8 @@
       "report_id": "iem-lsr-SJT-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604152201",
+      "standard_time_display": "2026-04-15 16:01 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -329,6 +364,8 @@
       "report_id": "iem-lsr-SJT-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604152330",
+      "standard_time_display": "2026-04-15 17:30 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -349,6 +386,8 @@
       "report_id": "iem-lsr-SJT-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604152350",
+      "standard_time_display": "2026-04-15 17:50 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -369,6 +408,8 @@
       "report_id": "iem-lsr-SJT-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604160004",
+      "standard_time_display": "2026-04-15 18:04 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -389,6 +430,8 @@
       "report_id": "iem-lsr-SJT-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604160254",
+      "standard_time_display": "2026-04-15 20:54 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -409,6 +452,8 @@
       "report_id": "iem-lsr-SJT-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604181049",
+      "standard_time_display": "2026-04-18 04:49 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -429,6 +474,8 @@
       "report_id": "iem-lsr-SJT-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604181309",
+      "standard_time_display": "2026-04-18 07:09 CST",
+      "standard_time_zone": "CST",
       "wfo": "SJT",
       "report_type": "HAIL",
       "event_category": "hail",
@@ -448,11 +495,11 @@
   ],
   "product_collections": {
     "metadata": {
-      "schema_version": "0.2.0",
+      "schema_version": "0.2.4",
       "wfo": "SJT",
       "start_utc": "2026-04-01T00:00:00Z",
       "end_utc": "2026-05-01T00:00:00Z",
-      "generated_utc": "2026-05-27T21:21:50Z"
+      "generated_utc": "2026-05-28T12:47:07Z"
     },
     "primary_links": [
       {
@@ -468,7 +515,12 @@
       {
         "label": "NWS API alerts query used by this build",
         "url": "https://api.weather.gov/alerts?office=SJT&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
       }
     ],
     "product_groups": [
@@ -544,7 +596,6 @@
           "FFS",
           "FLS",
           "FLW",
-          "FLS",
           "RVS",
           "ESF"
         ],
@@ -572,12 +623,6 @@
             "pil": "FLW",
             "label": "Recent NWS API FLW products for SJT",
             "url": "https://api.weather.gov/products/types/FLW/locations/SJT",
-            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-          },
-          {
-            "pil": "FLS",
-            "label": "Recent NWS API FLS products for SJT",
-            "url": "https://api.weather.gov/products/types/FLS/locations/SJT",
             "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
           },
           {
@@ -700,6 +745,7 @@
     "reports_geojson": "reports.geojson",
     "products_json": "products.json",
     "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
     "summary_json": "summary.json"
   }
 }

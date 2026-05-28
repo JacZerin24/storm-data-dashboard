@@ -1,0 +1,772 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "MRX",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:16Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "MRX",
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
+    "candidate_report_counts": {
+      "flooding": 8,
+      "thunderstorm_wind": 12,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 8,
+      "TORNADO": 1,
+      "TSTM WND DMG": 12
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=MRX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MRX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202246",
+      "standard_time_display": "2026-05-20 17:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Knoxville",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Tree down blocking entire road.",
+      "lat": 35.95,
+      "lon": -83.92,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202247",
+      "standard_time_display": "2026-05-20 17:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Maloneyville",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Tree partially blocking the east bound lanes.",
+      "lat": 36.06,
+      "lon": -83.86,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202251",
+      "standard_time_display": "2026-05-20 17:51 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Mascot",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Powerlines partially down over roadway.",
+      "lat": 36.0,
+      "lon": -83.77,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202255",
+      "standard_time_display": "2026-05-20 17:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SW Lake Forest",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Tree partially blocking lane.",
+      "lat": 35.88,
+      "lon": -83.92,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202302",
+      "standard_time_display": "2026-05-20 18:02 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SW Lake Forest",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Tree hanging over the road in power lines.",
+      "lat": 35.89,
+      "lon": -83.94,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202308",
+      "standard_time_display": "2026-05-20 18:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Knoxville",
+      "county": "Knox",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Tree blocking entire road.",
+      "lat": 35.95,
+      "lon": -83.92,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605222240",
+      "standard_time_display": "2026-05-22 17:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Rose Hill",
+      "county": "Union",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several trees down.",
+      "lat": 36.28,
+      "lon": -83.77,
+      "ugc": "TNC173",
+      "ugc_name": "Union",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605222258",
+      "standard_time_display": "2026-05-22 17:58 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Lone Mountain",
+      "county": "Claiborne",
+      "state": "TN",
+      "source": "NWS Storm Survey",
+      "remark": "An EF-0 tornado began about 1.5 miles SSW of New Tazewell_ damaging trees on Coffey Road before impacting buildings in New Tazewell including significant damage to Duncan Lumber. The tornado dissipat",
+      "lat": 36.43,
+      "lon": -83.61,
+      "ugc": "TNC025",
+      "ugc_name": "Claiborne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605222300",
+      "standard_time_display": "2026-05-22 18:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Rose Hill",
+      "county": "Union",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several trees down.",
+      "lat": 36.32,
+      "lon": -83.72,
+      "ugc": "TNC173",
+      "ugc_name": "Union",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605222305",
+      "standard_time_display": "2026-05-22 18:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Tazewell",
+      "county": "Claiborne",
+      "state": "TN",
+      "source": "Broadcast Media",
+      "remark": "Roof and wall of the lumber store in New Tazewell collapsed leaving debris and insulation strewn across road and powerlines. Rotating wall cloud observed with the storm.",
+      "lat": 36.44,
+      "lon": -83.6,
+      "ugc": "TNC025",
+      "ugc_name": "Claiborne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605240333",
+      "standard_time_display": "2026-05-23 21:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Whitwell",
+      "county": "Marion",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "powerlines down.",
+      "lat": 35.2,
+      "lon": -85.52,
+      "ugc": "TNC115",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605242109",
+      "standard_time_display": "2026-05-24 15:09 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Signal Mountain",
+      "county": "Hamilton",
+      "state": "TN",
+      "source": "Emergency Mngr",
+      "remark": "Powerlines down. Time approximated by radar.",
+      "lat": 35.14,
+      "lon": -85.32,
+      "ugc": "TNC065",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605242127",
+      "standard_time_display": "2026-05-24 15:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Signal Mountain",
+      "county": "Hamilton",
+      "state": "TN",
+      "source": "Law Enforcement",
+      "remark": "Several trees down across the county.",
+      "lat": 35.12,
+      "lon": -85.33,
+      "ugc": "TNC065",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605250011",
+      "standard_time_display": "2026-05-24 19:11 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Loudon",
+      "county": "Loudon",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several roadways flooded.",
+      "lat": 35.74,
+      "lon": -84.34,
+      "ugc": "TNC105",
+      "ugc_name": "Loudon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605250034",
+      "standard_time_display": "2026-05-24 19:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Lake Forest",
+      "county": "Knox",
+      "state": "TN",
+      "source": "Law Enforcement",
+      "remark": "Shared to social media via Knoxville PD. Picture from Chapman Hwy in South Knoxville shows covered/impassable main roadway with a car being assisted out of the floodwaters.",
+      "lat": 35.94,
+      "lon": -83.91,
+      "ugc": "TNC093",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605260109",
+      "standard_time_display": "2026-05-25 20:09 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Pigeon Forge",
+      "county": "Sevier",
+      "state": "TN",
+      "source": "Law Enforcement",
+      "remark": "Mud slide reported near the Spur. Several roadways with flooding issues.",
+      "lat": 35.77,
+      "lon": -83.53,
+      "ugc": "TNC155",
+      "ugc_name": "Sevier",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605260213",
+      "standard_time_display": "2026-05-25 21:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Tusquitee",
+      "county": "Clay",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Several roadways having flooding issues.",
+      "lat": 35.03,
+      "lon": -83.74,
+      "ugc": "NCC043",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605260239",
+      "standard_time_display": "2026-05-25 20:39 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Soddy-Daisy",
+      "county": "Hamilton",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Reports of small streams out of their banks and roadway flooding.",
+      "lat": 35.27,
+      "lon": -85.23,
+      "ugc": "TNC065",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605281005",
+      "standard_time_display": "2026-05-28 05:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Bybee",
+      "county": "Cocke",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Flooding on HWY 160.",
+      "lat": 36.07,
+      "lon": -83.18,
+      "ugc": "TNC029",
+      "ugc_name": "Cocke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605281100",
+      "standard_time_display": "2026-05-28 06:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Bybee",
+      "county": "Cocke",
+      "state": "TN",
+      "source": "911 Call Center",
+      "remark": "Several roads reported flooded in North Cocke County.",
+      "lat": 36.05,
+      "lon": -83.17,
+      "ugc": "TNC029",
+      "ugc_name": "Cocke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605281130",
+      "standard_time_display": "2026-05-28 06:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Bybee",
+      "county": "Cocke",
+      "state": "TN",
+      "source": "Dept of Highways",
+      "remark": "Highway 160 closed at Bybee Road and Fowler Road.",
+      "lat": 36.05,
+      "lon": -83.18,
+      "ugc": "TNC029",
+      "ugc_name": "Cocke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "MRX",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:45:17Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=MRX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for MRX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for MRX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for MRX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for MRX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for MRX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for MRX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for MRX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for MRX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for MRX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MRX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for MRX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for MRX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for MRX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for MRX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for MRX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for MRX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for MRX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for MRX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for MRX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for MRX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for MRX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for MRX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for MRX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for MRX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for MRX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/MRX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

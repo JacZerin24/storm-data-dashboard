@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "RNK",
+  "total_candidate_reports": 47,
+  "mapped_candidate_reports": 47,
+  "candidate_report_counts": {
+    "flooding": 2,
+    "hail": 2,
+    "other": 2,
+    "thunderstorm_wind": 41
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 2,
+    "HAIL": 2,
+    "LIGHTNING": 1,
+    "RAIN": 1,
+    "TSTM WND DMG": 40,
+    "TSTM WND GST": 1
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RNK&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

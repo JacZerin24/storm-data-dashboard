@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "RLX",
+  "total_candidate_reports": 162,
+  "mapped_candidate_reports": 162,
+  "candidate_report_counts": {
+    "flooding": 82,
+    "hail": 18,
+    "other": 12,
+    "thunderstorm_wind": 50
+  },
+  "candidate_report_type_counts": {
+    "DEBRIS FLOW": 1,
+    "FLASH FLOOD": 64,
+    "FLOOD": 18,
+    "HAIL": 18,
+    "LANDSLIDE": 1,
+    "RAIN": 10,
+    "TSTM WND DMG": 48,
+    "TSTM WND GST": 2
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RLX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

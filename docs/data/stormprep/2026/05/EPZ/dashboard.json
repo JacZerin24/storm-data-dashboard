@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "EPZ",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:37Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "EPZ",
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
+    "candidate_report_counts": {
+      "other": 2,
+      "thunderstorm_wind": 3
+    },
+    "candidate_report_type_counts": {
+      "BLOWING DUST": 1,
+      "DUST STORM": 1,
+      "TSTM WND DMG": 1,
+      "TSTM WND GST": 2
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EPZ&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=EPZ&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EPZ&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-EPZ-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132255",
+      "standard_time_display": "2026-05-13 15:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 ENE Road Forks",
+      "county": "Hidalgo",
+      "state": "NM",
+      "source": "Official NWS Obs",
+      "remark": "Recorded wind gust of 80 mph and near zero visibility. NMDOT I-10 WB MP 11.",
+      "lat": 32.28,
+      "lon": -108.88,
+      "ugc": "NMC023",
+      "ugc_name": "Hidalgo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605210051",
+      "standard_time_display": "2026-05-20 17:51 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "BLOWING DUST",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Fort Bliss",
+      "county": "El Paso",
+      "state": "TX",
+      "source": "Official NWS Obs",
+      "remark": "Delayed report. ASOS observation of 1 mile visibility due to blowing dust. KELP El Paso International Airport.",
+      "lat": 31.81,
+      "lon": -106.39,
+      "ugc": "TXC141",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605251945",
+      "standard_time_display": "2026-05-25 12:45 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "18 NNE White Sands",
+      "county": "Dona Ana",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station WSM02 WSMR Apache.",
+      "lat": 32.63,
+      "lon": -106.39,
+      "ugc": "NMC013",
+      "ugc_name": "Dona Ana",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605252230",
+      "standard_time_display": "2026-05-25 15:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "White Sands",
+      "county": "Dona Ana",
+      "state": "NM",
+      "source": "Other Federal",
+      "remark": "Downed Tree at WSMR HQ.",
+      "lat": 32.38,
+      "lon": -106.49,
+      "ugc": "NMC013",
+      "ugc_name": "Dona Ana",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605252235",
+      "standard_time_display": "2026-05-25 15:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE White Sands",
+      "county": "Dona Ana",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station WSM03 WSMR Main Post.",
+      "lat": 32.37,
+      "lon": -106.49,
+      "ugc": "NMC013",
+      "ugc_name": "Dona Ana",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "EPZ",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:37Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=EPZ&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for EPZ",
+            "url": "https://api.weather.gov/products/types/LSR/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for EPZ",
+            "url": "https://api.weather.gov/products/types/PNS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for EPZ",
+            "url": "https://api.weather.gov/products/types/TOR/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for EPZ",
+            "url": "https://api.weather.gov/products/types/SVR/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for EPZ",
+            "url": "https://api.weather.gov/products/types/SVS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for EPZ",
+            "url": "https://api.weather.gov/products/types/SPS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for EPZ",
+            "url": "https://api.weather.gov/products/types/WCN/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for EPZ",
+            "url": "https://api.weather.gov/products/types/FFW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for EPZ",
+            "url": "https://api.weather.gov/products/types/FFS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for EPZ",
+            "url": "https://api.weather.gov/products/types/FLS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for EPZ",
+            "url": "https://api.weather.gov/products/types/FLW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for EPZ",
+            "url": "https://api.weather.gov/products/types/RVS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for EPZ",
+            "url": "https://api.weather.gov/products/types/ESF/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for EPZ",
+            "url": "https://api.weather.gov/products/types/SMW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for EPZ",
+            "url": "https://api.weather.gov/products/types/MWS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for EPZ",
+            "url": "https://api.weather.gov/products/types/MWW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for EPZ",
+            "url": "https://api.weather.gov/products/types/CFW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for EPZ",
+            "url": "https://api.weather.gov/products/types/CWF/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for EPZ",
+            "url": "https://api.weather.gov/products/types/HLS/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for EPZ",
+            "url": "https://api.weather.gov/products/types/NPW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for EPZ",
+            "url": "https://api.weather.gov/products/types/WSW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for EPZ",
+            "url": "https://api.weather.gov/products/types/RFW/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for EPZ",
+            "url": "https://api.weather.gov/products/types/DGT/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for EPZ",
+            "url": "https://api.weather.gov/products/types/HWO/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for EPZ",
+            "url": "https://api.weather.gov/products/types/AFD/locations/EPZ",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

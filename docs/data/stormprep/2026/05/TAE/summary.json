@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "TAE",
+  "total_candidate_reports": 124,
+  "mapped_candidate_reports": 124,
+  "candidate_report_counts": {
+    "flooding": 4,
+    "hail": 4,
+    "marine": 7,
+    "other": 31,
+    "thunderstorm_wind": 72,
+    "tornado": 6
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 4,
+    "HAIL": 4,
+    "LIGHTNING": 2,
+    "MARINE TSTM WIND": 6,
+    "RAIN": 29,
+    "RIP CURRENTS": 1,
+    "TORNADO": 4,
+    "TSTM WND DMG": 59,
+    "TSTM WND GST": 13,
+    "WATERSPOUT": 2
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

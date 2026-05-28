@@ -1,0 +1,747 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "CAR",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:26Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "CAR",
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
+    "candidate_report_counts": {
+      "hail": 7,
+      "thunderstorm_wind": 13
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 7,
+      "NON-TSTM WND DMG": 11,
+      "TSTM WND DMG": 2
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CAR&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=CAR&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CAR&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-CAR-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605051635",
+      "standard_time_display": "2026-05-05 11:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Monticello",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Fire Dept/Rescue",
+      "remark": "Tree down on power lines on Britton Rd in Monticello. Power out to 28 customers. 40mph wind gust recorded at KHUL at the same time.",
+      "lat": 46.34,
+      "lon": -67.82,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605052119",
+      "standard_time_display": "2026-05-05 16:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Presque Isle",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "Corrects previous non-tstm wnd dmg report from 3 W Presque Isle. Large tree down partially blocking Garland Road in Mapleton.",
+      "lat": 46.69,
+      "lon": -68.09,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605052119",
+      "standard_time_display": "2026-05-05 16:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Presque Isle",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "Delayed Report. Large tree down partially blocking Garland Road in Mapleton. This was caused by a Non-Tstm heavy shower/squall. Time estimated by radar.",
+      "lat": 46.69,
+      "lon": -68.09,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605071812",
+      "standard_time_display": "2026-05-07 13:12 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 W Oxbow",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 46.42,
+      "lon": -68.53,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605072131",
+      "standard_time_display": "2026-05-07 16:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Presque Isle",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Public",
+      "remark": null,
+      "lat": 46.74,
+      "lon": -68.04,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605072146",
+      "standard_time_display": "2026-05-07 16:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Caribou",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 46.9,
+      "lon": -67.99,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605072153",
+      "standard_time_display": "2026-05-07 16:53 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Caribou",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 46.86,
+      "lon": -68.01,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605072155",
+      "standard_time_display": "2026-05-07 16:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "4 SSW Caribou",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 46.81,
+      "lon": -68.03,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605072200",
+      "standard_time_display": "2026-05-07 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Caribou",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 46.85,
+      "lon": -68.01,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605081632",
+      "standard_time_display": "2026-05-08 11:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Castle Hill",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 46.7,
+      "lon": -68.22,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605102230",
+      "standard_time_display": "2026-05-10 17:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Caribou",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Public",
+      "remark": "Delayed report. A few large healthy trees down_ structural damage to an outbuilding and deck.",
+      "lat": 46.84,
+      "lon": -67.99,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605201630",
+      "standard_time_display": "2026-05-20 11:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S New Sweden",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "MaineDOT & MSP reported large tree down on Route 161 in New Sweden at Capital Hill Road_ road partially blocked.",
+      "lat": 46.93,
+      "lon": -68.12,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605201630",
+      "standard_time_display": "2026-05-20 11:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Guerette",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "MaineDOT & MSP reported Large Tree Down on Route 161 in Cross Lake near Disy Road_ road partially blocked.",
+      "lat": 47.1,
+      "lon": -68.27,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605201642",
+      "standard_time_display": "2026-05-20 11:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Monticello",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Park/Forest Srvc",
+      "remark": "Tree down into powerlines on Fletcher Road. Maine Forest Service reported a one quarter acre wildland fire as a result.",
+      "lat": 46.32,
+      "lon": -67.79,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605201650",
+      "standard_time_display": "2026-05-20 11:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Connor",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "Medium sized tree down on Plante Rd in Caribou with power lines involved_ power outage reported.",
+      "lat": 46.93,
+      "lon": -68.03,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605201942",
+      "standard_time_display": "2026-05-20 14:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Fort Fairfield",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Law Enforcement",
+      "remark": "Tree down partially blocking West Limestone Road.",
+      "lat": 46.8,
+      "lon": -67.84,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202022",
+      "standard_time_display": "2026-05-20 15:22 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Mapleton",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Public",
+      "remark": "Photo received shows a 8-10 inch diameter spruce tree completely blocking Turner Road in Castle Hill.",
+      "lat": 46.69,
+      "lon": -68.22,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202102",
+      "standard_time_display": "2026-05-20 16:02 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Mapleton",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Public",
+      "remark": "Another photo received of an additional 12-14 inch diameter tree completely blocking Turner Road in Castle Hill.",
+      "lat": 46.69,
+      "lon": -68.22,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202315",
+      "standard_time_display": "2026-05-20 18:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Presque Isle",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Utility Company",
+      "remark": "Tree down into powerlines on McBurnie Rd.",
+      "lat": 46.74,
+      "lon": -68.02,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605202330",
+      "standard_time_display": "2026-05-20 18:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Presque Isle",
+      "county": "Aroostook",
+      "state": "ME",
+      "source": "Utility Company",
+      "remark": "Tree down into the powerlines on Chandler Road.",
+      "lat": 46.75,
+      "lon": -68.04,
+      "ugc": "MEC003",
+      "ugc_name": "Aroostook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "CAR",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:27Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=CAR&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for CAR",
+            "url": "https://api.weather.gov/products/types/LSR/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for CAR",
+            "url": "https://api.weather.gov/products/types/PNS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for CAR",
+            "url": "https://api.weather.gov/products/types/TOR/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for CAR",
+            "url": "https://api.weather.gov/products/types/SVR/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for CAR",
+            "url": "https://api.weather.gov/products/types/SVS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for CAR",
+            "url": "https://api.weather.gov/products/types/SPS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for CAR",
+            "url": "https://api.weather.gov/products/types/WCN/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for CAR",
+            "url": "https://api.weather.gov/products/types/FFW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for CAR",
+            "url": "https://api.weather.gov/products/types/FFS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for CAR",
+            "url": "https://api.weather.gov/products/types/FLS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for CAR",
+            "url": "https://api.weather.gov/products/types/FLW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for CAR",
+            "url": "https://api.weather.gov/products/types/RVS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for CAR",
+            "url": "https://api.weather.gov/products/types/ESF/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for CAR",
+            "url": "https://api.weather.gov/products/types/SMW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for CAR",
+            "url": "https://api.weather.gov/products/types/MWS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for CAR",
+            "url": "https://api.weather.gov/products/types/MWW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for CAR",
+            "url": "https://api.weather.gov/products/types/CFW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for CAR",
+            "url": "https://api.weather.gov/products/types/CWF/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for CAR",
+            "url": "https://api.weather.gov/products/types/HLS/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for CAR",
+            "url": "https://api.weather.gov/products/types/NPW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for CAR",
+            "url": "https://api.weather.gov/products/types/WSW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for CAR",
+            "url": "https://api.weather.gov/products/types/RFW/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for CAR",
+            "url": "https://api.weather.gov/products/types/DGT/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for CAR",
+            "url": "https://api.weather.gov/products/types/HWO/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for CAR",
+            "url": "https://api.weather.gov/products/types/AFD/locations/CAR",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

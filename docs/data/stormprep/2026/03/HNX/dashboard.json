@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "HNX",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:47:54Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "HNX",
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
+    "candidate_report_counts": {
+      "other": 2,
+      "thunderstorm_wind": 17
+    },
+    "candidate_report_type_counts": {
+      "FOG": 2,
+      "NON-TSTM WND GST": 17
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=HNX&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-HNX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050043",
+      "standard_time_display": "2026-03-04 16:43 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Mojave",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station UP480 Mojave 2SSE.",
+      "lat": 35.02,
+      "lon": -118.17,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050052",
+      "standard_time_display": "2026-03-04 16:52 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "5 NW Mojave",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station AU563 Cache Creek CHP on 58.",
+      "lat": 35.11,
+      "lon": -118.24,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050126",
+      "standard_time_display": "2026-03-04 17:26 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "2 NW Indian Wells Valle",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station IWLC1 Indian Wells Canyon.",
+      "lat": 35.68,
+      "lon": -117.89,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050140",
+      "standard_time_display": "2026-03-04 17:40 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "8 W Mojave",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 610SE Sce Cameron Ridge.",
+      "lat": 35.07,
+      "lon": -118.32,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050204",
+      "standard_time_display": "2026-03-04 18:04 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 48.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Red Rock Canyon",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station AU205 Jawbone Station.",
+      "lat": 35.3,
+      "lon": -118.0,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050214",
+      "standard_time_display": "2026-03-04 18:14 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "13 W Red Rock Canyon",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station JWBC1 Jawbone Canyon.",
+      "lat": 35.29,
+      "lon": -118.23,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050220",
+      "standard_time_display": "2026-03-04 18:20 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Mojave",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station SE377 Cache Creek (SCE).",
+      "lat": 35.12,
+      "lon": -118.2,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050332",
+      "standard_time_display": "2026-03-04 19:32 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 47.0,
+      "magnitude_qualifier": null,
+      "city": "7 WNW Indian Wells Vall",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station BMXC1 Blue Max.",
+      "lat": 35.71,
+      "lon": -117.97,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050410",
+      "standard_time_display": "2026-03-04 20:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "8 S Kennedy Meadows",
+      "county": "Tulare",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station BPKC1 Bear Peak.",
+      "lat": 35.88,
+      "lon": -118.08,
+      "ugc": "CAC107",
+      "ugc_name": "Tulare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050640",
+      "standard_time_display": "2026-03-04 22:40 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "6 E Tehachapi",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station SE058 Tehachapi East Valley.",
+      "lat": 35.12,
+      "lon": -118.34,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050700",
+      "standard_time_display": "2026-03-04 23:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "9 ESE Oynx",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station ONYC1 Walker Pass Nr Jacks Creek.",
+      "lat": 35.67,
+      "lon": -118.06,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050720",
+      "standard_time_display": "2026-03-04 23:20 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "14 SSW Tehachapi",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 649SE Sce Cottonwood Creek West.",
+      "lat": 34.93,
+      "lon": -118.5,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050800",
+      "standard_time_display": "2026-03-05 00:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "9 E Lebec",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 444SE Cottonwood Canyon.",
+      "lat": 34.83,
+      "lon": -118.71,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603050940",
+      "standard_time_display": "2026-03-05 01:40 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "5 E Lebec",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 437SE Quarry Access (SCE).",
+      "lat": 34.84,
+      "lon": -118.79,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603051000",
+      "standard_time_display": "2026-03-05 02:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "16 SSW Tehachapi",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station SE283 Little Oak Canyon (SCE).",
+      "lat": 34.91,
+      "lon": -118.52,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603051116",
+      "standard_time_display": "2026-03-05 03:16 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Mojave",
+      "county": "Kern",
+      "state": "CA",
+      "source": "AWOS",
+      "remark": "AWOS station KMHV Mojave Airport.",
+      "lat": 35.07,
+      "lon": -118.15,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603051220",
+      "standard_time_display": "2026-03-05 04:20 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "18 W Rosamond",
+      "county": "Kern",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station 050SE Rosamond 20W (SCE).",
+      "lat": 34.85,
+      "lon": -118.52,
+      "ugc": "CAC029",
+      "ugc_name": "Kern",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603141246",
+      "standard_time_display": "2026-03-14 04:46 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Madera",
+      "county": "Madera",
+      "state": "CA",
+      "source": "ASOS",
+      "remark": "ASOS station KMAE Madera Airport.",
+      "lat": 36.98,
+      "lon": -120.12,
+      "ugc": "CAC039",
+      "ugc_name": "Madera",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603141353",
+      "standard_time_display": "2026-03-14 05:53 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Madera",
+      "county": "Madera",
+      "state": "CA",
+      "source": "ASOS",
+      "remark": "ASOS station KMAE Madera Airport.",
+      "lat": 36.98,
+      "lon": -120.12,
+      "ugc": "CAC039",
+      "ugc_name": "Madera",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "HNX",
+      "start_utc": "2026-03-01T00:00:00Z",
+      "end_utc": "2026-04-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:47:55Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=HNX&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for HNX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for HNX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for HNX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for HNX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for HNX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for HNX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for HNX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for HNX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for HNX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for HNX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for HNX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for HNX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for HNX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for HNX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for HNX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for HNX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for HNX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for HNX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for HNX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for HNX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for HNX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for HNX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for HNX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for HNX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for HNX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/HNX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

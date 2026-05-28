@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "LKN",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:02Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "LKN",
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
+    "candidate_report_counts": {
+      "other": 1,
+      "thunderstorm_wind": 11
+    },
+    "candidate_report_type_counts": {
+      "HIGH SUST WINDS": 1,
+      "NON-TSTM WND GST": 11
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LKN&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=LKN&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LKN&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-LKN-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131311",
+      "standard_time_display": "2026-05-13 05:11 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Wheeler Peak Snot",
+      "county": "White Pine",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "RAWS Mather (MTHN2)_ elevation 9268 feet.",
+      "lat": 39.02,
+      "lon": -114.27,
+      "ugc": "NVC033",
+      "ugc_name": "White Pine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131737",
+      "standard_time_display": "2026-05-13 09:37 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 S Lamance Creek Snote",
+      "county": "Humboldt",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "RAWS Morey Creek (MORN2)_ elevation 5500 feet.",
+      "lat": 41.45,
+      "lon": -117.62,
+      "ugc": "NVC013",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131841",
+      "standard_time_display": "2026-05-13 10:41 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "9 E Jarbidge",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "RAWS Pole Creek (POCN2)_ elevation 8502 feet.",
+      "lat": 41.88,
+      "lon": -115.25,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605132303",
+      "standard_time_display": "2026-05-13 15:03 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "5 SW Ruby Valley",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "RAWS Ruby Valley (RBVN2)_ elevation 6891 feet.",
+      "lat": 40.73,
+      "lon": -115.25,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605140447",
+      "standard_time_display": "2026-05-13 20:47 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSE West Wendover",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Union Pacific Railroad OLA (UP994)_ elevation 4408 feet.",
+      "lat": 40.73,
+      "lon": -114.09,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605172056",
+      "standard_time_display": "2026-05-17 12:56 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "7 E Tonopah",
+      "county": "Nye",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "ASOS Tonopah Airport (KTPH)_ elevation 5426 feet.",
+      "lat": 38.06,
+      "lon": -117.09,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605262330",
+      "standard_time_display": "2026-05-26 15:30 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "42 ESE Manhattan",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Warm Springs Summit CEMP (CMP26). Elevation 7550 feet.",
+      "lat": 38.19,
+      "lon": -116.42,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270041",
+      "standard_time_display": "2026-05-26 16:41 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "18 ESE Contact",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Rock Springs Creek RAWS (RSCN2). Elevation 5427 feet.",
+      "lat": 41.65,
+      "lon": -114.44,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270041",
+      "standard_time_display": "2026-05-26 16:41 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "19 ESE Contact",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station RSCN2 Rock Spring Creek RAWS.",
+      "lat": 41.64,
+      "lon": -114.44,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270611",
+      "standard_time_display": "2026-05-26 22:11 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Wheeler Peak Snot",
+      "county": "White Pine",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mather RAWS (MTHN2). Elevation 9268 feet.",
+      "lat": 39.03,
+      "lon": -114.27,
+      "ugc": "NVC033",
+      "ugc_name": "White Pine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605271232",
+      "standard_time_display": "2026-05-27 04:32 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "HIGH SUST WINDS",
+      "event_category": "other",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "11 SSE Blue Eagle Ranch",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Timber Mountain RAWS (TMBN2). Elevation 9000 feet.",
+      "lat": 38.38,
+      "lon": -115.51,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605271332",
+      "standard_time_display": "2026-05-27 05:32 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "11 SSE Blue Eagle Ranch",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Timber Mountain RAWS (TMBN2). Elevation 9000 feet.",
+      "lat": 38.38,
+      "lon": -115.51,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "LKN",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:45:03Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=LKN&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for LKN",
+            "url": "https://api.weather.gov/products/types/LSR/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for LKN",
+            "url": "https://api.weather.gov/products/types/PNS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for LKN",
+            "url": "https://api.weather.gov/products/types/TOR/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for LKN",
+            "url": "https://api.weather.gov/products/types/SVR/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for LKN",
+            "url": "https://api.weather.gov/products/types/SVS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for LKN",
+            "url": "https://api.weather.gov/products/types/SPS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for LKN",
+            "url": "https://api.weather.gov/products/types/WCN/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for LKN",
+            "url": "https://api.weather.gov/products/types/FFW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for LKN",
+            "url": "https://api.weather.gov/products/types/FFS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for LKN",
+            "url": "https://api.weather.gov/products/types/FLS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for LKN",
+            "url": "https://api.weather.gov/products/types/FLW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for LKN",
+            "url": "https://api.weather.gov/products/types/RVS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for LKN",
+            "url": "https://api.weather.gov/products/types/ESF/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for LKN",
+            "url": "https://api.weather.gov/products/types/SMW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for LKN",
+            "url": "https://api.weather.gov/products/types/MWS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for LKN",
+            "url": "https://api.weather.gov/products/types/MWW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for LKN",
+            "url": "https://api.weather.gov/products/types/CFW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for LKN",
+            "url": "https://api.weather.gov/products/types/CWF/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for LKN",
+            "url": "https://api.weather.gov/products/types/HLS/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for LKN",
+            "url": "https://api.weather.gov/products/types/NPW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for LKN",
+            "url": "https://api.weather.gov/products/types/WSW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for LKN",
+            "url": "https://api.weather.gov/products/types/RFW/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for LKN",
+            "url": "https://api.weather.gov/products/types/DGT/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for LKN",
+            "url": "https://api.weather.gov/products/types/HWO/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for LKN",
+            "url": "https://api.weather.gov/products/types/AFD/locations/LKN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

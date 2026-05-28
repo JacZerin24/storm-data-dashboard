@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "VEF",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:48:46Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "VEF",
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 4
+    },
+    "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 4
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=VEF&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-VEF-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603051118",
+      "standard_time_display": "2026-03-05 03:18 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "7 E Landers",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "CWOP site D7835 observed a wind gust of 59 mph between 0318 and 0325.",
+      "lat": 34.25,
+      "lon": -116.27,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603051850",
+      "standard_time_display": "2026-03-05 10:50 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "16 S Kelso",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station UCGR 15.9 S Kelso (DRI). Wind gusts in excess of 58 mph between 0450and 1050. Peak gust 68 mph at 1050am.",
+      "lat": 34.78,
+      "lon": -115.65,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603071626",
+      "standard_time_display": "2026-03-07 08:26 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "19 S Haiwee",
+      "county": "Inyo",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Wind gusts in excess of 58 mph were measured from 1226 AM to 926 AM PST_ with a peak gust of 68 mph at 826 AM.",
+      "lat": 35.87,
+      "lon": -117.92,
+      "ugc": "CAC027",
+      "ugc_name": "Inyo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603311833",
+      "standard_time_display": "2026-03-31 11:33 MST",
+      "standard_time_zone": "MST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "24 SSE Littlefield",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "Mesonet station QTWA3 Tweeds Point. At 1133 MST the Tweeds Point RAWS began recording wind gusts in excess of 58 mph. These gusts continued until 1633 MST. The peak gust observed during this time was",
+      "lat": 36.58,
+      "lon": -113.73,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "VEF",
+      "start_utc": "2026-03-01T00:00:00Z",
+      "end_utc": "2026-04-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:48:46Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=VEF&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for VEF",
+            "url": "https://api.weather.gov/products/types/LSR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for VEF",
+            "url": "https://api.weather.gov/products/types/PNS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for VEF",
+            "url": "https://api.weather.gov/products/types/TOR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for VEF",
+            "url": "https://api.weather.gov/products/types/SVR/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for VEF",
+            "url": "https://api.weather.gov/products/types/SVS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for VEF",
+            "url": "https://api.weather.gov/products/types/SPS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for VEF",
+            "url": "https://api.weather.gov/products/types/WCN/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for VEF",
+            "url": "https://api.weather.gov/products/types/FFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for VEF",
+            "url": "https://api.weather.gov/products/types/FFS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for VEF",
+            "url": "https://api.weather.gov/products/types/FLS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for VEF",
+            "url": "https://api.weather.gov/products/types/FLW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for VEF",
+            "url": "https://api.weather.gov/products/types/RVS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for VEF",
+            "url": "https://api.weather.gov/products/types/ESF/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for VEF",
+            "url": "https://api.weather.gov/products/types/SMW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for VEF",
+            "url": "https://api.weather.gov/products/types/MWS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for VEF",
+            "url": "https://api.weather.gov/products/types/MWW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for VEF",
+            "url": "https://api.weather.gov/products/types/CFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for VEF",
+            "url": "https://api.weather.gov/products/types/CWF/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for VEF",
+            "url": "https://api.weather.gov/products/types/HLS/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for VEF",
+            "url": "https://api.weather.gov/products/types/NPW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for VEF",
+            "url": "https://api.weather.gov/products/types/WSW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for VEF",
+            "url": "https://api.weather.gov/products/types/RFW/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for VEF",
+            "url": "https://api.weather.gov/products/types/DGT/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for VEF",
+            "url": "https://api.weather.gov/products/types/HWO/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for VEF",
+            "url": "https://api.weather.gov/products/types/AFD/locations/VEF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

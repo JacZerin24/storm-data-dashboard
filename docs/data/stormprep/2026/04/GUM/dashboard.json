@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "GUM",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:20:57Z",
+    "generated_utc": "2026-05-28T12:46:22Z",
     "mode": "storm_data_prep",
-    "public_release_status": "public-source-derived"
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
   },
   "summary": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "GUM",
@@ -32,23 +34,28 @@
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
     ]
   },
   "sources": {
     "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
     "nws_api_alerts": "https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-GUM-1",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604132354",
+      "standard_time_display": "2026-04-14 09:54 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -69,6 +76,8 @@
       "report_id": "iem-lsr-GUM-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140026",
+      "standard_time_display": "2026-04-14 10:26 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -89,6 +98,8 @@
       "report_id": "iem-lsr-GUM-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140100",
+      "standard_time_display": "2026-04-14 11:00 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -109,6 +120,8 @@
       "report_id": "iem-lsr-GUM-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140100",
+      "standard_time_display": "2026-04-14 11:00 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -129,6 +142,8 @@
       "report_id": "iem-lsr-GUM-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140542",
+      "standard_time_display": "2026-04-14 15:42 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -149,6 +164,8 @@
       "report_id": "iem-lsr-GUM-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140542",
+      "standard_time_display": "2026-04-14 15:42 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -169,6 +186,8 @@
       "report_id": "iem-lsr-GUM-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140605",
+      "standard_time_display": "2026-04-14 16:05 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -189,6 +208,8 @@
       "report_id": "iem-lsr-GUM-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140605",
+      "standard_time_display": "2026-04-14 16:05 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -209,6 +230,8 @@
       "report_id": "iem-lsr-GUM-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140735",
+      "standard_time_display": "2026-04-14 17:35 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "STORM SURGE",
       "event_category": "flooding",
@@ -229,6 +252,8 @@
       "report_id": "iem-lsr-GUM-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140735",
+      "standard_time_display": "2026-04-14 17:35 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "STORM SURGE",
       "event_category": "flooding",
@@ -249,6 +274,8 @@
       "report_id": "iem-lsr-GUM-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140745",
+      "standard_time_display": "2026-04-14 17:45 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "FLOOD",
       "event_category": "flooding",
@@ -269,6 +296,8 @@
       "report_id": "iem-lsr-GUM-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140745",
+      "standard_time_display": "2026-04-14 17:45 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "FLOOD",
       "event_category": "flooding",
@@ -289,6 +318,8 @@
       "report_id": "iem-lsr-GUM-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604140915",
+      "standard_time_display": "2026-04-14 19:15 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -309,6 +340,8 @@
       "report_id": "iem-lsr-GUM-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141158",
+      "standard_time_display": "2026-04-14 21:58 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -329,6 +362,8 @@
       "report_id": "iem-lsr-GUM-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141158",
+      "standard_time_display": "2026-04-14 21:58 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -349,6 +384,8 @@
       "report_id": "iem-lsr-GUM-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141221",
+      "standard_time_display": "2026-04-14 22:21 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "FLOOD",
       "event_category": "flooding",
@@ -369,6 +406,8 @@
       "report_id": "iem-lsr-GUM-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141230",
+      "standard_time_display": "2026-04-14 22:30 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -389,6 +428,8 @@
       "report_id": "iem-lsr-GUM-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141240",
+      "standard_time_display": "2026-04-14 22:40 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -409,6 +450,8 @@
       "report_id": "iem-lsr-GUM-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141240",
+      "standard_time_display": "2026-04-14 22:40 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "NON-TSTM WND DMG",
       "event_category": "thunderstorm_wind",
@@ -429,6 +472,8 @@
       "report_id": "iem-lsr-GUM-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141256",
+      "standard_time_display": "2026-04-14 22:56 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "FLOOD",
       "event_category": "flooding",
@@ -449,6 +494,8 @@
       "report_id": "iem-lsr-GUM-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141337",
+      "standard_time_display": "2026-04-14 23:37 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "RAIN",
       "event_category": "other",
@@ -469,6 +516,8 @@
       "report_id": "iem-lsr-GUM-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141359",
+      "standard_time_display": "2026-04-14 23:59 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "RAIN",
       "event_category": "other",
@@ -489,6 +538,8 @@
       "report_id": "iem-lsr-GUM-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141507",
+      "standard_time_display": "2026-04-15 01:07 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -509,6 +560,8 @@
       "report_id": "iem-lsr-GUM-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604141715",
+      "standard_time_display": "2026-04-15 03:15 ChST",
+      "standard_time_zone": "ChST",
       "wfo": "GUM",
       "report_type": "TROPICAL CYCLONE",
       "event_category": "other",
@@ -528,11 +581,11 @@
   ],
   "product_collections": {
     "metadata": {
-      "schema_version": "0.2.0",
+      "schema_version": "0.2.4",
       "wfo": "GUM",
       "start_utc": "2026-04-01T00:00:00Z",
       "end_utc": "2026-05-01T00:00:00Z",
-      "generated_utc": "2026-05-27T21:20:57Z"
+      "generated_utc": "2026-05-28T12:46:22Z"
     },
     "primary_links": [
       {
@@ -548,7 +601,12 @@
       {
         "label": "NWS API alerts query used by this build",
         "url": "https://api.weather.gov/alerts?office=GUM&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
       }
     ],
     "product_groups": [
@@ -624,7 +682,6 @@
           "FFS",
           "FLS",
           "FLW",
-          "FLS",
           "RVS",
           "ESF"
         ],
@@ -652,12 +709,6 @@
             "pil": "FLW",
             "label": "Recent NWS API FLW products for GUM",
             "url": "https://api.weather.gov/products/types/FLW/locations/GUM",
-            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-          },
-          {
-            "pil": "FLS",
-            "label": "Recent NWS API FLS products for GUM",
-            "url": "https://api.weather.gov/products/types/FLS/locations/GUM",
             "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
           },
           {
@@ -780,6 +831,7 @@
     "reports_geojson": "reports.geojson",
     "products_json": "products.json",
     "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
     "summary_json": "summary.json"
   }
 }

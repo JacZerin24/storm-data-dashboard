@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 5,
+  "wfo": "EWX",
+  "total_candidate_reports": 168,
+  "mapped_candidate_reports": 168,
+  "candidate_report_counts": {
+    "flooding": 25,
+    "hail": 60,
+    "other": 1,
+    "thunderstorm_wind": 77,
+    "tornado": 5
+  },
+  "candidate_report_type_counts": {
+    "FLASH FLOOD": 20,
+    "FLOOD": 5,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 60,
+    "NON-TSTM WND GST": 7,
+    "RAIN": 1,
+    "TORNADO": 4,
+    "TSTM WND DMG": 28,
+    "TSTM WND GST": 42
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EWX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ]
+}

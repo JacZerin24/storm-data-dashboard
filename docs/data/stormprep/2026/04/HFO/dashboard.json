@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "HFO",
     "start_utc": "2026-04-01T00:00:00Z",
     "end_utc": "2026-05-01T00:00:00Z",
-    "generated_utc": "2026-05-27T21:20:59Z",
+    "generated_utc": "2026-05-28T12:46:23Z",
     "mode": "storm_data_prep",
-    "public_release_status": "public-source-derived"
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
   },
   "summary": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.2.4",
     "year": 2026,
     "month": 4,
     "wfo": "HFO",
@@ -30,23 +32,28 @@
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=HFO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
     ]
   },
   "sources": {
     "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HFO&sts=2026-04-01T00%3A00%3A00Z&ets=2026-05-01T00%3A00%3A00Z&fmt=csv",
     "nws_api_alerts": "https://api.weather.gov/alerts?office=HFO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml"
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=HFO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z"
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-HFO-1",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604071800",
+      "standard_time_display": "2026-04-07 08:00 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -67,6 +74,8 @@
       "report_id": "iem-lsr-HFO-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604080615",
+      "standard_time_display": "2026-04-07 20:15 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -87,6 +96,8 @@
       "report_id": "iem-lsr-HFO-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604080900",
+      "standard_time_display": "2026-04-07 23:00 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -107,6 +118,8 @@
       "report_id": "iem-lsr-HFO-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604081910",
+      "standard_time_display": "2026-04-08 09:10 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -127,6 +140,8 @@
       "report_id": "iem-lsr-HFO-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604081910",
+      "standard_time_display": "2026-04-08 09:10 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -147,6 +162,8 @@
       "report_id": "iem-lsr-HFO-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604081910",
+      "standard_time_display": "2026-04-08 09:10 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -167,6 +184,8 @@
       "report_id": "iem-lsr-HFO-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604091648",
+      "standard_time_display": "2026-04-09 06:48 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
@@ -187,6 +206,8 @@
       "report_id": "iem-lsr-HFO-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604100400",
+      "standard_time_display": "2026-04-09 18:00 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -207,6 +228,8 @@
       "report_id": "iem-lsr-HFO-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102231",
+      "standard_time_display": "2026-04-10 12:31 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -227,6 +250,8 @@
       "report_id": "iem-lsr-HFO-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102258",
+      "standard_time_display": "2026-04-10 12:58 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -247,6 +272,8 @@
       "report_id": "iem-lsr-HFO-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604102330",
+      "standard_time_display": "2026-04-10 13:30 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "LANDSLIDE",
       "event_category": "other",
@@ -267,6 +294,8 @@
       "report_id": "iem-lsr-HFO-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604131808",
+      "standard_time_display": "2026-04-13 08:08 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -287,6 +316,8 @@
       "report_id": "iem-lsr-HFO-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604131824",
+      "standard_time_display": "2026-04-13 08:24 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -307,6 +338,8 @@
       "report_id": "iem-lsr-HFO-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604131826",
+      "standard_time_display": "2026-04-13 08:26 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -327,6 +360,8 @@
       "report_id": "iem-lsr-HFO-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604180946",
+      "standard_time_display": "2026-04-17 23:46 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "FLASH FLOOD",
       "event_category": "flooding",
@@ -347,6 +382,8 @@
       "report_id": "iem-lsr-HFO-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202604221244",
+      "standard_time_display": "2026-04-22 02:44 HST",
+      "standard_time_zone": "HST",
       "wfo": "HFO",
       "report_type": "LIGHTNING",
       "event_category": "other",
@@ -366,11 +403,11 @@
   ],
   "product_collections": {
     "metadata": {
-      "schema_version": "0.2.0",
+      "schema_version": "0.2.4",
       "wfo": "HFO",
       "start_utc": "2026-04-01T00:00:00Z",
       "end_utc": "2026-05-01T00:00:00Z",
-      "generated_utc": "2026-05-27T21:20:59Z"
+      "generated_utc": "2026-05-28T12:46:23Z"
     },
     "primary_links": [
       {
@@ -386,7 +423,12 @@
       {
         "label": "NWS API alerts query used by this build",
         "url": "https://api.weather.gov/alerts?office=HFO&start=2026-04-01T00%3A00%3A00Z&end=2026-05-01T00%3A00%3A00Z",
-        "note": "NWS API alerts endpoint only has recent alert history; this may be empty for older months."
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
       }
     ],
     "product_groups": [
@@ -462,7 +504,6 @@
           "FFS",
           "FLS",
           "FLW",
-          "FLS",
           "RVS",
           "ESF"
         ],
@@ -490,12 +531,6 @@
             "pil": "FLW",
             "label": "Recent NWS API FLW products for HFO",
             "url": "https://api.weather.gov/products/types/FLW/locations/HFO",
-            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
-          },
-          {
-            "pil": "FLS",
-            "label": "Recent NWS API FLS products for HFO",
-            "url": "https://api.weather.gov/products/types/FLS/locations/HFO",
             "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
           },
           {
@@ -618,6 +653,7 @@
     "reports_geojson": "reports.geojson",
     "products_json": "products.json",
     "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
     "summary_json": "summary.json"
   }
 }

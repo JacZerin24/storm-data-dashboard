@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "LCH",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:48:04Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "LCH",
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
+    "candidate_report_counts": {
+      "flooding": 3,
+      "hail": 3,
+      "thunderstorm_wind": 15,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 3,
+      "HAIL": 3,
+      "TORNADO": 1,
+      "TSTM WND DMG": 15
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=LCH&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-LCH-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603080330",
+      "standard_time_display": "2026-03-07 21:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 E Kinder",
+      "county": "Allen",
+      "state": "LA",
+      "source": "Local Official",
+      "remark": "Delayed reports of culvert washed out.",
+      "lat": 30.49,
+      "lon": -92.77,
+      "ugc": "LAC003",
+      "ugc_name": "Allen",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603080415",
+      "standard_time_display": "2026-03-07 22:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Ville Platte",
+      "county": "Evangeline",
+      "state": "LA",
+      "source": "Public",
+      "remark": "Video of severe street flooding.",
+      "lat": 30.69,
+      "lon": -92.28,
+      "ugc": "LAC039",
+      "ugc_name": "Evangeline",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603080430",
+      "standard_time_display": "2026-03-07 22:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Opelousas",
+      "county": "St. Landry",
+      "state": "LA",
+      "source": "Local Official",
+      "remark": "Several Roads flooded in Opelousas: Vine Street_ South Street at Union Street_ Heather Street to George Street.",
+      "lat": 30.53,
+      "lon": -92.08,
+      "ugc": "LAC097",
+      "ugc_name": "St. Landry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112003",
+      "standard_time_display": "2026-03-11 14:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Hillister",
+      "county": "Tyler",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Report of tree down on Allison Cemetery Rd.",
+      "lat": 30.64,
+      "lon": -94.38,
+      "ugc": "TXC457",
+      "ugc_name": "Tyler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112218",
+      "standard_time_display": "2026-03-11 16:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Dry Creek",
+      "county": "Beauregard",
+      "state": "LA",
+      "source": "Law Enforcement",
+      "remark": "Tree down on hwy 113 south of Dry Creek.",
+      "lat": 30.61,
+      "lon": -93.05,
+      "ugc": "LAC011",
+      "ugc_name": "Beauregard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112230",
+      "standard_time_display": "2026-03-11 16:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Cheneyville",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Law Enforcement",
+      "remark": "Rapides parish 911 relayed a report of a tornado sighting by Cheneyville PD along Cheneyville-echo road.",
+      "lat": 31.05,
+      "lon": -92.28,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112232",
+      "standard_time_display": "2026-03-11 16:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Calcasieu",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Public",
+      "remark": "Photo received of trees down between Elmer and Glenmora.",
+      "lat": 31.07,
+      "lon": -92.66,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112232",
+      "standard_time_display": "2026-03-11 16:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Moss Bluff",
+      "county": "Calcasieu",
+      "state": "LA",
+      "source": "Utility Company",
+      "remark": "Beauregard Electric reports a tree down on a utility pole causing power outages.",
+      "lat": 30.31,
+      "lon": -93.21,
+      "ugc": "LAC019",
+      "ugc_name": "Calcasieu",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112234",
+      "standard_time_display": "2026-03-11 16:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Calcasieu",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Utility Company",
+      "remark": "Beauregard Electric reports trees and powerlines down at East River Rd and Sunset Rd.",
+      "lat": 31.04,
+      "lon": -92.66,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112255",
+      "standard_time_display": "2026-03-11 16:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lecompte",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Public",
+      "remark": "American Red Cross reports tree on a house in Lecompte.",
+      "lat": 31.09,
+      "lon": -92.4,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603112332",
+      "standard_time_display": "2026-03-11 17:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSW Evergreen",
+      "county": "Avoyelles",
+      "state": "LA",
+      "source": "Public",
+      "remark": "DELAYED REPORT utility company reports several power poles broken in the Goudeau area of Avoyelles parish. Time estimated by radar.",
+      "lat": 30.89,
+      "lon": -92.12,
+      "ugc": "LAC009",
+      "ugc_name": "Avoyelles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120012",
+      "standard_time_display": "2026-03-11 18:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Centerpoint",
+      "county": "Avoyelles",
+      "state": "LA",
+      "source": "Law Enforcement",
+      "remark": "Avoyelles 911 reports a tree on a vehicle at HWY 107 and Rayburns Lane in Centerpoint.",
+      "lat": 31.25,
+      "lon": -92.19,
+      "ugc": "LAC009",
+      "ugc_name": "Avoyelles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120013",
+      "standard_time_display": "2026-03-11 18:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Big Cane",
+      "county": "St. Landry",
+      "state": "LA",
+      "source": "Emergency Mngr",
+      "remark": "Tree down across Hwy 361 near Sabine road near Washington_ LA.",
+      "lat": 30.79,
+      "lon": -92.0,
+      "ugc": "LAC097",
+      "ugc_name": "St. Landry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120013",
+      "standard_time_display": "2026-03-11 18:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Sunset",
+      "county": "St. Landry",
+      "state": "LA",
+      "source": "Public",
+      "remark": "Tree reported down.",
+      "lat": 30.38,
+      "lon": -92.03,
+      "ugc": "LAC097",
+      "ugc_name": "St. Landry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120013",
+      "standard_time_display": "2026-03-11 18:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Church Point",
+      "county": "Acadia",
+      "state": "LA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Roof partially blown off building at 205 S David Street in Church Point.",
+      "lat": 30.4,
+      "lon": -92.21,
+      "ugc": "LAC001",
+      "ugc_name": "Acadia",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120014",
+      "standard_time_display": "2026-03-11 18:14 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Simmesport",
+      "county": "Avoyelles",
+      "state": "LA",
+      "source": "Public",
+      "remark": "Avoyelles 911 reports a tree down in Simmesport.",
+      "lat": 30.98,
+      "lon": -91.81,
+      "ugc": "LAC009",
+      "ugc_name": "Avoyelles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120015",
+      "standard_time_display": "2026-03-11 18:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Cheneyville",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Broadcast Media",
+      "remark": "KALB reports a street sign blown down on hwy 181 between Lecompte and Cheneyville.",
+      "lat": 31.03,
+      "lon": -92.34,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120018",
+      "standard_time_display": "2026-03-11 18:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lawtell",
+      "county": "St. Landry",
+      "state": "LA",
+      "source": "Emergency Mngr",
+      "remark": "St Landry Parish EM reports a tree across Hwy 35 near the intersection with Hwy 190 in Lawtell.",
+      "lat": 30.52,
+      "lon": -92.19,
+      "ugc": "LAC097",
+      "ugc_name": "St. Landry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603120031",
+      "standard_time_display": "2026-03-11 18:31 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Church Point",
+      "county": "Acadia",
+      "state": "LA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Large tree snapped at base down across St Claire Drive in Church Point.",
+      "lat": 30.4,
+      "lon": -92.24,
+      "ugc": "LAC001",
+      "ugc_name": "Acadia",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603160012",
+      "standard_time_display": "2026-03-15 18:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "Chester",
+      "county": "Tyler",
+      "state": "TX",
+      "source": "Broadcast Media",
+      "remark": "DELAYED REPORT Video of large hail falling in the Chester area received via social media. Hail size ranging from quarter to half dollar in size. Time estimated by radar.",
+      "lat": 30.93,
+      "lon": -94.6,
+      "ugc": "TXC457",
+      "ugc_name": "Tyler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603160316",
+      "standard_time_display": "2026-03-15 21:16 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Oakdale",
+      "county": "Allen",
+      "state": "LA",
+      "source": "Public",
+      "remark": null,
+      "lat": 30.78,
+      "lon": -92.63,
+      "ugc": "LAC003",
+      "ugc_name": "Allen",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603160324",
+      "standard_time_display": "2026-03-15 21:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Beaver",
+      "county": "Evangeline",
+      "state": "LA",
+      "source": "Public",
+      "remark": null,
+      "lat": 30.8,
+      "lon": -92.57,
+      "ugc": "LAC039",
+      "ugc_name": "Evangeline",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "LCH",
+      "start_utc": "2026-03-01T00:00:00Z",
+      "end_utc": "2026-04-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:48:04Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=LCH&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for LCH",
+            "url": "https://api.weather.gov/products/types/LSR/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for LCH",
+            "url": "https://api.weather.gov/products/types/PNS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for LCH",
+            "url": "https://api.weather.gov/products/types/TOR/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for LCH",
+            "url": "https://api.weather.gov/products/types/SVR/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for LCH",
+            "url": "https://api.weather.gov/products/types/SVS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for LCH",
+            "url": "https://api.weather.gov/products/types/SPS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for LCH",
+            "url": "https://api.weather.gov/products/types/WCN/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for LCH",
+            "url": "https://api.weather.gov/products/types/FFW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for LCH",
+            "url": "https://api.weather.gov/products/types/FFS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for LCH",
+            "url": "https://api.weather.gov/products/types/FLS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for LCH",
+            "url": "https://api.weather.gov/products/types/FLW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for LCH",
+            "url": "https://api.weather.gov/products/types/RVS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for LCH",
+            "url": "https://api.weather.gov/products/types/ESF/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for LCH",
+            "url": "https://api.weather.gov/products/types/SMW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for LCH",
+            "url": "https://api.weather.gov/products/types/MWS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for LCH",
+            "url": "https://api.weather.gov/products/types/MWW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for LCH",
+            "url": "https://api.weather.gov/products/types/CFW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for LCH",
+            "url": "https://api.weather.gov/products/types/CWF/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for LCH",
+            "url": "https://api.weather.gov/products/types/HLS/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for LCH",
+            "url": "https://api.weather.gov/products/types/NPW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for LCH",
+            "url": "https://api.weather.gov/products/types/WSW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for LCH",
+            "url": "https://api.weather.gov/products/types/RFW/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for LCH",
+            "url": "https://api.weather.gov/products/types/DGT/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for LCH",
+            "url": "https://api.weather.gov/products/types/HWO/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for LCH",
+            "url": "https://api.weather.gov/products/types/AFD/locations/LCH",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

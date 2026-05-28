@@ -1,0 +1,800 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "CAE",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:44:26Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "CAE",
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
+    "candidate_report_counts": {
+      "flooding": 13,
+      "hail": 1,
+      "other": 2,
+      "thunderstorm_wind": 5,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 8,
+      "FLOOD": 5,
+      "HAIL": 1,
+      "LIGHTNING": 1,
+      "RAIN": 1,
+      "TSTM WND DMG": 5,
+      "WATERSPOUT": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CAE&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=CAE&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CAE&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-CAE-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605222125",
+      "standard_time_display": "2026-05-22 16:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Thomson",
+      "county": "McDuffie",
+      "state": "GA",
+      "source": "Trained Spotter",
+      "remark": "Spotter reports tree branches down with power outages reported. Time estimated by radar.",
+      "lat": 33.44,
+      "lon": -82.48,
+      "ugc": "GAC189",
+      "ugc_name": "McDuffie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605230345",
+      "standard_time_display": "2026-05-22 22:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Plum Branch",
+      "county": "McCormick",
+      "state": "SC",
+      "source": "Fire Dept/Rescue",
+      "remark": "McCormick County Emergency Services reported a structure fire at the McCormick County High School gym due to a lightning strike.",
+      "lat": 33.87,
+      "lon": -82.27,
+      "ugc": "SCC065",
+      "ugc_name": "McCormick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605231820",
+      "standard_time_display": "2026-05-23 13:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 N Thomson",
+      "county": "McDuffie",
+      "state": "GA",
+      "source": "Public",
+      "remark": "A large pine tree fell on a parked vehicle near the Belle Meade CC north of Thomson.",
+      "lat": 33.54,
+      "lon": -82.52,
+      "ugc": "GAC189",
+      "ugc_name": "McDuffie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605231915",
+      "standard_time_display": "2026-05-23 14:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Mccormick",
+      "county": "McCormick",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "McCormick County dispatch reported several trees down within the county_ including one on Hwy 378 West.",
+      "lat": 33.9,
+      "lon": -82.31,
+      "ugc": "SCC065",
+      "ugc_name": "McCormick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605232045",
+      "standard_time_display": "2026-05-23 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "7 ENE Saluda",
+      "county": "Saluda",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Public report of golf ball size hail Highway 378.",
+      "lat": 34.03,
+      "lon": -81.66,
+      "ugc": "SCC081",
+      "ugc_name": "Saluda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605232115",
+      "standard_time_display": "2026-05-23 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Dreher Island SP",
+      "county": "Newberry",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter relayed video of water spout near Martins Landing Bar & Grill via social media. Time estimated by radar.",
+      "lat": 34.1,
+      "lon": -81.48,
+      "ugc": "SCC071",
+      "ugc_name": "Newberry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605232130",
+      "standard_time_display": "2026-05-23 16:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Ballentine",
+      "county": "Richland",
+      "state": "SC",
+      "source": "Law Enforcement",
+      "remark": "Law enforcement officer reported a tree down with picture of blocking roadway near Cedar Grove Lane and Shady Grove Road.",
+      "lat": 34.16,
+      "lon": -81.24,
+      "ugc": "SCC079",
+      "ugc_name": "Richland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605232223",
+      "standard_time_display": "2026-05-23 17:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Ballentine",
+      "county": "Richland",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter relayed a couple of images and video via social media of flooded roadway at intersection of Broad River Rd and Arbor Springs Dr.",
+      "lat": 34.14,
+      "lon": -81.23,
+      "ugc": "SCC079",
+      "ugc_name": "Richland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605232325",
+      "standard_time_display": "2026-05-23 18:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Ballentine",
+      "county": "Richland",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Public shared image via social media of flooded intersection at Hearthwood Cir and W Shady Grove Rd.",
+      "lat": 34.16,
+      "lon": -81.23,
+      "ugc": "SCC079",
+      "ugc_name": "Richland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605242256",
+      "standard_time_display": "2026-05-24 17:56 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SW Sardis",
+      "county": "Burke",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Burke County dispatch reported that the 15100 block of Hwy 23 was flooded with water covering both lanes.",
+      "lat": 32.94,
+      "lon": -81.81,
+      "ugc": "GAC033",
+      "ugc_name": "Burke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605251850",
+      "standard_time_display": "2026-05-25 13:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 W Heath Springs",
+      "county": "Lancaster",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Lancaster County Dispatch reported flash flooding along Mount Carmel Rd. Time estimated by radar.",
+      "lat": 34.59,
+      "lon": -80.78,
+      "ugc": "SCC057",
+      "ugc_name": "Lancaster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605251905",
+      "standard_time_display": "2026-05-25 14:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Heath Springs",
+      "county": "Lancaster",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Lancaster County Dispatch reported flash flooding at Fork Hill Rd and Jons Road. Time estimated by radar.",
+      "lat": 34.61,
+      "lon": -80.61,
+      "ugc": "SCC057",
+      "ugc_name": "Lancaster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605260230",
+      "standard_time_display": "2026-05-25 21:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Fort Gordon",
+      "county": "Richmond",
+      "state": "GA",
+      "source": "Law Enforcement",
+      "remark": "Richmond County Dispatch reports flooding on the 2500 block of Tobacco Road leading to a road closure.",
+      "lat": 33.38,
+      "lon": -82.08,
+      "ugc": "GAC245",
+      "ugc_name": "Richmond",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605260230",
+      "standard_time_display": "2026-05-25 21:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Augusta Daniel Fi",
+      "county": "Richmond",
+      "state": "GA",
+      "source": "Law Enforcement",
+      "remark": "Richmond County Dispatch reports flooding on the 2400 block of Windsor Spring Road leading to a road closure.",
+      "lat": 33.4,
+      "lon": -82.06,
+      "ugc": "GAC245",
+      "ugc_name": "Richmond",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605262159",
+      "standard_time_display": "2026-05-26 16:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Saluda",
+      "county": "Saluda",
+      "state": "SC",
+      "source": "Emergency Mngr",
+      "remark": "Saluda County EM reported flooding at the corner of Batesburg Highway and Bouknight Ferry Road. EM sent photos of water pooling around trailers.",
+      "lat": 34.0,
+      "lon": -81.77,
+      "ugc": "SCC081",
+      "ugc_name": "Saluda",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605262351",
+      "standard_time_display": "2026-05-26 18:51 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Jackson",
+      "county": "Aiken",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Large pine tree downed on Atomic Rd.",
+      "lat": 33.32,
+      "lon": -81.78,
+      "ugc": "SCC003",
+      "ugc_name": "Aiken",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270050",
+      "standard_time_display": "2026-05-26 19:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE North",
+      "county": "Orangeburg",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Corrects previous flash flood report from 3 ENE North. Orangeburg dispatch reported 2-3 feet of water flowing over the road on North Road near Redmond Mill Rd resulting in a road closure.",
+      "lat": 33.63,
+      "lon": -81.05,
+      "ugc": "SCC075",
+      "ugc_name": "Orangeburg",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270050",
+      "standard_time_display": "2026-05-26 19:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE North",
+      "county": "Orangeburg",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Orangeburg dispatch reported a bridge washout on North Road near Redmond Mill Rd.",
+      "lat": 33.63,
+      "lon": -81.05,
+      "ugc": "SCC075",
+      "ugc_name": "Orangeburg",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605270230",
+      "standard_time_display": "2026-05-26 21:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 E North",
+      "county": "Orangeburg",
+      "state": "SC",
+      "source": "Emergency Mngr",
+      "remark": "Orangeburg county EM confirmed a roadway washout on Plumtree Rd resulting from Long Branch Creek overflowing the road.",
+      "lat": 33.62,
+      "lon": -80.99,
+      "ugc": "SCC075",
+      "ugc_name": "Orangeburg",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605280034",
+      "standard_time_display": "2026-05-27 19:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.5,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Summit",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "AcuRite weather station rainfall report of 2.50 inches in one hour.",
+      "lat": 33.96,
+      "lon": -81.41,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605280045",
+      "standard_time_display": "2026-05-27 19:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Gilbert",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "Skywarn spotter reported flooded yards and significant ponding of water on the roadway on Priceville Rd.",
+      "lat": 33.97,
+      "lon": -81.4,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605280047",
+      "standard_time_display": "2026-05-27 19:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Gilbert",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Social media report with photo of significant ponding of water on roadway on Two Notch Rd near Gilbert high school.",
+      "lat": 33.91,
+      "lon": -81.39,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "CAE",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:44:26Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=CAE&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for CAE",
+            "url": "https://api.weather.gov/products/types/LSR/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for CAE",
+            "url": "https://api.weather.gov/products/types/PNS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for CAE",
+            "url": "https://api.weather.gov/products/types/TOR/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for CAE",
+            "url": "https://api.weather.gov/products/types/SVR/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for CAE",
+            "url": "https://api.weather.gov/products/types/SVS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for CAE",
+            "url": "https://api.weather.gov/products/types/SPS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for CAE",
+            "url": "https://api.weather.gov/products/types/WCN/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for CAE",
+            "url": "https://api.weather.gov/products/types/FFW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for CAE",
+            "url": "https://api.weather.gov/products/types/FFS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for CAE",
+            "url": "https://api.weather.gov/products/types/FLS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for CAE",
+            "url": "https://api.weather.gov/products/types/FLW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for CAE",
+            "url": "https://api.weather.gov/products/types/RVS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for CAE",
+            "url": "https://api.weather.gov/products/types/ESF/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for CAE",
+            "url": "https://api.weather.gov/products/types/SMW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for CAE",
+            "url": "https://api.weather.gov/products/types/MWS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for CAE",
+            "url": "https://api.weather.gov/products/types/MWW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for CAE",
+            "url": "https://api.weather.gov/products/types/CFW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for CAE",
+            "url": "https://api.weather.gov/products/types/CWF/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for CAE",
+            "url": "https://api.weather.gov/products/types/HLS/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for CAE",
+            "url": "https://api.weather.gov/products/types/NPW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for CAE",
+            "url": "https://api.weather.gov/products/types/WSW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for CAE",
+            "url": "https://api.weather.gov/products/types/RFW/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for CAE",
+            "url": "https://api.weather.gov/products/types/DGT/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for CAE",
+            "url": "https://api.weather.gov/products/types/HWO/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for CAE",
+            "url": "https://api.weather.gov/products/types/AFD/locations/CAE",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

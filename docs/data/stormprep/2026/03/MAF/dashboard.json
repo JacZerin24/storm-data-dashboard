@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "MAF",
+    "start_utc": "2026-03-01T00:00:00Z",
+    "end_utc": "2026-04-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:48:11Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 3,
+    "wfo": "MAF",
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
+    "candidate_report_counts": {
+      "hail": 1,
+      "thunderstorm_wind": 15
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 1,
+      "NON-TSTM WND GST": 15
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=MAF&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MAF-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603060015",
+      "standard_time_display": "2026-03-05 17:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "5 ENE Penwell",
+      "county": "Ector",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Public reported penny to quarter size hail. Time estimated by radar.",
+      "lat": 31.77,
+      "lon": -102.51,
+      "ugc": "TXC135",
+      "ugc_name": "Ector",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603102005",
+      "standard_time_display": "2026-03-10 13:05 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Thorntonville",
+      "county": "Ward",
+      "state": "TX",
+      "source": "AWOS",
+      "remark": null,
+      "lat": 31.58,
+      "lon": -102.91,
+      "ugc": "TXC475",
+      "ugc_name": "Ward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603110157",
+      "standard_time_display": "2026-03-10 18:57 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "Pine Springs",
+      "county": "Culberson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station Pine Springs GMNP.",
+      "lat": 31.89,
+      "lon": -104.81,
+      "ugc": "TXC109",
+      "ugc_name": "Culberson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603110350",
+      "standard_time_display": "2026-03-10 20:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Pine Springs",
+      "county": "Culberson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 31.89,
+      "lon": -104.81,
+      "ugc": "TXC109",
+      "ugc_name": "Culberson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603110454",
+      "standard_time_display": "2026-03-10 21:54 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "14 W Toyavale",
+      "county": "Jeff Davis",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station Toyahvale 13W.",
+      "lat": 30.96,
+      "lon": -104.02,
+      "ugc": "TXC243",
+      "ugc_name": "Jeff Davis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603110538",
+      "standard_time_display": "2026-03-10 22:38 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Pine Springs",
+      "county": "Culberson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station GDBT2 The Bowl.",
+      "lat": 31.93,
+      "lon": -104.83,
+      "ugc": "TXC109",
+      "ugc_name": "Culberson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603110801",
+      "standard_time_display": "2026-03-11 01:01 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "14 W Toyavale",
+      "county": "Jeff Davis",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 30.96,
+      "lon": -104.02,
+      "ugc": "TXC243",
+      "ugc_name": "Jeff Davis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603111323",
+      "standard_time_display": "2026-03-11 06:23 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "6 W Whites City",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 32.17,
+      "lon": -104.48,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603111750",
+      "standard_time_display": "2026-03-11 11:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Gail",
+      "county": "Borden",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 32.76,
+      "lon": -101.41,
+      "ugc": "TXC033",
+      "ugc_name": "Borden",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603150819",
+      "standard_time_display": "2026-03-15 01:19 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "6 W Whites City",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station 164 Carlsbad Caverns NP.",
+      "lat": 32.17,
+      "lon": -104.48,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603151227",
+      "standard_time_display": "2026-03-15 05:27 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 69.0,
+      "magnitude_qualifier": null,
+      "city": "Pine Springs",
+      "county": "Culberson",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station 60 Pine Springs GMNP.",
+      "lat": 31.89,
+      "lon": -104.81,
+      "ugc": "TXC109",
+      "ugc_name": "Culberson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603151348",
+      "standard_time_display": "2026-03-15 06:48 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "14 W Toyavale",
+      "county": "Jeff Davis",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station 167 Toyahvale 13W.",
+      "lat": 30.96,
+      "lon": -104.02,
+      "ugc": "TXC243",
+      "ugc_name": "Jeff Davis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603151901",
+      "standard_time_display": "2026-03-15 12:01 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 67.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Midland Internatio",
+      "county": "Midland",
+      "state": "TX",
+      "source": "ASOS",
+      "remark": "ASOS station KMAF Midland.",
+      "lat": 31.95,
+      "lon": -102.2,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603270933",
+      "standard_time_display": "2026-03-27 02:33 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 72.0,
+      "magnitude_qualifier": null,
+      "city": "6 W Whites City",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station 164 Carlsbad Caverns NP.",
+      "lat": 32.17,
+      "lon": -104.48,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603271040",
+      "standard_time_display": "2026-03-27 03:40 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "7 NW Maljamar",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station CPPN5 Caprock.",
+      "lat": 32.93,
+      "lon": -103.86,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202603302115",
+      "standard_time_display": "2026-03-30 14:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "6 W Whites City",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station 164 Carlsbad Caverns NP briefly measured high wind gusts_ likely associated with virga.",
+      "lat": 32.17,
+      "lon": -104.48,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "MAF",
+      "start_utc": "2026-03-01T00:00:00Z",
+      "end_utc": "2026-04-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:48:11Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-03-01T00%3A00%3A00Z&ets=2026-04-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=MAF&start=2026-03-01T00%3A00%3A00Z&end=2026-04-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for MAF",
+            "url": "https://api.weather.gov/products/types/LSR/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for MAF",
+            "url": "https://api.weather.gov/products/types/PNS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for MAF",
+            "url": "https://api.weather.gov/products/types/TOR/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for MAF",
+            "url": "https://api.weather.gov/products/types/SVR/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for MAF",
+            "url": "https://api.weather.gov/products/types/SVS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for MAF",
+            "url": "https://api.weather.gov/products/types/SPS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for MAF",
+            "url": "https://api.weather.gov/products/types/WCN/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for MAF",
+            "url": "https://api.weather.gov/products/types/FFW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for MAF",
+            "url": "https://api.weather.gov/products/types/FFS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for MAF",
+            "url": "https://api.weather.gov/products/types/FLS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for MAF",
+            "url": "https://api.weather.gov/products/types/FLW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for MAF",
+            "url": "https://api.weather.gov/products/types/RVS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for MAF",
+            "url": "https://api.weather.gov/products/types/ESF/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for MAF",
+            "url": "https://api.weather.gov/products/types/SMW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for MAF",
+            "url": "https://api.weather.gov/products/types/MWS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for MAF",
+            "url": "https://api.weather.gov/products/types/MWW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for MAF",
+            "url": "https://api.weather.gov/products/types/CFW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for MAF",
+            "url": "https://api.weather.gov/products/types/CWF/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for MAF",
+            "url": "https://api.weather.gov/products/types/HLS/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for MAF",
+            "url": "https://api.weather.gov/products/types/NPW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for MAF",
+            "url": "https://api.weather.gov/products/types/WSW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for MAF",
+            "url": "https://api.weather.gov/products/types/RFW/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for MAF",
+            "url": "https://api.weather.gov/products/types/DGT/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for MAF",
+            "url": "https://api.weather.gov/products/types/HWO/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for MAF",
+            "url": "https://api.weather.gov/products/types/AFD/locations/MAF",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

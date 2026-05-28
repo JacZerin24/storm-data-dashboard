@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "MHX",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:11Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-1",
+      "properties": {
+        "report_id": "iem-lsr-MHX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605111745",
+        "standard_time_display": "2026-05-11 12:45 EST",
+        "wfo": "MHX",
+        "county_or_zone": "Onslow",
+        "city": "1 WNW Jacksonville",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Progress Energy reports 12 outages due to damage to their equipment. Time estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.42,
+          34.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-2",
+      "properties": {
+        "report_id": "iem-lsr-MHX-2",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202605111825",
+        "standard_time_display": "2026-05-11 13:25 EST",
+        "wfo": "MHX",
+        "county_or_zone": "AMZ158",
+        "city": "1 SW Marshallberg",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Large waterspout spotted north of Harkers Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.53,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-3",
+      "properties": {
+        "report_id": "iem-lsr-MHX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605271930",
+        "standard_time_display": "2026-05-27 14:30 EST",
+        "wfo": "MHX",
+        "county_or_zone": "Onslow",
+        "city": "1 ENE Silverdale",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Wind gusts moved patio furniture from household out into the yard and snapped several branches around the area as thunderstorms moved through. Report received via social media. Time matched via radar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.16,
+          34.77
+        ]
+      }
+    }
+  ]
+}

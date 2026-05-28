@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "OTX",
+    "start_utc": "2026-05-01T00:00:00Z",
+    "end_utc": "2026-06-01T00:00:00Z",
+    "generated_utc": "2026-05-28T12:45:21Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 5,
+    "wfo": "OTX",
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
+    "candidate_report_counts": {
+      "hail": 1,
+      "other": 3,
+      "thunderstorm_wind": 3
+    },
+    "candidate_report_type_counts": {
+      "BLOWING DUST": 1,
+      "DUST STORM": 1,
+      "HAIL": 1,
+      "LIGHTNING": 1,
+      "NON-TSTM WND GST": 2,
+      "TSTM WND DMG": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OTX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=OTX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OTX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-OTX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605130506",
+      "standard_time_display": "2026-05-12 21:06 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE La Crosse",
+      "county": "Whitman",
+      "state": "WA",
+      "source": "Public",
+      "remark": "A few tree limbs reported down.",
+      "lat": 46.79,
+      "lon": -117.85,
+      "ugc": "WAC075",
+      "ugc_name": "Whitman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605130945",
+      "standard_time_display": "2026-05-13 01:45 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 W Curlew",
+      "county": "Ferry",
+      "state": "WA",
+      "source": "Trained Spotter",
+      "remark": "Pea-sized hail_ predominantly 0.25 inch but up to 0.40 inch.",
+      "lat": 48.88,
+      "lon": -118.65,
+      "ugc": "WAC019",
+      "ugc_name": "Ferry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131400",
+      "standard_time_display": "2026-05-13 06:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Telma",
+      "county": "Chelan",
+      "state": "WA",
+      "source": "Mesonet",
+      "remark": "Mesonet station DIR60 1.2 NE Telma (NWAVAL).",
+      "lat": 47.86,
+      "lon": -120.8,
+      "ugc": "WAC007",
+      "ugc_name": "Chelan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131653",
+      "standard_time_display": "2026-05-13 08:53 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "BLOWING DUST",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Spangle",
+      "county": "Spokane",
+      "state": "WA",
+      "source": "Public",
+      "remark": "US-195 closed at at MP 80 due to multiple collisions due to a dust storm.",
+      "lat": 47.44,
+      "lon": -117.39,
+      "ugc": "WAC063",
+      "ugc_name": "Spokane",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131653",
+      "standard_time_display": "2026-05-13 08:53 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Spangle",
+      "county": "Spokane",
+      "state": "WA",
+      "source": "Public",
+      "remark": "Corrects previous DUST STORM report from 1 NNW Spangle. US-195 closed at at MP 80 due to multiple collisions due to a dust storm. Dust storm warning issued.",
+      "lat": 47.44,
+      "lon": -117.39,
+      "ugc": "WAC063",
+      "ugc_name": "Spokane",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605131910",
+      "standard_time_display": "2026-05-13 11:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Peola",
+      "county": "Garfield",
+      "state": "WA",
+      "source": "Mesonet",
+      "remark": "Mesonet station ADFW1 Alder.",
+      "lat": 46.27,
+      "lon": -117.5,
+      "ugc": "WAC023",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605172323",
+      "standard_time_display": "2026-05-17 15:23 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Tiger",
+      "county": "Pend Oreille",
+      "state": "WA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Pend Oreille County Fire District 2 reported lightning started a house fire. Structure not a total loss.",
+      "lat": 48.68,
+      "lon": -117.41,
+      "ugc": "WAC051",
+      "ugc_name": "Pend Oreille",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "OTX",
+      "start_utc": "2026-05-01T00:00:00Z",
+      "end_utc": "2026-06-01T00:00:00Z",
+      "generated_utc": "2026-05-28T12:45:21Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=OTX&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for OTX",
+            "url": "https://api.weather.gov/products/types/LSR/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for OTX",
+            "url": "https://api.weather.gov/products/types/PNS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for OTX",
+            "url": "https://api.weather.gov/products/types/TOR/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for OTX",
+            "url": "https://api.weather.gov/products/types/SVR/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for OTX",
+            "url": "https://api.weather.gov/products/types/SVS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for OTX",
+            "url": "https://api.weather.gov/products/types/SPS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for OTX",
+            "url": "https://api.weather.gov/products/types/WCN/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for OTX",
+            "url": "https://api.weather.gov/products/types/FFW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for OTX",
+            "url": "https://api.weather.gov/products/types/FFS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for OTX",
+            "url": "https://api.weather.gov/products/types/FLS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for OTX",
+            "url": "https://api.weather.gov/products/types/FLW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for OTX",
+            "url": "https://api.weather.gov/products/types/RVS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for OTX",
+            "url": "https://api.weather.gov/products/types/ESF/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for OTX",
+            "url": "https://api.weather.gov/products/types/SMW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for OTX",
+            "url": "https://api.weather.gov/products/types/MWS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for OTX",
+            "url": "https://api.weather.gov/products/types/MWW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for OTX",
+            "url": "https://api.weather.gov/products/types/CFW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for OTX",
+            "url": "https://api.weather.gov/products/types/CWF/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for OTX",
+            "url": "https://api.weather.gov/products/types/HLS/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for OTX",
+            "url": "https://api.weather.gov/products/types/NPW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for OTX",
+            "url": "https://api.weather.gov/products/types/WSW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for OTX",
+            "url": "https://api.weather.gov/products/types/RFW/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for OTX",
+            "url": "https://api.weather.gov/products/types/DGT/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for OTX",
+            "url": "https://api.weather.gov/products/types/HWO/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for OTX",
+            "url": "https://api.weather.gov/products/types/AFD/locations/OTX",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}
