@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-28T12:44:52Z",
+    "generated_utc": "2026-05-29T12:27:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,23 @@
     "year": 2026,
     "month": 5,
     "wfo": "ICT",
-    "total_candidate_reports": 104,
-    "mapped_candidate_reports": 104,
+    "total_candidate_reports": 106,
+    "mapped_candidate_reports": 106,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 41,
-      "other": 26,
+      "other": 27,
       "thunderstorm_wind": 32,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 3,
       "FLOOD": 1,
-      "FUNNEL CLOUD": 1,
+      "FUNNEL CLOUD": 2,
       "HAIL": 41,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 4,
-      "RAIN": 25,
+      "RAIN": 26,
       "TSTM WND DMG": 11,
       "TSTM WND GST": 17
     },
@@ -2346,6 +2346,50 @@
       "ugc": "KSC115",
       "ugc_name": "Marion",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-105",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605282115",
+      "standard_time_display": "2026-05-28 15:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Arkansas City",
+      "county": "Cowley",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Social media video shows a brief funnel cloud south of Arkansas City.",
+      "lat": 37.01,
+      "lon": -97.04,
+      "ugc": "KSC035",
+      "ugc_name": "Cowley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-106",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605290123",
+      "standard_time_display": "2026-05-28 19:23 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.67,
+      "magnitude_qualifier": null,
+      "city": "6 SW Smolan",
+      "county": "Saline",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Relayed via emergency manager. Storm total so far.",
+      "lat": 38.67,
+      "lon": -97.76,
+      "ugc": "KSC169",
+      "ugc_name": "Saline",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2354,7 +2398,7 @@
       "wfo": "ICT",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-28T12:44:53Z"
+      "generated_utc": "2026-05-29T12:27:35Z"
     },
     "primary_links": [
       {

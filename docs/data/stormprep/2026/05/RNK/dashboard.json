@@ -6,7 +6,7 @@
     "wfo": "RNK",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-28T12:45:34Z",
+    "generated_utc": "2026-05-29T12:28:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 5,
     "wfo": "RNK",
-    "total_candidate_reports": 47,
-    "mapped_candidate_reports": 47,
+    "total_candidate_reports": 53,
+    "mapped_candidate_reports": 53,
     "candidate_report_counts": {
       "flooding": 2,
-      "hail": 2,
+      "hail": 3,
       "other": 2,
-      "thunderstorm_wind": 41
+      "thunderstorm_wind": 46
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
-      "HAIL": 2,
+      "HAIL": 3,
       "LIGHTNING": 1,
       "RAIN": 1,
-      "TSTM WND DMG": 40,
+      "TSTM WND DMG": 45,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -606,6 +606,50 @@
     {
       "report_id": "iem-lsr-RNK-26",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272010",
+      "standard_time_display": "2026-05-27 15:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Gatewood",
+      "county": "Caswell",
+      "state": "NC",
+      "source": "Trained Spotter",
+      "remark": "Thunderstorm winds blew one to two trees down in 1000 block Holland Rd. Time estimated by radar. Report shared by spotter looking at county damage report app.",
+      "lat": 36.54,
+      "lon": -79.44,
+      "ugc": "NCC033",
+      "ugc_name": "Caswell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272018",
+      "standard_time_display": "2026-05-27 15:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Bethel",
+      "county": "Caswell",
+      "state": "NC",
+      "source": "Trained Spotter",
+      "remark": "Thunderstorm winds blew one to two trees down in the 7200 block of Park Springs Rd. Time estimated by radar. Report shared by spotter looking at county damage report app.",
+      "lat": 36.47,
+      "lon": -79.41,
+      "ugc": "NCC033",
+      "ugc_name": "Caswell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-28",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272026",
       "standard_time_display": "2026-05-27 15:26 EST",
       "standard_time_zone": "EST",
@@ -626,7 +670,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-27",
+      "report_id": "iem-lsr-RNK-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272038",
+      "standard_time_display": "2026-05-27 15:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Yanceyville",
+      "county": "Caswell",
+      "state": "NC",
+      "source": "Trained Spotter",
+      "remark": "Thunderstorm winds blew one to two trees down in the 200 block of NC Hwy 62S. Time estimated by radar. Report shared by spotter looking at county damage report app.",
+      "lat": 36.41,
+      "lon": -79.32,
+      "ugc": "NCC033",
+      "ugc_name": "Caswell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272130",
       "standard_time_display": "2026-05-27 16:30 EST",
@@ -648,7 +714,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-28",
+      "report_id": "iem-lsr-RNK-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272130",
       "standard_time_display": "2026-05-27 16:30 EST",
@@ -670,7 +736,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-29",
+      "report_id": "iem-lsr-RNK-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272135",
       "standard_time_display": "2026-05-27 16:35 EST",
@@ -692,7 +758,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-30",
+      "report_id": "iem-lsr-RNK-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272139",
       "standard_time_display": "2026-05-27 16:39 EST",
@@ -714,7 +780,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-31",
+      "report_id": "iem-lsr-RNK-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272215",
       "standard_time_display": "2026-05-27 17:15 EST",
@@ -736,7 +802,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-32",
+      "report_id": "iem-lsr-RNK-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272224",
       "standard_time_display": "2026-05-27 17:24 EST",
@@ -758,7 +824,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-33",
+      "report_id": "iem-lsr-RNK-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272228",
       "standard_time_display": "2026-05-27 17:28 EST",
@@ -780,7 +846,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-34",
+      "report_id": "iem-lsr-RNK-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272230",
       "standard_time_display": "2026-05-27 17:30 EST",
@@ -802,7 +868,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-35",
+      "report_id": "iem-lsr-RNK-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272230",
       "standard_time_display": "2026-05-27 17:30 EST",
@@ -824,7 +890,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-36",
+      "report_id": "iem-lsr-RNK-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272300",
       "standard_time_display": "2026-05-27 18:00 EST",
@@ -846,7 +912,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-37",
+      "report_id": "iem-lsr-RNK-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272335",
       "standard_time_display": "2026-05-27 18:35 EST",
@@ -868,7 +934,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-38",
+      "report_id": "iem-lsr-RNK-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272337",
       "standard_time_display": "2026-05-27 18:37 EST",
@@ -890,7 +956,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-39",
+      "report_id": "iem-lsr-RNK-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272339",
+      "standard_time_display": "2026-05-27 18:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Madison Heights",
+      "county": "Amherst",
+      "state": "VA",
+      "source": "Fire Dept/Rescue",
+      "remark": "A tree fell onto a home on Old Wright Shop Road near Maple Drive_ causing significant damage to the structure. Time estimated from radar.",
+      "lat": 37.43,
+      "lon": -79.1,
+      "ugc": "VAC009",
+      "ugc_name": "Amherst",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272339",
       "standard_time_display": "2026-05-27 18:39 EST",
@@ -912,7 +1000,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-40",
+      "report_id": "iem-lsr-RNK-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272340",
+      "standard_time_display": "2026-05-27 18:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Madison Heights",
+      "county": "Amherst",
+      "state": "VA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Numerous trees down in the vicinity of New Wright Shop Road and Riverview Road_ Several had fallen on powerlines or blocked roadways Est. 3500 customers lost power in the area. Time estimated from ra",
+      "lat": 37.43,
+      "lon": -79.09,
+      "ugc": "VAC009",
+      "ugc_name": "Amherst",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272341",
       "standard_time_display": "2026-05-27 18:41 EST",
@@ -934,7 +1044,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-41",
+      "report_id": "iem-lsr-RNK-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605272341",
+      "standard_time_display": "2026-05-27 18:41 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Falconerville",
+      "county": "Amherst",
+      "state": "VA",
+      "source": "Public",
+      "remark": "Social Media photo and video of hail was estimated to be around 1.75 inches in the Madison Virginia area.",
+      "lat": 37.51,
+      "lon": -79.12,
+      "ugc": "VAC009",
+      "ugc_name": "Amherst",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272345",
       "standard_time_display": "2026-05-27 18:45 EST",
@@ -956,7 +1088,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-42",
+      "report_id": "iem-lsr-RNK-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605272352",
       "standard_time_display": "2026-05-27 18:52 EST",
@@ -978,7 +1110,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-43",
+      "report_id": "iem-lsr-RNK-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605280000",
       "standard_time_display": "2026-05-27 19:00 EST",
@@ -1000,7 +1132,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-44",
+      "report_id": "iem-lsr-RNK-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605280000",
       "standard_time_display": "2026-05-27 19:00 EST",
@@ -1022,7 +1154,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-45",
+      "report_id": "iem-lsr-RNK-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605280001",
       "standard_time_display": "2026-05-27 19:01 EST",
@@ -1044,7 +1176,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-46",
+      "report_id": "iem-lsr-RNK-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605280008",
       "standard_time_display": "2026-05-27 19:08 EST",
@@ -1066,7 +1198,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-47",
+      "report_id": "iem-lsr-RNK-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605280109",
       "standard_time_display": "2026-05-27 20:09 EST",
@@ -1094,7 +1226,7 @@
       "wfo": "RNK",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-28T12:45:34Z"
+      "generated_utc": "2026-05-29T12:28:17Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "LOT",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-28T12:45:04Z",
+    "generated_utc": "2026-05-29T12:27:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 5,
     "wfo": "LOT",
-    "total_candidate_reports": 46,
-    "mapped_candidate_reports": 46,
+    "total_candidate_reports": 47,
+    "mapped_candidate_reports": 47,
     "candidate_report_counts": {
       "hail": 9,
       "marine": 6,
+      "other": 1,
       "thunderstorm_wind": 29,
       "tornado": 2
     },
     "candidate_report_type_counts": {
       "HAIL": 9,
       "MARINE TSTM WIND": 6,
+      "MISC MRN/SRF HZD": 1,
       "TORNADO": 2,
       "TSTM WND DMG": 14,
       "TSTM WND GST": 15
@@ -1065,6 +1067,28 @@
       "ugc": "LMZ745",
       "ugc_name": "Burns Harbor to Michigan City IN",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOT-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605282005",
+      "standard_time_display": "2026-05-28 14:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LOT",
+      "report_type": "MISC MRN/SRF HZD",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Lincoln Park - Chi",
+      "county": "LMZ741",
+      "state": "IL",
+      "source": "Broadcast Media",
+      "remark": "*** 1 FATAL *** Broadcast media reports that a 32 year old man was pulled from Lake Michigan near Diversey Harbor at 3:05 PM.",
+      "lat": 41.93,
+      "lon": -87.63,
+      "ugc": "LMZ741",
+      "ugc_name": "Wilmette Harbor to Northerly Island IL",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1073,7 +1097,7 @@
       "wfo": "LOT",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-28T12:45:04Z"
+      "generated_utc": "2026-05-29T12:27:47Z"
     },
     "primary_links": [
       {
