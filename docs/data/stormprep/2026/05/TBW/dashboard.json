@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-29T12:28:24Z",
+    "generated_utc": "2026-05-30T10:54:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 5,
     "wfo": "TBW",
-    "total_candidate_reports": 32,
-    "mapped_candidate_reports": 32,
+    "total_candidate_reports": 33,
+    "mapped_candidate_reports": 33,
     "candidate_report_counts": {
       "hail": 2,
       "marine": 8,
       "other": 1,
-      "thunderstorm_wind": 14,
+      "thunderstorm_wind": 15,
       "tornado": 7
     },
     "candidate_report_type_counts": {
@@ -33,7 +33,7 @@
       "MARINE TSTM WIND": 8,
       "TORNADO": 3,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 13,
+      "TSTM WND GST": 14,
       "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
@@ -761,6 +761,28 @@
       "ugc": "GMZ830",
       "ugc_name": "Tampa Bay waters",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605292255",
+      "standard_time_display": "2026-05-29 17:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Sebring Air Terminal",
+      "county": "Highlands",
+      "state": "FL",
+      "source": "AWOS",
+      "remark": "AWOS station KSEF Sebring Air Terminal.",
+      "lat": 27.46,
+      "lon": -81.34,
+      "ugc": "FLC055",
+      "ugc_name": "Highlands",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -769,7 +791,7 @@
       "wfo": "TBW",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-29T12:28:25Z"
+      "generated_utc": "2026-05-30T10:54:25Z"
     },
     "primary_links": [
       {

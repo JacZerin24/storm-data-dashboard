@@ -7,7 +7,7 @@
     "wfo": "TFX",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-29T12:28:25Z",
+    "generated_utc": "2026-05-30T10:54:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -5290,6 +5290,84 @@
         "coordinates": [
           -112.08,
           47.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-204",
+      "properties": {
+        "report_id": "iem-lsr-TFX-204",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605300030",
+        "standard_time_display": "2026-05-29 17:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Fergus",
+        "city": "13 ENE Roy",
+        "state": "MT",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.68,
+          47.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-205",
+      "properties": {
+        "report_id": "iem-lsr-TFX-205",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605300125",
+        "standard_time_display": "2026-05-29 18:25 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "Gildford",
+        "state": "MT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Straight-line winds knocked down multiple tree limbs and caused the power to go out. Nearby automated sensors were gusting 35-40 MPH."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3,
+          48.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-206",
+      "properties": {
+        "report_id": "iem-lsr-TFX-206",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202605300309",
+        "standard_time_display": "2026-05-29 20:09 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "5 ENE Dillon",
+        "state": "MT",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KDLN Dillon Airport. 55 mph outflow wind gust with showers in the area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.55,
+          45.25
         ]
       }
     }

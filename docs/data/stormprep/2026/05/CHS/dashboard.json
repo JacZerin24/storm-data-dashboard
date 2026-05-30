@@ -6,7 +6,7 @@
     "wfo": "CHS",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-29T12:27:10Z",
+    "generated_utc": "2026-05-30T10:52:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,22 @@
     "year": 2026,
     "month": 5,
     "wfo": "CHS",
-    "total_candidate_reports": 38,
-    "mapped_candidate_reports": 38,
+    "total_candidate_reports": 41,
+    "mapped_candidate_reports": 41,
     "candidate_report_counts": {
-      "flooding": 11,
+      "flooding": 12,
       "hail": 2,
       "marine": 4,
-      "other": 20,
+      "other": 22,
       "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
       "COASTAL FLOOD": 7,
       "FLASH FLOOD": 3,
-      "FLOOD": 1,
+      "FLOOD": 2,
       "HAIL": 2,
       "LIGHTNING": 1,
-      "RAIN": 19,
+      "RAIN": 21,
       "RIP CURRENTS": 4,
       "TSTM WND GST": 1
     },
@@ -807,6 +807,28 @@
     {
       "report_id": "iem-lsr-CHS-35",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605282200",
+      "standard_time_display": "2026-05-28 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Emmalane",
+      "county": "Jenkins",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Jenkins County 911 center reported flooding on HWY 25S near Newton Rd and along West Old Savannah Rd. Both roads remained passable.",
+      "lat": 32.73,
+      "lon": -81.98,
+      "ugc": "GAC165",
+      "ugc_name": "Jenkins",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-36",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605282235",
       "standard_time_display": "2026-05-28 17:35 EST",
       "standard_time_zone": "EST",
@@ -827,7 +849,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-36",
+      "report_id": "iem-lsr-CHS-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605282238",
       "standard_time_display": "2026-05-28 17:38 EST",
@@ -849,7 +871,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-37",
+      "report_id": "iem-lsr-CHS-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605282356",
       "standard_time_display": "2026-05-28 18:56 EST",
@@ -871,7 +893,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-38",
+      "report_id": "iem-lsr-CHS-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605282359",
       "standard_time_display": "2026-05-28 18:59 EST",
@@ -891,6 +913,50 @@
       "ugc": "GAC191",
       "ugc_name": "McIntosh",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605292140",
+      "standard_time_display": "2026-05-29 16:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.36,
+      "magnitude_qualifier": null,
+      "city": "1 NE Statesboro",
+      "county": "Bulloch",
+      "state": "GA",
+      "source": "Emergency Mngr",
+      "remark": "Bulloch County EMA observation. Rain fall in about 50 min.",
+      "lat": 32.47,
+      "lon": -81.77,
+      "ugc": "GAC031",
+      "ugc_name": "Bulloch",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605292146",
+      "standard_time_display": "2026-05-29 16:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.63,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Statesboro",
+      "county": "Bulloch",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Rain still falling. Rain started at this location at 444 PM.",
+      "lat": 32.47,
+      "lon": -81.79,
+      "ugc": "GAC031",
+      "ugc_name": "Bulloch",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -899,7 +965,7 @@
       "wfo": "CHS",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-29T12:27:10Z"
+      "generated_utc": "2026-05-30T10:52:59Z"
     },
     "primary_links": [
       {
