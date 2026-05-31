@@ -3,23 +3,27 @@
   "year": 2026,
   "month": 5,
   "wfo": "LBF",
-  "total_candidate_reports": 24,
-  "mapped_candidate_reports": 24,
+  "total_candidate_reports": 50,
+  "mapped_candidate_reports": 50,
   "candidate_report_counts": {
-    "hail": 6,
-    "other": 9,
-    "thunderstorm_wind": 9
+    "hail": 23,
+    "other": 10,
+    "thunderstorm_wind": 16,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "HAIL": 6,
+    "HAIL": 23,
+    "LANDSPOUT": 1,
     "RAIN": 9,
-    "TSTM WND GST": 9
+    "TORNADO": 1,
+    "TSTM WND GST": 16
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LBF&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

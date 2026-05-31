@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-30T10:53:34Z",
+    "generated_utc": "2026-05-31T11:06:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1372,6 +1372,32 @@
       "id": "iem-lsr-JAX-53",
       "properties": {
         "report_id": "iem-lsr-JAX-53",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202605300230",
+        "standard_time_display": "2026-05-29 21:30 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Duval",
+        "city": "2 WSW Riverside",
+        "state": "FL",
+        "magnitude": 4.1,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station FL-DV-94 Jacksonville 4.1 SW measured 4.10 inches of rain. Radar estimated end time."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.71,
+          30.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-54",
+      "properties": {
+        "report_id": "iem-lsr-JAX-54",
         "report_type": "FLOOD",
         "event_category": "flooding",
         "valid_utc": "202605300302",
@@ -1390,6 +1416,32 @@
         "coordinates": [
           -81.65,
           30.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-55",
+      "properties": {
+        "report_id": "iem-lsr-JAX-55",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202605302230",
+        "standard_time_display": "2026-05-30 17:30 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Putnam",
+        "city": "1 SE Palatka",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Roads covered in moving water due to heavy rains."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.65,
+          29.64
         ]
       }
     }

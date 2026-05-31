@@ -6,7 +6,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-30T10:53:13Z",
+    "generated_utc": "2026-05-31T11:06:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 5,
     "wfo": "FGZ",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
     "candidate_report_counts": {
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "NON-TSTM WND GST": 1
+      "NON-TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +66,28 @@
       "ugc": "AZC001",
       "ugc_name": "Apache",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FGZ-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605292104",
+      "standard_time_display": "2026-05-29 14:04 MST",
+      "standard_time_zone": "MST",
+      "wfo": "FGZ",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Winslow",
+      "county": "Navajo",
+      "state": "AZ",
+      "source": "ASOS",
+      "remark": "ASOS station KINW Winslow Airport.",
+      "lat": 35.03,
+      "lon": -110.72,
+      "ugc": "AZC017",
+      "ugc_name": "Navajo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +96,7 @@
       "wfo": "FGZ",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-30T10:53:14Z"
+      "generated_utc": "2026-05-31T11:06:19Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "BYZ",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-30T10:52:56Z",
+    "generated_utc": "2026-05-31T11:06:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,9 +17,10 @@
     "year": 2026,
     "month": 5,
     "wfo": "BYZ",
-    "total_candidate_reports": 214,
-    "mapped_candidate_reports": 214,
+    "total_candidate_reports": 215,
+    "mapped_candidate_reports": 215,
     "candidate_report_counts": {
+      "flooding": 1,
       "hail": 1,
       "heat_cold": 6,
       "other": 60,
@@ -29,6 +30,7 @@
     },
     "candidate_report_type_counts": {
       "EXTREME COLD": 6,
+      "FLASH FLOOD": 1,
       "FUNNEL CLOUD": 1,
       "HAIL": 1,
       "NON-TSTM WND GST": 99,
@@ -4765,6 +4767,28 @@
       "ugc": "MTC067",
       "ugc_name": "Park",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BYZ-215",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605302145",
+      "standard_time_display": "2026-05-30 14:45 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BYZ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Billings",
+      "county": "Yellowstone",
+      "state": "MT",
+      "source": "Public",
+      "remark": "Public reported street flooding with water levels up to the curbs.",
+      "lat": 45.77,
+      "lon": -108.58,
+      "ugc": "MTC111",
+      "ugc_name": "Yellowstone",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -4773,7 +4797,7 @@
       "wfo": "BYZ",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-30T10:52:57Z"
+      "generated_utc": "2026-05-31T11:06:04Z"
     },
     "primary_links": [
       {

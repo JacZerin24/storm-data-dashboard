@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-30T10:52:39Z",
+    "generated_utc": "2026-05-31T11:05:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 5,
     "wfo": "ABR",
-    "total_candidate_reports": 64,
-    "mapped_candidate_reports": 64,
+    "total_candidate_reports": 67,
+    "mapped_candidate_reports": 67,
     "candidate_report_counts": {
-      "thunderstorm_wind": 64
+      "thunderstorm_wind": 67
     },
     "candidate_report_type_counts": {
-      "NON-TSTM WND GST": 64
+      "NON-TSTM WND GST": 64,
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1452,6 +1453,72 @@
       "ugc": "SDC029",
       "ugc_name": "Codington",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605310540",
+      "standard_time_display": "2026-05-30 23:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 57.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Lees Corner",
+      "county": "Buffalo",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 289 Lees Corner (SDDOT).",
+      "lat": 44.08,
+      "lon": -99.33,
+      "ugc": "SDC017",
+      "ugc_name": "Buffalo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605310547",
+      "standard_time_display": "2026-05-30 23:47 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "9 ESE Rosseau",
+      "county": "Hughes",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 333 De Grey Hill (SDDOT).",
+      "lat": 44.28,
+      "lon": -99.91,
+      "ugc": "SDC065",
+      "ugc_name": "Hughes",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-67",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605310833",
+      "standard_time_display": "2026-05-31 02:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "3 S Conde",
+      "county": "Spink",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 306 Conde 3 S (SDDOT).",
+      "lat": 45.11,
+      "lon": -98.1,
+      "ugc": "SDC115",
+      "ugc_name": "Spink",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1460,7 +1527,7 @@
       "wfo": "ABR",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-30T10:52:40Z"
+      "generated_utc": "2026-05-31T11:05:50Z"
     },
     "primary_links": [
       {
