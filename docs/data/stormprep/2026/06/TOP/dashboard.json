@@ -1,0 +1,792 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "TOP",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:33:57Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "TOP",
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
+    "candidate_report_counts": {
+      "hail": 7,
+      "other": 14,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 7,
+      "RAIN": 14,
+      "TSTM WND GST": 1
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TOP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=TOP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TOP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-TOP-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010204",
+      "standard_time_display": "2026-05-31 20:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "3 SW Olpe",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": null,
+      "lat": 38.23,
+      "lon": -96.21,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010350",
+      "standard_time_display": "2026-05-31 21:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 2.25,
+      "magnitude_qualifier": null,
+      "city": "3 E Gridley",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Resent. Report from mPING: Hen Egg+ (2.25 in.).",
+      "lat": 38.1,
+      "lon": -95.84,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010352",
+      "standard_time_display": "2026-05-31 21:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 2.5,
+      "magnitude_qualifier": null,
+      "city": "Gridley",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": "Emergency manager relayed photo of estimated tennis ball size hail in Gridley. Time estimated from radar.",
+      "lat": 38.1,
+      "lon": -95.88,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010352",
+      "standard_time_display": "2026-05-31 21:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 3.5,
+      "magnitude_qualifier": null,
+      "city": "Gridley",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "Storm Chaser",
+      "remark": "Delayed report. Video and pictures on social media from storm chaser.",
+      "lat": 38.1,
+      "lon": -95.88,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010402",
+      "standard_time_display": "2026-05-31 22:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "5 WSW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Storm Chaser",
+      "remark": "Spotter network report.",
+      "lat": 38.38,
+      "lon": -96.26,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010426",
+      "standard_time_display": "2026-05-31 22:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "6 W Le Roy",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Report from mPING: Golf Ball (1.75 in.).",
+      "lat": 38.1,
+      "lon": -95.74,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010443",
+      "standard_time_display": "2026-05-31 22:43 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "3 N Olpe",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Report from mPING: Ping Pong Ball (1.50 in.).",
+      "lat": 38.3,
+      "lon": -96.18,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010524",
+      "standard_time_display": "2026-05-31 23:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "4 SE Alta Vista",
+      "county": "Morris",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": "Also getting hail but cant see what size.",
+      "lat": 38.82,
+      "lon": -96.45,
+      "ugc": "KSC127",
+      "ugc_name": "Morris",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011100",
+      "standard_time_display": "2026-06-01 05:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.25,
+      "magnitude_qualifier": null,
+      "city": "3 NW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "CO-OP Observer",
+      "remark": "CO-OP Observer station EPRK1 Emporia 3 NW.",
+      "lat": 38.43,
+      "lon": -96.22,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011130",
+      "standard_time_display": "2026-06-01 05:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.32,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Olpe",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Cocorahs",
+      "remark": "Cocorahs station KS-LY-21 Olpe 1.5 WSW.",
+      "lat": 38.25,
+      "lon": -96.19,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.4,
+      "magnitude_qualifier": null,
+      "city": "1 N Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 hr total. Weekend total reported of 3.15 inches.",
+      "lat": 38.41,
+      "lon": -96.18,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.55,
+      "magnitude_qualifier": null,
+      "city": "Colony",
+      "county": "Anderson",
+      "state": "KS",
+      "source": "CO-OP Observer",
+      "remark": "CO-OP Observer station CNYK1 Colony.",
+      "lat": 38.07,
+      "lon": -95.37,
+      "ugc": "KSC003",
+      "ugc_name": "Anderson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.57,
+      "magnitude_qualifier": null,
+      "city": "3 NW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Cocorahs",
+      "remark": "Cocorahs station KS-LY-20 2 NW Emporia.",
+      "lat": 38.43,
+      "lon": -96.21,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.6,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 hr total. Weekend total reported of 3.40 inches.",
+      "lat": 38.41,
+      "lon": -96.19,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.63,
+      "magnitude_qualifier": null,
+      "city": "8 ESE Olpe",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 hr total at Road 30 and U in Lyon County.",
+      "lat": 38.2,
+      "lon": -96.05,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.65,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Le Roy",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "Cocorahs",
+      "remark": "Cocorahs station KS-CF-8 Le Roy 2.9 ESE.",
+      "lat": 38.07,
+      "lon": -95.59,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.7,
+      "magnitude_qualifier": null,
+      "city": "1 NW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 hr total at KVOE studios. Weekend total reported of 3.50 inches.",
+      "lat": 38.41,
+      "lon": -96.2,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.8,
+      "magnitude_qualifier": null,
+      "city": "2 NW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 total along Coronado Ave. Weekend total reported of 3.80 inches.",
+      "lat": 38.43,
+      "lon": -96.2,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.94,
+      "magnitude_qualifier": null,
+      "city": "Gridley",
+      "county": "Coffey",
+      "state": "KS",
+      "source": "CO-OP Observer",
+      "remark": "CO-OP Observer station GRDK1 Gridley.",
+      "lat": 38.1,
+      "lon": -95.88,
+      "ugc": "KSC031",
+      "ugc_name": "Coffey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011200",
+      "standard_time_display": "2026-06-01 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.3,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Olpe",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "24 hr total. Weekend total reported of 7.30 inches at Olpe Blacksmith Shop.",
+      "lat": 38.26,
+      "lon": -96.18,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011253",
+      "standard_time_display": "2026-06-01 06:53 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.09,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": "ASOS station KEMP Emporia.",
+      "lat": 38.33,
+      "lon": -96.2,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011355",
+      "standard_time_display": "2026-06-01 07:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.65,
+      "magnitude_qualifier": null,
+      "city": "2 NW Emporia",
+      "county": "Lyon",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Mesonet station 1135D 2 NW Emporia.",
+      "lat": 38.43,
+      "lon": -96.21,
+      "ugc": "KSC111",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "TOP",
+      "start_utc": "2026-06-01T00:00:00Z",
+      "end_utc": "2026-07-01T00:00:00Z",
+      "generated_utc": "2026-06-01T15:33:57Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=TOP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for TOP",
+            "url": "https://api.weather.gov/products/types/LSR/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for TOP",
+            "url": "https://api.weather.gov/products/types/PNS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for TOP",
+            "url": "https://api.weather.gov/products/types/TOR/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for TOP",
+            "url": "https://api.weather.gov/products/types/SVR/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for TOP",
+            "url": "https://api.weather.gov/products/types/SVS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for TOP",
+            "url": "https://api.weather.gov/products/types/SPS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for TOP",
+            "url": "https://api.weather.gov/products/types/WCN/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for TOP",
+            "url": "https://api.weather.gov/products/types/FFW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for TOP",
+            "url": "https://api.weather.gov/products/types/FFS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for TOP",
+            "url": "https://api.weather.gov/products/types/FLS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for TOP",
+            "url": "https://api.weather.gov/products/types/FLW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for TOP",
+            "url": "https://api.weather.gov/products/types/RVS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for TOP",
+            "url": "https://api.weather.gov/products/types/ESF/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for TOP",
+            "url": "https://api.weather.gov/products/types/SMW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for TOP",
+            "url": "https://api.weather.gov/products/types/MWS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for TOP",
+            "url": "https://api.weather.gov/products/types/MWW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for TOP",
+            "url": "https://api.weather.gov/products/types/CFW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for TOP",
+            "url": "https://api.weather.gov/products/types/CWF/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for TOP",
+            "url": "https://api.weather.gov/products/types/HLS/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for TOP",
+            "url": "https://api.weather.gov/products/types/NPW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for TOP",
+            "url": "https://api.weather.gov/products/types/WSW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for TOP",
+            "url": "https://api.weather.gov/products/types/RFW/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for TOP",
+            "url": "https://api.weather.gov/products/types/DGT/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for TOP",
+            "url": "https://api.weather.gov/products/types/HWO/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for TOP",
+            "url": "https://api.weather.gov/products/types/AFD/locations/TOP",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "BIS",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:32:36Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "BIS",
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
+    "candidate_report_counts": {
+      "hail": 1,
+      "other": 7
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 1,
+      "RAIN": 7
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BIS&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=BIS&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BIS&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BIS-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010024",
+      "standard_time_display": "2026-05-31 18:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.7,
+      "magnitude_qualifier": null,
+      "city": "Strasburg",
+      "county": "Emmons",
+      "state": "ND",
+      "source": "Trained Spotter",
+      "remark": "Pea to marble size hail reported.",
+      "lat": 46.13,
+      "lon": -100.16,
+      "ugc": "NDC029",
+      "ugc_name": "Emmons",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010317",
+      "standard_time_display": "2026-05-31 21:17 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.52,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Kintyre",
+      "county": "Emmons",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "Peak 10 m wind gust of 54 mph was also recorded at this NDAWN mesonet station at 652 pm CDT.",
+      "lat": 46.5,
+      "lon": -99.97,
+      "ugc": "NDC029",
+      "ugc_name": "Emmons",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010324",
+      "standard_time_display": "2026-05-31 21:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.88,
+      "magnitude_qualifier": null,
+      "city": "8 SW Pick City",
+      "county": "Mercer",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "NDAWN mesonet station.",
+      "lat": 47.43,
+      "lon": -101.57,
+      "ugc": "NDC057",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010328",
+      "standard_time_display": "2026-05-31 21:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.27,
+      "magnitude_qualifier": null,
+      "city": "11 NNW Zap",
+      "county": "Mercer",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "NDAWN mesonet station.",
+      "lat": 47.44,
+      "lon": -101.97,
+      "ugc": "NDC057",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010329",
+      "standard_time_display": "2026-05-31 21:29 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.19,
+      "magnitude_qualifier": null,
+      "city": "3 W Hazen",
+      "county": "Mercer",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "NDAWN mesonet station.",
+      "lat": 47.3,
+      "lon": -101.68,
+      "ugc": "NDC057",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010330",
+      "standard_time_display": "2026-05-31 20:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.07,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Mott",
+      "county": "Hettinger",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "NDAWN mesonet station.",
+      "lat": 46.38,
+      "lon": -102.32,
+      "ugc": "NDC041",
+      "ugc_name": "Hettinger",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011239",
+      "standard_time_display": "2026-06-01 06:39 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.79,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Forbes",
+      "county": "Dickey",
+      "state": "ND",
+      "source": "Trained Spotter",
+      "remark": "Two day total of rain.",
+      "lat": 45.98,
+      "lon": -98.77,
+      "ugc": "NDC021",
+      "ugc_name": "Dickey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011359",
+      "standard_time_display": "2026-06-01 07:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "Hazen",
+      "county": "Mercer",
+      "state": "ND",
+      "source": "Emergency Mngr",
+      "remark": null,
+      "lat": 47.29,
+      "lon": -101.62,
+      "ugc": "NDC057",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "BIS",
+      "start_utc": "2026-06-01T00:00:00Z",
+      "end_utc": "2026-07-01T00:00:00Z",
+      "generated_utc": "2026-06-01T15:32:36Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=BIS&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for BIS",
+            "url": "https://api.weather.gov/products/types/LSR/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for BIS",
+            "url": "https://api.weather.gov/products/types/PNS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for BIS",
+            "url": "https://api.weather.gov/products/types/TOR/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for BIS",
+            "url": "https://api.weather.gov/products/types/SVR/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for BIS",
+            "url": "https://api.weather.gov/products/types/SVS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for BIS",
+            "url": "https://api.weather.gov/products/types/SPS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for BIS",
+            "url": "https://api.weather.gov/products/types/WCN/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for BIS",
+            "url": "https://api.weather.gov/products/types/FFW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for BIS",
+            "url": "https://api.weather.gov/products/types/FFS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for BIS",
+            "url": "https://api.weather.gov/products/types/FLS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for BIS",
+            "url": "https://api.weather.gov/products/types/FLW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for BIS",
+            "url": "https://api.weather.gov/products/types/RVS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for BIS",
+            "url": "https://api.weather.gov/products/types/ESF/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for BIS",
+            "url": "https://api.weather.gov/products/types/SMW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for BIS",
+            "url": "https://api.weather.gov/products/types/MWS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for BIS",
+            "url": "https://api.weather.gov/products/types/MWW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for BIS",
+            "url": "https://api.weather.gov/products/types/CFW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for BIS",
+            "url": "https://api.weather.gov/products/types/CWF/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for BIS",
+            "url": "https://api.weather.gov/products/types/HLS/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for BIS",
+            "url": "https://api.weather.gov/products/types/NPW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for BIS",
+            "url": "https://api.weather.gov/products/types/WSW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for BIS",
+            "url": "https://api.weather.gov/products/types/RFW/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for BIS",
+            "url": "https://api.weather.gov/products/types/DGT/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for BIS",
+            "url": "https://api.weather.gov/products/types/HWO/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for BIS",
+            "url": "https://api.weather.gov/products/types/AFD/locations/BIS",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

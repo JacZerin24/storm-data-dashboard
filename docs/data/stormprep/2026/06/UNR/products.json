@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "wfo": "UNR",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:34:00Z"
+  },
+  "primary_links": [
+    {
+      "label": "IEM Local Storm Reports CSV used by this build",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=UNR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv",
+      "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+    },
+    {
+      "label": "IEM NWS text product archive search",
+      "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+      "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+    },
+    {
+      "label": "NWS API alerts query used by this build",
+      "url": "https://api.weather.gov/alerts?office=UNR&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
+      "note": "NWS API alert history is limited; older months use product archive links instead."
+    },
+    {
+      "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+      "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+      "note": "Use for public tornado/damage survey review."
+    }
+  ],
+  "product_groups": [
+    {
+      "group": "Local storm reports and public statements",
+      "pils": [
+        "LSR",
+        "PNS"
+      ],
+      "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+      "links": [
+        {
+          "pil": "LSR",
+          "label": "Recent NWS API LSR products for UNR",
+          "url": "https://api.weather.gov/products/types/LSR/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "PNS",
+          "label": "Recent NWS API PNS products for UNR",
+          "url": "https://api.weather.gov/products/types/PNS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Convective warnings and statements",
+      "pils": [
+        "TOR",
+        "SVR",
+        "SVS",
+        "SPS",
+        "WCN"
+      ],
+      "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+      "links": [
+        {
+          "pil": "TOR",
+          "label": "Recent NWS API TOR products for UNR",
+          "url": "https://api.weather.gov/products/types/TOR/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SVR",
+          "label": "Recent NWS API SVR products for UNR",
+          "url": "https://api.weather.gov/products/types/SVR/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SVS",
+          "label": "Recent NWS API SVS products for UNR",
+          "url": "https://api.weather.gov/products/types/SVS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "SPS",
+          "label": "Recent NWS API SPS products for UNR",
+          "url": "https://api.weather.gov/products/types/SPS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "WCN",
+          "label": "Recent NWS API WCN products for UNR",
+          "url": "https://api.weather.gov/products/types/WCN/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Flood and hydro products",
+      "pils": [
+        "FFW",
+        "FFS",
+        "FLS",
+        "FLW",
+        "RVS",
+        "ESF"
+      ],
+      "purpose": "Flash flood, flood, river, and hydrologic context.",
+      "links": [
+        {
+          "pil": "FFW",
+          "label": "Recent NWS API FFW products for UNR",
+          "url": "https://api.weather.gov/products/types/FFW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FFS",
+          "label": "Recent NWS API FFS products for UNR",
+          "url": "https://api.weather.gov/products/types/FFS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FLS",
+          "label": "Recent NWS API FLS products for UNR",
+          "url": "https://api.weather.gov/products/types/FLS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "FLW",
+          "label": "Recent NWS API FLW products for UNR",
+          "url": "https://api.weather.gov/products/types/FLW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "RVS",
+          "label": "Recent NWS API RVS products for UNR",
+          "url": "https://api.weather.gov/products/types/RVS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "ESF",
+          "label": "Recent NWS API ESF products for UNR",
+          "url": "https://api.weather.gov/products/types/ESF/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Marine and coastal products",
+      "pils": [
+        "SMW",
+        "MWS",
+        "MWW",
+        "CFW",
+        "CWF",
+        "HLS"
+      ],
+      "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+      "links": [
+        {
+          "pil": "SMW",
+          "label": "Recent NWS API SMW products for UNR",
+          "url": "https://api.weather.gov/products/types/SMW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "MWS",
+          "label": "Recent NWS API MWS products for UNR",
+          "url": "https://api.weather.gov/products/types/MWS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "MWW",
+          "label": "Recent NWS API MWW products for UNR",
+          "url": "https://api.weather.gov/products/types/MWW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "CFW",
+          "label": "Recent NWS API CFW products for UNR",
+          "url": "https://api.weather.gov/products/types/CFW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "CWF",
+          "label": "Recent NWS API CWF products for UNR",
+          "url": "https://api.weather.gov/products/types/CWF/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "HLS",
+          "label": "Recent NWS API HLS products for UNR",
+          "url": "https://api.weather.gov/products/types/HLS/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    },
+    {
+      "group": "Non-convective, winter, heat/cold, and fire products",
+      "pils": [
+        "NPW",
+        "WSW",
+        "RFW",
+        "DGT",
+        "HWO",
+        "AFD"
+      ],
+      "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+      "links": [
+        {
+          "pil": "NPW",
+          "label": "Recent NWS API NPW products for UNR",
+          "url": "https://api.weather.gov/products/types/NPW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "WSW",
+          "label": "Recent NWS API WSW products for UNR",
+          "url": "https://api.weather.gov/products/types/WSW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "RFW",
+          "label": "Recent NWS API RFW products for UNR",
+          "url": "https://api.weather.gov/products/types/RFW/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "DGT",
+          "label": "Recent NWS API DGT products for UNR",
+          "url": "https://api.weather.gov/products/types/DGT/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "HWO",
+          "label": "Recent NWS API HWO products for UNR",
+          "url": "https://api.weather.gov/products/types/HWO/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        },
+        {
+          "pil": "AFD",
+          "label": "Recent NWS API AFD products for UNR",
+          "url": "https://api.weather.gov/products/types/AFD/locations/UNR",
+          "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+        }
+      ]
+    }
+  ]
+}

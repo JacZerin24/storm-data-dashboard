@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "MLB",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:33:28Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-1",
+      "properties": {
+        "report_id": "iem-lsr-MLB-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606010036",
+        "standard_time_display": "2026-05-31 19:36 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 SSW Melbourne",
+        "state": "FL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Melbourne International Airport measured a peak wind gust of 45MPH/39KT from the north at 8:36 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.1
+        ]
+      }
+    }
+  ]
+}

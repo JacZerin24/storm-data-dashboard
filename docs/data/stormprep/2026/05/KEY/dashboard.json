@@ -6,7 +6,7 @@
     "wfo": "KEY",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-31T11:06:38Z",
+    "generated_utc": "2026-06-01T15:34:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,25 @@
     "year": 2026,
     "month": 5,
     "wfo": "KEY",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
       "marine": 1,
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 1,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "MARINE TSTM WIND": 1,
-      "NON-TSTM WND GST": 1
+      "NON-TSTM WND GST": 1,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=KEY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=KEY&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -90,6 +94,28 @@
       "ugc": "GMZ054",
       "ugc_name": "Straits of Florida from west end of Seven Mile Bridge to south of Halfmoon Shoal out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-KEY-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605311829",
+      "standard_time_display": "2026-05-31 13:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "KEY",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Cudjoe Key",
+      "county": "GMZ035",
+      "state": "FL",
+      "source": "Public",
+      "remark": "A member of the public relayed a report of a waterspout_ via social media_ bayside of Cudjoe Key. The condensation cloud was of an elephant trunk nature in size_ tilted about 45 degrees to the west_",
+      "lat": 24.7,
+      "lon": -81.49,
+      "ugc": "GMZ035",
+      "ugc_name": "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -98,7 +124,7 @@
       "wfo": "KEY",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-31T11:06:39Z"
+      "generated_utc": "2026-06-01T15:34:50Z"
     },
     "primary_links": [
       {

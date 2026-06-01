@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-05-31T11:06:52Z",
+    "generated_utc": "2026-06-01T15:35:03Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,25 +17,25 @@
     "year": 2026,
     "month": 5,
     "wfo": "MLB",
-    "total_candidate_reports": 70,
-    "mapped_candidate_reports": 70,
+    "total_candidate_reports": 72,
+    "mapped_candidate_reports": 72,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 7,
       "marine": 12,
       "other": 6,
-      "thunderstorm_wind": 42,
-      "tornado": 1
+      "thunderstorm_wind": 43,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
-      "FUNNEL CLOUD": 1,
+      "FUNNEL CLOUD": 2,
       "HAIL": 7,
       "MARINE TSTM WIND": 11,
       "RAIN": 6,
       "RIP CURRENTS": 1,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 41
+      "TSTM WND GST": 42
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1598,6 +1598,50 @@
       "ugc": "FLC127",
       "ugc_name": "Volusia",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-71",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605311913",
+      "standard_time_display": "2026-05-31 14:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Melbourne",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Multiple public reports and videos of a funnel cloud near downtown Melbourne.",
+      "lat": 28.08,
+      "lon": -80.62,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605312115",
+      "standard_time_display": "2026-05-31 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Kennedy Space Cen",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "AWOS",
+      "remark": "Titusville_ NASA Shuttle Landing Facility measured a peak wind gust of 40MPH/35KT from the south at 5:15 PM.",
+      "lat": 28.62,
+      "lon": -80.72,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1606,7 +1650,7 @@
       "wfo": "MLB",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-05-31T11:06:52Z"
+      "generated_utc": "2026-06-01T15:35:04Z"
     },
     "primary_links": [
       {

@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "PAH",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:33:37Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-1",
+      "properties": {
+        "report_id": "iem-lsr-PAH-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606011231",
+        "standard_time_display": "2026-06-01 06:31 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Jackson",
+        "city": "4 NE Murphysboro",
+        "state": "IL",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.31,
+          37.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-2",
+      "properties": {
+        "report_id": "iem-lsr-PAH-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606011233",
+        "standard_time_display": "2026-06-01 06:33 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Jackson",
+        "city": "3 N Makanda",
+        "state": "IL",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.25,
+          37.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-3",
+      "properties": {
+        "report_id": "iem-lsr-PAH-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606011446",
+        "standard_time_display": "2026-06-01 08:46 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Marshall",
+        "city": "2 WSW Gilbertsville",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Water over Hwy 62 near the Cypress Lake Campground."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.33,
+          37.01
+        ]
+      }
+    }
+  ]
+}

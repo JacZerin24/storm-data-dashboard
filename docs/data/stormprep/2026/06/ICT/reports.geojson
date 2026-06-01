@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 6,
+    "wfo": "ICT",
+    "start_utc": "2026-06-01T00:00:00Z",
+    "end_utc": "2026-07-01T00:00:00Z",
+    "generated_utc": "2026-06-01T15:33:08Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ICT-1",
+      "properties": {
+        "report_id": "iem-lsr-ICT-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606010138",
+        "standard_time_display": "2026-05-31 19:38 CST",
+        "wfo": "ICT",
+        "county_or_zone": "Chase",
+        "city": "10 S Saffordville",
+        "state": "KS",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Half Dollar (1.25 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4,
+          38.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ICT-2",
+      "properties": {
+        "report_id": "iem-lsr-ICT-2",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202606010243",
+        "standard_time_display": "2026-05-31 20:43 CST",
+        "wfo": "ICT",
+        "county_or_zone": "Greenwood",
+        "city": "2 NW Madison",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report received via image from social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.16,
+          38.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ICT-3",
+      "properties": {
+        "report_id": "iem-lsr-ICT-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606010331",
+        "standard_time_display": "2026-05-31 21:31 CST",
+        "wfo": "ICT",
+        "county_or_zone": "Greenwood",
+        "city": "5 W Gridley",
+        "state": "KS",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.96,
+          38.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ICT-4",
+      "properties": {
+        "report_id": "iem-lsr-ICT-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606010527",
+        "standard_time_display": "2026-05-31 23:27 CST",
+        "wfo": "ICT",
+        "county_or_zone": "Woodson",
+        "city": "Neosho Falls",
+        "state": "KS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.56,
+          38.01
+        ]
+      }
+    }
+  ]
+}
