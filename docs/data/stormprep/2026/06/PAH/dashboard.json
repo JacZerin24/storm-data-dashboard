@@ -6,7 +6,7 @@
     "wfo": "PAH",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:37Z",
+    "generated_utc": "2026-06-02T12:52:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "PAH",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
       "flooding": 1,
-      "hail": 2
+      "hail": 2,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "HAIL": 2
+      "HAIL": 2,
+      "TSTM WND DMG": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -50,6 +52,28 @@
     {
       "report_id": "iem-lsr-PAH-1",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011202",
+      "standard_time_display": "2026-06-01 06:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Gilbertsville",
+      "county": "Marshall",
+      "state": "KY",
+      "source": "Park/Forest Srvc",
+      "remark": "Multiple trees uprooted_ several large tree limbs snapped. Powerlines down. Radar and damage appear consistent with a microburst with peak winds 70-80 mph.",
+      "lat": 37.01,
+      "lon": -88.29,
+      "ugc": "KYC157",
+      "ugc_name": "Marshall",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011231",
       "standard_time_display": "2026-06-01 06:31 CST",
       "standard_time_zone": "CST",
@@ -70,7 +94,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-2",
+      "report_id": "iem-lsr-PAH-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011233",
       "standard_time_display": "2026-06-01 06:33 CST",
@@ -92,7 +116,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-3",
+      "report_id": "iem-lsr-PAH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011236",
+      "standard_time_display": "2026-06-01 06:36 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Oak Ridge",
+      "county": "Cape Girardeau",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Social media post of tree down with other tree limbs snapped off in northern Cape Girardeau County.",
+      "lat": 37.5,
+      "lon": -89.72,
+      "ugc": "MOC031",
+      "ugc_name": "Cape Girardeau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011446",
       "standard_time_display": "2026-06-01 08:46 CST",
@@ -120,7 +166,7 @@
       "wfo": "PAH",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-01T15:33:37Z"
+      "generated_utc": "2026-06-02T12:52:12Z"
     },
     "primary_links": [
       {

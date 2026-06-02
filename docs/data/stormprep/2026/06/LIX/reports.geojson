@@ -7,12 +7,65 @@
     "wfo": "LIX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:17Z",
+    "generated_utc": "2026-06-02T12:51:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-1",
+      "properties": {
+        "report_id": "iem-lsr-LIX-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606011810",
+        "standard_time_display": "2026-06-01 12:10 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Orleans",
+        "city": "6 NNE New Orleans",
+        "state": "LA",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "KNEW ASOS measured a wind gust of 39mph / 34 knots from thunderstorm downburst winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03,
+          30.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-2",
+      "properties": {
+        "report_id": "iem-lsr-LIX-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606020640",
+        "standard_time_display": "2026-06-02 00:40 CST",
+        "wfo": "LIX",
+        "county_or_zone": "GMZ577",
+        "city": "68 E Venice",
+        "state": "LA",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station 42040 70 S Sand Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.23,
+          29.21
+        ]
+      }
+    }
+  ]
 }

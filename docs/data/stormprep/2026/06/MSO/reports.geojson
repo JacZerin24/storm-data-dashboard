@@ -7,12 +7,39 @@
     "wfo": "MSO",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:32Z",
+    "generated_utc": "2026-06-02T12:52:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MSO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MSO-1",
+      "properties": {
+        "report_id": "iem-lsr-MSO-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202606011500",
+        "standard_time_display": "2026-06-01 07:00 PST",
+        "wfo": "MSO",
+        "county_or_zone": "Lake",
+        "city": "8 N Finley Point",
+        "state": "MT",
+        "magnitude": 4.3,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "48hr total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.04,
+          47.85
+        ]
+      }
+    }
+  ]
 }

@@ -7,7 +7,7 @@
     "wfo": "FSD",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:34:31Z",
+    "generated_utc": "2026-06-02T12:53:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -4752,6 +4752,32 @@
       "id": "iem-lsr-FSD-183",
       "properties": {
         "report_id": "iem-lsr-FSD-183",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202605312258",
+        "standard_time_display": "2026-05-31 16:58 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Hanson",
+        "city": "Emery",
+        "state": "SD",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several social media photos of flooded streets and backyards in Emery. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62,
+          43.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-184",
+      "properties": {
+        "report_id": "iem-lsr-FSD-184",
         "report_type": "FUNNEL CLOUD",
         "event_category": "tornado",
         "valid_utc": "202605312300",
@@ -4775,9 +4801,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-FSD-184",
+      "id": "iem-lsr-FSD-185",
       "properties": {
-        "report_id": "iem-lsr-FSD-184",
+        "report_id": "iem-lsr-FSD-185",
         "report_type": "TORNADO",
         "event_category": "tornado",
         "valid_utc": "202605312307",
@@ -4796,6 +4822,84 @@
         "coordinates": [
           -97.52,
           43.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-186",
+      "properties": {
+        "report_id": "iem-lsr-FSD-186",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202605312316",
+        "standard_time_display": "2026-05-31 17:16 CST",
+        "wfo": "FSD",
+        "county_or_zone": "McCook",
+        "city": "5 N Bridgewater",
+        "state": "SD",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Hail was jagged_ with some as long as a quarter_ but most of it was pea to nickel sized. Heavy rainfall so far has been 1.75 inch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49,
+          43.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-187",
+      "properties": {
+        "report_id": "iem-lsr-FSD-187",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202605312351",
+        "standard_time_display": "2026-05-31 17:51 CST",
+        "wfo": "FSD",
+        "county_or_zone": "McCook",
+        "city": "2 N Canistota",
+        "state": "SD",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Most hail was pea to quarter sized_ but a few were as big as golf balls. Farm fields further north are more damaged than his."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.29,
+          43.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-188",
+      "properties": {
+        "report_id": "iem-lsr-FSD-188",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202605312358",
+        "standard_time_display": "2026-05-31 17:58 CST",
+        "wfo": "FSD",
+        "county_or_zone": "McCook",
+        "city": "4 NE Canistota",
+        "state": "SD",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Ping pong ball sized hail damaged young crops in fields."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.23,
+          43.64
         ]
       }
     }

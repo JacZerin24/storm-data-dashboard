@@ -7,12 +7,65 @@
     "wfo": "HGX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:06Z",
+    "generated_utc": "2026-06-02T12:51:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HGX-1",
+      "properties": {
+        "report_id": "iem-lsr-HGX-1",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202606011540",
+        "standard_time_display": "2026-06-01 09:40 CST",
+        "wfo": "HGX",
+        "county_or_zone": "Chambers",
+        "city": "2 SE Mont Belvieu",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous funnel cloud report from 2 SE Mont Belvieu. Found on X post with pictures. Time and location approximated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.86,
+          29.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HGX-2",
+      "properties": {
+        "report_id": "iem-lsr-HGX-2",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202606011548",
+        "standard_time_display": "2026-06-01 09:48 CST",
+        "wfo": "HGX",
+        "county_or_zone": "Chambers",
+        "city": "2 SE Mont Belvieu",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Found on X post with pictures. Time and location approximated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.86,
+          29.83
+        ]
+      }
+    }
+  ]
 }

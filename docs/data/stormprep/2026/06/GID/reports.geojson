@@ -7,12 +7,91 @@
     "wfo": "GID",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:32:59Z",
+    "generated_utc": "2026-06-02T12:51:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GID-1",
+      "properties": {
+        "report_id": "iem-lsr-GID-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020315",
+        "standard_time_display": "2026-06-01 21:15 CST",
+        "wfo": "GID",
+        "county_or_zone": "Dawson",
+        "city": "Lexington Airport",
+        "state": "NE",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.77,
+          40.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GID-2",
+      "properties": {
+        "report_id": "iem-lsr-GID-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020709",
+        "standard_time_display": "2026-06-02 01:09 CST",
+        "wfo": "GID",
+        "county_or_zone": "Fillmore",
+        "city": "1 N Exeter",
+        "state": "NE",
+        "magnitude": 54.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Unofficial personal weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45,
+          40.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GID-3",
+      "properties": {
+        "report_id": "iem-lsr-GID-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202606021107",
+        "standard_time_display": "2026-06-02 05:07 CST",
+        "wfo": "GID",
+        "county_or_zone": "Clay",
+        "city": "1 WNW Sutton",
+        "state": "NE",
+        "magnitude": 3.08,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Still light rain falling...majority of this total fell in 1 hour between 4 and 5 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.87,
+          40.61
+        ]
+      }
+    }
+  ]
 }

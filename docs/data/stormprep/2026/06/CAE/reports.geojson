@@ -7,12 +7,39 @@
     "wfo": "CAE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:32:43Z",
+    "generated_utc": "2026-06-02T12:51:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-1",
+      "properties": {
+        "report_id": "iem-lsr-CAE-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020350",
+        "standard_time_display": "2026-06-01 22:50 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Aiken",
+        "city": "5 W Aiken State Park",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Amateur Radio operator relayed report of fallen tree downing power lines along Hatchaway Bridge Rd at Fox Pond Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.57,
+          33.56
+        ]
+      }
+    }
+  ]
 }

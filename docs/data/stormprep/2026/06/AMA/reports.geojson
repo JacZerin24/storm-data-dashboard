@@ -7,12 +7,169 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:32:33Z",
+    "generated_utc": "2026-06-02T12:51:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-1",
+      "properties": {
+        "report_id": "iem-lsr-AMA-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606012248",
+        "standard_time_display": "2026-06-01 16:48 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "7 W Stinnett",
+        "state": "TX",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public estimated ping pong sized hail at Grandview RV Park west of Stinnett at 5:48 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.56,
+          35.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-2",
+      "properties": {
+        "report_id": "iem-lsr-AMA-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606012320",
+        "standard_time_display": "2026-06-01 17:20 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "4 S Pringle",
+        "state": "TX",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Hailstones up to golf ball sized were reported 5 miles north of Stinnett off of hwy 207."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.45,
+          35.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-3",
+      "properties": {
+        "report_id": "iem-lsr-AMA-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606012324",
+        "standard_time_display": "2026-06-01 17:24 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "2 SSE Pringle",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Mostly pea to penny size hail with a few quarter size hailstones mixed in_ at the intersection of TX Highways 136 and 207."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44,
+          35.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-4",
+      "properties": {
+        "report_id": "iem-lsr-AMA-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606020022",
+        "standard_time_display": "2026-06-01 18:22 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "Stinnett",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44,
+          35.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-5",
+      "properties": {
+        "report_id": "iem-lsr-AMA-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606020032",
+        "standard_time_display": "2026-06-01 18:32 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "Stinnett",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44,
+          35.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-6",
+      "properties": {
+        "report_id": "iem-lsr-AMA-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606020050",
+        "standard_time_display": "2026-06-01 18:50 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hutchinson",
+        "city": "1 NNE Stinnett",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44,
+          35.83
+        ]
+      }
+    }
+  ]
 }

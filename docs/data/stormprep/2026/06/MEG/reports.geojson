@@ -7,12 +7,195 @@
     "wfo": "MEG",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:24Z",
+    "generated_utc": "2026-06-02T12:51:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-1",
+      "properties": {
+        "report_id": "iem-lsr-MEG-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606011610",
+        "standard_time_display": "2026-06-01 10:10 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Alcorn",
+        "city": "Glen",
+        "state": "MS",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.41,
+          34.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-2",
+      "properties": {
+        "report_id": "iem-lsr-MEG-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606011714",
+        "standard_time_display": "2026-06-01 11:14 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Tippah",
+        "city": "Ripley",
+        "state": "MS",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.95,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-3",
+      "properties": {
+        "report_id": "iem-lsr-MEG-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606011717",
+        "standard_time_display": "2026-06-01 11:17 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Itawamba",
+        "city": "Kirkville",
+        "state": "MS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.49,
+          34.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-4",
+      "properties": {
+        "report_id": "iem-lsr-MEG-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606011733",
+        "standard_time_display": "2026-06-01 11:33 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Itawamba",
+        "city": "5 SSW Kirkville",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Trees down in Ratliff community."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.53,
+          34.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-5",
+      "properties": {
+        "report_id": "iem-lsr-MEG-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606011740",
+        "standard_time_display": "2026-06-01 11:40 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Lee",
+        "city": "3 N Plantersville",
+        "state": "MS",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Tree down on Briar Ridge Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.67,
+          34.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-6",
+      "properties": {
+        "report_id": "iem-lsr-MEG-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606012344",
+        "standard_time_display": "2026-06-01 17:44 CST",
+        "wfo": "MEG",
+        "county_or_zone": "DeSoto",
+        "city": "1 N Olive Branch",
+        "state": "MS",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reports of nickel to ping pong ball size hail in Olive Branch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.83,
+          34.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-7",
+      "properties": {
+        "report_id": "iem-lsr-MEG-7",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606020119",
+        "standard_time_display": "2026-06-01 19:19 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Tate",
+        "city": "1 ENE Arkabutla",
+        "state": "MS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.12,
+          34.7
+        ]
+      }
+    }
+  ]
 }

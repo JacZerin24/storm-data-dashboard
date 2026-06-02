@@ -6,7 +6,7 @@
     "wfo": "ILX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:11Z",
+    "generated_utc": "2026-06-02T12:51:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "ILX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND GST": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ILX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606012130",
+      "standard_time_display": "2026-06-01 15:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ILX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "Oconee",
+      "county": "Shelby",
+      "state": "IL",
+      "source": "Public",
+      "remark": "Relayed by WCIA-TV.",
+      "lat": 39.29,
+      "lon": -89.11,
+      "ugc": "ILC173",
+      "ugc_name": "Shelby",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "ILX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-01T15:33:11Z"
+      "generated_utc": "2026-06-02T12:51:43Z"
     },
     "primary_links": [
       {

@@ -7,12 +7,221 @@
     "wfo": "FFC",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:32:55Z",
+    "generated_utc": "2026-06-02T12:51:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FFC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-1",
+      "properties": {
+        "report_id": "iem-lsr-FFC-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012142",
+        "standard_time_display": "2026-06-01 15:42 CST",
+        "wfo": "FFC",
+        "county_or_zone": "Troup",
+        "city": "3 W Lagrange",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency manager reports 40+ trees down across county from West Point Lake to LaGrange and points southward."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.08,
+          33.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-2",
+      "properties": {
+        "report_id": "iem-lsr-FFC-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012142",
+        "standard_time_display": "2026-06-01 15:42 CST",
+        "wfo": "FFC",
+        "county_or_zone": "Troup",
+        "city": "4 NNE Cannonville",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree damage near West Point Road and Bradfield Drive with numerous large branches and few a trees down. Power lines were knocked down by falling tree which landed on a vehicle. No injuries were repor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.09,
+          33.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-3",
+      "properties": {
+        "report_id": "iem-lsr-FFC-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606012148",
+        "standard_time_display": "2026-06-01 15:48 CST",
+        "wfo": "FFC",
+        "county_or_zone": "Troup",
+        "city": "Cannonville",
+        "state": "GA",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Dime sized hail reported by local media along Robert Taylor Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.11,
+          32.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-4",
+      "properties": {
+        "report_id": "iem-lsr-FFC-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012210",
+        "standard_time_display": "2026-06-01 17:10 EST",
+        "wfo": "FFC",
+        "county_or_zone": "Harris",
+        "city": "3 ESE Jones Crossroads",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public reports tree down along Interstate 185 near mile marker 33."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.99,
+          32.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-5",
+      "properties": {
+        "report_id": "iem-lsr-FFC-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012218",
+        "standard_time_display": "2026-06-01 17:18 EST",
+        "wfo": "FFC",
+        "county_or_zone": "Harris",
+        "city": "2 WSW Hamilton",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Numerous trees down near GA HWY 116 and Lower Blue Springs Rd. One tree fell into a roof."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9,
+          32.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-6",
+      "properties": {
+        "report_id": "iem-lsr-FFC-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012218",
+        "standard_time_display": "2026-06-01 17:18 EST",
+        "wfo": "FFC",
+        "county_or_zone": "Harris",
+        "city": "Hamilton",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "GA Power shows several thousand customers across the county without power from south of Pine Mountain to Hamilton and surrounding communities."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.88,
+          32.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-7",
+      "properties": {
+        "report_id": "iem-lsr-FFC-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012220",
+        "standard_time_display": "2026-06-01 17:20 EST",
+        "wfo": "FFC",
+        "county_or_zone": "Harris",
+        "city": "2 WNW Pine Mountain Val",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public reports a large tree down along Highway 27."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.86,
+          32.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FFC-8",
+      "properties": {
+        "report_id": "iem-lsr-FFC-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606012242",
+        "standard_time_display": "2026-06-01 17:42 EST",
+        "wfo": "FFC",
+        "county_or_zone": "Muscogee",
+        "city": "1 SW Midland",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "GA Power reports several customers without power in and around the Midland community."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.83,
+          32.56
+        ]
+      }
+    }
+  ]
 }

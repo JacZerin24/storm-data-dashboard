@@ -7,12 +7,169 @@
     "wfo": "OUN",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:33:36Z",
+    "generated_utc": "2026-06-02T12:52:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-1",
+      "properties": {
+        "report_id": "iem-lsr-OUN-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020410",
+        "standard_time_display": "2026-06-01 22:10 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Woods",
+        "city": "13 NNE Camp Houston",
+        "state": "OK",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "May Ranch Mesonet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.01,
+          36.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-2",
+      "properties": {
+        "report_id": "iem-lsr-OUN-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020415",
+        "standard_time_display": "2026-06-01 22:15 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Woodward",
+        "city": "3 SSW Freedom",
+        "state": "OK",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Freedom Mesonet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14,
+          36.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-3",
+      "properties": {
+        "report_id": "iem-lsr-OUN-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020510",
+        "standard_time_display": "2026-06-01 23:10 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Woods",
+        "city": "3 WNW Hopeton",
+        "state": "OK",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.72,
+          36.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-4",
+      "properties": {
+        "report_id": "iem-lsr-OUN-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020610",
+        "standard_time_display": "2026-06-02 00:10 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Grant",
+        "city": "1 SW Medford",
+        "state": "OK",
+        "magnitude": 74.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-5",
+      "properties": {
+        "report_id": "iem-lsr-OUN-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020615",
+        "standard_time_display": "2026-06-02 00:15 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Grant",
+        "city": "1 WSW Medford",
+        "state": "OK",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-6",
+      "properties": {
+        "report_id": "iem-lsr-OUN-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020728",
+        "standard_time_display": "2026-06-02 01:28 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Kay",
+        "city": "2 NNW Ponca City",
+        "state": "OK",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1,
+          36.73
+        ]
+      }
+    }
+  ]
 }

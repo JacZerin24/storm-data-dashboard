@@ -6,7 +6,7 @@
     "wfo": "EAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-01T15:32:52Z",
+    "generated_utc": "2026-06-02T12:51:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "EAX",
-    "total_candidate_reports": 60,
-    "mapped_candidate_reports": 60,
+    "total_candidate_reports": 81,
+    "mapped_candidate_reports": 81,
     "candidate_report_counts": {
-      "flooding": 16,
-      "hail": 11,
-      "thunderstorm_wind": 33
+      "flooding": 19,
+      "hail": 12,
+      "thunderstorm_wind": 50
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 14,
+      "FLASH FLOOD": 17,
       "FLOOD": 2,
-      "HAIL": 11,
-      "TSTM WND DMG": 28,
+      "HAIL": 12,
+      "TSTM WND DMG": 45,
       "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -362,6 +362,72 @@
     {
       "report_id": "iem-lsr-EAX-15",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010612",
+      "standard_time_display": "2026-06-01 00:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Oakview",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Several trees snapped near Barry and Broadway. Time estimated from radar.",
+      "lat": 39.25,
+      "lon": -94.59,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010618",
+      "standard_time_display": "2026-06-01 00:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Houston Lake",
+      "county": "Platte",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Downed tree at a residence near 58th Street. Time estimated from radar.",
+      "lat": 39.2,
+      "lon": -94.61,
+      "ugc": "MOC165",
+      "ugc_name": "Platte",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010618",
+      "standard_time_display": "2026-06-01 00:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Houston Lake",
+      "county": "Platte",
+      "state": "MO",
+      "source": "Local Official",
+      "remark": "Tree down on wires near Edgewood Circle. Time estimated from radar.",
+      "lat": 39.19,
+      "lon": -94.62,
+      "ugc": "MOC165",
+      "ugc_name": "Platte",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010620",
       "standard_time_display": "2026-06-01 00:20 CST",
       "standard_time_zone": "CST",
@@ -382,7 +448,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-16",
+      "report_id": "iem-lsr-EAX-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010622",
       "standard_time_display": "2026-06-01 00:22 CST",
@@ -404,7 +470,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-17",
+      "report_id": "iem-lsr-EAX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010625",
+      "standard_time_display": "2026-06-01 00:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Gladstone",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Large tree downed at a residence in Gladstone damaging the property. Time estimated from radar.",
+      "lat": 39.2,
+      "lon": -94.56,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010628",
       "standard_time_display": "2026-06-01 00:28 CST",
@@ -426,7 +514,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-18",
+      "report_id": "iem-lsr-EAX-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010631",
       "standard_time_display": "2026-06-01 00:31 CST",
@@ -448,7 +536,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-19",
+      "report_id": "iem-lsr-EAX-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010631",
       "standard_time_display": "2026-06-01 00:31 CST",
@@ -470,7 +558,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-20",
+      "report_id": "iem-lsr-EAX-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010634",
       "standard_time_display": "2026-06-01 00:34 CST",
@@ -492,7 +580,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-21",
+      "report_id": "iem-lsr-EAX-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010634",
       "standard_time_display": "2026-06-01 00:34 CST",
@@ -514,7 +602,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-22",
+      "report_id": "iem-lsr-EAX-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010634",
       "standard_time_display": "2026-06-01 00:34 CST",
@@ -536,7 +624,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-23",
+      "report_id": "iem-lsr-EAX-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010634",
       "standard_time_display": "2026-06-01 00:34 CST",
@@ -558,7 +646,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-24",
+      "report_id": "iem-lsr-EAX-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010635",
       "standard_time_display": "2026-06-01 00:35 CST",
@@ -580,7 +668,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-25",
+      "report_id": "iem-lsr-EAX-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010635",
       "standard_time_display": "2026-06-01 00:35 CST",
@@ -602,7 +690,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-26",
+      "report_id": "iem-lsr-EAX-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010636",
       "standard_time_display": "2026-06-01 00:36 CST",
@@ -624,7 +712,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-27",
+      "report_id": "iem-lsr-EAX-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010638",
       "standard_time_display": "2026-06-01 00:38 CST",
@@ -646,7 +734,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-28",
+      "report_id": "iem-lsr-EAX-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010638",
+      "standard_time_display": "2026-06-01 00:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Avondale",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Several downed trees_ including onto vehicles_ near Prather and 37th Terrace. Time estimated from radar.",
+      "lat": 39.16,
+      "lon": -94.55,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010638",
+      "standard_time_display": "2026-06-01 00:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW North Kansas City",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Several trees down on 21st Avenue. Time estimated from radar.",
+      "lat": 39.14,
+      "lon": -94.57,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010638",
       "standard_time_display": "2026-06-01 00:38 CST",
@@ -668,7 +800,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-29",
+      "report_id": "iem-lsr-EAX-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010641",
+      "standard_time_display": "2026-06-01 00:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Avondale",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Several downed trees and limbs near 43rd Street. Time estimated from radar.",
+      "lat": 39.17,
+      "lon": -94.55,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010641",
+      "standard_time_display": "2026-06-01 00:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Oakview",
+      "county": "Clay",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Downed tree damaged a residence near Tracy Avenue. Time estimated from radar.",
+      "lat": 39.21,
+      "lon": -94.57,
+      "ugc": "MOC047",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010646",
       "standard_time_display": "2026-06-01 00:46 CST",
@@ -690,7 +866,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-30",
+      "report_id": "iem-lsr-EAX-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010652",
+      "standard_time_display": "2026-06-01 00:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Maywood",
+      "county": "Jackson",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Large tree limb downed_ damaging a vehicle near Hill Park. Time estimated from radar.",
+      "lat": 39.08,
+      "lon": -94.46,
+      "ugc": "MOC095",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010653",
       "standard_time_display": "2026-06-01 00:53 CST",
@@ -712,7 +910,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-31",
+      "report_id": "iem-lsr-EAX-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010655",
       "standard_time_display": "2026-06-01 00:55 CST",
@@ -734,7 +932,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-32",
+      "report_id": "iem-lsr-EAX-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010656",
       "standard_time_display": "2026-06-01 00:56 CST",
@@ -756,7 +954,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-33",
+      "report_id": "iem-lsr-EAX-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010656",
       "standard_time_display": "2026-06-01 00:56 CST",
@@ -778,7 +976,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-34",
+      "report_id": "iem-lsr-EAX-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010706",
       "standard_time_display": "2026-06-01 01:06 CST",
@@ -800,7 +998,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-35",
+      "report_id": "iem-lsr-EAX-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010707",
       "standard_time_display": "2026-06-01 01:07 CST",
@@ -822,7 +1020,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-36",
+      "report_id": "iem-lsr-EAX-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010707",
       "standard_time_display": "2026-06-01 01:07 CST",
@@ -844,7 +1042,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-37",
+      "report_id": "iem-lsr-EAX-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010709",
       "standard_time_display": "2026-06-01 01:09 CST",
@@ -866,7 +1064,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-38",
+      "report_id": "iem-lsr-EAX-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010717",
       "standard_time_display": "2026-06-01 01:17 CST",
@@ -888,7 +1086,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-39",
+      "report_id": "iem-lsr-EAX-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010724",
       "standard_time_display": "2026-06-01 01:24 CST",
@@ -910,7 +1108,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-40",
+      "report_id": "iem-lsr-EAX-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010733",
       "standard_time_display": "2026-06-01 01:33 CST",
@@ -932,7 +1130,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-41",
+      "report_id": "iem-lsr-EAX-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010739",
       "standard_time_display": "2026-06-01 01:39 CST",
@@ -954,7 +1152,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-42",
+      "report_id": "iem-lsr-EAX-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010740",
       "standard_time_display": "2026-06-01 01:40 CST",
@@ -976,7 +1174,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-43",
+      "report_id": "iem-lsr-EAX-52",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010740",
+      "standard_time_display": "2026-06-01 01:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Odessa",
+      "county": "Lafayette",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Downed tree at a residence north of Odessa. Time estimated from radar.",
+      "lat": 39.03,
+      "lon": -93.95,
+      "ugc": "MOC107",
+      "ugc_name": "Lafayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010742",
       "standard_time_display": "2026-06-01 01:42 CST",
@@ -998,7 +1218,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-44",
+      "report_id": "iem-lsr-EAX-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010743",
       "standard_time_display": "2026-06-01 01:43 CST",
@@ -1020,7 +1240,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-45",
+      "report_id": "iem-lsr-EAX-55",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010748",
+      "standard_time_display": "2026-06-01 01:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Fayette",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Social media report. Hail up to quarter size covered the ground. Time based on video and confirmed from radar.",
+      "lat": 39.15,
+      "lon": -92.69,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010748",
       "standard_time_display": "2026-06-01 01:48 CST",
@@ -1042,7 +1284,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-46",
+      "report_id": "iem-lsr-EAX-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010748",
       "standard_time_display": "2026-06-01 01:48 CST",
@@ -1064,7 +1306,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-47",
+      "report_id": "iem-lsr-EAX-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010754",
       "standard_time_display": "2026-06-01 01:54 CST",
@@ -1086,7 +1328,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-48",
+      "report_id": "iem-lsr-EAX-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010759",
       "standard_time_display": "2026-06-01 01:59 CST",
@@ -1108,7 +1350,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-49",
+      "report_id": "iem-lsr-EAX-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010800",
       "standard_time_display": "2026-06-01 02:00 CST",
@@ -1130,7 +1372,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-50",
+      "report_id": "iem-lsr-EAX-61",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010800",
+      "standard_time_display": "2026-06-01 02:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Fayette",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Large tree downed at a residence near Route W. Time estimated from radar.",
+      "lat": 39.12,
+      "lon": -92.64,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010801",
+      "standard_time_display": "2026-06-01 02:01 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 SSE Fayette",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Utility Company",
+      "remark": "Numerous reports of downed trees and wires near and east of Route 240. Time based on dispatch reports and confirmed from radar.",
+      "lat": 39.06,
+      "lon": -92.62,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-63",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010810",
+      "standard_time_display": "2026-06-01 02:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Glasgow",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Utility Company",
+      "remark": "Multiple reports of downed power lines and power outages southeast of Glasgow. Time confirmed from dispatch reports and radar.",
+      "lat": 39.18,
+      "lon": -92.8,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010820",
       "standard_time_display": "2026-06-01 02:20 CST",
@@ -1152,7 +1460,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-51",
+      "report_id": "iem-lsr-EAX-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010822",
+      "standard_time_display": "2026-06-01 02:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Alma",
+      "county": "Lafayette",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Several downed trees on property adjacent to King Road. Time estimated from radar.",
+      "lat": 39.06,
+      "lon": -93.51,
+      "ugc": "MOC107",
+      "ugc_name": "Lafayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010830",
+      "standard_time_display": "2026-06-01 02:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Fayette",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Downed wires and several power outages along County Road 424. Time confirmed from radar.",
+      "lat": 39.09,
+      "lon": -92.7,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010830",
       "standard_time_display": "2026-06-01 02:30 CST",
@@ -1174,7 +1526,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-52",
+      "report_id": "iem-lsr-EAX-68",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010832",
+      "standard_time_display": "2026-06-01 02:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Dalton",
+      "county": "Chariton",
+      "state": "MO",
+      "source": "Utility Company",
+      "remark": "Downed tree and wires near Rockford Hills Avenue. Time confirmed from radar.",
+      "lat": 39.38,
+      "lon": -92.93,
+      "ugc": "MOC041",
+      "ugc_name": "Chariton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010833",
+      "standard_time_display": "2026-06-01 02:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 E New Franklin",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Utility Company",
+      "remark": "Downed tree limbs and wires east of New Franklin. Time estimated from radar.",
+      "lat": 39.03,
+      "lon": -92.64,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010900",
       "standard_time_display": "2026-06-01 03:00 CST",
@@ -1196,7 +1592,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-53",
+      "report_id": "iem-lsr-EAX-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010900",
       "standard_time_display": "2026-06-01 03:00 CST",
@@ -1218,7 +1614,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-54",
+      "report_id": "iem-lsr-EAX-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010941",
       "standard_time_display": "2026-06-01 03:41 CST",
@@ -1240,7 +1636,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-55",
+      "report_id": "iem-lsr-EAX-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010945",
       "standard_time_display": "2026-06-01 03:45 CST",
@@ -1262,7 +1658,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-56",
+      "report_id": "iem-lsr-EAX-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010953",
       "standard_time_display": "2026-06-01 03:53 CST",
@@ -1284,7 +1680,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-57",
+      "report_id": "iem-lsr-EAX-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011030",
+      "standard_time_display": "2026-06-01 04:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 ESE Fayette",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Other Federal",
+      "remark": "Moniteau Creek near Fayette (FYTM7) reached minor flood stage at 530 am.",
+      "lat": 39.12,
+      "lon": -92.57,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011044",
       "standard_time_display": "2026-06-01 04:44 CST",
@@ -1306,7 +1724,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-58",
+      "report_id": "iem-lsr-EAX-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011051",
       "standard_time_display": "2026-06-01 04:51 CST",
@@ -1328,7 +1746,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-59",
+      "report_id": "iem-lsr-EAX-78",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011105",
+      "standard_time_display": "2026-06-01 05:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "New Franklin",
+      "county": "Howard",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Route P inundated from flash flooding. Time based on social media report.",
+      "lat": 39.02,
+      "lon": -92.73,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011124",
       "standard_time_display": "2026-06-01 05:24 CST",
@@ -1350,7 +1790,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EAX-60",
+      "report_id": "iem-lsr-EAX-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606011300",
       "standard_time_display": "2026-06-01 07:00 CST",
@@ -1370,6 +1810,28 @@
       "ugc": "MOC089",
       "ugc_name": "Howard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011330",
+      "standard_time_display": "2026-06-01 07:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 N Wooldridge",
+      "county": "Howard",
+      "state": "MO",
+      "source": "911 Call Center",
+      "remark": "Route EE inundated from flood waters.",
+      "lat": 39.05,
+      "lon": -92.54,
+      "ugc": "MOC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1378,7 +1840,7 @@
       "wfo": "EAX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-01T15:32:52Z"
+      "generated_utc": "2026-06-02T12:51:23Z"
     },
     "primary_links": [
       {
