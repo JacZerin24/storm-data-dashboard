@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:40Z",
+    "generated_utc": "2026-06-03T13:24:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "ICT",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
       "hail": 3,
-      "thunderstorm_wind": 4,
+      "thunderstorm_wind": 7,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "HAIL": 3,
       "TORNADO": 1,
+      "TSTM WND DMG": 3,
       "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
@@ -164,6 +165,50 @@
     {
       "report_id": "iem-lsr-ICT-6",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020603",
+      "standard_time_display": "2026-06-02 00:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Norwich",
+      "county": "Kingman",
+      "state": "KS",
+      "source": "Fire Dept/Rescue",
+      "remark": "Numerous large tree branches and trees downed by strong winds in this general area. A barn roof was also blown off. Time estimated from radar.",
+      "lat": 37.43,
+      "lon": -97.9,
+      "ugc": "KSC095",
+      "ugc_name": "Kingman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020611",
+      "standard_time_display": "2026-06-02 00:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Norwich",
+      "county": "Kingman",
+      "state": "KS",
+      "source": "Fire Dept/Rescue",
+      "remark": "50 ft X 100 ft pole building was blown down. Time estimated from radar.",
+      "lat": 37.39,
+      "lon": -97.86,
+      "ugc": "KSC095",
+      "ugc_name": "Kingman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-8",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020612",
       "standard_time_display": "2026-06-02 00:12 CST",
       "standard_time_zone": "CST",
@@ -184,7 +229,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-7",
+      "report_id": "iem-lsr-ICT-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020635",
       "standard_time_display": "2026-06-02 00:35 CST",
@@ -206,7 +251,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-8",
+      "report_id": "iem-lsr-ICT-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020636",
       "standard_time_display": "2026-06-02 00:36 CST",
@@ -226,6 +271,28 @@
       "ugc": "KSC191",
       "ugc_name": "Sumner",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020639",
+      "standard_time_display": "2026-06-02 00:39 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Wichita Eisenhowe",
+      "county": "Sedgwick",
+      "state": "KS",
+      "source": "NWS Employee",
+      "remark": "Large tree branch across roadway.",
+      "lat": 37.71,
+      "lon": -97.46,
+      "ugc": "KSC173",
+      "ugc_name": "Sedgwick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -234,7 +301,7 @@
       "wfo": "ICT",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:51:40Z"
+      "generated_utc": "2026-06-03T13:24:59Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "GSP",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:34Z",
+    "generated_utc": "2026-06-03T13:24:54Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "GSP",
-    "total_candidate_reports": 22,
-    "mapped_candidate_reports": 22,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "hail": 5,
-      "thunderstorm_wind": 17
+      "thunderstorm_wind": 19
     },
     "candidate_report_type_counts": {
       "HAIL": 5,
-      "TSTM WND DMG": 17
+      "TSTM WND DMG": 18,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -292,6 +293,28 @@
     {
       "report_id": "iem-lsr-GSP-12",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606011955",
+      "standard_time_display": "2026-06-01 14:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GSP",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 75.0,
+      "magnitude_qualifier": null,
+      "city": "3 NE Hartwell",
+      "county": "Hart",
+      "state": "GA",
+      "source": "NWS Storm Survey",
+      "remark": "A severe thunderstorm produced a swath of 60-75 mph wind extending from just east of Hartwell to far northeast Elbert County. The damaging wind swath began near Hart State Park and Ridge Road where n",
+      "lat": 34.39,
+      "lon": -82.89,
+      "ugc": "GAC147",
+      "ugc_name": "Hart",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GSP-13",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012000",
       "standard_time_display": "2026-06-01 15:00 EST",
       "standard_time_zone": "EST",
@@ -312,7 +335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-13",
+      "report_id": "iem-lsr-GSP-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012004",
       "standard_time_display": "2026-06-01 15:04 EST",
@@ -334,7 +357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-14",
+      "report_id": "iem-lsr-GSP-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012004",
       "standard_time_display": "2026-06-01 15:04 EST",
@@ -356,7 +379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-15",
+      "report_id": "iem-lsr-GSP-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012007",
       "standard_time_display": "2026-06-01 15:07 EST",
@@ -378,7 +401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-16",
+      "report_id": "iem-lsr-GSP-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012015",
       "standard_time_display": "2026-06-01 15:15 EST",
@@ -400,7 +423,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-17",
+      "report_id": "iem-lsr-GSP-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012016",
       "standard_time_display": "2026-06-01 15:16 EST",
@@ -422,7 +445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-18",
+      "report_id": "iem-lsr-GSP-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012030",
       "standard_time_display": "2026-06-01 15:30 EST",
@@ -444,7 +467,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-19",
+      "report_id": "iem-lsr-GSP-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012038",
       "standard_time_display": "2026-06-01 15:38 EST",
@@ -466,7 +489,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-20",
+      "report_id": "iem-lsr-GSP-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012056",
       "standard_time_display": "2026-06-01 15:56 EST",
@@ -488,7 +511,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-21",
+      "report_id": "iem-lsr-GSP-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012156",
       "standard_time_display": "2026-06-01 16:56 EST",
@@ -510,7 +533,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-GSP-22",
+      "report_id": "iem-lsr-GSP-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012203",
       "standard_time_display": "2026-06-01 17:03 EST",
@@ -530,6 +553,28 @@
       "ugc": "SCC091",
       "ugc_name": "York",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GSP-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606012216",
+      "standard_time_display": "2026-06-01 17:16 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GSP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Chester",
+      "county": "Chester",
+      "state": "SC",
+      "source": "Emergency Mngr",
+      "remark": "Numerous downed trees across the city. Time estimated from radar.",
+      "lat": 34.71,
+      "lon": -81.21,
+      "ugc": "SCC023",
+      "ugc_name": "Chester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -538,7 +583,7 @@
       "wfo": "GSP",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:51:35Z"
+      "generated_utc": "2026-06-03T13:24:54Z"
     },
     "primary_links": [
       {

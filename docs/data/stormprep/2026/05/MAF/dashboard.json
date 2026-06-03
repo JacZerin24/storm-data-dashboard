@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:53:40Z",
+    "generated_utc": "2026-06-03T13:26:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 5,
     "wfo": "MAF",
-    "total_candidate_reports": 75,
-    "mapped_candidate_reports": 75,
+    "total_candidate_reports": 76,
+    "mapped_candidate_reports": 76,
     "candidate_report_counts": {
       "flooding": 24,
       "hail": 31,
       "other": 3,
-      "thunderstorm_wind": 17
+      "thunderstorm_wind": 18
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 21,
@@ -31,7 +31,7 @@
       "HAIL": 31,
       "LANDSPOUT": 3,
       "NON-TSTM WND GST": 3,
-      "TSTM WND DMG": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 13
     },
     "nws_api_alert_count": 0,
@@ -1703,6 +1703,28 @@
       "ugc": "TXC371",
       "ugc_name": "Pecos",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-76",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605312100",
+      "standard_time_display": "2026-05-31 14:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Alpine",
+      "county": "Brewster",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Uprooted tree reported at the Alpine County Club.",
+      "lat": 30.37,
+      "lon": -103.66,
+      "ugc": "TXC043",
+      "ugc_name": "Brewster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1711,7 +1733,7 @@
       "wfo": "MAF",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:53:41Z"
+      "generated_utc": "2026-06-03T13:26:48Z"
     },
     "primary_links": [
       {

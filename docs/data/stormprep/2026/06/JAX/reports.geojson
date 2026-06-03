@@ -7,12 +7,91 @@
     "wfo": "JAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:46Z",
+    "generated_utc": "2026-06-03T13:25:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-1",
+      "properties": {
+        "report_id": "iem-lsr-JAX-1",
+        "report_type": "RIP CURRENTS",
+        "event_category": "marine",
+        "valid_utc": "202606021830",
+        "standard_time_display": "2026-06-02 13:30 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Flagler",
+        "city": "1 N Flagler Beach",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Delayed report. Four individuals were swept into deeper waters due to rip currents this afternoon. Two of the four were transported to the hospital for evaluation. No injuries reported with any of th"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.13,
+          29.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-2",
+      "properties": {
+        "report_id": "iem-lsr-JAX-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606021922",
+        "standard_time_display": "2026-06-02 14:22 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Duval",
+        "city": "JIA",
+        "state": "FL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KJAX Jacksonville Intl Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.68,
+          30.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-3",
+      "properties": {
+        "report_id": "iem-lsr-JAX-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202606030659",
+        "standard_time_display": "2026-06-03 01:59 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Flagler",
+        "city": "3 SW Palm Coast",
+        "state": "FL",
+        "magnitude": 2.96,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Personal weather station in the Pine Lakes area west of Palm Coast measured 2.96 inches since midnight."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.26,
+          29.54
+        ]
+      }
+    }
+  ]
 }

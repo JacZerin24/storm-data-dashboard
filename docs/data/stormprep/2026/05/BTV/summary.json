@@ -3,21 +3,24 @@
   "year": 2026,
   "month": 5,
   "wfo": "BTV",
-  "total_candidate_reports": 85,
-  "mapped_candidate_reports": 85,
+  "total_candidate_reports": 86,
+  "mapped_candidate_reports": 86,
   "candidate_report_counts": {
     "heat_cold": 15,
-    "other": 70
+    "other": 70,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "EXTREME COLD": 15,
-    "RAIN": 70
+    "RAIN": 70,
+    "TORNADO": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BTV&start=2026-05-01T00%3A00%3A00Z&end=2026-06-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

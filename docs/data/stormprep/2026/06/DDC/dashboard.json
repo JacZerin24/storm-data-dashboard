@@ -6,7 +6,7 @@
     "wfo": "DDC",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:19Z",
+    "generated_utc": "2026-06-03T13:24:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 6,
     "wfo": "DDC",
-    "total_candidate_reports": 41,
-    "mapped_candidate_reports": 41,
+    "total_candidate_reports": 53,
+    "mapped_candidate_reports": 53,
     "candidate_report_counts": {
       "flooding": 1,
-      "hail": 8,
+      "hail": 9,
       "other": 2,
-      "thunderstorm_wind": 30
+      "thunderstorm_wind": 41
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "HAIL": 8,
+      "HAIL": 9,
       "RAIN": 2,
       "TSTM WND DMG": 2,
-      "TSTM WND GST": 28
+      "TSTM WND GST": 39
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -99,6 +99,50 @@
     {
       "report_id": "iem-lsr-DDC-3",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606012220",
+      "standard_time_display": "2026-06-01 15:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Coolidge",
+      "county": "Hamilton",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Station K5COO.",
+      "lat": 38.03,
+      "lon": -102.01,
+      "ugc": "KSC075",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606012235",
+      "standard_time_display": "2026-06-01 16:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Kendall",
+      "county": "Hamilton",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis weather station.",
+      "lat": 37.93,
+      "lon": -101.57,
+      "ugc": "KSC075",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-5",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012241",
       "standard_time_display": "2026-06-01 16:41 CST",
       "standard_time_zone": "CST",
@@ -119,7 +163,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-4",
+      "report_id": "iem-lsr-DDC-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012307",
       "standard_time_display": "2026-06-01 17:07 CST",
@@ -141,7 +185,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-5",
+      "report_id": "iem-lsr-DDC-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012315",
       "standard_time_display": "2026-06-01 17:15 CST",
@@ -163,7 +207,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-6",
+      "report_id": "iem-lsr-DDC-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012320",
       "standard_time_display": "2026-06-01 17:20 CST",
@@ -185,7 +229,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-7",
+      "report_id": "iem-lsr-DDC-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012339",
       "standard_time_display": "2026-06-01 17:39 CST",
@@ -207,7 +251,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-8",
+      "report_id": "iem-lsr-DDC-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606012354",
       "standard_time_display": "2026-06-01 17:54 CST",
@@ -229,7 +273,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-9",
+      "report_id": "iem-lsr-DDC-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020000",
       "standard_time_display": "2026-06-01 17:00 MST",
@@ -251,7 +295,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-10",
+      "report_id": "iem-lsr-DDC-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020003",
       "standard_time_display": "2026-06-01 18:03 CST",
@@ -273,7 +317,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-11",
+      "report_id": "iem-lsr-DDC-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020016",
       "standard_time_display": "2026-06-01 18:16 CST",
@@ -295,7 +339,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-12",
+      "report_id": "iem-lsr-DDC-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020021",
       "standard_time_display": "2026-06-01 18:21 CST",
@@ -317,7 +361,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-13",
+      "report_id": "iem-lsr-DDC-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020026",
+      "standard_time_display": "2026-06-01 18:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 E Dodge City",
+      "county": "Ford",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": "KDDC ASOS.",
+      "lat": 37.76,
+      "lon": -99.97,
+      "ugc": "KSC057",
+      "ugc_name": "Ford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020045",
       "standard_time_display": "2026-06-01 18:45 CST",
@@ -339,7 +405,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-14",
+      "report_id": "iem-lsr-DDC-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020045",
+      "standard_time_display": "2026-06-01 18:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "9 NW Bellefont",
+      "county": "Hodgeman",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Ambient Station - Rogers Weather Station.",
+      "lat": 37.98,
+      "lon": -99.75,
+      "ugc": "KSC083",
+      "ugc_name": "Hodgeman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020050",
       "standard_time_display": "2026-06-01 18:50 CST",
@@ -361,7 +449,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-15",
+      "report_id": "iem-lsr-DDC-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020055",
       "standard_time_display": "2026-06-01 18:55 CST",
@@ -383,7 +471,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-16",
+      "report_id": "iem-lsr-DDC-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020059",
+      "standard_time_display": "2026-06-01 18:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 78.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Alexander",
+      "county": "Rush",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Ambient Station - Auston Farms.",
+      "lat": 38.52,
+      "lon": -99.58,
+      "ugc": "KSC165",
+      "ugc_name": "Rush",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020105",
       "standard_time_display": "2026-06-01 19:05 CST",
@@ -405,7 +515,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-17",
+      "report_id": "iem-lsr-DDC-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020112",
       "standard_time_display": "2026-06-01 19:12 CST",
@@ -427,7 +537,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-18",
+      "report_id": "iem-lsr-DDC-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020114",
+      "standard_time_display": "2026-06-01 19:14 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "7 N Missler",
+      "county": "Meade",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis Weather Station.",
+      "lat": 37.42,
+      "lon": -100.44,
+      "ugc": "KSC119",
+      "ugc_name": "Meade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020123",
       "standard_time_display": "2026-06-01 19:23 CST",
@@ -449,7 +581,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-19",
+      "report_id": "iem-lsr-DDC-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020126",
+      "standard_time_display": "2026-06-01 19:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 E Dodge City",
+      "county": "Ford",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": "Corrects previous tstm wnd gst report from 3 E Dodge City. KDDC ASOS.",
+      "lat": 37.76,
+      "lon": -99.97,
+      "ugc": "KSC057",
+      "ugc_name": "Ford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020130",
       "standard_time_display": "2026-06-01 19:30 CST",
@@ -471,7 +625,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-20",
+      "report_id": "iem-lsr-DDC-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020146",
       "standard_time_display": "2026-06-01 19:46 CST",
@@ -493,7 +647,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-21",
+      "report_id": "iem-lsr-DDC-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020152",
       "standard_time_display": "2026-06-01 19:52 CST",
@@ -515,7 +669,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-22",
+      "report_id": "iem-lsr-DDC-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020200",
       "standard_time_display": "2026-06-01 20:00 CST",
@@ -537,7 +691,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-23",
+      "report_id": "iem-lsr-DDC-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020209",
       "standard_time_display": "2026-06-01 20:09 CST",
@@ -559,7 +713,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-24",
+      "report_id": "iem-lsr-DDC-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020215",
       "standard_time_display": "2026-06-01 20:15 CST",
@@ -581,7 +735,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-25",
+      "report_id": "iem-lsr-DDC-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020215",
       "standard_time_display": "2026-06-01 20:15 CST",
@@ -603,7 +757,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-26",
+      "report_id": "iem-lsr-DDC-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020216",
       "standard_time_display": "2026-06-01 20:16 CST",
@@ -625,7 +779,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-27",
+      "report_id": "iem-lsr-DDC-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020216",
       "standard_time_display": "2026-06-01 20:16 CST",
@@ -647,7 +801,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-28",
+      "report_id": "iem-lsr-DDC-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020229",
       "standard_time_display": "2026-06-01 20:29 CST",
@@ -669,7 +823,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-29",
+      "report_id": "iem-lsr-DDC-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020230",
       "standard_time_display": "2026-06-01 20:30 CST",
@@ -691,7 +845,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-30",
+      "report_id": "iem-lsr-DDC-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020245",
       "standard_time_display": "2026-06-01 20:45 CST",
@@ -713,7 +867,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-31",
+      "report_id": "iem-lsr-DDC-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020300",
       "standard_time_display": "2026-06-01 21:00 CST",
@@ -735,7 +889,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-32",
+      "report_id": "iem-lsr-DDC-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020315",
       "standard_time_display": "2026-06-01 21:15 CST",
@@ -757,7 +911,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-33",
+      "report_id": "iem-lsr-DDC-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020322",
       "standard_time_display": "2026-06-01 21:22 CST",
@@ -779,7 +933,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-34",
+      "report_id": "iem-lsr-DDC-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020331",
       "standard_time_display": "2026-06-01 21:31 CST",
@@ -801,7 +955,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-35",
+      "report_id": "iem-lsr-DDC-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020342",
       "standard_time_display": "2026-06-01 21:42 CST",
@@ -823,7 +977,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-36",
+      "report_id": "iem-lsr-DDC-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020351",
       "standard_time_display": "2026-06-01 21:51 CST",
@@ -845,7 +999,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-37",
+      "report_id": "iem-lsr-DDC-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020351",
       "standard_time_display": "2026-06-01 21:51 CST",
@@ -867,7 +1021,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-38",
+      "report_id": "iem-lsr-DDC-45",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020354",
+      "standard_time_display": "2026-06-01 21:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "3 E Zook",
+      "county": "Pawnee",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis Weather Station.",
+      "lat": 38.06,
+      "lon": -99.04,
+      "ugc": "KSC145",
+      "ugc_name": "Pawnee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020400",
       "standard_time_display": "2026-06-01 22:00 CST",
@@ -889,7 +1065,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-39",
+      "report_id": "iem-lsr-DDC-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020433",
       "standard_time_display": "2026-06-01 22:33 CST",
@@ -911,7 +1087,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-40",
+      "report_id": "iem-lsr-DDC-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020436",
       "standard_time_display": "2026-06-01 22:36 CST",
@@ -933,7 +1109,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DDC-41",
+      "report_id": "iem-lsr-DDC-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606020443",
       "standard_time_display": "2026-06-01 22:43 CST",
@@ -953,6 +1129,94 @@
       "ugc": "KSC151",
       "ugc_name": "Pratt",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020515",
+      "standard_time_display": "2026-06-01 23:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Preston",
+      "county": "Pratt",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis Weather Station.",
+      "lat": 37.78,
+      "lon": -98.54,
+      "ugc": "KSC151",
+      "ugc_name": "Pratt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-51",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020523",
+      "standard_time_display": "2026-06-01 23:23 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Stafford",
+      "county": "Stafford",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Report from mPING: Quarter (1.00 in.).",
+      "lat": 37.95,
+      "lon": -98.6,
+      "ugc": "KSC185",
+      "ugc_name": "Stafford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-52",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020759",
+      "standard_time_display": "2026-06-02 01:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "4 N Minneola",
+      "county": "Ford",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis Weather Station.",
+      "lat": 37.5,
+      "lon": -100.01,
+      "ugc": "KSC057",
+      "ugc_name": "Ford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DDC-53",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606020820",
+      "standard_time_display": "2026-06-02 02:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DDC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "7 N Missler",
+      "county": "Meade",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Davis Weather Station.",
+      "lat": 37.42,
+      "lon": -100.44,
+      "ugc": "KSC119",
+      "ugc_name": "Meade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DDC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -961,7 +1225,7 @@
       "wfo": "DDC",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:51:19Z"
+      "generated_utc": "2026-06-03T13:24:39Z"
     },
     "primary_links": [
       {

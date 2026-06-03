@@ -7,7 +7,7 @@
     "wfo": "MOB",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:52:02Z",
+    "generated_utc": "2026-06-03T13:25:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -220,6 +220,58 @@
         "coordinates": [
           -87.99,
           30.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-9",
+      "properties": {
+        "report_id": "iem-lsr-MOB-9",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606030100",
+        "standard_time_display": "2026-06-02 19:00 CST",
+        "wfo": "MOB",
+        "county_or_zone": "GMZ631",
+        "city": "East End of Dauphin",
+        "state": "AL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Site DILA1 measured a wind gust of 41 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.08,
+          30.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-10",
+      "properties": {
+        "report_id": "iem-lsr-MOB-10",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606030244",
+        "standard_time_display": "2026-06-02 20:44 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Escambia",
+        "city": "2 SSE Ensley",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Reports of standing water on I-10 westbound before exit 10. Photos from social media and confirmed by FDOT cameras and traffic remarks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.26,
+          30.5
         ]
       }
     }

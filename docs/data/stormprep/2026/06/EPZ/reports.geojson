@@ -7,12 +7,65 @@
     "wfo": "EPZ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:24Z",
+    "generated_utc": "2026-06-03T13:24:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EPZ-1",
+      "properties": {
+        "report_id": "iem-lsr-EPZ-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606021925",
+        "standard_time_display": "2026-06-02 12:25 MST",
+        "wfo": "EPZ",
+        "county_or_zone": "Otero",
+        "city": "11 E Cloudcroft",
+        "state": "NM",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.55,
+          32.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EPZ-2",
+      "properties": {
+        "report_id": "iem-lsr-EPZ-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606022130",
+        "standard_time_display": "2026-06-02 14:30 MST",
+        "wfo": "EPZ",
+        "county_or_zone": "Otero",
+        "city": "Mayhill",
+        "state": "NM",
+        "magnitude": 3.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.48,
+          32.89
+        ]
+      }
+    }
+  ]
 }

@@ -7,12 +7,143 @@
     "wfo": "MFL",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:59Z",
+    "generated_utc": "2026-06-03T13:25:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-1",
+      "properties": {
+        "report_id": "iem-lsr-MFL-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606021945",
+        "standard_time_display": "2026-06-02 14:45 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Palm Beach",
+        "city": "2 N Haverhill",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast Media relayed photo of a fallen large pine tree in Century Village West Palm Beach due to severe wind gusts with a severe thunderstorm that over the location at that time. Time approximatio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.13,
+          26.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-2",
+      "properties": {
+        "report_id": "iem-lsr-MFL-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606022211",
+        "standard_time_display": "2026-06-02 17:11 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "1 S Doral",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Off Duty NWS Employee shared photos of a large tree down on the northbound lanes of Northwest 102nd Avenue in Doral_ Florida as a result of severe wind gusts as a severe thunderstorm was moving throu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.36,
+          25.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-3",
+      "properties": {
+        "report_id": "iem-lsr-MFL-3",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606022335",
+        "standard_time_display": "2026-06-02 18:35 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "1 NNW Miami",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several reports from the public describing flooded roads and vehicles stranded in the area around Jackson memorial hospital_ NW 7th ave and 15 st."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.21,
+          25.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-4",
+      "properties": {
+        "report_id": "iem-lsr-MFL-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606030015",
+        "standard_time_display": "2026-06-02 19:15 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Palm Beach",
+        "city": "2 SSE Lion Country Safa",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast Media shared photos of a large tree down and trampoline stuck onto a roof after a severe thunderstorm moved through the Arden Community in Palm Beach County. Time approximation via Palm Bea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.35,
+          26.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-5",
+      "properties": {
+        "report_id": "iem-lsr-MFL-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606030055",
+        "standard_time_display": "2026-06-02 19:55 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ671",
+        "city": "28 ESE Key Biscayne",
+        "state": "FL",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Port Meteorological Officer on U.S. Training Ship State of Maine reported a peak wind gust of 62mph as a thunderstorm was moving over the Gulfstream. A peak sustained wind of 45 mph was also observed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.78,
+          25.48
+        ]
+      }
+    }
+  ]
 }

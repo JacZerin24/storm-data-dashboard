@@ -6,7 +6,7 @@
     "wfo": "FSD",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:28Z",
+    "generated_utc": "2026-06-03T13:24:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "FSD",
-    "total_candidate_reports": 19,
-    "mapped_candidate_reports": 19,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
-      "hail": 16,
+      "hail": 17,
       "other": 1,
+      "thunderstorm_wind": 1,
       "tornado": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 16,
+      "HAIL": 17,
       "RAIN": 1,
-      "TORNADO": 2
+      "TORNADO": 2,
+      "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -384,6 +386,28 @@
     {
       "report_id": "iem-lsr-FSD-16",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010228",
+      "standard_time_display": "2026-05-31 20:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "6 NNW Vermillion",
+      "county": "Clay",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Report and photo via social media.",
+      "lat": 42.87,
+      "lon": -96.95,
+      "ugc": "SDC027",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-17",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010305",
       "standard_time_display": "2026-05-31 21:05 CST",
       "standard_time_zone": "CST",
@@ -404,7 +428,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-17",
+      "report_id": "iem-lsr-FSD-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010430",
       "standard_time_display": "2026-05-31 22:30 CST",
@@ -426,7 +450,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-18",
+      "report_id": "iem-lsr-FSD-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010433",
       "standard_time_display": "2026-05-31 22:33 CST",
@@ -448,7 +472,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-19",
+      "report_id": "iem-lsr-FSD-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606010437",
       "standard_time_display": "2026-05-31 22:37 CST",
@@ -468,6 +492,28 @@
       "ugc": "IAC193",
       "ugc_name": "Woodbury",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606010525",
+      "standard_time_display": "2026-05-31 23:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Bronson",
+      "county": "Woodbury",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Tree branches 3 to 4 inches in diameter were broken down by strong winds. Heavy rain and small hail also occurred with this storm.",
+      "lat": 42.36,
+      "lon": -96.17,
+      "ugc": "IAC193",
+      "ugc_name": "Woodbury",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -476,7 +522,7 @@
       "wfo": "FSD",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:51:28Z"
+      "generated_utc": "2026-06-03T13:24:48Z"
     },
     "primary_links": [
       {

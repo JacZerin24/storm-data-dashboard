@@ -7,12 +7,169 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:57Z",
+    "generated_utc": "2026-06-03T13:25:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-1",
+      "properties": {
+        "report_id": "iem-lsr-MAF-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606030034",
+        "standard_time_display": "2026-06-02 17:34 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "2 WSW Study Butte",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Video from Terlingua Fire Department shows water overflowing the banks of one of the creeks near Terlingua."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55,
+          29.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-2",
+      "properties": {
+        "report_id": "iem-lsr-MAF-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606030041",
+        "standard_time_display": "2026-06-02 17:41 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Eddy",
+        "city": "6 W Whites City",
+        "state": "NM",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet at Carlsbad Caverns NP recorded a thunderstorm wind gust of 73 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.48,
+          32.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-3",
+      "properties": {
+        "report_id": "iem-lsr-MAF-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606030055",
+        "standard_time_display": "2026-06-02 17:55 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Eddy",
+        "city": "2 W Artesia",
+        "state": "NM",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Artesia AWOS recorded a thunderstorm wind gust of 62 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.47,
+          32.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-4",
+      "properties": {
+        "report_id": "iem-lsr-MAF-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606030055",
+        "standard_time_display": "2026-06-02 17:55 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Eddy",
+        "city": "3 N Lakewood",
+        "state": "NM",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Seven Rivers weather station recorded a thunderstorm wind gust of 66 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.36,
+          32.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-5",
+      "properties": {
+        "report_id": "iem-lsr-MAF-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606030435",
+        "standard_time_display": "2026-06-02 21:35 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Gaines",
+        "city": "2 NNE Seminole",
+        "state": "TX",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet at Seminole recorded a thunderstorm wind gust of 61 mph associated with outflow."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.64,
+          32.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-6",
+      "properties": {
+        "report_id": "iem-lsr-MAF-6",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606030557",
+        "standard_time_display": "2026-06-02 23:57 CST",
+        "wfo": "MAF",
+        "county_or_zone": "Scurry",
+        "city": "7 WSW Snyder",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Roadway is flooded on FM 1606 south of FM 1607."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.03,
+          32.67
+        ]
+      }
+    }
+  ]
 }

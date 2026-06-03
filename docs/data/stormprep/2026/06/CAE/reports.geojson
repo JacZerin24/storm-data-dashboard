@@ -7,7 +7,7 @@
     "wfo": "CAE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:51:13Z",
+    "generated_utc": "2026-06-03T13:24:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-CAE-1",
       "properties": {
         "report_id": "iem-lsr-CAE-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606020340",
+        "standard_time_display": "2026-06-01 22:40 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Aiken",
+        "city": "2 SSE Wagener",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Aiken County EM passed along a report from 911 dispatch of a tree blocking the roadway at the intersection of Arcola St and South Dixie Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.35,
+          33.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-2",
+      "properties": {
+        "report_id": "iem-lsr-CAE-2",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606020350",

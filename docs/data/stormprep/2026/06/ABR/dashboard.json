@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-02T12:50:56Z",
+    "generated_utc": "2026-06-03T13:24:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "ABR",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
       "flooding": 4,
-      "thunderstorm_wind": 1
+      "hail": 1,
+      "other": 1,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 4,
-      "TSTM WND GST": 1
+      "HAIL": 1,
+      "RAIN": 1,
+      "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -156,6 +160,72 @@
       "ugc": "SDC089",
       "ugc_name": "McPherson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606022217",
+      "standard_time_display": "2026-06-02 16:17 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Hoven",
+      "county": "Walworth",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Estimated nickel to quarter size hail.",
+      "lat": 45.27,
+      "lon": -99.78,
+      "ugc": "SDC129",
+      "ugc_name": "Walworth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606030033",
+      "standard_time_display": "2026-06-02 18:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "9 NNW Vivian",
+      "county": "Lyman",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 13 Vivian (SDDOT).",
+      "lat": 44.05,
+      "lon": -100.33,
+      "ugc": "SDC085",
+      "ugc_name": "Lyman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606031200",
+      "standard_time_display": "2026-06-03 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.15,
+      "magnitude_qualifier": null,
+      "city": "10 WNW Cedar Creek Rec",
+      "county": "Lyman",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Listener report sent in from media partner of rainfall totals from the storms last night.",
+      "lat": 44.18,
+      "lon": -100.12,
+      "ugc": "SDC085",
+      "ugc_name": "Lyman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -164,7 +234,7 @@
       "wfo": "ABR",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-02T12:50:57Z"
+      "generated_utc": "2026-06-03T13:24:20Z"
     },
     "primary_links": [
       {
