@@ -6,7 +6,7 @@
     "wfo": "EPZ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-03T13:24:44Z",
+    "generated_utc": "2026-06-04T12:16:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "EPZ",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "hail": 2
+      "hail": 3,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 2
+      "HAIL": 3,
+      "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -88,6 +90,72 @@
       "ugc": "NMC035",
       "ugc_name": "Otero",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606030115",
+      "standard_time_display": "2026-06-02 18:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "7 NNE El Paso",
+      "county": "El Paso",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Location and time approx based on radar. Social media post showed hail stones near 1 inch.",
+      "lat": 31.95,
+      "lon": -106.41,
+      "ugc": "TXC141",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606040135",
+      "standard_time_display": "2026-06-03 18:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Holloman Afb",
+      "county": "Otero",
+      "state": "NM",
+      "source": "Other Federal",
+      "remark": "Holloman Wx Site - Malone.",
+      "lat": 32.88,
+      "lon": -106.11,
+      "ugc": "NMC035",
+      "ugc_name": "Otero",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606040210",
+      "standard_time_display": "2026-06-03 19:10 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "5 SE White Sands",
+      "county": "Dona Ana",
+      "state": "NM",
+      "source": "Other Federal",
+      "remark": "WSMR Wx Ob site - Condron Field.",
+      "lat": 32.33,
+      "lon": -106.43,
+      "ugc": "NMC013",
+      "ugc_name": "Dona Ana",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +164,7 @@
       "wfo": "EPZ",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-03T13:24:44Z"
+      "generated_utc": "2026-06-04T12:16:45Z"
     },
     "primary_links": [
       {

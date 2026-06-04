@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-03T13:24:27Z",
+    "generated_utc": "2026-06-04T12:16:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "BIS",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "hail": 5,
-      "other": 10,
-      "thunderstorm_wind": 5
+      "other": 12,
+      "thunderstorm_wind": 7
     },
     "candidate_report_type_counts": {
       "HAIL": 5,
-      "RAIN": 10,
+      "RAIN": 12,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -272,6 +273,50 @@
     {
       "report_id": "iem-lsr-BIS-11",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606021904",
+      "standard_time_display": "2026-06-02 13:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Saint John",
+      "county": "Rolette",
+      "state": "ND",
+      "source": "Local Official",
+      "remark": "*** 2 INJ *** Reports of damage to multiple buildings approximately 4 miles northeast of Belcourt at a collection of properties. Damage is consistent with straight line wind speeds up to around 95 mp",
+      "lat": 48.89,
+      "lon": -99.71,
+      "ugc": "NDC079",
+      "ugc_name": "Rolette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606021908",
+      "standard_time_display": "2026-06-02 13:08 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Saint John",
+      "county": "Rolette",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Approximately 15 to 20 oak trees were damaged at this property. Photos provided show various degrees of damage_ ranging from branches broken to an uprooted tree. Some of the trees were likely already",
+      "lat": 48.91,
+      "lon": -99.68,
+      "ugc": "NDC079",
+      "ugc_name": "Rolette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-13",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606022250",
       "standard_time_display": "2026-06-02 16:50 CST",
       "standard_time_zone": "CST",
@@ -292,7 +337,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-12",
+      "report_id": "iem-lsr-BIS-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606022337",
       "standard_time_display": "2026-06-02 17:37 CST",
@@ -314,7 +359,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-13",
+      "report_id": "iem-lsr-BIS-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606022356",
       "standard_time_display": "2026-06-02 17:56 CST",
@@ -336,7 +381,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-14",
+      "report_id": "iem-lsr-BIS-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606030009",
       "standard_time_display": "2026-06-02 18:09 CST",
@@ -358,7 +403,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-15",
+      "report_id": "iem-lsr-BIS-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606030113",
       "standard_time_display": "2026-06-02 19:13 CST",
@@ -380,7 +425,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-16",
+      "report_id": "iem-lsr-BIS-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606030130",
       "standard_time_display": "2026-06-02 19:30 CST",
@@ -402,7 +447,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-17",
+      "report_id": "iem-lsr-BIS-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606030130",
       "standard_time_display": "2026-06-02 19:30 CST",
@@ -424,7 +469,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-18",
+      "report_id": "iem-lsr-BIS-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606031117",
       "standard_time_display": "2026-06-03 05:17 CST",
@@ -446,7 +491,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-19",
+      "report_id": "iem-lsr-BIS-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606031220",
       "standard_time_display": "2026-06-03 06:20 CST",
@@ -468,7 +513,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-20",
+      "report_id": "iem-lsr-BIS-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606031220",
       "standard_time_display": "2026-06-03 06:20 CST",
@@ -488,6 +533,50 @@
       "ugc": "NDC103",
       "ugc_name": "Wells",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606031445",
+      "standard_time_display": "2026-06-03 08:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.7,
+      "magnitude_qualifier": null,
+      "city": "Bremen",
+      "county": "Wells",
+      "state": "ND",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media relayed storm total.",
+      "lat": 47.75,
+      "lon": -99.39,
+      "ugc": "NDC103",
+      "ugc_name": "Wells",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606031535",
+      "standard_time_display": "2026-06-03 09:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "Manfred",
+      "county": "Wells",
+      "state": "ND",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media relayed storm total.",
+      "lat": 47.69,
+      "lon": -99.75,
+      "ugc": "NDC103",
+      "ugc_name": "Wells",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -496,7 +585,7 @@
       "wfo": "BIS",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-03T13:24:27Z"
+      "generated_utc": "2026-06-04T12:16:24Z"
     },
     "primary_links": [
       {

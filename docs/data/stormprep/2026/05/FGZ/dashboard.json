@@ -6,7 +6,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-05-01T00:00:00Z",
     "end_utc": "2026-06-01T00:00:00Z",
-    "generated_utc": "2026-06-03T13:26:20Z",
+    "generated_utc": "2026-06-04T12:18:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 5,
     "wfo": "FGZ",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
+      "other": 1,
       "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
+      "LANDSPOUT": 1,
       "NON-TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -70,6 +72,28 @@
     {
       "report_id": "iem-lsr-FGZ-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202605252100",
+      "standard_time_display": "2026-05-25 14:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "FGZ",
+      "report_type": "LANDSPOUT",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "12 WSW Hunt",
+      "county": "Apache",
+      "state": "AZ",
+      "source": "Utility Company",
+      "remark": "Meteorologists from APS showed a landspout tornado on the ground for approximately 4 minutes at this location from two separate camera systems.",
+      "lat": 34.53,
+      "lon": -109.81,
+      "ugc": "AZC001",
+      "ugc_name": "Apache",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-05-01T00%3A00%3A00Z&ets=2026-06-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FGZ-3",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202605292104",
       "standard_time_display": "2026-05-29 14:04 MST",
       "standard_time_zone": "MST",
@@ -96,7 +120,7 @@
       "wfo": "FGZ",
       "start_utc": "2026-05-01T00:00:00Z",
       "end_utc": "2026-06-01T00:00:00Z",
-      "generated_utc": "2026-06-03T13:26:20Z"
+      "generated_utc": "2026-06-04T12:18:43Z"
     },
     "primary_links": [
       {

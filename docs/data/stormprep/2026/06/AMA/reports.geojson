@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-03T13:24:24Z",
+    "generated_utc": "2026-06-04T12:16:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -220,6 +220,84 @@
         "coordinates": [
           -102.13,
           36.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-9",
+      "properties": {
+        "report_id": "iem-lsr-AMA-9",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606031946",
+        "standard_time_display": "2026-06-03 13:46 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Ochiltree",
+        "city": "1 S Perryton",
+        "state": "TX",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.8,
+          36.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-10",
+      "properties": {
+        "report_id": "iem-lsr-AMA-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606031955",
+        "standard_time_display": "2026-06-03 13:55 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Ochiltree",
+        "city": "3 ENE Perryton",
+        "state": "TX",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Corrects previous non-tstm wnd gst report from 3 ENE Perryton. AWOS station KPYX Perryton (AWOS)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.75,
+          36.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-11",
+      "properties": {
+        "report_id": "iem-lsr-AMA-11",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606031955",
+        "standard_time_display": "2026-06-03 13:55 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Ochiltree",
+        "city": "3 ENE Perryton",
+        "state": "TX",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KPYX Perryton (AWOS)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.75,
+          36.42
         ]
       }
     }
