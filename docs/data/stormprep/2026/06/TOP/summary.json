@@ -3,16 +3,21 @@
   "year": 2026,
   "month": 6,
   "wfo": "TOP",
-  "total_candidate_reports": 22,
-  "mapped_candidate_reports": 22,
+  "total_candidate_reports": 48,
+  "mapped_candidate_reports": 48,
   "candidate_report_counts": {
+    "flooding": 4,
     "hail": 7,
-    "other": 14,
-    "thunderstorm_wind": 1
+    "other": 32,
+    "thunderstorm_wind": 4,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
+    "FLASH FLOOD": 4,
+    "FUNNEL CLOUD": 1,
     "HAIL": 7,
-    "RAIN": 14,
+    "RAIN": 32,
+    "TSTM WND DMG": 3,
     "TSTM WND GST": 1
   },
   "nws_api_alert_count": 0,
@@ -20,6 +25,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TOP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

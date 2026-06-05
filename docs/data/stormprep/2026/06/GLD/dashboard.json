@@ -6,7 +6,7 @@
     "wfo": "GLD",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-04T12:16:53Z",
+    "generated_utc": "2026-06-05T12:19:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "GLD",
-    "total_candidate_reports": 23,
-    "mapped_candidate_reports": 23,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "hail": 13,
-      "other": 1,
+      "other": 2,
       "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "BLOWING DUST": 1,
+      "FOG": 1,
       "HAIL": 13,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 7
@@ -555,6 +556,28 @@
       "ugc": "KSC065",
       "ugc_name": "Graham",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606050826",
+      "standard_time_display": "2026-06-05 02:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Norton",
+      "county": "Norton",
+      "state": "KS",
+      "source": "AWOS",
+      "remark": "AWOS station KNRN Norton reports less than quarter mile visibility due to dense fog.",
+      "lat": 39.85,
+      "lon": -99.9,
+      "ugc": "KSC137",
+      "ugc_name": "Norton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -563,7 +586,7 @@
       "wfo": "GLD",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-04T12:16:54Z"
+      "generated_utc": "2026-06-05T12:19:47Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "ARX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-04T12:16:21Z",
+    "generated_utc": "2026-06-05T12:19:20Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "ARX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "other": 3
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ARX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ARX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606051127",
+      "standard_time_display": "2026-06-05 05:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.3,
+      "magnitude_qualifier": null,
+      "city": "1 S De Soto",
+      "county": "Crawford",
+      "state": "WI",
+      "source": "Public",
+      "remark": null,
+      "lat": 43.41,
+      "lon": -91.19,
+      "ugc": "WIC023",
+      "ugc_name": "Crawford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606051127",
+      "standard_time_display": "2026-06-05 05:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.44,
+      "magnitude_qualifier": null,
+      "city": "1 WSW West Salem",
+      "county": "La Crosse",
+      "state": "WI",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 43.9,
+      "lon": -91.1,
+      "ugc": "WIC063",
+      "ugc_name": "La Crosse",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606051217",
+      "standard_time_display": "2026-06-05 06:17 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.3,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Platteville",
+      "county": "Grant",
+      "state": "WI",
+      "source": "Public",
+      "remark": null,
+      "lat": 42.75,
+      "lon": -90.54,
+      "ugc": "WIC043",
+      "ugc_name": "Grant",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "ARX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-04T12:16:22Z"
+      "generated_utc": "2026-06-05T12:19:21Z"
     },
     "primary_links": [
       {
