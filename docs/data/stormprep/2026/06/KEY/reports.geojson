@@ -7,7 +7,7 @@
     "wfo": "KEY",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-05T12:20:01Z",
+    "generated_utc": "2026-06-06T11:00:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -115,6 +115,84 @@
         "type": "Point",
         "coordinates": [
           -81.85,
+          24.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-5",
+      "properties": {
+        "report_id": "iem-lsr-KEY-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051645",
+        "standard_time_display": "2026-06-05 11:45 EST",
+        "wfo": "KEY",
+        "county_or_zone": "Monroe",
+        "city": "Key West",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several reports from the public via social media of street flooding in Key West_ with some instances of water entering buildings. At least one street closure reported by law enforcement. Webcams and"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.81,
+          24.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-6",
+      "properties": {
+        "report_id": "iem-lsr-KEY-6",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202606051845",
+        "standard_time_display": "2026-06-05 13:45 EST",
+        "wfo": "KEY",
+        "county_or_zone": "GMZ035",
+        "city": "2 NW Key West",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Coast Guard",
+        "event_narrative": "USCG reports a vessel was struck by lightning and is taking on water. Time is based on the time the report was received."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.81,
+          24.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-7",
+      "properties": {
+        "report_id": "iem-lsr-KEY-7",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606051915",
+        "standard_time_display": "2026-06-05 14:15 EST",
+        "wfo": "KEY",
+        "county_or_zone": "GMZ044",
+        "city": "American Shoal Light",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A S wind gust of 34 knots_ or 39 mph_ was recorded by the SASL Weatherflow mesonet site at American Shoal Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.52,
           24.53
         ]
       }

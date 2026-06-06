@@ -7,7 +7,7 @@
     "wfo": "EAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-05T12:19:38Z",
+    "generated_utc": "2026-06-06T10:59:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2126,6 +2126,110 @@
       "id": "iem-lsr-EAX-82",
       "properties": {
         "report_id": "iem-lsr-EAX-82",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606040812",
+        "standard_time_display": "2026-06-04 02:12 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clinton",
+        "city": "1 SSW Lathrop",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous tstm wnd dmg report from 1 SSW Lathrop. Social media report of a large tree down at a residence near Lathrop. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.33,
+          39.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-83",
+      "properties": {
+        "report_id": "iem-lsr-EAX-83",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606042314",
+        "standard_time_display": "2026-06-04 17:14 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "3 NNW Savannah",
+        "state": "MO",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Private weather sensor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.84,
+          39.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-84",
+      "properties": {
+        "report_id": "iem-lsr-EAX-84",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606042318",
+        "standard_time_display": "2026-06-04 17:18 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "1 W Savannah",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "A few reports of downed limbs and wires west of Savannah. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.85,
+          39.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-85",
+      "properties": {
+        "report_id": "iem-lsr-EAX-85",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606042349",
+        "standard_time_display": "2026-06-04 17:49 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "2 W King City",
+        "state": "MO",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of quarter size hail covering the ground and roads west of King City. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57,
+          40.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-86",
+      "properties": {
+        "report_id": "iem-lsr-EAX-86",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202606042357",
@@ -2149,9 +2253,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-83",
+      "id": "iem-lsr-EAX-87",
       "properties": {
-        "report_id": "iem-lsr-EAX-83",
+        "report_id": "iem-lsr-EAX-87",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606042357",
+        "standard_time_display": "2026-06-04 17:57 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "1 WNW King City",
+        "state": "MO",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.53,
+          40.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-88",
+      "properties": {
+        "report_id": "iem-lsr-EAX-88",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606042357",
@@ -2175,9 +2305,87 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-84",
+      "id": "iem-lsr-EAX-89",
       "properties": {
-        "report_id": "iem-lsr-EAX-84",
+        "report_id": "iem-lsr-EAX-89",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606050002",
+        "standard_time_display": "2026-06-04 18:02 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "2 NNE King City",
+        "state": "MO",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report. Time confirmed from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.51,
+          40.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-90",
+      "properties": {
+        "report_id": "iem-lsr-EAX-90",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606050002",
+        "standard_time_display": "2026-06-04 18:02 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "1 NE King City",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Several trees downed near King City Reservoir. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.51,
+          40.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-91",
+      "properties": {
+        "report_id": "iem-lsr-EAX-91",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606050005",
+        "standard_time_display": "2026-06-04 18:05 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "1 E King City",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report. Trees down on Queen Street. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.51,
+          40.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-92",
+      "properties": {
+        "report_id": "iem-lsr-EAX-92",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606050026",
@@ -2201,9 +2409,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-85",
+      "id": "iem-lsr-EAX-93",
       "properties": {
-        "report_id": "iem-lsr-EAX-85",
+        "report_id": "iem-lsr-EAX-93",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606050038",
@@ -2227,9 +2435,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-86",
+      "id": "iem-lsr-EAX-94",
       "properties": {
-        "report_id": "iem-lsr-EAX-86",
+        "report_id": "iem-lsr-EAX-94",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606050040",
@@ -2253,9 +2461,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-87",
+      "id": "iem-lsr-EAX-95",
       "properties": {
-        "report_id": "iem-lsr-EAX-87",
+        "report_id": "iem-lsr-EAX-95",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606050204",
+        "standard_time_display": "2026-06-04 20:04 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "5 SSW Stanberry",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Downed wires and power outages near Route UU. Time confirmed from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57,
+          40.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-96",
+      "properties": {
+        "report_id": "iem-lsr-EAX-96",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606050225",
+        "standard_time_display": "2026-06-04 20:25 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "2 W Darlington",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Multiple reports of downed wires and power outages west of Darlington. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.44,
+          40.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-97",
+      "properties": {
+        "report_id": "iem-lsr-EAX-97",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202606050250",
@@ -2279,9 +2539,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EAX-88",
+      "id": "iem-lsr-EAX-98",
       "properties": {
-        "report_id": "iem-lsr-EAX-88",
+        "report_id": "iem-lsr-EAX-98",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606050552",
+        "standard_time_display": "2026-06-04 23:52 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Buchanan",
+        "city": "3 SE Saint Joseph",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "A few reports of downed limbs and wires south of St. Joseph. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.81,
+          39.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-99",
+      "properties": {
+        "report_id": "iem-lsr-EAX-99",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202606050642",
@@ -2300,6 +2586,630 @@
         "coordinates": [
           -94.33,
           40.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-100",
+      "properties": {
+        "report_id": "iem-lsr-EAX-100",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050845",
+        "standard_time_display": "2026-06-05 02:45 CST",
+        "wfo": "EAX",
+        "county_or_zone": "DeKalb",
+        "city": "4 SSE Fairport",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route W closed from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.31,
+          39.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-101",
+      "properties": {
+        "report_id": "iem-lsr-EAX-101",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050900",
+        "standard_time_display": "2026-06-05 03:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "1 W Bolckow",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route B closed from flooding of the 102 River. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.84,
+          40.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-102",
+      "properties": {
+        "report_id": "iem-lsr-EAX-102",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050900",
+        "standard_time_display": "2026-06-05 03:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Holt",
+        "city": "2 SSE Bigelow",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "Minnesota Valley Creek flooding caused the closure of the bridge to Loess Bluffs National Wildlife Refuge as well as adjacent roads on the north side of the refuge. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.27,
+          40.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-103",
+      "properties": {
+        "report_id": "iem-lsr-EAX-103",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050900",
+        "standard_time_display": "2026-06-05 03:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Buchanan",
+        "city": "4 W Clarksdale",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route P closed from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.62,
+          39.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-104",
+      "properties": {
+        "report_id": "iem-lsr-EAX-104",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050900",
+        "standard_time_display": "2026-06-05 03:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Holt",
+        "city": "Oregon",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Flooding washed out a road and downed a tree near Oregon. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.14,
+          39.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-105",
+      "properties": {
+        "report_id": "iem-lsr-EAX-105",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050930",
+        "standard_time_display": "2026-06-05 03:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Holt",
+        "city": "2 SSW Big Lake",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of water inundating Diamond Lane and rural roads near Big Lake. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          40.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-106",
+      "properties": {
+        "report_id": "iem-lsr-EAX-106",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050930",
+        "standard_time_display": "2026-06-05 03:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "Amazonia",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Route T near Route K closed from flooding. Time estimated from social media report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89,
+          39.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-107",
+      "properties": {
+        "report_id": "iem-lsr-EAX-107",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050930",
+        "standard_time_display": "2026-06-05 03:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "Rosendale",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route 48 closed from flooding in the Rosendale area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.82,
+          40.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-108",
+      "properties": {
+        "report_id": "iem-lsr-EAX-108",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606050930",
+        "standard_time_display": "2026-06-05 03:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "Rosendale",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route C closed from flooding in the Rosendale area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.82,
+          40.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-109",
+      "properties": {
+        "report_id": "iem-lsr-EAX-109",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051000",
+        "standard_time_display": "2026-06-05 04:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Harrison",
+        "city": "3 NNE Gilman City",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route MM closed from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.85,
+          40.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-110",
+      "properties": {
+        "report_id": "iem-lsr-EAX-110",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051000",
+        "standard_time_display": "2026-06-05 04:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Gentry",
+        "city": "Albany",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of several roads in Albany inundated from flash flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.34,
+          40.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-111",
+      "properties": {
+        "report_id": "iem-lsr-EAX-111",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051030",
+        "standard_time_display": "2026-06-05 04:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "3 SSE Mcfall",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Route AA closed from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2,
+          40.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-112",
+      "properties": {
+        "report_id": "iem-lsr-EAX-112",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051100",
+        "standard_time_display": "2026-06-05 05:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "3 ESE Coffey",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route B closed from flash flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.95,
+          40.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-113",
+      "properties": {
+        "report_id": "iem-lsr-EAX-113",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202606051225",
+        "standard_time_display": "2026-06-05 06:25 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "Rosendale",
+        "state": "MO",
+        "magnitude": 4.8,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported 4.8 inches of rainfall alongside river observation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.82,
+          40.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-114",
+      "properties": {
+        "report_id": "iem-lsr-EAX-114",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051240",
+        "standard_time_display": "2026-06-05 06:40 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Randolph",
+        "city": "1 N Moberly",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: River/Creek overflowing; Cropland/Yard/Basement Flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.43,
+          39.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-115",
+      "properties": {
+        "report_id": "iem-lsr-EAX-115",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051400",
+        "standard_time_display": "2026-06-05 08:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Grundy",
+        "city": "4 NW Laredo",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "No Creek is flooded with several rural roads inundated. Multiple social media reports of flooding in this area as well. Time based on social media reports."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.51,
+          40.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-116",
+      "properties": {
+        "report_id": "iem-lsr-EAX-116",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051430",
+        "standard_time_display": "2026-06-05 08:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Atchison",
+        "city": "1 N Arrington",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Deputy relayed report that road is under water."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53,
+          39.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-117",
+      "properties": {
+        "report_id": "iem-lsr-EAX-117",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051430",
+        "standard_time_display": "2026-06-05 08:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Atchison",
+        "city": "1 WSW Muscotah",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Deputy relayed report that road is under water."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53,
+          39.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-118",
+      "properties": {
+        "report_id": "iem-lsr-EAX-118",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051430",
+        "standard_time_display": "2026-06-05 08:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Atchison",
+        "city": "2 S Muscotah",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Deputy relayed information about road being under water."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53,
+          39.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-119",
+      "properties": {
+        "report_id": "iem-lsr-EAX-119",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606051500",
+        "standard_time_display": "2026-06-05 09:00 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Atchison",
+        "city": "Muscotah",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Route 9 closed at the Delaware River bridge from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53,
+          39.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-120",
+      "properties": {
+        "report_id": "iem-lsr-EAX-120",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606052012",
+        "standard_time_display": "2026-06-05 14:12 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clinton",
+        "city": "1 SSW Lathrop",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of a large tree down at a residence near Lathrop. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.33,
+          39.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-121",
+      "properties": {
+        "report_id": "iem-lsr-EAX-121",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606052015",
+        "standard_time_display": "2026-06-05 14:15 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Buchanan",
+        "city": "2 ESE Agency",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route H closed from flooding of the Platte River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7,
+          39.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-122",
+      "properties": {
+        "report_id": "iem-lsr-EAX-122",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606052237",
+        "standard_time_display": "2026-06-05 16:37 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Buchanan",
+        "city": "2 WNW Easton",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route C closed from flooding of the Platte River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.69,
+          39.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-123",
+      "properties": {
+        "report_id": "iem-lsr-EAX-123",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606052335",
+        "standard_time_display": "2026-06-05 17:35 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "3 W Pattonsburg",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Route Z closed from flooding of the Grand River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2,
+          40.05
         ]
       }
     }

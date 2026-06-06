@@ -6,7 +6,7 @@
     "wfo": "SJT",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-05T12:20:39Z",
+    "generated_utc": "2026-06-06T11:00:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "SJT",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
+      "flooding": 2,
       "hail": 3
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 2,
       "HAIL": 3
     },
     "nws_api_alert_count": 0,
@@ -110,6 +112,50 @@
       "ugc": "TXC319",
       "ugc_name": "Mason",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SJT-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606060600",
+      "standard_time_display": "2026-06-06 00:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SJT",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Hamby",
+      "county": "Shackelford",
+      "state": "TX",
+      "source": "Public",
+      "remark": "SO reported water over the road at Highway 351 and FM 604.",
+      "lat": 32.55,
+      "lon": -99.57,
+      "ugc": "TXC417",
+      "ugc_name": "Shackelford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SJT-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606060619",
+      "standard_time_display": "2026-06-06 00:19 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SJT",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SW Buffalo Gap",
+      "county": "Taylor",
+      "state": "TX",
+      "source": "Park/Forest Srvc",
+      "remark": "Superintendent at Abilene State Park reports main road to park under water.",
+      "lat": 32.25,
+      "lon": -99.87,
+      "ugc": "TXC441",
+      "ugc_name": "Taylor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SJT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -118,7 +164,7 @@
       "wfo": "SJT",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-05T12:20:39Z"
+      "generated_utc": "2026-06-06T11:01:00Z"
     },
     "primary_links": [
       {

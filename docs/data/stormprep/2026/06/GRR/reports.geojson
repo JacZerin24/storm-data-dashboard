@@ -7,12 +7,169 @@
     "wfo": "GRR",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-05T12:19:48Z",
+    "generated_utc": "2026-06-06T10:59:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-1",
+      "properties": {
+        "report_id": "iem-lsr-GRR-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606060434",
+        "standard_time_display": "2026-06-05 22:34 CST",
+        "wfo": "GRR",
+        "county_or_zone": "LMZ847",
+        "city": "4 WNW Roosevelt Park",
+        "state": "MI",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XMSK Muskegon North Breakwater Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.35,
+          43.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-2",
+      "properties": {
+        "report_id": "iem-lsr-GRR-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606060444",
+        "standard_time_display": "2026-06-05 22:44 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Muskegon",
+        "city": "1 ENE Norton Shores",
+        "state": "MI",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KMKG Muskegon County Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.23,
+          43.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-3",
+      "properties": {
+        "report_id": "iem-lsr-GRR-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606060500",
+        "standard_time_display": "2026-06-05 23:00 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Mecosta",
+        "city": "Morley",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Two large trees down on property. Health of trees is unknown."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.44,
+          43.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-4",
+      "properties": {
+        "report_id": "iem-lsr-GRR-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606060505",
+        "standard_time_display": "2026-06-05 23:05 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Mecosta",
+        "city": "1 NW Big Rapids",
+        "state": "MI",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KRQB Big Rapids Roben-hood Arpt."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5,
+          43.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-5",
+      "properties": {
+        "report_id": "iem-lsr-GRR-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606060552",
+        "standard_time_display": "2026-06-05 23:52 CST",
+        "wfo": "GRR",
+        "county_or_zone": "LMZ845",
+        "city": "2 NNW Saugatuck",
+        "state": "MI",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XSTK Saugatuck Pier."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.22,
+          42.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-6",
+      "properties": {
+        "report_id": "iem-lsr-GRR-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606060600",
+        "standard_time_display": "2026-06-06 00:00 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Montcalm",
+        "city": "1 W Entrican",
+        "state": "MI",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MIENT 1.1 W Entrican (MAWN)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.18,
+          43.35
+        ]
+      }
+    }
+  ]
 }
