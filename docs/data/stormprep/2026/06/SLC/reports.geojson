@@ -7,12 +7,169 @@
     "wfo": "SLC",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T11:01:01Z",
+    "generated_utc": "2026-06-07T11:17:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-1",
+      "properties": {
+        "report_id": "iem-lsr-SLC-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062245",
+        "standard_time_display": "2026-06-06 15:45 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "16 W Knolls",
+        "state": "UT",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "UPR site along I-80 gusted to 66mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.58,
+          40.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-2",
+      "properties": {
+        "report_id": "iem-lsr-SLC-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062314",
+        "standard_time_display": "2026-06-06 16:14 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "7 NNE Clive",
+        "state": "UT",
+        "magnitude": 71.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "I-80 @ Grassey site gusted to 71mph. Time estimated with radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.01,
+          40.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-3",
+      "properties": {
+        "report_id": "iem-lsr-SLC-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062338",
+        "standard_time_display": "2026-06-06 16:38 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "10 W Knolls",
+        "state": "UT",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "70mph wind gust observed from Dugway roadside sensor along I-80. Approximate time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.47,
+          40.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-4",
+      "properties": {
+        "report_id": "iem-lsr-SLC-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062358",
+        "standard_time_display": "2026-06-06 16:58 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "6 SSE Clive",
+        "state": "UT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Aragonite RAWS measured a 58mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.02,
+          40.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-5",
+      "properties": {
+        "report_id": "iem-lsr-SLC-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070022",
+        "standard_time_display": "2026-06-06 17:22 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "7 NNE Clive",
+        "state": "UT",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "UDOT Grassey @ I-80 gusted to 64mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.01,
+          40.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-6",
+      "properties": {
+        "report_id": "iem-lsr-SLC-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070025",
+        "standard_time_display": "2026-06-06 17:25 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "1 W Delle",
+        "state": "UT",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "UDOT West Delle @ I-80 reported a 57mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8,
+          40.77
+        ]
+      }
+    }
+  ]
 }

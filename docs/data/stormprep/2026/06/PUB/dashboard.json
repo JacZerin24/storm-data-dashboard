@@ -6,7 +6,7 @@
     "wfo": "PUB",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T11:00:50Z",
+    "generated_utc": "2026-06-07T11:17:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "PUB",
-    "total_candidate_reports": 12,
-    "mapped_candidate_reports": 12,
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
     "candidate_report_counts": {
-      "hail": 12
+      "hail": 12,
+      "other": 1
     },
     "candidate_report_type_counts": {
-      "HAIL": 12
+      "HAIL": 12,
+      "RAIN": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -308,6 +310,28 @@
       "ugc": "COC027",
       "ugc_name": "Custer",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606070344",
+      "standard_time_display": "2026-06-06 20:44 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.95,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Colorado Springs",
+      "county": "El Paso",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 38.8,
+      "lon": -104.84,
+      "ugc": "COC041",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -316,7 +340,7 @@
       "wfo": "PUB",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-06T11:00:51Z"
+      "generated_utc": "2026-06-07T11:17:32Z"
     },
     "primary_links": [
       {

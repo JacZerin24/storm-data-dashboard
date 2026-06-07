@@ -7,12 +7,91 @@
     "wfo": "GYX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:59Z",
+    "generated_utc": "2026-06-07T11:16:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GYX-1",
+      "properties": {
+        "report_id": "iem-lsr-GYX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070025",
+        "standard_time_display": "2026-06-06 19:25 EST",
+        "wfo": "GYX",
+        "county_or_zone": "Grafton",
+        "city": "2 NNE Lyme",
+        "state": "NH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Wires down on NH-10_ road closed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.14,
+          43.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GYX-2",
+      "properties": {
+        "report_id": "iem-lsr-GYX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070057",
+        "standard_time_display": "2026-06-06 19:57 EST",
+        "wfo": "GYX",
+        "county_or_zone": "Grafton",
+        "city": "1 NNE Plymouth",
+        "state": "NH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Two trees down on Interstate 93 north_ blocking several lanes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.68,
+          43.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GYX-3",
+      "properties": {
+        "report_id": "iem-lsr-GYX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070100",
+        "standard_time_display": "2026-06-06 20:00 EST",
+        "wfo": "GYX",
+        "county_or_zone": "Grafton",
+        "city": "1 E Ellsworth",
+        "state": "NH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Large tree down. Spotter ID: GR88."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.71,
+          43.87
+        ]
+      }
+    }
+  ]
 }

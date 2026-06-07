@@ -7,7 +7,7 @@
     "wfo": "BIS",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:24Z",
+    "generated_utc": "2026-06-07T11:16:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -662,6 +662,84 @@
         "coordinates": [
           -99.75,
           47.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-26",
+      "properties": {
+        "report_id": "iem-lsr-BIS-26",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606070120",
+        "standard_time_display": "2026-06-06 18:20 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Divide",
+        "city": "7 WSW Ambrose",
+        "state": "ND",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Relayed to NWS by broadcast media partner."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.62,
+          48.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-27",
+      "properties": {
+        "report_id": "iem-lsr-BIS-27",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606070135",
+        "standard_time_display": "2026-06-06 18:35 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Divide",
+        "city": "Ambrose",
+        "state": "ND",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.48,
+          48.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-28",
+      "properties": {
+        "report_id": "iem-lsr-BIS-28",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606070523",
+        "standard_time_display": "2026-06-06 22:23 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Billings",
+        "city": "2 W Fairfield",
+        "state": "ND",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "An anvil-level heat burst situation occurred at the 2W Fairfield NDAWN station. This led to strong winds occurring_ along with the temperature jumping to 92 degrees."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.27,
+          47.19
         ]
       }
     }

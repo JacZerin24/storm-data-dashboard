@@ -7,12 +7,273 @@
     "wfo": "BGM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:24Z",
+    "generated_utc": "2026-06-07T11:16:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-1",
+      "properties": {
+        "report_id": "iem-lsr-BGM-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606062042",
+        "standard_time_display": "2026-06-06 15:42 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Sullivan",
+        "city": "Jeffersonville",
+        "state": "NY",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.93,
+          41.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-2",
+      "properties": {
+        "report_id": "iem-lsr-BGM-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062111",
+        "standard_time_display": "2026-06-06 16:11 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Sullivan",
+        "city": "4 E Hasbrouck",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Trees and wires down_ possibly on fire. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.54,
+          41.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-3",
+      "properties": {
+        "report_id": "iem-lsr-BGM-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062124",
+        "standard_time_display": "2026-06-06 16:24 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "Harveys Lake",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.03,
+          41.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-4",
+      "properties": {
+        "report_id": "iem-lsr-BGM-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062125",
+        "standard_time_display": "2026-06-06 16:25 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "Hazleton",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on Henry road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97,
+          40.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-5",
+      "properties": {
+        "report_id": "iem-lsr-BGM-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062129",
+        "standard_time_display": "2026-06-06 16:29 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "Dallas",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97,
+          41.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-6",
+      "properties": {
+        "report_id": "iem-lsr-BGM-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062217",
+        "standard_time_display": "2026-06-06 17:17 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Wayne",
+        "city": "2 ESE Lakeville",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree Down On Wires on Hickory Drive. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.24,
+          41.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-7",
+      "properties": {
+        "report_id": "iem-lsr-BGM-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062235",
+        "standard_time_display": "2026-06-06 17:35 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Sullivan",
+        "city": "1 W Barryville",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "*** 2 INJ *** A tree reportedly fell onto two people standing at the edge of their tents at the Kittatinny Campground Riverside Area causing injuries."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.95,
+          41.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-8",
+      "properties": {
+        "report_id": "iem-lsr-BGM-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062235",
+        "standard_time_display": "2026-06-06 17:35 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Pike",
+        "city": "2 N Greeley",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down at Camp Lee Mar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0,
+          41.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-9",
+      "properties": {
+        "report_id": "iem-lsr-BGM-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062237",
+        "standard_time_display": "2026-06-06 17:37 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Pike",
+        "city": "2 W Dingmans Ferry",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Trees and wires down in Porter Township."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.92,
+          41.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-10",
+      "properties": {
+        "report_id": "iem-lsr-BGM-10",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062237",
+        "standard_time_display": "2026-06-06 17:37 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Pike",
+        "city": "Bushkill",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Wires down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0,
+          41.1
+        ]
+      }
+    }
+  ]
 }

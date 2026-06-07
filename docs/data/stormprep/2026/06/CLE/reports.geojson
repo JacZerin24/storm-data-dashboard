@@ -7,12 +7,403 @@
     "wfo": "CLE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:36Z",
+    "generated_utc": "2026-06-07T11:16:20Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-1",
+      "properties": {
+        "report_id": "iem-lsr-CLE-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061555",
+        "standard_time_display": "2026-06-06 10:55 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Morrow",
+        "city": "1 NNW Sparta",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of large tree down on power lines along State Route 314 north of Sparta."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.71,
+          40.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-2",
+      "properties": {
+        "report_id": "iem-lsr-CLE-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061557",
+        "standard_time_display": "2026-06-06 10:57 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Morrow",
+        "city": "2 NE Sparta",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report of multiple trees down on State Route 19 northeast of Sparta."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.67,
+          40.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-3",
+      "properties": {
+        "report_id": "iem-lsr-CLE-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061608",
+        "standard_time_display": "2026-06-06 11:08 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Knox",
+        "city": "3 NW Mount Vernon",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Large Tree and power lines down on State Route 13 between Mount Vernon and Green Valley."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5,
+          40.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-4",
+      "properties": {
+        "report_id": "iem-lsr-CLE-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061617",
+        "standard_time_display": "2026-06-06 11:17 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Knox",
+        "city": "2 ENE Mount Vernon",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Extensive roof damage to a building along with surrounding tree damage with limbs down. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.44,
+          40.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-5",
+      "properties": {
+        "report_id": "iem-lsr-CLE-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061642",
+        "standard_time_display": "2026-06-06 11:42 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "3 SSW Meadville",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Reports of tree down along Kennedy Hill Road near Krider Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.17,
+          41.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-6",
+      "properties": {
+        "report_id": "iem-lsr-CLE-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061642",
+        "standard_time_display": "2026-06-06 11:42 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "5 SE Meadville",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Reports of tree down on Pettis Roads between West Oil Creek Road and Smith Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.08,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-7",
+      "properties": {
+        "report_id": "iem-lsr-CLE-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061710",
+        "standard_time_display": "2026-06-06 12:10 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "5 S Meadville",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of tree down on wire causing fire on Mercer Pike near Willow Way south of Meadville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.16,
+          41.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-8",
+      "properties": {
+        "report_id": "iem-lsr-CLE-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061710",
+        "standard_time_display": "2026-06-06 12:10 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "6 SSW Meadville",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of trees down on wires on Shaffer Road near Barco Road southwest of Meadville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.17,
+          41.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-9",
+      "properties": {
+        "report_id": "iem-lsr-CLE-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061725",
+        "standard_time_display": "2026-06-06 12:25 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "6 SSE Conneaut Lake",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of tree down on Adamsville Road near Pickasaw Lane southeast of Conneaut Lake."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.28,
+          41.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-10",
+      "properties": {
+        "report_id": "iem-lsr-CLE-10",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606061737",
+        "standard_time_display": "2026-06-06 12:37 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Crawford",
+        "city": "6 W Cochranton",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on Interstate 79 northbound near mile marker 139."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.17,
+          41.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-11",
+      "properties": {
+        "report_id": "iem-lsr-CLE-11",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062144",
+        "standard_time_display": "2026-06-06 16:44 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Ottawa",
+        "city": "3 SSW Marblehead",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Utility pole down on Johnsons Island. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.74,
+          41.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-12",
+      "properties": {
+        "report_id": "iem-lsr-CLE-12",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062152",
+        "standard_time_display": "2026-06-06 16:52 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Erie",
+        "city": "Sandusky",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree down on house. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.71,
+          41.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-13",
+      "properties": {
+        "report_id": "iem-lsr-CLE-13",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606062154",
+        "standard_time_display": "2026-06-06 16:54 EST",
+        "wfo": "CLE",
+        "county_or_zone": "LEZ144",
+        "city": "3 N Sandusky",
+        "state": "OH",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XSDB 2 NNE Sandusky marine wind gust of 56 knots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7,
+          41.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-14",
+      "properties": {
+        "report_id": "iem-lsr-CLE-14",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606062159",
+        "standard_time_display": "2026-06-06 16:59 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Erie",
+        "city": "2 NE Fairview Lanes",
+        "state": "OH",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station AU939 Sandusky wind gust to 50 knots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.64,
+          41.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-15",
+      "properties": {
+        "report_id": "iem-lsr-CLE-15",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606062222",
+        "standard_time_display": "2026-06-06 17:22 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Ottawa",
+        "city": "3 SW Marblehead",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Tree down across Dempsey Road. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.76,
+          41.51
+        ]
+      }
+    }
+  ]
 }

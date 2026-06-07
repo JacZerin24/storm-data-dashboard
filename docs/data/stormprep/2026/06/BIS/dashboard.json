@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:24Z",
+    "generated_utc": "2026-06-07T11:16:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "BIS",
-    "total_candidate_reports": 25,
-    "mapped_candidate_reports": 25,
+    "total_candidate_reports": 28,
+    "mapped_candidate_reports": 28,
     "candidate_report_counts": {
-      "hail": 5,
+      "hail": 7,
       "other": 12,
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
-      "HAIL": 5,
+      "HAIL": 7,
+      "NON-TSTM WND GST": 1,
       "RAIN": 12,
       "TSTM WND DMG": 3,
       "TSTM WND GST": 5
@@ -599,6 +600,72 @@
       "ugc": "NDC103",
       "ugc_name": "Wells",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606070120",
+      "standard_time_display": "2026-06-06 18:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BIS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "7 WSW Ambrose",
+      "county": "Divide",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Relayed to NWS by broadcast media partner.",
+      "lat": 48.91,
+      "lon": -103.62,
+      "ugc": "NDC023",
+      "ugc_name": "Divide",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606070135",
+      "standard_time_display": "2026-06-06 18:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BIS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "Ambrose",
+      "county": "Divide",
+      "state": "ND",
+      "source": "Public",
+      "remark": null,
+      "lat": 48.96,
+      "lon": -103.48,
+      "ugc": "NDC023",
+      "ugc_name": "Divide",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606070523",
+      "standard_time_display": "2026-06-06 22:23 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BIS",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "2 W Fairfield",
+      "county": "Billings",
+      "state": "ND",
+      "source": "Mesonet",
+      "remark": "An anvil-level heat burst situation occurred at the 2W Fairfield NDAWN station. This led to strong winds occurring_ along with the temperature jumping to 92 degrees.",
+      "lat": 47.19,
+      "lon": -103.27,
+      "ugc": "NDC007",
+      "ugc_name": "Billings",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -607,7 +674,7 @@
       "wfo": "BIS",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-06T10:59:25Z"
+      "generated_utc": "2026-06-07T11:16:10Z"
     },
     "primary_links": [
       {

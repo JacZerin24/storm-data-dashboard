@@ -6,7 +6,7 @@
     "wfo": "DMX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-06T10:59:41Z",
+    "generated_utc": "2026-06-07T11:16:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,10 @@
     "year": 2026,
     "month": 6,
     "wfo": "DMX",
-    "total_candidate_reports": 61,
-    "mapped_candidate_reports": 61,
+    "total_candidate_reports": 62,
+    "mapped_candidate_reports": 62,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 2,
       "hail": 11,
       "other": 28,
       "thunderstorm_wind": 17,
@@ -28,6 +28,7 @@
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
+      "FLOOD": 1,
       "FUNNEL CLOUD": 4,
       "HAIL": 11,
       "RAIN": 28,
@@ -1397,6 +1398,28 @@
       "ugc": "IAC001",
       "ugc_name": "Adair",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606061722",
+      "standard_time_display": "2026-06-06 11:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WSW Attica",
+      "county": "Marion",
+      "state": "IA",
+      "source": "Emergency Mngr",
+      "remark": "EM reported road closures due to flooding along Cedar and English Creeks south of Attica and east of Melcher Dallas.",
+      "lat": 41.21,
+      "lon": -93.09,
+      "ugc": "IAC125",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1405,7 +1428,7 @@
       "wfo": "DMX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-06T10:59:42Z"
+      "generated_utc": "2026-06-07T11:16:26Z"
     },
     "primary_links": [
       {
