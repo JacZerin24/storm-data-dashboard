@@ -3,19 +3,29 @@
   "year": 2026,
   "month": 6,
   "wfo": "SGF",
-  "total_candidate_reports": 1,
-  "mapped_candidate_reports": 1,
+  "total_candidate_reports": 14,
+  "mapped_candidate_reports": 14,
   "candidate_report_counts": {
-    "hail": 1
+    "flooding": 9,
+    "hail": 1,
+    "other": 1,
+    "thunderstorm_wind": 1,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "HAIL": 1
+    "FLASH FLOOD": 7,
+    "FLOOD": 2,
+    "HAIL": 1,
+    "RAIN": 1,
+    "TORNADO": 2,
+    "TSTM WND DMG": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SGF&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

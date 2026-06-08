@@ -6,7 +6,7 @@
     "wfo": "MPX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-07T11:17:14Z",
+    "generated_utc": "2026-06-08T13:17:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "MPX",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
+      "flooding": 3,
       "hail": 3,
       "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 3,
       "HAIL": 3,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 4
@@ -245,6 +247,72 @@
       "ugc": "MNC171",
       "ugc_name": "Wright",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MPX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606072015",
+      "standard_time_display": "2026-06-07 14:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MPX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Blooming Prairie",
+      "county": "Steele",
+      "state": "MN",
+      "source": "Law Enforcement",
+      "remark": "Heavy rainfall has caused for standing water at the intersection of 4th Ave SW and 3rd St SW. County dispatch advised that the intersection has been closed off.",
+      "lat": 43.86,
+      "lon": -93.06,
+      "ugc": "MNC147",
+      "ugc_name": "Steele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MPX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606072015",
+      "standard_time_display": "2026-06-07 14:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MPX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Blooming Prairie",
+      "county": "Steele",
+      "state": "MN",
+      "source": "Law Enforcement",
+      "remark": "Heavy rainfall has caused for standing water at the intersection of 3rd St SE and Center Ave. County dispatch advised that the intersection has been closed off.",
+      "lat": 43.86,
+      "lon": -93.06,
+      "ugc": "MNC147",
+      "ugc_name": "Steele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MPX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606072130",
+      "standard_time_display": "2026-06-07 15:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MPX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Hope",
+      "county": "Steele",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "Photo provided via social media of flowing water over road intersection at 88th St and CR-45_ south of Steele Center.",
+      "lat": 43.96,
+      "lon": -93.23,
+      "ugc": "MNC147",
+      "ugc_name": "Steele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -253,7 +321,7 @@
       "wfo": "MPX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-07T11:17:15Z"
+      "generated_utc": "2026-06-08T13:17:21Z"
     },
     "primary_links": [
       {

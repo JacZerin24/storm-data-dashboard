@@ -7,7 +7,7 @@
     "wfo": "OUN",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-07T11:17:22Z",
+    "generated_utc": "2026-06-08T13:17:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -386,6 +386,32 @@
         "report_id": "iem-lsr-OUN-15",
         "report_type": "FLOOD",
         "event_category": "flooding",
+        "valid_utc": "202606070200",
+        "standard_time_display": "2026-06-06 20:00 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Custer",
+        "city": "4 SE Weatherford",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Social media video showing flooding near the intersection of North 2440 Road and East 1050 Road. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.64,
+          35.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-16",
+      "properties": {
+        "report_id": "iem-lsr-OUN-16",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
         "valid_utc": "202606070255",
         "standard_time_display": "2026-06-06 20:55 CST",
         "wfo": "OUN",
@@ -402,6 +428,58 @@
         "coordinates": [
           -98.7,
           35.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-17",
+      "properties": {
+        "report_id": "iem-lsr-OUN-17",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606071200",
+        "standard_time_display": "2026-06-07 06:00 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Archer",
+        "city": "8 SSW Archer City",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Dispatch reports TXDOT was sent to location due to flooding on road. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.67,
+          33.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-18",
+      "properties": {
+        "report_id": "iem-lsr-OUN-18",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606071345",
+        "standard_time_display": "2026-06-07 07:45 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Wichita",
+        "city": "Wichita Falls",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Road closure with some high-water rescues reported by dispatch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5,
+          33.91
         ]
       }
     }

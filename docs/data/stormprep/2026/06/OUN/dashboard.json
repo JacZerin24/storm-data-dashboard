@@ -6,7 +6,7 @@
     "wfo": "OUN",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-07T11:17:22Z",
+    "generated_utc": "2026-06-08T13:17:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "OUN",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 4,
       "thunderstorm_wind": 14
     },
     "candidate_report_type_counts": {
-      "FLOOD": 1,
+      "FLASH FLOOD": 1,
+      "FLOOD": 3,
       "TSTM WND DMG": 3,
       "TSTM WND GST": 11
     },
@@ -359,6 +360,28 @@
     {
       "report_id": "iem-lsr-OUN-15",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606070200",
+      "standard_time_display": "2026-06-06 20:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OUN",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Weatherford",
+      "county": "Custer",
+      "state": "OK",
+      "source": "Public",
+      "remark": "Delayed report. Social media video showing flooding near the intersection of North 2440 Road and East 1050 Road. Time estimated.",
+      "lat": 35.49,
+      "lon": -98.64,
+      "ugc": "OKC039",
+      "ugc_name": "Custer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OUN-16",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606070255",
       "standard_time_display": "2026-06-06 20:55 CST",
       "standard_time_zone": "CST",
@@ -377,6 +400,50 @@
       "ugc": "OKC039",
       "ugc_name": "Custer",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OUN-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606071200",
+      "standard_time_display": "2026-06-07 06:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OUN",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 SSW Archer City",
+      "county": "Archer",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Dispatch reports TXDOT was sent to location due to flooding on road. Time estimated by radar.",
+      "lat": 33.48,
+      "lon": -98.67,
+      "ugc": "TXC009",
+      "ugc_name": "Archer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OUN-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606071345",
+      "standard_time_display": "2026-06-07 07:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OUN",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Wichita Falls",
+      "county": "Wichita",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Road closure with some high-water rescues reported by dispatch.",
+      "lat": 33.91,
+      "lon": -98.5,
+      "ugc": "TXC485",
+      "ugc_name": "Wichita",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -385,7 +452,7 @@
       "wfo": "OUN",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-07T11:17:23Z"
+      "generated_utc": "2026-06-08T13:17:29Z"
     },
     "primary_links": [
       {
