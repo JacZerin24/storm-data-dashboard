@@ -6,7 +6,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-08T13:16:12Z",
+    "generated_utc": "2026-06-09T12:15:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "AMA",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
     "candidate_report_counts": {
       "flooding": 2,
-      "hail": 9,
+      "hail": 10,
+      "other": 1,
       "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
-      "HAIL": 9,
+      "HAIL": 10,
+      "LANDSPOUT": 1,
       "NON-TSTM WND GST": 1,
       "TSTM WND GST": 3
     },
@@ -379,6 +381,50 @@
       "ugc": "TXC195",
       "ugc_name": "Hansford",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606082202",
+      "standard_time_display": "2026-06-08 16:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "LANDSPOUT",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 WNW Lipscomb",
+      "county": "Lipscomb",
+      "state": "TX",
+      "source": "Storm Chaser",
+      "remark": "Landspout spotted in Lipscomb county. Lasted from 5:02 PM to 5:12 PM. Confirmed using livestream from social media. Location estimated via radar.",
+      "lat": 36.3,
+      "lon": -100.43,
+      "ugc": "TXC295",
+      "ugc_name": "Lipscomb",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606082254",
+      "standard_time_display": "2026-06-08 16:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Lipscomb",
+      "county": "Lipscomb",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from the public for quarter sized hail in north Lipscomb off of 305. Lasted from 5:54 to 5:56 PM.",
+      "lat": 36.24,
+      "lon": -100.28,
+      "ugc": "TXC295",
+      "ugc_name": "Lipscomb",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -387,7 +433,7 @@
       "wfo": "AMA",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-08T13:16:12Z"
+      "generated_utc": "2026-06-09T12:15:02Z"
     },
     "primary_links": [
       {

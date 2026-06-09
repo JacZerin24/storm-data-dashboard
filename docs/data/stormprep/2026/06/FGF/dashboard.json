@@ -6,7 +6,7 @@
     "wfo": "FGF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-08T13:16:39Z",
+    "generated_utc": "2026-06-09T12:15:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 6,
     "wfo": "FGF",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 8,
       "other": 8,
-      "thunderstorm_wind": 2,
+      "thunderstorm_wind": 3,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -31,7 +31,7 @@
       "FUNNEL CLOUD": 1,
       "HAIL": 8,
       "RAIN": 8,
-      "TSTM WND GST": 2
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -494,6 +494,28 @@
       "ugc": "NDC005",
       "ugc_name": "Benson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FGF-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606080500",
+      "standard_time_display": "2026-06-07 23:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FGF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Baker",
+      "county": "Benson",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Personal Weather station measurement.",
+      "lat": 48.09,
+      "lon": -99.67,
+      "ugc": "NDC005",
+      "ugc_name": "Benson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -502,7 +524,7 @@
       "wfo": "FGF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-08T13:16:40Z"
+      "generated_utc": "2026-06-09T12:15:26Z"
     },
     "primary_links": [
       {

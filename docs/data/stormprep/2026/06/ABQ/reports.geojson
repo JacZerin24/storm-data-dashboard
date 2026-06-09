@@ -7,7 +7,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-08T13:16:05Z",
+    "generated_utc": "2026-06-09T12:14:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -220,6 +220,58 @@
         "coordinates": [
           -106.48,
           35.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-9",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606082200",
+        "standard_time_display": "2026-06-08 15:00 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Bernalillo",
+        "city": "2 N Petroglyph National",
+        "state": "NM",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Virga induced wind gust measured by a Wunderground station in Montecito Vistas neighborhood."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.74,
+          35.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-10",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-10",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606090026",
+        "standard_time_display": "2026-06-08 17:26 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Santa Fe",
+        "city": "4 NNE La Cienega",
+        "state": "NM",
+        "magnitude": 71.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KSAF Santa Fe Muni Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1,
+          35.62
         ]
       }
     }

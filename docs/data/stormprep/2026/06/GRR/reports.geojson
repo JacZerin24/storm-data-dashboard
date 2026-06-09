@@ -7,7 +7,7 @@
     "wfo": "GRR",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-08T13:16:47Z",
+    "generated_utc": "2026-06-09T12:15:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-GRR-1",
       "properties": {
         "report_id": "iem-lsr-GRR-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606060430",
+        "standard_time_display": "2026-06-05 22:30 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Lake",
+        "city": "6 SW Baldwin",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Scattered damage along northern and southern shores of Big Star Lake including pontoons flipped in water... other light boats at dock flipped onto sand... sections of poly decking of fixed boat docks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.94,
+          43.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-2",
+      "properties": {
+        "report_id": "iem-lsr-GRR-2",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606060434",
@@ -43,9 +69,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GRR-2",
+      "id": "iem-lsr-GRR-3",
       "properties": {
-        "report_id": "iem-lsr-GRR-2",
+        "report_id": "iem-lsr-GRR-3",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606060444",
@@ -69,9 +95,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GRR-3",
+      "id": "iem-lsr-GRR-4",
       "properties": {
-        "report_id": "iem-lsr-GRR-3",
+        "report_id": "iem-lsr-GRR-4",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606060500",
@@ -95,9 +121,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GRR-4",
+      "id": "iem-lsr-GRR-5",
       "properties": {
-        "report_id": "iem-lsr-GRR-4",
+        "report_id": "iem-lsr-GRR-5",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606060505",
@@ -121,9 +147,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GRR-5",
+      "id": "iem-lsr-GRR-6",
       "properties": {
-        "report_id": "iem-lsr-GRR-5",
+        "report_id": "iem-lsr-GRR-6",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606060552",
@@ -147,9 +173,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GRR-6",
+      "id": "iem-lsr-GRR-7",
       "properties": {
-        "report_id": "iem-lsr-GRR-6",
+        "report_id": "iem-lsr-GRR-7",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606060600",
@@ -168,6 +194,32 @@
         "coordinates": [
           -85.18,
           43.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-8",
+      "properties": {
+        "report_id": "iem-lsr-GRR-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606082336",
+        "standard_time_display": "2026-06-08 17:36 CST",
+        "wfo": "GRR",
+        "county_or_zone": "LMZ844",
+        "city": "1 NW St Joseph",
+        "state": "MI",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XSTJ St. Joseph Pier."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.49,
+          42.12
         ]
       }
     }
