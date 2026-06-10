@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-09T12:15:40Z",
+    "generated_utc": "2026-06-10T12:36:20Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 6,
     "wfo": "ICT",
-    "total_candidate_reports": 68,
-    "mapped_candidate_reports": 68,
+    "total_candidate_reports": 81,
+    "mapped_candidate_reports": 81,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 6,
-      "thunderstorm_wind": 57,
+      "thunderstorm_wind": 70,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -30,8 +30,8 @@
       "HAIL": 6,
       "NON-TSTM WND GST": 1,
       "TORNADO": 1,
-      "TSTM WND DMG": 21,
-      "TSTM WND GST": 35
+      "TSTM WND DMG": 24,
+      "TSTM WND GST": 45
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1092,6 +1092,28 @@
     {
       "report_id": "iem-lsr-ICT-48",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606090248",
+      "standard_time_display": "2026-06-08 20:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Assaria",
+      "county": "Saline",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Delayed report. Farm outbuilding sustained roof and wall damage.",
+      "lat": 38.7,
+      "lon": -97.6,
+      "ugc": "KSC169",
+      "ugc_name": "Saline",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-49",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090250",
       "standard_time_display": "2026-06-08 20:50 CST",
       "standard_time_zone": "CST",
@@ -1112,7 +1134,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-49",
+      "report_id": "iem-lsr-ICT-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090258",
       "standard_time_display": "2026-06-08 20:58 CST",
@@ -1134,7 +1156,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-50",
+      "report_id": "iem-lsr-ICT-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090259",
       "standard_time_display": "2026-06-08 20:59 CST",
@@ -1156,7 +1178,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-51",
+      "report_id": "iem-lsr-ICT-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090303",
       "standard_time_display": "2026-06-08 21:03 CST",
@@ -1178,7 +1200,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-52",
+      "report_id": "iem-lsr-ICT-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090310",
       "standard_time_display": "2026-06-08 21:10 CST",
@@ -1200,7 +1222,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-53",
+      "report_id": "iem-lsr-ICT-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090310",
       "standard_time_display": "2026-06-08 21:10 CST",
@@ -1222,7 +1244,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-54",
+      "report_id": "iem-lsr-ICT-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090319",
       "standard_time_display": "2026-06-08 21:19 CST",
@@ -1244,7 +1266,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-55",
+      "report_id": "iem-lsr-ICT-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090320",
       "standard_time_display": "2026-06-08 21:20 CST",
@@ -1266,7 +1288,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-56",
+      "report_id": "iem-lsr-ICT-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090321",
       "standard_time_display": "2026-06-08 21:21 CST",
@@ -1288,7 +1310,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-57",
+      "report_id": "iem-lsr-ICT-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090324",
       "standard_time_display": "2026-06-08 21:24 CST",
@@ -1310,7 +1332,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-58",
+      "report_id": "iem-lsr-ICT-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090324",
       "standard_time_display": "2026-06-08 21:24 CST",
@@ -1332,7 +1354,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-59",
+      "report_id": "iem-lsr-ICT-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090325",
       "standard_time_display": "2026-06-08 21:25 CST",
@@ -1354,7 +1376,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-60",
+      "report_id": "iem-lsr-ICT-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090334",
       "standard_time_display": "2026-06-08 21:34 CST",
@@ -1376,7 +1398,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-61",
+      "report_id": "iem-lsr-ICT-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090339",
       "standard_time_display": "2026-06-08 21:39 CST",
@@ -1398,7 +1420,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-62",
+      "report_id": "iem-lsr-ICT-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090348",
       "standard_time_display": "2026-06-08 21:48 CST",
@@ -1420,7 +1442,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-63",
+      "report_id": "iem-lsr-ICT-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090355",
       "standard_time_display": "2026-06-08 21:55 CST",
@@ -1442,7 +1464,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-64",
+      "report_id": "iem-lsr-ICT-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090402",
       "standard_time_display": "2026-06-08 22:02 CST",
@@ -1464,7 +1486,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-65",
+      "report_id": "iem-lsr-ICT-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606090403",
+      "standard_time_display": "2026-06-08 22:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Strong City",
+      "county": "Chase",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": "Delayed report. Emergency manager reported 6-8\" limbs down. Time estimated from radar.",
+      "lat": 38.4,
+      "lon": -96.54,
+      "ugc": "KSC017",
+      "ugc_name": "Chase",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090415",
       "standard_time_display": "2026-06-08 22:15 CST",
@@ -1486,7 +1530,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-66",
+      "report_id": "iem-lsr-ICT-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090421",
       "standard_time_display": "2026-06-08 22:21 CST",
@@ -1508,7 +1552,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-67",
+      "report_id": "iem-lsr-ICT-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606090430",
+      "standard_time_display": "2026-06-08 22:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 73.0,
+      "magnitude_qualifier": null,
+      "city": "1 SE Elmdale",
+      "county": "Chase",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Delayed report. Wind gust measured from Kansas State Mesonet site.",
+      "lat": 38.36,
+      "lon": -96.63,
+      "ugc": "KSC017",
+      "ugc_name": "Chase",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090442",
       "standard_time_display": "2026-06-08 22:42 CST",
@@ -1530,7 +1596,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-68",
+      "report_id": "iem-lsr-ICT-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606090723",
       "standard_time_display": "2026-06-09 01:23 CST",
@@ -1550,6 +1616,226 @@
       "ugc": "KSC105",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100002",
+      "standard_time_display": "2026-06-09 18:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Albert",
+      "county": "Barton",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Measured on a personal weather station.",
+      "lat": 38.43,
+      "lon": -99.03,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100019",
+      "standard_time_display": "2026-06-09 18:19 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "Great Bend Airport",
+      "county": "Barton",
+      "state": "KS",
+      "source": "AWOS",
+      "remark": "Measured at the Great Bend Airport.",
+      "lat": 38.34,
+      "lon": -98.86,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100025",
+      "standard_time_display": "2026-06-09 18:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 63.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Great Bend Airport",
+      "county": "Barton",
+      "state": "KS",
+      "source": "AWOS",
+      "remark": "Measured at the Great Bend Airport.",
+      "lat": 38.34,
+      "lon": -98.86,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100026",
+      "standard_time_display": "2026-06-09 18:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 NE Great Bend",
+      "county": "Barton",
+      "state": "KS",
+      "source": "NWS Employee",
+      "remark": "estimated about 60 mph_ not much more.",
+      "lat": 38.39,
+      "lon": -98.77,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-76",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100026",
+      "standard_time_display": "2026-06-09 18:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Great Bend",
+      "county": "Barton",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Measured on a personal weather station.",
+      "lat": 38.37,
+      "lon": -98.82,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-77",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100041",
+      "standard_time_display": "2026-06-09 18:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "1 NE Ellinwood",
+      "county": "Barton",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Measured on a personal weather station.",
+      "lat": 38.37,
+      "lon": -98.57,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-78",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100256",
+      "standard_time_display": "2026-06-09 20:56 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "6 E Susank",
+      "county": "Barton",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": "estimated about 60 mph.",
+      "lat": 38.64,
+      "lon": -98.67,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-79",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100300",
+      "standard_time_display": "2026-06-09 21:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Russell Airport",
+      "county": "Russell",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": "KRSL ASOS measured 70 mph.",
+      "lat": 38.87,
+      "lon": -98.81,
+      "ugc": "KSC167",
+      "ugc_name": "Russell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-80",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100324",
+      "standard_time_display": "2026-06-09 21:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Wilson",
+      "county": "Russell",
+      "state": "KS",
+      "source": "Law Enforcement",
+      "remark": "Semi flipped over on I-70 at mile marker 204.",
+      "lat": 38.85,
+      "lon": -98.51,
+      "ugc": "KSC167",
+      "ugc_name": "Russell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606100410",
+      "standard_time_display": "2026-06-09 22:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 ENE New Cambria",
+      "county": "Saline",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Mesonet station UR445 3.2 E New Cambria (UPR).",
+      "lat": 38.89,
+      "lon": -97.45,
+      "ugc": "KSC169",
+      "ugc_name": "Saline",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1558,7 +1844,7 @@
       "wfo": "ICT",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-09T12:15:40Z"
+      "generated_utc": "2026-06-10T12:36:21Z"
     },
     "primary_links": [
       {

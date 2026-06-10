@@ -6,7 +6,7 @@
     "wfo": "BGM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-09T12:15:04Z",
+    "generated_utc": "2026-06-10T12:35:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "BGM",
-    "total_candidate_reports": 11,
-    "mapped_candidate_reports": 11,
+    "total_candidate_reports": 14,
+    "mapped_candidate_reports": 14,
     "candidate_report_counts": {
-      "hail": 1,
-      "thunderstorm_wind": 10
+      "hail": 2,
+      "thunderstorm_wind": 12
     },
     "candidate_report_type_counts": {
-      "HAIL": 1,
-      "TSTM WND DMG": 10
+      "HAIL": 2,
+      "TSTM WND DMG": 12
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -50,6 +50,28 @@
     {
       "report_id": "iem-lsr-BGM-1",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606061934",
+      "standard_time_display": "2026-06-06 14:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "Deposit",
+      "county": "Delaware",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Public report relayed via Broadcast Media of a picture of estimated Golf Ball sized hail in the village of Deposit. Time estimated from radar.",
+      "lat": 42.06,
+      "lon": -75.42,
+      "ugc": "NYC025",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-2",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062042",
       "standard_time_display": "2026-06-06 15:42 EST",
       "standard_time_zone": "EST",
@@ -70,7 +92,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-2",
+      "report_id": "iem-lsr-BGM-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062111",
       "standard_time_display": "2026-06-06 16:11 EST",
@@ -92,7 +114,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-3",
+      "report_id": "iem-lsr-BGM-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062124",
       "standard_time_display": "2026-06-06 16:24 EST",
@@ -114,7 +136,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-4",
+      "report_id": "iem-lsr-BGM-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062125",
       "standard_time_display": "2026-06-06 16:25 EST",
@@ -136,7 +158,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-5",
+      "report_id": "iem-lsr-BGM-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062129",
       "standard_time_display": "2026-06-06 16:29 EST",
@@ -158,7 +180,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-6",
+      "report_id": "iem-lsr-BGM-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062217",
       "standard_time_display": "2026-06-06 17:17 EST",
@@ -180,7 +202,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-7",
+      "report_id": "iem-lsr-BGM-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062235",
       "standard_time_display": "2026-06-06 17:35 EST",
@@ -202,7 +224,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-8",
+      "report_id": "iem-lsr-BGM-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062235",
       "standard_time_display": "2026-06-06 17:35 EST",
@@ -224,7 +246,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-9",
+      "report_id": "iem-lsr-BGM-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062235",
       "standard_time_display": "2026-06-06 17:35 EST",
@@ -246,7 +268,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-10",
+      "report_id": "iem-lsr-BGM-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062237",
       "standard_time_display": "2026-06-06 17:37 EST",
@@ -268,7 +290,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BGM-11",
+      "report_id": "iem-lsr-BGM-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606062237",
       "standard_time_display": "2026-06-06 17:37 EST",
@@ -288,6 +310,50 @@
       "ugc": "PAC103",
       "ugc_name": "Pike",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606092352",
+      "standard_time_display": "2026-06-09 18:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Hornell",
+      "county": "Steuben",
+      "state": "NY",
+      "source": "Emergency Mngr",
+      "remark": "Trees and wires reported down along Hart_ Maple and Greely streets in Hornell. Possible tree down on a house on Church Street. Time estimated by radar.",
+      "lat": 42.33,
+      "lon": -77.66,
+      "ugc": "NYC101",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606092355",
+      "standard_time_display": "2026-06-09 18:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Hornell",
+      "county": "Steuben",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "Multiple trees down in the area.",
+      "lat": 42.31,
+      "lon": -77.65,
+      "ugc": "NYC101",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -296,7 +362,7 @@
       "wfo": "BGM",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-09T12:15:04Z"
+      "generated_utc": "2026-06-10T12:35:40Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "KEY",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-09T12:15:47Z",
+    "generated_utc": "2026-06-10T12:36:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "KEY",
-    "total_candidate_reports": 7,
-    "mapped_candidate_reports": 7,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
       "flooding": 1,
       "marine": 1,
       "other": 1,
-      "tornado": 4
+      "tornado": 5
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
       "LIGHTNING": 1,
       "MARINE TSTM WIND": 1,
-      "WATERSPOUT": 4
+      "WATERSPOUT": 5
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -206,6 +206,28 @@
       "ugc": "GMZ044",
       "ugc_name": "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-KEY-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606091521",
+      "standard_time_display": "2026-06-09 10:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "KEY",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Boca Chica",
+      "county": "GMZ035",
+      "state": "FL",
+      "source": "NWS Employee",
+      "remark": "A NWS employee observed several thin waterspouts just north of Boca Chica Key. The waterspouts did not have a well-defined spray ring. The life cycle of each spout was less than five minutes.",
+      "lat": 24.61,
+      "lon": -81.71,
+      "ugc": "GMZ035",
+      "ugc_name": "Gulf of America from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -214,7 +236,7 @@
       "wfo": "KEY",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-09T12:15:47Z"
+      "generated_utc": "2026-06-10T12:36:29Z"
     },
     "primary_links": [
       {

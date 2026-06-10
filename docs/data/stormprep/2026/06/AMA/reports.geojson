@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-09T12:15:02Z",
+    "generated_utc": "2026-06-10T12:35:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -410,6 +410,32 @@
       "id": "iem-lsr-AMA-16",
       "properties": {
         "report_id": "iem-lsr-AMA-16",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606082139",
+        "standard_time_display": "2026-06-08 15:39 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Lipscomb",
+        "city": "4 NE Follett",
+        "state": "TX",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.12,
+          36.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-17",
+      "properties": {
+        "report_id": "iem-lsr-AMA-17",
         "report_type": "LANDSPOUT",
         "event_category": "other",
         "valid_utc": "202606082202",
@@ -433,9 +459,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-17",
+      "id": "iem-lsr-AMA-18",
       "properties": {
-        "report_id": "iem-lsr-AMA-17",
+        "report_id": "iem-lsr-AMA-18",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606082254",
+        "standard_time_display": "2026-06-08 16:54 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Lipscomb",
+        "city": "5 N Lipscomb",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous hail report from Lipscomb. Report from the public for quarter sized hail in north Lipscomb off of 305. Lasted from 5:54 to 5:56 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28,
+          36.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-19",
+      "properties": {
+        "report_id": "iem-lsr-AMA-19",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202606082254",
@@ -454,6 +506,84 @@
         "coordinates": [
           -100.28,
           36.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-20",
+      "properties": {
+        "report_id": "iem-lsr-AMA-20",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606090015",
+        "standard_time_display": "2026-06-08 18:15 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Lipscomb",
+        "city": "3 SW Darrouzett",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Resident reported mostly pea to dime hail_ but a few larger stones dented a truck parked outside."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.36,
+          36.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-21",
+      "properties": {
+        "report_id": "iem-lsr-AMA-21",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606092256",
+        "standard_time_display": "2026-06-09 15:56 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Oldham",
+        "city": "11 S Romero",
+        "state": "TX",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "63 mph wind gust measured at WT Mesonet station 11 miles SW of Romero. Gusts above 58 MPH lasted from 5:56 to 6:00 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.96,
+          35.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-22",
+      "properties": {
+        "report_id": "iem-lsr-AMA-22",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606100225",
+        "standard_time_display": "2026-06-09 19:25 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Oldham",
+        "city": "11 S Romero",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "58 mph wind gust measured at WT Mesonet station 11 miles SSW of Romero. Gusts at or above 58 mph lasted from 9:25 to 9:26 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.96,
+          35.57
         ]
       }
     }
