@@ -7,12 +7,169 @@
     "wfo": "BUF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-10T12:35:47Z",
+    "generated_utc": "2026-06-11T12:54:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-1",
+      "properties": {
+        "report_id": "iem-lsr-BUF-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606101949",
+        "standard_time_display": "2026-06-10 14:49 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Cayuga",
+        "city": "Weedsport",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of a tree and wires downed. Delayed report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.56,
+          43.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-2",
+      "properties": {
+        "report_id": "iem-lsr-BUF-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606102015",
+        "standard_time_display": "2026-06-10 15:15 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Cayuga",
+        "city": "4 NNW Port Byron",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Multiple reports of flooded roads and rainfall reports of 2 to 3 inches."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.65,
+          43.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-3",
+      "properties": {
+        "report_id": "iem-lsr-BUF-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606110330",
+        "standard_time_display": "2026-06-10 22:30 EST",
+        "wfo": "BUF",
+        "county_or_zone": "LEZ040",
+        "city": "2 NNW Westfield",
+        "state": "NY",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Barcelona Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59,
+          42.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-4",
+      "properties": {
+        "report_id": "iem-lsr-BUF-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606110340",
+        "standard_time_display": "2026-06-10 22:40 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Chautauqua",
+        "city": "1 S Westfield",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down across route 394. Southbound lane blocked."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57,
+          42.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-5",
+      "properties": {
+        "report_id": "iem-lsr-BUF-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606110350",
+        "standard_time_display": "2026-06-10 22:50 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Chautauqua",
+        "city": "3 S Jamestown West",
+        "state": "NY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down in Busti."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28,
+          42.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-6",
+      "properties": {
+        "report_id": "iem-lsr-BUF-6",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606110351",
+        "standard_time_display": "2026-06-10 22:51 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Chautauqua",
+        "city": "1 NW Dunkirk",
+        "state": "NY",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35,
+          42.49
+        ]
+      }
+    }
+  ]
 }

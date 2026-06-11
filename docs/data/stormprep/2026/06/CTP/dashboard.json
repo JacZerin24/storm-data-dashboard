@@ -6,7 +6,7 @@
     "wfo": "CTP",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-10T12:35:53Z",
+    "generated_utc": "2026-06-11T12:54:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "CTP",
-    "total_candidate_reports": 71,
-    "mapped_candidate_reports": 71,
+    "total_candidate_reports": 74,
+    "mapped_candidate_reports": 74,
     "candidate_report_counts": {
-      "thunderstorm_wind": 71
+      "flooding": 1,
+      "thunderstorm_wind": 73
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 71
+      "FLOOD": 1,
+      "TSTM WND DMG": 73
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1606,6 +1608,72 @@
       "ugc": "PAC071",
       "ugc_name": "Lancaster",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606101744",
+      "standard_time_display": "2026-06-10 12:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lewistown",
+      "county": "Mifflin",
+      "state": "PA",
+      "source": "Fire Dept/Rescue",
+      "remark": "Ponding of water on the roadway near the intersection of East Charles Street and South Brown Street in Lewistown. Vehicle stranded.",
+      "lat": 40.59,
+      "lon": -77.57,
+      "ugc": "PAC087",
+      "ugc_name": "Mifflin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606102000",
+      "standard_time_display": "2026-06-10 15:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Siddonsburg",
+      "county": "York",
+      "state": "PA",
+      "source": "Emergency Mngr",
+      "remark": "Tree down in roadway.",
+      "lat": 40.11,
+      "lon": -76.97,
+      "ugc": "PAC133",
+      "ugc_name": "York",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606102029",
+      "standard_time_display": "2026-06-10 15:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Manchester",
+      "county": "York",
+      "state": "PA",
+      "source": "Emergency Mngr",
+      "remark": "Large tree down across entire roadway.",
+      "lat": 40.03,
+      "lon": -76.71,
+      "ugc": "PAC133",
+      "ugc_name": "York",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1614,7 +1682,7 @@
       "wfo": "CTP",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-10T12:35:54Z"
+      "generated_utc": "2026-06-11T12:54:30Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-10T12:36:26Z",
+    "generated_utc": "2026-06-11T12:54:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "JAX",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
+      "flooding": 1,
       "marine": 1,
-      "other": 1,
+      "other": 2,
       "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "RAIN": 1,
+      "FLOOD": 1,
+      "RAIN": 2,
       "RIP CURRENTS": 1,
       "TSTM WND GST": 1
     },
@@ -114,6 +116,50 @@
       "ugc": "FLC035",
       "ugc_name": "Flagler",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606101325",
+      "standard_time_display": "2026-06-10 08:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.67,
+      "magnitude_qualifier": null,
+      "city": "5 SW Dock Junction",
+      "county": "Glynn",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Weatherstation KGABRUNS181 from Wunderground reported near 3.67 inches. Rain began 545 AM_ with heaviest rain around 745 AM to 830 AM.",
+      "lat": 31.15,
+      "lon": -81.58,
+      "ugc": "GAC127",
+      "ugc_name": "Glynn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606101355",
+      "standard_time_display": "2026-06-10 08:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 W Brunswick",
+      "county": "Glynn",
+      "state": "GA",
+      "source": "Trained Spotter",
+      "remark": "Flooding of parking lots and areas of roadways near the Belle Cutoff Rd area. Water is reaching the exterior roll up doors at a self storage facility.",
+      "lat": 31.14,
+      "lon": -81.59,
+      "ugc": "GAC127",
+      "ugc_name": "Glynn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -122,7 +168,7 @@
       "wfo": "JAX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-10T12:36:27Z"
+      "generated_utc": "2026-06-11T12:55:00Z"
     },
     "primary_links": [
       {

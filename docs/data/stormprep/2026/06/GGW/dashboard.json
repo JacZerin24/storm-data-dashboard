@@ -6,7 +6,7 @@
     "wfo": "GGW",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-10T12:36:08Z",
+    "generated_utc": "2026-06-11T12:54:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "GGW",
-    "total_candidate_reports": 17,
-    "mapped_candidate_reports": 17,
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
     "candidate_report_counts": {
       "hail": 6,
-      "thunderstorm_wind": 11
+      "thunderstorm_wind": 12
     },
     "candidate_report_type_counts": {
       "HAIL": 6,
+      "NON-TSTM WND GST": 1,
       "TSTM WND GST": 11
     },
     "nws_api_alert_count": 0,
@@ -420,6 +421,28 @@
       "ugc": "MTC091",
       "ugc_name": "Sheridan",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GGW-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606110008",
+      "standard_time_display": "2026-06-10 17:08 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GGW",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "7 SE Devils Creek Rec A",
+      "county": "Garfield",
+      "state": "MT",
+      "source": "Mesonet",
+      "remark": "Mesonet station SSMM8 Devils Creek Rec Area 6ese.",
+      "lat": 47.56,
+      "lon": -107.53,
+      "ugc": "MTC033",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -428,7 +451,7 @@
       "wfo": "GGW",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-10T12:36:09Z"
+      "generated_utc": "2026-06-11T12:54:43Z"
     },
     "primary_links": [
       {

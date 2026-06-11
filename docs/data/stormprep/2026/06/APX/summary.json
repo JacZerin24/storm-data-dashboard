@@ -3,19 +3,28 @@
   "year": 2026,
   "month": 6,
   "wfo": "APX",
-  "total_candidate_reports": 18,
-  "mapped_candidate_reports": 18,
+  "total_candidate_reports": 49,
+  "mapped_candidate_reports": 49,
   "candidate_report_counts": {
-    "other": 18
+    "marine": 6,
+    "other": 18,
+    "thunderstorm_wind": 23,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "RAIN": 18
+    "MARINE TSTM WIND": 6,
+    "NON-TSTM WND GST": 1,
+    "RAIN": 18,
+    "TSTM WND DMG": 12,
+    "TSTM WND GST": 10,
+    "WATERSPOUT": 2
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=APX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

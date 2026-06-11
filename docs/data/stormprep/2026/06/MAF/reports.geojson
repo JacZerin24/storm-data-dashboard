@@ -7,7 +7,7 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-10T12:36:39Z",
+    "generated_utc": "2026-06-11T12:55:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -428,6 +428,58 @@
         "coordinates": [
           -103.61,
           32.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-17",
+      "properties": {
+        "report_id": "iem-lsr-MAF-17",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606102130",
+        "standard_time_display": "2026-06-10 14:30 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Reeves",
+        "city": "8 WSW Pecos",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Pecos Fire Dept reported that a semi was overturned and another jackknifed on Interstate 20 near mile marker 33. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.62,
+          31.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-18",
+      "properties": {
+        "report_id": "iem-lsr-MAF-18",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606102236",
+        "standard_time_display": "2026-06-10 15:36 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Jeff Davis",
+        "city": "13 W Toyahvale",
+        "state": "TX",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station 167 Toyahvale 13W recorded a wind gust of 64 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.02,
+          30.96
         ]
       }
     }
