@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-11T12:54:59Z",
+    "generated_utc": "2026-06-12T12:29:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "JAX",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
       "flooding": 1,
       "marine": 1,
-      "other": 2,
+      "other": 3,
       "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
-      "RAIN": 2,
+      "RAIN": 3,
       "RIP CURRENTS": 1,
       "TSTM WND GST": 1
     },
@@ -160,6 +160,28 @@
       "ugc": "GAC127",
       "ugc_name": "Glynn",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606101430",
+      "standard_time_display": "2026-06-10 09:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.24,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Jacksonville Beac",
+      "county": "Duval",
+      "state": "FL",
+      "source": "Cocorahs",
+      "remark": "Delayed report. Heavy rainfall observed at 3.24 inches in 4 hours. Some minor flooding was noted.",
+      "lat": 30.3,
+      "lon": -81.4,
+      "ugc": "FLC031",
+      "ugc_name": "Duval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -168,7 +190,7 @@
       "wfo": "JAX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-11T12:55:00Z"
+      "generated_utc": "2026-06-12T12:29:59Z"
     },
     "primary_links": [
       {

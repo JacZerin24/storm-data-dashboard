@@ -7,12 +7,39 @@
     "wfo": "SGX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-11T12:55:40Z",
+    "generated_utc": "2026-06-12T12:30:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SGX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-1",
+      "properties": {
+        "report_id": "iem-lsr-SGX-1",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202606100200",
+        "standard_time_display": "2026-06-09 18:00 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Orange",
+        "city": "1 W Laguna Beach",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "*** 1 FATAL *** 8 foot surf was reported. Three people were swepts out to sea. Two were rescued. One still missing. Time is approximated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.79,
+          33.54
+        ]
+      }
+    }
+  ]
 }
