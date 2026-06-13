@@ -6,7 +6,7 @@
     "wfo": "IWX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-12T12:29:56Z",
+    "generated_utc": "2026-06-13T11:24:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "IWX",
-    "total_candidate_reports": 71,
-    "mapped_candidate_reports": 71,
+    "total_candidate_reports": 90,
+    "mapped_candidate_reports": 90,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 1,
       "marine": 3,
-      "thunderstorm_wind": 64,
-      "tornado": 2
+      "thunderstorm_wind": 78,
+      "tornado": 7
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
@@ -32,8 +32,8 @@
       "HAIL": 1,
       "MARINE TSTM WIND": 3,
       "NON-TSTM WND GST": 1,
-      "TORNADO": 1,
-      "TSTM WND DMG": 35,
+      "TORNADO": 6,
+      "TSTM WND DMG": 49,
       "TSTM WND GST": 28
     },
     "nws_api_alert_count": 0,
@@ -567,6 +567,28 @@
     {
       "report_id": "iem-lsr-IWX-24",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120130",
+      "standard_time_display": "2026-06-11 19:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Cedar Point",
+      "county": "White",
+      "state": "IN",
+      "source": "Public",
+      "remark": "several large trees down.",
+      "lat": 40.69,
+      "lon": -86.76,
+      "ugc": "INC181",
+      "ugc_name": "White",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-25",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120147",
       "standard_time_display": "2026-06-11 19:47 CST",
       "standard_time_zone": "CST",
@@ -587,7 +609,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-25",
+      "report_id": "iem-lsr-IWX-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120152",
       "standard_time_display": "2026-06-11 19:52 CST",
@@ -609,7 +631,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-26",
+      "report_id": "iem-lsr-IWX-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120155",
       "standard_time_display": "2026-06-11 19:55 CST",
@@ -631,7 +653,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-27",
+      "report_id": "iem-lsr-IWX-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120158",
+      "standard_time_display": "2026-06-11 19:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Adamsboro",
+      "county": "Cass",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "Drone footage provided by Cass County Emergency Management confirmed an EF-1 tornado occurred within a line of severe thunderstorms across northeast Cass County. The tornado began just south of Count",
+      "lat": 40.81,
+      "lon": -86.29,
+      "ugc": "INC017",
+      "ugc_name": "Cass",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120200",
+      "standard_time_display": "2026-06-11 20:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Knox",
+      "county": "Starke",
+      "state": "IN",
+      "source": "Public",
+      "remark": "Large trees damaged in a straight line.",
+      "lat": 41.29,
+      "lon": -86.62,
+      "ugc": "INC149",
+      "ugc_name": "Starke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120200",
       "standard_time_display": "2026-06-11 20:00 CST",
@@ -653,7 +719,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-28",
+      "report_id": "iem-lsr-IWX-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120202",
       "standard_time_display": "2026-06-11 20:02 CST",
@@ -675,7 +741,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-29",
+      "report_id": "iem-lsr-IWX-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120204",
       "standard_time_display": "2026-06-11 20:04 CST",
@@ -697,7 +763,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-30",
+      "report_id": "iem-lsr-IWX-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120207",
       "standard_time_display": "2026-06-11 20:07 CST",
@@ -719,7 +785,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-31",
+      "report_id": "iem-lsr-IWX-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120211",
+      "standard_time_display": "2026-06-11 20:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Plymouth",
+      "county": "Marshall",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "A brief tornado spun up south of 8A on King Rd_ uprooting or snapping multiple trees and causing damage to a barn. The tornado continued northeast_ flipping a center pivot before entering a grove of",
+      "lat": 41.35,
+      "lon": -86.26,
+      "ugc": "INC099",
+      "ugc_name": "Marshall",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120215",
       "standard_time_display": "2026-06-11 20:15 CST",
@@ -741,7 +829,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-32",
+      "report_id": "iem-lsr-IWX-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120215",
       "standard_time_display": "2026-06-11 20:15 CST",
@@ -763,7 +851,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-33",
+      "report_id": "iem-lsr-IWX-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120218",
       "standard_time_display": "2026-06-11 20:18 CST",
@@ -785,7 +873,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-34",
+      "report_id": "iem-lsr-IWX-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120222",
       "standard_time_display": "2026-06-11 20:22 CST",
@@ -807,7 +895,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-35",
+      "report_id": "iem-lsr-IWX-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120222",
       "standard_time_display": "2026-06-11 20:22 CST",
@@ -829,7 +917,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-36",
+      "report_id": "iem-lsr-IWX-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120222",
+      "standard_time_display": "2026-06-11 20:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SW Wabash",
+      "county": "Wabash",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "A tornado touched down in the vicinity of W 400 S and S 300 W on the southwest edge of Wabash. At this location_ a number of wood power poles were snapped at the base. The tornado then raced northeas",
+      "lat": 40.77,
+      "lon": -85.85,
+      "ugc": "INC169",
+      "ugc_name": "Wabash",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120225",
       "standard_time_display": "2026-06-11 20:25 CST",
@@ -851,7 +961,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-37",
+      "report_id": "iem-lsr-IWX-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120227",
       "standard_time_display": "2026-06-11 20:27 CST",
@@ -873,7 +983,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-38",
+      "report_id": "iem-lsr-IWX-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120230",
+      "standard_time_display": "2026-06-11 20:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Georgetown",
+      "county": "St. Joseph",
+      "state": "IN",
+      "source": "Public",
+      "remark": "Large pine trees topped_ wood picket fence snapped_ grass and dirt plastered to buildings.",
+      "lat": 41.73,
+      "lon": -86.22,
+      "ugc": "INC141",
+      "ugc_name": "St. Joseph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120230",
       "standard_time_display": "2026-06-11 20:30 CST",
@@ -895,7 +1027,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-39",
+      "report_id": "iem-lsr-IWX-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120230",
       "standard_time_display": "2026-06-11 20:30 CST",
@@ -917,7 +1049,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-40",
+      "report_id": "iem-lsr-IWX-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120230",
       "standard_time_display": "2026-06-11 20:30 CST",
@@ -939,7 +1071,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-41",
+      "report_id": "iem-lsr-IWX-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120232",
       "standard_time_display": "2026-06-11 20:32 CST",
@@ -961,7 +1093,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-42",
+      "report_id": "iem-lsr-IWX-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120235",
       "standard_time_display": "2026-06-11 20:35 CST",
@@ -983,7 +1115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-43",
+      "report_id": "iem-lsr-IWX-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120235",
       "standard_time_display": "2026-06-11 20:35 CST",
@@ -1005,7 +1137,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-44",
+      "report_id": "iem-lsr-IWX-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120242",
+      "standard_time_display": "2026-06-11 20:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Shavehead Lake",
+      "county": "Cass",
+      "state": "MI",
+      "source": "Public",
+      "remark": "Shavehead Lake on the southside Chanel has very large trees uprooted and landed on a house_ a gazebo was destroyed and a shed was destroyed.",
+      "lat": 41.83,
+      "lon": -85.86,
+      "ugc": "MIC027",
+      "ugc_name": "Cass",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120242",
       "standard_time_display": "2026-06-11 20:42 CST",
@@ -1027,7 +1181,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-45",
+      "report_id": "iem-lsr-IWX-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120242",
       "standard_time_display": "2026-06-11 20:42 CST",
@@ -1049,7 +1203,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-46",
+      "report_id": "iem-lsr-IWX-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120243",
       "standard_time_display": "2026-06-11 20:43 CST",
@@ -1071,7 +1225,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-47",
+      "report_id": "iem-lsr-IWX-54",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120244",
+      "standard_time_display": "2026-06-11 20:44 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Upland",
+      "county": "Grant",
+      "state": "IN",
+      "source": "Public",
+      "remark": "several trees down.",
+      "lat": 40.47,
+      "lon": -85.49,
+      "ugc": "INC053",
+      "ugc_name": "Grant",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120245",
       "standard_time_display": "2026-06-11 20:45 CST",
@@ -1093,7 +1269,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-48",
+      "report_id": "iem-lsr-IWX-56",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120246",
+      "standard_time_display": "2026-06-11 20:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Elkhart",
+      "county": "Elkhart",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "A National Weather Service storm survey determined that an EF-2 tornado occurred in association with a line of severe thunderstorms across northern Elkhart County. The path of the tornado began in th",
+      "lat": 41.71,
+      "lon": -85.9,
+      "ugc": "INC039",
+      "ugc_name": "Elkhart",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120250",
       "standard_time_display": "2026-06-11 20:50 CST",
@@ -1115,7 +1313,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-49",
+      "report_id": "iem-lsr-IWX-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120250",
       "standard_time_display": "2026-06-11 20:50 CST",
@@ -1137,7 +1335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-50",
+      "report_id": "iem-lsr-IWX-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120255",
       "standard_time_display": "2026-06-11 20:55 CST",
@@ -1159,7 +1357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-51",
+      "report_id": "iem-lsr-IWX-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120255",
       "standard_time_display": "2026-06-11 20:55 CST",
@@ -1181,7 +1379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-52",
+      "report_id": "iem-lsr-IWX-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120255",
       "standard_time_display": "2026-06-11 20:55 CST",
@@ -1203,7 +1401,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-53",
+      "report_id": "iem-lsr-IWX-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120255",
+      "standard_time_display": "2026-06-11 20:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Middlebury",
+      "county": "Elkhart",
+      "state": "IN",
+      "source": "Public",
+      "remark": "several trees and large branches down.",
+      "lat": 41.7,
+      "lon": -85.69,
+      "ugc": "INC039",
+      "ugc_name": "Elkhart",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120300",
       "standard_time_display": "2026-06-11 21:00 CST",
@@ -1225,7 +1445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-54",
+      "report_id": "iem-lsr-IWX-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120300",
       "standard_time_display": "2026-06-11 21:00 CST",
@@ -1247,7 +1467,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-55",
+      "report_id": "iem-lsr-IWX-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120300",
+      "standard_time_display": "2026-06-11 21:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Constantine",
+      "county": "St. Joseph",
+      "state": "MI",
+      "source": "Public",
+      "remark": "tree and utility pole down onto house.",
+      "lat": 41.84,
+      "lon": -85.63,
+      "ugc": "MIC149",
+      "ugc_name": "St. Joseph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120300",
+      "standard_time_display": "2026-06-11 21:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Scott",
+      "county": "Lagrange",
+      "state": "IN",
+      "source": "NWS Employee",
+      "remark": "Along SR-120_ especially near/west of N 450 W through approximately SR-5. Structural damage to a silo_ barns_ and some shingle and siding damage on several homes. There were a couple of center pivots",
+      "lat": 41.72,
+      "lon": -85.51,
+      "ugc": "INC087",
+      "ugc_name": "Lagrange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120300",
       "standard_time_display": "2026-06-11 21:00 CST",
@@ -1269,7 +1533,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-56",
+      "report_id": "iem-lsr-IWX-68",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120300",
+      "standard_time_display": "2026-06-11 21:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Balbec",
+      "county": "Jay",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "Drone footage provided by Jay County Emergency Management confirmed a brief EF-0 tornado occurred within a line of severe thunderstorms across northwest Jay County. The tornado began just south of 55",
+      "lat": 40.52,
+      "lon": -85.16,
+      "ugc": "INC075",
+      "ugc_name": "Jay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120305",
       "standard_time_display": "2026-06-11 21:05 CST",
@@ -1291,7 +1577,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-57",
+      "report_id": "iem-lsr-IWX-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120308",
       "standard_time_display": "2026-06-11 21:08 CST",
@@ -1313,7 +1599,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-58",
+      "report_id": "iem-lsr-IWX-71",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120310",
+      "standard_time_display": "2026-06-11 21:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Brighton",
+      "county": "Lagrange",
+      "state": "IN",
+      "source": "NWS Employee",
+      "remark": "Numerous 6-8 inch diameter or less limbs downed around the area between Brighton and Howe_ IN. Pine tree snapped halfway (appears healthy). Metal roofing appears to have been damaged and was tossed i",
+      "lat": 41.72,
+      "lon": -85.31,
+      "ugc": "INC087",
+      "ugc_name": "Lagrange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120310",
       "standard_time_display": "2026-06-11 21:10 CST",
@@ -1335,7 +1643,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-59",
+      "report_id": "iem-lsr-IWX-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120312",
       "standard_time_display": "2026-06-11 21:12 CST",
@@ -1357,7 +1665,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-60",
+      "report_id": "iem-lsr-IWX-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120315",
       "standard_time_display": "2026-06-11 21:15 CST",
@@ -1379,7 +1687,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-61",
+      "report_id": "iem-lsr-IWX-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120315",
       "standard_time_display": "2026-06-11 21:15 CST",
@@ -1401,7 +1709,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-62",
+      "report_id": "iem-lsr-IWX-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120317",
       "standard_time_display": "2026-06-11 21:17 CST",
@@ -1423,7 +1731,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-63",
+      "report_id": "iem-lsr-IWX-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120320",
       "standard_time_display": "2026-06-11 22:20 EST",
@@ -1445,7 +1753,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-64",
+      "report_id": "iem-lsr-IWX-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120320",
       "standard_time_display": "2026-06-11 22:20 EST",
@@ -1467,7 +1775,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-65",
+      "report_id": "iem-lsr-IWX-79",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120320",
+      "standard_time_display": "2026-06-11 21:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Orland",
+      "county": "Steuben",
+      "state": "IN",
+      "source": "NWS Employee",
+      "remark": "Numerous 6-8 diameter or less limbs downed_ a couple of uprooted pines between Wall Lake and the Greenlawn Cemetery areas near Orland_ IN.",
+      "lat": 41.73,
+      "lon": -85.17,
+      "ugc": "INC151",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120325",
       "standard_time_display": "2026-06-11 21:25 CST",
@@ -1489,7 +1819,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-66",
+      "report_id": "iem-lsr-IWX-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120325",
+      "standard_time_display": "2026-06-11 21:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE East Gilead",
+      "county": "Branch",
+      "state": "MI",
+      "source": "NWS Employee",
+      "remark": "Large 1-2ft diameter healthy limb down on a tree. Several 6-8 inch diameter limbs downed in the area.",
+      "lat": 41.77,
+      "lon": -85.08,
+      "ugc": "MIC023",
+      "ugc_name": "Branch",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-82",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120325",
+      "standard_time_display": "2026-06-11 21:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE East Gilead",
+      "county": "Branch",
+      "state": "MI",
+      "source": "NWS Employee",
+      "remark": "3-6 diameter limbs damaged_ numerous smaller branches downed.",
+      "lat": 41.76,
+      "lon": -85.06,
+      "ugc": "MIC023",
+      "ugc_name": "Branch",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120325",
       "standard_time_display": "2026-06-11 21:25 CST",
@@ -1511,7 +1885,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-67",
+      "report_id": "iem-lsr-IWX-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120325",
       "standard_time_display": "2026-06-11 21:25 CST",
@@ -1533,7 +1907,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-68",
+      "report_id": "iem-lsr-IWX-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120328",
       "standard_time_display": "2026-06-11 21:28 CST",
@@ -1555,7 +1929,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-69",
+      "report_id": "iem-lsr-IWX-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120330",
       "standard_time_display": "2026-06-11 22:30 EST",
@@ -1577,7 +1951,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-70",
+      "report_id": "iem-lsr-IWX-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120330",
       "standard_time_display": "2026-06-11 22:30 EST",
@@ -1599,7 +1973,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-IWX-71",
+      "report_id": "iem-lsr-IWX-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120333",
+      "standard_time_display": "2026-06-11 22:33 EST",
+      "standard_time_zone": "EST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Scott",
+      "county": "Van Wert",
+      "state": "OH",
+      "source": "Emergency Mngr",
+      "remark": "numerous large trees down.",
+      "lat": 40.99,
+      "lon": -84.58,
+      "ugc": "OHC161",
+      "ugc_name": "Van Wert",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-89",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606120355",
+      "standard_time_display": "2026-06-11 22:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Jonesville",
+      "county": "Hillsdale",
+      "state": "MI",
+      "source": "Trained Spotter",
+      "remark": "Large branches down 6 inches to a foot in diameter.",
+      "lat": 41.98,
+      "lon": -84.67,
+      "ugc": "MIC059",
+      "ugc_name": "Hillsdale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606120410",
       "standard_time_display": "2026-06-11 23:10 EST",
@@ -1627,7 +2045,7 @@
       "wfo": "IWX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-12T12:29:57Z"
+      "generated_utc": "2026-06-13T11:24:50Z"
     },
     "primary_links": [
       {

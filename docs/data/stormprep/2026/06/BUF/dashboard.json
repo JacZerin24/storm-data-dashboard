@@ -6,7 +6,7 @@
     "wfo": "BUF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-12T12:29:20Z",
+    "generated_utc": "2026-06-13T11:24:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "BUF",
-    "total_candidate_reports": 16,
-    "mapped_candidate_reports": 16,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
       "flooding": 1,
-      "marine": 2,
+      "marine": 3,
       "other": 2,
-      "thunderstorm_wind": 11
+      "thunderstorm_wind": 15
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "MARINE TSTM WIND": 2,
+      "MARINE TSTM WIND": 3,
       "RAIN": 2,
-      "TSTM WND DMG": 11
+      "TSTM WND DMG": 15
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -186,6 +186,50 @@
     {
       "report_id": "iem-lsr-BUF-7",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606111737",
+      "standard_time_display": "2026-06-11 12:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Springville",
+      "county": "Erie",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Corrects previous tstm wnd dmg report from 3 WSW Springville due to Zulu conversion error. Tree down on Trevett Rd in the Town of Concord.",
+      "lat": 42.5,
+      "lon": -78.73,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606111837",
+      "standard_time_display": "2026-06-11 13:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Springville",
+      "county": "Erie",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Corrects previous tstm wnd dmg report from 3 WSW Springville for timing. Tree down on Trevett Rd in the Town of Concord.",
+      "lat": 42.5,
+      "lon": -78.73,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-9",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606111910",
       "standard_time_display": "2026-06-11 14:10 EST",
       "standard_time_zone": "EST",
@@ -206,7 +250,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-8",
+      "report_id": "iem-lsr-BUF-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606111911",
+      "standard_time_display": "2026-06-11 14:11 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Frewsburg",
+      "county": "Chautauqua",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree down.",
+      "lat": 42.06,
+      "lon": -79.12,
+      "ugc": "NYC013",
+      "ugc_name": "Chautauqua",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606111937",
+      "standard_time_display": "2026-06-11 14:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Springville",
+      "county": "Erie",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree down on Trevett Rd in the Town of Concord.",
+      "lat": 42.5,
+      "lon": -78.73,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606111942",
       "standard_time_display": "2026-06-11 14:42 EST",
@@ -228,7 +316,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-9",
+      "report_id": "iem-lsr-BUF-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606111945",
       "standard_time_display": "2026-06-11 14:45 EST",
@@ -250,7 +338,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-10",
+      "report_id": "iem-lsr-BUF-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606111945",
       "standard_time_display": "2026-06-11 14:45 EST",
@@ -272,7 +360,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-11",
+      "report_id": "iem-lsr-BUF-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112011",
       "standard_time_display": "2026-06-11 15:11 EST",
@@ -294,7 +382,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-12",
+      "report_id": "iem-lsr-BUF-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112011",
       "standard_time_display": "2026-06-11 15:11 EST",
@@ -316,7 +404,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-13",
+      "report_id": "iem-lsr-BUF-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112021",
       "standard_time_display": "2026-06-11 15:21 EST",
@@ -338,7 +426,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-14",
+      "report_id": "iem-lsr-BUF-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606112026",
+      "standard_time_display": "2026-06-11 15:26 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 NW Kent",
+      "county": "LOZ042",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Multiple reports of tree and wires downed nearby on land.",
+      "lat": 43.38,
+      "lon": -78.19,
+      "ugc": "LOZ042",
+      "ugc_name": "Niagara River to Hamlin Beach NY",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112026",
       "standard_time_display": "2026-06-11 15:26 EST",
@@ -360,7 +470,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-15",
+      "report_id": "iem-lsr-BUF-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112252",
       "standard_time_display": "2026-06-11 17:52 EST",
@@ -382,7 +492,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-16",
+      "report_id": "iem-lsr-BUF-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606112253",
       "standard_time_display": "2026-06-11 17:53 EST",
@@ -410,7 +520,7 @@
       "wfo": "BUF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-12T12:29:20Z"
+      "generated_utc": "2026-06-13T11:24:14Z"
     },
     "primary_links": [
       {
