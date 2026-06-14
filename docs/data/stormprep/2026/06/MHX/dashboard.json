@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-13T11:25:05Z",
+    "generated_utc": "2026-06-14T11:37:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "MHX",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
-      "marine": 5,
-      "thunderstorm_wind": 1
+      "marine": 6,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 5,
+      "MARINE TSTM WIND": 6,
+      "TSTM WND DMG": 1,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -72,6 +73,28 @@
     {
       "report_id": "iem-lsr-MHX-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606130348",
+      "standard_time_display": "2026-06-12 22:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 ENE Hinson",
+      "county": "Washington",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Delayed report. Washington County reported a tree down near the intersection of HWY 32 and HWY 99.",
+      "lat": 35.79,
+      "lon": -76.72,
+      "ugc": "NCC187",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606130403",
       "standard_time_display": "2026-06-12 23:03 EST",
       "standard_time_zone": "EST",
@@ -92,7 +115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-3",
+      "report_id": "iem-lsr-MHX-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606130416",
       "standard_time_display": "2026-06-12 23:16 EST",
@@ -114,7 +137,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-4",
+      "report_id": "iem-lsr-MHX-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606130427",
       "standard_time_display": "2026-06-12 23:27 EST",
@@ -136,7 +159,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-5",
+      "report_id": "iem-lsr-MHX-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606130437",
       "standard_time_display": "2026-06-12 23:37 EST",
@@ -158,7 +181,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-6",
+      "report_id": "iem-lsr-MHX-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606130537",
       "standard_time_display": "2026-06-13 00:37 EST",
@@ -178,6 +201,28 @@
       "ugc": "AMZ135",
       "ugc_name": "Pamlico Sound",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606130600",
+      "standard_time_display": "2026-06-13 01:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "3 SE Oregon Inlet",
+      "county": "AMZ152",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Delayed report. A 40kt wind gust was measured at the KHK Resort WeatherFlow station.",
+      "lat": 35.75,
+      "lon": -75.5,
+      "ugc": "AMZ152",
+      "ugc_name": "S of Oregon Inlet NC to Cape Hatteras NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -186,7 +231,7 @@
       "wfo": "MHX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-13T11:25:06Z"
+      "generated_utc": "2026-06-14T11:37:32Z"
     },
     "primary_links": [
       {

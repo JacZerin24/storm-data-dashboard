@@ -7,7 +7,7 @@
     "wfo": "MHX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-13T11:25:05Z",
+    "generated_utc": "2026-06-14T11:37:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -46,6 +46,32 @@
       "id": "iem-lsr-MHX-2",
       "properties": {
         "report_id": "iem-lsr-MHX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606130348",
+        "standard_time_display": "2026-06-12 22:48 EST",
+        "wfo": "MHX",
+        "county_or_zone": "Washington",
+        "city": "5 ENE Hinson",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Delayed report. Washington County reported a tree down near the intersection of HWY 32 and HWY 99."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.72,
+          35.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-3",
+      "properties": {
+        "report_id": "iem-lsr-MHX-3",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606130403",
@@ -69,9 +95,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MHX-3",
+      "id": "iem-lsr-MHX-4",
       "properties": {
-        "report_id": "iem-lsr-MHX-3",
+        "report_id": "iem-lsr-MHX-4",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606130416",
@@ -95,9 +121,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MHX-4",
+      "id": "iem-lsr-MHX-5",
       "properties": {
-        "report_id": "iem-lsr-MHX-4",
+        "report_id": "iem-lsr-MHX-5",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606130427",
@@ -121,9 +147,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MHX-5",
+      "id": "iem-lsr-MHX-6",
       "properties": {
-        "report_id": "iem-lsr-MHX-5",
+        "report_id": "iem-lsr-MHX-6",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606130437",
@@ -147,9 +173,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MHX-6",
+      "id": "iem-lsr-MHX-7",
       "properties": {
-        "report_id": "iem-lsr-MHX-6",
+        "report_id": "iem-lsr-MHX-7",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202606130537",
@@ -168,6 +194,32 @@
         "coordinates": [
           -75.49,
           35.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-8",
+      "properties": {
+        "report_id": "iem-lsr-MHX-8",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606130600",
+        "standard_time_display": "2026-06-13 01:00 EST",
+        "wfo": "MHX",
+        "county_or_zone": "AMZ152",
+        "city": "3 SE Oregon Inlet",
+        "state": "NC",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Delayed report. A 40kt wind gust was measured at the KHK Resort WeatherFlow station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5,
+          35.75
         ]
       }
     }
