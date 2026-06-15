@@ -7,12 +7,65 @@
     "wfo": "HFO",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-14T11:37:09Z",
+    "generated_utc": "2026-06-15T15:24:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HFO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HFO-1",
+      "properties": {
+        "report_id": "iem-lsr-HFO-1",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202606150951",
+        "standard_time_display": "2026-06-14 23:51 HST",
+        "wfo": "HFO",
+        "county_or_zone": "Honolulu",
+        "city": "Aina Haina",
+        "state": "HI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "At around 430 pm HST_ a boat capsized off of Aina Haina. Five people rescued_ one hospitalized."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.75,
+          21.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HFO-2",
+      "properties": {
+        "report_id": "iem-lsr-HFO-2",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202606151002",
+        "standard_time_display": "2026-06-15 00:02 HST",
+        "wfo": "HFO",
+        "county_or_zone": "Hawaii",
+        "city": "Keauhou",
+        "state": "HI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed Report: 6/13/2026 approx. 1pm HST_ waves crashing over Condo townhomes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.96,
+          19.57
+        ]
+      }
+    }
+  ]
 }

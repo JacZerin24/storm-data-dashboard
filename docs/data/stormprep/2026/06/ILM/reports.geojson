@@ -7,7 +7,7 @@
     "wfo": "ILM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-14T11:37:13Z",
+    "generated_utc": "2026-06-15T15:25:00Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -48,6 +48,32 @@
         "report_id": "iem-lsr-ILM-2",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
+        "valid_utc": "202606132000",
+        "standard_time_display": "2026-06-13 15:00 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Horry",
+        "city": "Longs",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous tstm wnd dmg report. Several trees were blown down in the Longs area_ include one tree that was brought down across utility lines and a house. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.73,
+          33.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-3",
+      "properties": {
+        "report_id": "iem-lsr-ILM-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
         "valid_utc": "202606132019",
         "standard_time_display": "2026-06-13 15:19 EST",
         "wfo": "ILM",
@@ -64,6 +90,58 @@
         "coordinates": [
           -78.73,
           33.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-4",
+      "properties": {
+        "report_id": "iem-lsr-ILM-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606141740",
+        "standard_time_display": "2026-06-14 12:40 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Horry",
+        "city": "1 SW Conway",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Several trees down in Conway near HWY 378 and HWY 701S."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.07,
+          33.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-5",
+      "properties": {
+        "report_id": "iem-lsr-ILM-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606142320",
+        "standard_time_display": "2026-06-14 18:20 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Robeson",
+        "city": "5 S Proctorville",
+        "state": "NC",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Large tree uprooted in Barnesville. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.05,
+          34.41
         ]
       }
     }

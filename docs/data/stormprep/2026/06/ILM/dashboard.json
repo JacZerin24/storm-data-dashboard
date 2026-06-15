@@ -6,7 +6,7 @@
     "wfo": "ILM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-14T11:37:13Z",
+    "generated_utc": "2026-06-15T15:25:00Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "ILM",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
       "marine": 1,
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
       "RIP CURRENTS": 1,
-      "TSTM WND DMG": 1
+      "TSTM WND DMG": 3,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -72,6 +73,28 @@
     {
       "report_id": "iem-lsr-ILM-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606132000",
+      "standard_time_display": "2026-06-13 15:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Longs",
+      "county": "Horry",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Corrects previous tstm wnd dmg report. Several trees were blown down in the Longs area_ include one tree that was brought down across utility lines and a house. Time estimated by radar.",
+      "lat": 33.94,
+      "lon": -78.73,
+      "ugc": "SCC051",
+      "ugc_name": "Horry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-3",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606132019",
       "standard_time_display": "2026-06-13 15:19 EST",
       "standard_time_zone": "EST",
@@ -90,6 +113,50 @@
       "ugc": "SCC051",
       "ugc_name": "Horry",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606141740",
+      "standard_time_display": "2026-06-14 12:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Conway",
+      "county": "Horry",
+      "state": "SC",
+      "source": "911 Call Center",
+      "remark": "Several trees down in Conway near HWY 378 and HWY 701S.",
+      "lat": 33.83,
+      "lon": -79.07,
+      "ugc": "SCC051",
+      "ugc_name": "Horry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142320",
+      "standard_time_display": "2026-06-14 18:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "5 S Proctorville",
+      "county": "Robeson",
+      "state": "NC",
+      "source": "Broadcast Media",
+      "remark": "Large tree uprooted in Barnesville. Time estimated by radar.",
+      "lat": 34.41,
+      "lon": -79.05,
+      "ugc": "NCC155",
+      "ugc_name": "Robeson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -98,7 +165,7 @@
       "wfo": "ILM",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-14T11:37:13Z"
+      "generated_utc": "2026-06-15T15:25:01Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-14T11:36:29Z",
+    "generated_utc": "2026-06-15T15:24:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 6,
     "wfo": "ABQ",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 5,
-      "thunderstorm_wind": 13
+      "thunderstorm_wind": 14
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
@@ -31,7 +31,7 @@
       "NON-TSTM WND DMG": 1,
       "NON-TSTM WND GST": 3,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 8
+      "TSTM WND GST": 9
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -492,6 +492,28 @@
       "ugc": "NMC007",
       "ugc_name": "Colfax",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142143",
+      "standard_time_display": "2026-06-14 14:43 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "Northern Meadows",
+      "county": "Sandoval",
+      "state": "NM",
+      "source": "Emergency Mngr",
+      "remark": "Estimated 50-60mph peak wind gust alongside dime size hail.",
+      "lat": 35.31,
+      "lon": -106.72,
+      "ugc": "NMC043",
+      "ugc_name": "Sandoval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -500,7 +522,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-14T11:36:29Z"
+      "generated_utc": "2026-06-15T15:24:19Z"
     },
     "primary_links": [
       {

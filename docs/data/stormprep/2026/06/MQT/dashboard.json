@@ -6,7 +6,7 @@
     "wfo": "MQT",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-14T11:37:36Z",
+    "generated_utc": "2026-06-15T15:25:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "MQT",
-    "total_candidate_reports": 60,
-    "mapped_candidate_reports": 60,
+    "total_candidate_reports": 62,
+    "mapped_candidate_reports": 62,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "hail": 1,
       "other": 55,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
-      "NON-TSTM WND GST": 3,
+      "NON-TSTM WND GST": 5,
       "RAIN": 55,
       "WILDFIRE": 1
     },
@@ -1370,6 +1370,50 @@
       "ugc": "MIC083",
       "ugc_name": "Keweenaw",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-61",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606132126",
+      "standard_time_display": "2026-06-13 15:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "Houghton Co Airport",
+      "county": "Houghton",
+      "state": "MI",
+      "source": "ASOS",
+      "remark": "ASOS station KCMX Houghton Co. Airport.",
+      "lat": 47.17,
+      "lon": -88.48,
+      "ugc": "MIC061",
+      "ugc_name": "Houghton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142015",
+      "standard_time_display": "2026-06-14 14:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "Minneapolis Shoals",
+      "county": "LMZ221",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station XMAPV Minneapolis Shoal.",
+      "lat": 45.58,
+      "lon": -87.0,
+      "ugc": "LMZ221",
+      "ugc_name": "Green Bay North of line from Cedar River MI to Rock Island Passage",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1378,7 +1422,7 @@
       "wfo": "MQT",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-14T11:37:36Z"
+      "generated_utc": "2026-06-15T15:25:23Z"
     },
     "primary_links": [
       {
