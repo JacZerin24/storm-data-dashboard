@@ -6,7 +6,7 @@
     "wfo": "BRO",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:24:31Z",
+    "generated_utc": "2026-06-16T14:26:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "BRO",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "flooding": 2
+      "flooding": 5
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 2
+      "FLASH FLOOD": 2,
+      "FLOOD": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -88,6 +89,72 @@
       "ugc": "TXC061",
       "ugc_name": "Cameron",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BRO-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606151315",
+      "standard_time_display": "2026-06-15 07:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Weslaco",
+      "county": "Hidalgo",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Numerous social media reports and news media coverage of flooding along the I-2 frontage road in Weslaco near North Republic St and North Texas Blvd.",
+      "lat": 26.17,
+      "lon": -97.99,
+      "ugc": "TXC215",
+      "ugc_name": "Hidalgo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BRO-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606151548",
+      "standard_time_display": "2026-06-15 09:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Weslaco",
+      "county": "Hidalgo",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Traffic cameras show standing water along the frontage road near Bridge Ave in Weslaco.",
+      "lat": 26.17,
+      "lon": -97.98,
+      "ugc": "TXC215",
+      "ugc_name": "Hidalgo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BRO-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606152235",
+      "standard_time_display": "2026-06-15 16:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Rio Grande City",
+      "county": "Starr",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Law Enforcement reported flooded streets near FM3167 and Eisenhower in Rio Grande City_ noting multiple side streets flooded.",
+      "lat": 26.39,
+      "lon": -98.85,
+      "ugc": "TXC427",
+      "ugc_name": "Starr",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +163,7 @@
       "wfo": "BRO",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-15T15:24:31Z"
+      "generated_utc": "2026-06-16T14:26:19Z"
     },
     "primary_links": [
       {

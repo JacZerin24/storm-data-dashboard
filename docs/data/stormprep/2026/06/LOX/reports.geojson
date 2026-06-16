@@ -7,12 +7,117 @@
     "wfo": "LOX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:25:12Z",
+    "generated_utc": "2026-06-16T14:27:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOX-1",
+      "properties": {
+        "report_id": "iem-lsr-LOX-1",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606140218",
+        "standard_time_display": "2026-06-13 18:18 PST",
+        "wfo": "LOX",
+        "county_or_zone": "Los Angeles",
+        "city": "1 WNW Malibu",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Minor coastal flooding into Zuma Beach parking lots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.83,
+          34.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOX-2",
+      "properties": {
+        "report_id": "iem-lsr-LOX-2",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606140218",
+        "standard_time_display": "2026-06-13 18:18 PST",
+        "wfo": "LOX",
+        "county_or_zone": "Los Angeles",
+        "city": "7 ENE Point Dume",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Minor coastal flooding at Surfrider beach."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68,
+          34.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOX-3",
+      "properties": {
+        "report_id": "iem-lsr-LOX-3",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606150306",
+        "standard_time_display": "2026-06-14 19:06 PST",
+        "wfo": "LOX",
+        "county_or_zone": "Los Angeles",
+        "city": "1 WNW Malibu",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Minor coastal flooding into Zuma Beach parking lots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.83,
+          34.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOX-4",
+      "properties": {
+        "report_id": "iem-lsr-LOX-4",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606150306",
+        "standard_time_display": "2026-06-14 19:06 PST",
+        "wfo": "LOX",
+        "county_or_zone": "Los Angeles",
+        "city": "3 SE Long Beach",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Minor coastal flooding in Peninsula and Belmont Shore."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.12,
+          33.75
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "LUB",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:25:14Z",
+    "generated_utc": "2026-06-16T14:27:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 6,
     "wfo": "LUB",
-    "total_candidate_reports": 41,
-    "mapped_candidate_reports": 41,
+    "total_candidate_reports": 43,
+    "mapped_candidate_reports": 43,
     "candidate_report_counts": {
       "flooding": 11,
       "hail": 13,
       "other": 1,
-      "thunderstorm_wind": 16
+      "thunderstorm_wind": 18
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 11,
       "HAIL": 13,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 5,
-      "TSTM WND DMG": 2,
+      "TSTM WND DMG": 4,
       "TSTM WND GST": 9
     },
     "nws_api_alert_count": 0,
@@ -954,6 +954,50 @@
       "ugc": "TXC305",
       "ugc_name": "Lynn",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LUB-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606160048",
+      "standard_time_display": "2026-06-15 17:48 MST",
+      "standard_time_zone": "MST",
+      "wfo": "LUB",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Bovina",
+      "county": "Parmer",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "Three power poles snapped along FM 1731. Time estimated.",
+      "lat": 34.55,
+      "lon": -102.89,
+      "ugc": "TXC369",
+      "ugc_name": "Parmer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LUB-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606160257",
+      "standard_time_display": "2026-06-15 20:57 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LUB",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Abernathy",
+      "county": "Hale",
+      "state": "TX",
+      "source": "Public",
+      "remark": "mPing report of shingles blown off roof.",
+      "lat": 33.84,
+      "lon": -101.85,
+      "ugc": "TXC189",
+      "ugc_name": "Hale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -962,7 +1006,7 @@
       "wfo": "LUB",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-15T15:25:14Z"
+      "generated_utc": "2026-06-16T14:27:12Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "AJK",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:24:22Z",
+    "generated_utc": "2026-06-16T14:26:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 6,
     "wfo": "AJK",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "heat_cold": 4
+      "heat_cold": 4,
+      "other": 1
     },
     "candidate_report_type_counts": {
-      "EXTREME HEAT": 4
+      "EXTREME HEAT": 4,
+      "RAIN": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -132,6 +134,28 @@
       "ugc": null,
       "ugc_name": null,
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AJK-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150700",
+      "standard_time_display": "2026-06-14 22:00 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AJK",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.51,
+      "magnitude_qualifier": null,
+      "city": "Port Alexander",
+      "county": "Prince of Wales-Hyd",
+      "state": "AK",
+      "source": "Public",
+      "remark": "Facebook comment for 1.51 inches in 24 hours as of 11 pm 6/14.",
+      "lat": 56.25,
+      "lon": -134.65,
+      "ugc": null,
+      "ugc_name": null,
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -140,7 +164,7 @@
       "wfo": "AJK",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-15T15:24:22Z"
+      "generated_utc": "2026-06-16T14:26:08Z"
     },
     "primary_links": [
       {

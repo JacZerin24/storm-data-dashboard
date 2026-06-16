@@ -7,12 +7,143 @@
     "wfo": "CRP",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:24:37Z",
+    "generated_utc": "2026-06-16T14:26:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-1",
+      "properties": {
+        "report_id": "iem-lsr-CRP-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606152158",
+        "standard_time_display": "2026-06-15 15:58 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "5 S Corpus Christi",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Street/road flooding; Street/road closed; Vehicles stranded."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4,
+          27.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-2",
+      "properties": {
+        "report_id": "iem-lsr-CRP-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606152200",
+        "standard_time_display": "2026-06-15 16:00 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "2 SSW Corpus Christi",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Car submerged and stranded due to high water over road under bridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42,
+          27.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-3",
+      "properties": {
+        "report_id": "iem-lsr-CRP-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606152200",
+        "standard_time_display": "2026-06-15 16:00 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "Chapman Ranch",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "FM-70 to Chapman Ranch Road closed due to flooding as shown on DriveTexas. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45,
+          27.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-4",
+      "properties": {
+        "report_id": "iem-lsr-CRP-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606152215",
+        "standard_time_display": "2026-06-15 16:15 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "4 S Corpus Christi",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Flooded roads around McArdle and Kostoryz."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41,
+          27.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-5",
+      "properties": {
+        "report_id": "iem-lsr-CRP-5",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606152230",
+        "standard_time_display": "2026-06-15 16:30 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "5 W Flour Bluff",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Street/road flooding; Street/road closed; Vehicles stranded."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38,
+          27.67
+        ]
+      }
+    }
+  ]
 }

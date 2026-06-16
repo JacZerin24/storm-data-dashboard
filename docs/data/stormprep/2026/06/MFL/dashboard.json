@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-15T15:25:17Z",
+    "generated_utc": "2026-06-16T14:27:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,22 @@
     "year": 2026,
     "month": 6,
     "wfo": "MFL",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
+      "fire_smoke": 1,
       "flooding": 1,
       "marine": 1,
-      "thunderstorm_wind": 3,
+      "thunderstorm_wind": 4,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
       "MARINE TSTM WIND": 1,
       "TSTM WND DMG": 3,
-      "WATERSPOUT": 1
+      "TSTM WND GST": 1,
+      "WATERSPOUT": 1,
+      "WILDFIRE": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -184,6 +187,50 @@
       "ugc": "AMZ650",
       "ugc_name": "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606152101",
+      "standard_time_display": "2026-06-15 16:01 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "1 N Pompano Beach",
+      "county": "Broward",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "ASOS station KPMP Pompano Beach measured a 54 MPH wind gust as a strong storm pushed offshore.",
+      "lat": 26.25,
+      "lon": -80.12,
+      "ugc": "FLC011",
+      "ugc_name": "Broward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606160110",
+      "standard_time_display": "2026-06-15 20:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WSW Doral",
+      "county": "Miami-Dade",
+      "state": "FL",
+      "source": "Park/Forest Srvc",
+      "remark": "The Quarry 2 wildfire has surpassed 500 acres as it continues to burn and fire fighters continue to work on containing it. Currently_ the fire is 20% contained according to the Florida Forest Service",
+      "lat": 25.81,
+      "lon": -80.45,
+      "ugc": "FLC086",
+      "ugc_name": "Miami-Dade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -192,7 +239,7 @@
       "wfo": "MFL",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-15T15:25:18Z"
+      "generated_utc": "2026-06-16T14:27:17Z"
     },
     "primary_links": [
       {
