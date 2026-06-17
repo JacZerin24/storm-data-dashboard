@@ -6,7 +6,7 @@
     "wfo": "SHV",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-16T14:27:48Z",
+    "generated_utc": "2026-06-17T12:58:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "SHV",
-    "total_candidate_reports": 56,
-    "mapped_candidate_reports": 56,
+    "total_candidate_reports": 58,
+    "mapped_candidate_reports": 58,
     "candidate_report_counts": {
-      "flooding": 27,
+      "flooding": 28,
+      "other": 1,
       "thunderstorm_wind": 29
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 27,
+      "FLASH FLOOD": 28,
+      "RAIN": 1,
       "TSTM WND DMG": 29
     },
     "nws_api_alert_count": 0,
@@ -1062,6 +1064,50 @@
     {
       "report_id": "iem-lsr-SHV-47",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606151754",
+      "standard_time_display": "2026-06-15 11:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SHV",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Marshall",
+      "county": "Harrison",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Several water rescues reported and one house reported flooded in Marshall.",
+      "lat": 32.54,
+      "lon": -94.35,
+      "ugc": "TXC203",
+      "ugc_name": "Harrison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SHV-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606151756",
+      "standard_time_display": "2026-06-15 11:56 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SHV",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 5.11,
+      "magnitude_qualifier": null,
+      "city": "1 NW Marshall",
+      "county": "Harrison",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Measured in Downtown Marshall.",
+      "lat": 32.55,
+      "lon": -94.37,
+      "ugc": "TXC203",
+      "ugc_name": "Harrison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SHV-49",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151800",
       "standard_time_display": "2026-06-15 12:00 CST",
       "standard_time_zone": "CST",
@@ -1082,7 +1128,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-48",
+      "report_id": "iem-lsr-SHV-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151805",
       "standard_time_display": "2026-06-15 12:05 CST",
@@ -1104,7 +1150,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-49",
+      "report_id": "iem-lsr-SHV-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151806",
       "standard_time_display": "2026-06-15 12:06 CST",
@@ -1126,7 +1172,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-50",
+      "report_id": "iem-lsr-SHV-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151809",
       "standard_time_display": "2026-06-15 12:09 CST",
@@ -1148,7 +1194,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-51",
+      "report_id": "iem-lsr-SHV-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151810",
       "standard_time_display": "2026-06-15 12:10 CST",
@@ -1170,7 +1216,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-52",
+      "report_id": "iem-lsr-SHV-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151813",
       "standard_time_display": "2026-06-15 12:13 CST",
@@ -1192,7 +1238,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-53",
+      "report_id": "iem-lsr-SHV-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151825",
       "standard_time_display": "2026-06-15 12:25 CST",
@@ -1214,7 +1260,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-54",
+      "report_id": "iem-lsr-SHV-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151832",
       "standard_time_display": "2026-06-15 12:32 CST",
@@ -1236,7 +1282,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-55",
+      "report_id": "iem-lsr-SHV-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151840",
       "standard_time_display": "2026-06-15 12:40 CST",
@@ -1258,7 +1304,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-56",
+      "report_id": "iem-lsr-SHV-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606151840",
       "standard_time_display": "2026-06-15 12:40 CST",
@@ -1286,7 +1332,7 @@
       "wfo": "SHV",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-16T14:27:48Z"
+      "generated_utc": "2026-06-17T12:58:29Z"
     },
     "primary_links": [
       {

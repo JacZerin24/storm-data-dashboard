@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-16T14:27:18Z",
+    "generated_utc": "2026-06-17T12:58:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,25 +17,28 @@
     "year": 2026,
     "month": 6,
     "wfo": "MHX",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
     "candidate_report_counts": {
       "hail": 2,
       "marine": 7,
-      "thunderstorm_wind": 6
+      "thunderstorm_wind": 8,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "HAIL": 2,
       "MARINE TSTM WIND": 7,
-      "TSTM WND DMG": 5,
-      "TSTM WND GST": 1
+      "TSTM WND DMG": 7,
+      "TSTM WND GST": 1,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -47,7 +50,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -317,6 +321,50 @@
     {
       "report_id": "iem-lsr-MHX-13",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142015",
+      "standard_time_display": "2026-06-14 15:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Belhaven",
+      "county": "AMZ136",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Delayed report. A 60 foot vessel was blown onto shore near Haystack Point along the Pungo River as a severe thunderstorm moved through.",
+      "lat": 35.51,
+      "lon": -76.59,
+      "ugc": "AMZ136",
+      "ugc_name": "Pamlico and Pungo Rivers",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142015",
+      "standard_time_display": "2026-06-14 15:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SW Leechville",
+      "county": "Beaufort",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Delayed report. Several pine trees were snapped in half. Aluminum trim siding was blown off a house. A nearby public weather station was reported to have measured a 74 mph wind gust_ although this me",
+      "lat": 35.53,
+      "lon": -76.55,
+      "ugc": "NCC013",
+      "ugc_name": "Beaufort",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142017",
       "standard_time_display": "2026-06-14 15:17 EST",
       "standard_time_zone": "EST",
@@ -337,7 +385,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-14",
+      "report_id": "iem-lsr-MHX-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142029",
       "standard_time_display": "2026-06-14 15:29 EST",
@@ -359,7 +407,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-15",
+      "report_id": "iem-lsr-MHX-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142118",
       "standard_time_display": "2026-06-14 16:18 EST",
@@ -379,6 +427,28 @@
       "ugc": "AMZ131",
       "ugc_name": "Alligator River",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606161759",
+      "standard_time_display": "2026-06-16 12:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Stella",
+      "county": "AMZ158",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Onslow EM relayed a report of a waterspout seen in the vicinity of the White Oak River north of Swansboro. Multiple reports and pictures were received in this area from the public as well.",
+      "lat": 34.75,
+      "lon": -77.13,
+      "ugc": "AMZ158",
+      "ugc_name": "S of Cape Lookout NC to Surf City NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -387,7 +457,7 @@
       "wfo": "MHX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-16T14:27:19Z"
+      "generated_utc": "2026-06-17T12:58:06Z"
     },
     "primary_links": [
       {

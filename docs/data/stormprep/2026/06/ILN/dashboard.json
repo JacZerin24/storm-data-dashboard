@@ -6,7 +6,7 @@
     "wfo": "ILN",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-16T14:26:56Z",
+    "generated_utc": "2026-06-17T12:57:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "ILN",
-    "total_candidate_reports": 106,
-    "mapped_candidate_reports": 106,
+    "total_candidate_reports": 108,
+    "mapped_candidate_reports": 108,
     "candidate_report_counts": {
       "flooding": 7,
       "hail": 14,
-      "thunderstorm_wind": 85
+      "thunderstorm_wind": 85,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 6,
+      "FUNNEL CLOUD": 2,
       "HAIL": 14,
       "TSTM WND DMG": 62,
       "TSTM WND GST": 23
@@ -36,7 +38,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -48,7 +51,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -2382,6 +2386,50 @@
       "ugc": "KYC161",
       "ugc_name": "Mason",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-107",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606162358",
+      "standard_time_display": "2026-06-16 18:58 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Celina",
+      "county": "Mercer",
+      "state": "OH",
+      "source": "Broadcast Media",
+      "remark": "Location approximate.",
+      "lat": 40.6,
+      "lon": -84.58,
+      "ugc": "OHC107",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-108",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606170020",
+      "standard_time_display": "2026-06-16 19:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Saint Marys",
+      "county": "Auglaize",
+      "state": "OH",
+      "source": "Trained Spotter",
+      "remark": "Location approximate.",
+      "lat": 40.56,
+      "lon": -84.4,
+      "ugc": "OHC011",
+      "ugc_name": "Auglaize",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2390,7 +2438,7 @@
       "wfo": "ILN",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-16T14:26:57Z"
+      "generated_utc": "2026-06-17T12:57:50Z"
     },
     "primary_links": [
       {

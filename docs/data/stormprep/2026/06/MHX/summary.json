@@ -3,24 +3,27 @@
   "year": 2026,
   "month": 6,
   "wfo": "MHX",
-  "total_candidate_reports": 15,
-  "mapped_candidate_reports": 15,
+  "total_candidate_reports": 18,
+  "mapped_candidate_reports": 18,
   "candidate_report_counts": {
     "hail": 2,
     "marine": 7,
-    "thunderstorm_wind": 6
+    "thunderstorm_wind": 8,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "HAIL": 2,
     "MARINE TSTM WIND": 7,
-    "TSTM WND DMG": 5,
-    "TSTM WND GST": 1
+    "TSTM WND DMG": 7,
+    "TSTM WND GST": 1,
+    "WATERSPOUT": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
