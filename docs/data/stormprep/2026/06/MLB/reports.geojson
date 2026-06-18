@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-17T12:58:08Z",
+    "generated_utc": "2026-06-18T12:32:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1286,6 +1286,110 @@
         "coordinates": [
           -80.24,
           27.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-50",
+      "properties": {
+        "report_id": "iem-lsr-MLB-50",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606172311",
+        "standard_time_display": "2026-06-17 18:11 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 SSW Melbourne",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "The ASOS at the Melbourne International Airport measured a wind gust of 40MPH/35KTS from the west."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-51",
+      "properties": {
+        "report_id": "iem-lsr-MLB-51",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606172322",
+        "standard_time_display": "2026-06-17 18:22 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "1 W Melbourne Beach",
+        "state": "FL",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wind gust report from 1 W Melbourne Beach to marine tstm wind report. The WeatherFlow station at Melbourne South DB8 measured a peak wind gust of 61MPH/53KT from the northwest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.58,
+          28.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-52",
+      "properties": {
+        "report_id": "iem-lsr-MLB-52",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606172322",
+        "standard_time_display": "2026-06-17 18:22 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "1 W Melbourne Beach",
+        "state": "FL",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet south of the Melbourne Causeway near Melbourne Beach Pier measured a thunder storm wind gust of 53kts/61mph from the northeast."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.58,
+          28.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-53",
+      "properties": {
+        "report_id": "iem-lsr-MLB-53",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606172329",
+        "standard_time_display": "2026-06-17 18:29 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 S Melbourne Beach",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet site south of Melbourne Beach measured a thunderstorm wind gust of 37kts/43mph from the northwest."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56,
+          28.05
         ]
       }
     }

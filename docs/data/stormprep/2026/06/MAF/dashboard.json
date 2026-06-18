@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-17T12:58:04Z",
+    "generated_utc": "2026-06-18T12:32:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "MAF",
-    "total_candidate_reports": 24,
-    "mapped_candidate_reports": 24,
+    "total_candidate_reports": 25,
+    "mapped_candidate_reports": 25,
     "candidate_report_counts": {
       "flooding": 13,
       "other": 1,
-      "thunderstorm_wind": 10
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 12,
       "FLOOD": 1,
       "LANDSPOUT": 1,
+      "NON-TSTM WND GST": 1,
       "TSTM WND DMG": 4,
       "TSTM WND GST": 6
     },
@@ -578,6 +579,28 @@
       "ugc": "TXC109",
       "ugc_name": "Culberson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180338",
+      "standard_time_display": "2026-06-17 20:38 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "6 W Whites City",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet station 164 Carlsbad Caverns NP.",
+      "lat": 32.17,
+      "lon": -104.48,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -586,7 +609,7 @@
       "wfo": "MAF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-17T12:58:04Z"
+      "generated_utc": "2026-06-18T12:32:45Z"
     },
     "primary_links": [
       {

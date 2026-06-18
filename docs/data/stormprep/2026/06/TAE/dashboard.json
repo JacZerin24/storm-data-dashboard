@@ -6,7 +6,7 @@
     "wfo": "TAE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-17T12:58:32Z",
+    "generated_utc": "2026-06-18T12:33:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "TAE",
-    "total_candidate_reports": 142,
-    "mapped_candidate_reports": 142,
+    "total_candidate_reports": 146,
+    "mapped_candidate_reports": 146,
     "candidate_report_counts": {
       "hail": 1,
       "marine": 12,
-      "thunderstorm_wind": 129
+      "thunderstorm_wind": 131,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
       "MARINE TSTM WIND": 12,
-      "TSTM WND DMG": 108,
+      "TORNADO": 2,
+      "TSTM WND DMG": 110,
       "TSTM WND GST": 21
     },
     "nws_api_alert_count": 0,
@@ -35,7 +37,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -47,7 +50,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -3173,6 +3177,94 @@
       "ugc": "FLC065",
       "ugc_name": "Jefferson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-143",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606171820",
+      "standard_time_display": "2026-06-17 13:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Hooper Stage Field",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Dale County 911 Call Center reported a tree down along County Road 404. Timing estimated by radar.",
+      "lat": 31.41,
+      "lon": -85.68,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-144",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606171820",
+      "standard_time_display": "2026-06-17 13:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Klondyke Hill",
+      "county": "Dale",
+      "state": "AL",
+      "source": "911 Call Center",
+      "remark": "Dale County 911 Call Center reported a tree down along Will Logan Road. Timing estimated by radar.",
+      "lat": 31.38,
+      "lon": -85.61,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-145",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606171830",
+      "standard_time_display": "2026-06-17 13:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Ewell",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Video of a tornado around 1:30 pm CDT. TDS on radar was most apparent from 1:36 pm to 1:39 pm CDT. Tornado likely dissipated near (31.50_-85.55) around 1:41 pm CDT. Path was through a wooded area and",
+      "lat": 31.43,
+      "lon": -85.57,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-146",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606172115",
+      "standard_time_display": "2026-06-17 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Enterprise",
+      "county": "Coffee",
+      "state": "AL",
+      "source": "Broadcast Media",
+      "remark": "Video of a tornado touchdown in Enterprise lofting debris around 4:15 CDT. Path most likely through a wooded area with no structural damage reported so far.",
+      "lat": 31.3,
+      "lon": -85.87,
+      "ugc": "ALC031",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -3181,7 +3273,7 @@
       "wfo": "TAE",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-17T12:58:33Z"
+      "generated_utc": "2026-06-18T12:33:22Z"
     },
     "primary_links": [
       {

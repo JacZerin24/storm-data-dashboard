@@ -7,12 +7,117 @@
     "wfo": "PSR",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-17T12:58:22Z",
+    "generated_utc": "2026-06-18T12:33:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-1",
+      "properties": {
+        "report_id": "iem-lsr-PSR-1",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202606172225",
+        "standard_time_display": "2026-06-17 15:25 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "5 NNW Casa Grande",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Visibility measured 3/4 mile."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.77,
+          32.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-2",
+      "properties": {
+        "report_id": "iem-lsr-PSR-2",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202606172315",
+        "standard_time_display": "2026-06-17 16:15 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "9 SE Maricopa",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Visibility measured 1 mile."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92,
+          32.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-3",
+      "properties": {
+        "report_id": "iem-lsr-PSR-3",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202606172329",
+        "standard_time_display": "2026-06-17 16:29 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "6 WNW Florence",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Visibility under 1/4 mile."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.47,
+          33.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-4",
+      "properties": {
+        "report_id": "iem-lsr-PSR-4",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202606172336",
+        "standard_time_display": "2026-06-17 16:36 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "7 W Sun Lakes",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Visibility estimated 1 mile."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99,
+          33.22
+        ]
+      }
+    }
+  ]
 }

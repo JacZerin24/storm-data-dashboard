@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-17T12:58:05Z",
+    "generated_utc": "2026-06-18T12:32:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,10 @@
     "year": 2026,
     "month": 6,
     "wfo": "MFL",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
-      "fire_smoke": 1,
+      "fire_smoke": 2,
       "flooding": 1,
       "marine": 1,
       "thunderstorm_wind": 4,
@@ -32,7 +32,7 @@
       "TSTM WND DMG": 3,
       "TSTM WND GST": 1,
       "WATERSPOUT": 1,
-      "WILDFIRE": 1
+      "WILDFIRE": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -231,6 +231,28 @@
       "ugc": "FLC086",
       "ugc_name": "Miami-Dade",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606170118",
+      "standard_time_display": "2026-06-16 20:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NW Sweetwater",
+      "county": "Miami-Dade",
+      "state": "FL",
+      "source": "Park/Forest Srvc",
+      "remark": "The Well Wildfire has reached 500 acres and is at 25 percent containment per the Florida Forest Service.",
+      "lat": 25.8,
+      "lon": -80.42,
+      "ugc": "FLC086",
+      "ugc_name": "Miami-Dade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -239,7 +261,7 @@
       "wfo": "MFL",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-17T12:58:05Z"
+      "generated_utc": "2026-06-18T12:32:46Z"
     },
     "primary_links": [
       {
