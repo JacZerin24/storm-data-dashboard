@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-18T12:31:35Z",
+    "generated_utc": "2026-06-19T12:53:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "ABR",
-    "total_candidate_reports": 170,
-    "mapped_candidate_reports": 170,
+    "total_candidate_reports": 171,
+    "mapped_candidate_reports": 171,
     "candidate_report_counts": {
       "flooding": 5,
       "hail": 27,
       "other": 21,
       "thunderstorm_wind": 116,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 5,
+      "FUNNEL CLOUD": 1,
       "HAIL": 27,
       "NON-TSTM WND GST": 9,
       "RAIN": 21,
@@ -3796,6 +3797,28 @@
       "ugc": "SDC085",
       "ugc_name": "Lyman",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-171",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606172246",
+      "standard_time_display": "2026-06-17 16:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 N Fort Sisseton State",
+      "county": "Marshall",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Multiple videos and photos were received of a funnel cloud in the area near 434th Ave and south of SD Highway 10. EM reported that there was no damage in the area_ and had heard no reports of a confi",
+      "lat": 45.74,
+      "lon": -97.55,
+      "ugc": "SDC091",
+      "ugc_name": "Marshall",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -3804,7 +3827,7 @@
       "wfo": "ABR",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-18T12:31:35Z"
+      "generated_utc": "2026-06-19T12:53:44Z"
     },
     "primary_links": [
       {

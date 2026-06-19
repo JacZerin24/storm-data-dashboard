@@ -6,7 +6,7 @@
     "wfo": "BMX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-18T12:31:45Z",
+    "generated_utc": "2026-06-19T12:53:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "BMX",
-    "total_candidate_reports": 121,
-    "mapped_candidate_reports": 121,
+    "total_candidate_reports": 122,
+    "mapped_candidate_reports": 122,
     "candidate_report_counts": {
-      "flooding": 7,
+      "flooding": 8,
       "hail": 2,
       "thunderstorm_wind": 111,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 7,
+      "FLOOD": 1,
       "FUNNEL CLOUD": 1,
       "HAIL": 2,
       "TSTM WND DMG": 106,
@@ -2715,6 +2716,28 @@
       "ugc": "ALC085",
       "ugc_name": "Lowndes",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-122",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182320",
+      "standard_time_display": "2026-06-18 17:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BMX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Chalkville",
+      "county": "Jefferson",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Beaver Creek overflowed onto Sweeney Hollow Rd.",
+      "lat": 33.66,
+      "lon": -86.66,
+      "ugc": "ALC073",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2723,7 +2746,7 @@
       "wfo": "BMX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-18T12:31:45Z"
+      "generated_utc": "2026-06-19T12:53:54Z"
     },
     "primary_links": [
       {

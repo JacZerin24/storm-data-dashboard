@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-18T12:33:26Z",
+    "generated_utc": "2026-06-19T12:55:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "TWC",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 14,
+    "mapped_candidate_reports": 14,
     "candidate_report_counts": {
-      "flooding": 5,
+      "flooding": 9,
       "other": 1,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 4,
+      "FLASH FLOOD": 8,
       "FLOOD": 1,
       "RAIN": 1,
-      "TSTM WND DMG": 3
+      "TSTM WND DMG": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -75,6 +75,50 @@
     {
       "report_id": "iem-lsr-TWC-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606172253",
+      "standard_time_display": "2026-06-17 15:53 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Sahuarita",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "County Official",
+      "remark": "Sahuarita road closed in multiple locations due to flash flooding.",
+      "lat": 31.96,
+      "lon": -110.9,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606172315",
+      "standard_time_display": "2026-06-17 16:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 WSW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Delayed report. Large palo verde tree down. Time estimated from radar.",
+      "lat": 32.16,
+      "lon": -110.96,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-4",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606172320",
       "standard_time_display": "2026-06-17 16:20 MST",
       "standard_time_zone": "MST",
@@ -95,7 +139,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-3",
+      "report_id": "iem-lsr-TWC-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606172320",
       "standard_time_display": "2026-06-17 16:20 MST",
@@ -117,7 +161,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-4",
+      "report_id": "iem-lsr-TWC-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606172320",
       "standard_time_display": "2026-06-17 16:20 MST",
@@ -139,7 +183,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-5",
+      "report_id": "iem-lsr-TWC-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606172330",
+      "standard_time_display": "2026-06-17 16:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 WSW Bisbee",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "Emergency Mngr",
+      "remark": "Emergency manager reports Highway 92 flooded due to heavy rains across both sides of highway.",
+      "lat": 31.37,
+      "lon": -109.99,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180020",
       "standard_time_display": "2026-06-17 17:20 MST",
@@ -161,7 +227,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-6",
+      "report_id": "iem-lsr-TWC-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180030",
       "standard_time_display": "2026-06-17 17:30 MST",
@@ -183,7 +249,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-7",
+      "report_id": "iem-lsr-TWC-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180034",
       "standard_time_display": "2026-06-17 17:34 MST",
@@ -205,7 +271,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-8",
+      "report_id": "iem-lsr-TWC-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180034",
       "standard_time_display": "2026-06-17 17:34 MST",
@@ -227,7 +293,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-9",
+      "report_id": "iem-lsr-TWC-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180039",
+      "standard_time_display": "2026-06-17 17:39 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "11 WSW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Emergency Mngr",
+      "remark": "Significant flash flooding of the Black Wash from Camino de Oeste & W Tetakusim Rd to S Ignacio M Baumea & W Jeffrey Rd. Time estimated via rain gauge reports.",
+      "lat": 32.12,
+      "lon": -111.06,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180204",
+      "standard_time_display": "2026-06-17 19:04 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 NW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Broadcast Media",
+      "remark": "*** 1 FATAL *** Delayed Report. Media reported the individual swept away from the flash flood event on 6/17/2026 in the Santa Cruz River was found deceased near Silverlake Road around 6 am MST on 6/1",
+      "lat": 32.28,
+      "lon": -111.02,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180204",
       "standard_time_display": "2026-06-17 19:04 MST",
@@ -255,7 +365,7 @@
       "wfo": "TWC",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-18T12:33:27Z"
+      "generated_utc": "2026-06-19T12:55:36Z"
     },
     "primary_links": [
       {

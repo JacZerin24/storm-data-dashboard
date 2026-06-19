@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-18T12:33:23Z",
+    "generated_utc": "2026-06-19T12:55:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,25 @@
     "year": 2026,
     "month": 6,
     "wfo": "TBW",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 3,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
+      "FUNNEL CLOUD": 1,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 2
+      "TSTM WND GST": 2,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -43,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -111,6 +116,50 @@
       "ugc": "FLC049",
       "ugc_name": "Hardee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181450",
+      "standard_time_display": "2026-06-18 09:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Grove City",
+      "county": "GMZ856",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Possible waterspout (could not confirm contact to water).",
+      "lat": 26.86,
+      "lon": -82.32,
+      "ugc": "GMZ856",
+      "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181450",
+      "standard_time_display": "2026-06-18 09:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Grove City",
+      "county": "GMZ856",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Video from Public confirmed waterspout.",
+      "lat": 26.86,
+      "lon": -82.32,
+      "ugc": "GMZ856",
+      "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -119,7 +168,7 @@
       "wfo": "TBW",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-18T12:33:23Z"
+      "generated_utc": "2026-06-19T12:55:32Z"
     },
     "primary_links": [
       {
