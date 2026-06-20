@@ -3,17 +3,20 @@
   "year": 2026,
   "month": 6,
   "wfo": "LMK",
-  "total_candidate_reports": 269,
-  "mapped_candidate_reports": 269,
+  "total_candidate_reports": 271,
+  "mapped_candidate_reports": 271,
   "candidate_report_counts": {
     "flooding": 54,
     "other": 154,
-    "thunderstorm_wind": 61
+    "thunderstorm_wind": 62,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 42,
     "FLOOD": 12,
+    "NON-TSTM WND DMG": 1,
     "RAIN": 154,
+    "TORNADO": 1,
     "TSTM WND DMG": 58,
     "TSTM WND GST": 3
   },
@@ -22,6 +25,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LMK&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

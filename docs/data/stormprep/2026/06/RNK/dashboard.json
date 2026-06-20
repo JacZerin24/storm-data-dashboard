@@ -6,7 +6,7 @@
     "wfo": "RNK",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-19T12:55:22Z",
+    "generated_utc": "2026-06-20T11:26:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 6,
     "wfo": "RNK",
-    "total_candidate_reports": 145,
-    "mapped_candidate_reports": 145,
+    "total_candidate_reports": 151,
+    "mapped_candidate_reports": 151,
     "candidate_report_counts": {
       "flooding": 1,
-      "hail": 2,
+      "hail": 3,
       "other": 1,
-      "thunderstorm_wind": 141
+      "thunderstorm_wind": 146
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "HAIL": 2,
+      "HAIL": 3,
       "LIGHTNING": 1,
       "NON-TSTM WND DMG": 3,
-      "TSTM WND DMG": 135,
+      "TSTM WND DMG": 140,
       "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
@@ -2850,6 +2850,28 @@
     {
       "report_id": "iem-lsr-RNK-128",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182050",
+      "standard_time_display": "2026-06-18 15:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Pleasant Hill",
+      "county": "Surry",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down along Powers Lane. Time estimated from radar.",
+      "lat": 36.25,
+      "lon": -80.87,
+      "ugc": "NCC171",
+      "ugc_name": "Surry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-129",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182106",
       "standard_time_display": "2026-06-18 16:06 EST",
       "standard_time_zone": "EST",
@@ -2870,7 +2892,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-129",
+      "report_id": "iem-lsr-RNK-130",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182110",
       "standard_time_display": "2026-06-18 16:10 EST",
@@ -2892,7 +2914,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-130",
+      "report_id": "iem-lsr-RNK-131",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182110",
       "standard_time_display": "2026-06-18 16:10 EST",
@@ -2914,7 +2936,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-131",
+      "report_id": "iem-lsr-RNK-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182115",
       "standard_time_display": "2026-06-18 16:15 EST",
@@ -2936,7 +2958,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-132",
+      "report_id": "iem-lsr-RNK-133",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182115",
       "standard_time_display": "2026-06-18 16:15 EST",
@@ -2958,7 +2980,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-133",
+      "report_id": "iem-lsr-RNK-134",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182116",
       "standard_time_display": "2026-06-18 16:16 EST",
@@ -2980,7 +3002,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-134",
+      "report_id": "iem-lsr-RNK-135",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182123",
+      "standard_time_display": "2026-06-18 16:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Toast",
+      "county": "Surry",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down blocking both lanes of Belair Drive. Time estimated from radar.",
+      "lat": 36.49,
+      "lon": -80.64,
+      "ugc": "NCC171",
+      "ugc_name": "Surry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-136",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182130",
+      "standard_time_display": "2026-06-18 16:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Ararat",
+      "county": "Surry",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down blocking both lanes of Johnson Road near Siloam Road.",
+      "lat": 36.4,
+      "lon": -80.62,
+      "ugc": "NCC171",
+      "ugc_name": "Surry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-137",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182132",
       "standard_time_display": "2026-06-18 16:32 EST",
@@ -3002,7 +3068,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-135",
+      "report_id": "iem-lsr-RNK-138",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182202",
       "standard_time_display": "2026-06-18 17:02 EST",
@@ -3024,7 +3090,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-136",
+      "report_id": "iem-lsr-RNK-139",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182215",
       "standard_time_display": "2026-06-18 17:15 EST",
@@ -3046,7 +3112,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-137",
+      "report_id": "iem-lsr-RNK-140",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182215",
       "standard_time_display": "2026-06-18 17:15 EST",
@@ -3068,7 +3134,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-138",
+      "report_id": "iem-lsr-RNK-141",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182217",
       "standard_time_display": "2026-06-18 17:17 EST",
@@ -3090,7 +3156,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-139",
+      "report_id": "iem-lsr-RNK-142",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182217",
       "standard_time_display": "2026-06-18 17:17 EST",
@@ -3112,7 +3178,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-140",
+      "report_id": "iem-lsr-RNK-143",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182219",
       "standard_time_display": "2026-06-18 17:19 EST",
@@ -3134,7 +3200,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-141",
+      "report_id": "iem-lsr-RNK-144",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182219",
       "standard_time_display": "2026-06-18 17:19 EST",
@@ -3156,7 +3222,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-142",
+      "report_id": "iem-lsr-RNK-145",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182232",
+      "standard_time_display": "2026-06-18 17:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "2 SE Pinnacle",
+      "county": "Stokes",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Marble size hail poured down for 15 minutes. Trees bending over from wind.",
+      "lat": 36.32,
+      "lon": -80.38,
+      "ugc": "NCC169",
+      "ugc_name": "Stokes",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-146",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182232",
+      "standard_time_display": "2026-06-18 17:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Pinnacle",
+      "county": "Stokes",
+      "state": "NC",
+      "source": "Public",
+      "remark": null,
+      "lat": 36.32,
+      "lon": -80.38,
+      "ugc": "NCC169",
+      "ugc_name": "Stokes",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-147",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182236",
       "standard_time_display": "2026-06-18 17:36 EST",
@@ -3178,7 +3288,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-143",
+      "report_id": "iem-lsr-RNK-148",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182237",
       "standard_time_display": "2026-06-18 17:37 EST",
@@ -3200,7 +3310,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-144",
+      "report_id": "iem-lsr-RNK-149",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182237",
       "standard_time_display": "2026-06-18 17:37 EST",
@@ -3222,7 +3332,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-145",
+      "report_id": "iem-lsr-RNK-150",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182237",
       "standard_time_display": "2026-06-18 17:37 EST",
@@ -3242,6 +3352,28 @@
       "ugc": "NCC169",
       "ugc_name": "Stokes",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-151",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606190250",
+      "standard_time_display": "2026-06-18 21:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Ronceverte",
+      "county": "Greenbrier",
+      "state": "WV",
+      "source": "911 Call Center",
+      "remark": "Tree down along Seneca Trail South_ near its intersection with Mike Stewart Road. Time estimated from radar.",
+      "lat": 37.75,
+      "lon": -80.46,
+      "ugc": "WVC025",
+      "ugc_name": "Greenbrier",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -3250,7 +3382,7 @@
       "wfo": "RNK",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-19T12:55:22Z"
+      "generated_utc": "2026-06-20T11:26:39Z"
     },
     "primary_links": [
       {

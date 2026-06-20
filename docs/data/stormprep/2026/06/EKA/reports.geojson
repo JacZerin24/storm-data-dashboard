@@ -7,12 +7,39 @@
     "wfo": "EKA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-19T12:54:13Z",
+    "generated_utc": "2026-06-20T11:25:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EKA-1",
+      "properties": {
+        "report_id": "iem-lsr-EKA-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606192210",
+        "standard_time_display": "2026-06-19 14:10 PST",
+        "wfo": "EKA",
+        "county_or_zone": "Humboldt",
+        "city": "1 SE Fernbridge",
+        "state": "CA",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Half inch sized hail estimated on Highway 101 at the Palmer Creek Road junction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.18,
+          40.61
+        ]
+      }
+    }
+  ]
 }
