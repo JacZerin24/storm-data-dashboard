@@ -6,7 +6,7 @@
     "wfo": "CRP",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-20T11:25:22Z",
+    "generated_utc": "2026-06-21T11:52:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,23 @@
     "year": 2026,
     "month": 6,
     "wfo": "CRP",
-    "total_candidate_reports": 22,
-    "mapped_candidate_reports": 22,
+    "total_candidate_reports": 25,
+    "mapped_candidate_reports": 25,
     "candidate_report_counts": {
-      "flooding": 22
+      "flooding": 24,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 22
+      "FLASH FLOOD": 24,
+      "TORNADO": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CRP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,7 +45,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CRP&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -528,6 +532,72 @@
       "ugc": "TXC479",
       "ugc_name": "Webb",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CRP-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606201511",
+      "standard_time_display": "2026-06-20 09:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "CRP",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Saint Paul",
+      "county": "San Patricio",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Street/road flooding; Street/road closed; Vehicles stranded.",
+      "lat": 28.07,
+      "lon": -97.56,
+      "ugc": "TXC409",
+      "ugc_name": "San Patricio",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CRP-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606201558",
+      "standard_time_display": "2026-06-20 09:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "CRP",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 N Tivoli",
+      "county": "Calhoun",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Multiple sources such as broadcast media_ public_ law enforcement_ and emergency management have reported pictures and videos of a once tropical funnel cloud touching down near Tivoli. Touch down dee",
+      "lat": 28.53,
+      "lon": -96.89,
+      "ugc": "TXC057",
+      "ugc_name": "Calhoun",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CRP-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606210750",
+      "standard_time_display": "2026-06-21 01:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "CRP",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Woodsboro",
+      "county": "Refugio",
+      "state": "TX",
+      "source": "Dept of Highways",
+      "remark": "FM629 closed between Bonnie View and Woodsboro.",
+      "lat": 28.2,
+      "lon": -97.29,
+      "ugc": "TXC391",
+      "ugc_name": "Refugio",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -536,7 +606,7 @@
       "wfo": "CRP",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-20T11:25:22Z"
+      "generated_utc": "2026-06-21T11:52:33Z"
     },
     "primary_links": [
       {

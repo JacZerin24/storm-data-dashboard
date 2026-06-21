@@ -6,7 +6,7 @@
     "wfo": "BTV",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-20T11:25:16Z",
+    "generated_utc": "2026-06-21T11:52:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 6,
     "wfo": "BTV",
-    "total_candidate_reports": 96,
-    "mapped_candidate_reports": 96,
+    "total_candidate_reports": 99,
+    "mapped_candidate_reports": 99,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 1,
       "other": 75,
-      "thunderstorm_wind": 16
+      "thunderstorm_wind": 16,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 4,
       "HAIL": 1,
       "RAIN": 75,
+      "TORNADO": 3,
       "TSTM WND DMG": 16
     },
     "nws_api_alert_count": 0,
@@ -36,7 +38,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BTV&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -48,7 +51,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BTV&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -1374,6 +1378,50 @@
     {
       "report_id": "iem-lsr-BTV-61",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181731",
+      "standard_time_display": "2026-06-18 12:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BTV",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Lincoln",
+      "county": "Addison",
+      "state": "VT",
+      "source": "NWS Storm Survey",
+      "remark": "An NWS storm survey found EF-1 tornado damage in the woods near York Hill Road in the town of Lincoln. Maximum estimated winds were 105 mph and the estimated track length was 0.31 miles. A stand of t",
+      "lat": 44.1,
+      "lon": -73.02,
+      "ugc": "VTC001",
+      "ugc_name": "Addison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BTV-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181731",
+      "standard_time_display": "2026-06-18 12:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BTV",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Lincoln",
+      "county": "Addison",
+      "state": "VT",
+      "source": "Public",
+      "remark": "An NWS storm survey found EF-1 tornado damage in the woods near York Hill Road in the town of Lincoln. Maximum estimated winds were 105 mph and the estimated track length was 0.31 miles. A stand of t",
+      "lat": 44.1,
+      "lon": -73.02,
+      "ugc": "VTC001",
+      "ugc_name": "Addison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BTV-63",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181735",
       "standard_time_display": "2026-06-18 12:35 EST",
       "standard_time_zone": "EST",
@@ -1394,7 +1442,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-62",
+      "report_id": "iem-lsr-BTV-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181800",
       "standard_time_display": "2026-06-18 13:00 EST",
@@ -1416,7 +1464,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-63",
+      "report_id": "iem-lsr-BTV-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181808",
       "standard_time_display": "2026-06-18 13:08 EST",
@@ -1438,7 +1486,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-64",
+      "report_id": "iem-lsr-BTV-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181810",
       "standard_time_display": "2026-06-18 13:10 EST",
@@ -1460,7 +1508,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-65",
+      "report_id": "iem-lsr-BTV-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181812",
       "standard_time_display": "2026-06-18 13:12 EST",
@@ -1482,7 +1530,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-66",
+      "report_id": "iem-lsr-BTV-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181820",
       "standard_time_display": "2026-06-18 13:20 EST",
@@ -1504,7 +1552,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-67",
+      "report_id": "iem-lsr-BTV-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181822",
       "standard_time_display": "2026-06-18 13:22 EST",
@@ -1526,7 +1574,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-68",
+      "report_id": "iem-lsr-BTV-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181828",
       "standard_time_display": "2026-06-18 13:28 EST",
@@ -1548,7 +1596,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-69",
+      "report_id": "iem-lsr-BTV-71",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181835",
+      "standard_time_display": "2026-06-18 13:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BTV",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Woodstock",
+      "county": "Windsor",
+      "state": "VT",
+      "source": "NWS Storm Survey",
+      "remark": "An NWS storm survey found EF-1 tornado damage in the western part of the town of Woodstock. The maximum estimated winds were 100 mph and the estimated track length was 1.34 miles. Numerous trees were",
+      "lat": 43.6,
+      "lon": -72.6,
+      "ugc": "VTC027",
+      "ugc_name": "Windsor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BTV-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181838",
       "standard_time_display": "2026-06-18 13:38 EST",
@@ -1570,7 +1640,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-70",
+      "report_id": "iem-lsr-BTV-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181851",
       "standard_time_display": "2026-06-18 13:51 EST",
@@ -1592,7 +1662,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-71",
+      "report_id": "iem-lsr-BTV-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181851",
       "standard_time_display": "2026-06-18 13:51 EST",
@@ -1614,7 +1684,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-72",
+      "report_id": "iem-lsr-BTV-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181900",
       "standard_time_display": "2026-06-18 14:00 EST",
@@ -1636,7 +1706,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-73",
+      "report_id": "iem-lsr-BTV-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191151",
       "standard_time_display": "2026-06-19 06:51 EST",
@@ -1658,7 +1728,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-74",
+      "report_id": "iem-lsr-BTV-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191153",
       "standard_time_display": "2026-06-19 06:53 EST",
@@ -1680,7 +1750,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-75",
+      "report_id": "iem-lsr-BTV-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191154",
       "standard_time_display": "2026-06-19 06:54 EST",
@@ -1702,7 +1772,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-76",
+      "report_id": "iem-lsr-BTV-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191154",
       "standard_time_display": "2026-06-19 06:54 EST",
@@ -1724,7 +1794,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-77",
+      "report_id": "iem-lsr-BTV-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191154",
       "standard_time_display": "2026-06-19 06:54 EST",
@@ -1746,7 +1816,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-78",
+      "report_id": "iem-lsr-BTV-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191156",
       "standard_time_display": "2026-06-19 06:56 EST",
@@ -1768,7 +1838,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-79",
+      "report_id": "iem-lsr-BTV-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191213",
       "standard_time_display": "2026-06-19 07:13 EST",
@@ -1790,7 +1860,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-80",
+      "report_id": "iem-lsr-BTV-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1812,7 +1882,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-81",
+      "report_id": "iem-lsr-BTV-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1834,7 +1904,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-82",
+      "report_id": "iem-lsr-BTV-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1856,7 +1926,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-83",
+      "report_id": "iem-lsr-BTV-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1878,7 +1948,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-84",
+      "report_id": "iem-lsr-BTV-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1900,7 +1970,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-85",
+      "report_id": "iem-lsr-BTV-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1922,7 +1992,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-86",
+      "report_id": "iem-lsr-BTV-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1944,7 +2014,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-87",
+      "report_id": "iem-lsr-BTV-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1966,7 +2036,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-88",
+      "report_id": "iem-lsr-BTV-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -1988,7 +2058,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-89",
+      "report_id": "iem-lsr-BTV-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2010,7 +2080,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-90",
+      "report_id": "iem-lsr-BTV-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2032,7 +2102,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-91",
+      "report_id": "iem-lsr-BTV-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2054,7 +2124,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-92",
+      "report_id": "iem-lsr-BTV-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2076,7 +2146,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-93",
+      "report_id": "iem-lsr-BTV-96",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2098,7 +2168,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-94",
+      "report_id": "iem-lsr-BTV-97",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2120,7 +2190,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-95",
+      "report_id": "iem-lsr-BTV-98",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191225",
       "standard_time_display": "2026-06-19 07:25 EST",
@@ -2142,7 +2212,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BTV-96",
+      "report_id": "iem-lsr-BTV-99",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191341",
       "standard_time_display": "2026-06-19 08:41 EST",
@@ -2170,7 +2240,7 @@
       "wfo": "BTV",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-20T11:25:16Z"
+      "generated_utc": "2026-06-21T11:52:28Z"
     },
     "primary_links": [
       {

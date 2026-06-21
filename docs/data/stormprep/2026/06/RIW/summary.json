@@ -3,20 +3,24 @@
   "year": 2026,
   "month": 6,
   "wfo": "RIW",
-  "total_candidate_reports": 94,
-  "mapped_candidate_reports": 94,
+  "total_candidate_reports": 153,
+  "mapped_candidate_reports": 153,
   "candidate_report_counts": {
-    "thunderstorm_wind": 94
+    "thunderstorm_wind": 152,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "NON-TSTM WND GST": 74,
-    "TSTM WND GST": 20
+    "NON-TSTM WND GST": 75,
+    "TORNADO": 1,
+    "TSTM WND DMG": 3,
+    "TSTM WND GST": 74
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RIW&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

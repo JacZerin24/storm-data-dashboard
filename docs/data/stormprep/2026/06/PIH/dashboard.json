@@ -6,7 +6,7 @@
     "wfo": "PIH",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-20T11:26:29Z",
+    "generated_utc": "2026-06-21T11:53:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "PIH",
-    "total_candidate_reports": 260,
-    "mapped_candidate_reports": 260,
+    "total_candidate_reports": 263,
+    "mapped_candidate_reports": 263,
     "candidate_report_counts": {
       "hail": 2,
-      "thunderstorm_wind": 258
+      "thunderstorm_wind": 261
     },
     "candidate_report_type_counts": {
       "HAIL": 2,
       "NON-TSTM WND DMG": 1,
-      "NON-TSTM WND GST": 257
+      "NON-TSTM WND GST": 257,
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -5767,6 +5768,72 @@
       "ugc": "IDC071",
       "ugc_name": "Oneida",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PIH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PIH-261",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202155",
+      "standard_time_display": "2026-06-20 14:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PIH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Pleasantview",
+      "county": "Oneida",
+      "state": "ID",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.21,
+      "lon": -112.35,
+      "ugc": "IDC071",
+      "ugc_name": "Oneida",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PIH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PIH-262",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202215",
+      "standard_time_display": "2026-06-20 15:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PIH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Clifton",
+      "county": "Franklin",
+      "state": "ID",
+      "source": "Trained Spotter",
+      "remark": "Gust of 46 Mph_ heavy rain.",
+      "lat": 42.18,
+      "lon": -111.98,
+      "ugc": "IDC041",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PIH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PIH-263",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202240",
+      "standard_time_display": "2026-06-20 15:40 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PIH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Mink Creek",
+      "county": "Franklin",
+      "state": "ID",
+      "source": "Mesonet",
+      "remark": "Mesonet station PC362 Oneida Narrows.",
+      "lat": 42.28,
+      "lon": -111.74,
+      "ugc": "IDC041",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PIH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -5775,7 +5842,7 @@
       "wfo": "PIH",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-20T11:26:29Z"
+      "generated_utc": "2026-06-21T11:53:34Z"
     },
     "primary_links": [
       {

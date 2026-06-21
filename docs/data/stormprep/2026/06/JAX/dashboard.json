@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-20T11:25:57Z",
+    "generated_utc": "2026-06-21T11:53:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,24 @@
     "year": 2026,
     "month": 6,
     "wfo": "JAX",
-    "total_candidate_reports": 88,
-    "mapped_candidate_reports": 88,
+    "total_candidate_reports": 101,
+    "mapped_candidate_reports": 101,
     "candidate_report_counts": {
-      "flooding": 19,
+      "flooding": 20,
       "hail": 1,
       "marine": 1,
-      "other": 28,
-      "thunderstorm_wind": 39
+      "other": 29,
+      "thunderstorm_wind": 50
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 14,
-      "FLOOD": 5,
+      "FLOOD": 6,
       "HAIL": 1,
+      "LIGHTNING": 1,
       "RAIN": 28,
       "RIP CURRENTS": 1,
-      "TSTM WND DMG": 14,
-      "TSTM WND GST": 25
+      "TSTM WND DMG": 16,
+      "TSTM WND GST": 34
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1070,6 +1071,72 @@
     {
       "report_id": "iem-lsr-JAX-47",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606191650",
+      "standard_time_display": "2026-06-19 11:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Yulee",
+      "county": "Nassau",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Tree reported down near Harts Road and U.S. 17. Time estimated from radar.",
+      "lat": 30.6,
+      "lon": -81.6,
+      "ugc": "FLC089",
+      "ugc_name": "Nassau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606191652",
+      "standard_time_display": "2026-06-19 11:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Fernandina Beach",
+      "county": "Nassau",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Tree and branches down near Sadler Road and Bonnieview Road. Time estimated from radar.",
+      "lat": 30.64,
+      "lon": -81.46,
+      "ugc": "FLC089",
+      "ugc_name": "Nassau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-49",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606191652",
+      "standard_time_display": "2026-06-19 11:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Saint Marys",
+      "county": "Camden",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Social media post of lightning strike on a power line. The downed power line caused a power outage and a portion of Osborne Road to be closed. Time estimated off radar and Lightning data.",
+      "lat": 30.75,
+      "lon": -81.57,
+      "ugc": "GAC039",
+      "ugc_name": "Camden",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-50",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191700",
       "standard_time_display": "2026-06-19 12:00 EST",
       "standard_time_zone": "EST",
@@ -1090,7 +1157,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-48",
+      "report_id": "iem-lsr-JAX-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191700",
       "standard_time_display": "2026-06-19 12:00 EST",
@@ -1112,7 +1179,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-49",
+      "report_id": "iem-lsr-JAX-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191700",
       "standard_time_display": "2026-06-19 12:00 EST",
@@ -1134,7 +1201,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-50",
+      "report_id": "iem-lsr-JAX-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191700",
       "standard_time_display": "2026-06-19 12:00 EST",
@@ -1156,7 +1223,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-51",
+      "report_id": "iem-lsr-JAX-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191725",
       "standard_time_display": "2026-06-19 12:25 EST",
@@ -1178,7 +1245,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-52",
+      "report_id": "iem-lsr-JAX-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191727",
       "standard_time_display": "2026-06-19 12:27 EST",
@@ -1200,7 +1267,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-53",
+      "report_id": "iem-lsr-JAX-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191735",
       "standard_time_display": "2026-06-19 12:35 EST",
@@ -1222,7 +1289,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-54",
+      "report_id": "iem-lsr-JAX-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191747",
       "standard_time_display": "2026-06-19 12:47 EST",
@@ -1244,7 +1311,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-55",
+      "report_id": "iem-lsr-JAX-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191750",
       "standard_time_display": "2026-06-19 12:50 EST",
@@ -1266,7 +1333,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-56",
+      "report_id": "iem-lsr-JAX-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191800",
       "standard_time_display": "2026-06-19 13:00 EST",
@@ -1288,7 +1355,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-57",
+      "report_id": "iem-lsr-JAX-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191830",
       "standard_time_display": "2026-06-19 13:30 EST",
@@ -1310,7 +1377,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-58",
+      "report_id": "iem-lsr-JAX-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191838",
       "standard_time_display": "2026-06-19 13:38 EST",
@@ -1332,7 +1399,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-59",
+      "report_id": "iem-lsr-JAX-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191845",
       "standard_time_display": "2026-06-19 13:45 EST",
@@ -1354,7 +1421,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-60",
+      "report_id": "iem-lsr-JAX-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191845",
       "standard_time_display": "2026-06-19 13:45 EST",
@@ -1376,7 +1443,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-61",
+      "report_id": "iem-lsr-JAX-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191845",
       "standard_time_display": "2026-06-19 13:45 EST",
@@ -1398,7 +1465,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-62",
+      "report_id": "iem-lsr-JAX-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191845",
       "standard_time_display": "2026-06-19 13:45 EST",
@@ -1420,7 +1487,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-63",
+      "report_id": "iem-lsr-JAX-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191853",
       "standard_time_display": "2026-06-19 13:53 EST",
@@ -1442,7 +1509,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-64",
+      "report_id": "iem-lsr-JAX-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191900",
       "standard_time_display": "2026-06-19 14:00 EST",
@@ -1464,7 +1531,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-65",
+      "report_id": "iem-lsr-JAX-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191902",
       "standard_time_display": "2026-06-19 14:02 EST",
@@ -1486,7 +1553,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-66",
+      "report_id": "iem-lsr-JAX-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191904",
       "standard_time_display": "2026-06-19 14:04 EST",
@@ -1508,7 +1575,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-67",
+      "report_id": "iem-lsr-JAX-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191915",
       "standard_time_display": "2026-06-19 14:15 EST",
@@ -1530,7 +1597,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-68",
+      "report_id": "iem-lsr-JAX-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191922",
       "standard_time_display": "2026-06-19 14:22 EST",
@@ -1552,7 +1619,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-69",
+      "report_id": "iem-lsr-JAX-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606191926",
+      "standard_time_display": "2026-06-19 14:26 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "1 NE Saint Augustine Be",
+      "county": "AMZ454",
+      "state": "FL",
+      "source": "C-Man Station",
+      "remark": "Delay report - CMAN SAUF1 reported a gust to 36 knots or 41 mph from 350 degrees.",
+      "lat": 29.85,
+      "lon": -81.26,
+      "ugc": "AMZ454",
+      "ugc_name": "Coastal waters from St. Augustine to Flagler Beach FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191930",
       "standard_time_display": "2026-06-19 14:30 EST",
@@ -1574,7 +1663,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-70",
+      "report_id": "iem-lsr-JAX-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191930",
       "standard_time_display": "2026-06-19 14:30 EST",
@@ -1596,7 +1685,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-71",
+      "report_id": "iem-lsr-JAX-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191930",
       "standard_time_display": "2026-06-19 14:30 EST",
@@ -1618,7 +1707,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-72",
+      "report_id": "iem-lsr-JAX-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191935",
       "standard_time_display": "2026-06-19 14:35 EST",
@@ -1640,7 +1729,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-73",
+      "report_id": "iem-lsr-JAX-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606191949",
       "standard_time_display": "2026-06-19 14:49 EST",
@@ -1662,7 +1751,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-74",
+      "report_id": "iem-lsr-JAX-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192000",
       "standard_time_display": "2026-06-19 15:00 EST",
@@ -1684,7 +1773,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-75",
+      "report_id": "iem-lsr-JAX-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192004",
       "standard_time_display": "2026-06-19 15:04 EST",
@@ -1706,7 +1795,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-76",
+      "report_id": "iem-lsr-JAX-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192014",
       "standard_time_display": "2026-06-19 15:14 EST",
@@ -1728,7 +1817,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-77",
+      "report_id": "iem-lsr-JAX-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192014",
       "standard_time_display": "2026-06-19 15:14 EST",
@@ -1750,7 +1839,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-78",
+      "report_id": "iem-lsr-JAX-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192015",
       "standard_time_display": "2026-06-19 15:15 EST",
@@ -1772,7 +1861,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-79",
+      "report_id": "iem-lsr-JAX-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192046",
       "standard_time_display": "2026-06-19 15:46 EST",
@@ -1794,7 +1883,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-80",
+      "report_id": "iem-lsr-JAX-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192052",
       "standard_time_display": "2026-06-19 15:52 EST",
@@ -1816,7 +1905,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-81",
+      "report_id": "iem-lsr-JAX-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192056",
       "standard_time_display": "2026-06-19 15:56 EST",
@@ -1838,7 +1927,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-82",
+      "report_id": "iem-lsr-JAX-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192100",
       "standard_time_display": "2026-06-19 16:00 EST",
@@ -1860,7 +1949,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-83",
+      "report_id": "iem-lsr-JAX-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192100",
       "standard_time_display": "2026-06-19 16:00 EST",
@@ -1882,7 +1971,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-84",
+      "report_id": "iem-lsr-JAX-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192105",
       "standard_time_display": "2026-06-19 16:05 EST",
@@ -1904,7 +1993,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-85",
+      "report_id": "iem-lsr-JAX-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192107",
       "standard_time_display": "2026-06-19 16:07 EST",
@@ -1926,7 +2015,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-86",
+      "report_id": "iem-lsr-JAX-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192124",
       "standard_time_display": "2026-06-19 16:24 EST",
@@ -1948,7 +2037,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-87",
+      "report_id": "iem-lsr-JAX-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192140",
       "standard_time_display": "2026-06-19 16:40 EST",
@@ -1970,7 +2059,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-88",
+      "report_id": "iem-lsr-JAX-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606192145",
       "standard_time_display": "2026-06-19 16:45 EST",
@@ -1990,6 +2079,204 @@
       "ugc": "GAC229",
       "ugc_name": "Pierce",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-93",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202045",
+      "standard_time_display": "2026-06-20 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "3 N Houston",
+      "county": "Suwannee",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "FAWN - Suwannee Valley UF Agricultural Extension Center.",
+      "lat": 30.3,
+      "lon": -82.9,
+      "ugc": "FLC121",
+      "ugc_name": "Suwannee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-94",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202050",
+      "standard_time_display": "2026-06-20 15:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Wellborn",
+      "county": "Suwannee",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station 2225W Fswn Suwannee I-10 Rest Area Mar.",
+      "lat": 30.27,
+      "lon": -82.8,
+      "ugc": "FLC121",
+      "ugc_name": "Suwannee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-95",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202051",
+      "standard_time_display": "2026-06-20 15:51 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Gainesville Airpor",
+      "county": "Alachua",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "ASOS station KGNV Gainesville.",
+      "lat": 29.7,
+      "lon": -82.28,
+      "ugc": "FLC001",
+      "ugc_name": "Alachua",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-96",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202115",
+      "standard_time_display": "2026-06-20 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Watertown",
+      "county": "Columbia",
+      "state": "FL",
+      "source": "AWOS",
+      "remark": "AWOS station KLCQ Lake City.",
+      "lat": 30.18,
+      "lon": -82.58,
+      "ugc": "FLC023",
+      "ugc_name": "Columbia",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-97",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202217",
+      "standard_time_display": "2026-06-20 17:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "4 SSW Fort Caroline",
+      "county": "Duval",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "ASOS station KCRG Jacksonvil Craig measured a wind gust of 40 mph.",
+      "lat": 30.33,
+      "lon": -81.52,
+      "ugc": "FLC031",
+      "ugc_name": "Duval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-98",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202218",
+      "standard_time_display": "2026-06-20 17:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "6 WSW Jacksonville Heig",
+      "county": "Duval",
+      "state": "FL",
+      "source": "AWOS",
+      "remark": "AWOS station KVQQ Cecil Field measured a wind gust of 45 mph.",
+      "lat": 30.22,
+      "lon": -81.88,
+      "ugc": "FLC031",
+      "ugc_name": "Duval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-99",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202241",
+      "standard_time_display": "2026-06-20 17:41 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Kingsland",
+      "county": "Camden",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Mesonet station GA356 I-95 At Camden Welcome Center measured a gust of 44 mph.",
+      "lat": 30.75,
+      "lon": -81.65,
+      "ugc": "GAC039",
+      "ugc_name": "Camden",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-100",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202253",
+      "standard_time_display": "2026-06-20 17:53 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "4 NE Orange Park",
+      "county": "Duval",
+      "state": "FL",
+      "source": "AWOS",
+      "remark": "AWOS station KNIP Jacksonville Nas measured a peak gust of 45 mph.",
+      "lat": 30.22,
+      "lon": -81.67,
+      "ugc": "FLC031",
+      "ugc_name": "Duval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-101",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606210019",
+      "standard_time_display": "2026-06-20 19:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Colesburg",
+      "county": "Camden",
+      "state": "GA",
+      "source": "Trained Spotter",
+      "remark": "Water over roadways in the vicinity of Hwy 17 and Coleburg Tompkins Rd due to excessive rainfall.",
+      "lat": 30.92,
+      "lon": -81.71,
+      "ugc": "GAC039",
+      "ugc_name": "Camden",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1998,7 +2285,7 @@
       "wfo": "JAX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-20T11:25:57Z"
+      "generated_utc": "2026-06-21T11:53:05Z"
     },
     "primary_links": [
       {
