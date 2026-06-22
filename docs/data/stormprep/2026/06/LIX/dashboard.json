@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-21T11:53:08Z",
+    "generated_utc": "2026-06-22T14:51:00Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "LIX",
-    "total_candidate_reports": 114,
-    "mapped_candidate_reports": 114,
+    "total_candidate_reports": 118,
+    "mapped_candidate_reports": 118,
     "candidate_report_counts": {
-      "flooding": 75,
-      "marine": 14,
+      "flooding": 78,
+      "marine": 15,
       "thunderstorm_wind": 22,
       "tornado": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 75,
+      "FLASH FLOOD": 78,
       "FUNNEL CLOUD": 2,
-      "MARINE TSTM WIND": 14,
+      "MARINE TSTM WIND": 15,
       "TSTM WND DMG": 20,
       "TSTM WND GST": 2,
       "WATERSPOUT": 1
@@ -2478,6 +2478,28 @@
     {
       "report_id": "iem-lsr-LIX-111",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606200800",
+      "standard_time_display": "2026-06-20 02:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 ESE Lyman",
+      "county": "Harrison",
+      "state": "MS",
+      "source": "Broadcast Media",
+      "remark": "Delayed report. Picture John Lee Road north of Woolmarket Elementary was impassable due to flooding.",
+      "lat": 30.48,
+      "lon": -89.01,
+      "ugc": "MSC047",
+      "ugc_name": "Harrison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-112",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606201951",
       "standard_time_display": "2026-06-20 13:51 CST",
       "standard_time_zone": "CST",
@@ -2498,7 +2520,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-112",
+      "report_id": "iem-lsr-LIX-113",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202000",
+      "standard_time_display": "2026-06-20 14:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 ESE Lyman",
+      "county": "Harrison",
+      "state": "MS",
+      "source": "Broadcast Media",
+      "remark": "Corrects previous flash flood report from 7 ESE Lyman. Delayed report. Picture John Lee Road north of Woolmarket Elementary was impassable due to flooding.",
+      "lat": 30.48,
+      "lon": -89.01,
+      "ugc": "MSC047",
+      "ugc_name": "Harrison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-114",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202008",
+      "standard_time_display": "2026-06-20 14:08 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "6 WSW East New Orleans",
+      "county": "Orleans",
+      "state": "LA",
+      "source": "ASOS",
+      "remark": "Corrects previous marine tstm wind report from 6 WSW East New Orleans. ASOS station KNEW New Orleans Lakefront Airport.",
+      "lat": 30.04,
+      "lon": -90.03,
+      "ugc": "LAC071",
+      "ugc_name": "Orleans",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-115",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202027",
       "standard_time_display": "2026-06-20 14:27 CST",
@@ -2520,7 +2586,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-113",
+      "report_id": "iem-lsr-LIX-116",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202030",
       "standard_time_display": "2026-06-20 14:30 CST",
@@ -2542,7 +2608,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-114",
+      "report_id": "iem-lsr-LIX-117",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202053",
       "standard_time_display": "2026-06-20 14:53 CST",
@@ -2562,6 +2628,28 @@
       "ugc": "LAC071",
       "ugc_name": "Orleans",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-118",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606202118",
+      "standard_time_display": "2026-06-20 15:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "Public",
+      "remark": "Delayed report of flooded roads in Houma.",
+      "lat": 29.59,
+      "lon": -90.72,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2570,7 +2658,7 @@
       "wfo": "LIX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-21T11:53:08Z"
+      "generated_utc": "2026-06-22T14:51:00Z"
     },
     "primary_links": [
       {

@@ -3,29 +3,33 @@
   "year": 2026,
   "month": 6,
   "wfo": "PAH",
-  "total_candidate_reports": 62,
-  "mapped_candidate_reports": 62,
+  "total_candidate_reports": 90,
+  "mapped_candidate_reports": 90,
   "candidate_report_counts": {
     "flooding": 6,
-    "hail": 11,
+    "hail": 12,
     "other": 1,
-    "thunderstorm_wind": 44
+    "thunderstorm_wind": 50,
+    "tornado": 21
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 5,
     "FLOOD": 1,
-    "HAIL": 11,
+    "FUNNEL CLOUD": 2,
+    "HAIL": 12,
     "NON-TSTM WND DMG": 5,
     "NON-TSTM WND GST": 17,
     "RAIN": 1,
-    "TSTM WND DMG": 20,
-    "TSTM WND GST": 2
+    "TORNADO": 19,
+    "TSTM WND DMG": 25,
+    "TSTM WND GST": 3
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PAH&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

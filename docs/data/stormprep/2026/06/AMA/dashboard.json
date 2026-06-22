@@ -6,7 +6,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-21T11:52:19Z",
+    "generated_utc": "2026-06-22T14:50:03Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,22 @@
     "year": 2026,
     "month": 6,
     "wfo": "AMA",
-    "total_candidate_reports": 42,
-    "mapped_candidate_reports": 42,
+    "total_candidate_reports": 44,
+    "mapped_candidate_reports": 44,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 15,
       "other": 1,
-      "thunderstorm_wind": 23
+      "thunderstorm_wind": 25
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "FLOOD": 1,
       "HAIL": 15,
       "LANDSPOUT": 1,
-      "NON-TSTM WND GST": 3,
+      "NON-TSTM WND GST": 4,
       "TSTM WND DMG": 2,
-      "TSTM WND GST": 18
+      "TSTM WND GST": 19
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -977,6 +977,50 @@
       "ugc": "OKC007",
       "ugc_name": "Beaver",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220345",
+      "standard_time_display": "2026-06-21 21:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "Beaver",
+      "county": "Beaver",
+      "state": "OK",
+      "source": "Emergency Mngr",
+      "remark": "Emergency manager estimated 60 mph wind gusts in Beaver with storms moving through. Nearby mesonets confirmed gusts are in the 50 to 60 mph range.",
+      "lat": 36.81,
+      "lon": -100.52,
+      "ugc": "OKC007",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220413",
+      "standard_time_display": "2026-06-21 22:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "8 W Lipscomb",
+      "county": "Lipscomb",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Several wind gusts greater than 58 mph with a peak gust of 62 mph associated with anvils from decaying thunderstorms in the area. No lightning observed in the area at the time of wind gusts.",
+      "lat": 36.22,
+      "lon": -100.41,
+      "ugc": "TXC295",
+      "ugc_name": "Lipscomb",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -985,7 +1029,7 @@
       "wfo": "AMA",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-21T11:52:20Z"
+      "generated_utc": "2026-06-22T14:50:03Z"
     },
     "primary_links": [
       {

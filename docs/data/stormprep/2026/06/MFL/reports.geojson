@@ -7,7 +7,7 @@
     "wfo": "MFL",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-21T11:53:17Z",
+    "generated_utc": "2026-06-22T14:51:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -280,6 +280,32 @@
       "id": "iem-lsr-MFL-11",
       "properties": {
         "report_id": "iem-lsr-MFL-11",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606202218",
+        "standard_time_display": "2026-06-20 17:18 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ650",
+        "city": "2 ESE Lake Worth",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "A wind gust of 39 mph was recorded at the C-MAN station LKWF1 at Lake Worth Pier during a strong thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03,
+          26.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-12",
+      "properties": {
+        "report_id": "iem-lsr-MFL-12",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606202218",
@@ -303,9 +329,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MFL-12",
+      "id": "iem-lsr-MFL-13",
       "properties": {
-        "report_id": "iem-lsr-MFL-12",
+        "report_id": "iem-lsr-MFL-13",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606202300",
@@ -324,6 +350,84 @@
         "coordinates": [
           -80.21,
           26.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-14",
+      "properties": {
+        "report_id": "iem-lsr-MFL-14",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606202300",
+        "standard_time_display": "2026-06-20 18:00 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ651",
+        "city": "3 ENE Dania Beach",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A wind gust of 39 mph was recorded at the NOAA/NOS station PEGF1 at Port Everglades during a strong thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1,
+          26.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-15",
+      "properties": {
+        "report_id": "iem-lsr-MFL-15",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202606210036",
+        "standard_time_display": "2026-06-20 19:36 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ630",
+        "city": "3 SW Key Biscayne",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A wind gust of 39 mph was recorded at the WxFlow station XKBS Biscayne Bay Light 20 during a strong thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19,
+          25.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-16",
+      "properties": {
+        "report_id": "iem-lsr-MFL-16",
+        "report_type": "WILDFIRE",
+        "event_category": "fire_smoke",
+        "valid_utc": "202606212100",
+        "standard_time_display": "2026-06-21 16:00 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "9 NW Inlikita",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "Coptic Wildfire was reported fully contained by the National Interagency Fire Center at a final total area burned of 5_685 acres."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.58,
+          25.68
         ]
       }
     }

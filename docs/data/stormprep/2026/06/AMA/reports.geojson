@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-21T11:52:19Z",
+    "generated_utc": "2026-06-22T14:50:03Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1104,6 +1104,58 @@
         "coordinates": [
           -100.06,
           36.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-43",
+      "properties": {
+        "report_id": "iem-lsr-AMA-43",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606220345",
+        "standard_time_display": "2026-06-21 21:45 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Beaver",
+        "city": "Beaver",
+        "state": "OK",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency manager estimated 60 mph wind gusts in Beaver with storms moving through. Nearby mesonets confirmed gusts are in the 50 to 60 mph range."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.52,
+          36.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-44",
+      "properties": {
+        "report_id": "iem-lsr-AMA-44",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606220413",
+        "standard_time_display": "2026-06-21 22:13 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Lipscomb",
+        "city": "8 W Lipscomb",
+        "state": "TX",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Several wind gusts greater than 58 mph with a peak gust of 62 mph associated with anvils from decaying thunderstorms in the area. No lightning observed in the area at the time of wind gusts."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.41,
+          36.22
         ]
       }
     }
