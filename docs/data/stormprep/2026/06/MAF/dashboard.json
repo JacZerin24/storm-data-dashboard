@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-22T14:51:09Z",
+    "generated_utc": "2026-06-23T12:15:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,22 @@
     "year": 2026,
     "month": 6,
     "wfo": "MAF",
-    "total_candidate_reports": 27,
-    "mapped_candidate_reports": 27,
+    "total_candidate_reports": 33,
+    "mapped_candidate_reports": 33,
     "candidate_report_counts": {
       "flooding": 15,
+      "hail": 5,
       "other": 1,
-      "thunderstorm_wind": 11
+      "thunderstorm_wind": 11,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 14,
       "FLOOD": 1,
+      "HAIL": 5,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 1,
+      "TORNADO": 1,
       "TSTM WND DMG": 4,
       "TSTM WND GST": 6
     },
@@ -37,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -645,6 +651,138 @@
       "ugc": "TXC389",
       "ugc_name": "Reeves",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606222013",
+      "standard_time_display": "2026-06-22 13:13 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "26 SW Bakersfield",
+      "county": "Pecos",
+      "state": "TX",
+      "source": "Park/Forest Srvc",
+      "remark": "Park employees travelling on I-10 initially reported a tornado south of the interstate and sent in a picture. Additional reports and pictures were received from county EMS and from a gas plant nearby",
+      "lat": 30.6,
+      "lon": -102.59,
+      "ugc": "TXC371",
+      "ugc_name": "Pecos",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230006",
+      "standard_time_display": "2026-06-22 17:06 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Midland",
+      "county": "Midland",
+      "state": "TX",
+      "source": "NWS Employee",
+      "remark": "NWS Employee reported nickel-sized hail in Midland.",
+      "lat": 32.01,
+      "lon": -102.12,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-30",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230006",
+      "standard_time_display": "2026-06-22 17:06 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "3 W Cotton Flat",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Quarter (1.00 in.).",
+      "lat": 31.95,
+      "lon": -102.1,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230014",
+      "standard_time_display": "2026-06-22 17:14 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "3 W Midland",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 31.98,
+      "lon": -102.12,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230015",
+      "standard_time_display": "2026-06-22 17:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "2 N Cotton Flat",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 31.96,
+      "lon": -102.05,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230016",
+      "standard_time_display": "2026-06-22 17:16 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "3 E Midland",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Multiple reports from the public and from the media of up to ping pong ball sized hail on the south side of Midland.",
+      "lat": 32.02,
+      "lon": -102.04,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -653,7 +791,7 @@
       "wfo": "MAF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-22T14:51:09Z"
+      "generated_utc": "2026-06-23T12:15:27Z"
     },
     "primary_links": [
       {

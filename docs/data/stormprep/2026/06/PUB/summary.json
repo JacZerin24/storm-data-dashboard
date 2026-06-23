@@ -3,24 +3,28 @@
   "year": 2026,
   "month": 6,
   "wfo": "PUB",
-  "total_candidate_reports": 20,
-  "mapped_candidate_reports": 20,
+  "total_candidate_reports": 37,
+  "mapped_candidate_reports": 37,
   "candidate_report_counts": {
-    "hail": 12,
+    "hail": 24,
     "other": 3,
-    "thunderstorm_wind": 5
+    "thunderstorm_wind": 6,
+    "tornado": 4
   },
   "candidate_report_type_counts": {
     "BLOWING DUST": 2,
-    "HAIL": 12,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 24,
     "RAIN": 1,
-    "TSTM WND GST": 5
+    "TORNADO": 3,
+    "TSTM WND GST": 6
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PUB&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

@@ -6,7 +6,7 @@
     "wfo": "OHX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-22T14:51:22Z",
+    "generated_utc": "2026-06-23T12:15:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 6,
     "wfo": "OHX",
-    "total_candidate_reports": 46,
-    "mapped_candidate_reports": 46,
+    "total_candidate_reports": 47,
+    "mapped_candidate_reports": 47,
     "candidate_report_counts": {
-      "flooding": 10,
+      "flooding": 11,
       "hail": 3,
       "other": 4,
       "thunderstorm_wind": 29
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 10,
+      "FLOOD": 1,
       "HAIL": 3,
       "NON-TSTM WND DMG": 1,
       "RAIN": 4,
@@ -1064,6 +1065,28 @@
       "ugc": "TNC177",
       "ugc_name": "Warren",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606221810",
+      "standard_time_display": "2026-06-22 12:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Lawrenceburg",
+      "county": "Lawrence",
+      "state": "TN",
+      "source": "Broadcast Media",
+      "remark": "Local media reporting Old Military Road_ behind Hardees in Lawrenceburg_ has been closed due to flooding.",
+      "lat": 35.26,
+      "lon": -87.33,
+      "ugc": "TNC099",
+      "ugc_name": "Lawrence",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1072,7 +1095,7 @@
       "wfo": "OHX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-22T14:51:22Z"
+      "generated_utc": "2026-06-23T12:15:37Z"
     },
     "primary_links": [
       {
