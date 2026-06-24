@@ -6,7 +6,7 @@
     "wfo": "BGM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-23T12:14:35Z",
+    "generated_utc": "2026-06-24T11:54:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 6,
     "wfo": "BGM",
-    "total_candidate_reports": 107,
-    "mapped_candidate_reports": 107,
+    "total_candidate_reports": 109,
+    "mapped_candidate_reports": 109,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 2,
-      "other": 3,
+      "other": 5,
       "thunderstorm_wind": 98,
       "tornado": 3
     },
@@ -30,7 +30,7 @@
       "FLASH FLOOD": 1,
       "HAIL": 2,
       "LIGHTNING": 2,
-      "RAIN": 1,
+      "RAIN": 3,
       "TORNADO": 3,
       "TSTM WND DMG": 97,
       "TSTM WND GST": 1
@@ -2410,6 +2410,50 @@
       "ugc": "NYC007",
       "ugc_name": "Broome",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-108",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606221550",
+      "standard_time_display": "2026-06-22 10:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Hornell",
+      "county": "Steuben",
+      "state": "NY",
+      "source": "Public",
+      "remark": null,
+      "lat": 42.32,
+      "lon": -77.65,
+      "ugc": "NYC101",
+      "ugc_name": "Steuben",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-109",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606231230",
+      "standard_time_display": "2026-06-23 07:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.24,
+      "magnitude_qualifier": null,
+      "city": "Delhi",
+      "county": "Delaware",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 42.28,
+      "lon": -74.91,
+      "ugc": "NYC025",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2418,7 +2462,7 @@
       "wfo": "BGM",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-23T12:14:35Z"
+      "generated_utc": "2026-06-24T11:54:18Z"
     },
     "primary_links": [
       {

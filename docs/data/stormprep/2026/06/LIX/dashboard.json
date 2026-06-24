@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-23T12:15:19Z",
+    "generated_utc": "2026-06-24T11:54:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 6,
     "wfo": "LIX",
-    "total_candidate_reports": 118,
-    "mapped_candidate_reports": 118,
+    "total_candidate_reports": 134,
+    "mapped_candidate_reports": 134,
     "candidate_report_counts": {
       "flooding": 78,
       "marine": 15,
       "thunderstorm_wind": 22,
-      "tornado": 3
+      "tornado": 19
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 78,
       "FUNNEL CLOUD": 2,
       "MARINE TSTM WIND": 15,
+      "TORNADO": 16,
       "TSTM WND DMG": 20,
       "TSTM WND GST": 2,
       "WATERSPOUT": 1
@@ -960,6 +961,72 @@
     {
       "report_id": "iem-lsr-LIX-42",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180602",
+      "standard_time_display": "2026-06-18 00:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Montegut",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "Combination of public reports and radar imagery helped to confirm the existence of an EF-0 tornado on Crochetville Rd in Montegut_ LA.",
+      "lat": 29.47,
+      "lon": -90.56,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180803",
+      "standard_time_display": "2026-06-18 02:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "An NWS ground survey team confirmed an EF-1 tornado impacted Crozier Drive south of Houma_ LA.",
+      "lat": 29.54,
+      "lon": -90.72,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180811",
+      "standard_time_display": "2026-06-18 02:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "A NWS survey team confirmed an EF-1 tornado tracked from Evelyn Ave towards Woodhaven Dr and Roberta Grove Blvd in Houma_ LA.",
+      "lat": 29.58,
+      "lon": -90.69,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-45",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180848",
       "standard_time_display": "2026-06-18 02:48 CST",
       "standard_time_zone": "CST",
@@ -980,7 +1047,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-43",
+      "report_id": "iem-lsr-LIX-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180850",
+      "standard_time_display": "2026-06-18 02:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "Corrects previous tornado report from 1 ENE Houma. NWS ground survey confirmed an EF-1 tornado touched down near Dixie Avenue and Afton Street in Houma_ LA.",
+      "lat": 29.58,
+      "lon": -90.69,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180850",
+      "standard_time_display": "2026-06-18 02:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed an EF-0 tornado touched down near Wise Circle and Grand Caillou Road in Houma_ LA.",
+      "lat": 29.57,
+      "lon": -90.68,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180856",
+      "standard_time_display": "2026-06-18 02:56 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "Emergency Mngr",
+      "remark": "Photos provided from Terrebonne Parish EM helped to confirm an EF-0 tornado touched down on Megan Drive near Houma_ LA.",
+      "lat": 29.61,
+      "lon": -90.66,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180900",
       "standard_time_display": "2026-06-18 03:00 CST",
@@ -1002,7 +1135,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-44",
+      "report_id": "iem-lsr-LIX-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180900",
       "standard_time_display": "2026-06-18 03:00 CST",
@@ -1024,7 +1157,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-45",
+      "report_id": "iem-lsr-LIX-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180900",
       "standard_time_display": "2026-06-18 03:00 CST",
@@ -1046,7 +1179,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-46",
+      "report_id": "iem-lsr-LIX-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180900",
       "standard_time_display": "2026-06-18 03:00 CST",
@@ -1068,7 +1201,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-47",
+      "report_id": "iem-lsr-LIX-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180907",
       "standard_time_display": "2026-06-18 03:07 CST",
@@ -1090,7 +1223,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-48",
+      "report_id": "iem-lsr-LIX-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180913",
       "standard_time_display": "2026-06-18 03:13 CST",
@@ -1112,7 +1245,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-49",
+      "report_id": "iem-lsr-LIX-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180915",
       "standard_time_display": "2026-06-18 03:15 CST",
@@ -1134,7 +1267,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-50",
+      "report_id": "iem-lsr-LIX-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180920",
       "standard_time_display": "2026-06-18 03:20 CST",
@@ -1156,7 +1289,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-51",
+      "report_id": "iem-lsr-LIX-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180928",
       "standard_time_display": "2026-06-18 03:28 CST",
@@ -1178,7 +1311,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-52",
+      "report_id": "iem-lsr-LIX-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180945",
       "standard_time_display": "2026-06-18 03:45 CST",
@@ -1200,7 +1333,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-53",
+      "report_id": "iem-lsr-LIX-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606180951",
       "standard_time_display": "2026-06-18 03:51 CST",
@@ -1222,7 +1355,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-54",
+      "report_id": "iem-lsr-LIX-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606180954",
+      "standard_time_display": "2026-06-18 03:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Boutte",
+      "county": "St. Charles",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed a brief EF-0 tornado touched down over rural parts of St. Charles and moved into Santa Cruz Ct between Boutte and Luling_ LA.",
+      "lat": 29.9,
+      "lon": -90.37,
+      "ugc": "LAC089",
+      "ugc_name": "St. Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-61",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181000",
+      "standard_time_display": "2026-06-18 04:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 WNW Lacombe",
+      "county": "St. Tammany",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "A NWS storm survey confirmed an EF-1 tornado touched down near Bayou Cane and moved across US Hwy 190 near Lacombe_ LA.",
+      "lat": 30.33,
+      "lon": -90.01,
+      "ugc": "LAC103",
+      "ugc_name": "St. Tammany",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181015",
       "standard_time_display": "2026-06-18 04:15 CST",
@@ -1244,7 +1421,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-55",
+      "report_id": "iem-lsr-LIX-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181030",
       "standard_time_display": "2026-06-18 04:30 CST",
@@ -1266,7 +1443,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-56",
+      "report_id": "iem-lsr-LIX-64",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181033",
+      "standard_time_display": "2026-06-18 04:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Avondale",
+      "county": "Jefferson",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "*** 2 INJ *** Corrects previous tornado report from 2 WNW Avondale. A NWS ground survey confirmed an EF-1 tornado touched down in Avondale_ LA near Butler Drive and continued to Center Street.",
+      "lat": 29.91,
+      "lon": -90.22,
+      "ugc": "LAC051",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181033",
+      "standard_time_display": "2026-06-18 04:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Avondale",
+      "county": "Jefferson",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "A NWS ground survey confirmed an EF-1 tornado touched down in Avondale_ LA near Butler Drive and continued to Center Street.",
+      "lat": 29.91,
+      "lon": -90.22,
+      "ugc": "LAC051",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181035",
       "standard_time_display": "2026-06-18 04:35 CST",
@@ -1288,7 +1509,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-57",
+      "report_id": "iem-lsr-LIX-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181040",
       "standard_time_display": "2026-06-18 04:40 CST",
@@ -1310,7 +1531,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-58",
+      "report_id": "iem-lsr-LIX-68",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181044",
+      "standard_time_display": "2026-06-18 04:44 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Bridge City",
+      "county": "Jefferson",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "A NWS storm survey team confirmed an EF-1 tornado touched down in Jefferson_ LA and moved northeast through New Orleans to Lakeshore Drive on Lake Pontchartrain.",
+      "lat": 29.96,
+      "lon": -90.15,
+      "ugc": "LAC051",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181045",
       "standard_time_display": "2026-06-18 04:45 CST",
@@ -1332,7 +1575,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-59",
+      "report_id": "iem-lsr-LIX-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181046",
       "standard_time_display": "2026-06-18 04:46 CST",
@@ -1354,7 +1597,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-60",
+      "report_id": "iem-lsr-LIX-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181050",
       "standard_time_display": "2026-06-18 04:50 CST",
@@ -1376,7 +1619,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-61",
+      "report_id": "iem-lsr-LIX-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181100",
       "standard_time_display": "2026-06-18 05:00 CST",
@@ -1398,7 +1641,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-62",
+      "report_id": "iem-lsr-LIX-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181108",
       "standard_time_display": "2026-06-18 05:08 CST",
@@ -1420,7 +1663,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-63",
+      "report_id": "iem-lsr-LIX-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181128",
       "standard_time_display": "2026-06-18 05:28 CST",
@@ -1442,7 +1685,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-64",
+      "report_id": "iem-lsr-LIX-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181149",
+      "standard_time_display": "2026-06-18 05:49 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Eden Isle",
+      "county": "St. Tammany",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed an EF-0 touched down in Eden Isle_ LA and moved east across I-10 into Lakeshore Village before lifting.",
+      "lat": 30.23,
+      "lon": -89.8,
+      "ugc": "LAC103",
+      "ugc_name": "St. Tammany",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-76",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181150",
+      "standard_time_display": "2026-06-18 05:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Eden Isle",
+      "county": "St. Tammany",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed an EF-1 tornado touched down in Treasure Isle and moved northeast through Avery Estates before crossing the Pearl River Basin into Hancock County_ MS.",
+      "lat": 30.18,
+      "lon": -89.76,
+      "ugc": "LAC103",
+      "ugc_name": "St. Tammany",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181153",
       "standard_time_display": "2026-06-18 05:53 CST",
@@ -1464,7 +1751,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-65",
+      "report_id": "iem-lsr-LIX-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181159",
       "standard_time_display": "2026-06-18 05:59 CST",
@@ -1486,7 +1773,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-66",
+      "report_id": "iem-lsr-LIX-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181213",
       "standard_time_display": "2026-06-18 06:13 CST",
@@ -1508,7 +1795,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-67",
+      "report_id": "iem-lsr-LIX-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181214",
       "standard_time_display": "2026-06-18 06:14 CST",
@@ -1530,7 +1817,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-68",
+      "report_id": "iem-lsr-LIX-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181225",
       "standard_time_display": "2026-06-18 06:25 CST",
@@ -1552,7 +1839,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-69",
+      "report_id": "iem-lsr-LIX-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181225",
       "standard_time_display": "2026-06-18 06:25 CST",
@@ -1574,7 +1861,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-70",
+      "report_id": "iem-lsr-LIX-83",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606181304",
+      "standard_time_display": "2026-06-18 07:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 NE Kiln",
+      "county": "Hancock",
+      "state": "MS",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed an EF-1 touched down near Standard Dedeaux Rd and moved northeast into Harrison County. It lifted near MS Hwy 53.",
+      "lat": 30.51,
+      "lon": -89.34,
+      "ugc": "MSC045",
+      "ugc_name": "Hancock",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181305",
       "standard_time_display": "2026-06-18 07:05 CST",
@@ -1596,7 +1905,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-71",
+      "report_id": "iem-lsr-LIX-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181319",
       "standard_time_display": "2026-06-18 07:19 CST",
@@ -1618,7 +1927,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-72",
+      "report_id": "iem-lsr-LIX-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181320",
       "standard_time_display": "2026-06-18 07:20 CST",
@@ -1640,7 +1949,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-73",
+      "report_id": "iem-lsr-LIX-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181324",
       "standard_time_display": "2026-06-18 07:24 CST",
@@ -1662,7 +1971,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-74",
+      "report_id": "iem-lsr-LIX-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181326",
       "standard_time_display": "2026-06-18 07:26 CST",
@@ -1684,7 +1993,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-75",
+      "report_id": "iem-lsr-LIX-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181340",
       "standard_time_display": "2026-06-18 07:40 CST",
@@ -1706,7 +2015,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-76",
+      "report_id": "iem-lsr-LIX-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181400",
       "standard_time_display": "2026-06-18 08:00 CST",
@@ -1728,7 +2037,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-77",
+      "report_id": "iem-lsr-LIX-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181440",
       "standard_time_display": "2026-06-18 08:40 CST",
@@ -1750,7 +2059,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-78",
+      "report_id": "iem-lsr-LIX-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181449",
       "standard_time_display": "2026-06-18 08:49 CST",
@@ -1772,7 +2081,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-79",
+      "report_id": "iem-lsr-LIX-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181531",
       "standard_time_display": "2026-06-18 09:31 CST",
@@ -1794,7 +2103,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-80",
+      "report_id": "iem-lsr-LIX-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181533",
       "standard_time_display": "2026-06-18 09:33 CST",
@@ -1816,7 +2125,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-81",
+      "report_id": "iem-lsr-LIX-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181536",
       "standard_time_display": "2026-06-18 09:36 CST",
@@ -1838,7 +2147,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-82",
+      "report_id": "iem-lsr-LIX-96",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181545",
       "standard_time_display": "2026-06-18 09:45 CST",
@@ -1860,7 +2169,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-83",
+      "report_id": "iem-lsr-LIX-97",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181545",
       "standard_time_display": "2026-06-18 09:45 CST",
@@ -1882,7 +2191,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-84",
+      "report_id": "iem-lsr-LIX-98",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181546",
       "standard_time_display": "2026-06-18 09:46 CST",
@@ -1904,7 +2213,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-85",
+      "report_id": "iem-lsr-LIX-99",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181550",
       "standard_time_display": "2026-06-18 09:50 CST",
@@ -1926,7 +2235,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-86",
+      "report_id": "iem-lsr-LIX-100",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181551",
       "standard_time_display": "2026-06-18 09:51 CST",
@@ -1948,7 +2257,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-87",
+      "report_id": "iem-lsr-LIX-101",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181630",
       "standard_time_display": "2026-06-18 10:30 CST",
@@ -1970,7 +2279,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-88",
+      "report_id": "iem-lsr-LIX-102",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181636",
       "standard_time_display": "2026-06-18 10:36 CST",
@@ -1992,7 +2301,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-89",
+      "report_id": "iem-lsr-LIX-103",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181640",
       "standard_time_display": "2026-06-18 10:40 CST",
@@ -2014,7 +2323,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-90",
+      "report_id": "iem-lsr-LIX-104",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181643",
       "standard_time_display": "2026-06-18 10:43 CST",
@@ -2036,7 +2345,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-91",
+      "report_id": "iem-lsr-LIX-105",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181705",
       "standard_time_display": "2026-06-18 11:05 CST",
@@ -2058,7 +2367,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-92",
+      "report_id": "iem-lsr-LIX-106",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181716",
       "standard_time_display": "2026-06-18 11:16 CST",
@@ -2080,7 +2389,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-93",
+      "report_id": "iem-lsr-LIX-107",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181830",
       "standard_time_display": "2026-06-18 12:30 CST",
@@ -2102,7 +2411,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-94",
+      "report_id": "iem-lsr-LIX-108",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181830",
       "standard_time_display": "2026-06-18 12:30 CST",
@@ -2124,7 +2433,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-95",
+      "report_id": "iem-lsr-LIX-109",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181830",
       "standard_time_display": "2026-06-18 12:30 CST",
@@ -2146,7 +2455,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-96",
+      "report_id": "iem-lsr-LIX-110",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181835",
       "standard_time_display": "2026-06-18 12:35 CST",
@@ -2168,7 +2477,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-97",
+      "report_id": "iem-lsr-LIX-111",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181900",
       "standard_time_display": "2026-06-18 13:00 CST",
@@ -2190,7 +2499,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-98",
+      "report_id": "iem-lsr-LIX-112",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606181935",
       "standard_time_display": "2026-06-18 13:35 CST",
@@ -2212,7 +2521,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-99",
+      "report_id": "iem-lsr-LIX-113",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182030",
       "standard_time_display": "2026-06-18 14:30 CST",
@@ -2234,7 +2543,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-100",
+      "report_id": "iem-lsr-LIX-114",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606182050",
+      "standard_time_display": "2026-06-18 14:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Houma",
+      "county": "Terrebonne",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS ground survey confirmed an EF-1 tornado touched down near Dixie Avenue and Afton Street in Houma_ LA.",
+      "lat": 29.58,
+      "lon": -90.69,
+      "ugc": "LAC109",
+      "ugc_name": "Terrebonne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-115",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182210",
       "standard_time_display": "2026-06-18 16:10 CST",
@@ -2256,7 +2587,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-101",
+      "report_id": "iem-lsr-LIX-116",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606182232",
       "standard_time_display": "2026-06-18 16:32 CST",
@@ -2278,7 +2609,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-102",
+      "report_id": "iem-lsr-LIX-117",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606192251",
+      "standard_time_display": "2026-06-19 16:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Chalmette",
+      "county": "St. Bernard",
+      "state": "LA",
+      "source": "Public",
+      "remark": "NWS ground survey confirmed an EF-0 touched down near Arabi_ LA and tracked southward toward Norton Avenue.",
+      "lat": 29.96,
+      "lon": -89.99,
+      "ugc": "LAC087",
+      "ugc_name": "St. Bernard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-118",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200415",
       "standard_time_display": "2026-06-19 22:15 CST",
@@ -2300,7 +2653,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-103",
+      "report_id": "iem-lsr-LIX-119",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200416",
       "standard_time_display": "2026-06-19 22:16 CST",
@@ -2322,7 +2675,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-104",
+      "report_id": "iem-lsr-LIX-120",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200436",
       "standard_time_display": "2026-06-19 22:36 CST",
@@ -2344,7 +2697,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-105",
+      "report_id": "iem-lsr-LIX-121",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200500",
       "standard_time_display": "2026-06-19 23:00 CST",
@@ -2366,7 +2719,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-106",
+      "report_id": "iem-lsr-LIX-122",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200516",
       "standard_time_display": "2026-06-19 23:16 CST",
@@ -2388,7 +2741,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-107",
+      "report_id": "iem-lsr-LIX-123",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200520",
       "standard_time_display": "2026-06-19 23:20 CST",
@@ -2410,7 +2763,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-108",
+      "report_id": "iem-lsr-LIX-124",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200530",
       "standard_time_display": "2026-06-19 23:30 CST",
@@ -2432,7 +2785,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-109",
+      "report_id": "iem-lsr-LIX-125",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200542",
       "standard_time_display": "2026-06-19 23:42 CST",
@@ -2454,7 +2807,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-110",
+      "report_id": "iem-lsr-LIX-126",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200548",
       "standard_time_display": "2026-06-19 23:48 CST",
@@ -2476,7 +2829,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-111",
+      "report_id": "iem-lsr-LIX-127",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606200800",
       "standard_time_display": "2026-06-20 02:00 CST",
@@ -2498,7 +2851,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-112",
+      "report_id": "iem-lsr-LIX-128",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606201951",
       "standard_time_display": "2026-06-20 13:51 CST",
@@ -2520,7 +2873,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-113",
+      "report_id": "iem-lsr-LIX-129",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202000",
       "standard_time_display": "2026-06-20 14:00 CST",
@@ -2542,7 +2895,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-114",
+      "report_id": "iem-lsr-LIX-130",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202008",
       "standard_time_display": "2026-06-20 14:08 CST",
@@ -2564,7 +2917,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-115",
+      "report_id": "iem-lsr-LIX-131",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202027",
       "standard_time_display": "2026-06-20 14:27 CST",
@@ -2586,7 +2939,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-116",
+      "report_id": "iem-lsr-LIX-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202030",
       "standard_time_display": "2026-06-20 14:30 CST",
@@ -2608,7 +2961,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-117",
+      "report_id": "iem-lsr-LIX-133",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202053",
       "standard_time_display": "2026-06-20 14:53 CST",
@@ -2630,7 +2983,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LIX-118",
+      "report_id": "iem-lsr-LIX-134",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606202118",
       "standard_time_display": "2026-06-20 15:18 CST",
@@ -2658,7 +3011,7 @@
       "wfo": "LIX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-23T12:15:20Z"
+      "generated_utc": "2026-06-24T11:54:58Z"
     },
     "primary_links": [
       {

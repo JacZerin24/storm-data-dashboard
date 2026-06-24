@@ -6,7 +6,7 @@
     "wfo": "PAH",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-23T12:15:40Z",
+    "generated_utc": "2026-06-24T11:55:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "PAH",
-    "total_candidate_reports": 90,
-    "mapped_candidate_reports": 90,
+    "total_candidate_reports": 104,
+    "mapped_candidate_reports": 104,
     "candidate_report_counts": {
       "flooding": 6,
       "hail": 12,
       "other": 1,
       "thunderstorm_wind": 50,
-      "tornado": 21
+      "tornado": 35
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 5,
@@ -34,7 +34,7 @@
       "NON-TSTM WND DMG": 5,
       "NON-TSTM WND GST": 17,
       "RAIN": 1,
-      "TORNADO": 19,
+      "TORNADO": 33,
       "TSTM WND DMG": 25,
       "TSTM WND GST": 3
     },
@@ -1449,6 +1449,28 @@
     {
       "report_id": "iem-lsr-PAH-64",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606212202",
+      "standard_time_display": "2026-06-21 16:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Dix",
+      "county": "Jefferson",
+      "state": "IL",
+      "source": "NWS Storm Survey",
+      "remark": "*** 2 FATAL_ 5 INJ *** EF3 Tornado. Peak winds 140 mph. Track 13.8 miles. Several mobile homes destroyed. Severe tree damage_ power poles snapped.",
+      "lat": 38.41,
+      "lon": -88.93,
+      "ugc": "ILC081",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-65",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606212207",
       "standard_time_display": "2026-06-21 16:07 CST",
       "standard_time_zone": "CST",
@@ -1469,7 +1491,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-65",
+      "report_id": "iem-lsr-PAH-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606212209",
       "standard_time_display": "2026-06-21 16:09 CST",
@@ -1491,7 +1513,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-66",
+      "report_id": "iem-lsr-PAH-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606212211",
       "standard_time_display": "2026-06-21 16:11 CST",
@@ -1513,7 +1535,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-67",
+      "report_id": "iem-lsr-PAH-68",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606212257",
+      "standard_time_display": "2026-06-21 16:57 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Sims",
+      "county": "Wayne",
+      "state": "IL",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. Peak winds 95 mph. Path Length 1.53 miles. Storage shed and barn damaged/destroyed. Tree damage.",
+      "lat": 38.41,
+      "lon": -88.5,
+      "ugc": "ILC191",
+      "ugc_name": "Wayne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220002",
+      "standard_time_display": "2026-06-21 18:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Cynthiana",
+      "county": "Gibson",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF2 Tornado. Peak Wind 115 mph. Path Length 11.5 miles. Church severely damaged_ Home with roof removed. Significant damage to power poles and transmission lines. Severe crop damage.",
+      "lat": 38.22,
+      "lon": -87.7,
+      "ugc": "INC051",
+      "ugc_name": "Gibson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220009",
       "standard_time_display": "2026-06-21 18:09 CST",
@@ -1535,7 +1601,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-68",
+      "report_id": "iem-lsr-PAH-71",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220011",
+      "standard_time_display": "2026-06-21 18:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Jeffersonville",
+      "county": "Wayne",
+      "state": "IL",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. 90 mph peak winds. 3.78 mile path. Carport destroyed_ trees damaged. Severe crop damage.",
+      "lat": 38.44,
+      "lon": -88.36,
+      "ugc": "ILC191",
+      "ugc_name": "Wayne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220025",
       "standard_time_display": "2026-06-21 18:25 CST",
@@ -1557,7 +1645,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-69",
+      "report_id": "iem-lsr-PAH-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220028",
       "standard_time_display": "2026-06-21 18:28 CST",
@@ -1579,7 +1667,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-70",
+      "report_id": "iem-lsr-PAH-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220030",
       "standard_time_display": "2026-06-21 18:30 CST",
@@ -1601,7 +1689,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-71",
+      "report_id": "iem-lsr-PAH-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220038",
+      "standard_time_display": "2026-06-21 18:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Mackey",
+      "county": "Gibson",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. Peak Winds 90 mph. Path Length 1.53 miles. Outbuilding collapsed_ mobile home suffered partial roof removal. Severe crop damage.",
+      "lat": 38.25,
+      "lon": -87.38,
+      "ugc": "INC051",
+      "ugc_name": "Gibson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220039",
       "standard_time_display": "2026-06-21 18:39 CST",
@@ -1623,7 +1733,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-72",
+      "report_id": "iem-lsr-PAH-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220041",
       "standard_time_display": "2026-06-21 18:41 CST",
@@ -1645,7 +1755,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-73",
+      "report_id": "iem-lsr-PAH-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220041",
       "standard_time_display": "2026-06-21 18:41 CST",
@@ -1667,7 +1777,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-74",
+      "report_id": "iem-lsr-PAH-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220042",
       "standard_time_display": "2026-06-21 18:42 CST",
@@ -1689,7 +1799,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-75",
+      "report_id": "iem-lsr-PAH-80",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220047",
+      "standard_time_display": "2026-06-21 18:47 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Lynnville",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. 90 mph Peak Wind. Path length 1 mile. Several power poles leaning_ large broken tree branches.",
+      "lat": 38.23,
+      "lon": -87.29,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220052",
+      "standard_time_display": "2026-06-21 18:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Spurgeon",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF0 Tornado. Peak Winds 80 mph. Path length less than one half mile. Brief tornado produced scattered tree damage and a few uprooted trees.",
+      "lat": 38.22,
+      "lon": -87.25,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220055",
       "standard_time_display": "2026-06-21 18:55 CST",
@@ -1711,7 +1865,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-76",
+      "report_id": "iem-lsr-PAH-83",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220057",
+      "standard_time_display": "2026-06-21 18:57 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Spurgeon",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF0 Tornado. Peak Winds 85 mph. Several trees uprooted.",
+      "lat": 38.21,
+      "lon": -87.18,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220103",
       "standard_time_display": "2026-06-21 19:03 CST",
@@ -1733,7 +1909,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-77",
+      "report_id": "iem-lsr-PAH-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220109",
       "standard_time_display": "2026-06-21 19:09 CST",
@@ -1755,7 +1931,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-78",
+      "report_id": "iem-lsr-PAH-86",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220115",
+      "standard_time_display": "2026-06-21 19:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Dale",
+      "county": "Spencer",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. Peak Winds 95 mph. Path Length less than one-half mile. Extensive crop damage. Turkey barns suffered significant roof damage. Shingle damage to adjacent home.",
+      "lat": 38.18,
+      "lon": -87.0,
+      "ugc": "INC147",
+      "ugc_name": "Spencer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220116",
       "standard_time_display": "2026-06-21 19:16 CST",
@@ -1777,7 +1975,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-79",
+      "report_id": "iem-lsr-PAH-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220119",
       "standard_time_display": "2026-06-21 19:19 CST",
@@ -1799,7 +1997,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-80",
+      "report_id": "iem-lsr-PAH-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220132",
       "standard_time_display": "2026-06-21 19:32 CST",
@@ -1821,7 +2019,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-81",
+      "report_id": "iem-lsr-PAH-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220150",
       "standard_time_display": "2026-06-21 19:50 CST",
@@ -1843,7 +2041,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-82",
+      "report_id": "iem-lsr-PAH-91",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220153",
+      "standard_time_display": "2026-06-21 19:53 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Enfield",
+      "county": "White",
+      "state": "IL",
+      "source": "NWS Storm Survey",
+      "remark": "EFU tornado. Eyewitness and video of a brief tornado touchdown but no damage was found.",
+      "lat": 38.15,
+      "lon": -88.29,
+      "ugc": "ILC193",
+      "ugc_name": "White",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220156",
       "standard_time_display": "2026-06-21 19:56 CST",
@@ -1865,7 +2085,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-83",
+      "report_id": "iem-lsr-PAH-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220200",
       "standard_time_display": "2026-06-21 20:00 CST",
@@ -1887,7 +2107,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-84",
+      "report_id": "iem-lsr-PAH-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220215",
       "standard_time_display": "2026-06-21 20:15 CST",
@@ -1909,7 +2129,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-85",
+      "report_id": "iem-lsr-PAH-95",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220215",
+      "standard_time_display": "2026-06-21 20:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Newburgh",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "*** 2 INJ *** EF1 Tornado. 100 mph peak winds. 3 mile path length. Roof and fence damage at an apartment complex. Roof damage continues to other apartments downstream. Dental office had roof mostly r",
+      "lat": 37.98,
+      "lon": -87.45,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-96",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220217",
       "standard_time_display": "2026-06-21 20:17 CST",
@@ -1931,7 +2173,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-86",
+      "report_id": "iem-lsr-PAH-97",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220220",
       "standard_time_display": "2026-06-21 20:20 CST",
@@ -1953,7 +2195,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-87",
+      "report_id": "iem-lsr-PAH-98",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220228",
       "standard_time_display": "2026-06-21 20:28 CST",
@@ -1975,7 +2217,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-88",
+      "report_id": "iem-lsr-PAH-99",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220303",
+      "standard_time_display": "2026-06-21 21:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Grandview",
+      "county": "Spencer",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF0 Tornado. Peak Winds 80 mph. Path Length one-half mile. Brief tornado produced shingle damage to a couple homes and uprooted several trees.",
+      "lat": 37.94,
+      "lon": -86.99,
+      "ugc": "INC147",
+      "ugc_name": "Spencer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-100",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220305",
       "standard_time_display": "2026-06-21 21:05 CST",
@@ -1997,7 +2261,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-89",
+      "report_id": "iem-lsr-PAH-101",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220306",
       "standard_time_display": "2026-06-21 21:06 CST",
@@ -2019,7 +2283,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PAH-90",
+      "report_id": "iem-lsr-PAH-102",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220337",
+      "standard_time_display": "2026-06-21 21:37 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Chandler",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. Peak Winds 105 mph. Path Length 0.5 miles. Partial roof loss to an outbuilding. Dozens of tree trunks snapped.",
+      "lat": 38.06,
+      "lon": -87.39,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-103",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606220339",
+      "standard_time_display": "2026-06-21 21:39 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Chandler",
+      "county": "Warrick",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "EF1 Tornado. Peak Wind 110 mph. Dozens of snapped tree trunks. Shingle damage to home. Widespread corn crop blow down.",
+      "lat": 38.06,
+      "lon": -87.38,
+      "ugc": "INC173",
+      "ugc_name": "Warrick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-104",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606220341",
       "standard_time_display": "2026-06-21 21:41 CST",
@@ -2047,7 +2355,7 @@
       "wfo": "PAH",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-23T12:15:40Z"
+      "generated_utc": "2026-06-24T11:55:17Z"
     },
     "primary_links": [
       {

@@ -3,18 +3,20 @@
   "year": 2026,
   "month": 6,
   "wfo": "FFC",
-  "total_candidate_reports": 162,
-  "mapped_candidate_reports": 162,
+  "total_candidate_reports": 194,
+  "mapped_candidate_reports": 194,
   "candidate_report_counts": {
     "flooding": 10,
     "hail": 1,
-    "thunderstorm_wind": 151
+    "thunderstorm_wind": 173,
+    "tornado": 10
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 9,
     "FLOOD": 1,
     "HAIL": 1,
-    "TSTM WND DMG": 135,
+    "TORNADO": 10,
+    "TSTM WND DMG": 157,
     "TSTM WND GST": 16
   },
   "nws_api_alert_count": 0,
@@ -22,6 +24,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FFC&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

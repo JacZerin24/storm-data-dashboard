@@ -7,12 +7,117 @@
     "wfo": "GUM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-23T12:15:05Z",
+    "generated_utc": "2026-06-24T11:54:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GUM-1",
+      "properties": {
+        "report_id": "iem-lsr-GUM-1",
+        "report_type": "TROPICAL CYCLONE",
+        "event_category": "other",
+        "valid_utc": "202606222250",
+        "standard_time_display": "2026-06-23 08:50 ChST",
+        "wfo": "GUM",
+        "county_or_zone": "Saipan",
+        "city": "1 SSW Dandan",
+        "state": "MP",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "PK WND 06045/2350."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73,
+          15.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GUM-2",
+      "properties": {
+        "report_id": "iem-lsr-GUM-2",
+        "report_type": "TROPICAL CYCLONE",
+        "event_category": "other",
+        "valid_utc": "202606222250",
+        "standard_time_display": "2026-06-23 08:50 ChST",
+        "wfo": "GUM",
+        "county_or_zone": "Saipan",
+        "city": "1 SSW Dandan",
+        "state": "MP",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "PK WND 06045/2350."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73,
+          15.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GUM-3",
+      "properties": {
+        "report_id": "iem-lsr-GUM-3",
+        "report_type": "TROPICAL CYCLONE",
+        "event_category": "other",
+        "valid_utc": "202606230108",
+        "standard_time_display": "2026-06-23 11:08 ChST",
+        "wfo": "GUM",
+        "county_or_zone": "Tinian",
+        "city": "2 N San Jose (tinian)",
+        "state": "MP",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Sutron data shows 02035KT at 0208Z."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.62,
+          15.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GUM-4",
+      "properties": {
+        "report_id": "iem-lsr-GUM-4",
+        "report_type": "TROPICAL CYCLONE",
+        "event_category": "other",
+        "valid_utc": "202606230108",
+        "standard_time_display": "2026-06-23 11:08 ChST",
+        "wfo": "GUM",
+        "county_or_zone": "Tinian",
+        "city": "3 N San Jose (tinian)",
+        "state": "MP",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Sutron data shows 02035KT at 0108Z."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.62,
+          15.01
+        ]
+      }
+    }
+  ]
 }
