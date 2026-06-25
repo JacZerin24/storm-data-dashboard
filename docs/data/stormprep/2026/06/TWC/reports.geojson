@@ -7,7 +7,7 @@
     "wfo": "TWC",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-24T11:55:38Z",
+    "generated_utc": "2026-06-25T11:50:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -428,6 +428,84 @@
         "coordinates": [
           -111.15,
           32.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-17",
+      "properties": {
+        "report_id": "iem-lsr-TWC-17",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606242133",
+        "standard_time_display": "2026-06-24 14:33 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "1 W Sierra Vista",
+        "state": "AZ",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Dime sized hail reported by public."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.35,
+          31.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-18",
+      "properties": {
+        "report_id": "iem-lsr-TWC-18",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606242150",
+        "standard_time_display": "2026-06-24 14:50 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "2 WNW Sierra Vista",
+        "state": "AZ",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "Half-dollar sized hail reported by Fort Huachuca."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.35,
+          31.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-19",
+      "properties": {
+        "report_id": "iem-lsr-TWC-19",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202606250005",
+        "standard_time_display": "2026-06-24 17:05 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "12 SE Sierra Vista",
+        "state": "AZ",
+        "magnitude": 2.55,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Total rainfall fell in about 90 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.18,
+          31.44
         ]
       }
     }

@@ -6,7 +6,7 @@
     "wfo": "TSA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-24T11:55:37Z",
+    "generated_utc": "2026-06-25T11:50:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "TSA",
-    "total_candidate_reports": 73,
-    "mapped_candidate_reports": 73,
+    "total_candidate_reports": 75,
+    "mapped_candidate_reports": 75,
     "candidate_report_counts": {
-      "flooding": 17,
+      "flooding": 19,
       "hail": 6,
       "other": 1,
       "thunderstorm_wind": 46,
       "tornado": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 17,
+      "FLASH FLOOD": 18,
+      "FLOOD": 1,
       "HAIL": 6,
       "RAIN": 1,
       "TORNADO": 3,
@@ -1661,6 +1662,50 @@
       "ugc": "OKC023",
       "ugc_name": "Choctaw",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606241515",
+      "standard_time_display": "2026-06-24 09:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Broken Arrow",
+      "county": "Tulsa",
+      "state": "OK",
+      "source": "Emergency Mngr",
+      "remark": "cars stranded in street flooding at 91st and 145th.",
+      "lat": 36.03,
+      "lon": -95.8,
+      "ugc": "OKC143",
+      "ugc_name": "Tulsa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606241715",
+      "standard_time_display": "2026-06-24 11:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Tulsa",
+      "county": "Tulsa",
+      "state": "OK",
+      "source": "NWS Employee",
+      "remark": "Yale flooded west of LaFortune golf course.",
+      "lat": 36.08,
+      "lon": -95.92,
+      "ugc": "OKC143",
+      "ugc_name": "Tulsa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1669,7 +1714,7 @@
       "wfo": "TSA",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-24T11:55:37Z"
+      "generated_utc": "2026-06-25T11:50:47Z"
     },
     "primary_links": [
       {

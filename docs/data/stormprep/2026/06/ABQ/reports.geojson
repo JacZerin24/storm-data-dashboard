@@ -7,7 +7,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-24T11:54:11Z",
+    "generated_utc": "2026-06-25T11:49:15Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -800,6 +800,32 @@
       "id": "iem-lsr-ABQ-31",
       "properties": {
         "report_id": "iem-lsr-ABQ-31",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606192120",
+        "standard_time_display": "2026-06-19 14:20 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "San Miguel",
+        "city": "1 WSW San Miguel",
+        "state": "NM",
+        "magnitude": 2.5,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Delayed Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          35.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-32",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-32",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606192346",
@@ -823,9 +849,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ABQ-32",
+      "id": "iem-lsr-ABQ-33",
       "properties": {
-        "report_id": "iem-lsr-ABQ-32",
+        "report_id": "iem-lsr-ABQ-33",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606200145",
@@ -844,6 +870,162 @@
         "coordinates": [
           -103.85,
           34.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-34",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-34",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606241953",
+        "standard_time_display": "2026-06-24 12:53 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "McKinley",
+        "city": "1 WSW Allison",
+        "state": "NM",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KGUP Gallup Airport. Likely from strong downdrafts created by virga showers."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.8,
+          35.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-35",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-35",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606242013",
+        "standard_time_display": "2026-06-24 13:13 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Lincoln",
+        "city": "6 NE Capitan",
+        "state": "NM",
+        "magnitude": 0.88,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.51,
+          33.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-36",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-36",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606242059",
+        "standard_time_display": "2026-06-24 13:59 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Mora",
+        "city": "2 S Ocate",
+        "state": "NM",
+        "magnitude": 0.88,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05,
+          36.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-37",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-37",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606242215",
+        "standard_time_display": "2026-06-24 15:15 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Santa Fe",
+        "city": "4 NNE La Cienega",
+        "state": "NM",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KSAF Santa Fe Muni Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1,
+          35.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-38",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-38",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606250045",
+        "standard_time_display": "2026-06-24 17:45 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Colfax",
+        "city": "2 N Raton",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "10 to 12 inches of water flowing over North Second Street from Raton Creek. Total rainfall from observer was 2.90 inches."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.44,
+          36.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-39",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-39",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606250241",
+        "standard_time_display": "2026-06-24 19:41 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Quay",
+        "city": "7 E Tucumcari",
+        "state": "NM",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KTCC Tucumcari Muni Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.6,
+          35.18
         ]
       }
     }

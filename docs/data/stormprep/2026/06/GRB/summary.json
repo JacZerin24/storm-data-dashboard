@@ -3,29 +3,32 @@
   "year": 2026,
   "month": 6,
   "wfo": "GRB",
-  "total_candidate_reports": 113,
-  "mapped_candidate_reports": 113,
+  "total_candidate_reports": 162,
+  "mapped_candidate_reports": 162,
   "candidate_report_counts": {
-    "flooding": 1,
-    "hail": 16,
+    "flooding": 6,
+    "hail": 49,
     "marine": 2,
-    "other": 49,
-    "thunderstorm_wind": 45
+    "other": 57,
+    "thunderstorm_wind": 46,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "FLASH FLOOD": 1,
-    "HAIL": 16,
+    "FLASH FLOOD": 6,
+    "FUNNEL CLOUD": 2,
+    "HAIL": 49,
     "MARINE TSTM WIND": 2,
     "NON-TSTM WND GST": 1,
-    "RAIN": 49,
+    "RAIN": 57,
     "TSTM WND DMG": 22,
-    "TSTM WND GST": 22
+    "TSTM WND GST": 23
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GRB&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
