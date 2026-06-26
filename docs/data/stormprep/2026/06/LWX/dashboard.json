@@ -6,7 +6,7 @@
     "wfo": "LWX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-25T11:50:11Z",
+    "generated_utc": "2026-06-26T11:50:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "LWX",
-    "total_candidate_reports": 281,
-    "mapped_candidate_reports": 281,
+    "total_candidate_reports": 321,
+    "mapped_candidate_reports": 321,
     "candidate_report_counts": {
       "hail": 3,
-      "marine": 54,
+      "marine": 94,
       "thunderstorm_wind": 224
     },
     "candidate_report_type_counts": {
       "HAIL": 3,
-      "MARINE TSTM WIND": 54,
+      "MARINE TSTM WIND": 94,
       "TSTM WND DMG": 208,
       "TSTM WND GST": 16
     },
@@ -4255,6 +4255,116 @@
     {
       "report_id": "iem-lsr-LWX-192",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142308",
+      "standard_time_display": "2026-06-14 18:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Dahlgren",
+      "county": "ANZ536",
+      "state": "VA",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Baber Point WeatherFlow sensor (XBAB).",
+      "lat": 38.31,
+      "lon": -77.03,
+      "ugc": "ANZ536",
+      "ugc_name": "Tidal Potomac from Indian Head to Cobb Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-193",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142309",
+      "standard_time_display": "2026-06-14 18:09 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 49.0,
+      "magnitude_qualifier": null,
+      "city": "Tower 70",
+      "county": "King George",
+      "state": "VA",
+      "source": "Mesonet",
+      "remark": "A wind gust of 43 knots (49 MPH) was measured by the Tower 70 WeatherFlow sensor (XT70).",
+      "lat": 38.33,
+      "lon": -77.02,
+      "ugc": "VAC099",
+      "ugc_name": "King George",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-194",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142313",
+      "standard_time_display": "2026-06-14 18:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Potomac Lt 33",
+      "county": "ANZ536",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 35 knots (40 MPH) was measured by the Potomac Light WeatherFlow sensor (XP33).",
+      "lat": 38.34,
+      "lon": -76.99,
+      "ugc": "ANZ536",
+      "ugc_name": "Tidal Potomac from Indian Head to Cobb Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-195",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142313",
+      "standard_time_display": "2026-06-14 18:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 50.0,
+      "magnitude_qualifier": null,
+      "city": "Monroe Creek",
+      "county": "ANZ536",
+      "state": "VA",
+      "source": "Mesonet",
+      "remark": "A wind gust of 43 knots (50 MPH) was measured by the Monroe Creek WeatherFlow sensor (XMON).",
+      "lat": 38.23,
+      "lon": -76.95,
+      "ugc": "ANZ536",
+      "ugc_name": "Tidal Potomac from Indian Head to Cobb Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-196",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142315",
+      "standard_time_display": "2026-06-14 18:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Dahlgren",
+      "county": "ANZ536",
+      "state": "VA",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Pylons Dahlgren WeatherFlow sensor (XPYL).",
+      "lat": 38.31,
+      "lon": -77.0,
+      "ugc": "ANZ536",
+      "ugc_name": "Tidal Potomac from Indian Head to Cobb Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-197",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142315",
       "standard_time_display": "2026-06-14 18:15 EST",
       "standard_time_zone": "EST",
@@ -4275,7 +4385,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-193",
+      "report_id": "iem-lsr-LWX-198",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142318",
+      "standard_time_display": "2026-06-14 18:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Cuckold Creek",
+      "county": "Charles",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 50 knots (58 MPH) was measured by the Cuckold Creek WeatherFlow sensor (XCCK).",
+      "lat": 38.31,
+      "lon": -76.93,
+      "ugc": "MDC017",
+      "ugc_name": "Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-199",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142318",
       "standard_time_display": "2026-06-14 18:18 EST",
@@ -4297,7 +4429,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-194",
+      "report_id": "iem-lsr-LWX-200",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142318",
       "standard_time_display": "2026-06-14 18:18 EST",
@@ -4319,7 +4451,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-195",
+      "report_id": "iem-lsr-LWX-201",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142318",
       "standard_time_display": "2026-06-14 18:18 EST",
@@ -4341,7 +4473,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-196",
+      "report_id": "iem-lsr-LWX-202",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142319",
       "standard_time_display": "2026-06-14 18:19 EST",
@@ -4363,7 +4495,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-197",
+      "report_id": "iem-lsr-LWX-203",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142320",
       "standard_time_display": "2026-06-14 18:20 EST",
@@ -4385,7 +4517,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-198",
+      "report_id": "iem-lsr-LWX-204",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142320",
       "standard_time_display": "2026-06-14 18:20 EST",
@@ -4407,7 +4539,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-199",
+      "report_id": "iem-lsr-LWX-205",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142322",
       "standard_time_display": "2026-06-14 18:22 EST",
@@ -4429,7 +4561,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-200",
+      "report_id": "iem-lsr-LWX-206",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142324",
       "standard_time_display": "2026-06-14 18:24 EST",
@@ -4451,7 +4583,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-201",
+      "report_id": "iem-lsr-LWX-207",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142325",
       "standard_time_display": "2026-06-14 18:25 EST",
@@ -4473,7 +4605,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-202",
+      "report_id": "iem-lsr-LWX-208",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142330",
       "standard_time_display": "2026-06-14 18:30 EST",
@@ -4495,7 +4627,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-203",
+      "report_id": "iem-lsr-LWX-209",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142335",
       "standard_time_display": "2026-06-14 18:35 EST",
@@ -4517,7 +4649,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-204",
+      "report_id": "iem-lsr-LWX-210",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142338",
       "standard_time_display": "2026-06-14 18:38 EST",
@@ -4539,7 +4671,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-205",
+      "report_id": "iem-lsr-LWX-211",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142340",
       "standard_time_display": "2026-06-14 18:40 EST",
@@ -4561,7 +4693,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-206",
+      "report_id": "iem-lsr-LWX-212",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142345",
       "standard_time_display": "2026-06-14 18:45 EST",
@@ -4583,7 +4715,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-207",
+      "report_id": "iem-lsr-LWX-213",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142345",
       "standard_time_display": "2026-06-14 18:45 EST",
@@ -4605,7 +4737,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-208",
+      "report_id": "iem-lsr-LWX-214",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606142352",
+      "standard_time_display": "2026-06-14 18:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "Reagan National Arpt",
+      "county": "Arlington",
+      "state": "VA",
+      "source": "ASOS",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the ASOS at Ronald Reagan Washington National Airport (KDCA) adjacent to the tidal Potomac River.",
+      "lat": 38.85,
+      "lon": -77.03,
+      "ugc": "VAC013",
+      "ugc_name": "Arlington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-215",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606142356",
       "standard_time_display": "2026-06-14 18:56 EST",
@@ -4627,7 +4781,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-209",
+      "report_id": "iem-lsr-LWX-216",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150014",
       "standard_time_display": "2026-06-14 19:14 EST",
@@ -4649,7 +4803,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-210",
+      "report_id": "iem-lsr-LWX-217",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150015",
+      "standard_time_display": "2026-06-14 19:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNE North Beach",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Herring Bay WeatherFlow sensor (XHEB).",
+      "lat": 38.73,
+      "lon": -76.53,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-218",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150017",
       "standard_time_display": "2026-06-14 19:17 EST",
@@ -4671,7 +4847,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-211",
+      "report_id": "iem-lsr-LWX-219",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150018",
+      "standard_time_display": "2026-06-14 19:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Piney Point",
+      "county": "ANZ537",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Piney Point NOS sensor (PPTM2).",
+      "lat": 38.13,
+      "lon": -76.53,
+      "ugc": "ANZ537",
+      "ugc_name": "Tidal Potomac from Cobb Island MD to Smith Point VA",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-220",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150019",
+      "standard_time_display": "2026-06-14 19:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "Blackwalnut Harbor",
+      "county": "ANZ541",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 39 knots (45 MPH) was measured by the Blackwalnut Harbor WeatherFlow sensor (XBWH).",
+      "lat": 38.68,
+      "lon": -76.33,
+      "ugc": "ANZ541",
+      "ugc_name": "Choptank River to Cambridge MD and the Little Choptank River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-221",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4693,7 +4913,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-212",
+      "report_id": "iem-lsr-LWX-222",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4715,7 +4935,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-213",
+      "report_id": "iem-lsr-LWX-223",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4737,7 +4957,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-214",
+      "report_id": "iem-lsr-LWX-224",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4759,7 +4979,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-215",
+      "report_id": "iem-lsr-LWX-225",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4781,7 +5001,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-216",
+      "report_id": "iem-lsr-LWX-226",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4803,7 +5023,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-217",
+      "report_id": "iem-lsr-LWX-227",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4825,7 +5045,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-218",
+      "report_id": "iem-lsr-LWX-228",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4847,7 +5067,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-219",
+      "report_id": "iem-lsr-LWX-229",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4869,7 +5089,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-220",
+      "report_id": "iem-lsr-LWX-230",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150024",
       "standard_time_display": "2026-06-14 19:24 EST",
@@ -4891,7 +5111,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-221",
+      "report_id": "iem-lsr-LWX-231",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -4913,7 +5133,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-222",
+      "report_id": "iem-lsr-LWX-232",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -4935,7 +5155,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-223",
+      "report_id": "iem-lsr-LWX-233",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -4957,7 +5177,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-224",
+      "report_id": "iem-lsr-LWX-234",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -4979,7 +5199,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-225",
+      "report_id": "iem-lsr-LWX-235",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -5001,7 +5221,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-226",
+      "report_id": "iem-lsr-LWX-236",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150025",
       "standard_time_display": "2026-06-14 19:25 EST",
@@ -5023,7 +5243,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-227",
+      "report_id": "iem-lsr-LWX-237",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150026",
       "standard_time_display": "2026-06-14 19:26 EST",
@@ -5045,7 +5265,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-228",
+      "report_id": "iem-lsr-LWX-238",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150026",
       "standard_time_display": "2026-06-14 19:26 EST",
@@ -5067,7 +5287,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-229",
+      "report_id": "iem-lsr-LWX-239",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150026",
       "standard_time_display": "2026-06-14 19:26 EST",
@@ -5089,7 +5309,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-230",
+      "report_id": "iem-lsr-LWX-240",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150026",
       "standard_time_display": "2026-06-14 19:26 EST",
@@ -5111,7 +5331,293 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-231",
+      "report_id": "iem-lsr-LWX-241",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150027",
+      "standard_time_display": "2026-06-14 19:27 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "; MD",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Saunders Point Light WeatherFlow sensor (XMTR).",
+      "lat": 38.88,
+      "lon": -76.48,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-242",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150031",
+      "standard_time_display": "2026-06-14 19:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "Patuxent River NAS",
+      "county": "St. Marys",
+      "state": "MD",
+      "source": "AWOS",
+      "remark": "A wind gust of 38 knots (44 MPH) was measured by the ASOS at Patuxent River Naval Air Station (KNHK) adjacent to the Chesapeake Bay and tidal Patuxent River.",
+      "lat": 38.27,
+      "lon": -76.4,
+      "ugc": "MDC037",
+      "ugc_name": "St. Marys",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-243",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150042",
+      "standard_time_display": "2026-06-14 19:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "Solomons Island; MD",
+      "county": "ANZ542",
+      "state": "MD",
+      "source": "NOS-NWLON",
+      "remark": "A wind gust of 38 knots (44 MPH) was measured by the Solomons Island NOS sensor (SLIM2).",
+      "lat": 38.32,
+      "lon": -76.45,
+      "ugc": "ANZ542",
+      "ugc_name": "Patuxent River to Broomes Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-244",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150044",
+      "standard_time_display": "2026-06-14 19:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "Lower Hooper Island",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 44 knots (51 MPH) was measured by the Lower Hooper Island WeatherFlow sensor (XHPR).",
+      "lat": 38.26,
+      "lon": -76.18,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-245",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150048",
+      "standard_time_display": "2026-06-14 19:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "4 W Edgemere",
+      "county": "ANZ538",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the I-695 Francis Scott Key Bridge NOS sensor (FSKM2).",
+      "lat": 39.22,
+      "lon": -76.53,
+      "ugc": "ANZ538",
+      "ugc_name": "Patapsco River including Baltimore Harbor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-246",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150048",
+      "standard_time_display": "2026-06-14 19:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 47.0,
+      "magnitude_qualifier": null,
+      "city": "Cove Point LNG Pier; MD",
+      "county": "ANZ533",
+      "state": "MD",
+      "source": "NOS-PORTS",
+      "remark": "A wind gust of 41 knots (47 MPH) was measured by the Cove Point NOS sensor (COVM2).",
+      "lat": 38.4,
+      "lon": -76.39,
+      "ugc": "ANZ533",
+      "ugc_name": "Chesapeake Bay from North Beach to Drum Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-247",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150048",
+      "standard_time_display": "2026-06-14 19:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "Bishops Head; MD",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "NOS-NWLON",
+      "remark": "A wind gust of 49 knots (56 MPH) was measured by the Bishops Head Pier NOS sensor (BISM2).",
+      "lat": 38.22,
+      "lon": -76.04,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-248",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150055",
+      "standard_time_display": "2026-06-14 19:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Hart/Miller",
+      "county": "ANZ531",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 35 knots (40 MPH) was measured by the Hart/Miller WeatherFlow sensor (XHRT).",
+      "lat": 39.25,
+      "lon": -76.37,
+      "ugc": "ANZ531",
+      "ugc_name": "Chesapeake Bay from Pooles Island to Sandy Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-249",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150105",
+      "standard_time_display": "2026-06-14 20:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Bowleys Quarters",
+      "county": "ANZ531",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Seneca Creek WeatherFlow sensor (XSNC).",
+      "lat": 39.3,
+      "lon": -76.36,
+      "ugc": "ANZ531",
+      "ugc_name": "Chesapeake Bay from Pooles Island to Sandy Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-250",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150115",
+      "standard_time_display": "2026-06-14 20:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Patuxent River NAS",
+      "county": "St. Marys",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near a Tempest station at West Patuxent Basin.",
+      "lat": 38.29,
+      "lon": -76.45,
+      "ugc": "MDC037",
+      "ugc_name": "St. Marys",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-251",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150118",
+      "standard_time_display": "2026-06-14 20:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Solomons Island; MD",
+      "county": "ANZ542",
+      "state": "MD",
+      "source": "NOS-NWLON",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Solomons Island NOS sensor (SLIM2).",
+      "lat": 38.32,
+      "lon": -76.45,
+      "ugc": "ANZ542",
+      "ugc_name": "Patuxent River to Broomes Island MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-252",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150124",
+      "standard_time_display": "2026-06-14 20:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "Cove Point LNG Pier; MD",
+      "county": "ANZ533",
+      "state": "MD",
+      "source": "NOS-PORTS",
+      "remark": "A wind gust of 45 knots (52 MPH) was measured by the Cove Point NOS sensor (COVM2).",
+      "lat": 38.4,
+      "lon": -76.39,
+      "ugc": "ANZ533",
+      "ugc_name": "Chesapeake Bay from North Beach to Drum Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-253",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150129",
+      "standard_time_display": "2026-06-14 20:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Lower Hooper Island",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 35 knots (40 MPH) was measured by the Lower Hooper Island WeatherFlow sensor (XHPR).",
+      "lat": 38.26,
+      "lon": -76.18,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-254",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150130",
       "standard_time_display": "2026-06-14 20:30 EST",
@@ -5133,7 +5639,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-232",
+      "report_id": "iem-lsr-LWX-255",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150134",
+      "standard_time_display": "2026-06-14 20:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "Lower Hooper Island",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 34 knots (39 MPH) was measured by the Lower Hooper Island WeatherFlow sensor (XHPR).",
+      "lat": 38.26,
+      "lon": -76.18,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-256",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150135",
       "standard_time_display": "2026-06-14 20:35 EST",
@@ -5155,7 +5683,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-233",
+      "report_id": "iem-lsr-LWX-257",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150136",
+      "standard_time_display": "2026-06-14 20:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Bishops Head; MD",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "NOS-NWLON",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Bishops Head Pier NOS sensor (BISM2).",
+      "lat": 38.22,
+      "lon": -76.04,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-258",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150136",
+      "standard_time_display": "2026-06-14 20:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "8 NW Taylors Island",
+      "county": "ANZ533",
+      "state": "MD",
+      "source": "NDBC",
+      "remark": "A wind gust of 37 knots (43 MPH) was measured by the Gooses Reef CBIBS sensor (44062).",
+      "lat": 38.56,
+      "lon": -76.42,
+      "ugc": "ANZ533",
+      "ugc_name": "Chesapeake Bay from North Beach to Drum Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-259",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150136",
+      "standard_time_display": "2026-06-14 20:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "Cove Point LNG Pier; MD",
+      "county": "ANZ533",
+      "state": "MD",
+      "source": "NOS-PORTS",
+      "remark": "A wind gust of 37 knots (43 MPH) was measured by the Cove Point NOS sensor (COVM2).",
+      "lat": 38.4,
+      "lon": -76.39,
+      "ugc": "ANZ533",
+      "ugc_name": "Chesapeake Bay from North Beach to Drum Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-260",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606150139",
       "standard_time_display": "2026-06-14 20:39 EST",
@@ -5177,7 +5771,183 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-234",
+      "report_id": "iem-lsr-LWX-261",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150144",
+      "standard_time_display": "2026-06-14 20:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 50.0,
+      "magnitude_qualifier": null,
+      "city": "Blackwalnut Harbor",
+      "county": "ANZ541",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 43 knots (50 MPH) was measured by the Blackwalnut Harbor WeatherFlow sensor (XBWH).",
+      "lat": 38.68,
+      "lon": -76.33,
+      "ugc": "ANZ541",
+      "ugc_name": "Choptank River to Cambridge MD and the Little Choptank River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-262",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150148",
+      "standard_time_display": "2026-06-14 20:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Bay Ridge",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced an estimated wind gust to 34 knots (39 MPH) near the Annapolis NOS sensor (APAM2).",
+      "lat": 38.96,
+      "lon": -76.45,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-263",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150154",
+      "standard_time_display": "2026-06-14 20:54 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "8 NW Taylors Island",
+      "county": "ANZ533",
+      "state": "MD",
+      "source": "NDBC",
+      "remark": "A wind gust of 37 knots (43 MPH) was measured by the Gooses Reef CBIBS sensor (44062).",
+      "lat": 38.56,
+      "lon": -76.42,
+      "ugc": "ANZ533",
+      "ugc_name": "Chesapeake Bay from North Beach to Drum Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-264",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150157",
+      "standard_time_display": "2026-06-14 20:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "; MD",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 35 knots (40 MPH) was measured by the Saunders Point Light WeatherFlow sensor (XMTR).",
+      "lat": 38.88,
+      "lon": -76.48,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-265",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150157",
+      "standard_time_display": "2026-06-14 20:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Tolly Point",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Tolly Point WeatherFlow sensor (XTOL).",
+      "lat": 38.94,
+      "lon": -76.44,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-266",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150200",
+      "standard_time_display": "2026-06-14 21:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Bay Ridge",
+      "county": "ANZ532",
+      "state": "MD",
+      "source": "NDBC",
+      "remark": "A wind gust of 34 knots (39 MPH) was measured by the Thomas Point NOS sensor (TPLM2).",
+      "lat": 38.9,
+      "lon": -76.44,
+      "ugc": "ANZ532",
+      "ugc_name": "Chesapeake Bay from Sandy Point to North Beach MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-267",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150204",
+      "standard_time_display": "2026-06-14 21:04 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "Blackwalnut Harbor",
+      "county": "ANZ541",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 38 knots (44 MPH) was measured by the Bishops Head Pier NOS sensor (BISM2).",
+      "lat": 38.68,
+      "lon": -76.33,
+      "ugc": "ANZ541",
+      "ugc_name": "Choptank River to Cambridge MD and the Little Choptank River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-268",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606150212",
+      "standard_time_display": "2026-06-14 21:12 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "Bishops Head; MD",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "NOS-NWLON",
+      "remark": "A wind gust of 37 knots (43 MPH) was measured by the Bishops Head Pier NOS sensor (BISM2).",
+      "lat": 38.22,
+      "lon": -76.04,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-269",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606221949",
       "standard_time_display": "2026-06-22 14:49 EST",
@@ -5199,7 +5969,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-235",
+      "report_id": "iem-lsr-LWX-270",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222019",
       "standard_time_display": "2026-06-22 15:19 EST",
@@ -5221,7 +5991,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-236",
+      "report_id": "iem-lsr-LWX-271",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222020",
       "standard_time_display": "2026-06-22 15:20 EST",
@@ -5243,7 +6013,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-237",
+      "report_id": "iem-lsr-LWX-272",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222024",
       "standard_time_display": "2026-06-22 15:24 EST",
@@ -5265,7 +6035,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-238",
+      "report_id": "iem-lsr-LWX-273",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222059",
       "standard_time_display": "2026-06-22 15:59 EST",
@@ -5287,7 +6057,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-239",
+      "report_id": "iem-lsr-LWX-274",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222102",
       "standard_time_display": "2026-06-22 16:02 EST",
@@ -5309,7 +6079,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-240",
+      "report_id": "iem-lsr-LWX-275",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222104",
       "standard_time_display": "2026-06-22 16:04 EST",
@@ -5331,7 +6101,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-241",
+      "report_id": "iem-lsr-LWX-276",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222130",
       "standard_time_display": "2026-06-22 16:30 EST",
@@ -5353,7 +6123,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-242",
+      "report_id": "iem-lsr-LWX-277",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222132",
       "standard_time_display": "2026-06-22 16:32 EST",
@@ -5375,7 +6145,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-243",
+      "report_id": "iem-lsr-LWX-278",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222135",
       "standard_time_display": "2026-06-22 16:35 EST",
@@ -5397,7 +6167,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-244",
+      "report_id": "iem-lsr-LWX-279",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222135",
       "standard_time_display": "2026-06-22 16:35 EST",
@@ -5419,7 +6189,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-245",
+      "report_id": "iem-lsr-LWX-280",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222136",
       "standard_time_display": "2026-06-22 16:36 EST",
@@ -5441,7 +6211,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-246",
+      "report_id": "iem-lsr-LWX-281",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222137",
       "standard_time_display": "2026-06-22 16:37 EST",
@@ -5463,7 +6233,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-247",
+      "report_id": "iem-lsr-LWX-282",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222142",
       "standard_time_display": "2026-06-22 16:42 EST",
@@ -5485,7 +6255,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-248",
+      "report_id": "iem-lsr-LWX-283",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606222150",
+      "standard_time_display": "2026-06-22 16:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "; MD",
+      "county": "ANZ531",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Seneca Creek WeatherFlow sensor (XSNC).",
+      "lat": 39.3,
+      "lon": -76.36,
+      "ugc": "ANZ531",
+      "ugc_name": "Chesapeake Bay from Pooles Island to Sandy Point MD",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-284",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222150",
       "standard_time_display": "2026-06-22 16:50 EST",
@@ -5507,7 +6299,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-249",
+      "report_id": "iem-lsr-LWX-285",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222153",
       "standard_time_display": "2026-06-22 16:53 EST",
@@ -5529,7 +6321,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-250",
+      "report_id": "iem-lsr-LWX-286",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222156",
       "standard_time_display": "2026-06-22 16:56 EST",
@@ -5551,7 +6343,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-251",
+      "report_id": "iem-lsr-LWX-287",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606222200",
+      "standard_time_display": "2026-06-22 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Baltimore Tower",
+      "county": "Baltimore City",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Baltimore Tower mesonet (MSI05).",
+      "lat": 39.23,
+      "lon": -76.58,
+      "ugc": "MDC510",
+      "ugc_name": "Baltimore City",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-288",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222201",
       "standard_time_display": "2026-06-22 17:01 EST",
@@ -5573,7 +6387,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-252",
+      "report_id": "iem-lsr-LWX-289",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222204",
       "standard_time_display": "2026-06-22 17:04 EST",
@@ -5595,7 +6409,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-253",
+      "report_id": "iem-lsr-LWX-290",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222207",
       "standard_time_display": "2026-06-22 17:07 EST",
@@ -5617,7 +6431,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-254",
+      "report_id": "iem-lsr-LWX-291",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222216",
       "standard_time_display": "2026-06-22 17:16 EST",
@@ -5639,7 +6453,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-255",
+      "report_id": "iem-lsr-LWX-292",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222222",
       "standard_time_display": "2026-06-22 17:22 EST",
@@ -5661,7 +6475,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-256",
+      "report_id": "iem-lsr-LWX-293",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222226",
       "standard_time_display": "2026-06-22 17:26 EST",
@@ -5683,7 +6497,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-257",
+      "report_id": "iem-lsr-LWX-294",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222227",
       "standard_time_display": "2026-06-22 17:27 EST",
@@ -5705,7 +6519,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-258",
+      "report_id": "iem-lsr-LWX-295",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222230",
       "standard_time_display": "2026-06-22 17:30 EST",
@@ -5727,7 +6541,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-259",
+      "report_id": "iem-lsr-LWX-296",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222233",
       "standard_time_display": "2026-06-22 17:33 EST",
@@ -5749,7 +6563,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-260",
+      "report_id": "iem-lsr-LWX-297",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222238",
       "standard_time_display": "2026-06-22 17:38 EST",
@@ -5771,7 +6585,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-261",
+      "report_id": "iem-lsr-LWX-298",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222238",
       "standard_time_display": "2026-06-22 17:38 EST",
@@ -5793,7 +6607,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-262",
+      "report_id": "iem-lsr-LWX-299",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222240",
       "standard_time_display": "2026-06-22 17:40 EST",
@@ -5815,7 +6629,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-263",
+      "report_id": "iem-lsr-LWX-300",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222240",
       "standard_time_display": "2026-06-22 17:40 EST",
@@ -5837,7 +6651,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-264",
+      "report_id": "iem-lsr-LWX-301",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222241",
       "standard_time_display": "2026-06-22 17:41 EST",
@@ -5859,7 +6673,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-265",
+      "report_id": "iem-lsr-LWX-302",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222241",
       "standard_time_display": "2026-06-22 17:41 EST",
@@ -5881,7 +6695,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-266",
+      "report_id": "iem-lsr-LWX-303",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222242",
       "standard_time_display": "2026-06-22 17:42 EST",
@@ -5903,7 +6717,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-267",
+      "report_id": "iem-lsr-LWX-304",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222245",
       "standard_time_display": "2026-06-22 17:45 EST",
@@ -5925,7 +6739,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-268",
+      "report_id": "iem-lsr-LWX-305",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222245",
       "standard_time_display": "2026-06-22 17:45 EST",
@@ -5947,7 +6761,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-269",
+      "report_id": "iem-lsr-LWX-306",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222248",
       "standard_time_display": "2026-06-22 17:48 EST",
@@ -5969,7 +6783,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-270",
+      "report_id": "iem-lsr-LWX-307",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222248",
       "standard_time_display": "2026-06-22 17:48 EST",
@@ -5991,7 +6805,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-271",
+      "report_id": "iem-lsr-LWX-308",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222250",
       "standard_time_display": "2026-06-22 17:50 EST",
@@ -6013,7 +6827,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-272",
+      "report_id": "iem-lsr-LWX-309",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606222250",
+      "standard_time_display": "2026-06-22 17:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Cobb Island",
+      "county": "Charles",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 35 knots (40 MPH) was measured by a mesonet (DW5018) on Cobb Island.",
+      "lat": 38.27,
+      "lon": -76.85,
+      "ugc": "MDC017",
+      "ugc_name": "Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-310",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222250",
       "standard_time_display": "2026-06-22 17:50 EST",
@@ -6035,7 +6871,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-273",
+      "report_id": "iem-lsr-LWX-311",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222251",
       "standard_time_display": "2026-06-22 17:51 EST",
@@ -6057,7 +6893,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-274",
+      "report_id": "iem-lsr-LWX-312",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222301",
       "standard_time_display": "2026-06-22 18:01 EST",
@@ -6079,7 +6915,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-275",
+      "report_id": "iem-lsr-LWX-313",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222305",
       "standard_time_display": "2026-06-22 18:05 EST",
@@ -6101,7 +6937,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-276",
+      "report_id": "iem-lsr-LWX-314",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222324",
       "standard_time_display": "2026-06-22 18:24 EST",
@@ -6123,7 +6959,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-277",
+      "report_id": "iem-lsr-LWX-315",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222324",
       "standard_time_display": "2026-06-22 18:24 EST",
@@ -6145,7 +6981,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-278",
+      "report_id": "iem-lsr-LWX-316",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222325",
       "standard_time_display": "2026-06-22 18:25 EST",
@@ -6167,7 +7003,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-279",
+      "report_id": "iem-lsr-LWX-317",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222330",
       "standard_time_display": "2026-06-22 18:30 EST",
@@ -6189,7 +7025,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-280",
+      "report_id": "iem-lsr-LWX-318",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606222344",
       "standard_time_display": "2026-06-22 18:44 EST",
@@ -6211,7 +7047,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LWX-281",
+      "report_id": "iem-lsr-LWX-319",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606222345",
+      "standard_time_display": "2026-06-22 18:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Oxford",
+      "county": "ANZ541",
+      "state": "MD",
+      "source": "NDBC",
+      "remark": "A wind gust of 36 knots (41 MPH) was measured by the Oxford NOS sensor (CXLM2).",
+      "lat": 38.68,
+      "lon": -76.17,
+      "ugc": "ANZ541",
+      "ugc_name": "Choptank River to Cambridge MD and the Little Choptank River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-320",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606230020",
       "standard_time_display": "2026-06-22 19:20 EST",
@@ -6231,6 +7089,28 @@
       "ugc": "MDC037",
       "ugc_name": "St. Marys",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-321",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606230038",
+      "standard_time_display": "2026-06-22 19:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "Crisfield",
+      "county": "ANZ543",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "A wind gust of 38 knots (44 MPH) was measured by the Crisfield WeatherFlow sensor (XCRS).",
+      "lat": 37.97,
+      "lon": -75.88,
+      "ugc": "ANZ543",
+      "ugc_name": "Tangier Sound and the inland waters surrounding Bloodsworth Island",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -6239,7 +7119,7 @@
       "wfo": "LWX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-25T11:50:11Z"
+      "generated_utc": "2026-06-26T11:50:17Z"
     },
     "primary_links": [
       {

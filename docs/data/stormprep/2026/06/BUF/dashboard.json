@@ -6,7 +6,7 @@
     "wfo": "BUF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-25T11:49:29Z",
+    "generated_utc": "2026-06-26T11:49:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 6,
     "wfo": "BUF",
-    "total_candidate_reports": 94,
-    "mapped_candidate_reports": 94,
+    "total_candidate_reports": 95,
+    "mapped_candidate_reports": 95,
     "candidate_report_counts": {
       "flooding": 4,
-      "marine": 6,
+      "marine": 7,
       "other": 2,
       "thunderstorm_wind": 82
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 3,
       "FLOOD": 1,
-      "MARINE TSTM WIND": 6,
+      "MARINE TSTM WIND": 7,
       "NON-TSTM WND DMG": 55,
       "RAIN": 2,
       "TSTM WND DMG": 27
@@ -2120,6 +2120,28 @@
       "ugc": "NYC069",
       "ugc_name": "Ontario",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-95",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606260300",
+      "standard_time_display": "2026-06-25 22:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Westfield",
+      "county": "LEZ040",
+      "state": "NY",
+      "source": "Mesonet",
+      "remark": "35 knot wind gusts measured at Barcelona Harbor.",
+      "lat": 42.35,
+      "lon": -79.6,
+      "ugc": "LEZ040",
+      "ugc_name": "Ripley to Dunkirk NY",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2128,7 +2150,7 @@
       "wfo": "BUF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-25T11:49:29Z"
+      "generated_utc": "2026-06-26T11:49:33Z"
     },
     "primary_links": [
       {
