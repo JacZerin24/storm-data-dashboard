@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-26T11:49:24Z",
+    "generated_utc": "2026-06-27T11:02:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1970,24 +1970,24 @@
       "id": "iem-lsr-AMA-76",
       "properties": {
         "report_id": "iem-lsr-AMA-76",
-        "report_type": "TSTM WND GST",
+        "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
-        "valid_utc": "202606252313",
-        "standard_time_display": "2026-06-25 17:13 CST",
+        "valid_utc": "202606252233",
+        "standard_time_display": "2026-06-25 15:33 MST",
         "wfo": "AMA",
-        "county_or_zone": "Hemphill",
-        "city": "6 ESE Lora",
-        "state": "TX",
-        "magnitude": 60.0,
+        "county_or_zone": "Cimarron",
+        "city": "11 WSW Griggs",
+        "state": "OK",
+        "magnitude": null,
         "magnitude_units": null,
-        "source": "Mesonet",
-        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami."
+        "source": "Emergency Mngr",
+        "event_narrative": "Report of large trees uprooted 2 miles NW of Kerrick on the west side of Highway 287. Time estimated via radar."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.46,
-          35.71
+          -102.28,
+          36.52
         ]
       }
     },
@@ -2007,7 +2007,7 @@
         "magnitude": 60.0,
         "magnitude_units": null,
         "source": "Mesonet",
-        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami. Maximum wind gust of 61 mph measured at 6:21 PM."
+        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami."
       },
       "geometry": {
         "type": "Point",
@@ -2033,7 +2033,7 @@
         "magnitude": 60.0,
         "magnitude_units": null,
         "source": "Mesonet",
-        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami. Maximum wind gust of 74 mph measured at 6:32 PM."
+        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami. Maximum wind gust of 61 mph measured at 6:21 PM."
       },
       "geometry": {
         "type": "Point",
@@ -2048,6 +2048,32 @@
       "id": "iem-lsr-AMA-79",
       "properties": {
         "report_id": "iem-lsr-AMA-79",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606252313",
+        "standard_time_display": "2026-06-25 17:13 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hemphill",
+        "city": "6 ESE Lora",
+        "state": "TX",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "60 mph wind gust measured at the WT Mesonet site 10 miles east of Miami. Maximum wind gust of 74 mph measured at 6:32 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.46,
+          35.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-80",
+      "properties": {
+        "report_id": "iem-lsr-AMA-80",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606252327",
@@ -2071,9 +2097,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-80",
+      "id": "iem-lsr-AMA-81",
       "properties": {
-        "report_id": "iem-lsr-AMA-80",
+        "report_id": "iem-lsr-AMA-81",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606252327",
@@ -2097,9 +2123,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-81",
+      "id": "iem-lsr-AMA-82",
       "properties": {
-        "report_id": "iem-lsr-AMA-81",
+        "report_id": "iem-lsr-AMA-82",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606252341",
@@ -2123,9 +2149,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-82",
+      "id": "iem-lsr-AMA-83",
       "properties": {
-        "report_id": "iem-lsr-AMA-82",
+        "report_id": "iem-lsr-AMA-83",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606252341",
@@ -2149,9 +2175,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-83",
+      "id": "iem-lsr-AMA-84",
       "properties": {
-        "report_id": "iem-lsr-AMA-83",
+        "report_id": "iem-lsr-AMA-84",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606252354",
@@ -2175,9 +2201,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-84",
+      "id": "iem-lsr-AMA-85",
       "properties": {
-        "report_id": "iem-lsr-AMA-84",
+        "report_id": "iem-lsr-AMA-85",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606260005",
+        "standard_time_display": "2026-06-25 18:05 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Gray",
+        "city": "6 SW Codman",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "5 inch tree branch broken_ camper lifted and moved_ 1 cattle trailer and 1 flat bed trailer moved by thunderstorms winds_ small dumpster moved approx. 30 yards from original location. Time estimated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.82,
+          35.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-86",
+      "properties": {
+        "report_id": "iem-lsr-AMA-86",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606260022",
+        "standard_time_display": "2026-06-25 18:22 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Gray",
+        "city": "6 SSE Codman",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Confirmed damage with Trejas Feeders Ltd facility off Highway 152. Barn door blown off_ barn damage_ broken windows_ and fences blown over."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.72,
+          35.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-87",
+      "properties": {
+        "report_id": "iem-lsr-AMA-87",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260056",
@@ -2201,9 +2279,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-85",
+      "id": "iem-lsr-AMA-88",
       "properties": {
-        "report_id": "iem-lsr-AMA-85",
+        "report_id": "iem-lsr-AMA-88",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260056",
@@ -2227,9 +2305,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-86",
+      "id": "iem-lsr-AMA-89",
       "properties": {
-        "report_id": "iem-lsr-AMA-86",
+        "report_id": "iem-lsr-AMA-89",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260057",
@@ -2253,9 +2331,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-87",
+      "id": "iem-lsr-AMA-90",
       "properties": {
-        "report_id": "iem-lsr-AMA-87",
+        "report_id": "iem-lsr-AMA-90",
         "report_type": "FLOOD",
         "event_category": "flooding",
         "valid_utc": "202606260100",
@@ -2279,9 +2357,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-88",
+      "id": "iem-lsr-AMA-91",
       "properties": {
-        "report_id": "iem-lsr-AMA-88",
+        "report_id": "iem-lsr-AMA-91",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260106",
@@ -2305,9 +2383,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-89",
+      "id": "iem-lsr-AMA-92",
       "properties": {
-        "report_id": "iem-lsr-AMA-89",
+        "report_id": "iem-lsr-AMA-92",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260134",
@@ -2331,9 +2409,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-90",
+      "id": "iem-lsr-AMA-93",
       "properties": {
-        "report_id": "iem-lsr-AMA-90",
+        "report_id": "iem-lsr-AMA-93",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260139",
@@ -2357,9 +2435,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-91",
+      "id": "iem-lsr-AMA-94",
       "properties": {
-        "report_id": "iem-lsr-AMA-91",
+        "report_id": "iem-lsr-AMA-94",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606260139",
@@ -2383,9 +2461,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-92",
+      "id": "iem-lsr-AMA-95",
       "properties": {
-        "report_id": "iem-lsr-AMA-92",
+        "report_id": "iem-lsr-AMA-95",
         "report_type": "FLOOD",
         "event_category": "flooding",
         "valid_utc": "202606260155",
@@ -2409,9 +2487,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-93",
+      "id": "iem-lsr-AMA-96",
       "properties": {
-        "report_id": "iem-lsr-AMA-93",
+        "report_id": "iem-lsr-AMA-96",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202606260330",
@@ -2430,6 +2508,396 @@
         "coordinates": [
           -100.28,
           35.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-97",
+      "properties": {
+        "report_id": "iem-lsr-AMA-97",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606262338",
+        "standard_time_display": "2026-06-26 17:38 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hemphill",
+        "city": "8 NNW New Mobeetie",
+        "state": "TX",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report sent via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.49,
+          35.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-98",
+      "properties": {
+        "report_id": "iem-lsr-AMA-98",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606262354",
+        "standard_time_display": "2026-06-26 17:54 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hemphill",
+        "city": "7 N New Mobeetie",
+        "state": "TX",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report sent via social media with photos of hail."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.45,
+          35.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-99",
+      "properties": {
+        "report_id": "iem-lsr-AMA-99",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606270103",
+        "standard_time_display": "2026-06-26 18:03 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Cimarron",
+        "city": "8 NE Felt",
+        "state": "OK",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.68,
+          36.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-100",
+      "properties": {
+        "report_id": "iem-lsr-AMA-100",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270141",
+        "standard_time_display": "2026-06-26 18:41 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Oldham",
+        "city": "11 S Romero",
+        "state": "TX",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "6 consecutive minutes of severe wind gusts were observed from 8:39 PM to 8:44 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.96,
+          35.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-101",
+      "properties": {
+        "report_id": "iem-lsr-AMA-101",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270217",
+        "standard_time_display": "2026-06-26 19:17 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Dallam",
+        "city": "2 N Texline",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.02,
+          36.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-102",
+      "properties": {
+        "report_id": "iem-lsr-AMA-102",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270222",
+        "standard_time_display": "2026-06-26 19:22 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Hartley",
+        "city": "12 SW Dalhart",
+        "state": "TX",
+        "magnitude": 89.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Severe wind gusts occurred from 9:17 PM to 9:18 PM then from 9:20 PM to 9:23 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.67,
+          35.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-103",
+      "properties": {
+        "report_id": "iem-lsr-AMA-103",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270238",
+        "standard_time_display": "2026-06-26 19:38 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Hartley",
+        "city": "3 SW Dalhart",
+        "state": "TX",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.55,
+          36.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-104",
+      "properties": {
+        "report_id": "iem-lsr-AMA-104",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270305",
+        "standard_time_display": "2026-06-26 20:05 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Cimarron",
+        "city": "3 SSE Boise City",
+        "state": "OK",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "OK Mesonet measured 58 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.5,
+          36.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-105",
+      "properties": {
+        "report_id": "iem-lsr-AMA-105",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270334",
+        "standard_time_display": "2026-06-26 20:34 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Sherman",
+        "city": "4 WNW Stratford",
+        "state": "TX",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Texas Mesonet measured 68 mph wind gusts from a passing thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.13,
+          36.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-106",
+      "properties": {
+        "report_id": "iem-lsr-AMA-106",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270356",
+        "standard_time_display": "2026-06-26 21:56 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Texas",
+        "city": "Texhoma",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "EM reported snapped trees and power flashes through photos and video. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.78,
+          36.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-107",
+      "properties": {
+        "report_id": "iem-lsr-AMA-107",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270400",
+        "standard_time_display": "2026-06-26 22:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Texas",
+        "city": "2 ENE Goodwell",
+        "state": "OK",
+        "magnitude": 78.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "OK Mesonet measured a peak wind gust of 78 mph at 11:15 PM. First wind gusts of 58 mph occurred at 11 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6,
+          36.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-108",
+      "properties": {
+        "report_id": "iem-lsr-AMA-108",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270419",
+        "standard_time_display": "2026-06-26 22:19 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hansford",
+        "city": "9 NW Waka",
+        "state": "TX",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "TX mesonet measured wind gust of 70 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.18,
+          36.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-109",
+      "properties": {
+        "report_id": "iem-lsr-AMA-109",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270425",
+        "standard_time_display": "2026-06-26 22:25 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Texas",
+        "city": "1 WSW Guymon",
+        "state": "OK",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Guymon ASOS measured 62 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.51,
+          36.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-110",
+      "properties": {
+        "report_id": "iem-lsr-AMA-110",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270430",
+        "standard_time_display": "2026-06-26 22:30 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Texas",
+        "city": "Hardesty",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "EM reported an overturned semi-truck."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.19,
+          36.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-111",
+      "properties": {
+        "report_id": "iem-lsr-AMA-111",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606270555",
+        "standard_time_display": "2026-06-26 23:55 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Hemphill",
+        "city": "1 SW Canadian",
+        "state": "TX",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS measured thunderstorm wind gust of 64 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          35.9
         ]
       }
     }

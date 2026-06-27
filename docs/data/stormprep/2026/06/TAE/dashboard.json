@@ -6,7 +6,7 @@
     "wfo": "TAE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-26T11:50:50Z",
+    "generated_utc": "2026-06-27T11:04:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "TAE",
-    "total_candidate_reports": 254,
-    "mapped_candidate_reports": 254,
+    "total_candidate_reports": 256,
+    "mapped_candidate_reports": 256,
     "candidate_report_counts": {
       "flooding": 6,
       "hail": 1,
       "marine": 18,
-      "thunderstorm_wind": 227,
-      "tornado": 2
+      "thunderstorm_wind": 228,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 5,
@@ -33,7 +33,8 @@
       "MARINE TSTM WIND": 18,
       "TORNADO": 2,
       "TSTM WND DMG": 177,
-      "TSTM WND GST": 50
+      "TSTM WND GST": 51,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -5644,6 +5645,50 @@
       "ugc": "FLC029",
       "ugc_name": "Dixie",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-255",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606261144",
+      "standard_time_display": "2026-06-26 06:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Bid-a-Wee",
+      "county": "GMZ751",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media shared pictures and video of a waterspout off of Panama City Beach off the Old Wyndham PCB South Beach Access. It quickly dissipated as it came ashore.",
+      "lat": 30.18,
+      "lon": -85.88,
+      "ugc": "GMZ751",
+      "ugc_name": "Coastal waters from Okaloosa-Walton County Line to Mexico Beach out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-256",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606261431",
+      "standard_time_display": "2026-06-26 09:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Marianna Municipal a/P",
+      "county": "Jackson",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "ASOS station KMAI Marianna.",
+      "lat": 30.83,
+      "lon": -85.18,
+      "ugc": "FLC063",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -5652,7 +5697,7 @@
       "wfo": "TAE",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-26T11:50:50Z"
+      "generated_utc": "2026-06-27T11:04:27Z"
     },
     "primary_links": [
       {
