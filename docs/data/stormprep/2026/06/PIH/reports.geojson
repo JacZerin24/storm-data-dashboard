@@ -7,7 +7,7 @@
     "wfo": "PIH",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-27T11:04:11Z",
+    "generated_utc": "2026-06-28T11:16:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -7916,6 +7916,58 @@
         "coordinates": [
           -112.87,
           43.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PIH-305",
+      "properties": {
+        "report_id": "iem-lsr-PIH-305",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606271845",
+        "standard_time_display": "2026-06-27 11:45 MST",
+        "wfo": "PIH",
+        "county_or_zone": "Franklin",
+        "city": "1 ESE Clifton",
+        "state": "ID",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "heavy rain ponding in pasture also."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98,
+          42.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PIH-306",
+      "properties": {
+        "report_id": "iem-lsr-PIH-306",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606271920",
+        "standard_time_display": "2026-06-27 12:20 MST",
+        "wfo": "PIH",
+        "county_or_zone": "Oneida",
+        "city": "8 N Malad City",
+        "state": "ID",
+        "magnitude": 53.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station PC497 Station Canyon."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.24,
+          42.31
         ]
       }
     }

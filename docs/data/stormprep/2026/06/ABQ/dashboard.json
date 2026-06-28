@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-27T11:02:50Z",
+    "generated_utc": "2026-06-28T11:15:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 6,
     "wfo": "ABQ",
-    "total_candidate_reports": 66,
-    "mapped_candidate_reports": 66,
+    "total_candidate_reports": 70,
+    "mapped_candidate_reports": 70,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 14,
       "other": 6,
-      "thunderstorm_wind": 42
+      "thunderstorm_wind": 46
     },
     "candidate_report_type_counts": {
       "DUST STORM": 2,
@@ -33,9 +33,9 @@
       "LANDSLIDE": 2,
       "LANDSPOUT": 2,
       "NON-TSTM WND DMG": 1,
-      "NON-TSTM WND GST": 5,
+      "NON-TSTM WND GST": 7,
       "TSTM WND DMG": 2,
-      "TSTM WND GST": 34
+      "TSTM WND GST": 36
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1446,6 +1446,28 @@
     {
       "report_id": "iem-lsr-ABQ-64",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606262341",
+      "standard_time_display": "2026-06-26 16:41 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "6 E Storrie Lake State",
+      "county": "San Miguel",
+      "state": "NM",
+      "source": "ASOS",
+      "remark": "Delayed Report: ASOS station KLVS Las Vegas Muni Airport.",
+      "lat": 35.65,
+      "lon": -105.13,
+      "ugc": "NMC047",
+      "ugc_name": "San Miguel",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-65",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606270053",
       "standard_time_display": "2026-06-26 17:53 MST",
       "standard_time_zone": "MST",
@@ -1466,7 +1488,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-65",
+      "report_id": "iem-lsr-ABQ-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606270203",
       "standard_time_display": "2026-06-26 19:03 MST",
@@ -1488,7 +1510,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-66",
+      "report_id": "iem-lsr-ABQ-67",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606270231",
+      "standard_time_display": "2026-06-26 19:31 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 SW Dora",
+      "county": "Roosevelt",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Delayed Report: Mesonet station 53 Dora 2 SW.",
+      "lat": 33.92,
+      "lon": -103.36,
+      "ugc": "NMC041",
+      "ugc_name": "Roosevelt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606270231",
       "standard_time_display": "2026-06-26 19:31 MST",
@@ -1508,6 +1552,50 @@
       "ugc": "NMC041",
       "ugc_name": "Roosevelt",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606271949",
+      "standard_time_display": "2026-06-27 12:49 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Allison",
+      "county": "McKinley",
+      "state": "NM",
+      "source": "ASOS",
+      "remark": "ASOS station KGUP Gallup Airport.",
+      "lat": 35.52,
+      "lon": -108.8,
+      "ugc": "NMC031",
+      "ugc_name": "McKinley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-70",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606272020",
+      "standard_time_display": "2026-06-27 13:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Allison",
+      "county": "McKinley",
+      "state": "NM",
+      "source": "ASOS",
+      "remark": "ASOS station KGUP Gallup Airport.",
+      "lat": 35.52,
+      "lon": -108.8,
+      "ugc": "NMC031",
+      "ugc_name": "McKinley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1516,7 +1604,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-27T11:02:51Z"
+      "generated_utc": "2026-06-28T11:15:43Z"
     },
     "primary_links": [
       {

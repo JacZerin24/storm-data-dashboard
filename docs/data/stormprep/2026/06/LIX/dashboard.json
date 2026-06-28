@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-27T11:03:46Z",
+    "generated_utc": "2026-06-28T11:16:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,22 @@
     "year": 2026,
     "month": 6,
     "wfo": "LIX",
-    "total_candidate_reports": 141,
-    "mapped_candidate_reports": 141,
+    "total_candidate_reports": 143,
+    "mapped_candidate_reports": 143,
     "candidate_report_counts": {
       "flooding": 78,
-      "marine": 16,
+      "marine": 17,
       "thunderstorm_wind": 26,
-      "tornado": 21
+      "tornado": 22
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 78,
       "FUNNEL CLOUD": 2,
-      "MARINE TSTM WIND": 16,
+      "MARINE TSTM WIND": 17,
       "TORNADO": 17,
       "TSTM WND DMG": 24,
       "TSTM WND GST": 2,
-      "WATERSPOUT": 2
+      "WATERSPOUT": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -3139,6 +3139,28 @@
     {
       "report_id": "iem-lsr-LIX-141",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606242120",
+      "standard_time_display": "2026-06-24 15:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Empire",
+      "county": "GMZ543",
+      "state": "LA",
+      "source": "Broadcast Media",
+      "remark": "Delayed Report: Broadcast media photos and video of a well-defined_ rope waterspout in/near Empire from a passing thunderstorm. Time estimated from radar.",
+      "lat": 29.39,
+      "lon": -89.62,
+      "ugc": "GMZ543",
+      "ugc_name": "Barataria Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-142",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606251246",
       "standard_time_display": "2026-06-25 06:46 CST",
       "standard_time_zone": "CST",
@@ -3157,6 +3179,28 @@
       "ugc": "GMZ551",
       "ugc_name": "Coastal Waters from Port Fourchon LA to Lower Atchafalaya River LA out 20 nm",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-143",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606271921",
+      "standard_time_display": "2026-06-27 13:21 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "6 WSW East New Orleans",
+      "county": "Orleans",
+      "state": "LA",
+      "source": "ASOS",
+      "remark": "ASOS station KNEW New Orleans Lakefront Airport measured a wind gust of 43mph or 37 knots.",
+      "lat": 30.04,
+      "lon": -90.03,
+      "ugc": "LAC071",
+      "ugc_name": "Orleans",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -3165,7 +3209,7 @@
       "wfo": "LIX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-27T11:03:46Z"
+      "generated_utc": "2026-06-28T11:16:35Z"
     },
     "primary_links": [
       {
