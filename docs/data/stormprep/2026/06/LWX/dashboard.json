@@ -6,7 +6,7 @@
     "wfo": "LWX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-28T11:16:41Z",
+    "generated_utc": "2026-06-29T13:15:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 6,
     "wfo": "LWX",
-    "total_candidate_reports": 328,
-    "mapped_candidate_reports": 328,
+    "total_candidate_reports": 330,
+    "mapped_candidate_reports": 330,
     "candidate_report_counts": {
+      "flooding": 2,
       "hail": 3,
       "marine": 98,
       "thunderstorm_wind": 227
     },
     "candidate_report_type_counts": {
+      "FLOOD": 2,
       "HAIL": 3,
       "MARINE TSTM WIND": 98,
       "TSTM WND DMG": 211,
@@ -7265,6 +7267,50 @@
       "ugc": "MDC037",
       "ugc_name": "St. Marys",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-329",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606281552",
+      "standard_time_display": "2026-06-28 10:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Reston",
+      "county": "Fairfax",
+      "state": "VA",
+      "source": "Dept of Highways",
+      "remark": "Water briefly blocking parts of VA-828 Wiehle Avenue near Colvin Run (in the vicinity of Roger Bacon Drive).",
+      "lat": 38.95,
+      "lon": -77.34,
+      "ugc": "VAC059",
+      "ugc_name": "Fairfax",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LWX-330",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606281600",
+      "standard_time_display": "2026-06-28 11:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LWX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "The I66 And I495",
+      "county": "Fairfax",
+      "state": "VA",
+      "source": "Broadcast Media",
+      "remark": "Some lanes of I-495 Capital Beltway briefly blocked by high water between VA-267 Dulles Toll Road and VA-236 Little River Turnpike.",
+      "lat": 38.88,
+      "lon": -77.22,
+      "ugc": "VAC059",
+      "ugc_name": "Fairfax",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LWX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -7273,7 +7319,7 @@
       "wfo": "LWX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-28T11:16:41Z"
+      "generated_utc": "2026-06-29T13:15:33Z"
     },
     "primary_links": [
       {
