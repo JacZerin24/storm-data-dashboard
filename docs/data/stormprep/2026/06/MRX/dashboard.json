@@ -6,7 +6,7 @@
     "wfo": "MRX",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-29T13:15:43Z",
+    "generated_utc": "2026-06-30T11:50:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 6,
     "wfo": "MRX",
-    "total_candidate_reports": 54,
-    "mapped_candidate_reports": 54,
+    "total_candidate_reports": 56,
+    "mapped_candidate_reports": 56,
     "candidate_report_counts": {
       "flooding": 31,
+      "hail": 1,
       "other": 1,
-      "thunderstorm_wind": 22
+      "thunderstorm_wind": 23
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 28,
       "FLOOD": 3,
+      "HAIL": 1,
       "LANDSLIDE": 1,
-      "TSTM WND DMG": 22
+      "TSTM WND DMG": 23
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1237,6 +1239,50 @@
       "ugc": "TNC013",
       "ugc_name": "Campbell",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-55",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300020",
+      "standard_time_display": "2026-06-29 19:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Liberty",
+      "county": "Washington",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Multiple reports via social media of quarter-sized hail in the Cassi community just southeast of Liberty_ TN.",
+      "lat": 36.13,
+      "lon": -82.61,
+      "ugc": "TNC179",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-56",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300030",
+      "standard_time_display": "2026-06-29 19:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MRX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Tusculum",
+      "county": "Greene",
+      "state": "TN",
+      "source": "Emergency Mngr",
+      "remark": "Areas of trees and powerlines down in the Tusculum to Limestone area due to thunderstorm winds.",
+      "lat": 36.16,
+      "lon": -82.69,
+      "ugc": "TNC059",
+      "ugc_name": "Greene",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1245,7 +1291,7 @@
       "wfo": "MRX",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-29T13:15:43Z"
+      "generated_utc": "2026-06-30T11:50:57Z"
     },
     "primary_links": [
       {

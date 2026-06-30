@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-29T13:14:21Z",
+    "generated_utc": "2026-06-30T11:49:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 6,
     "wfo": "ABQ",
-    "total_candidate_reports": 72,
-    "mapped_candidate_reports": 72,
+    "total_candidate_reports": 73,
+    "mapped_candidate_reports": 73,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 14,
       "other": 6,
-      "thunderstorm_wind": 48
+      "thunderstorm_wind": 49
     },
     "candidate_report_type_counts": {
       "DUST STORM": 2,
@@ -33,7 +33,7 @@
       "LANDSLIDE": 2,
       "LANDSPOUT": 2,
       "NON-TSTM WND DMG": 1,
-      "NON-TSTM WND GST": 9,
+      "NON-TSTM WND GST": 10,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 36
     },
@@ -1640,6 +1640,28 @@
       "ugc": "NMC031",
       "ugc_name": "McKinley",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606291644",
+      "standard_time_display": "2026-06-29 09:44 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Clines Corners",
+      "county": "Torrance",
+      "state": "NM",
+      "source": "ASOS",
+      "remark": "ASOS station KCQC Clines Corners 1 SSE.",
+      "lat": 35.0,
+      "lon": -105.67,
+      "ugc": "NMC057",
+      "ugc_name": "Torrance",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1648,7 +1670,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-29T13:14:22Z"
+      "generated_utc": "2026-06-30T11:49:44Z"
     },
     "primary_links": [
       {
