@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 7,
+    "wfo": "MAF",
+    "start_utc": "2026-07-01T00:00:00Z",
+    "end_utc": "2026-08-01T00:00:00Z",
+    "generated_utc": "2026-07-01T12:17:32Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-1",
+      "properties": {
+        "report_id": "iem-lsr-MAF-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010054",
+        "standard_time_display": "2026-06-30 17:54 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "9 SE Hovey",
+        "state": "TX",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A wind gust of 60 mph was recorded at the Marathon 21N TTU mesonet station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.24,
+          30.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-2",
+      "properties": {
+        "report_id": "iem-lsr-MAF-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010115",
+        "standard_time_display": "2026-06-30 18:15 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Lea",
+        "city": "4 S Monument",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Lea County Emergency Management relayed a report of seven power lines down south of Monument on State Highway 8. Power lines also down near the intersection of Maddox and Pearl Valley Roads. Time est"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.26,
+          32.56
+        ]
+      }
+    }
+  ]
+}

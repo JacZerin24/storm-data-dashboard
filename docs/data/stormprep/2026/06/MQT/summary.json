@@ -3,22 +3,26 @@
   "year": 2026,
   "month": 6,
   "wfo": "MQT",
-  "total_candidate_reports": 112,
-  "mapped_candidate_reports": 112,
+  "total_candidate_reports": 155,
+  "mapped_candidate_reports": 155,
   "candidate_report_counts": {
     "fire_smoke": 1,
     "flooding": 3,
-    "hail": 6,
+    "hail": 9,
+    "heat_cold": 16,
     "other": 84,
-    "thunderstorm_wind": 18
+    "thunderstorm_wind": 41,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
+    "EXTREME HEAT": 16,
     "FLOOD": 3,
-    "HAIL": 6,
-    "NON-TSTM WND GST": 5,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 9,
+    "NON-TSTM WND GST": 7,
     "RAIN": 84,
-    "TSTM WND DMG": 11,
-    "TSTM WND GST": 2,
+    "TSTM WND DMG": 12,
+    "TSTM WND GST": 22,
     "WILDFIRE": 1
   },
   "nws_api_alert_count": 0,
@@ -26,6 +30,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MQT&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

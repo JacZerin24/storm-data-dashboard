@@ -7,7 +7,7 @@
     "wfo": "TBW",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-30T11:51:25Z",
+    "generated_utc": "2026-07-01T12:19:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -506,6 +506,84 @@
         "coordinates": [
           -82.04,
           28.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-20",
+      "properties": {
+        "report_id": "iem-lsr-TBW-20",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202606301345",
+        "standard_time_display": "2026-06-30 08:45 EST",
+        "wfo": "TBW",
+        "county_or_zone": "GMZ853",
+        "city": "4 SW Anna Maria Island",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public recorded video of waterspout off Anna Maria Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.79,
+          27.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-21",
+      "properties": {
+        "report_id": "iem-lsr-TBW-21",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606301905",
+        "standard_time_display": "2026-06-30 14:05 EST",
+        "wfo": "TBW",
+        "county_or_zone": "Sarasota",
+        "city": "Warm Mineral Springs",
+        "state": "FL",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.27,
+          27.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-22",
+      "properties": {
+        "report_id": "iem-lsr-TBW-22",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606301920",
+        "standard_time_display": "2026-06-30 14:20 EST",
+        "wfo": "TBW",
+        "county_or_zone": "Charlotte",
+        "city": "2 SE Solana",
+        "state": "FL",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KPGD Punta Gorda."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0,
+          26.92
         ]
       }
     }

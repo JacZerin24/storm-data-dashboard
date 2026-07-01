@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 7,
+    "wfo": "ARX",
+    "start_utc": "2026-07-01T00:00:00Z",
+    "end_utc": "2026-08-01T00:00:00Z",
+    "generated_utc": "2026-07-01T12:16:41Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-1",
+      "properties": {
+        "report_id": "iem-lsr-ARX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010941",
+        "standard_time_display": "2026-07-01 03:41 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Vernon",
+        "city": "5 NNW Readstown",
+        "state": "WI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree fell onto a house. Roof started to leaking letting water into the house."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8,
+          43.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-2",
+      "properties": {
+        "report_id": "iem-lsr-ARX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010944",
+        "standard_time_display": "2026-07-01 03:44 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Vernon",
+        "city": "6 E Viroqua",
+        "state": "WI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree fell onto a road State Highway 82 near Brush Hollow Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.77,
+          43.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-3",
+      "properties": {
+        "report_id": "iem-lsr-ARX-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607011151",
+        "standard_time_display": "2026-07-01 05:51 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Fillmore",
+        "city": "5 WSW Cummingsville",
+        "state": "MN",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.35,
+          43.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-4",
+      "properties": {
+        "report_id": "iem-lsr-ARX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607011151",
+        "standard_time_display": "2026-07-01 05:51 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Fillmore",
+        "city": "5 WSW Cummingsville",
+        "state": "MN",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.35,
+          43.84
+        ]
+      }
+    }
+  ]
+}

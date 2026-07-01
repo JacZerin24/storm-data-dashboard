@@ -7,7 +7,7 @@
     "wfo": "MQT",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-30T11:50:56Z",
+    "generated_utc": "2026-07-01T12:19:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2620,6 +2620,58 @@
       "id": "iem-lsr-MQT-101",
       "properties": {
         "report_id": "iem-lsr-MQT-101",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606291829",
+        "standard_time_display": "2026-06-29 12:29 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ263",
+        "city": "Rock of Ages Lighthouse",
+        "state": "MI",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "C-MAN station ROAM4_ 2 W Rock of Ages."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.31,
+          47.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-102",
+      "properties": {
+        "report_id": "iem-lsr-MQT-102",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292053",
+        "standard_time_display": "2026-06-29 14:53 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Keweenaw",
+        "city": "Copper Harbor",
+        "state": "MI",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KP59 Copper Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.88,
+          47.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-103",
+      "properties": {
+        "report_id": "iem-lsr-MQT-103",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292101",
@@ -2643,9 +2695,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-102",
+      "id": "iem-lsr-MQT-104",
       "properties": {
-        "report_id": "iem-lsr-MQT-102",
+        "report_id": "iem-lsr-MQT-104",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292104",
@@ -2669,9 +2721,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-103",
+      "id": "iem-lsr-MQT-105",
       "properties": {
-        "report_id": "iem-lsr-MQT-103",
+        "report_id": "iem-lsr-MQT-105",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292110",
@@ -2695,9 +2747,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-104",
+      "id": "iem-lsr-MQT-106",
       "properties": {
-        "report_id": "iem-lsr-MQT-104",
+        "report_id": "iem-lsr-MQT-106",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292114",
@@ -2721,9 +2773,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-105",
+      "id": "iem-lsr-MQT-107",
       "properties": {
-        "report_id": "iem-lsr-MQT-105",
+        "report_id": "iem-lsr-MQT-107",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292119",
+        "standard_time_display": "2026-06-29 15:19 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Ontonagon",
+        "city": "1 NW Ontonagon",
+        "state": "MI",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public weather station KMIONTON26 measured a 45mph along the Ontonagon River. Delayed report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.32,
+          46.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-108",
+      "properties": {
+        "report_id": "iem-lsr-MQT-108",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292125",
@@ -2747,9 +2825,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-106",
+      "id": "iem-lsr-MQT-109",
       "properties": {
-        "report_id": "iem-lsr-MQT-106",
+        "report_id": "iem-lsr-MQT-109",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292126",
@@ -2773,9 +2851,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-107",
+      "id": "iem-lsr-MQT-110",
       "properties": {
-        "report_id": "iem-lsr-MQT-107",
+        "report_id": "iem-lsr-MQT-110",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292140",
+        "standard_time_display": "2026-06-29 15:40 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ266",
+        "city": "Stannard Rock Lighthous",
+        "state": "MI",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "C-MAN station STDM4_ 27 ESE Keweenaw Point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.22,
+          47.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-111",
+      "properties": {
+        "report_id": "iem-lsr-MQT-111",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292140",
+        "standard_time_display": "2026-06-29 15:40 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ266",
+        "city": "Stannard Rock Lighthous",
+        "state": "MI",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Corrects previous tstm wnd gst report from Stannard Rock Lighthouse. C-MAN station STDM4_ 27 ESE Keweenaw Point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.22,
+          47.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-112",
+      "properties": {
+        "report_id": "iem-lsr-MQT-112",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292204",
@@ -2799,9 +2929,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-108",
+      "id": "iem-lsr-MQT-113",
       "properties": {
-        "report_id": "iem-lsr-MQT-108",
+        "report_id": "iem-lsr-MQT-113",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292204",
@@ -2825,9 +2955,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-109",
+      "id": "iem-lsr-MQT-114",
       "properties": {
-        "report_id": "iem-lsr-MQT-109",
+        "report_id": "iem-lsr-MQT-114",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292204",
@@ -2851,9 +2981,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-110",
+      "id": "iem-lsr-MQT-115",
       "properties": {
-        "report_id": "iem-lsr-MQT-110",
+        "report_id": "iem-lsr-MQT-115",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292207",
@@ -2877,9 +3007,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-111",
+      "id": "iem-lsr-MQT-116",
       "properties": {
-        "report_id": "iem-lsr-MQT-111",
+        "report_id": "iem-lsr-MQT-116",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292210",
+        "standard_time_display": "2026-06-29 16:10 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Ontonagon",
+        "city": "Ontonagon",
+        "state": "MI",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "63 mph wind gust measured at the Ontonagon NWS GLOS station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.32,
+          46.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-117",
+      "properties": {
+        "report_id": "iem-lsr-MQT-117",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292210",
@@ -2903,9 +3059,139 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MQT-112",
+      "id": "iem-lsr-MQT-118",
       "properties": {
-        "report_id": "iem-lsr-MQT-112",
+        "report_id": "iem-lsr-MQT-118",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292211",
+        "standard_time_display": "2026-06-29 16:11 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Houghton",
+        "city": "Houghton Co Airport",
+        "state": "MI",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KCMX Houghton Co. Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.48,
+          47.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-119",
+      "properties": {
+        "report_id": "iem-lsr-MQT-119",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292213",
+        "standard_time_display": "2026-06-29 16:13 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Baraga",
+        "city": "3 SSW Pelkie",
+        "state": "MI",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station PIEM4 Pelkie RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.66,
+          46.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-120",
+      "properties": {
+        "report_id": "iem-lsr-MQT-120",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292221",
+        "standard_time_display": "2026-06-29 16:21 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Ontonagon",
+        "city": "Ontonagon",
+        "state": "MI",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from Ontonagon. Two 73 mph wind gusts measured at the Ontonagon MDOT RWIS between 621 pm and 634 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.31,
+          46.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-121",
+      "properties": {
+        "report_id": "iem-lsr-MQT-121",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292221",
+        "standard_time_display": "2026-06-29 16:21 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Ontonagon",
+        "city": "Ontonagon",
+        "state": "MI",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Two 73 mph wind gusts measured at the Ontonagon MDOT RWIS between 621 pm and 634 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.31,
+          46.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-122",
+      "properties": {
+        "report_id": "iem-lsr-MQT-122",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292240",
+        "standard_time_display": "2026-06-29 16:40 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ251",
+        "city": "Grand Marais",
+        "state": "MI",
+        "magnitude": 36.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "GLOS Weather Station GRMM4_ 1 NNE Grand Marais."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.97,
+          46.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-123",
+      "properties": {
+        "report_id": "iem-lsr-MQT-123",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292245",
@@ -2924,6 +3210,838 @@
         "coordinates": [
           -87.99,
           46.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-124",
+      "properties": {
+        "report_id": "iem-lsr-MQT-124",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292250",
+        "standard_time_display": "2026-06-29 16:50 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ248",
+        "city": "Big Bay",
+        "state": "MI",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "GLOS Weather station BIGM4 Big Bay Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73,
+          46.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-125",
+      "properties": {
+        "report_id": "iem-lsr-MQT-125",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292318",
+        "standard_time_display": "2026-06-29 17:18 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Marquette",
+        "city": "4 NE Negaunee",
+        "state": "MI",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station CW4331 WFO-Negaunee Township."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.55,
+          46.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-126",
+      "properties": {
+        "report_id": "iem-lsr-MQT-126",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292336",
+        "standard_time_display": "2026-06-29 17:36 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Marquette",
+        "city": "5 S Sands",
+        "state": "MI",
+        "magnitude": 35.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KSAW Sawyer Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4,
+          46.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-127",
+      "properties": {
+        "report_id": "iem-lsr-MQT-127",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292350",
+        "standard_time_display": "2026-06-29 17:50 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ264",
+        "city": "Passage Island Lighthou",
+        "state": "MI",
+        "magnitude": 36.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "C-MAN station PILM4_ 53 NNW Eagle Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.37,
+          48.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-128",
+      "properties": {
+        "report_id": "iem-lsr-MQT-128",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292353",
+        "standard_time_display": "2026-06-29 17:53 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Dickinson",
+        "city": "1 NW Kingsford",
+        "state": "MI",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KIMT Ford Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12,
+          45.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-129",
+      "properties": {
+        "report_id": "iem-lsr-MQT-129",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300000",
+        "standard_time_display": "2026-06-29 18:00 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ264",
+        "city": "30 N Copper Harbor",
+        "state": "MI",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Ship",
+        "event_narrative": "Lake Superior Zone 264_ Algoma Discovery /CFK9796/."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0,
+          47.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-130",
+      "properties": {
+        "report_id": "iem-lsr-MQT-130",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300100",
+        "standard_time_display": "2026-06-29 19:00 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ266",
+        "city": "24 E Keweenaw Point",
+        "state": "MI",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "Ship",
+        "event_narrative": "Lake Superior Zone 266_ Indiana Harbor /WXN3191/."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2,
+          47.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-131",
+      "properties": {
+        "report_id": "iem-lsr-MQT-131",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300139",
+        "standard_time_display": "2026-06-29 19:39 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Marquette",
+        "city": "Big Bay",
+        "state": "MI",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Not much significant wind damage has occurred during the severe thunderstorm_ but there was some minor damage done to trees from what I was able to observe. Estimated wind gusts to 50 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73,
+          46.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-132",
+      "properties": {
+        "report_id": "iem-lsr-MQT-132",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300210",
+        "standard_time_display": "2026-06-29 20:10 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LMZ221",
+        "city": "10 SE Ford River",
+        "state": "MI",
+        "magnitude": 35.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XMAPV Minneapolis Shoal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0,
+          45.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-133",
+      "properties": {
+        "report_id": "iem-lsr-MQT-133",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300810",
+        "standard_time_display": "2026-06-30 02:10 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ263",
+        "city": "West Superior Buoy",
+        "state": "MI",
+        "magnitude": 36.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Buoy station 45006 36 N Lake of the Clouds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.79,
+          47.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-134",
+      "properties": {
+        "report_id": "iem-lsr-MQT-134",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300920",
+        "standard_time_display": "2026-06-30 03:20 CST",
+        "wfo": "MQT",
+        "county_or_zone": "LSZ243",
+        "city": "North Entry Buoy",
+        "state": "MI",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Buoy station 45023 9 N Hancock."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.61,
+          47.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-135",
+      "properties": {
+        "report_id": "iem-lsr-MQT-135",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301619",
+        "standard_time_display": "2026-06-30 10:19 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Delta",
+        "city": "Escanaba",
+        "state": "MI",
+        "magnitude": 106.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KESC Delta Co. Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.08,
+          45.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-136",
+      "properties": {
+        "report_id": "iem-lsr-MQT-136",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301732",
+        "standard_time_display": "2026-06-30 11:32 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Delta",
+        "city": "2 SE Rapid River",
+        "state": "MI",
+        "magnitude": 104.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station STOM4 Stonington RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.93,
+          45.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-137",
+      "properties": {
+        "report_id": "iem-lsr-MQT-137",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301756",
+        "standard_time_display": "2026-06-30 11:56 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "Munising",
+        "state": "MI",
+        "magnitude": 105.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KP53 Munising Lakeshore."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.65,
+          46.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-138",
+      "properties": {
+        "report_id": "iem-lsr-MQT-138",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301801",
+        "standard_time_display": "2026-06-30 12:01 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Luce",
+        "city": "8 SSW Pine Stump Juncti",
+        "state": "MI",
+        "magnitude": 101.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SPCM4 Spincich Lake RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.63,
+          46.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-139",
+      "properties": {
+        "report_id": "iem-lsr-MQT-139",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301830",
+        "standard_time_display": "2026-06-30 12:30 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Houghton",
+        "city": "3 W Echo Lake",
+        "state": "MI",
+        "magnitude": 103.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station KTNM4 Kenton RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.91,
+          46.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-140",
+      "properties": {
+        "report_id": "iem-lsr-MQT-140",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301832",
+        "standard_time_display": "2026-06-30 12:32 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "7 NNE Round Lake",
+        "state": "MI",
+        "magnitude": 109.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DOEM4 Doe Lake RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.71,
+          46.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-141",
+      "properties": {
+        "report_id": "iem-lsr-MQT-141",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301854",
+        "standard_time_display": "2026-06-30 12:54 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Dickinson",
+        "city": "1 NW Kingsford",
+        "state": "MI",
+        "magnitude": 103.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KIMT Ford Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12,
+          45.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-142",
+      "properties": {
+        "report_id": "iem-lsr-MQT-142",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301903",
+        "standard_time_display": "2026-06-30 13:03 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Schoolcraft",
+        "city": "1 SW Germfask",
+        "state": "MI",
+        "magnitude": 102.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SNYM4 Seney RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.94,
+          46.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-143",
+      "properties": {
+        "report_id": "iem-lsr-MQT-143",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301913",
+        "standard_time_display": "2026-06-30 13:13 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Baraga",
+        "city": "3 SSW Pelkie",
+        "state": "MI",
+        "magnitude": 105.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station PIEM4 Pelkie RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.66,
+          46.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-144",
+      "properties": {
+        "report_id": "iem-lsr-MQT-144",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301913",
+        "standard_time_display": "2026-06-30 13:13 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Iron",
+        "city": "4 NNW Peavy Falls Dam",
+        "state": "MI",
+        "magnitude": 105.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station RANM4 Randville RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.24,
+          46.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-145",
+      "properties": {
+        "report_id": "iem-lsr-MQT-145",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301946",
+        "standard_time_display": "2026-06-30 13:46 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Marquette",
+        "city": "5 S Sands",
+        "state": "MI",
+        "magnitude": 102.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KSAW Sawyer Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4,
+          46.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-146",
+      "properties": {
+        "report_id": "iem-lsr-MQT-146",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606301957",
+        "standard_time_display": "2026-06-30 13:57 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Menominee",
+        "city": "Menominee",
+        "state": "MI",
+        "magnitude": 103.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KMNM Menominee Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62,
+          45.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-147",
+      "properties": {
+        "report_id": "iem-lsr-MQT-147",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606302012",
+        "standard_time_display": "2026-06-30 14:12 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Menominee",
+        "city": "1 WNW La Branche",
+        "state": "MI",
+        "magnitude": 103.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station LBRM4 La Branche RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.49,
+          45.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-148",
+      "properties": {
+        "report_id": "iem-lsr-MQT-148",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606302012",
+        "standard_time_display": "2026-06-30 14:12 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Marquette",
+        "city": "2 WNW Gwinn",
+        "state": "MI",
+        "magnitude": 106.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GINM4 Gwinn RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.47,
+          46.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-149",
+      "properties": {
+        "report_id": "iem-lsr-MQT-149",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606302023",
+        "standard_time_display": "2026-06-30 14:23 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Delta",
+        "city": "6 NNE Chicago Lake",
+        "state": "MI",
+        "magnitude": 107.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station HBRM4 High Bridge RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.58,
+          46.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-150",
+      "properties": {
+        "report_id": "iem-lsr-MQT-150",
+        "report_type": "EXTREME HEAT",
+        "event_category": "heat_cold",
+        "valid_utc": "202606302032",
+        "standard_time_display": "2026-06-30 14:32 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Delta",
+        "city": "2 SE Rapid River",
+        "state": "MI",
+        "magnitude": 105.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station STOM4 Stonington RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.93,
+          45.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-151",
+      "properties": {
+        "report_id": "iem-lsr-MQT-151",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606302310",
+        "standard_time_display": "2026-06-30 17:10 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "1 S Trenary",
+        "state": "MI",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Ping pong ball size hail reported 1.5 mile south of Trenary. Picture shared via social media. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.97,
+          46.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-152",
+      "properties": {
+        "report_id": "iem-lsr-MQT-152",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606302314",
+        "standard_time_display": "2026-06-30 17:14 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "Trenary",
+        "state": "MI",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Time estimated via radar. Picture shared via social media of ping pong ball sized hailstone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.97,
+          46.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-153",
+      "properties": {
+        "report_id": "iem-lsr-MQT-153",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606302316",
+        "standard_time_display": "2026-06-30 17:16 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "1 SSE Trenary",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of tree damage on Stone Road. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.97,
+          46.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-154",
+      "properties": {
+        "report_id": "iem-lsr-MQT-154",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202606302320",
+        "standard_time_display": "2026-06-30 17:20 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Delta",
+        "city": "4 SSE Trenary",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Video of funnel cloud shared via social media. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.95,
+          46.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-155",
+      "properties": {
+        "report_id": "iem-lsr-MQT-155",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606302333",
+        "standard_time_display": "2026-06-30 17:33 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Alger",
+        "city": "Au Train",
+        "state": "MI",
+        "magnitude": 0.88,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of nickel size hail_ no picture."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.84,
+          46.43
         ]
       }
     }

@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 7,
+    "wfo": "LIX",
+    "start_utc": "2026-07-01T00:00:00Z",
+    "end_utc": "2026-08-01T00:00:00Z",
+    "generated_utc": "2026-07-01T12:17:25Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-1",
+      "properties": {
+        "report_id": "iem-lsr-LIX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010020",
+        "standard_time_display": "2026-06-30 18:20 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Jackson",
+        "city": "8 E Escatawpa",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree downed over Valley Forge Rd. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.42,
+          30.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-2",
+      "properties": {
+        "report_id": "iem-lsr-LIX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010100",
+        "standard_time_display": "2026-06-30 19:00 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Jackson",
+        "city": "5 NNE Ocean Springs",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on Old Fort Bayou Rd. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.76,
+          30.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-3",
+      "properties": {
+        "report_id": "iem-lsr-LIX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010109",
+        "standard_time_display": "2026-06-30 19:09 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Jackson",
+        "city": "3 NNE Saint Martin",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on Tucker Rd. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.85,
+          30.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-4",
+      "properties": {
+        "report_id": "iem-lsr-LIX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010424",
+        "standard_time_display": "2026-06-30 22:24 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Plaquemines",
+        "city": "24 S Venice",
+        "state": "LA",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "Buoy station PSTL1 Pilots Station East (SW Pass LA)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.41,
+          28.93
+        ]
+      }
+    }
+  ]
+}

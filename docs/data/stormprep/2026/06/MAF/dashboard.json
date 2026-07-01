@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-30T11:50:49Z",
+    "generated_utc": "2026-07-01T12:19:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,24 +17,24 @@
     "year": 2026,
     "month": 6,
     "wfo": "MAF",
-    "total_candidate_reports": 48,
-    "mapped_candidate_reports": 48,
+    "total_candidate_reports": 51,
+    "mapped_candidate_reports": 51,
     "candidate_report_counts": {
-      "flooding": 15,
+      "flooding": 16,
       "hail": 5,
       "other": 1,
-      "thunderstorm_wind": 26,
+      "thunderstorm_wind": 28,
       "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 14,
+      "FLASH FLOOD": 15,
       "FLOOD": 1,
       "HAIL": 5,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 1,
       "TORNADO": 1,
       "TSTM WND DMG": 12,
-      "TSTM WND GST": 13
+      "TSTM WND GST": 15
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1073,6 +1073,28 @@
     {
       "report_id": "iem-lsr-MAF-47",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606290135",
+      "standard_time_display": "2026-06-28 18:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 W Artesia",
+      "county": "Eddy",
+      "state": "NM",
+      "source": "AWOS",
+      "remark": "AWOS station KATS Artesia.",
+      "lat": 32.85,
+      "lon": -104.47,
+      "ugc": "NMC015",
+      "ugc_name": "Eddy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-48",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606292357",
       "standard_time_display": "2026-06-29 16:57 MST",
       "standard_time_zone": "MST",
@@ -1093,7 +1115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-48",
+      "report_id": "iem-lsr-MAF-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300055",
       "standard_time_display": "2026-06-29 17:55 MST",
@@ -1113,6 +1135,50 @@
       "ugc": "TXC165",
       "ugc_name": "Gaines",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300114",
+      "standard_time_display": "2026-06-29 18:14 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "17 ESE Marathon",
+      "county": "Brewster",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station UR153 Haymnd.",
+      "lat": 30.12,
+      "lon": -102.98,
+      "ugc": "TXC043",
+      "ugc_name": "Brewster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-51",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300530",
+      "standard_time_display": "2026-06-29 22:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Study Butte",
+      "county": "Brewster",
+      "state": "TX",
+      "source": "Fire Dept/Rescue",
+      "remark": "Fire chief reported significant flash flooding along Hwy 170. A high water rescue was preformed under the Terlingua Creek Bridge.",
+      "lat": 29.33,
+      "lon": -103.55,
+      "ugc": "TXC043",
+      "ugc_name": "Brewster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1121,7 +1187,7 @@
       "wfo": "MAF",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-06-30T11:50:49Z"
+      "generated_utc": "2026-07-01T12:19:10Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "MAF",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-30T11:50:49Z",
+    "generated_utc": "2026-07-01T12:19:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1218,6 +1218,32 @@
         "report_id": "iem-lsr-MAF-47",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
+        "valid_utc": "202606290135",
+        "standard_time_display": "2026-06-28 18:35 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Eddy",
+        "city": "2 W Artesia",
+        "state": "NM",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KATS Artesia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.47,
+          32.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-48",
+      "properties": {
+        "report_id": "iem-lsr-MAF-48",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
         "valid_utc": "202606292357",
         "standard_time_display": "2026-06-29 16:57 MST",
         "wfo": "MAF",
@@ -1239,9 +1265,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MAF-48",
+      "id": "iem-lsr-MAF-49",
       "properties": {
-        "report_id": "iem-lsr-MAF-48",
+        "report_id": "iem-lsr-MAF-49",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606300055",
@@ -1260,6 +1286,58 @@
         "coordinates": [
           -102.58,
           32.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-50",
+      "properties": {
+        "report_id": "iem-lsr-MAF-50",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606300114",
+        "standard_time_display": "2026-06-29 18:14 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "17 ESE Marathon",
+        "state": "TX",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station UR153 Haymnd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.98,
+          30.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-51",
+      "properties": {
+        "report_id": "iem-lsr-MAF-51",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202606300530",
+        "standard_time_display": "2026-06-29 22:30 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "1 WSW Study Butte",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Fire chief reported significant flash flooding along Hwy 170. A high water rescue was preformed under the Terlingua Creek Bridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55,
+          29.33
         ]
       }
     }

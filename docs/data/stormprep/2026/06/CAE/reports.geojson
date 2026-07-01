@@ -7,7 +7,7 @@
     "wfo": "CAE",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-06-30T11:50:00Z",
+    "generated_utc": "2026-07-01T12:18:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1242,6 +1242,32 @@
       "id": "iem-lsr-CAE-48",
       "properties": {
         "report_id": "iem-lsr-CAE-48",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202606292128",
+        "standard_time_display": "2026-06-29 16:28 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Richmond",
+        "city": "2 W Hephzibah",
+        "state": "GA",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public reported quarter sized hail in the Oak Ridge Plantation Neighborhood near Hephzibah_ GA. Reported via Social Media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.14,
+          33.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-49",
+      "properties": {
+        "report_id": "iem-lsr-CAE-49",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202606292138",
@@ -1260,6 +1286,32 @@
         "coordinates": [
           -82.23,
           33.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-50",
+      "properties": {
+        "report_id": "iem-lsr-CAE-50",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202606292200",
+        "standard_time_display": "2026-06-29 17:00 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Burke",
+        "city": "6 SE Hephzibah",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Planters Electric company reported a tree down on power lines causing power outages. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.05,
+          33.21
         ]
       }
     }
