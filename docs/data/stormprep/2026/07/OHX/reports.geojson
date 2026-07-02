@@ -7,12 +7,91 @@
     "wfo": "OHX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:17:43Z",
+    "generated_utc": "2026-07-02T11:43:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-1",
+      "properties": {
+        "report_id": "iem-lsr-OHX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012259",
+        "standard_time_display": "2026-07-01 16:59 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Lawrence",
+        "city": "9 NW Minor Hill",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree fell into home on Shoally Branch Road. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.28,
+          35.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-2",
+      "properties": {
+        "report_id": "iem-lsr-OHX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012302",
+        "standard_time_display": "2026-07-01 17:02 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Lawrence",
+        "city": "6 S Lawrenceburg",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Corrects previous tstm wnd dmg report from 6 S Lawrenceburg. 911 reported multiple trees down in Leoma and SE Lawrenceburg. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.35,
+          35.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-3",
+      "properties": {
+        "report_id": "iem-lsr-OHX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012331",
+        "standard_time_display": "2026-07-01 17:31 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Lawrence",
+        "city": "6 S Lawrenceburg",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "911 reported multiple trees down in Leoma and SE Lawrenceburg. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.35,
+          35.16
+        ]
+      }
+    }
+  ]
 }

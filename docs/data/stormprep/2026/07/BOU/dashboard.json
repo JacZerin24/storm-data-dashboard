@@ -6,7 +6,7 @@
     "wfo": "BOU",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:16:45Z",
+    "generated_utc": "2026-07-02T11:42:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "BOU",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "hail": 3,
+      "flooding": 1,
+      "hail": 4,
       "thunderstorm_wind": 5,
       "tornado": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 3,
+      "FLASH FLOOD": 1,
+      "HAIL": 4,
       "NON-TSTM WND GST": 1,
       "TORNADO": 2,
       "TSTM WND DMG": 1,
@@ -272,6 +274,50 @@
       "ugc": "COC115",
       "ugc_name": "Sedgwick",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607020729",
+      "standard_time_display": "2026-07-02 00:29 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 NE Johnstown",
+      "county": "Weld",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": "Report from mPING: Quarter (1.00 in.).",
+      "lat": 40.35,
+      "lon": -104.87,
+      "ugc": "COC123",
+      "ugc_name": "Weld",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607020743",
+      "standard_time_display": "2026-07-02 00:43 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Eaton",
+      "county": "Weld",
+      "state": "CO",
+      "source": "Law Enforcement",
+      "remark": "Running water of multiple inches in depth flowing over County Road 35.",
+      "lat": 40.54,
+      "lon": -104.74,
+      "ugc": "COC123",
+      "ugc_name": "Weld",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -280,7 +326,7 @@
       "wfo": "BOU",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-01T12:16:46Z"
+      "generated_utc": "2026-07-02T11:42:20Z"
     },
     "primary_links": [
       {

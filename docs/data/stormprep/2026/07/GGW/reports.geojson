@@ -7,12 +7,65 @@
     "wfo": "GGW",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:17:06Z",
+    "generated_utc": "2026-07-02T11:42:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-1",
+      "properties": {
+        "report_id": "iem-lsr-GGW-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020308",
+        "standard_time_display": "2026-07-01 20:08 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Garfield",
+        "city": "7 SE Devils Creek Rec A",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SSMM8 Devils Creek Rec Area 6ese SOUTH SAWMILL CREEK_ MT (RAWS - GGW) Elev: 3290.0 ft; Lat/Lon: 47.562140/-107.5285."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.53,
+          47.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-2",
+      "properties": {
+        "report_id": "iem-lsr-GGW-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020500",
+        "standard_time_display": "2026-07-01 22:00 MST",
+        "wfo": "GGW",
+        "county_or_zone": "McCone",
+        "city": "11 SW Frazer",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Scotsman Coulee_ MT (UMT - GGW) Elev: 2510.0 ft; Lat/Lon: 47.9/-106.2."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.18,
+          47.93
+        ]
+      }
+    }
+  ]
 }

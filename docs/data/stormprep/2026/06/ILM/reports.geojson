@@ -7,7 +7,7 @@
     "wfo": "ILM",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:18:54Z",
+    "generated_utc": "2026-07-02T11:44:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -246,6 +246,58 @@
         "coordinates": [
           -78.26,
           34.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-10",
+      "properties": {
+        "report_id": "iem-lsr-ILM-10",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202606290101",
+        "standard_time_display": "2026-06-28 20:01 EST",
+        "wfo": "ILM",
+        "county_or_zone": "New Hanover",
+        "city": "2 SE Wilmington",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Department/R",
+        "event_narrative": "Lightning started a fire in the attic of a home on Cascade Rd. Time from NLDN data."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.89,
+          34.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-11",
+      "properties": {
+        "report_id": "iem-lsr-ILM-11",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202606290102",
+        "standard_time_display": "2026-06-28 20:02 EST",
+        "wfo": "ILM",
+        "county_or_zone": "New Hanover",
+        "city": "1 S Wilmington",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Lightning started a fire that destroyed a home on Costmary Lane. Time from NLDN data."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.91,
+          34.19
         ]
       }
     }

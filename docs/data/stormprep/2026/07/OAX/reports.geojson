@@ -7,7 +7,7 @@
     "wfo": "OAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:17:42Z",
+    "generated_utc": "2026-07-02T11:43:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -46,6 +46,32 @@
       "id": "iem-lsr-OAX-2",
       "properties": {
         "report_id": "iem-lsr-OAX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607010435",
+        "standard_time_display": "2026-06-30 22:35 CST",
+        "wfo": "OAX",
+        "county_or_zone": "Pottawattamie",
+        "city": "3 W Macedonia",
+        "state": "IA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Delayed report. Photos and video of north wall and garage door of machine shed detached and blown northward. Also several large snapped tree limbs. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.49,
+          41.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OAX-3",
+      "properties": {
+        "report_id": "iem-lsr-OAX-3",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607010658",
@@ -64,6 +90,84 @@
         "coordinates": [
           -97.68,
           42.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OAX-4",
+      "properties": {
+        "report_id": "iem-lsr-OAX-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607020839",
+        "standard_time_display": "2026-07-02 02:39 CST",
+        "wfo": "OAX",
+        "county_or_zone": "Saunders",
+        "city": "2 SE Inglewood",
+        "state": "NE",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.48,
+          41.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OAX-5",
+      "properties": {
+        "report_id": "iem-lsr-OAX-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607020855",
+        "standard_time_display": "2026-07-02 02:55 CST",
+        "wfo": "OAX",
+        "county_or_zone": "Dodge",
+        "city": "Fremont",
+        "state": "NE",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Quarter (1.00 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.49,
+          41.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OAX-6",
+      "properties": {
+        "report_id": "iem-lsr-OAX-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607020911",
+        "standard_time_display": "2026-07-02 03:11 CST",
+        "wfo": "OAX",
+        "county_or_zone": "Dodge",
+        "city": "2 NW Fremont",
+        "state": "NE",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.52,
+          41.46
         ]
       }
     }

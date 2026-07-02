@@ -7,12 +7,143 @@
     "wfo": "SHV",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:18:00Z",
+    "generated_utc": "2026-07-02T11:43:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-1",
+      "properties": {
+        "report_id": "iem-lsr-SHV-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012135",
+        "standard_time_display": "2026-07-01 15:35 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Grant",
+        "city": "5 WNW Dry Prong",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Powerline downed near intersection of Richardson Loop and Fairfield Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.61,
+          31.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-2",
+      "properties": {
+        "report_id": "iem-lsr-SHV-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012140",
+        "standard_time_display": "2026-07-01 15:40 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Grant",
+        "city": "6 N Colfax",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree down near the intersection of Highway 471 and Oquinn Spur."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.72,
+          31.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-3",
+      "properties": {
+        "report_id": "iem-lsr-SHV-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012145",
+        "standard_time_display": "2026-07-01 15:45 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Grant",
+        "city": "6 NW Dry Prong",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree down on Liberty Chapel Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6,
+          31.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-4",
+      "properties": {
+        "report_id": "iem-lsr-SHV-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012208",
+        "standard_time_display": "2026-07-01 16:08 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Winn",
+        "city": "Atlanta",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Many reports of trees and powerlines down along State Route 34 from Atlanta to Winnfield."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.74,
+          31.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-5",
+      "properties": {
+        "report_id": "iem-lsr-SHV-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607012230",
+        "standard_time_display": "2026-07-01 16:30 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Winn",
+        "city": "Winnfield",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "911 Operator had many reports of trees and powerlines all over the Parish. The main area was from Atlanta to Winnfield."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.65,
+          31.92
+        ]
+      }
+    }
+  ]
 }

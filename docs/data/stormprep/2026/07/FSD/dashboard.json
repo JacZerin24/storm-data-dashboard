@@ -6,7 +6,7 @@
     "wfo": "FSD",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:17:04Z",
+    "generated_utc": "2026-07-02T11:42:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "FSD",
-    "total_candidate_reports": 28,
-    "mapped_candidate_reports": 28,
+    "total_candidate_reports": 36,
+    "mapped_candidate_reports": 36,
     "candidate_report_counts": {
-      "thunderstorm_wind": 28
+      "thunderstorm_wind": 35,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
+      "TORNADO": 1,
+      "TSTM WND DMG": 7,
       "TSTM WND GST": 28
     },
     "nws_api_alert_count": 0,
@@ -30,7 +33,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FSD&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,7 +46,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FSD&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -356,6 +361,28 @@
     {
       "report_id": "iem-lsr-FSD-15",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010724",
+      "standard_time_display": "2026-07-01 01:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Sioux Center",
+      "county": "Sioux",
+      "state": "IA",
+      "source": "Emergency Mngr",
+      "remark": "EM reports tree branches down in Sioux Center. Time estimated via radar.",
+      "lat": 43.08,
+      "lon": -96.17,
+      "ugc": "IAC167",
+      "ugc_name": "Sioux",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-16",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010726",
       "standard_time_display": "2026-07-01 01:26 CST",
       "standard_time_zone": "CST",
@@ -376,7 +403,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-16",
+      "report_id": "iem-lsr-FSD-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010727",
       "standard_time_display": "2026-07-01 01:27 CST",
@@ -398,7 +425,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-17",
+      "report_id": "iem-lsr-FSD-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010730",
       "standard_time_display": "2026-07-01 01:30 CST",
@@ -420,7 +447,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-18",
+      "report_id": "iem-lsr-FSD-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010730",
       "standard_time_display": "2026-07-01 01:30 CST",
@@ -442,7 +469,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-19",
+      "report_id": "iem-lsr-FSD-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010732",
       "standard_time_display": "2026-07-01 01:32 CST",
@@ -464,7 +491,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-20",
+      "report_id": "iem-lsr-FSD-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010733",
       "standard_time_display": "2026-07-01 01:33 CST",
@@ -486,7 +513,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-21",
+      "report_id": "iem-lsr-FSD-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010736",
       "standard_time_display": "2026-07-01 01:36 CST",
@@ -508,7 +535,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-22",
+      "report_id": "iem-lsr-FSD-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010737",
       "standard_time_display": "2026-07-01 01:37 CST",
@@ -530,7 +557,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-23",
+      "report_id": "iem-lsr-FSD-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010737",
       "standard_time_display": "2026-07-01 01:37 CST",
@@ -552,7 +579,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-24",
+      "report_id": "iem-lsr-FSD-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010738",
       "standard_time_display": "2026-07-01 01:38 CST",
@@ -574,7 +601,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-25",
+      "report_id": "iem-lsr-FSD-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010742",
       "standard_time_display": "2026-07-01 01:42 CST",
@@ -596,7 +623,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-26",
+      "report_id": "iem-lsr-FSD-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010801",
+      "standard_time_display": "2026-07-01 02:01 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Parker",
+      "county": "Turner",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Big branches and trees down in Parker. Time estimated via radar.",
+      "lat": 43.4,
+      "lon": -97.14,
+      "ugc": "SDC125",
+      "ugc_name": "Turner",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010805",
       "standard_time_display": "2026-07-01 02:05 CST",
@@ -618,7 +667,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-27",
+      "report_id": "iem-lsr-FSD-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010807",
+      "standard_time_display": "2026-07-01 02:07 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Larchwood",
+      "county": "Lyon",
+      "state": "IA",
+      "source": "Emergency Mngr",
+      "remark": "Multiple 8 to 10 inch diameter branches down around town. Time estimated via radar.",
+      "lat": 43.46,
+      "lon": -96.44,
+      "ugc": "IAC119",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-30",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010809",
+      "standard_time_display": "2026-07-01 02:09 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Sioux Falls",
+      "county": "Minnehaha",
+      "state": "SD",
+      "source": "NWS Employee",
+      "remark": "Multiple reports of large tree branches down on the east side of Sioux Falls. Time estimated via radar.",
+      "lat": 43.56,
+      "lon": -96.67,
+      "ugc": "SDC099",
+      "ugc_name": "Minnehaha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010810",
       "standard_time_display": "2026-07-01 02:10 CST",
@@ -640,7 +733,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-28",
+      "report_id": "iem-lsr-FSD-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010811",
+      "standard_time_display": "2026-07-01 02:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Valley Springs",
+      "county": "Minnehaha",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Several reports of large tree branches down. Time estimated via radar.",
+      "lat": 43.58,
+      "lon": -96.46,
+      "ugc": "SDC099",
+      "ugc_name": "Minnehaha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607010823",
       "standard_time_display": "2026-07-01 02:23 CST",
@@ -660,6 +775,72 @@
       "ugc": "SDC099",
       "ugc_name": "Minnehaha",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607010916",
+      "standard_time_display": "2026-07-01 03:16 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Sioux Falls",
+      "county": "Minnehaha",
+      "state": "SD",
+      "source": "NWS Employee",
+      "remark": "Corrects previous tstm wnd dmg report from 3 E Sioux Falls. Multiple reports of large tree branches down on the east side of Sioux Falls. Time estimated via radar.",
+      "lat": 43.56,
+      "lon": -96.67,
+      "ugc": "SDC099",
+      "ugc_name": "Minnehaha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607011227",
+      "standard_time_display": "2026-07-01 06:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Hawarden",
+      "county": "Sioux",
+      "state": "IA",
+      "source": "Emergency Mngr",
+      "remark": "Multiple 8 to 10 inch diameter branches down around town. Time estimated via radar.",
+      "lat": 43.0,
+      "lon": -96.48,
+      "ugc": "IAC167",
+      "ugc_name": "Sioux",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607020100",
+      "standard_time_display": "2026-07-01 19:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Oto",
+      "county": "Woodbury",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Multiple videos of a brief tornado touchdown near Oto. Location estimated from video.",
+      "lat": 42.27,
+      "lon": -95.9,
+      "ugc": "IAC193",
+      "ugc_name": "Woodbury",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -668,7 +849,7 @@
       "wfo": "FSD",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-01T12:17:05Z"
+      "generated_utc": "2026-07-02T11:42:40Z"
     },
     "primary_links": [
       {

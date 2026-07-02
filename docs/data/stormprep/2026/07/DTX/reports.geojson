@@ -7,12 +7,169 @@
     "wfo": "DTX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:16:58Z",
+    "generated_utc": "2026-07-02T11:42:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-1",
+      "properties": {
+        "report_id": "iem-lsr-DTX-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607011820",
+        "standard_time_display": "2026-07-01 13:20 EST",
+        "wfo": "DTX",
+        "county_or_zone": "LHZ421",
+        "city": "11 NW Sand Point",
+        "state": "MI",
+        "magnitude": 49.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured at Gravelly Shoal Light - GSLM4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.54,
+          44.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-2",
+      "properties": {
+        "report_id": "iem-lsr-DTX-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607011833",
+        "standard_time_display": "2026-07-01 13:33 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Huron",
+        "city": "Caseville Light",
+        "state": "MI",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.29,
+          43.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-3",
+      "properties": {
+        "report_id": "iem-lsr-DTX-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607011840",
+        "standard_time_display": "2026-07-01 13:40 EST",
+        "wfo": "DTX",
+        "county_or_zone": "LHZ422",
+        "city": "Saginaw Bay South",
+        "state": "MI",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured at Saginaw Bay Light 1 - SBLM4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.72,
+          43.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-4",
+      "properties": {
+        "report_id": "iem-lsr-DTX-4",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607011855",
+        "standard_time_display": "2026-07-01 13:55 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Huron",
+        "city": "Port Hope",
+        "state": "MI",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.72,
+          43.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-5",
+      "properties": {
+        "report_id": "iem-lsr-DTX-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607011900",
+        "standard_time_display": "2026-07-01 14:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Huron",
+        "city": "1 E Harbor Beach",
+        "state": "MI",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured at HRBM4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.64,
+          43.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-6",
+      "properties": {
+        "report_id": "iem-lsr-DTX-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607011901",
+        "standard_time_display": "2026-07-01 14:01 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Huron",
+        "city": "Huron County Airport",
+        "state": "MI",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.98,
+          43.78
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "GRR",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-01T12:17:10Z",
+    "generated_utc": "2026-07-02T11:42:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "GRR",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "other": 1
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GRR&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GRR-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607011100",
+      "standard_time_display": "2026-07-01 05:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GRR",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.2,
+      "magnitude_qualifier": null,
+      "city": "2 SE Scottville",
+      "county": "Mason",
+      "state": "MI",
+      "source": "CO-OP Observer",
+      "remark": "12 hour rain total. CO-OP Observer station SCOM4 Scottville 2 SE.",
+      "lat": 43.93,
+      "lon": -86.25,
+      "ugc": "MIC105",
+      "ugc_name": "Mason",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "GRR",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-01T12:17:10Z"
+      "generated_utc": "2026-07-02T11:42:45Z"
     },
     "primary_links": [
       {
