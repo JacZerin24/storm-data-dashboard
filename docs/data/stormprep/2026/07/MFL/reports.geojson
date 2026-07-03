@@ -7,12 +7,91 @@
     "wfo": "MFL",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:10Z",
+    "generated_utc": "2026-07-03T11:41:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-1",
+      "properties": {
+        "report_id": "iem-lsr-MFL-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202607021059",
+        "standard_time_display": "2026-07-02 05:59 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ650",
+        "city": "2 E Ocean Ridge",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Waterspout was reported east of Boynton Beach this morning."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02,
+          26.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-2",
+      "properties": {
+        "report_id": "iem-lsr-MFL-2",
+        "report_type": "WILDFIRE",
+        "event_category": "fire_smoke",
+        "valid_utc": "202607021424",
+        "standard_time_display": "2026-07-02 09:24 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Broward",
+        "city": "2 WSW Tamarac",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "The Atlantic fire has burned 5780 acres and is now at 95 percent contained."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-3",
+      "properties": {
+        "report_id": "iem-lsr-MFL-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607021800",
+        "standard_time_display": "2026-07-02 13:00 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "2 ESE Miami Internation",
+        "state": "FL",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Two social media reports of penny-sized hail associated with a strong thunderstorm moving over the area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.26,
+          25.79
+        ]
+      }
+    }
+  ]
 }

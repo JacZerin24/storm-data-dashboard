@@ -6,7 +6,7 @@
     "wfo": "LCH",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:42:59Z",
+    "generated_utc": "2026-07-03T11:41:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,24 @@
     "year": 2026,
     "month": 7,
     "wfo": "LCH",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 3,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 2
+      "TSTM WND GST": 2,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LCH&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -43,7 +46,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LCH&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -111,6 +115,28 @@
       "ugc": "LAC039",
       "ugc_name": "Evangeline",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607021959",
+      "standard_time_display": "2026-07-02 13:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 SSE Bridge City",
+      "county": "GMZ430",
+      "state": "TX",
+      "source": "Fire Dept/Rescue",
+      "remark": "Port Arthur Fire Dept shared photo of waterspout over Sabine Lake. Location estimated by radar.",
+      "lat": 29.93,
+      "lon": -93.78,
+      "ugc": "GMZ430",
+      "ugc_name": "Sabine Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -119,7 +145,7 @@
       "wfo": "LCH",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-02T11:43:00Z"
+      "generated_utc": "2026-07-03T11:41:42Z"
     },
     "primary_links": [
       {

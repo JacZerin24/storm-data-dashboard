@@ -7,12 +7,429 @@
     "wfo": "LOT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:03Z",
+    "generated_utc": "2026-07-03T11:41:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-1",
+      "properties": {
+        "report_id": "iem-lsr-LOT-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030245",
+        "standard_time_display": "2026-07-02 20:45 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Cook",
+        "city": "2 NNE Hanover Park",
+        "state": "IL",
+        "magnitude": 56.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station measured wind gusts as storms passed over just east of Streamwood_ IL."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.13,
+          42.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-2",
+      "properties": {
+        "report_id": "iem-lsr-LOT-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030321",
+        "standard_time_display": "2026-07-02 21:21 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Cook",
+        "city": "Ohare Airport",
+        "state": "IL",
+        "magnitude": 53.0,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "Peak wind gust of 53 mph measured at ORD."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9,
+          41.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-3",
+      "properties": {
+        "report_id": "iem-lsr-LOT-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030329",
+        "standard_time_display": "2026-07-02 21:29 CST",
+        "wfo": "LOT",
+        "county_or_zone": "DuPage",
+        "city": "1 NNE Villa Park",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report of several 2-3 inch branches downed along Pine Street. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.97,
+          41.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-4",
+      "properties": {
+        "report_id": "iem-lsr-LOT-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030330",
+        "standard_time_display": "2026-07-02 21:30 CST",
+        "wfo": "LOT",
+        "county_or_zone": "DuPage",
+        "city": "1 SSW Elmhurst",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Multiple trees down in this vicinity. Time estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95,
+          41.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-5",
+      "properties": {
+        "report_id": "iem-lsr-LOT-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030334",
+        "standard_time_display": "2026-07-02 21:34 CST",
+        "wfo": "LOT",
+        "county_or_zone": "DuPage",
+        "city": "1 W Elmhurst",
+        "state": "IL",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station measured wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.95,
+          41.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-6",
+      "properties": {
+        "report_id": "iem-lsr-LOT-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030335",
+        "standard_time_display": "2026-07-02 21:35 CST",
+        "wfo": "LOT",
+        "county_or_zone": "DuPage",
+        "city": "Villa Park",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report relayed of some trees down in Villa Park. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.98,
+          41.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-7",
+      "properties": {
+        "report_id": "iem-lsr-LOT-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607030417",
+        "standard_time_display": "2026-07-02 22:17 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "2 WNW Montgomery",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Reports of trees down in the vicinity of Orchard and Jericho road. One tree down on a house in the vicinity. Time estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.38,
+          41.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-8",
+      "properties": {
+        "report_id": "iem-lsr-LOT-8",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607030450",
+        "standard_time_display": "2026-07-02 22:50 CST",
+        "wfo": "LOT",
+        "county_or_zone": "LMZ741",
+        "city": "3 NE Navy Pier",
+        "state": "IL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured at the Harrison-Dever Crib."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.57,
+          41.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-9",
+      "properties": {
+        "report_id": "iem-lsr-LOT-9",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607030450",
+        "standard_time_display": "2026-07-02 22:50 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "2 NW Montgomery",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "3 feet of standing water on Orchard and Prairie."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.38,
+          41.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-10",
+      "properties": {
+        "report_id": "iem-lsr-LOT-10",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607030500",
+        "standard_time_display": "2026-07-02 23:00 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "2 SSE Big Rock",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report of roadway flooding 1 mile south of the intersection of Jericho Rd and Granart Rd. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.53,
+          41.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-11",
+      "properties": {
+        "report_id": "iem-lsr-LOT-11",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607030500",
+        "standard_time_display": "2026-07-02 23:00 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kendall",
+        "city": "4 S Sugar Grove",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "3 feet of standing water on IL 47 and Galena. Report was received at 12:10 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.45,
+          41.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-12",
+      "properties": {
+        "report_id": "iem-lsr-LOT-12",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607030510",
+        "standard_time_display": "2026-07-02 23:10 CST",
+        "wfo": "LOT",
+        "county_or_zone": "LMZ741",
+        "city": "1 NE Montrose Harbor",
+        "state": "IL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Montrose Beach Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.63,
+          41.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-13",
+      "properties": {
+        "report_id": "iem-lsr-LOT-13",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607030525",
+        "standard_time_display": "2026-07-02 23:25 CST",
+        "wfo": "LOT",
+        "county_or_zone": "DuPage",
+        "city": "Elmhurst",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast media reports road beneath underpass closed due to flooding. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.94,
+          41.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-14",
+      "properties": {
+        "report_id": "iem-lsr-LOT-14",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607030600",
+        "standard_time_display": "2026-07-03 00:00 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "3 NW Montgomery",
+        "state": "IL",
+        "magnitude": 3.86,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "3.1 NW Montgomery_ IL. Measured on Davis WeatherLink station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.38,
+          41.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-15",
+      "properties": {
+        "report_id": "iem-lsr-LOT-15",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607030600",
+        "standard_time_display": "2026-07-03 00:00 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "3 WNW North Aurora",
+        "state": "IL",
+        "magnitude": 4.28,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "3.7 WNW North Aurora_ IL. Measured on Davis Weatherlink Station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.38,
+          41.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LOT-16",
+      "properties": {
+        "report_id": "iem-lsr-LOT-16",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607030600",
+        "standard_time_display": "2026-07-03 00:00 CST",
+        "wfo": "LOT",
+        "county_or_zone": "Kane",
+        "city": "2 E Sugar Grove",
+        "state": "IL",
+        "magnitude": 4.37,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "3.7 E Sugar Grove_ IL. Measured on Davis Weatherlink station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.41,
+          41.76
+        ]
+      }
+    }
+  ]
 }

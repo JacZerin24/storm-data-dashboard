@@ -7,12 +7,39 @@
     "wfo": "MHX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:11Z",
+    "generated_utc": "2026-07-03T11:41:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MHX-1",
+      "properties": {
+        "report_id": "iem-lsr-MHX-1",
+        "report_type": "RIP CURRENTS",
+        "event_category": "marine",
+        "valid_utc": "202607011600",
+        "standard_time_display": "2026-07-01 11:00 EST",
+        "wfo": "MHX",
+        "county_or_zone": "Dare",
+        "city": "1 ENE Avon",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Over 12 rip current rescues reported in Avon Tuesday (6/30)_ and around 5 reported Wednesday (7/1)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5,
+          35.36
+        ]
+      }
+    }
+  ]
 }

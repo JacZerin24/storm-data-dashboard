@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:00Z",
+    "generated_utc": "2026-07-03T11:41:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,26 @@
     "year": 2026,
     "month": 7,
     "wfo": "LIX",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
     "candidate_report_counts": {
       "other": 1,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 4,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "LIGHTNING": 1,
       "TSTM WND DMG": 3,
-      "TSTM WND GST": 1
+      "TSTM WND GST": 1,
+      "WATERSPOUT": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LIX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,7 +48,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LIX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -157,6 +161,50 @@
       "ugc": "LAC089",
       "ugc_name": "St. Charles",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607011750",
+      "standard_time_display": "2026-07-01 11:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 WSW Yscloskey",
+      "county": "St. Bernard",
+      "state": "LA",
+      "source": "Broadcast Media",
+      "remark": "Delayed Report: Several photos via broadcast media of a waterspout in the marshes near Hopedale and Delacroix. Time estimated from radar.",
+      "lat": 29.8,
+      "lon": -89.79,
+      "ugc": "LAC087",
+      "ugc_name": "St. Bernard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607021433",
+      "standard_time_display": "2026-07-02 08:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 S Lake Catherine",
+      "county": "GMZ534",
+      "state": "LA",
+      "source": "Broadcast Media",
+      "remark": "Picture of a waterspout over Lake Borgne.",
+      "lat": 30.01,
+      "lon": -89.72,
+      "ugc": "GMZ534",
+      "ugc_name": "Lake Borgne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -165,7 +213,7 @@
       "wfo": "LIX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-02T11:43:01Z"
+      "generated_utc": "2026-07-03T11:41:43Z"
     },
     "primary_links": [
       {

@@ -7,12 +7,195 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:42:17Z",
+    "generated_utc": "2026-07-03T11:40:55Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-1",
+      "properties": {
+        "report_id": "iem-lsr-BIS-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607021709",
+        "standard_time_display": "2026-07-02 11:09 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Morton",
+        "city": "Saint Anthony",
+        "state": "ND",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.91,
+          46.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-2",
+      "properties": {
+        "report_id": "iem-lsr-BIS-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607030000",
+        "standard_time_display": "2026-07-02 17:00 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Golden Valley",
+        "city": "12 N Beach",
+        "state": "ND",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public report relayed by broadcast media. Half dollar size hail estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.0,
+          47.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-3",
+      "properties": {
+        "report_id": "iem-lsr-BIS-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607030125",
+        "standard_time_display": "2026-07-02 18:25 MST",
+        "wfo": "BIS",
+        "county_or_zone": "McKenzie",
+        "city": "10 NNE Skaar",
+        "state": "ND",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public report relayed by broadcast media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.93,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-4",
+      "properties": {
+        "report_id": "iem-lsr-BIS-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607030150",
+        "standard_time_display": "2026-07-02 18:50 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Billings",
+        "city": "8 S South Fairfield",
+        "state": "ND",
+        "magnitude": 3.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Estimated 3.00 inch hail. Time estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2,
+          47.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-5",
+      "properties": {
+        "report_id": "iem-lsr-BIS-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607030153",
+        "standard_time_display": "2026-07-02 18:53 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Bowman",
+        "city": "Bowman",
+        "state": "ND",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Multiple reports of dime size hail in Bowman. Little wind with the hail."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.39,
+          46.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-6",
+      "properties": {
+        "report_id": "iem-lsr-BIS-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607030230",
+        "standard_time_display": "2026-07-02 19:30 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Billings",
+        "city": "10 NE Fairfield",
+        "state": "ND",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.07,
+          47.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-7",
+      "properties": {
+        "report_id": "iem-lsr-BIS-7",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607031111",
+        "standard_time_display": "2026-07-03 05:11 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Bottineau",
+        "city": "Westhope",
+        "state": "ND",
+        "magnitude": 1.16,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Rainfall since midnight. Relayed to NWS by broadcast media partner."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.02,
+          48.91
+        ]
+      }
+    }
+  ]
 }

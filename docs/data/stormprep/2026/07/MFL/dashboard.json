@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:10Z",
+    "generated_utc": "2026-07-03T11:41:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,25 @@
     "year": 2026,
     "month": 7,
     "wfo": "MFL",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "fire_smoke": 1,
+      "hail": 1,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 1,
+      "WATERSPOUT": 1,
+      "WILDFIRE": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -38,16 +47,84 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MFL-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607021059",
+      "standard_time_display": "2026-07-02 05:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Ocean Ridge",
+      "county": "AMZ650",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Waterspout was reported east of Boynton Beach this morning.",
+      "lat": 26.53,
+      "lon": -80.02,
+      "ugc": "AMZ650",
+      "ugc_name": "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607021424",
+      "standard_time_display": "2026-07-02 09:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Tamarac",
+      "county": "Broward",
+      "state": "FL",
+      "source": "Public",
+      "remark": "The Atlantic fire has burned 5780 acres and is now at 95 percent contained.",
+      "lat": 26.2,
+      "lon": -80.3,
+      "ugc": "FLC011",
+      "ugc_name": "Broward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607021800",
+      "standard_time_display": "2026-07-02 13:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Miami Internation",
+      "county": "Miami-Dade",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Two social media reports of penny-sized hail associated with a strong thunderstorm moving over the area.",
+      "lat": 25.79,
+      "lon": -80.26,
+      "ugc": "FLC086",
+      "ugc_name": "Miami-Dade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "MFL",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-02T11:43:10Z"
+      "generated_utc": "2026-07-03T11:41:52Z"
     },
     "primary_links": [
       {

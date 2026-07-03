@@ -7,12 +7,221 @@
     "wfo": "LZK",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:07Z",
+    "generated_utc": "2026-07-03T11:41:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LZK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-1",
+      "properties": {
+        "report_id": "iem-lsr-LZK-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020313",
+        "standard_time_display": "2026-07-01 21:13 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Jefferson",
+        "city": "1 SSE Hooker",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A powerline was reported to fall onto a house along Highway 425 between Star City and Pine Bluff. No injuries were noted within the home or to responders."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.87,
+          34.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-2",
+      "properties": {
+        "report_id": "iem-lsr-LZK-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020316",
+        "standard_time_display": "2026-07-01 21:16 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Jefferson",
+        "city": "Pinebluff Regional Airp",
+        "state": "AR",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS recorded a measured wind gust of 58 mph at Pine Bluff Airport/Grider Field."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.93,
+          34.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-3",
+      "properties": {
+        "report_id": "iem-lsr-LZK-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020320",
+        "standard_time_display": "2026-07-01 21:20 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Jefferson",
+        "city": "2 SSE Hooker",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "A branch was broken out of a tree approximately 1 mile into Jefferson County along Highway 425."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.87,
+          34.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-4",
+      "properties": {
+        "report_id": "iem-lsr-LZK-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020323",
+        "standard_time_display": "2026-07-01 21:23 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Jefferson",
+        "city": "Pine Bluff",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Multiple trees and powerlines reported down across portions of Pine Bluff."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.02,
+          34.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-5",
+      "properties": {
+        "report_id": "iem-lsr-LZK-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020334",
+        "standard_time_display": "2026-07-01 21:34 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Garland",
+        "city": "2 WSW Lake Balboa",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was blown down onto Pinocha Way in Hot Springs Village."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.94,
+          34.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-6",
+      "properties": {
+        "report_id": "iem-lsr-LZK-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020335",
+        "standard_time_display": "2026-07-01 21:35 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Garland",
+        "city": "Hot Springs Village",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was reported down across Carmona Drive in Hot Springs Village."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0,
+          34.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-7",
+      "properties": {
+        "report_id": "iem-lsr-LZK-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020355",
+        "standard_time_display": "2026-07-01 21:55 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Pulaski",
+        "city": "1 W Little Rock Adams F",
+        "state": "AR",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "A measure wind gust was measured at KLIT (Little Rock/Clinton National Airport) of 45 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.24,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-8",
+      "properties": {
+        "report_id": "iem-lsr-LZK-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607020357",
+        "standard_time_display": "2026-07-01 21:57 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Pulaski",
+        "city": "1 W Rock Creek",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "A tree branch was broken behind the Costco. Time determined from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.45,
+          34.76
+        ]
+      }
+    }
+  ]
 }

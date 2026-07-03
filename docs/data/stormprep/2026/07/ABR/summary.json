@@ -3,19 +3,29 @@
   "year": 2026,
   "month": 7,
   "wfo": "ABR",
-  "total_candidate_reports": 1,
-  "mapped_candidate_reports": 1,
+  "total_candidate_reports": 30,
+  "mapped_candidate_reports": 30,
   "candidate_report_counts": {
-    "thunderstorm_wind": 1
+    "flooding": 3,
+    "hail": 3,
+    "thunderstorm_wind": 20,
+    "tornado": 4
   },
   "candidate_report_type_counts": {
-    "TSTM WND GST": 1
+    "FLOOD": 3,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 3,
+    "NON-TSTM WND GST": 1,
+    "TORNADO": 3,
+    "TSTM WND DMG": 1,
+    "TSTM WND GST": 18
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABR&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

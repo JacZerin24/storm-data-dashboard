@@ -7,12 +7,65 @@
     "wfo": "SLC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-02T11:43:39Z",
+    "generated_utc": "2026-07-03T11:42:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-1",
+      "properties": {
+        "report_id": "iem-lsr-SLC-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607022100",
+        "standard_time_display": "2026-07-02 14:00 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Tooele",
+        "city": "1 N Wendover",
+        "state": "UT",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station WPK Wendover Peak."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.02,
+          40.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-2",
+      "properties": {
+        "report_id": "iem-lsr-SLC-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607022300",
+        "standard_time_display": "2026-07-02 16:00 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Rich",
+        "city": "5 NNE Laketown",
+        "state": "UT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station PC367 E Bearlake."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.27,
+          41.88
+        ]
+      }
+    }
+  ]
 }

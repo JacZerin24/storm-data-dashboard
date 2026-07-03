@@ -3,20 +3,23 @@
   "year": 2026,
   "month": 7,
   "wfo": "LCH",
-  "total_candidate_reports": 3,
-  "mapped_candidate_reports": 3,
+  "total_candidate_reports": 4,
+  "mapped_candidate_reports": 4,
   "candidate_report_counts": {
-    "thunderstorm_wind": 3
+    "thunderstorm_wind": 3,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "TSTM WND DMG": 1,
-    "TSTM WND GST": 2
+    "TSTM WND GST": 2,
+    "WATERSPOUT": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LCH&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
