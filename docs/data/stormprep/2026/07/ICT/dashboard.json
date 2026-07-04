@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:32Z",
+    "generated_utc": "2026-07-04T11:00:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "ICT",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
+      "hail": 1,
       "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
+      "HAIL": 1,
       "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
@@ -110,6 +112,28 @@
       "ugc": "KSC105",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040255",
+      "standard_time_display": "2026-07-03 20:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Barnard",
+      "county": "Lincoln",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 39.19,
+      "lon": -98.04,
+      "ugc": "KSC105",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -118,7 +142,7 @@
       "wfo": "ICT",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:41:33Z"
+      "generated_utc": "2026-07-04T11:00:28Z"
     },
     "primary_links": [
       {

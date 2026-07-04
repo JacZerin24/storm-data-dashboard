@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:42:25Z",
+    "generated_utc": "2026-07-04T11:01:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "TBW",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
       "marine": 2,
-      "other": 1
+      "other": 2
     },
     "candidate_report_type_counts": {
       "LANDSPOUT": 1,
+      "LIGHTNING": 1,
       "MARINE TSTM WIND": 2
     },
     "nws_api_alert_count": 0,
@@ -112,6 +113,28 @@
       "ugc": "FLC071",
       "ugc_name": "Lee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607031845",
+      "standard_time_display": "2026-07-03 13:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 SW Estero",
+      "county": "GMZ856",
+      "state": "FL",
+      "source": "Public",
+      "remark": "*** 1 FATAL_ 3 INJ *** Reports of 1 fatality and 3 people injured from a lightning strike at Fort Myers Beach between 230pm and 300pm.",
+      "lat": 26.42,
+      "lon": -81.91,
+      "ugc": "GMZ856",
+      "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -120,7 +143,7 @@
       "wfo": "TBW",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:42:26Z"
+      "generated_utc": "2026-07-04T11:01:17Z"
     },
     "primary_links": [
       {

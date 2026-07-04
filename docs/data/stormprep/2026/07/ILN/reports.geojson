@@ -7,12 +7,91 @@
     "wfo": "ILN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:34Z",
+    "generated_utc": "2026-07-04T11:00:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-1",
+      "properties": {
+        "report_id": "iem-lsr-ILN-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607032249",
+        "standard_time_display": "2026-07-03 17:49 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Mercer",
+        "city": "Coldwater",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Poles and trees down on SR118."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.63,
+          40.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-2",
+      "properties": {
+        "report_id": "iem-lsr-ILN-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607032255",
+        "standard_time_display": "2026-07-03 17:55 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Mercer",
+        "city": "2 E Celina",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Roof from previously damaged building blew off and destroyed another roof next door."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.54,
+          40.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-3",
+      "properties": {
+        "report_id": "iem-lsr-ILN-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040015",
+        "standard_time_display": "2026-07-03 19:15 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Hardin",
+        "city": "3 SW Kenton",
+        "state": "OH",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KI95 Hardin County Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.64,
+          40.61
+        ]
+      }
+    }
+  ]
 }

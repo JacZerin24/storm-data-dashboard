@@ -7,12 +7,117 @@
     "wfo": "TOP",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:42:27Z",
+    "generated_utc": "2026-07-04T11:01:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-1",
+      "properties": {
+        "report_id": "iem-lsr-TOP-1",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202607040025",
+        "standard_time_display": "2026-07-03 18:25 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Republic",
+        "city": "2 W Narka",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46,
+          39.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-2",
+      "properties": {
+        "report_id": "iem-lsr-TOP-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607040128",
+        "standard_time_display": "2026-07-03 19:28 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Washington",
+        "city": "4 WSW Morrowville",
+        "state": "KS",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.24,
+          39.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-3",
+      "properties": {
+        "report_id": "iem-lsr-TOP-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040149",
+        "standard_time_display": "2026-07-03 19:49 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Washington",
+        "city": "1 SE Palmer",
+        "state": "KS",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13,
+          39.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-4",
+      "properties": {
+        "report_id": "iem-lsr-TOP-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040151",
+        "standard_time_display": "2026-07-03 19:51 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Washington",
+        "city": "5 SSW Hanover",
+        "state": "KS",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9,
+          39.83
+        ]
+      }
+    }
+  ]
 }

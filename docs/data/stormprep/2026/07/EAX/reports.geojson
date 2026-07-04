@@ -7,12 +7,195 @@
     "wfo": "EAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:13Z",
+    "generated_utc": "2026-07-04T11:00:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-1",
+      "properties": {
+        "report_id": "iem-lsr-EAX-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607031754",
+        "standard_time_display": "2026-07-03 11:54 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Atchison",
+        "city": "2 S Lancaster",
+        "state": "KS",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Private weather sensor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3,
+          39.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-2",
+      "properties": {
+        "report_id": "iem-lsr-EAX-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607031849",
+        "standard_time_display": "2026-07-03 12:49 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clinton",
+        "city": "2 WNW Trimble",
+        "state": "MO",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Private weather sensor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.59,
+          39.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-3",
+      "properties": {
+        "report_id": "iem-lsr-EAX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607031857",
+        "standard_time_display": "2026-07-03 12:57 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clinton",
+        "city": "Plattsburg",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Thunderstorm outflow resulted in minor property damage and several downed tree limbs in Plattsburg. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.46,
+          39.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-4",
+      "properties": {
+        "report_id": "iem-lsr-EAX-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607031927",
+        "standard_time_display": "2026-07-03 13:27 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Ray",
+        "city": "2 NE Elmira",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Downed trees and limbs near Price Drive between Prairie Ridge Road and Knutter Road along the Ray/Caldwell County line. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.12,
+          39.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-5",
+      "properties": {
+        "report_id": "iem-lsr-EAX-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040439",
+        "standard_time_display": "2026-07-03 22:39 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Holt",
+        "city": "1 SSE Big Lake",
+        "state": "MO",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station recorded a gust of 66 MPH."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          40.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-6",
+      "properties": {
+        "report_id": "iem-lsr-EAX-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040523",
+        "standard_time_display": "2026-07-03 23:23 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Holt",
+        "city": "5 SW Fillmore",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Utility Company reports multiple power outages across Holt_ Andrew_ and Buchanan counties."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.05,
+          39.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-7",
+      "properties": {
+        "report_id": "iem-lsr-EAX-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607040532",
+        "standard_time_display": "2026-07-03 23:32 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Andrew",
+        "city": "1 SSE Rosendale",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Utility company reports 28 percent of Andrew County is without power. Peak outages reached 32 percent of utility customers. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.81,
+          40.02
+        ]
+      }
+    }
+  ]
 }

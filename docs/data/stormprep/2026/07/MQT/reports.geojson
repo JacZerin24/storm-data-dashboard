@@ -7,12 +7,91 @@
     "wfo": "MQT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:57Z",
+    "generated_utc": "2026-07-04T11:00:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-1",
+      "properties": {
+        "report_id": "iem-lsr-MQT-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607032120",
+        "standard_time_display": "2026-07-03 15:20 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Luce",
+        "city": "2 S Soo Junction",
+        "state": "MI",
+        "magnitude": 1.9,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "MDOT Sensor MI-01 Newberry."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.26,
+          46.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-2",
+      "properties": {
+        "report_id": "iem-lsr-MQT-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607040103",
+        "standard_time_display": "2026-07-03 19:03 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Schoolcraft",
+        "city": "1 SW Germfask",
+        "state": "MI",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SNYM4 Seney RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.94,
+          46.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MQT-3",
+      "properties": {
+        "report_id": "iem-lsr-MQT-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607040230",
+        "standard_time_display": "2026-07-03 20:30 CST",
+        "wfo": "MQT",
+        "county_or_zone": "Gogebic",
+        "city": "Watersmeet",
+        "state": "MI",
+        "magnitude": 1.69,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station WMTM4 Watersmeet RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.17,
+          46.27
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "MQT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:57Z",
+    "generated_utc": "2026-07-04T11:00:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "MQT",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "other": 3
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MQT&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MQT-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032120",
+      "standard_time_display": "2026-07-03 15:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.9,
+      "magnitude_qualifier": null,
+      "city": "2 S Soo Junction",
+      "county": "Luce",
+      "state": "MI",
+      "source": "Dept of Highways",
+      "remark": "MDOT Sensor MI-01 Newberry.",
+      "lat": 46.3,
+      "lon": -85.26,
+      "ugc": "MIC095",
+      "ugc_name": "Luce",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040103",
+      "standard_time_display": "2026-07-03 19:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Germfask",
+      "county": "Schoolcraft",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station SNYM4 Seney RAWS.",
+      "lat": 46.24,
+      "lon": -85.94,
+      "ugc": "MIC153",
+      "ugc_name": "Schoolcraft",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040230",
+      "standard_time_display": "2026-07-03 20:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.69,
+      "magnitude_qualifier": null,
+      "city": "Watersmeet",
+      "county": "Gogebic",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station WMTM4 Watersmeet RAWS.",
+      "lat": 46.27,
+      "lon": -89.17,
+      "ugc": "MIC053",
+      "ugc_name": "Gogebic",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "MQT",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:41:58Z"
+      "generated_utc": "2026-07-04T11:00:51Z"
     },
     "primary_links": [
       {

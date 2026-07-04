@@ -6,7 +6,7 @@
     "wfo": "ILN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:34Z",
+    "generated_utc": "2026-07-04T11:00:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "ILN",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 3
+    },
+    "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 1,
+      "TSTM WND DMG": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +45,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ILN-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032249",
+      "standard_time_display": "2026-07-03 17:49 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Coldwater",
+      "county": "Mercer",
+      "state": "OH",
+      "source": "Emergency Mngr",
+      "remark": "Poles and trees down on SR118.",
+      "lat": 40.48,
+      "lon": -84.63,
+      "ugc": "OHC107",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032255",
+      "standard_time_display": "2026-07-03 17:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Celina",
+      "county": "Mercer",
+      "state": "OH",
+      "source": "Emergency Mngr",
+      "remark": "Roof from previously damaged building blew off and destroyed another roof next door.",
+      "lat": 40.55,
+      "lon": -84.54,
+      "ugc": "OHC107",
+      "ugc_name": "Mercer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040015",
+      "standard_time_display": "2026-07-03 19:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 48.0,
+      "magnitude_qualifier": null,
+      "city": "3 SW Kenton",
+      "county": "Hardin",
+      "state": "OH",
+      "source": "AWOS",
+      "remark": "AWOS station KI95 Hardin County Airport.",
+      "lat": 40.61,
+      "lon": -83.64,
+      "ugc": "OHC065",
+      "ugc_name": "Hardin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "ILN",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:41:35Z"
+      "generated_utc": "2026-07-04T11:00:29Z"
     },
     "primary_links": [
       {

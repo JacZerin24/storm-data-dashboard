@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:40:47Z",
+    "generated_utc": "2026-07-04T10:59:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,22 @@
     "year": 2026,
     "month": 7,
     "wfo": "ABR",
-    "total_candidate_reports": 30,
-    "mapped_candidate_reports": 30,
+    "total_candidate_reports": 35,
+    "mapped_candidate_reports": 35,
     "candidate_report_counts": {
       "flooding": 3,
-      "hail": 3,
-      "thunderstorm_wind": 20,
+      "hail": 4,
+      "thunderstorm_wind": 24,
       "tornado": 4
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
       "FUNNEL CLOUD": 1,
-      "HAIL": 3,
+      "HAIL": 4,
       "NON-TSTM WND GST": 1,
       "TORNADO": 3,
-      "TSTM WND DMG": 1,
-      "TSTM WND GST": 18
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 19
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -455,6 +455,94 @@
     {
       "report_id": "iem-lsr-ABR-19",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607022245",
+      "standard_time_display": "2026-07-02 16:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "7 WSW Willow Lake",
+      "county": "Clark",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Crops damaged.",
+      "lat": 44.57,
+      "lon": -97.76,
+      "ugc": "SDC025",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607022245",
+      "standard_time_display": "2026-07-02 16:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WSW Willow Lake",
+      "county": "Clark",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Hoop Barn roof damage.",
+      "lat": 44.59,
+      "lon": -97.75,
+      "ugc": "SDC025",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607022312",
+      "standard_time_display": "2026-07-02 17:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Bryant",
+      "county": "Hamlin",
+      "state": "SD",
+      "source": "Emergency Mngr",
+      "remark": "Tree fell on a power line.",
+      "lat": 44.62,
+      "lon": -97.47,
+      "ugc": "SDC057",
+      "ugc_name": "Hamlin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607022315",
+      "standard_time_display": "2026-07-02 17:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Bryant",
+      "county": "Hamlin",
+      "state": "SD",
+      "source": "Emergency Mngr",
+      "remark": "Cattle trailer tipped over.",
+      "lat": 44.61,
+      "lon": -97.47,
+      "ugc": "SDC057",
+      "ugc_name": "Hamlin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-23",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022320",
       "standard_time_display": "2026-07-02 17:20 CST",
       "standard_time_zone": "CST",
@@ -475,7 +563,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-20",
+      "report_id": "iem-lsr-ABR-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022322",
       "standard_time_display": "2026-07-02 17:22 CST",
@@ -497,7 +585,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-21",
+      "report_id": "iem-lsr-ABR-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022328",
       "standard_time_display": "2026-07-02 17:28 CST",
@@ -519,7 +607,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-22",
+      "report_id": "iem-lsr-ABR-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022334",
       "standard_time_display": "2026-07-02 17:34 CST",
@@ -541,7 +629,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-23",
+      "report_id": "iem-lsr-ABR-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022335",
       "standard_time_display": "2026-07-02 17:35 CST",
@@ -563,7 +651,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-24",
+      "report_id": "iem-lsr-ABR-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022336",
       "standard_time_display": "2026-07-02 17:36 CST",
@@ -585,7 +673,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-25",
+      "report_id": "iem-lsr-ABR-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022340",
       "standard_time_display": "2026-07-02 17:40 CST",
@@ -607,7 +695,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-26",
+      "report_id": "iem-lsr-ABR-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022350",
       "standard_time_display": "2026-07-02 17:50 CST",
@@ -629,7 +717,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-27",
+      "report_id": "iem-lsr-ABR-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607022350",
       "standard_time_display": "2026-07-02 17:50 CST",
@@ -651,7 +739,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-28",
+      "report_id": "iem-lsr-ABR-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607030725",
       "standard_time_display": "2026-07-03 01:25 CST",
@@ -673,7 +761,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-29",
+      "report_id": "iem-lsr-ABR-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607030736",
       "standard_time_display": "2026-07-03 01:36 CST",
@@ -695,7 +783,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-30",
+      "report_id": "iem-lsr-ABR-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607030740",
       "standard_time_display": "2026-07-03 01:40 CST",
@@ -715,6 +803,28 @@
       "ugc": "SDC085",
       "ugc_name": "Lyman",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040355",
+      "standard_time_display": "2026-07-03 21:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "12 S Vivian",
+      "county": "Lyman",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station VVMS2 Vivian 12S (SD Mesonet).",
+      "lat": 43.75,
+      "lon": -100.3,
+      "ugc": "SDC085",
+      "ugc_name": "Lyman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -723,7 +833,7 @@
       "wfo": "ABR",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:40:48Z"
+      "generated_utc": "2026-07-04T10:59:43Z"
     },
     "primary_links": [
       {

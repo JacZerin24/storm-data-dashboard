@@ -6,7 +6,7 @@
     "wfo": "GID",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-03T11:41:22Z",
+    "generated_utc": "2026-07-04T11:00:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,26 @@
     "year": 2026,
     "month": 7,
     "wfo": "GID",
-    "total_candidate_reports": 37,
-    "mapped_candidate_reports": 37,
+    "total_candidate_reports": 43,
+    "mapped_candidate_reports": 43,
     "candidate_report_counts": {
-      "hail": 1,
-      "thunderstorm_wind": 36
+      "hail": 4,
+      "thunderstorm_wind": 38,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "HAIL": 1,
+      "HAIL": 4,
       "NON-TSTM WND GST": 16,
-      "TSTM WND GST": 20
+      "TORNADO": 1,
+      "TSTM WND GST": 22
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GID&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,7 +48,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GID&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -861,6 +865,138 @@
       "ugc": "NEC079",
       "ugc_name": "Hall",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032334",
+      "standard_time_display": "2026-07-03 17:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Hebron",
+      "county": "Thayer",
+      "state": "NE",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 40.18,
+      "lon": -97.66,
+      "ugc": "NEC169",
+      "ugc_name": "Thayer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032340",
+      "standard_time_display": "2026-07-03 17:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "2 N Palco",
+      "county": "Rooks",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 39.28,
+      "lon": -99.56,
+      "ugc": "KSC163",
+      "ugc_name": "Rooks",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040002",
+      "standard_time_display": "2026-07-03 18:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Hubbell",
+      "county": "Thayer",
+      "state": "NE",
+      "source": "Storm Chaser",
+      "remark": null,
+      "lat": 40.05,
+      "lon": -97.54,
+      "ugc": "NEC169",
+      "ugc_name": "Thayer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040005",
+      "standard_time_display": "2026-07-03 18:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 NE Chester",
+      "county": "Thayer",
+      "state": "NE",
+      "source": "Trained Spotter",
+      "remark": "Lost power from an estimated 60 MPH wind gust.",
+      "lat": 40.05,
+      "lon": -97.58,
+      "ugc": "NEC169",
+      "ugc_name": "Thayer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040046",
+      "standard_time_display": "2026-07-03 18:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "Randall",
+      "county": "Jewell",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Personal Weather Station.",
+      "lat": 39.64,
+      "lon": -98.05,
+      "ugc": "KSC089",
+      "ugc_name": "Jewell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040050",
+      "standard_time_display": "2026-07-03 18:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "6 SW Jewell",
+      "county": "Jewell",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 39.62,
+      "lon": -98.23,
+      "ugc": "KSC089",
+      "ugc_name": "Jewell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -869,7 +1005,7 @@
       "wfo": "GID",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-03T11:41:22Z"
+      "generated_utc": "2026-07-04T11:00:17Z"
     },
     "primary_links": [
       {

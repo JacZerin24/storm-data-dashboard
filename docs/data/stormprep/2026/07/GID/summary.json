@@ -3,22 +3,25 @@
   "year": 2026,
   "month": 7,
   "wfo": "GID",
-  "total_candidate_reports": 37,
-  "mapped_candidate_reports": 37,
+  "total_candidate_reports": 43,
+  "mapped_candidate_reports": 43,
   "candidate_report_counts": {
-    "hail": 1,
-    "thunderstorm_wind": 36
+    "hail": 4,
+    "thunderstorm_wind": 38,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "HAIL": 1,
+    "HAIL": 4,
     "NON-TSTM WND GST": 16,
-    "TSTM WND GST": 20
+    "TORNADO": 1,
+    "TSTM WND GST": 22
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GID&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
