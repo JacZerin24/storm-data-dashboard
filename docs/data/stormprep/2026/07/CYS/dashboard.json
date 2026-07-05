@@ -6,7 +6,7 @@
     "wfo": "CYS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T11:00:04Z",
+    "generated_utc": "2026-07-05T11:12:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "CYS",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
       "hail": 1,
+      "other": 1,
       "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
+      "LANDSPOUT": 1,
       "NON-TSTM WND GST": 3,
       "TSTM WND GST": 1
     },
@@ -157,6 +159,28 @@
       "ugc": "NEC045",
       "ugc_name": "Dawes",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CYS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CYS-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032200",
+      "standard_time_display": "2026-07-03 15:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "CYS",
+      "report_type": "LANDSPOUT",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Torrington",
+      "county": "Goshen",
+      "state": "WY",
+      "source": "Public",
+      "remark": "Photos on social media show a landspout occurred near Torrington under a developing thunderstorm. The brief landspout was reported to have moved over US 26.",
+      "lat": 42.02,
+      "lon": -104.13,
+      "ugc": "WYC015",
+      "ugc_name": "Goshen",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CYS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -165,7 +189,7 @@
       "wfo": "CYS",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-04T11:00:05Z"
+      "generated_utc": "2026-07-05T11:12:27Z"
     },
     "primary_links": [
       {

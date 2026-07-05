@@ -7,7 +7,7 @@
     "wfo": "JAN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T11:00:32Z",
+    "generated_utc": "2026-07-05T11:12:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -558,6 +558,84 @@
         "coordinates": [
           -90.23,
           32.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAN-22",
+      "properties": {
+        "report_id": "iem-lsr-JAN-22",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607042045",
+        "standard_time_display": "2026-07-04 14:45 CST",
+        "wfo": "JAN",
+        "county_or_zone": "Madison",
+        "city": "2 N Tougaloo",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Report of downed/ lightning destroyed tree."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.16,
+          32.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAN-23",
+      "properties": {
+        "report_id": "iem-lsr-JAN-23",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202607042045",
+        "standard_time_display": "2026-07-04 14:45 CST",
+        "wfo": "JAN",
+        "county_or_zone": "Madison",
+        "city": "2 N Tougaloo",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Corrects previous tstm wnd dmg report from 2 N Tougaloo. Report of downed/ lightning destroyed tree."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.16,
+          32.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAN-24",
+      "properties": {
+        "report_id": "iem-lsr-JAN-24",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607042140",
+        "standard_time_display": "2026-07-04 15:40 CST",
+        "wfo": "JAN",
+        "county_or_zone": "Rankin",
+        "city": "2 SSE Pearl",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "A utility pole was broken near Tullos St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.13,
+          32.25
         ]
       }
     }

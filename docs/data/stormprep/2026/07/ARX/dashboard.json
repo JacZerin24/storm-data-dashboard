@@ -6,7 +6,7 @@
     "wfo": "ARX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T10:59:49Z",
+    "generated_utc": "2026-07-05T11:12:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,21 @@
     "year": 2026,
     "month": 7,
     "wfo": "ARX",
-    "total_candidate_reports": 53,
-    "mapped_candidate_reports": 53,
+    "total_candidate_reports": 55,
+    "mapped_candidate_reports": 55,
     "candidate_report_counts": {
       "flooding": 17,
       "hail": 10,
-      "other": 8,
+      "other": 9,
       "thunderstorm_wind": 17,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 6,
       "FLOOD": 11,
+      "FUNNEL CLOUD": 1,
       "HAIL": 10,
-      "RAIN": 8,
+      "RAIN": 9,
       "TORNADO": 1,
       "TSTM WND DMG": 10,
       "TSTM WND GST": 7
@@ -1222,6 +1223,50 @@
       "ugc": "WIC023",
       "ugc_name": "Crawford",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-54",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607042015",
+      "standard_time_display": "2026-07-04 14:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Canton",
+      "county": "Fillmore",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Relayed by law enforcement_ no other information known.",
+      "lat": 43.51,
+      "lon": -91.92,
+      "ugc": "MNC045",
+      "ugc_name": "Fillmore",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-55",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607042059",
+      "standard_time_display": "2026-07-04 14:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.46,
+      "magnitude_qualifier": null,
+      "city": "1 NW French Island",
+      "county": "La Crosse",
+      "state": "WI",
+      "source": "Public",
+      "remark": null,
+      "lat": 43.87,
+      "lon": -91.27,
+      "ugc": "WIC063",
+      "ugc_name": "La Crosse",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1230,7 +1275,7 @@
       "wfo": "ARX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-04T10:59:50Z"
+      "generated_utc": "2026-07-05T11:12:13Z"
     },
     "primary_links": [
       {

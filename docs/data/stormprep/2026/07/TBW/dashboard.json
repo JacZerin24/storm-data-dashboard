@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T11:01:17Z",
+    "generated_utc": "2026-07-05T11:13:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,28 @@
     "year": 2026,
     "month": 7,
     "wfo": "TBW",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
       "marine": 2,
-      "other": 2
+      "other": 2,
+      "thunderstorm_wind": 1,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "LANDSPOUT": 1,
       "LIGHTNING": 1,
-      "MARINE TSTM WIND": 2
+      "MARINE TSTM WIND": 2,
+      "TSTM WND GST": 1,
+      "WATERSPOUT": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,7 +50,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -135,6 +141,94 @@
       "ugc": "GMZ856",
       "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607041325",
+      "standard_time_display": "2026-07-04 08:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "14 SW Captiva",
+      "county": "GMZ856",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Video of waterspout 15 miles offshore of Sanibel_ FL.",
+      "lat": 26.36,
+      "lon": -82.33,
+      "ugc": "GMZ856",
+      "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607041350",
+      "standard_time_display": "2026-07-04 08:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 SW Saint Petersburg B",
+      "county": "GMZ853",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media report of waterspout off Pass a Grille_ FL.",
+      "lat": 27.65,
+      "lon": -82.85,
+      "ugc": "GMZ853",
+      "ugc_name": "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607041415",
+      "standard_time_display": "2026-07-04 09:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSW Grove City",
+      "county": "GMZ856",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media report of waterspout off Englewood_ FL.",
+      "lat": 26.85,
+      "lon": -82.37,
+      "ugc": "GMZ856",
+      "ugc_name": "Coastal waters from Bonita Beach to Englewood FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607050729",
+      "standard_time_display": "2026-07-05 02:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 42.0,
+      "magnitude_qualifier": null,
+      "city": "7 NW Palmetto",
+      "county": "GMZ830",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station XSKY Skyway Fishing Pier.",
+      "lat": 27.6,
+      "lon": -82.65,
+      "ugc": "GMZ830",
+      "ugc_name": "Tampa Bay waters",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -143,7 +237,7 @@
       "wfo": "TBW",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-04T11:01:17Z"
+      "generated_utc": "2026-07-05T11:13:39Z"
     },
     "primary_links": [
       {

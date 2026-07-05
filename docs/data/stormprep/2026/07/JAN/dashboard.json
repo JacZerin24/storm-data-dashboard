@@ -6,7 +6,7 @@
     "wfo": "JAN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T11:00:32Z",
+    "generated_utc": "2026-07-05T11:12:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "JAN",
-    "total_candidate_reports": 21,
-    "mapped_candidate_reports": 21,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "heat_cold": 1,
-      "thunderstorm_wind": 20
+      "other": 1,
+      "thunderstorm_wind": 22
     },
     "candidate_report_type_counts": {
       "EXTREME HEAT": 1,
-      "TSTM WND DMG": 18,
+      "LIGHTNING": 1,
+      "TSTM WND DMG": 20,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -509,6 +511,72 @@
       "ugc": "MSC049",
       "ugc_name": "Hinds",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAN-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607042045",
+      "standard_time_display": "2026-07-04 14:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "JAN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Tougaloo",
+      "county": "Madison",
+      "state": "MS",
+      "source": "NWS Employee",
+      "remark": "Report of downed/ lightning destroyed tree.",
+      "lat": 32.42,
+      "lon": -90.16,
+      "ugc": "MSC089",
+      "ugc_name": "Madison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAN-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607042045",
+      "standard_time_display": "2026-07-04 14:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "JAN",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Tougaloo",
+      "county": "Madison",
+      "state": "MS",
+      "source": "NWS Employee",
+      "remark": "Corrects previous tstm wnd dmg report from 2 N Tougaloo. Report of downed/ lightning destroyed tree.",
+      "lat": 32.42,
+      "lon": -90.16,
+      "ugc": "MSC089",
+      "ugc_name": "Madison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAN-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607042140",
+      "standard_time_display": "2026-07-04 15:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "JAN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Pearl",
+      "county": "Rankin",
+      "state": "MS",
+      "source": "Utility Company",
+      "remark": "A utility pole was broken near Tullos St.",
+      "lat": 32.25,
+      "lon": -90.13,
+      "ugc": "MSC121",
+      "ugc_name": "Rankin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -517,7 +585,7 @@
       "wfo": "JAN",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-04T11:00:33Z"
+      "generated_utc": "2026-07-05T11:12:53Z"
     },
     "primary_links": [
       {

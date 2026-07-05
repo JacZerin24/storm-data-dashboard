@@ -6,7 +6,7 @@
     "wfo": "OHX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-04T11:00:55Z",
+    "generated_utc": "2026-07-05T11:13:15Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "OHX",
-    "total_candidate_reports": 35,
-    "mapped_candidate_reports": 35,
+    "total_candidate_reports": 49,
+    "mapped_candidate_reports": 49,
     "candidate_report_counts": {
-      "flooding": 2,
-      "hail": 2,
-      "thunderstorm_wind": 31
+      "flooding": 4,
+      "hail": 3,
+      "thunderstorm_wind": 42
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 2,
-      "HAIL": 2,
-      "TSTM WND DMG": 30,
+      "FLASH FLOOD": 4,
+      "HAIL": 3,
+      "TSTM WND DMG": 41,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -295,6 +295,50 @@
     {
       "report_id": "iem-lsr-OHX-12",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607022345",
+      "standard_time_display": "2026-07-02 17:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Clarksville",
+      "county": "Montgomery",
+      "state": "TN",
+      "source": "Trained Spotter",
+      "remark": "A creek near Wall Branch quickly rose out of its banks. Nearby roads flooded southeast of downtown Clarksville.",
+      "lat": 36.5,
+      "lon": -87.29,
+      "ugc": "TNC125",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607030951",
+      "standard_time_display": "2026-07-03 03:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Charlotte",
+      "county": "Dickson",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Trees and powerlines down near Charlotte. Report relayed through social media.",
+      "lat": 36.18,
+      "lon": -87.33,
+      "ugc": "TNC043",
+      "ugc_name": "Dickson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607031821",
       "standard_time_display": "2026-07-03 12:21 CST",
       "standard_time_zone": "CST",
@@ -315,7 +359,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-13",
+      "report_id": "iem-lsr-OHX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607031920",
+      "standard_time_display": "2026-07-03 13:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Manchester",
+      "county": "Coffee",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Numerous trees were blown down in Manchester and surrounding areas. Several power lines were knocked down and at least a couple of buildings had portions of metal roofs and siding peeled off. Several",
+      "lat": 35.52,
+      "lon": -86.03,
+      "ugc": "TNC031",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607031927",
+      "standard_time_display": "2026-07-03 13:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Centerville",
+      "county": "Hickman",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several large tree branches down near and south of Centerville. Time estimated.",
+      "lat": 35.76,
+      "lon": -87.46,
+      "ugc": "TNC081",
+      "ugc_name": "Hickman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607031931",
       "standard_time_display": "2026-07-03 13:31 CST",
@@ -337,7 +425,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-14",
+      "report_id": "iem-lsr-OHX-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607031936",
       "standard_time_display": "2026-07-03 13:36 CST",
@@ -359,7 +447,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-15",
+      "report_id": "iem-lsr-OHX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607031945",
+      "standard_time_display": "2026-07-03 13:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Williamsport",
+      "county": "Maury",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several large trees snapped west-northwest of Columbia near Hwy 50. Time estimated.",
+      "lat": 35.65,
+      "lon": -87.14,
+      "ugc": "TNC119",
+      "ugc_name": "Maury",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032011",
       "standard_time_display": "2026-07-03 14:11 CST",
@@ -381,7 +491,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-16",
+      "report_id": "iem-lsr-OHX-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032018",
       "standard_time_display": "2026-07-03 14:18 CST",
@@ -403,7 +513,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-17",
+      "report_id": "iem-lsr-OHX-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032023",
       "standard_time_display": "2026-07-03 14:23 CST",
@@ -425,7 +535,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-18",
+      "report_id": "iem-lsr-OHX-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032030",
       "standard_time_display": "2026-07-03 14:30 CST",
@@ -447,7 +557,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-19",
+      "report_id": "iem-lsr-OHX-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032039",
       "standard_time_display": "2026-07-03 14:39 CST",
@@ -469,7 +579,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-20",
+      "report_id": "iem-lsr-OHX-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032042",
+      "standard_time_display": "2026-07-03 14:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 SE Mount Pleasant",
+      "county": "Maury",
+      "state": "TN",
+      "source": "Trained Spotter",
+      "remark": "Several large trees down near Campbellsville Pike and Moore Ln. Time estimated.",
+      "lat": 35.48,
+      "lon": -87.1,
+      "ugc": "TNC119",
+      "ugc_name": "Maury",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032046",
+      "standard_time_display": "2026-07-03 14:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 NE Dowelltown",
+      "county": "De Kalb",
+      "state": "TN",
+      "source": "NWS Employee",
+      "remark": "Extensive timber damage at Edgar Evins State Park. Several dozen trees were blown down (possibly more) blocking roads and causing utility line damage. Some park goers were trapped in the park for sev",
+      "lat": 36.08,
+      "lon": -85.82,
+      "ugc": "TNC041",
+      "ugc_name": "De Kalb",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032048",
       "standard_time_display": "2026-07-03 14:48 CST",
@@ -491,7 +645,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-21",
+      "report_id": "iem-lsr-OHX-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032051",
+      "standard_time_display": "2026-07-03 14:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Charlotte",
+      "county": "Dickson",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Corrects previous tstm wnd dmg report from 1 ESE Charlotte. Corrects previous tstm wnd dmg report from 1 ESE Charlotte. Trees and powerlines down near Charlotte. Report relayed through social media.",
+      "lat": 36.18,
+      "lon": -87.33,
+      "ugc": "TNC043",
+      "ugc_name": "Dickson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032101",
       "standard_time_display": "2026-07-03 15:01 CST",
@@ -513,7 +689,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-22",
+      "report_id": "iem-lsr-OHX-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032105",
       "standard_time_display": "2026-07-03 15:05 CST",
@@ -535,7 +711,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-23",
+      "report_id": "iem-lsr-OHX-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032112",
+      "standard_time_display": "2026-07-03 15:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "2 NW Nolensville",
+      "county": "Williamson",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 35.98,
+      "lon": -86.67,
+      "ugc": "TNC187",
+      "ugc_name": "Williamson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032124",
       "standard_time_display": "2026-07-03 15:24 CST",
@@ -557,7 +755,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-24",
+      "report_id": "iem-lsr-OHX-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032126",
       "standard_time_display": "2026-07-03 15:26 CST",
@@ -579,7 +777,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-25",
+      "report_id": "iem-lsr-OHX-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032128",
       "standard_time_display": "2026-07-03 15:28 CST",
@@ -601,7 +799,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-26",
+      "report_id": "iem-lsr-OHX-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032129",
       "standard_time_display": "2026-07-03 15:29 CST",
@@ -623,7 +821,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-27",
+      "report_id": "iem-lsr-OHX-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032130",
       "standard_time_display": "2026-07-03 15:30 CST",
@@ -645,7 +843,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-28",
+      "report_id": "iem-lsr-OHX-37",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032137",
+      "standard_time_display": "2026-07-03 15:37 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NW Lebanon",
+      "county": "Wilson",
+      "state": "TN",
+      "source": "NWS Employee",
+      "remark": "Numerous tree limbs and a few trees blown down across northern portions of Wilson County.",
+      "lat": 36.28,
+      "lon": -86.38,
+      "ugc": "TNC189",
+      "ugc_name": "Wilson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032142",
       "standard_time_display": "2026-07-03 15:42 CST",
@@ -667,7 +887,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-29",
+      "report_id": "iem-lsr-OHX-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032148",
       "standard_time_display": "2026-07-03 15:48 CST",
@@ -689,7 +909,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-30",
+      "report_id": "iem-lsr-OHX-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032149",
       "standard_time_display": "2026-07-03 15:49 CST",
@@ -711,7 +931,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-31",
+      "report_id": "iem-lsr-OHX-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032149",
       "standard_time_display": "2026-07-03 15:49 CST",
@@ -733,7 +953,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-32",
+      "report_id": "iem-lsr-OHX-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032150",
       "standard_time_display": "2026-07-03 15:50 CST",
@@ -755,7 +975,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-33",
+      "report_id": "iem-lsr-OHX-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032151",
+      "standard_time_display": "2026-07-03 15:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Charlotte",
+      "county": "Dickson",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Corrects previous tstm wnd dmg report from 1 ESE Charlotte. Trees and powerlines down near Charlotte. Report relayed through social media.",
+      "lat": 36.18,
+      "lon": -87.33,
+      "ugc": "TNC043",
+      "ugc_name": "Dickson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032151",
       "standard_time_display": "2026-07-03 15:51 CST",
@@ -777,7 +1019,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-34",
+      "report_id": "iem-lsr-OHX-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032153",
       "standard_time_display": "2026-07-03 15:53 CST",
@@ -799,7 +1041,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OHX-35",
+      "report_id": "iem-lsr-OHX-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032204",
+      "standard_time_display": "2026-07-03 16:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Greenbrier",
+      "county": "Robertson",
+      "state": "TN",
+      "source": "Emergency Mngr",
+      "remark": "A couple trees down in Greenbrier. One fell on a home and one on a gas station.",
+      "lat": 36.43,
+      "lon": -86.8,
+      "ugc": "TNC147",
+      "ugc_name": "Robertson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607032215",
+      "standard_time_display": "2026-07-03 16:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Nashville",
+      "county": "Davidson",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Multiple public reports of flooded roads in west Nashville.",
+      "lat": 36.15,
+      "lon": -86.84,
+      "ugc": "TNC037",
+      "ugc_name": "Davidson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607032352",
       "standard_time_display": "2026-07-03 18:52 EST",
@@ -819,6 +1105,28 @@
       "ugc": "TNC049",
       "ugc_name": "Fentress",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-49",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607040000",
+      "standard_time_display": "2026-07-03 19:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Jamestown",
+      "county": "Fentress",
+      "state": "TN",
+      "source": "Public",
+      "remark": "Several large tree branches were blown down in Jamestown area.",
+      "lat": 36.43,
+      "lon": -84.92,
+      "ugc": "TNC049",
+      "ugc_name": "Fentress",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -827,7 +1135,7 @@
       "wfo": "OHX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-04T11:00:55Z"
+      "generated_utc": "2026-07-05T11:13:16Z"
     },
     "primary_links": [
       {

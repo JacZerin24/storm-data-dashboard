@@ -3,22 +3,27 @@
   "year": 2026,
   "month": 7,
   "wfo": "TBW",
-  "total_candidate_reports": 4,
-  "mapped_candidate_reports": 4,
+  "total_candidate_reports": 8,
+  "mapped_candidate_reports": 8,
   "candidate_report_counts": {
     "marine": 2,
-    "other": 2
+    "other": 2,
+    "thunderstorm_wind": 1,
+    "tornado": 3
   },
   "candidate_report_type_counts": {
     "LANDSPOUT": 1,
     "LIGHTNING": 1,
-    "MARINE TSTM WIND": 2
+    "MARINE TSTM WIND": 2,
+    "TSTM WND GST": 1,
+    "WATERSPOUT": 3
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
