@@ -7,12 +7,247 @@
     "wfo": "JAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:12:54Z",
+    "generated_utc": "2026-07-06T12:58:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-1",
+      "properties": {
+        "report_id": "iem-lsr-JAX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607041940",
+        "standard_time_display": "2026-07-04 14:40 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Putnam",
+        "city": "Crescent City",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "County dispatch reported powerlines blown down in Crescent City_ including along 125 Tar Lane."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.51,
+          29.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-2",
+      "properties": {
+        "report_id": "iem-lsr-JAX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051746",
+        "standard_time_display": "2026-07-05 12:46 EST",
+        "wfo": "JAX",
+        "county_or_zone": "St. Johns",
+        "city": "2 WNW Bakersville",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Delayed report. Time estimated by radar. St Johns County reported a tree down on a powerline on Stephen Colee Road off of CR 208."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.52,
+          29.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-3",
+      "properties": {
+        "report_id": "iem-lsr-JAX-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607051855",
+        "standard_time_display": "2026-07-05 13:55 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Nassau",
+        "city": "2 ESE Yulee",
+        "state": "FL",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.55,
+          30.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-4",
+      "properties": {
+        "report_id": "iem-lsr-JAX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051955",
+        "standard_time_display": "2026-07-05 14:55 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "3 N Country Club Estate",
+        "state": "GA",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KBQK Brunswick Golden Isles Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.47,
+          31.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-5",
+      "properties": {
+        "report_id": "iem-lsr-JAX-5",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607052044",
+        "standard_time_display": "2026-07-05 15:44 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "2 NNW Dock Junction",
+        "state": "GA",
+        "magnitude": 2.12,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal Weather Station_ Lairsey weather station - KGABRUNS197_ reported 2.12 inches during a 1 hour span between 3:44pm to 4:44pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.53,
+          31.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-6",
+      "properties": {
+        "report_id": "iem-lsr-JAX-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052055",
+        "standard_time_display": "2026-07-05 15:55 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "3 N Country Club Estate",
+        "state": "GA",
+        "magnitude": 53.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KBQK Brunswick Golden Isles Airport reported thunderstorm gust of 53 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.47,
+          31.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-7",
+      "properties": {
+        "report_id": "iem-lsr-JAX-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052055",
+        "standard_time_display": "2026-07-05 15:55 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "3 N Country Club Estate",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Report from the City of Brunswick Emergency Manager with Airport Hanger Roof Collapse at Brunswick Golden Isles Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.47,
+          31.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-8",
+      "properties": {
+        "report_id": "iem-lsr-JAX-8",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607052109",
+        "standard_time_display": "2026-07-05 16:09 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "1 NNW Dock Junction",
+        "state": "GA",
+        "magnitude": 4.6,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Personal Weather Station_ Dads - KGABRUNS102_ reported 4.60 inches of rainfall from 4:09 pm to 5:09 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.53,
+          31.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-9",
+      "properties": {
+        "report_id": "iem-lsr-JAX-9",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607052200",
+        "standard_time_display": "2026-07-05 17:00 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Glynn",
+        "city": "Country Club Estate",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Water entered the first floor of an apartment complex."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.47,
+          31.21
+        ]
+      }
+    }
+  ]
 }

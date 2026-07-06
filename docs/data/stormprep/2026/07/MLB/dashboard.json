@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:09Z",
+    "generated_utc": "2026-07-06T12:58:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 7,
     "wfo": "MLB",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
     "candidate_report_counts": {
-      "marine": 12,
-      "other": 1
+      "marine": 13,
+      "other": 2,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "LIGHTNING": 1,
-      "MARINE TSTM WIND": 10,
-      "RIP CURRENTS": 2
+      "LIGHTNING": 2,
+      "MARINE TSTM WIND": 11,
+      "RIP CURRENTS": 2,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -333,6 +335,72 @@
       "ugc": "FLC009",
       "ugc_name": "Brevard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607051846",
+      "standard_time_display": "2026-07-05 13:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Mullet Lake Park",
+      "county": "Seminole",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "*** 1 INJ *** A Seminole County deputy was indirectly struck by lightning while standing near a tree at Mullet Lake Park. He was transported to the hospital_ but is expected to be okay. Time estimate",
+      "lat": 28.79,
+      "lon": -81.14,
+      "ugc": "FLC117",
+      "ugc_name": "Seminole",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607052002",
+      "standard_time_display": "2026-07-05 15:02 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "Orlando Exec Airport",
+      "county": "Orange",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "Orlando Executive Airport measured a peak wind gust of 53MPH/46KT from the west southwest at 4:02 PM.",
+      "lat": 28.55,
+      "lon": -81.33,
+      "ugc": "FLC095",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607052120",
+      "standard_time_display": "2026-07-05 16:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Titusville Airpor",
+      "county": "AMZ552",
+      "state": "FL",
+      "source": "Other Federal",
+      "remark": "USSF wind sensor on tower 1007 (NASA Causeway) measured a peak wind gust of 40MPH/35KT from the north northwest at 5:20 PM. Sensor elevation is 54 feet.",
+      "lat": 28.53,
+      "lon": -80.77,
+      "ugc": "AMZ552",
+      "ugc_name": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -341,7 +409,7 @@
       "wfo": "MLB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-05T11:13:10Z"
+      "generated_utc": "2026-07-06T12:58:45Z"
     },
     "primary_links": [
       {

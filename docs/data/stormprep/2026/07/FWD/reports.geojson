@@ -7,12 +7,169 @@
     "wfo": "FWD",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:12:38Z",
+    "generated_utc": "2026-07-06T12:58:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-1",
+      "properties": {
+        "report_id": "iem-lsr-FWD-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607051955",
+        "standard_time_display": "2026-07-05 13:55 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Dallas",
+        "city": "3 S Garland",
+        "state": "TX",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.62,
+          32.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-2",
+      "properties": {
+        "report_id": "iem-lsr-FWD-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607052034",
+        "standard_time_display": "2026-07-05 14:34 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Van Zandt",
+        "city": "4 SW Canton",
+        "state": "TX",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Dime size hail reported on Highway 198 4 miles south of Canton_ TX."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.92,
+          32.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-3",
+      "properties": {
+        "report_id": "iem-lsr-FWD-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052150",
+        "standard_time_display": "2026-07-05 15:50 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Young",
+        "city": "3 WSW Olney",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Social media image of a metal building toppled and fence down near Olney Municipal Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.82,
+          33.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-4",
+      "properties": {
+        "report_id": "iem-lsr-FWD-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052305",
+        "standard_time_display": "2026-07-05 17:05 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Stephens",
+        "city": "2 W Breckenridge",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Social media image of a power pole and power lines down at Ridgecrest Apartments in Breckenridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.94,
+          32.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-5",
+      "properties": {
+        "report_id": "iem-lsr-FWD-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052325",
+        "standard_time_display": "2026-07-05 17:25 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Stephens",
+        "city": "1 W Breckenridge",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed Report. Social media image of a large metal roof removed from a business near Hwy 180 at North Dairy in Breckenridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.92,
+          32.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-6",
+      "properties": {
+        "report_id": "iem-lsr-FWD-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052330",
+        "standard_time_display": "2026-07-05 17:30 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Stephens",
+        "city": "5 WNW Breckenridge",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Social media image of shingles removed from a home garage on Scenic Drive at Hubbard Creek Lake in Breckenridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.98,
+          32.79
+        ]
+      }
+    }
+  ]
 }

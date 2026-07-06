@@ -6,7 +6,7 @@
     "wfo": "TAE",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:37Z",
+    "generated_utc": "2026-07-06T12:59:15Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "TAE",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "hail": 2,
-      "thunderstorm_wind": 1
+      "hail": 3,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 2,
-      "TSTM WND DMG": 1
+      "HAIL": 3,
+      "TSTM WND DMG": 1,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -112,6 +113,50 @@
       "ugc": "FLC133",
       "ugc_name": "Washington",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607051821",
+      "standard_time_display": "2026-07-05 13:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "1 SW Tallahassee Mall",
+      "county": "Leon",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 30.47,
+      "lon": -84.3,
+      "ugc": "FLC073",
+      "ugc_name": "Leon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607051908",
+      "standard_time_display": "2026-07-05 14:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "Lloyd",
+      "county": "Jefferson",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "FSWN Jefferson Lloyd Weatherstem station gusted to 43 mph.",
+      "lat": 30.48,
+      "lon": -84.02,
+      "ugc": "FLC065",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -120,7 +165,7 @@
       "wfo": "TAE",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-05T11:13:38Z"
+      "generated_utc": "2026-07-06T12:59:15Z"
     },
     "primary_links": [
       {

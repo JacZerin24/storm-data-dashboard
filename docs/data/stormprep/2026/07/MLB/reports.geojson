@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:09Z",
+    "generated_utc": "2026-07-06T12:58:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -350,6 +350,84 @@
         "coordinates": [
           -80.7,
           28.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-14",
+      "properties": {
+        "report_id": "iem-lsr-MLB-14",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202607051846",
+        "standard_time_display": "2026-07-05 13:46 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Seminole",
+        "city": "Mullet Lake Park",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "*** 1 INJ *** A Seminole County deputy was indirectly struck by lightning while standing near a tree at Mullet Lake Park. He was transported to the hospital_ but is expected to be okay. Time estimate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.14,
+          28.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-15",
+      "properties": {
+        "report_id": "iem-lsr-MLB-15",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052002",
+        "standard_time_display": "2026-07-05 15:02 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Orange",
+        "city": "Orlando Exec Airport",
+        "state": "FL",
+        "magnitude": 53.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Orlando Executive Airport measured a peak wind gust of 53MPH/46KT from the west southwest at 4:02 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.33,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-16",
+      "properties": {
+        "report_id": "iem-lsr-MLB-16",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607052120",
+        "standard_time_display": "2026-07-05 16:20 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "2 ENE Titusville Airpor",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 1007 (NASA Causeway) measured a peak wind gust of 40MPH/35KT from the north northwest at 5:20 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.77,
+          28.53
         ]
       }
     }

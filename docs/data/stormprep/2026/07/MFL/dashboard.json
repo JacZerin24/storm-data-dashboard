@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:06Z",
+    "generated_utc": "2026-07-06T12:58:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "MFL",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "hail": 1,
       "other": 1,
+      "thunderstorm_wind": 1,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
       "LIGHTNING": 1,
+      "TSTM WND GST": 1,
       "WATERSPOUT": 1,
       "WILDFIRE": 1
     },
@@ -140,6 +142,28 @@
       "ugc": "FLC086",
       "ugc_name": "Miami-Dade",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607052230",
+      "standard_time_display": "2026-07-05 17:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Clewiston",
+      "county": "Hendry",
+      "state": "FL",
+      "source": "Utility Company",
+      "remark": "Thunderstorm wind gust of 40 mph at Clewiston SFWMD station.",
+      "lat": 26.74,
+      "lon": -80.91,
+      "ugc": "FLC051",
+      "ugc_name": "Hendry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -148,7 +172,7 @@
       "wfo": "MFL",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-05T11:13:07Z"
+      "generated_utc": "2026-07-06T12:58:41Z"
     },
     "primary_links": [
       {

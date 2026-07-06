@@ -7,7 +7,7 @@
     "wfo": "TAE",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:37Z",
+    "generated_utc": "2026-07-06T12:59:15Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -90,6 +90,58 @@
         "coordinates": [
           -85.67,
           30.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-4",
+      "properties": {
+        "report_id": "iem-lsr-TAE-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607051821",
+        "standard_time_display": "2026-07-05 13:21 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Leon",
+        "city": "1 SW Tallahassee Mall",
+        "state": "FL",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3,
+          30.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-5",
+      "properties": {
+        "report_id": "iem-lsr-TAE-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051908",
+        "standard_time_display": "2026-07-05 14:08 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Jefferson",
+        "city": "Lloyd",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "FSWN Jefferson Lloyd Weatherstem station gusted to 43 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.02,
+          30.48
         ]
       }
     }

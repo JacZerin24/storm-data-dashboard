@@ -7,12 +7,429 @@
     "wfo": "RAH",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-05T11:13:27Z",
+    "generated_utc": "2026-07-06T12:59:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-1",
+      "properties": {
+        "report_id": "iem-lsr-RAH-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051810",
+        "standard_time_display": "2026-07-05 13:10 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Richmond",
+        "city": "4 SW East Rockingham",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Multiple trees down on US 1_ with road closures_ between Rosalyn Rd and Osborne Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.82,
+          34.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-2",
+      "properties": {
+        "report_id": "iem-lsr-RAH-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051844",
+        "standard_time_display": "2026-07-05 13:44 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Scotland",
+        "city": "1 SSE Laurel Hill",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "WBTV reported large trees and power lines down at NC79 and Elmore Rd. Another power pole was snapped at the base."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53,
+          34.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-3",
+      "properties": {
+        "report_id": "iem-lsr-RAH-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051901",
+        "standard_time_display": "2026-07-05 14:01 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Scotland",
+        "city": "5 ENE East Laurinburg",
+        "state": "NC",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "KMEB PK WND 28041/1901."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37,
+          34.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-4",
+      "properties": {
+        "report_id": "iem-lsr-RAH-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051920",
+        "standard_time_display": "2026-07-05 14:20 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Moore",
+        "city": "Vass",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down_ covering both lanes_ at Vass-Carthage Rd. and Holly St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29,
+          35.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-5",
+      "properties": {
+        "report_id": "iem-lsr-RAH-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051922",
+        "standard_time_display": "2026-07-05 14:22 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Moore",
+        "city": "2 ESE Whispering Pines",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Duke Energy outage to nearly 400 customers due to fallen trees or limbs damaging equipment."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34,
+          35.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-6",
+      "properties": {
+        "report_id": "iem-lsr-RAH-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051940",
+        "standard_time_display": "2026-07-05 14:40 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Moore",
+        "city": "7 SE Vass",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree across road at Morrison Bridge Rd. and Lois Ln."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19,
+          35.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-7",
+      "properties": {
+        "report_id": "iem-lsr-RAH-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051940",
+        "standard_time_display": "2026-07-05 14:40 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Harnett",
+        "city": "7 WNW Pope Afb",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down at 5636 Marks Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13,
+          35.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-8",
+      "properties": {
+        "report_id": "iem-lsr-RAH-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607051942",
+        "standard_time_display": "2026-07-05 14:42 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Cumberland",
+        "city": "Pope Army Airfield",
+        "state": "NC",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "KPOB PK WND 26037/42."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.01,
+          35.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-9",
+      "properties": {
+        "report_id": "iem-lsr-RAH-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052115",
+        "standard_time_display": "2026-07-05 16:15 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Wake",
+        "city": "2 WNW Wake Forest",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Trees reported down in northern Wake County around Highway 98 near Wake Forest between 5:15 and 5:30pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.55,
+          35.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-10",
+      "properties": {
+        "report_id": "iem-lsr-RAH-10",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052140",
+        "standard_time_display": "2026-07-05 16:40 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Stanly",
+        "city": "2 WNW Plyler",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down blocking road near Harwood Rd and NC Hwy 73."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.31,
+          35.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-11",
+      "properties": {
+        "report_id": "iem-lsr-RAH-11",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052143",
+        "standard_time_display": "2026-07-05 16:43 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Stanly",
+        "city": "2 N Plyler",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "The public reported a tree down along Harwood Road in the town of Millingport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.28,
+          35.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-12",
+      "properties": {
+        "report_id": "iem-lsr-RAH-12",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052143",
+        "standard_time_display": "2026-07-05 16:43 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Forsyth",
+        "city": "2 W Winston-Salem",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "A trained spotter reported a large tree down along Silas Creek Parkway west of Winston-Salem_ between Robinhood Road and Yorkshire Road. Power outages were also reported due to the fallen tree."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.31,
+          36.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-13",
+      "properties": {
+        "report_id": "iem-lsr-RAH-13",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052145",
+        "standard_time_display": "2026-07-05 16:45 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Stanly",
+        "city": "2 E Stanfield",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down blocking road near Big Lick Rd and Hatley-Burris Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.39,
+          35.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-14",
+      "properties": {
+        "report_id": "iem-lsr-RAH-14",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052210",
+        "standard_time_display": "2026-07-05 17:10 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Sampson",
+        "city": "Turkey",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Several trees were reported down around the town of Turkey."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.19,
+          34.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-15",
+      "properties": {
+        "report_id": "iem-lsr-RAH-15",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052215",
+        "standard_time_display": "2026-07-05 17:15 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Forsyth",
+        "city": "3 ENE Pfafftown",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "NC DOT reports trees down blocking roadway on NC-52. Numerous power outages also repotted around the county."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.25,
+          36.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-16",
+      "properties": {
+        "report_id": "iem-lsr-RAH-16",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052248",
+        "standard_time_display": "2026-07-05 17:48 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Wayne",
+        "city": "2 SSW Goldsboro",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Fallen trees on powerlines were reported in the town of Goldsboro_ including west of and east of Seymour Johnson AFB."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.99,
+          35.35
+        ]
+      }
+    }
+  ]
 }
