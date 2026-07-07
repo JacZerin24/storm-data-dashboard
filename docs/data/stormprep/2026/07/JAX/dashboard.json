@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:58:27Z",
+    "generated_utc": "2026-07-07T12:09:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 7,
     "wfo": "JAX",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 1,
-      "other": 2,
+      "other": 3,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
       "HAIL": 1,
-      "RAIN": 2,
+      "RAIN": 3,
       "TSTM WND DMG": 3,
       "TSTM WND GST": 2
     },
@@ -249,6 +249,28 @@
       "ugc": "GAC127",
       "ugc_name": "Glynn",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607061929",
+      "standard_time_display": "2026-07-06 14:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.4,
+      "magnitude_qualifier": null,
+      "city": "1 SE Flagler Beach",
+      "county": "Flagler",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Personal Weather Station Flagler Beach - KFLFLAGL75 reported 2.40 inches of rainfall during the past hour.",
+      "lat": 29.46,
+      "lon": -81.12,
+      "ugc": "FLC035",
+      "ugc_name": "Flagler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -257,7 +279,7 @@
       "wfo": "JAX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:58:28Z"
+      "generated_utc": "2026-07-07T12:09:27Z"
     },
     "primary_links": [
       {

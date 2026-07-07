@@ -6,7 +6,7 @@
     "wfo": "ALY",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:57:40Z",
+    "generated_utc": "2026-07-07T12:08:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "ALY",
-    "total_candidate_reports": 78,
-    "mapped_candidate_reports": 78,
+    "total_candidate_reports": 80,
+    "mapped_candidate_reports": 80,
     "candidate_report_counts": {
       "hail": 2,
-      "other": 2,
+      "other": 4,
       "thunderstorm_wind": 74
     },
     "candidate_report_type_counts": {
       "HAIL": 2,
-      "RAIN": 2,
+      "RAIN": 4,
       "TSTM WND DMG": 72,
       "TSTM WND GST": 2
     },
@@ -1765,6 +1765,50 @@
       "ugc": "CTC005",
       "ugc_name": "Litchfield",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-79",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607070217",
+      "standard_time_display": "2026-07-06 21:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.62,
+      "magnitude_qualifier": null,
+      "city": "Woodbury Center",
+      "county": "Litchfield",
+      "state": "CT",
+      "source": "Public",
+      "remark": "Storm Total through 10 PM Monday.",
+      "lat": 41.55,
+      "lon": -73.21,
+      "ugc": "CTC005",
+      "ugc_name": "Litchfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-80",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607070900",
+      "standard_time_display": "2026-07-07 04:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.49,
+      "magnitude_qualifier": null,
+      "city": "1 E Arlington",
+      "county": "Dutchess",
+      "state": "NY",
+      "source": "Cocorahs",
+      "remark": "1.49 inches of rainfall was measured from 5 AM on July 5th through 5 AM on July 7th.",
+      "lat": 41.69,
+      "lon": -73.86,
+      "ugc": "NYC027",
+      "ugc_name": "Dutchess",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1773,7 +1817,7 @@
       "wfo": "ALY",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:57:40Z"
+      "generated_utc": "2026-07-07T12:08:42Z"
     },
     "primary_links": [
       {

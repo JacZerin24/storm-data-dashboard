@@ -7,12 +7,65 @@
     "wfo": "RIW",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:59:06Z",
+    "generated_utc": "2026-07-07T12:10:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RIW-1",
+      "properties": {
+        "report_id": "iem-lsr-RIW-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607062316",
+        "standard_time_display": "2026-07-06 16:16 MST",
+        "wfo": "RIW",
+        "county_or_zone": "Natrona",
+        "city": "Casper",
+        "state": "WY",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Hailstones ranged from pea size to quarter size."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.33,
+          42.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RIW-2",
+      "properties": {
+        "report_id": "iem-lsr-RIW-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607062318",
+        "standard_time_display": "2026-07-06 16:18 MST",
+        "wfo": "RIW",
+        "county_or_zone": "Natrona",
+        "city": "1 S Bar Nunn",
+        "state": "WY",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station FW2904 Bar Nunn (CWOP)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.35,
+          42.91
+        ]
+      }
+    }
+  ]
 }

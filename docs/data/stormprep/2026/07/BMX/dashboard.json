@@ -6,7 +6,7 @@
     "wfo": "BMX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:57:45Z",
+    "generated_utc": "2026-07-07T12:08:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 7,
     "wfo": "BMX",
-    "total_candidate_reports": 38,
-    "mapped_candidate_reports": 38,
+    "total_candidate_reports": 39,
+    "mapped_candidate_reports": 39,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 5,
+      "other": 1,
       "thunderstorm_wind": 32
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "HAIL": 5,
+      "LIGHTNING": 1,
       "TSTM WND DMG": 32
     },
     "nws_api_alert_count": 0,
@@ -884,6 +886,28 @@
       "ugc": "ALC051",
       "ugc_name": "Elmore",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607062251",
+      "standard_time_display": "2026-07-06 16:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BMX",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Flatwoods",
+      "county": "Tuscaloosa",
+      "state": "AL",
+      "source": "Fire Dept/Rescue",
+      "remark": "*** 1 INJ *** Lightning struck a residence on Autumnwood Parkway. A hole in the roof and damage in the attic were observed. The homeowner sustained Lichtenberg figures on their legs per relay from th",
+      "lat": 33.29,
+      "lon": -87.6,
+      "ugc": "ALC125",
+      "ugc_name": "Tuscaloosa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -892,7 +916,7 @@
       "wfo": "BMX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:57:46Z"
+      "generated_utc": "2026-07-07T12:08:47Z"
     },
     "primary_links": [
       {

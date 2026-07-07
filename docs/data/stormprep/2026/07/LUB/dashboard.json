@@ -6,7 +6,7 @@
     "wfo": "LUB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:58:37Z",
+    "generated_utc": "2026-07-07T12:09:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "LUB",
-    "total_candidate_reports": 23,
-    "mapped_candidate_reports": 23,
+    "total_candidate_reports": 25,
+    "mapped_candidate_reports": 25,
     "candidate_report_counts": {
       "flooding": 2,
-      "hail": 6,
-      "thunderstorm_wind": 15
+      "hail": 7,
+      "thunderstorm_wind": 16
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 1,
-      "HAIL": 6,
+      "HAIL": 7,
       "NON-TSTM WND GST": 6,
-      "TSTM WND DMG": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
@@ -517,6 +517,28 @@
     {
       "report_id": "iem-lsr-LUB-22",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607052133",
+      "standard_time_display": "2026-07-05 14:33 MST",
+      "standard_time_zone": "MST",
+      "wfo": "LUB",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Farwell",
+      "county": "Parmer",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Center pivot tipped over by outflow boundary. Time estimated by radar.",
+      "lat": 34.33,
+      "lon": -102.98,
+      "ugc": "TXC369",
+      "ugc_name": "Parmer",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LUB-23",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607052212",
       "standard_time_display": "2026-07-05 16:12 CST",
       "standard_time_zone": "CST",
@@ -537,7 +559,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LUB-23",
+      "report_id": "iem-lsr-LUB-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607052259",
       "standard_time_display": "2026-07-05 16:59 CST",
@@ -557,6 +579,28 @@
       "ugc": "TXC153",
       "ugc_name": "Floyd",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LUB-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607052335",
+      "standard_time_display": "2026-07-05 17:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LUB",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "8 NE Floydada",
+      "county": "Floyd",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Half Dollar (1.25 in.).",
+      "lat": 34.05,
+      "lon": -101.23,
+      "ugc": "TXC153",
+      "ugc_name": "Floyd",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -565,7 +609,7 @@
       "wfo": "LUB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:58:37Z"
+      "generated_utc": "2026-07-07T12:09:36Z"
     },
     "primary_links": [
       {

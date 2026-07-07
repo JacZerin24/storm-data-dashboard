@@ -6,7 +6,7 @@
     "wfo": "JAN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:58:27Z",
+    "generated_utc": "2026-07-07T12:09:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "JAN",
-    "total_candidate_reports": 37,
-    "mapped_candidate_reports": 37,
+    "total_candidate_reports": 39,
+    "mapped_candidate_reports": 39,
     "candidate_report_counts": {
       "flooding": 3,
       "heat_cold": 1,
       "other": 1,
-      "thunderstorm_wind": 32
+      "thunderstorm_wind": 34
     },
     "candidate_report_type_counts": {
       "EXTREME HEAT": 1,
       "FLASH FLOOD": 3,
       "LIGHTNING": 1,
       "TSTM WND DMG": 30,
-      "TSTM WND GST": 2
+      "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -865,6 +865,50 @@
       "ugc": "MSC075",
       "ugc_name": "Lauderdale",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAN-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607070527",
+      "standard_time_display": "2026-07-06 23:27 CST",
+      "standard_time_zone": "CST",
+      "wfo": "JAN",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Hawkins Field",
+      "county": "Hinds",
+      "state": "MS",
+      "source": "Public",
+      "remark": "A 51 mph wind gust was measured at the Hawkins ASOS site.",
+      "lat": 32.34,
+      "lon": -90.23,
+      "ugc": "MSC049",
+      "ugc_name": "Hinds",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAN-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607070528",
+      "standard_time_display": "2026-07-06 23:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "JAN",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 51.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Hawkins Field",
+      "county": "Hinds",
+      "state": "MS",
+      "source": "ASOS",
+      "remark": "Corrects previous tstm wnd gst report from 1 NNW Hawkins Field. A 51 mph wind gust was measured at the Hawkins ASOS site.",
+      "lat": 32.34,
+      "lon": -90.23,
+      "ugc": "MSC049",
+      "ugc_name": "Hinds",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -873,7 +917,7 @@
       "wfo": "JAN",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:58:27Z"
+      "generated_utc": "2026-07-07T12:09:26Z"
     },
     "primary_links": [
       {

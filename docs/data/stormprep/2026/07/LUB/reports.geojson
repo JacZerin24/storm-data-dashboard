@@ -7,7 +7,7 @@
     "wfo": "LUB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:58:37Z",
+    "generated_utc": "2026-07-07T12:09:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -566,6 +566,32 @@
       "id": "iem-lsr-LUB-22",
       "properties": {
         "report_id": "iem-lsr-LUB-22",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607052133",
+        "standard_time_display": "2026-07-05 14:33 MST",
+        "wfo": "LUB",
+        "county_or_zone": "Parmer",
+        "city": "5 SE Farwell",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Center pivot tipped over by outflow boundary. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.98,
+          34.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LUB-23",
+      "properties": {
+        "report_id": "iem-lsr-LUB-23",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202607052212",
@@ -589,9 +615,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-LUB-23",
+      "id": "iem-lsr-LUB-24",
       "properties": {
-        "report_id": "iem-lsr-LUB-23",
+        "report_id": "iem-lsr-LUB-24",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202607052259",
@@ -604,6 +630,32 @@
         "magnitude_units": null,
         "source": "Storm Chaser",
         "event_narrative": "Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.23,
+          34.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LUB-25",
+      "properties": {
+        "report_id": "iem-lsr-LUB-25",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607052335",
+        "standard_time_display": "2026-07-05 17:35 CST",
+        "wfo": "LUB",
+        "county_or_zone": "Floyd",
+        "city": "8 NE Floydada",
+        "state": "TX",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Half Dollar (1.25 in.)."
       },
       "geometry": {
         "type": "Point",

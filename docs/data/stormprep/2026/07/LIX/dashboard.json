@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:58:32Z",
+    "generated_utc": "2026-07-07T12:09:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "LIX",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
       "other": 1,
-      "thunderstorm_wind": 4,
+      "thunderstorm_wind": 5,
       "tornado": 3
     },
     "candidate_report_type_counts": {
       "LIGHTNING": 1,
       "TSTM WND DMG": 3,
-      "TSTM WND GST": 1,
+      "TSTM WND GST": 2,
       "WATERSPOUT": 3
     },
     "nws_api_alert_count": 0,
@@ -227,6 +227,28 @@
       "ugc": "GMZ534",
       "ugc_name": "Lake Borgne",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607070553",
+      "standard_time_display": "2026-07-06 23:53 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "6 WSW East New Orleans",
+      "county": "GMZ531",
+      "state": "LA",
+      "source": "Mesonet",
+      "remark": "ASOS station KNEW Lakefront Airport measured a wind gust of 46mph or 40 knots.",
+      "lat": 30.04,
+      "lon": -90.02,
+      "ugc": "GMZ531",
+      "ugc_name": "Lake Pontchartrain",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -235,7 +257,7 @@
       "wfo": "LIX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-06T12:58:32Z"
+      "generated_utc": "2026-07-07T12:09:31Z"
     },
     "primary_links": [
       {

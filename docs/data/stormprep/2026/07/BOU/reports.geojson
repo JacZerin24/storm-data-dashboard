@@ -7,7 +7,7 @@
     "wfo": "BOU",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-06T12:57:47Z",
+    "generated_utc": "2026-07-07T12:08:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -636,6 +636,58 @@
         "coordinates": [
           -102.87,
           40.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-25",
+      "properties": {
+        "report_id": "iem-lsr-BOU-25",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607062250",
+        "standard_time_display": "2026-07-06 15:50 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Arapahoe",
+        "city": "1 N Buckley AFB",
+        "state": "CO",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KBKF Buckley SFB."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.75,
+          39.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-26",
+      "properties": {
+        "report_id": "iem-lsr-BOU-26",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607070033",
+        "standard_time_display": "2026-07-06 17:33 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Weld",
+        "city": "2 ESE Severance",
+        "state": "CO",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.82,
+          40.52
         ]
       }
     }
