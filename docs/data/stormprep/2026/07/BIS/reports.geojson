@@ -7,7 +7,7 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-07T12:08:46Z",
+    "generated_utc": "2026-07-08T11:15:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -532,6 +532,58 @@
         "coordinates": [
           -103.35,
           47.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-21",
+      "properties": {
+        "report_id": "iem-lsr-BIS-21",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607070810",
+        "standard_time_display": "2026-07-07 01:10 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Bowman",
+        "city": "3 ESE Griffin",
+        "state": "ND",
+        "magnitude": 76.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "[Delayed report] NDAWN Station Bowman 4W. Report at 10 meters_ 32 MPH observed at the surface."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.47,
+          46.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-22",
+      "properties": {
+        "report_id": "iem-lsr-BIS-22",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607070810",
+        "standard_time_display": "2026-07-07 01:10 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Bowman",
+        "city": "4 E Griffin",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "[Delayed report] Public reports a collapsed a barn roof due to strong winds northwest of Bowman_ ND. A NDAWN station in close proximity_ station Bowman 4W_ reported a gust of 76 MPH 10 meters above t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.46,
+          46.21
         ]
       }
     }
