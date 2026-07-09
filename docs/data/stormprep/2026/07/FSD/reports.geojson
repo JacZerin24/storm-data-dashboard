@@ -7,7 +7,7 @@
     "wfo": "FSD",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-08T11:15:23Z",
+    "generated_utc": "2026-07-09T12:15:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2334,6 +2334,32 @@
       "id": "iem-lsr-FSD-90",
       "properties": {
         "report_id": "iem-lsr-FSD-90",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607070800",
+        "standard_time_display": "2026-07-07 02:00 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Cottonwood",
+        "city": "2 E Delft",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Severe thunderstorm wind gusts knocked down trees at a farmstead near Bartsh Lake."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.04,
+          43.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-91",
+      "properties": {
+        "report_id": "iem-lsr-FSD-91",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607070802",
@@ -2357,9 +2383,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-FSD-91",
+      "id": "iem-lsr-FSD-92",
       "properties": {
-        "report_id": "iem-lsr-FSD-91",
+        "report_id": "iem-lsr-FSD-92",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607070806",
+        "standard_time_display": "2026-07-07 02:06 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Cottonwood",
+        "city": "2 W Mountain Lake",
+        "state": "MN",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "In addition to dime sized hail for a couple minutes_ there were also strong wind gusts. This knocked down some small braches_ less than 1 inch in diameter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.97,
+          43.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-93",
+      "properties": {
+        "report_id": "iem-lsr-FSD-93",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202607070930",
@@ -2378,6 +2430,110 @@
         "coordinates": [
           -99.26,
           43.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-94",
+      "properties": {
+        "report_id": "iem-lsr-FSD-94",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607082207",
+        "standard_time_display": "2026-07-08 16:07 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Woodbury",
+        "city": "Pierson",
+        "state": "IA",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo and video of quarter sized hail via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.87,
+          42.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-95",
+      "properties": {
+        "report_id": "iem-lsr-FSD-95",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607082233",
+        "standard_time_display": "2026-07-08 16:33 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Woodbury",
+        "city": "2 SW Correctionville",
+        "state": "IA",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.81,
+          42.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-96",
+      "properties": {
+        "report_id": "iem-lsr-FSD-96",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607082302",
+        "standard_time_display": "2026-07-08 17:02 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Ida",
+        "city": "5 NNW Arthur",
+        "state": "IA",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "A personal weather station just north west of Arthur recorded a 55 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          42.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-97",
+      "properties": {
+        "report_id": "iem-lsr-FSD-97",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607082303",
+        "standard_time_display": "2026-07-08 17:03 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Ida",
+        "city": "3 WNW Ida Grove",
+        "state": "IA",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "A personal weather station just northwest of Ida Grove recorded a 50 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.52,
+          42.35
         ]
       }
     }

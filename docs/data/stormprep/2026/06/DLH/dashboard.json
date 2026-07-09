@@ -6,7 +6,7 @@
     "wfo": "DLH",
     "start_utc": "2026-06-01T00:00:00Z",
     "end_utc": "2026-07-01T00:00:00Z",
-    "generated_utc": "2026-07-08T11:16:55Z",
+    "generated_utc": "2026-07-09T12:16:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 6,
     "wfo": "DLH",
-    "total_candidate_reports": 157,
-    "mapped_candidate_reports": 157,
+    "total_candidate_reports": 160,
+    "mapped_candidate_reports": 160,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 45,
       "marine": 6,
       "other": 45,
-      "thunderstorm_wind": 56,
+      "thunderstorm_wind": 59,
       "tornado": 4
     },
     "candidate_report_type_counts": {
@@ -36,14 +36,13 @@
       "NON-TSTM WND GST": 1,
       "RAIN": 44,
       "TORNADO": 2,
-      "TSTM WND DMG": 40,
+      "TSTM WND DMG": 43,
       "TSTM WND GST": 15
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
-      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DLH&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
       "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
       "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
@@ -56,7 +55,6 @@
     "dat_tornado_tracks": null
   },
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DLH&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
     "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
@@ -3276,6 +3274,50 @@
     {
       "report_id": "iem-lsr-DLH-147",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300408",
+      "standard_time_display": "2026-06-29 22:08 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNE Merrifield",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Emergency Mngr",
+      "remark": "Two car garage attached to single level home destroyed. Around a dozen trees downed in and around the property as well.",
+      "lat": 46.53,
+      "lon": -94.13,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-148",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300408",
+      "standard_time_display": "2026-06-29 22:08 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SW Mission",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Emergency Mngr",
+      "remark": "Cluster of around a dozen trees snapped halfway up. This point marks the end of path of scattered tree damage that started at County Road 3 and Ossipee Road. Treefall generally in a north direction.",
+      "lat": 46.54,
+      "lon": -94.12,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-149",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300410",
       "standard_time_display": "2026-06-29 22:10 CST",
       "standard_time_zone": "CST",
@@ -3296,7 +3338,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-148",
+      "report_id": "iem-lsr-DLH-150",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300410",
       "standard_time_display": "2026-06-29 22:10 CST",
@@ -3318,7 +3360,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-149",
+      "report_id": "iem-lsr-DLH-151",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300422",
       "standard_time_display": "2026-06-29 22:22 CST",
@@ -3340,7 +3382,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-150",
+      "report_id": "iem-lsr-DLH-152",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202606300422",
+      "standard_time_display": "2026-06-29 22:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Pine Knoll",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Emergency Mngr",
+      "remark": "Two large hay carts knocked over and damage to a what appeared to be a canvas covered outbuilding or shelter for farm equipment.",
+      "lat": 46.61,
+      "lon": -93.83,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-153",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300459",
       "standard_time_display": "2026-06-29 22:59 CST",
@@ -3362,7 +3426,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-151",
+      "report_id": "iem-lsr-DLH-154",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300500",
       "standard_time_display": "2026-06-29 23:00 CST",
@@ -3384,7 +3448,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-152",
+      "report_id": "iem-lsr-DLH-155",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300535",
       "standard_time_display": "2026-06-29 23:35 CST",
@@ -3406,7 +3470,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-153",
+      "report_id": "iem-lsr-DLH-156",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300536",
       "standard_time_display": "2026-06-29 23:36 CST",
@@ -3428,7 +3492,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-154",
+      "report_id": "iem-lsr-DLH-157",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300536",
       "standard_time_display": "2026-06-29 23:36 CST",
@@ -3450,7 +3514,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-155",
+      "report_id": "iem-lsr-DLH-158",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300538",
       "standard_time_display": "2026-06-29 23:38 CST",
@@ -3472,7 +3536,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-156",
+      "report_id": "iem-lsr-DLH-159",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300603",
       "standard_time_display": "2026-06-30 00:03 CST",
@@ -3494,7 +3558,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-06-01T00%3A00%3A00Z&ets=2026-07-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-157",
+      "report_id": "iem-lsr-DLH-160",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202606300652",
       "standard_time_display": "2026-06-30 00:52 CST",
@@ -3522,7 +3586,7 @@
       "wfo": "DLH",
       "start_utc": "2026-06-01T00:00:00Z",
       "end_utc": "2026-07-01T00:00:00Z",
-      "generated_utc": "2026-07-08T11:16:55Z"
+      "generated_utc": "2026-07-09T12:16:43Z"
     },
     "primary_links": [
       {

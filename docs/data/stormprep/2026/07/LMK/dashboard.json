@@ -6,7 +6,7 @@
     "wfo": "LMK",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-08T11:15:45Z",
+    "generated_utc": "2026-07-09T12:15:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "LMK",
-    "total_candidate_reports": 16,
-    "mapped_candidate_reports": 16,
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
     "candidate_report_counts": {
-      "flooding": 5,
+      "flooding": 7,
       "other": 1,
       "thunderstorm_wind": 10
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 5,
+      "FLASH FLOOD": 7,
       "RAIN": 1,
       "TSTM WND DMG": 10
     },
@@ -400,6 +400,50 @@
       "ugc": "KYC137",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LMK-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607081700",
+      "standard_time_display": "2026-07-08 11:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LMK",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE New Albany",
+      "county": "Floyd",
+      "state": "IN",
+      "source": "Public",
+      "remark": "Water completely over roadway at East 5th Street and East Elm Street. Vehicle stranded. Radar estimated time.",
+      "lat": 38.29,
+      "lon": -85.82,
+      "ugc": "INC043",
+      "ugc_name": "Floyd",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LMK-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607081750",
+      "standard_time_display": "2026-07-08 11:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LMK",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Saint Matthews",
+      "county": "Jefferson",
+      "state": "KY",
+      "source": "NWS Employee",
+      "remark": "Lexington Rd near Cornell closed due to flooding. Nearby Zorn Ave also was water over the road.",
+      "lat": 38.25,
+      "lon": -85.66,
+      "ugc": "KYC111",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -408,7 +452,7 @@
       "wfo": "LMK",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-08T11:15:46Z"
+      "generated_utc": "2026-07-09T12:15:41Z"
     },
     "primary_links": [
       {

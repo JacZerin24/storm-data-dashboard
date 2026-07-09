@@ -7,12 +7,65 @@
     "wfo": "TWC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-08T11:16:30Z",
+    "generated_utc": "2026-07-09T12:16:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-1",
+      "properties": {
+        "report_id": "iem-lsr-TWC-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607082340",
+        "standard_time_display": "2026-07-08 16:40 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "6 E Tucson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Palo verde tree limb snapped at Old Spanish Trail and 22nd St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.79,
+          32.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-2",
+      "properties": {
+        "report_id": "iem-lsr-TWC-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607090035",
+        "standard_time_display": "2026-07-08 17:35 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "1 WSW Sells",
+        "state": "AZ",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Sells RAWS station measured a wind gust to 70 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9,
+          31.91
+        ]
+      }
+    }
+  ]
 }
