@@ -6,7 +6,7 @@
     "wfo": "AFG",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-09T12:14:52Z",
+    "generated_utc": "2026-07-10T12:07:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "AFG",
-    "total_candidate_reports": 22,
-    "mapped_candidate_reports": 22,
+    "total_candidate_reports": 23,
+    "mapped_candidate_reports": 23,
     "candidate_report_counts": {
       "hail": 14,
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "HAIL": 14,
+      "NON-TSTM WND DMG": 1,
       "TSTM WND DMG": 4,
       "TSTM WND GST": 4
     },
@@ -531,6 +532,28 @@
       "ugc": null,
       "ugc_name": null,
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFG-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607091700",
+      "standard_time_display": "2026-07-09 08:00 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFG",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Vicinity of Harding Lak",
+      "county": "Fairbanks North Sta",
+      "state": "AK",
+      "source": "CO-OP Observer",
+      "remark": "Tom Griffith_ our CO-OP observer at Harding Lake reported downed trees that were blocking roadways in the area this morning.",
+      "lat": 64.32,
+      "lon": -146.64,
+      "ugc": null,
+      "ugc_name": null,
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -539,7 +562,7 @@
       "wfo": "AFG",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-09T12:14:52Z"
+      "generated_utc": "2026-07-10T12:07:47Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "TAE",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-09T12:16:17Z",
+    "generated_utc": "2026-07-10T12:09:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "TAE",
-    "total_candidate_reports": 16,
-    "mapped_candidate_reports": 16,
+    "total_candidate_reports": 18,
+    "mapped_candidate_reports": 18,
     "candidate_report_counts": {
       "hail": 7,
-      "thunderstorm_wind": 7,
+      "thunderstorm_wind": 9,
       "tornado": 2
     },
     "candidate_report_type_counts": {
       "HAIL": 7,
-      "TSTM WND DMG": 5,
-      "TSTM WND GST": 2,
+      "TSTM WND DMG": 6,
+      "TSTM WND GST": 3,
       "WATERSPOUT": 2
     },
     "nws_api_alert_count": 0,
@@ -403,6 +403,50 @@
       "ugc": "GMZ751",
       "ugc_name": "Coastal waters from Okaloosa-Walton County Line to Mexico Beach out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607091853",
+      "standard_time_display": "2026-07-09 13:53 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 48.0,
+      "magnitude_qualifier": null,
+      "city": "Lloyd",
+      "county": "Jefferson",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "FSWN Jefferson Lloyd.",
+      "lat": 30.48,
+      "lon": -84.02,
+      "ugc": "FLC065",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607100155",
+      "standard_time_display": "2026-07-09 20:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Ocilla",
+      "county": "Irwin",
+      "state": "GA",
+      "source": "Public",
+      "remark": "Resident reported a powerline was knocked down across US 129.",
+      "lat": 31.62,
+      "lon": -83.25,
+      "ugc": "GAC155",
+      "ugc_name": "Irwin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -411,7 +455,7 @@
       "wfo": "TAE",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-09T12:16:17Z"
+      "generated_utc": "2026-07-10T12:09:08Z"
     },
     "primary_links": [
       {

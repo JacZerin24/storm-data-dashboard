@@ -7,7 +7,7 @@
     "wfo": "TAE",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-09T12:16:17Z",
+    "generated_utc": "2026-07-10T12:09:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -428,6 +428,58 @@
         "coordinates": [
           -86.05,
           30.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-17",
+      "properties": {
+        "report_id": "iem-lsr-TAE-17",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607091853",
+        "standard_time_display": "2026-07-09 13:53 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Jefferson",
+        "city": "Lloyd",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "FSWN Jefferson Lloyd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.02,
+          30.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-18",
+      "properties": {
+        "report_id": "iem-lsr-TAE-18",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607100155",
+        "standard_time_display": "2026-07-09 20:55 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Irwin",
+        "city": "1 N Ocilla",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Resident reported a powerline was knocked down across US 129."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.25,
+          31.62
         ]
       }
     }

@@ -6,7 +6,7 @@
     "wfo": "BOU",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-09T12:15:00Z",
+    "generated_utc": "2026-07-10T12:07:55Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 7,
     "wfo": "BOU",
-    "total_candidate_reports": 31,
-    "mapped_candidate_reports": 31,
+    "total_candidate_reports": 33,
+    "mapped_candidate_reports": 33,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 12,
       "other": 2,
-      "thunderstorm_wind": 12,
+      "thunderstorm_wind": 14,
       "tornado": 2
     },
     "candidate_report_type_counts": {
@@ -33,7 +33,7 @@
       "NON-TSTM WND GST": 3,
       "TORNADO": 2,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 8
+      "TSTM WND GST": 10
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -738,6 +738,50 @@
       "ugc": "COC121",
       "ugc_name": "Washington",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607092255",
+      "standard_time_display": "2026-07-09 15:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "5 N Pawnee Pass",
+      "county": "Logan",
+      "state": "CO",
+      "source": "AWOS",
+      "remark": null,
+      "lat": 40.7,
+      "lon": -103.48,
+      "ugc": "COC075",
+      "ugc_name": "Logan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607092348",
+      "standard_time_display": "2026-07-09 16:48 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "Fleming",
+      "county": "Logan",
+      "state": "CO",
+      "source": "Mesonet",
+      "remark": "Personal weather station.",
+      "lat": 40.69,
+      "lon": -102.84,
+      "ugc": "COC075",
+      "ugc_name": "Logan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -746,7 +790,7 @@
       "wfo": "BOU",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-09T12:15:00Z"
+      "generated_utc": "2026-07-10T12:07:55Z"
     },
     "primary_links": [
       {
