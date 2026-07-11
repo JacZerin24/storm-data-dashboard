@@ -6,7 +6,7 @@
     "wfo": "BOU",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:07:55Z",
+    "generated_utc": "2026-07-11T10:32:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 7,
     "wfo": "BOU",
-    "total_candidate_reports": 33,
-    "mapped_candidate_reports": 33,
+    "total_candidate_reports": 35,
+    "mapped_candidate_reports": 35,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 12,
       "other": 2,
-      "thunderstorm_wind": 14,
+      "thunderstorm_wind": 16,
       "tornado": 2
     },
     "candidate_report_type_counts": {
@@ -33,7 +33,7 @@
       "NON-TSTM WND GST": 3,
       "TORNADO": 2,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 10
+      "TSTM WND GST": 12
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -782,6 +782,50 @@
       "ugc": "COC075",
       "ugc_name": "Logan",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102344",
+      "standard_time_display": "2026-07-10 16:44 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 72.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Denver Intl Airpor",
+      "county": "Denver",
+      "state": "CO",
+      "source": "ASOS",
+      "remark": "Corrects previous tstm wnd gst report from 2 SE Denver Intl Airport.",
+      "lat": 39.85,
+      "lon": -104.66,
+      "ugc": "COC031",
+      "ugc_name": "Denver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102344",
+      "standard_time_display": "2026-07-10 16:44 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 73.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Denver Intl Airpor",
+      "county": "Denver",
+      "state": "CO",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 39.85,
+      "lon": -104.66,
+      "ugc": "COC031",
+      "ugc_name": "Denver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -790,7 +834,7 @@
       "wfo": "BOU",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-10T12:07:55Z"
+      "generated_utc": "2026-07-11T10:32:48Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:09:12Z",
+    "generated_utc": "2026-07-11T10:34:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "TWC",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
     "candidate_report_counts": {
-      "other": 1,
-      "thunderstorm_wind": 9
+      "other": 2,
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
-      "DUST STORM": 1,
+      "DUST STORM": 2,
       "NON-TSTM WND DMG": 1,
-      "TSTM WND DMG": 3,
-      "TSTM WND GST": 5
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 6
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -228,6 +228,28 @@
     {
       "report_id": "iem-lsr-TWC-9",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607100155",
+      "standard_time_display": "2026-07-09 18:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Sierra Vista",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Social media photos showed a collapsed porch roof and a small to medium size destroyed greenhouse. Time estimated based on radar.",
+      "lat": 31.55,
+      "lon": -110.27,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-10",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607100235",
       "standard_time_display": "2026-07-09 19:35 MST",
       "standard_time_zone": "MST",
@@ -248,7 +270,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-10",
+      "report_id": "iem-lsr-TWC-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607100240",
       "standard_time_display": "2026-07-09 19:40 MST",
@@ -268,6 +290,50 @@
       "ugc": "AZC023",
       "ugc_name": "Santa Cruz",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607110003",
+      "standard_time_display": "2026-07-10 17:03 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 57.0,
+      "magnitude_qualifier": null,
+      "city": "34 SSW Duncan",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "Dept of Highways",
+      "remark": "Delayed report. Peak wind gust observed from ADOT weather station at I-10 near San Simon associated with thunderstorm outflows.",
+      "lat": 32.26,
+      "lon": -109.23,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607110100",
+      "standard_time_display": "2026-07-10 18:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "25 ENE Tombstone",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "NWS Employee",
+      "remark": "Dust storm detected on webcam near Sunizona.",
+      "lat": 31.91,
+      "lon": -109.71,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -276,7 +342,7 @@
       "wfo": "TWC",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-10T12:09:12Z"
+      "generated_utc": "2026-07-11T10:34:08Z"
     },
     "primary_links": [
       {

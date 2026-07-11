@@ -6,7 +6,7 @@
     "wfo": "ILN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:08:25Z",
+    "generated_utc": "2026-07-11T10:33:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "ILN",
-    "total_candidate_reports": 19,
-    "mapped_candidate_reports": 19,
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
     "candidate_report_counts": {
       "flooding": 6,
       "other": 1,
-      "thunderstorm_wind": 12
+      "thunderstorm_wind": 15
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 5,
       "NON-TSTM WND GST": 1,
       "RAIN": 1,
-      "TSTM WND DMG": 11
+      "TSTM WND DMG": 13,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -468,6 +469,72 @@
       "ugc": "KYC037",
       "ugc_name": "Campbell",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102121",
+      "standard_time_display": "2026-07-10 16:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Piqua",
+      "county": "Miami",
+      "state": "OH",
+      "source": "911 Call Center",
+      "remark": "Three large trees knocked down on the NW side of Piqua.",
+      "lat": 40.16,
+      "lon": -84.26,
+      "ugc": "OHC109",
+      "ugc_name": "Miami",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102124",
+      "standard_time_display": "2026-07-10 16:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Delaware",
+      "county": "Delaware",
+      "state": "OH",
+      "source": "911 Call Center",
+      "remark": "Multiple large trees down in the city of Delaware.",
+      "lat": 40.3,
+      "lon": -83.03,
+      "ugc": "OHC041",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102147",
+      "standard_time_display": "2026-07-10 16:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 50.0,
+      "magnitude_qualifier": null,
+      "city": "2 NW Vandalia",
+      "county": "Montgomery",
+      "state": "OH",
+      "source": "ASOS",
+      "remark": "50 MPH GUST AT DAYTON INTERNATIONAL AIRPORT.",
+      "lat": 39.91,
+      "lon": -84.22,
+      "ugc": "OHC113",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -476,7 +543,7 @@
       "wfo": "ILN",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-10T12:08:25Z"
+      "generated_utc": "2026-07-11T10:33:18Z"
     },
     "primary_links": [
       {

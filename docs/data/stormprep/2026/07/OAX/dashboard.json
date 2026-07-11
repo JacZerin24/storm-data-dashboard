@@ -6,7 +6,7 @@
     "wfo": "OAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:08:48Z",
+    "generated_utc": "2026-07-11T10:33:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 7,
     "wfo": "OAX",
-    "total_candidate_reports": 37,
-    "mapped_candidate_reports": 37,
+    "total_candidate_reports": 38,
+    "mapped_candidate_reports": 38,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 10,
       "other": 3,
-      "thunderstorm_wind": 23
+      "thunderstorm_wind": 23,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
+      "FUNNEL CLOUD": 1,
       "HAIL": 10,
       "LIGHTNING": 2,
       "RAIN": 1,
@@ -38,7 +40,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OAX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -50,7 +53,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OAX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -866,6 +870,28 @@
       "ugc": "NEC153",
       "ugc_name": "Sarpy",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102005",
+      "standard_time_display": "2026-07-10 14:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Shenandoah",
+      "county": "Page",
+      "state": "IA",
+      "source": "Emergency Manager",
+      "remark": "Relayed by Page County EMA. Funnel cloud near Shenandoah.",
+      "lat": 40.77,
+      "lon": -95.37,
+      "ugc": "IAC145",
+      "ugc_name": "Page",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -874,7 +900,7 @@
       "wfo": "OAX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-10T12:08:48Z"
+      "generated_utc": "2026-07-11T10:33:41Z"
     },
     "primary_links": [
       {

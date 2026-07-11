@@ -7,7 +7,7 @@
     "wfo": "TWC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:09:12Z",
+    "generated_utc": "2026-07-11T10:34:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -228,6 +228,32 @@
       "id": "iem-lsr-TWC-9",
       "properties": {
         "report_id": "iem-lsr-TWC-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607100155",
+        "standard_time_display": "2026-07-09 18:55 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "3 ESE Sierra Vista",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media photos showed a collapsed porch roof and a small to medium size destroyed greenhouse. Time estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.27,
+          31.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-10",
+      "properties": {
+        "report_id": "iem-lsr-TWC-10",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607100235",
@@ -251,9 +277,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-10",
+      "id": "iem-lsr-TWC-11",
       "properties": {
-        "report_id": "iem-lsr-TWC-10",
+        "report_id": "iem-lsr-TWC-11",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607100240",
@@ -272,6 +298,58 @@
         "coordinates": [
           -110.88,
           31.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-12",
+      "properties": {
+        "report_id": "iem-lsr-TWC-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607110003",
+        "standard_time_display": "2026-07-10 17:03 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "34 SSW Duncan",
+        "state": "AZ",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Delayed report. Peak wind gust observed from ADOT weather station at I-10 near San Simon associated with thunderstorm outflows."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.23,
+          32.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-13",
+      "properties": {
+        "report_id": "iem-lsr-TWC-13",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202607110100",
+        "standard_time_display": "2026-07-10 18:00 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "25 ENE Tombstone",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Dust storm detected on webcam near Sunizona."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.71,
+          31.91
         ]
       }
     }

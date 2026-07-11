@@ -6,7 +6,7 @@
     "wfo": "LOT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-10T12:08:34Z",
+    "generated_utc": "2026-07-11T10:33:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,24 @@
     "year": 2026,
     "month": 7,
     "wfo": "LOT",
-    "total_candidate_reports": 262,
-    "mapped_candidate_reports": 262,
+    "total_candidate_reports": 264,
+    "mapped_candidate_reports": 264,
     "candidate_report_counts": {
       "flooding": 126,
       "hail": 2,
       "marine": 6,
       "other": 30,
-      "thunderstorm_wind": 98
+      "thunderstorm_wind": 99,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 93,
       "FLOOD": 33,
+      "FUNNEL CLOUD": 1,
       "HAIL": 2,
       "MARINE TSTM WIND": 6,
       "RAIN": 30,
-      "TSTM WND DMG": 66,
+      "TSTM WND DMG": 67,
       "TSTM WND GST": 32
     },
     "nws_api_alert_count": 0,
@@ -40,7 +42,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LOT&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -52,7 +55,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LOT&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -5818,6 +5822,50 @@
       "ugc": "INC127",
       "ugc_name": "Porter",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOT-263",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102054",
+      "standard_time_display": "2026-07-10 14:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LOT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Steger",
+      "county": "Cook",
+      "state": "IL",
+      "source": "Local Official",
+      "remark": "Report of downed tree limbs_ a hanging street light_ and hail near the intersection of Steger Road and State Street. The location and time of the report coincides to when a single cell thunderstorm c",
+      "lat": 41.47,
+      "lon": -87.62,
+      "ugc": "ILC031",
+      "ugc_name": "Cook",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOT-264",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607102335",
+      "standard_time_display": "2026-07-10 17:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LOT",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Gibson City",
+      "county": "Ford",
+      "state": "IL",
+      "source": "Broadcast Media",
+      "remark": "There were several reports and photos of a funnel cloud.",
+      "lat": 40.46,
+      "lon": -88.42,
+      "ugc": "ILC053",
+      "ugc_name": "Ford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -5826,7 +5874,7 @@
       "wfo": "LOT",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-10T12:08:35Z"
+      "generated_utc": "2026-07-11T10:33:27Z"
     },
     "primary_links": [
       {
