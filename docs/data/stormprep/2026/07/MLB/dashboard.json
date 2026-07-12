@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-11T10:33:36Z",
+    "generated_utc": "2026-07-12T10:43:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 7,
     "wfo": "MLB",
-    "total_candidate_reports": 41,
-    "mapped_candidate_reports": 41,
+    "total_candidate_reports": 42,
+    "mapped_candidate_reports": 42,
     "candidate_report_counts": {
       "flooding": 2,
       "marine": 16,
       "other": 9,
-      "thunderstorm_wind": 14
+      "thunderstorm_wind": 15
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
@@ -31,6 +31,7 @@
       "MARINE TSTM WIND": 13,
       "RAIN": 7,
       "RIP CURRENTS": 3,
+      "TSTM WND DMG": 1,
       "TSTM WND GST": 14
     },
     "nws_api_alert_count": 0,
@@ -954,6 +955,28 @@
       "ugc": "FLC095",
       "ugc_name": "Orange",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607101830",
+      "standard_time_display": "2026-07-10 13:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Tradition",
+      "county": "St. Lucie",
+      "state": "FL",
+      "source": "Trained Spotter",
+      "remark": "A delayed report came from a trained spotter who reported ten to twelve trees were snapped at 90 degree angles at the intersection of Village Parkway and Becker Rd near the new Lowes Home Improvement",
+      "lat": 27.21,
+      "lon": -80.41,
+      "ugc": "FLC111",
+      "ugc_name": "St. Lucie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -962,7 +985,7 @@
       "wfo": "MLB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-11T10:33:36Z"
+      "generated_utc": "2026-07-12T10:43:18Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "EWX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-11T10:33:03Z",
+    "generated_utc": "2026-07-12T10:42:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "EWX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "flooding": 3
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EWX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-EWX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607111829",
+      "standard_time_display": "2026-07-11 12:29 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Shavano Park",
+      "county": "Bexar",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING of Street/road flooding.",
+      "lat": 29.58,
+      "lon": -98.6,
+      "ugc": "TXC029",
+      "ugc_name": "Bexar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607111830",
+      "standard_time_display": "2026-07-11 12:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Cross Mountain",
+      "county": "Bexar",
+      "state": "TX",
+      "source": "County Official",
+      "remark": "Bexar Flood reported numerous low water crossings closed in western Bexar County including several along Culebra Creek and Leon Creek.",
+      "lat": 29.63,
+      "lon": -98.64,
+      "ugc": "TXC029",
+      "ugc_name": "Bexar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607111842",
+      "standard_time_display": "2026-07-11 12:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 E Helotes",
+      "county": "Bexar",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING of Street/road flooding on Babcock Rd along Maverick Creek.",
+      "lat": 29.58,
+      "lon": -98.63,
+      "ugc": "TXC029",
+      "ugc_name": "Bexar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "EWX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-11T10:33:03Z"
+      "generated_utc": "2026-07-12T10:42:44Z"
     },
     "primary_links": [
       {
