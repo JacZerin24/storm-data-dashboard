@@ -6,7 +6,7 @@
     "wfo": "APX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-12T10:42:23Z",
+    "generated_utc": "2026-07-13T12:16:20Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 7,
     "wfo": "APX",
-    "total_candidate_reports": 80,
-    "mapped_candidate_reports": 80,
+    "total_candidate_reports": 83,
+    "mapped_candidate_reports": 83,
     "candidate_report_counts": {
       "hail": 1,
-      "marine": 12,
+      "marine": 14,
       "other": 14,
-      "thunderstorm_wind": 53
+      "thunderstorm_wind": 54
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
-      "MARINE TSTM WIND": 12,
+      "MARINE TSTM WIND": 14,
       "NON-TSTM WND GST": 2,
       "RAIN": 14,
       "TSTM WND DMG": 39,
-      "TSTM WND GST": 12
+      "TSTM WND GST": 13
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1812,6 +1812,72 @@
       "ugc": "MIC137",
       "ugc_name": "Otsego",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607130754",
+      "standard_time_display": "2026-07-13 01:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "APX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 48.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Leland",
+      "county": "LMZ344",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station XLEL Leland Harbor.",
+      "lat": 45.02,
+      "lon": -85.76,
+      "ugc": "LMZ344",
+      "ugc_name": "Sleeping Bear Point to Grand Traverse Light MI",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-82",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607130812",
+      "standard_time_display": "2026-07-13 02:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "APX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 SE Greilickville",
+      "county": "LMZ323",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station XELM Elmwood Township Marina.",
+      "lat": 44.79,
+      "lon": -85.63,
+      "ugc": "LMZ323",
+      "ugc_name": "Grand Traverse Bay south of a line Grand Traverse Light to Norwood MI",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-83",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607130820",
+      "standard_time_display": "2026-07-13 02:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "APX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Traverse City",
+      "county": "Grand Traverse",
+      "state": "MI",
+      "source": "ASOS",
+      "remark": "ASOS station KTVC Traverse City - Cherry Capital Airport.",
+      "lat": 44.73,
+      "lon": -85.57,
+      "ugc": "MIC055",
+      "ugc_name": "Grand Traverse",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1820,7 +1886,7 @@
       "wfo": "APX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-12T10:42:23Z"
+      "generated_utc": "2026-07-13T12:16:21Z"
     },
     "primary_links": [
       {

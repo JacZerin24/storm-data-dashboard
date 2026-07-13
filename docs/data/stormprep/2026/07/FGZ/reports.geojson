@@ -7,7 +7,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-12T10:42:46Z",
+    "generated_utc": "2026-07-13T12:16:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -90,6 +90,110 @@
         "coordinates": [
           -109.42,
           34.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-4",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607122245",
+        "standard_time_display": "2026-07-12 15:45 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Yavapai",
+        "city": "1 NE Black Canyon City",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Tree limbs down. Social media report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.12,
+          34.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-5",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607122253",
+        "standard_time_display": "2026-07-12 15:53 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Yavapai",
+        "city": "1 SE Bumble Bee",
+        "state": "AZ",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station QSPA3 Sunset Point."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.13,
+          34.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-6",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-6",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607122315",
+        "standard_time_display": "2026-07-12 16:15 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Yavapai",
+        "city": "1 NNE Prescott Courthou",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A USGS stream gage on Granite Creek in Prescott reported a 2.9 ft rise in 45 minutes from multiple rounds of heavy rainfall upstream during the afternoon."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.46,
+          34.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-7",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-7",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607122342",
+        "standard_time_display": "2026-07-12 16:42 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Yavapai",
+        "city": "6 E Cordes Junction",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The Sycamore Creek near Dugas stream gauge (SNDA3) showed a rapid 4 foot rise. Flow was approximately 1000 CFS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.01,
+          34.34
         ]
       }
     }
