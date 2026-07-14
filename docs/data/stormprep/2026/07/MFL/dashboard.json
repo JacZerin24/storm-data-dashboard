@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-13T12:17:12Z",
+    "generated_utc": "2026-07-14T10:56:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "MFL",
-    "total_candidate_reports": 26,
-    "mapped_candidate_reports": 26,
+    "total_candidate_reports": 28,
+    "mapped_candidate_reports": 28,
     "candidate_report_counts": {
       "fire_smoke": 2,
-      "hail": 1,
+      "hail": 2,
       "marine": 12,
       "other": 1,
       "thunderstorm_wind": 9,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 1,
+      "FUNNEL CLOUD": 1,
+      "HAIL": 2,
       "LIGHTNING": 1,
       "MARINE TSTM WIND": 12,
       "TSTM WND DMG": 1,
@@ -589,6 +590,50 @@
     {
       "report_id": "iem-lsr-MFL-25",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607122130",
+      "standard_time_display": "2026-07-12 16:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Caloosa",
+      "county": "Palm Beach",
+      "state": "FL",
+      "source": "Local Official",
+      "remark": "A local Palm Beach county official reported a funnel cloud near the intersection of Randolph Sliding Road and Alexander Run in the Jupiter Farms area. Time and location is estimated.",
+      "lat": 26.91,
+      "lon": -80.22,
+      "ugc": "FLC099",
+      "ugc_name": "Palm Beach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607122205",
+      "standard_time_display": "2026-07-12 17:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Caloosa",
+      "county": "Palm Beach",
+      "state": "FL",
+      "source": "Local Official",
+      "remark": "Palm Beach County local official reported nickel sized hail in the Jupiter Farms area near 150th and 115th.",
+      "lat": 26.9,
+      "lon": -80.22,
+      "ugc": "FLC099",
+      "ugc_name": "Palm Beach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-27",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607122215",
       "standard_time_display": "2026-07-12 17:15 EST",
       "standard_time_zone": "EST",
@@ -609,7 +654,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MFL-26",
+      "report_id": "iem-lsr-MFL-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607122230",
       "standard_time_display": "2026-07-12 17:30 EST",
@@ -637,7 +682,7 @@
       "wfo": "MFL",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-13T12:17:12Z"
+      "generated_utc": "2026-07-14T10:56:31Z"
     },
     "primary_links": [
       {

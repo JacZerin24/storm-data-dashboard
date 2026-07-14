@@ -7,12 +7,91 @@
     "wfo": "VEF",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-13T12:17:48Z",
+    "generated_utc": "2026-07-14T10:57:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-1",
+      "properties": {
+        "report_id": "iem-lsr-VEF-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607131730",
+        "standard_time_display": "2026-07-13 09:30 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Nye",
+        "city": "11 NW Mercury",
+        "state": "NV",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Thunderstorm nearby resulted in a 59 mph wind gust at sensor A27AB."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.12,
+          36.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-2",
+      "properties": {
+        "report_id": "iem-lsr-VEF-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607131745",
+        "standard_time_display": "2026-07-13 09:45 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Nye",
+        "city": "14 NW Mercury",
+        "state": "NV",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Thunderstorm nearby resulted in a 64 mph wind gust at sensor A26AA."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.16,
+          36.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-3",
+      "properties": {
+        "report_id": "iem-lsr-VEF-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607132131",
+        "standard_time_display": "2026-07-13 14:31 MST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "5 E New Kingman-Butler",
+        "state": "AZ",
+        "magnitude": 78.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.93,
+          35.26
+        ]
+      }
+    }
+  ]
 }
