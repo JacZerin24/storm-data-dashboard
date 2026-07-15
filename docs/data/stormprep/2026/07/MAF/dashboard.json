@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-14T10:56:29Z",
+    "generated_utc": "2026-07-15T11:02:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "MAF",
-    "total_candidate_reports": 19,
-    "mapped_candidate_reports": 19,
+    "total_candidate_reports": 23,
+    "mapped_candidate_reports": 23,
     "candidate_report_counts": {
-      "flooding": 6,
+      "flooding": 10,
       "other": 2,
       "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "DUST STORM": 2,
-      "FLASH FLOOD": 6,
+      "FLASH FLOOD": 10,
       "NON-TSTM WND GST": 4,
       "TSTM WND DMG": 4,
       "TSTM WND GST": 3
@@ -406,6 +406,28 @@
     {
       "report_id": "iem-lsr-MAF-17",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607131830",
+      "standard_time_display": "2026-07-13 12:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "12 SW Sheffield",
+      "county": "Terrell",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Report of one foot of water over the road on FM2400 near TX 349. Time was estimated by radar in which this occurred anytime between noon and 3pm.",
+      "lat": 30.57,
+      "lon": -101.97,
+      "ugc": "TXC443",
+      "ugc_name": "Terrell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-18",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607132000",
       "standard_time_display": "2026-07-13 14:00 CST",
       "standard_time_zone": "CST",
@@ -426,7 +448,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-18",
+      "report_id": "iem-lsr-MAF-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607132100",
+      "standard_time_display": "2026-07-13 15:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Chandler Ranch",
+      "county": "Terrell",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Report of a completely washed out unpaved road near Chandler Ranch from heavy rainfall and river flooding from Independence Creek.",
+      "lat": 30.47,
+      "lon": -101.8,
+      "ugc": "TXC443",
+      "ugc_name": "Terrell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607132202",
       "standard_time_display": "2026-07-13 16:02 CST",
@@ -448,7 +492,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-19",
+      "report_id": "iem-lsr-MAF-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140128",
       "standard_time_display": "2026-07-13 19:28 CST",
@@ -468,6 +512,50 @@
       "ugc": "TXC443",
       "ugc_name": "Terrell",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607141330",
+      "standard_time_display": "2026-07-14 07:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Near Chandler Ranch",
+      "county": "Terrell",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Flash flooding still occurring near Chandler Ranch.",
+      "lat": 30.47,
+      "lon": -101.8,
+      "ugc": "TXC443",
+      "ugc_name": "Terrell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607141430",
+      "standard_time_display": "2026-07-14 07:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "16 SW Sheffield",
+      "county": "Terrell",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Report of water rushing over the road on FM 2400.",
+      "lat": 30.54,
+      "lon": -102.04,
+      "ugc": "TXC443",
+      "ugc_name": "Terrell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -476,7 +564,7 @@
       "wfo": "MAF",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-14T10:56:29Z"
+      "generated_utc": "2026-07-15T11:02:08Z"
     },
     "primary_links": [
       {

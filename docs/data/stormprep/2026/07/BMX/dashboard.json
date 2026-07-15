@@ -6,7 +6,7 @@
     "wfo": "BMX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-14T10:55:43Z",
+    "generated_utc": "2026-07-15T11:01:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "BMX",
-    "total_candidate_reports": 45,
-    "mapped_candidate_reports": 45,
+    "total_candidate_reports": 46,
+    "mapped_candidate_reports": 46,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 2,
       "hail": 5,
       "other": 1,
       "thunderstorm_wind": 38
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
+      "FLOOD": 1,
       "HAIL": 5,
       "LIGHTNING": 1,
       "TSTM WND DMG": 37,
@@ -1041,6 +1042,28 @@
       "ugc": "ALC093",
       "ugc_name": "Marion",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BMX-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607142315",
+      "standard_time_display": "2026-07-14 17:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BMX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "0 NE Mcmullen",
+      "county": "Pickens",
+      "state": "AL",
+      "source": "Trained Spotter",
+      "remark": "Water from a culvert covering a road near the intersection of Sapps Road and Highway 14. Depth unknown.",
+      "lat": 33.15,
+      "lon": -88.17,
+      "ugc": "ALC107",
+      "ugc_name": "Pickens",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1049,7 +1072,7 @@
       "wfo": "BMX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-14T10:55:43Z"
+      "generated_utc": "2026-07-15T11:01:24Z"
     },
     "primary_links": [
       {

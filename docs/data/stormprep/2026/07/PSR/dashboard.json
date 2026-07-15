@@ -6,7 +6,7 @@
     "wfo": "PSR",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-14T10:56:49Z",
+    "generated_utc": "2026-07-15T11:02:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "PSR",
-    "total_candidate_reports": 22,
-    "mapped_candidate_reports": 22,
+    "total_candidate_reports": 23,
+    "mapped_candidate_reports": 23,
     "candidate_report_counts": {
       "hail": 1,
       "other": 18,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
       "BLOWING DUST": 7,
       "DUST STORM": 11,
       "HAIL": 1,
       "NON-TSTM WND GST": 2,
+      "TSTM WND DMG": 1,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -428,6 +429,28 @@
     {
       "report_id": "iem-lsr-PSR-18",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607140120",
+      "standard_time_display": "2026-07-13 18:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Florence Junction",
+      "county": "Pinal",
+      "state": "AZ",
+      "source": "Trained Spotter",
+      "remark": "***DELAYED REPORT** Large downed tree near the intersection of North Entrada del Oro Blvd and North Camino del Sol in Gold Canyon. Timing estimated from radar.",
+      "lat": 33.31,
+      "lon": -111.37,
+      "ugc": "AZC021",
+      "ugc_name": "Pinal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-19",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140127",
       "standard_time_display": "2026-07-13 18:27 MST",
       "standard_time_zone": "MST",
@@ -448,7 +471,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-19",
+      "report_id": "iem-lsr-PSR-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140130",
       "standard_time_display": "2026-07-13 18:30 MST",
@@ -470,7 +493,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-20",
+      "report_id": "iem-lsr-PSR-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140137",
       "standard_time_display": "2026-07-13 18:37 MST",
@@ -492,7 +515,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-21",
+      "report_id": "iem-lsr-PSR-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140151",
       "standard_time_display": "2026-07-13 18:51 MST",
@@ -514,7 +537,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-22",
+      "report_id": "iem-lsr-PSR-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607140224",
       "standard_time_display": "2026-07-13 19:24 MST",
@@ -542,7 +565,7 @@
       "wfo": "PSR",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-14T10:56:49Z"
+      "generated_utc": "2026-07-15T11:02:27Z"
     },
     "primary_links": [
       {
