@@ -6,7 +6,7 @@
     "wfo": "DTX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:01:36Z",
+    "generated_utc": "2026-07-16T11:10:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "DTX",
-    "total_candidate_reports": 54,
-    "mapped_candidate_reports": 54,
+    "total_candidate_reports": 56,
+    "mapped_candidate_reports": 56,
     "candidate_report_counts": {
+      "hail": 1,
       "marine": 10,
       "other": 19,
-      "thunderstorm_wind": 25
+      "thunderstorm_wind": 26
     },
     "candidate_report_type_counts": {
+      "HAIL": 1,
       "MARINE TSTM WIND": 10,
       "RAIN": 19,
-      "TSTM WND DMG": 17,
+      "TSTM WND DMG": 18,
       "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
@@ -1237,6 +1239,50 @@
       "ugc": "MIC093",
       "ugc_name": "Livingston",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DTX-55",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607152319",
+      "standard_time_display": "2026-07-15 18:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "DTX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Holly",
+      "county": "Oakland",
+      "state": "MI",
+      "source": "Public",
+      "remark": "Social media photo estimating hail size of approximately a quarter-sized.",
+      "lat": 42.8,
+      "lon": -83.62,
+      "ugc": "MIC125",
+      "ugc_name": "Oakland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DTX-56",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607152339",
+      "standard_time_display": "2026-07-15 18:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "DTX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Laingsburg",
+      "county": "Shiawassee",
+      "state": "MI",
+      "source": "Public",
+      "remark": "Trees and power lines reported down on Woodbury road south of Laingsburg",
+      "lat": 42.89,
+      "lon": -84.35,
+      "ugc": "MIC155",
+      "ugc_name": "Shiawassee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1245,7 +1291,7 @@
       "wfo": "DTX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-15T11:01:36Z"
+      "generated_utc": "2026-07-16T11:10:14Z"
     },
     "primary_links": [
       {

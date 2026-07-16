@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:02:09Z",
+    "generated_utc": "2026-07-16T11:10:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,11 +17,11 @@
     "year": 2026,
     "month": 7,
     "wfo": "MFL",
-    "total_candidate_reports": 28,
-    "mapped_candidate_reports": 28,
+    "total_candidate_reports": 29,
+    "mapped_candidate_reports": 29,
     "candidate_report_counts": {
       "fire_smoke": 2,
-      "hail": 2,
+      "hail": 3,
       "marine": 12,
       "other": 1,
       "thunderstorm_wind": 9,
@@ -29,7 +29,7 @@
     },
     "candidate_report_type_counts": {
       "FUNNEL CLOUD": 1,
-      "HAIL": 2,
+      "HAIL": 3,
       "LIGHTNING": 1,
       "MARINE TSTM WIND": 12,
       "TSTM WND DMG": 1,
@@ -674,6 +674,28 @@
       "ugc": "AMZ610",
       "ugc_name": "Lake Okeechobee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607132330",
+      "standard_time_display": "2026-07-13 18:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "9 E Miles City",
+      "county": "Collier",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Public reported large hail while driving on Alligator Alley. Estimated at least quarter size hail. Time is estimated.",
+      "lat": 26.17,
+      "lon": -81.2,
+      "ugc": "FLC021",
+      "ugc_name": "Collier",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -682,7 +704,7 @@
       "wfo": "MFL",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-15T11:02:10Z"
+      "generated_utc": "2026-07-16T11:10:49Z"
     },
     "primary_links": [
       {

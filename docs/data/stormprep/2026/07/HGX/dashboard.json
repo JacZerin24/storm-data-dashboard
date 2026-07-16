@@ -6,7 +6,7 @@
     "wfo": "HGX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:01:51Z",
+    "generated_utc": "2026-07-16T11:10:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,11 @@
     "year": 2026,
     "month": 7,
     "wfo": "HGX",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
       "flooding": 8,
+      "marine": 2,
       "thunderstorm_wind": 1,
       "tornado": 1
     },
@@ -28,6 +29,7 @@
       "FLASH FLOOD": 3,
       "FLOOD": 5,
       "FUNNEL CLOUD": 1,
+      "MARINE TSTM WIND": 2,
       "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
@@ -271,6 +273,50 @@
       "ugc": "TXC185",
       "ugc_name": "Grimes",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HGX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607151800",
+      "standard_time_display": "2026-07-15 12:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNE San Leon",
+      "county": "GMZ335",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Strong winds from thunderstorms observed in Galveston Bay.",
+      "lat": 29.54,
+      "lon": -94.91,
+      "ugc": "GMZ335",
+      "ugc_name": "Galveston Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HGX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607151830",
+      "standard_time_display": "2026-07-15 12:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "17 SSW La Ward",
+      "county": "GMZ330",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station VCAT2 1 NNE Port Lavaca.",
+      "lat": 28.64,
+      "lon": -96.61,
+      "ugc": "GMZ330",
+      "ugc_name": "Matagorda Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -279,7 +325,7 @@
       "wfo": "HGX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-15T11:01:51Z"
+      "generated_utc": "2026-07-16T11:10:30Z"
     },
     "primary_links": [
       {

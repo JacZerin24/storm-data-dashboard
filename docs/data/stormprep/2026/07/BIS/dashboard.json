@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:01:23Z",
+    "generated_utc": "2026-07-16T11:09:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "BIS",
-    "total_candidate_reports": 51,
-    "mapped_candidate_reports": 51,
+    "total_candidate_reports": 54,
+    "mapped_candidate_reports": 54,
     "candidate_report_counts": {
-      "hail": 23,
+      "hail": 24,
       "other": 13,
-      "thunderstorm_wind": 13,
+      "thunderstorm_wind": 15,
       "tornado": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 23,
+      "HAIL": 24,
       "NON-TSTM WND GST": 1,
       "RAIN": 13,
       "TORNADO": 2,
-      "TSTM WND DMG": 4,
+      "TSTM WND DMG": 6,
       "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
@@ -1136,6 +1136,50 @@
     {
       "report_id": "iem-lsr-BIS-50",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607100240",
+      "standard_time_display": "2026-07-09 20:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 N Streeter",
+      "county": "Stutsman",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Time estimated from radar. Report of thunderstorm wind damage at this location. Lots of tree damage_ a couple of bins blown away_ and a pole barn lost a roof.",
+      "lat": 46.76,
+      "lon": -99.34,
+      "ugc": "NDC093",
+      "ugc_name": "Stutsman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-51",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607100245",
+      "standard_time_display": "2026-07-09 20:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Medina",
+      "county": "Stutsman",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Time estimated from radar. Report of approximately 20 downed trees near home_ mostly in a lower elevation area.",
+      "lat": 46.88,
+      "lon": -99.3,
+      "ugc": "NDC093",
+      "ugc_name": "Stutsman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-52",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607100340",
       "standard_time_display": "2026-07-09 21:40 CST",
       "standard_time_zone": "CST",
@@ -1156,7 +1200,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-51",
+      "report_id": "iem-lsr-BIS-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607100425",
       "standard_time_display": "2026-07-09 22:25 CST",
@@ -1176,6 +1220,28 @@
       "ugc": "NDC021",
       "ugc_name": "Dickey",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-54",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607150834",
+      "standard_time_display": "2026-07-15 02:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Omemee",
+      "county": "Bottineau",
+      "state": "ND",
+      "source": "Public",
+      "remark": "[Delayed Report] Photo of golf ball sized hail southeast of Bottineau_ found on social media. Time and location determined by radar.",
+      "lat": 48.75,
+      "lon": -100.33,
+      "ugc": "NDC009",
+      "ugc_name": "Bottineau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1184,7 +1250,7 @@
       "wfo": "BIS",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-15T11:01:23Z"
+      "generated_utc": "2026-07-16T11:09:59Z"
     },
     "primary_links": [
       {

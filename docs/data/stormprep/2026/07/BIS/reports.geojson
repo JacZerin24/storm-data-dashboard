@@ -7,7 +7,7 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:01:23Z",
+    "generated_utc": "2026-07-16T11:09:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1294,6 +1294,58 @@
       "id": "iem-lsr-BIS-50",
       "properties": {
         "report_id": "iem-lsr-BIS-50",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607100240",
+        "standard_time_display": "2026-07-09 20:40 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Stutsman",
+        "city": "7 N Streeter",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Time estimated from radar. Report of thunderstorm wind damage at this location. Lots of tree damage_ a couple of bins blown away_ and a pole barn lost a roof."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.34,
+          46.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-51",
+      "properties": {
+        "report_id": "iem-lsr-BIS-51",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607100245",
+        "standard_time_display": "2026-07-09 20:45 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Stutsman",
+        "city": "1 S Medina",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Time estimated from radar. Report of approximately 20 downed trees near home_ mostly in a lower elevation area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.3,
+          46.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-52",
+      "properties": {
+        "report_id": "iem-lsr-BIS-52",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607100340",
@@ -1317,9 +1369,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BIS-51",
+      "id": "iem-lsr-BIS-53",
       "properties": {
-        "report_id": "iem-lsr-BIS-51",
+        "report_id": "iem-lsr-BIS-53",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607100425",
@@ -1338,6 +1390,32 @@
         "coordinates": [
           -98.5,
           46.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-54",
+      "properties": {
+        "report_id": "iem-lsr-BIS-54",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607150834",
+        "standard_time_display": "2026-07-15 02:34 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Bottineau",
+        "city": "3 NNE Omemee",
+        "state": "ND",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "[Delayed Report] Photo of golf ball sized hail southeast of Bottineau_ found on social media. Time and location determined by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33,
+          48.75
         ]
       }
     }

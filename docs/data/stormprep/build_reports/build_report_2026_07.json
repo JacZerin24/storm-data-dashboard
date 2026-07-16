@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-15T11:02:48Z",
+  "generated_utc": "2026-07-16T11:11:24Z",
   "year": 2026,
   "month": 7,
   "total_wfos": 125,
-  "successful_wfos": 121,
-  "failed_wfos": 4,
+  "successful_wfos": 120,
+  "failed_wfos": 5,
   "results": [
     {
       "wfo": "ABQ",
@@ -176,10 +176,10 @@
     },
     {
       "wfo": "CRP",
-      "returncode": 0,
-      "ok": true,
-      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=CRP&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/07/CRP/dashboard.json\nWrote docs/data/stormprep/2026/07/CRP/reports.geojson\nWrote docs/data/stormprep/2026/07/CRP/products.json\nWrote docs/data/stormprep/2026/07/CRP/warnings.geojson\nWrote docs/data/stormprep/2026/07/CRP/tornado_tracks.geojson\nWrote docs/data/stormprep/2026/07/CRP/summary.json\nWrote docs/data/index.json\nDone.\n",
-      "stderr_tail": ""
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 527, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 485, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 214, in fetch_lsr_reports\n    \"report_id\": f\"iem-lsr-{wfo}-{idx + 1}\",\n                                  ~~~~^~~\nTypeError: can only concatenate tuple (not \"int\") to tuple\n"
     },
     {
       "wfo": "CTP",
