@@ -6,7 +6,7 @@
     "wfo": "GJT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-16T11:10:23Z",
+    "generated_utc": "2026-07-17T10:57:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "GJT",
-    "total_candidate_reports": 45,
-    "mapped_candidate_reports": 45,
+    "total_candidate_reports": 47,
+    "mapped_candidate_reports": 47,
     "candidate_report_counts": {
-      "thunderstorm_wind": 45
+      "other": 1,
+      "thunderstorm_wind": 46
     },
     "candidate_report_type_counts": {
-      "NON-TSTM WND GST": 36,
+      "NON-TSTM WND GST": 37,
+      "RAIN": 1,
       "TSTM WND GST": 9
     },
     "nws_api_alert_count": 0,
@@ -1035,6 +1037,50 @@
       "ugc": "COC077",
       "ugc_name": "Mesa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GJT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GJT-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607161453",
+      "standard_time_display": "2026-07-16 07:53 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GJT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.58,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Oxford",
+      "county": "La Plata",
+      "state": "CO",
+      "source": "ASOS",
+      "remark": "ASOS station KDRO Durango La Plata Cnty Airport.",
+      "lat": 37.15,
+      "lon": -107.77,
+      "ugc": "COC067",
+      "ugc_name": "La Plata",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GJT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GJT-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607162138",
+      "standard_time_display": "2026-07-16 14:38 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GJT",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 49.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Gypsum",
+      "county": "Eagle",
+      "state": "CO",
+      "source": "AWOS",
+      "remark": "AWOS station KEGE Eagle County Rgnl Airport.",
+      "lat": 39.63,
+      "lon": -106.92,
+      "ugc": "COC037",
+      "ugc_name": "Eagle",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GJT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1043,7 +1089,7 @@
       "wfo": "GJT",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-16T11:10:24Z"
+      "generated_utc": "2026-07-17T10:57:46Z"
     },
     "primary_links": [
       {

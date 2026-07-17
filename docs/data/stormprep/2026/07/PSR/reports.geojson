@@ -7,7 +7,7 @@
     "wfo": "PSR",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-16T11:11:08Z",
+    "generated_utc": "2026-07-17T10:58:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -714,6 +714,58 @@
         "coordinates": [
           -113.34,
           32.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-28",
+      "properties": {
+        "report_id": "iem-lsr-PSR-28",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607170158",
+        "standard_time_display": "2026-07-16 18:58 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "1 NE Apache Junction",
+        "state": "AZ",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Rainfall measured over 20 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.54,
+          33.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-29",
+      "properties": {
+        "report_id": "iem-lsr-PSR-29",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607170230",
+        "standard_time_display": "2026-07-16 19:30 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "2 NE Apache Junction",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Washes near the area of Tomahawk Road and Apache Trail were running full with water flowing over the roadway_ stranding a vehicle."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.53,
+          33.43
         ]
       }
     }
