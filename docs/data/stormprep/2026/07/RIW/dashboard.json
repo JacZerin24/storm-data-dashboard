@@ -6,7 +6,7 @@
     "wfo": "RIW",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-17T10:58:31Z",
+    "generated_utc": "2026-07-18T10:40:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "RIW",
-    "total_candidate_reports": 14,
-    "mapped_candidate_reports": 14,
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
     "candidate_report_counts": {
+      "flooding": 3,
       "hail": 1,
       "thunderstorm_wind": 13
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 3,
       "HAIL": 1,
       "NON-TSTM WND GST": 1,
       "TSTM WND GST": 12
@@ -355,6 +357,72 @@
       "ugc": "WYC013",
       "ugc_name": "Fremont",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607160415",
+      "standard_time_display": "2026-07-15 21:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Thermopolis",
+      "county": "Hot Springs",
+      "state": "WY",
+      "source": "Law Enforcement",
+      "remark": "Delayed report: Initial report of flooding in East Thermopolis. Minimal details given at the time.",
+      "lat": 43.64,
+      "lon": -108.2,
+      "ugc": "WYC017",
+      "ugc_name": "Hot Springs",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607160542",
+      "standard_time_display": "2026-07-15 22:42 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Thermopolis",
+      "county": "Hot Springs",
+      "state": "WY",
+      "source": "Law Enforcement",
+      "remark": "Delayed Report: Video shared by Thermopolis Police Department showing ongoing flooding with muddy water over 1 ft deep flowing over C Ave in East Thermopolis_ as the usually narrow and dry Warm Sprin",
+      "lat": 43.64,
+      "lon": -108.2,
+      "ugc": "WYC017",
+      "ugc_name": "Hot Springs",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607170000",
+      "standard_time_display": "2026-07-16 17:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 SW Hyattville",
+      "county": "Big Horn",
+      "state": "WY",
+      "source": "Law Enforcement",
+      "remark": "Heavy rainfall upstream caused irrigation canals along the Nowood River in southern Bighorn County to overtop their banks. No major damages noted_ and water returned to more normal levels shortly aft",
+      "lat": 44.17,
+      "lon": -107.68,
+      "ugc": "WYC003",
+      "ugc_name": "Big Horn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -363,7 +431,7 @@
       "wfo": "RIW",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-17T10:58:32Z"
+      "generated_utc": "2026-07-18T10:40:19Z"
     },
     "primary_links": [
       {

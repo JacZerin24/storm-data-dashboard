@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-17T10:58:13Z",
+    "generated_utc": "2026-07-18T10:40:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,29 +17,32 @@
     "year": 2026,
     "month": 7,
     "wfo": "MLB",
-    "total_candidate_reports": 92,
-    "mapped_candidate_reports": 92,
+    "total_candidate_reports": 95,
+    "mapped_candidate_reports": 95,
     "candidate_report_counts": {
       "flooding": 2,
-      "marine": 32,
+      "marine": 33,
       "other": 9,
-      "thunderstorm_wind": 49
+      "thunderstorm_wind": 50,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
       "LIGHTNING": 2,
-      "MARINE TSTM WIND": 29,
+      "MARINE TSTM WIND": 30,
       "RAIN": 7,
       "RIP CURRENTS": 3,
       "TSTM WND DMG": 4,
-      "TSTM WND GST": 45
+      "TSTM WND GST": 46,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MLB&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MLB&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -2077,6 +2081,72 @@
       "ugc": "AMZ555",
       "ugc_name": "Sebastian Inlet to Jupiter Inlet 0-20 nm",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-93",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607172118",
+      "standard_time_display": "2026-07-17 16:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Sebastian Inlet S",
+      "county": "AMZ555",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Indian River County Emergency Management reported a waterspout in the Indian River_ just south of the Sebastian Inlet. Additional social media photos and videos captured the waterspout.",
+      "lat": 27.83,
+      "lon": -80.46,
+      "ugc": "AMZ555",
+      "ugc_name": "Sebastian Inlet to Jupiter Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-94",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607172217",
+      "standard_time_display": "2026-07-17 17:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Treasure Coast Ai",
+      "county": "St. Lucie",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "The ASOS at the Treasure Coast International Airport measured a wind gust of 56MPH/49KTS from the west-southwest.",
+      "lat": 27.5,
+      "lon": -80.38,
+      "ugc": "FLC111",
+      "ugc_name": "St. Lucie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-95",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607172249",
+      "standard_time_display": "2026-07-17 17:49 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "2 NE Snug Harbor",
+      "county": "AMZ555",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "The Weather Flow Site in the Indian River near Jensen Beach (XJEN) measured a wind gust of 45MPH/39KTS from the west-northwest.",
+      "lat": 27.22,
+      "lon": -80.2,
+      "ugc": "AMZ555",
+      "ugc_name": "Sebastian Inlet to Jupiter Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2085,7 +2155,7 @@
       "wfo": "MLB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-17T10:58:14Z"
+      "generated_utc": "2026-07-18T10:40:02Z"
     },
     "primary_links": [
       {
