@@ -3,31 +3,35 @@
   "year": 2026,
   "month": 7,
   "wfo": "PBZ",
-  "total_candidate_reports": 264,
-  "mapped_candidate_reports": 264,
+  "total_candidate_reports": 339,
+  "mapped_candidate_reports": 339,
   "candidate_report_counts": {
-    "flooding": 101,
+    "flooding": 119,
     "hail": 1,
     "heat_cold": 13,
-    "other": 22,
-    "thunderstorm_wind": 127
+    "other": 36,
+    "thunderstorm_wind": 166,
+    "tornado": 4
   },
   "candidate_report_type_counts": {
     "EXTREME HEAT": 13,
-    "FLASH FLOOD": 100,
-    "FLOOD": 1,
+    "FLASH FLOOD": 117,
+    "FLOOD": 2,
+    "FUNNEL CLOUD": 2,
     "HAIL": 1,
-    "LANDSLIDE": 3,
+    "LANDSLIDE": 5,
     "LIGHTNING": 1,
-    "RAIN": 18,
-    "TSTM WND DMG": 126,
-    "TSTM WND GST": 1
+    "RAIN": 30,
+    "TORNADO": 2,
+    "TSTM WND DMG": 164,
+    "TSTM WND GST": 2
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PBZ&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

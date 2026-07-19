@@ -6,7 +6,7 @@
     "wfo": "MOB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-18T10:40:02Z",
+    "generated_utc": "2026-07-19T10:42:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,25 @@
     "year": 2026,
     "month": 7,
     "wfo": "MOB",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "marine": 5,
-      "thunderstorm_wind": 1
+      "marine": 10,
+      "thunderstorm_wind": 1,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 5,
-      "TSTM WND DMG": 1
+      "MARINE TSTM WIND": 10,
+      "TSTM WND DMG": 1,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MOB&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MOB&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -178,6 +182,138 @@
       "ugc": "FLC033",
       "ugc_name": "Escambia",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182112",
+      "standard_time_display": "2026-07-18 15:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 54.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Eglin Afb",
+      "county": "Okaloosa",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "KVPS ASOS recorded a wind gust of 47 knots (~51 mph).",
+      "lat": 30.48,
+      "lon": -86.54,
+      "ugc": "FLC091",
+      "ugc_name": "Okaloosa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182120",
+      "standard_time_display": "2026-07-18 15:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "5 E Oriole Beach",
+      "county": "GMZ634",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet site Santa Rosa Sound (DB127) recorded a wind gust of 40 knots (~46 mph).",
+      "lat": 30.38,
+      "lon": -87.01,
+      "ugc": "GMZ634",
+      "ugc_name": "Pensacola Bay Area including Santa Rosa Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182156",
+      "standard_time_display": "2026-07-18 15:56 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Destin",
+      "county": "Okaloosa",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "KDTS ASOS recorded a wind gust of 36 knots (~41 mph).",
+      "lat": 30.4,
+      "lon": -86.47,
+      "ugc": "FLC091",
+      "ugc_name": "Okaloosa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182213",
+      "standard_time_display": "2026-07-18 16:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "5 ESE Destin",
+      "county": "Okaloosa",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station XCBS reports a gust of 41 mph.",
+      "lat": 30.39,
+      "lon": -86.41,
+      "ugc": "FLC091",
+      "ugc_name": "Okaloosa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182222",
+      "standard_time_display": "2026-07-18 16:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Pensacola NAS",
+      "county": "Escambia",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "KNPA ASOS recorded a wind gust of 36 knots (~41 mph).",
+      "lat": 30.36,
+      "lon": -87.32,
+      "ugc": "FLC033",
+      "ugc_name": "Escambia",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607182225",
+      "standard_time_display": "2026-07-18 16:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "16 ESE Seminole",
+      "county": "GMZ636",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media shared a video of a waterspout over eastern Choctawhatchee Bay by the US 331 bridge.",
+      "lat": 30.4,
+      "lon": -86.16,
+      "ugc": "GMZ636",
+      "ugc_name": "Eastern Choctawhatchee Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -186,7 +322,7 @@
       "wfo": "MOB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-18T10:40:02Z"
+      "generated_utc": "2026-07-19T10:42:51Z"
     },
     "primary_links": [
       {
