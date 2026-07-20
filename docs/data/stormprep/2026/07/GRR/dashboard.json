@@ -6,7 +6,7 @@
     "wfo": "GRR",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-19T10:42:25Z",
+    "generated_utc": "2026-07-20T11:56:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "GRR",
-    "total_candidate_reports": 114,
-    "mapped_candidate_reports": 114,
+    "total_candidate_reports": 116,
+    "mapped_candidate_reports": 116,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 3,
       "marine": 14,
       "other": 9,
-      "thunderstorm_wind": 85
+      "thunderstorm_wind": 87
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
@@ -33,8 +33,8 @@
       "MARINE TSTM WIND": 14,
       "NON-TSTM WND GST": 12,
       "RAIN": 8,
-      "TSTM WND DMG": 38,
-      "TSTM WND GST": 35
+      "TSTM WND DMG": 39,
+      "TSTM WND GST": 36
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2563,6 +2563,50 @@
       "ugc": "MIC037",
       "ugc_name": "Clinton",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRR-115",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607172340",
+      "standard_time_display": "2026-07-17 18:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GRR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 48.0,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Sandstone",
+      "county": "Jackson",
+      "state": "MI",
+      "source": "ASOS",
+      "remark": "ASOS station KJXN Jackson County-Reynolds Field Airport.",
+      "lat": 42.27,
+      "lon": -84.47,
+      "ugc": "MIC075",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRR-116",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607180000",
+      "standard_time_display": "2026-07-17 19:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GRR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NNE Jackson",
+      "county": "Jackson",
+      "state": "MI",
+      "source": "Public",
+      "remark": "Tree fell through a house. 4 to 6 inch diameter branch on a car.",
+      "lat": 42.33,
+      "lon": -84.34,
+      "ugc": "MIC075",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2571,7 +2615,7 @@
       "wfo": "GRR",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-19T10:42:25Z"
+      "generated_utc": "2026-07-20T11:56:32Z"
     },
     "primary_links": [
       {

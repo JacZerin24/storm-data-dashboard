@@ -3,13 +3,14 @@
   "year": 2026,
   "month": 7,
   "wfo": "BGM",
-  "total_candidate_reports": 183,
-  "mapped_candidate_reports": 183,
+  "total_candidate_reports": 189,
+  "mapped_candidate_reports": 189,
   "candidate_report_counts": {
     "flooding": 19,
     "hail": 1,
-    "other": 11,
-    "thunderstorm_wind": 152
+    "other": 12,
+    "thunderstorm_wind": 156,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 18,
@@ -17,8 +18,9 @@
     "HAIL": 1,
     "LIGHTNING": 1,
     "NON-TSTM WND DMG": 1,
-    "RAIN": 10,
-    "TSTM WND DMG": 148,
+    "RAIN": 11,
+    "TORNADO": 1,
+    "TSTM WND DMG": 152,
     "TSTM WND GST": 3
   },
   "nws_api_alert_count": 0,
@@ -26,6 +28,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BGM&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

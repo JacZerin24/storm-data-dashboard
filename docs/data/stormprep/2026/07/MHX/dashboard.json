@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-19T10:42:49Z",
+    "generated_utc": "2026-07-20T11:56:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,30 +17,33 @@
     "year": 2026,
     "month": 7,
     "wfo": "MHX",
-    "total_candidate_reports": 41,
-    "mapped_candidate_reports": 41,
+    "total_candidate_reports": 44,
+    "mapped_candidate_reports": 44,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 4,
-      "marine": 11,
-      "other": 1,
-      "thunderstorm_wind": 23
+      "marine": 12,
+      "other": 2,
+      "thunderstorm_wind": 23,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "HAIL": 4,
-      "LIGHTNING": 1,
-      "MARINE TSTM WIND": 9,
+      "LIGHTNING": 2,
+      "MARINE TSTM WIND": 10,
       "RIP CURRENTS": 2,
       "TSTM WND DMG": 19,
-      "TSTM WND GST": 4
+      "TSTM WND GST": 4,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -52,7 +55,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -956,6 +960,72 @@
       "ugc": "AMZ135",
       "ugc_name": "Pamlico Sound",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607192045",
+      "standard_time_display": "2026-07-19 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Duck",
+      "county": "AMZ150",
+      "state": "NC",
+      "source": "NWS Employee",
+      "remark": "Waterspout reported looking north from Kitty Hawk. The waterspout was moving parallel to the coast.",
+      "lat": 36.16,
+      "lon": -75.72,
+      "ugc": "AMZ150",
+      "ugc_name": "S of Currituck Beach Light NC to Oregon Inlet NC out to 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607192206",
+      "standard_time_display": "2026-07-19 17:06 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Colington",
+      "county": "Dare",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Report of lightning striking home and damaging it.",
+      "lat": 36.01,
+      "lon": -75.71,
+      "ugc": "NCC055",
+      "ugc_name": "Dare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607200130",
+      "standard_time_display": "2026-07-19 20:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "7 NNE Mackeys",
+      "county": "AMZ230",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Tempest reported gust of 39 knots.",
+      "lat": 36.03,
+      "lon": -76.6,
+      "ugc": "AMZ230",
+      "ugc_name": "Albemarle Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -964,7 +1034,7 @@
       "wfo": "MHX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-19T10:42:49Z"
+      "generated_utc": "2026-07-20T11:56:59Z"
     },
     "primary_links": [
       {

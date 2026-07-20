@@ -6,7 +6,7 @@
     "wfo": "BYZ",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-19T10:42:05Z",
+    "generated_utc": "2026-07-20T11:56:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "BYZ",
-    "total_candidate_reports": 72,
-    "mapped_candidate_reports": 72,
+    "total_candidate_reports": 75,
+    "mapped_candidate_reports": 75,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 16,
       "other": 7,
-      "thunderstorm_wind": 47
+      "thunderstorm_wind": 50
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "HAIL": 16,
       "RAIN": 7,
-      "TSTM WND DMG": 1,
-      "TSTM WND GST": 46
+      "TSTM WND DMG": 3,
+      "TSTM WND GST": 47
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1635,6 +1635,72 @@
       "ugc": "MTC111",
       "ugc_name": "Yellowstone",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BYZ-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607190000",
+      "standard_time_display": "2026-07-18 17:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BYZ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 71.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Alzada",
+      "county": "Carter",
+      "state": "MT",
+      "source": "Mesonet",
+      "remark": "Mesonet station MTALZ 2.3 E Alzada (MT DOT).",
+      "lat": 45.0,
+      "lon": -104.37,
+      "ugc": "MTC011",
+      "ugc_name": "Carter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BYZ-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607192312",
+      "standard_time_display": "2026-07-19 16:12 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BYZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 NW Ranchester",
+      "county": "Sheridan",
+      "state": "WY",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported tree and large branches down.",
+      "lat": 44.99,
+      "lon": -107.28,
+      "ugc": "WYC033",
+      "ugc_name": "Sheridan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BYZ-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607192324",
+      "standard_time_display": "2026-07-19 16:24 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BYZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Ranchester",
+      "county": "Sheridan",
+      "state": "WY",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported top of tree broke off onto house.",
+      "lat": 44.91,
+      "lon": -107.17,
+      "ugc": "WYC033",
+      "ugc_name": "Sheridan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BYZ&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1643,7 +1709,7 @@
       "wfo": "BYZ",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-19T10:42:05Z"
+      "generated_utc": "2026-07-20T11:56:09Z"
     },
     "primary_links": [
       {

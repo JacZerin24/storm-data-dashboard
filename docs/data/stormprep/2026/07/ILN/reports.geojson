@@ -7,7 +7,7 @@
     "wfo": "ILN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-19T10:42:32Z",
+    "generated_utc": "2026-07-20T11:56:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1502,6 +1502,32 @@
       "id": "iem-lsr-ILN-58",
       "properties": {
         "report_id": "iem-lsr-ILN-58",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607182205",
+        "standard_time_display": "2026-07-18 17:05 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Logan",
+        "city": "1 N West Liberty",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several trees downed at a property on US Route 68."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.76,
+          40.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-59",
+      "properties": {
+        "report_id": "iem-lsr-ILN-59",
         "report_type": "FLOOD",
         "event_category": "flooding",
         "valid_utc": "202607182215",
@@ -1519,6 +1545,58 @@
         "type": "Point",
         "coordinates": [
           -82.9,
+          38.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-60",
+      "properties": {
+        "report_id": "iem-lsr-ILN-60",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607182242",
+        "standard_time_display": "2026-07-18 17:42 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Delaware",
+        "city": "2 WSW Galena",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Large tree blocking SR 3."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.91,
+          40.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-61",
+      "properties": {
+        "report_id": "iem-lsr-ILN-61",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607182300",
+        "standard_time_display": "2026-07-18 18:00 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Scioto",
+        "city": "1 W Sciotodale",
+        "state": "OH",
+        "magnitude": 2.9,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "3 hour total from 4 PM to 7 PM measured by Fischer-Porter Gauge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.89,
           38.76
         ]
       }
