@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-20T11:57:36Z",
+  "generated_utc": "2026-07-21T11:18:41Z",
   "year": 2026,
   "month": 7,
   "total_wfos": 125,
-  "successful_wfos": 119,
-  "failed_wfos": 6,
+  "successful_wfos": 118,
+  "failed_wfos": 7,
   "results": [
     {
       "wfo": "ABQ",
@@ -596,10 +596,10 @@
     },
     {
       "wfo": "MQT",
-      "returncode": 0,
-      "ok": true,
-      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv\nFetching NWS API alerts from https://api.weather.gov/alerts?office=MQT&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z\nWrote docs/data/stormprep/2026/07/MQT/dashboard.json\nWrote docs/data/stormprep/2026/07/MQT/reports.geojson\nWrote docs/data/stormprep/2026/07/MQT/products.json\nWrote docs/data/stormprep/2026/07/MQT/warnings.geojson\nWrote docs/data/stormprep/2026/07/MQT/tornado_tracks.geojson\nWrote docs/data/stormprep/2026/07/MQT/summary.json\nWrote docs/data/index.json\nDone.\n",
-      "stderr_tail": ""
+      "returncode": 1,
+      "ok": false,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv\n",
+      "stderr_tail": "ata-dashboard/storm-data-dashboard/scripts/build_month.py\", line 527, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 485, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 202, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 873, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 306, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1947, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 215, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 832, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 897, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 868, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 885, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2084, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 208, saw 17\n\n"
     },
     {
       "wfo": "MRX",

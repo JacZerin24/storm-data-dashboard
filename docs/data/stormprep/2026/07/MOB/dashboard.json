@@ -6,7 +6,7 @@
     "wfo": "MOB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-20T11:57:01Z",
+    "generated_utc": "2026-07-21T11:18:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "MOB",
-    "total_candidate_reports": 12,
-    "mapped_candidate_reports": 12,
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
     "candidate_report_counts": {
       "marine": 10,
-      "thunderstorm_wind": 1,
+      "thunderstorm_wind": 2,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "MARINE TSTM WIND": 10,
-      "TSTM WND DMG": 1,
+      "TSTM WND DMG": 2,
       "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
@@ -314,6 +314,28 @@
       "ugc": "GMZ636",
       "ugc_name": "Eastern Choctawhatchee Bay",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607191905",
+      "standard_time_display": "2026-07-19 13:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Loxley",
+      "county": "Baldwin",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Public reported multiple trees down near Barlow Road and Gabriella Lane.",
+      "lat": 30.59,
+      "lon": -87.77,
+      "ugc": "ALC003",
+      "ugc_name": "Baldwin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -322,7 +344,7 @@
       "wfo": "MOB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-20T11:57:01Z"
+      "generated_utc": "2026-07-21T11:18:13Z"
     },
     "primary_links": [
       {
