@@ -6,7 +6,7 @@
     "wfo": "IND",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:17:58Z",
+    "generated_utc": "2026-07-22T11:18:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "IND",
-    "total_candidate_reports": 12,
-    "mapped_candidate_reports": 12,
+    "total_candidate_reports": 14,
+    "mapped_candidate_reports": 14,
     "candidate_report_counts": {
       "flooding": 1,
       "other": 2,
-      "thunderstorm_wind": 9
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
       "RAIN": 2,
-      "TSTM WND DMG": 8,
+      "TSTM WND DMG": 10,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -313,6 +313,50 @@
       "ugc": "INC107",
       "ugc_name": "Montgomery",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IND-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607211817",
+      "standard_time_display": "2026-07-21 12:17 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IND",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Lacy",
+      "county": "Martin",
+      "state": "IN",
+      "source": "911 Call Center",
+      "remark": "Trees down on Windom Road. Time estimated from radar.",
+      "lat": 38.62,
+      "lon": -86.79,
+      "ugc": "INC101",
+      "ugc_name": "Martin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IND-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607211824",
+      "standard_time_display": "2026-07-21 12:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IND",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Crothersville",
+      "county": "Jackson",
+      "state": "IN",
+      "source": "911 Call Center",
+      "remark": "Several reports of trees down. Time estimated from radar.",
+      "lat": 38.8,
+      "lon": -85.84,
+      "ugc": "INC071",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -321,7 +365,7 @@
       "wfo": "IND",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-21T11:17:58Z"
+      "generated_utc": "2026-07-22T11:18:39Z"
     },
     "primary_links": [
       {

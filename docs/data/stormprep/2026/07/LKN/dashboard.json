@@ -6,7 +6,7 @@
     "wfo": "LKN",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:18:03Z",
+    "generated_utc": "2026-07-22T11:18:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "LKN",
-    "total_candidate_reports": 7,
-    "mapped_candidate_reports": 7,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 1,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "HAIL": 1,
-      "TSTM WND GST": 4
+      "TSTM WND GST": 6
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -202,6 +202,50 @@
       "ugc": "NVC015",
       "ugc_name": "Lander",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607212210",
+      "standard_time_display": "2026-07-21 14:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "Ely Airport",
+      "county": "White Pine",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station CMP25 Ely Airport (CEMP).",
+      "lat": 39.29,
+      "lon": -114.84,
+      "ugc": "NVC033",
+      "ugc_name": "White Pine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607212253",
+      "standard_time_display": "2026-07-21 14:53 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "Ely Airport",
+      "county": "White Pine",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "ASOS station KELY Ely Airport ASOS.",
+      "lat": 39.3,
+      "lon": -114.85,
+      "ugc": "NVC033",
+      "ugc_name": "White Pine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -210,7 +254,7 @@
       "wfo": "LKN",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-21T11:18:03Z"
+      "generated_utc": "2026-07-22T11:18:47Z"
     },
     "primary_links": [
       {

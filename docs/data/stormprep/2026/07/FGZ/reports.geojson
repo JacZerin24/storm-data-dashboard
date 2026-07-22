@@ -7,7 +7,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:17:45Z",
+    "generated_utc": "2026-07-22T11:18:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1008,6 +1008,32 @@
       "id": "iem-lsr-FGZ-39",
       "properties": {
         "report_id": "iem-lsr-FGZ-39",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607202330",
+        "standard_time_display": "2026-07-20 16:30 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Yavapai",
+        "city": "3 NNW Prescott Valley",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Flooding inside a home in Viewpoint neighborhood. Floodwaters knocked down concrete block wall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.34,
+          34.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-40",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-40",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607210736",
@@ -1026,6 +1052,32 @@
         "coordinates": [
           -111.45,
           36.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-41",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-41",
+        "report_type": "LANDSPOUT",
+        "event_category": "other",
+        "valid_utc": "202607212215",
+        "standard_time_display": "2026-07-21 15:15 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Navajo",
+        "city": "2 ENE Snowflake",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photos sent via social media show a landspout east of Snowflake. Location estimated from info provide."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.05,
+          34.54
         ]
       }
     }

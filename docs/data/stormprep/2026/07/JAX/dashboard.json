@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:18:00Z",
+    "generated_utc": "2026-07-22T11:18:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 7,
     "wfo": "JAX",
-    "total_candidate_reports": 88,
-    "mapped_candidate_reports": 88,
+    "total_candidate_reports": 91,
+    "mapped_candidate_reports": 91,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 8,
       "other": 8,
-      "thunderstorm_wind": 70
+      "thunderstorm_wind": 73
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
       "HAIL": 8,
       "LIGHTNING": 1,
       "RAIN": 7,
-      "TSTM WND DMG": 29,
-      "TSTM WND GST": 41
+      "TSTM WND DMG": 31,
+      "TSTM WND GST": 42
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1948,6 +1948,50 @@
     {
       "report_id": "iem-lsr-JAX-87",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607202210",
+      "standard_time_display": "2026-07-20 17:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 W Nicholls",
+      "county": "Coffee",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Delayed report - Coffee County 911/ Dispatch reported trees down near Highway 32 along Shell Belle Road and Green Lantern Road in the vicinity of Nicholls. Time of damage based on radar data.",
+      "lat": 31.51,
+      "lon": -82.73,
+      "ugc": "GAC069",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607202215",
+      "standard_time_display": "2026-07-20 17:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE West Green",
+      "county": "Coffee",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Delayed report - Coffee County 911/ Dispatch reported a tree down along Moore Road near the intersection of Deaton Circle in the vicinity of West Green. Time of damage based on radar data.",
+      "lat": 31.62,
+      "lon": -82.73,
+      "ugc": "GAC069",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-89",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607202230",
       "standard_time_display": "2026-07-20 17:30 EST",
       "standard_time_zone": "EST",
@@ -1968,7 +2012,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-88",
+      "report_id": "iem-lsr-JAX-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607202246",
       "standard_time_display": "2026-07-20 17:46 EST",
@@ -1988,6 +2032,28 @@
       "ugc": "GAC161",
       "ugc_name": "Jeff Davis",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-91",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607212112",
+      "standard_time_display": "2026-07-21 16:12 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Arlington",
+      "county": "Duval",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station XTRM Terminal Channel measured a peak wind gust of 45 mph.",
+      "lat": 30.34,
+      "lon": -81.63,
+      "ugc": "FLC031",
+      "ugc_name": "Duval",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1996,7 +2062,7 @@
       "wfo": "JAX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-21T11:18:00Z"
+      "generated_utc": "2026-07-22T11:18:42Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:18:00Z",
+    "generated_utc": "2026-07-22T11:18:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2256,6 +2256,58 @@
       "id": "iem-lsr-JAX-87",
       "properties": {
         "report_id": "iem-lsr-JAX-87",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607202210",
+        "standard_time_display": "2026-07-20 17:10 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Coffee",
+        "city": "5 W Nicholls",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Delayed report - Coffee County 911/ Dispatch reported trees down near Highway 32 along Shell Belle Road and Green Lantern Road in the vicinity of Nicholls. Time of damage based on radar data."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.73,
+          31.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-88",
+      "properties": {
+        "report_id": "iem-lsr-JAX-88",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607202215",
+        "standard_time_display": "2026-07-20 17:15 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Coffee",
+        "city": "1 NE West Green",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Delayed report - Coffee County 911/ Dispatch reported a tree down along Moore Road near the intersection of Deaton Circle in the vicinity of West Green. Time of damage based on radar data."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.73,
+          31.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-89",
+      "properties": {
+        "report_id": "iem-lsr-JAX-89",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607202230",
@@ -2279,9 +2331,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-JAX-88",
+      "id": "iem-lsr-JAX-90",
       "properties": {
-        "report_id": "iem-lsr-JAX-88",
+        "report_id": "iem-lsr-JAX-90",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607202246",
@@ -2300,6 +2352,32 @@
         "coordinates": [
           -82.61,
           31.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-91",
+      "properties": {
+        "report_id": "iem-lsr-JAX-91",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607212112",
+        "standard_time_display": "2026-07-21 16:12 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Duval",
+        "city": "1 W Arlington",
+        "state": "FL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XTRM Terminal Channel measured a peak wind gust of 45 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.63,
+          30.34
         ]
       }
     }

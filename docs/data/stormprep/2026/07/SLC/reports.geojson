@@ -7,7 +7,7 @@
     "wfo": "SLC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:18:34Z",
+    "generated_utc": "2026-07-22T11:19:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1918,6 +1918,32 @@
       "id": "iem-lsr-SLC-74",
       "properties": {
         "report_id": "iem-lsr-SLC-74",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607210000",
+        "standard_time_display": "2026-07-20 17:00 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Iron",
+        "city": "Hamilton Ft",
+        "state": "UT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Video of large debris flow / flash flood pushing through Shurtz Creek associated with a thunderstorm that occurred around 4:30pm MT. No structures were impacted as the flow remained within the creek."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.13,
+          37.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-75",
+      "properties": {
+        "report_id": "iem-lsr-SLC-75",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607210620",
@@ -1941,9 +1967,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SLC-75",
+      "id": "iem-lsr-SLC-76",
       "properties": {
-        "report_id": "iem-lsr-SLC-75",
+        "report_id": "iem-lsr-SLC-76",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607210620",
@@ -1962,6 +1988,110 @@
         "coordinates": [
           -110.73,
           37.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-77",
+      "properties": {
+        "report_id": "iem-lsr-SLC-77",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607210700",
+        "standard_time_display": "2026-07-21 00:00 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Garfield",
+        "city": "11 N Ticaboo",
+        "state": "UT",
+        "magnitude": 72.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station UTELL Sr-276 At Mp 21.5 Mt. Ellsworth."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.66,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-78",
+      "properties": {
+        "report_id": "iem-lsr-SLC-78",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212141",
+        "standard_time_display": "2026-07-21 14:41 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Sevier",
+        "city": "2 SE Sigurd",
+        "state": "UT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "UDOT reports debris on SR-24 near MP12 due to flash flooding_ resulting in a road closure."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94,
+          38.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-79",
+      "properties": {
+        "report_id": "iem-lsr-SLC-79",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607220240",
+        "standard_time_display": "2026-07-21 19:40 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Salt Lake",
+        "city": "Salt Lake City Weather",
+        "state": "UT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Measured wind gust of 63 mph I-215 at I-80 mesonet sensor (UT215)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.95,
+          40.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-80",
+      "properties": {
+        "report_id": "iem-lsr-SLC-80",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607220254",
+        "standard_time_display": "2026-07-21 19:54 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Salt Lake",
+        "city": "1 W Salt Lake City Weat",
+        "state": "UT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Measured gust of 61 mph at Salt Lake City International Airport ASOS (KSLC)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.97,
+          40.77
         ]
       }
     }

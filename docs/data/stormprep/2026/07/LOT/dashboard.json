@@ -6,7 +6,7 @@
     "wfo": "LOT",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-21T11:18:04Z",
+    "generated_utc": "2026-07-22T11:18:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "LOT",
-    "total_candidate_reports": 265,
-    "mapped_candidate_reports": 265,
+    "total_candidate_reports": 266,
+    "mapped_candidate_reports": 266,
     "candidate_report_counts": {
       "flooding": 126,
       "hail": 2,
       "marine": 6,
       "other": 31,
-      "thunderstorm_wind": 99,
+      "thunderstorm_wind": 100,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -34,6 +34,7 @@
       "HAIL": 2,
       "MARINE TSTM WIND": 6,
       "MISC MRN/SRF HZD": 1,
+      "NON-TSTM WND GST": 1,
       "RAIN": 30,
       "TSTM WND DMG": 67,
       "TSTM WND GST": 32
@@ -5889,6 +5890,28 @@
       "ugc": "LMZ744",
       "ugc_name": "Gary to Burns Harbor IN",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOT-266",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607220900",
+      "standard_time_display": "2026-07-22 03:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LOT",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 11.0,
+      "magnitude_qualifier": null,
+      "city": "NWS Chicago-Romeoville",
+      "county": "Will",
+      "state": "IL",
+      "source": "Official NWS Obse",
+      "remark": "This is a test report. Do not take any action based on this report.",
+      "lat": 41.6,
+      "lon": -88.08,
+      "ugc": "ILC197",
+      "ugc_name": "Will",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOT&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -5897,7 +5920,7 @@
       "wfo": "LOT",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-21T11:18:05Z"
+      "generated_utc": "2026-07-22T11:18:49Z"
     },
     "primary_links": [
       {
