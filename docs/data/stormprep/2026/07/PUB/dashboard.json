@@ -6,7 +6,7 @@
     "wfo": "PUB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-22T11:19:17Z",
+    "generated_utc": "2026-07-23T11:19:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 7,
     "wfo": "PUB",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "other": 1,
+      "other": 3,
       "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
-      "RAIN": 1,
+      "DEBRIS FLOW": 1,
+      "RAIN": 2,
       "TSTM WND GST": 9
     },
     "nws_api_alert_count": 0,
@@ -266,6 +267,50 @@
       "ugc": "COC009",
       "ugc_name": "Baca",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607230130",
+      "standard_time_display": "2026-07-22 18:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "DEBRIS FLOW",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE San Isabel",
+      "county": "Pueblo",
+      "state": "CO",
+      "source": "Fire Dept/Rescue",
+      "remark": "Rock fall across Highway 165.",
+      "lat": 37.97,
+      "lon": -105.04,
+      "ugc": "COC101",
+      "ugc_name": "Pueblo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607230504",
+      "standard_time_display": "2026-07-22 22:04 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.81,
+      "magnitude_qualifier": null,
+      "city": "4 NW Peterson AFB",
+      "county": "El Paso",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": "Total QPF from today.",
+      "lat": 38.88,
+      "lon": -104.74,
+      "ugc": "COC041",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -274,7 +319,7 @@
       "wfo": "PUB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-22T11:19:17Z"
+      "generated_utc": "2026-07-23T11:19:43Z"
     },
     "primary_links": [
       {

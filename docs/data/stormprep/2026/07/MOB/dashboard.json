@@ -6,7 +6,7 @@
     "wfo": "MOB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-22T11:19:00Z",
+    "generated_utc": "2026-07-23T11:19:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 7,
     "wfo": "MOB",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
+      "flooding": 2,
       "marine": 10,
       "thunderstorm_wind": 2,
       "tornado": 1
     },
     "candidate_report_type_counts": {
+      "COASTAL FLOOD": 2,
       "MARINE TSTM WIND": 10,
       "TSTM WND DMG": 2,
       "WATERSPOUT": 1
@@ -336,6 +338,50 @@
       "ugc": "ALC003",
       "ugc_name": "Baldwin",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607221005",
+      "standard_time_display": "2026-07-22 04:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Pinto Island",
+      "county": "Baldwin",
+      "state": "AL",
+      "source": "Dept of Highways",
+      "remark": "Eastbound lane on Mobile Bay Causeway closed due to flooding.",
+      "lat": 30.68,
+      "lon": -87.99,
+      "ugc": "ALC003",
+      "ugc_name": "Baldwin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607221225",
+      "standard_time_display": "2026-07-22 06:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Hollingers Island",
+      "county": "GMZ630",
+      "state": "AL",
+      "source": "Dept of Highways",
+      "remark": "ALDOT reports both lanes flooded on Dauphin Island Parkway at Dog River.",
+      "lat": 30.57,
+      "lon": -88.09,
+      "ugc": "GMZ630",
+      "ugc_name": "North Mobile Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -344,7 +390,7 @@
       "wfo": "MOB",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-22T11:19:00Z"
+      "generated_utc": "2026-07-23T11:19:29Z"
     },
     "primary_links": [
       {

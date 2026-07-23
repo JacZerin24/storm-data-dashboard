@@ -7,7 +7,7 @@
     "wfo": "SLC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-22T11:19:26Z",
+    "generated_utc": "2026-07-23T11:19:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2050,6 +2050,84 @@
         "report_id": "iem-lsr-SLC-79",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
+        "valid_utc": "202607212217",
+        "standard_time_display": "2026-07-21 15:17 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Millard",
+        "city": "4 SE Hinckley",
+        "state": "UT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "UPR VAN site reported a gust to 59mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.63,
+          39.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-80",
+      "properties": {
+        "report_id": "iem-lsr-SLC-80",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607212255",
+        "standard_time_display": "2026-07-21 15:55 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Millard",
+        "city": "25 WSW Hinckley",
+        "state": "UT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "UDOT Portable RWIS 2 reported a gust to 61mph_ followed by a gust to 55mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.07,
+          39.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-81",
+      "properties": {
+        "report_id": "iem-lsr-SLC-81",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607220220",
+        "standard_time_display": "2026-07-21 19:20 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Salt Lake",
+        "city": "2 WSW Midvale",
+        "state": "UT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Multiple large trees uprooted across West Jordan reported via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94,
+          40.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-82",
+      "properties": {
+        "report_id": "iem-lsr-SLC-82",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
         "valid_utc": "202607220240",
         "standard_time_display": "2026-07-21 19:40 MST",
         "wfo": "SLC",
@@ -2071,9 +2149,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SLC-80",
+      "id": "iem-lsr-SLC-83",
       "properties": {
-        "report_id": "iem-lsr-SLC-80",
+        "report_id": "iem-lsr-SLC-83",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607220254",
@@ -2092,6 +2170,32 @@
         "coordinates": [
           -111.97,
           40.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-84",
+      "properties": {
+        "report_id": "iem-lsr-SLC-84",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607222032",
+        "standard_time_display": "2026-07-22 13:32 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Wayne",
+        "city": "1 NW Fruita",
+        "state": "UT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Park/Forest Srvc",
+        "event_narrative": "Capitol Reef National Park reported a flash flood on Sulphur Creek and a normally dry wash next to Sulphur Creek as well."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.26,
+          38.29
         ]
       }
     }

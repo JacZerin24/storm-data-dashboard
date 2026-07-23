@@ -3,21 +3,23 @@
   "year": 2026,
   "month": 7,
   "wfo": "ILN",
-  "total_candidate_reports": 130,
-  "mapped_candidate_reports": 130,
+  "total_candidate_reports": 149,
+  "mapped_candidate_reports": 149,
   "candidate_report_counts": {
     "flooding": 69,
     "hail": 1,
-    "other": 7,
-    "thunderstorm_wind": 53
+    "other": 8,
+    "thunderstorm_wind": 67,
+    "tornado": 4
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 39,
     "FLOOD": 30,
     "HAIL": 1,
     "NON-TSTM WND GST": 1,
-    "RAIN": 7,
-    "TSTM WND DMG": 42,
+    "RAIN": 8,
+    "TORNADO": 4,
+    "TSTM WND DMG": 56,
     "TSTM WND GST": 10
   },
   "nws_api_alert_count": 0,
@@ -25,6 +27,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
