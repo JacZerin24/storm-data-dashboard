@@ -6,7 +6,7 @@
     "wfo": "AFC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-24T11:09:25Z",
+    "generated_utc": "2026-07-25T10:42:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 7,
     "wfo": "AFC",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
     "candidate_report_counts": {
+      "flooding": 1,
       "tornado": 1
     },
     "candidate_report_type_counts": {
+      "FLOOD": 1,
       "FUNNEL CLOUD": 1
     },
     "nws_api_alert_count": 0,
@@ -68,6 +70,28 @@
       "ugc": "AKC170",
       "ugc_name": "Matanuska-Susitna",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607240100",
+      "standard_time_display": "2026-07-23 16:00 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFC",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Talkeetna",
+      "county": "Matanuska-Susitna",
+      "state": "AK",
+      "source": "Local Official",
+      "remark": "Reported by Mat-Su Borough that several structures were damaged and one home lost in Talkeetna due to flooding along the Talkeetna River and its tributaries. Flooding was noted from Wed through Fri b",
+      "lat": 62.32,
+      "lon": -150.11,
+      "ugc": "AKC170",
+      "ugc_name": "Matanuska-Susitna",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -76,7 +100,7 @@
       "wfo": "AFC",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-24T11:09:26Z"
+      "generated_utc": "2026-07-25T10:42:02Z"
     },
     "primary_links": [
       {

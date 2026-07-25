@@ -6,7 +6,7 @@
     "wfo": "DLH",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-24T11:09:45Z",
+    "generated_utc": "2026-07-25T10:42:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 7,
     "wfo": "DLH",
-    "total_candidate_reports": 96,
-    "mapped_candidate_reports": 96,
+    "total_candidate_reports": 98,
+    "mapped_candidate_reports": 98,
     "candidate_report_counts": {
       "flooding": 3,
-      "hail": 15,
+      "hail": 16,
       "marine": 3,
       "other": 53,
-      "thunderstorm_wind": 22
+      "thunderstorm_wind": 23
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
-      "HAIL": 15,
+      "HAIL": 16,
       "MARINE TSTM WIND": 3,
       "RAIN": 53,
-      "TSTM WND DMG": 17,
+      "TSTM WND DMG": 18,
       "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -2165,6 +2165,50 @@
       "ugc": "MNC031",
       "ugc_name": "Cook",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-97",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607250005",
+      "standard_time_display": "2026-07-24 18:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "4 W Wirt",
+      "county": "Itasca",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Time estimated by radar.",
+      "lat": 47.74,
+      "lon": -94.05,
+      "ugc": "MNC061",
+      "ugc_name": "Itasca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-98",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607250346",
+      "standard_time_display": "2026-07-24 21:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Cass Lake",
+      "county": "Cass",
+      "state": "MN",
+      "source": "Emergency Mngr",
+      "remark": "Trees down at Stony Point Resort with one possibly on a camper. Time estimated from radar.",
+      "lat": 47.38,
+      "lon": -94.58,
+      "ugc": "MNC021",
+      "ugc_name": "Cass",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2173,7 +2217,7 @@
       "wfo": "DLH",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-24T11:09:45Z"
+      "generated_utc": "2026-07-25T10:42:24Z"
     },
     "primary_links": [
       {

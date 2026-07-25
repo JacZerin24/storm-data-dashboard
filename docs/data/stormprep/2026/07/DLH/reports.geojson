@@ -7,7 +7,7 @@
     "wfo": "DLH",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-24T11:09:45Z",
+    "generated_utc": "2026-07-25T10:42:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2508,6 +2508,58 @@
         "coordinates": [
           -90.85,
           47.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-97",
+      "properties": {
+        "report_id": "iem-lsr-DLH-97",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202607250005",
+        "standard_time_display": "2026-07-24 18:05 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Itasca",
+        "city": "4 W Wirt",
+        "state": "MN",
+        "magnitude": 0.88,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.05,
+          47.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-98",
+      "properties": {
+        "report_id": "iem-lsr-DLH-98",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607250346",
+        "standard_time_display": "2026-07-24 21:46 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Cass",
+        "city": "1 E Cass Lake",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Trees down at Stony Point Resort with one possibly on a camper. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58,
+          47.38
         ]
       }
     }
