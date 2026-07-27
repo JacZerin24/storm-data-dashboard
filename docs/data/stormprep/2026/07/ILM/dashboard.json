@@ -6,7 +6,7 @@
     "wfo": "ILM",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-26T10:52:33Z",
+    "generated_utc": "2026-07-27T12:36:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 7,
     "wfo": "ILM",
-    "total_candidate_reports": 49,
-    "mapped_candidate_reports": 49,
+    "total_candidate_reports": 50,
+    "mapped_candidate_reports": 50,
     "candidate_report_counts": {
       "flooding": 1,
       "heat_cold": 1,
       "marine": 10,
+      "other": 1,
       "thunderstorm_wind": 37
     },
     "candidate_report_type_counts": {
       "EXTREME HEAT": 1,
       "FLOOD": 1,
+      "LIGHTNING": 1,
       "MARINE TSTM WIND": 5,
       "RIP CURRENTS": 5,
       "TSTM WND DMG": 35,
@@ -1130,6 +1132,28 @@
       "ugc": "AMZ250",
       "ugc_name": "Coastal waters from Surf City to Cape Fear NC out 20 nm",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607251545",
+      "standard_time_display": "2026-07-25 10:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Wrightsville Beach",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Lifeguard",
+      "remark": "*** 2 INJ *** Two people were struck by lightning while walking on the beach on Shell Island (north end of Wrightsville Beach). The condition of the two people are unknown.",
+      "lat": 34.23,
+      "lon": -77.78,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1138,7 +1162,7 @@
       "wfo": "ILM",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-26T10:52:33Z"
+      "generated_utc": "2026-07-27T12:36:12Z"
     },
     "primary_links": [
       {

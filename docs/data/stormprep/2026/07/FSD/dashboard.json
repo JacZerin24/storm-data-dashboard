@@ -6,7 +6,7 @@
     "wfo": "FSD",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-26T10:52:19Z",
+    "generated_utc": "2026-07-27T12:35:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 7,
     "wfo": "FSD",
-    "total_candidate_reports": 144,
-    "mapped_candidate_reports": 144,
+    "total_candidate_reports": 149,
+    "mapped_candidate_reports": 149,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 11,
-      "thunderstorm_wind": 126,
+      "thunderstorm_wind": 131,
       "tornado": 6
     },
     "candidate_report_type_counts": {
@@ -30,8 +30,8 @@
       "FUNNEL CLOUD": 1,
       "HAIL": 11,
       "TORNADO": 5,
-      "TSTM WND DMG": 21,
-      "TSTM WND GST": 105
+      "TSTM WND DMG": 25,
+      "TSTM WND GST": 106
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2830,6 +2830,28 @@
     {
       "report_id": "iem-lsr-FSD-127",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607260154",
+      "standard_time_display": "2026-07-25 19:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Canton",
+      "county": "Lincoln",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Numerous trees down across town with power outages reported.",
+      "lat": 43.3,
+      "lon": -96.59,
+      "ugc": "SDC083",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-128",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260155",
       "standard_time_display": "2026-07-25 19:55 CST",
       "standard_time_zone": "CST",
@@ -2850,7 +2872,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-128",
+      "report_id": "iem-lsr-FSD-129",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260157",
       "standard_time_display": "2026-07-25 19:57 CST",
@@ -2872,7 +2894,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-129",
+      "report_id": "iem-lsr-FSD-130",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607260158",
+      "standard_time_display": "2026-07-25 19:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 82.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Harrisburg",
+      "county": "Lincoln",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Via personal weather station.",
+      "lat": 43.44,
+      "lon": -96.69,
+      "ugc": "SDC083",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-131",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607260158",
+      "standard_time_display": "2026-07-25 19:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Harrisburg",
+      "county": "Lincoln",
+      "state": "SD",
+      "source": "NWS Employee",
+      "remark": "Widespread tree and fence damage across town. Some roof damage_ including extensive roof damage to storage facility along Cliff Ave.",
+      "lat": 43.43,
+      "lon": -96.7,
+      "ugc": "SDC083",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260200",
       "standard_time_display": "2026-07-25 20:00 CST",
@@ -2894,7 +2960,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-130",
+      "report_id": "iem-lsr-FSD-133",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260200",
       "standard_time_display": "2026-07-25 20:00 CST",
@@ -2916,7 +2982,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-131",
+      "report_id": "iem-lsr-FSD-134",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260200",
       "standard_time_display": "2026-07-25 20:00 CST",
@@ -2938,7 +3004,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-132",
+      "report_id": "iem-lsr-FSD-135",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607260200",
+      "standard_time_display": "2026-07-25 20:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Inwood",
+      "county": "Lyon",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Photo of damage to Inwood Public Library. Time estimated via radar.",
+      "lat": 43.3,
+      "lon": -96.44,
+      "ugc": "IAC119",
+      "ugc_name": "Lyon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-136",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607260202",
+      "standard_time_display": "2026-07-25 20:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Brandon",
+      "county": "Minnehaha",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Tree and fence damage across town.",
+      "lat": 43.59,
+      "lon": -96.58,
+      "ugc": "SDC099",
+      "ugc_name": "Minnehaha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-137",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260207",
       "standard_time_display": "2026-07-25 20:07 CST",
@@ -2960,7 +3070,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-133",
+      "report_id": "iem-lsr-FSD-138",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260208",
       "standard_time_display": "2026-07-25 20:08 CST",
@@ -2982,7 +3092,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-134",
+      "report_id": "iem-lsr-FSD-139",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260208",
       "standard_time_display": "2026-07-25 20:08 CST",
@@ -3004,7 +3114,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-135",
+      "report_id": "iem-lsr-FSD-140",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260208",
       "standard_time_display": "2026-07-25 20:08 CST",
@@ -3026,7 +3136,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-136",
+      "report_id": "iem-lsr-FSD-141",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260210",
       "standard_time_display": "2026-07-25 20:10 CST",
@@ -3048,7 +3158,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-137",
+      "report_id": "iem-lsr-FSD-142",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260210",
       "standard_time_display": "2026-07-25 20:10 CST",
@@ -3070,7 +3180,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-138",
+      "report_id": "iem-lsr-FSD-143",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260212",
       "standard_time_display": "2026-07-25 20:12 CST",
@@ -3092,7 +3202,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-139",
+      "report_id": "iem-lsr-FSD-144",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260222",
       "standard_time_display": "2026-07-25 20:22 CST",
@@ -3114,7 +3224,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-140",
+      "report_id": "iem-lsr-FSD-145",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260226",
       "standard_time_display": "2026-07-25 20:26 CST",
@@ -3136,7 +3246,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-141",
+      "report_id": "iem-lsr-FSD-146",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260235",
       "standard_time_display": "2026-07-25 20:35 CST",
@@ -3158,7 +3268,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-142",
+      "report_id": "iem-lsr-FSD-147",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260254",
       "standard_time_display": "2026-07-25 20:54 CST",
@@ -3180,7 +3290,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-143",
+      "report_id": "iem-lsr-FSD-148",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260303",
       "standard_time_display": "2026-07-25 21:03 CST",
@@ -3202,7 +3312,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-144",
+      "report_id": "iem-lsr-FSD-149",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260308",
       "standard_time_display": "2026-07-25 21:08 CST",
@@ -3230,7 +3340,7 @@
       "wfo": "FSD",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-26T10:52:20Z"
+      "generated_utc": "2026-07-27T12:35:58Z"
     },
     "primary_links": [
       {

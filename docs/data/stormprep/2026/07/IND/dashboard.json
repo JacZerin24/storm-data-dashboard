@@ -6,7 +6,7 @@
     "wfo": "IND",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-26T10:52:36Z",
+    "generated_utc": "2026-07-27T12:36:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 7,
     "wfo": "IND",
-    "total_candidate_reports": 14,
-    "mapped_candidate_reports": 14,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
       "flooding": 1,
       "other": 2,
-      "thunderstorm_wind": 11
+      "thunderstorm_wind": 12
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
       "RAIN": 2,
-      "TSTM WND DMG": 10,
+      "TSTM WND DMG": 11,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -357,6 +357,28 @@
       "ugc": "INC071",
       "ugc_name": "Jackson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IND-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607270249",
+      "standard_time_display": "2026-07-26 20:49 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IND",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Bruceville",
+      "county": "Knox",
+      "state": "IN",
+      "source": "Emergency Mngr",
+      "remark": "TRW winds downed a tree on Camp Arthur Road near Ford Road. Time estimated by radar.",
+      "lat": 38.77,
+      "lon": -87.46,
+      "ugc": "INC083",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IND&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -365,7 +387,7 @@
       "wfo": "IND",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-26T10:52:36Z"
+      "generated_utc": "2026-07-27T12:36:15Z"
     },
     "primary_links": [
       {
