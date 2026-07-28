@@ -7,7 +7,7 @@
     "wfo": "CTP",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-27T12:35:44Z",
+    "generated_utc": "2026-07-28T11:26:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -7136,6 +7136,58 @@
         "coordinates": [
           -78.4,
           41.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CTP-275",
+      "properties": {
+        "report_id": "iem-lsr-CTP-275",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607280352",
+        "standard_time_display": "2026-07-27 22:52 EST",
+        "wfo": "CTP",
+        "county_or_zone": "McKean",
+        "city": "Bradford Airport",
+        "state": "PA",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.64,
+          41.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CTP-276",
+      "properties": {
+        "report_id": "iem-lsr-CTP-276",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607280745",
+        "standard_time_display": "2026-07-28 02:45 EST",
+        "wfo": "CTP",
+        "county_or_zone": "McKean",
+        "city": "Eldred",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Flooding on Main Street between Oak Hill Cemetery Rd and Elm St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.39,
+          41.96
         ]
       }
     }
