@@ -6,7 +6,7 @@
     "wfo": "SLC",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-28T11:27:41Z",
+    "generated_utc": "2026-07-29T11:34:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 7,
     "wfo": "SLC",
-    "total_candidate_reports": 92,
-    "mapped_candidate_reports": 92,
+    "total_candidate_reports": 108,
+    "mapped_candidate_reports": 108,
     "candidate_report_counts": {
-      "flooding": 43,
+      "flooding": 58,
       "hail": 1,
       "other": 2,
-      "thunderstorm_wind": 46
+      "thunderstorm_wind": 46,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 2,
-      "FLASH FLOOD": 42,
+      "FLASH FLOOD": 57,
       "FLOOD": 1,
       "HAIL": 1,
       "NON-TSTM WND GST": 15,
+      "TORNADO": 1,
       "TSTM WND DMG": 5,
       "TSTM WND GST": 26
     },
@@ -39,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -1091,6 +1095,28 @@
     {
       "report_id": "iem-lsr-SLC-48",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607162312",
+      "standard_time_display": "2026-07-16 16:12 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Kanarraville",
+      "county": "Iron",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Iron County EM shared video of flash flooding on Kanarra Creek near Kanarra Falls.",
+      "lat": 37.54,
+      "lon": -113.15,
+      "ugc": "UTC021",
+      "ugc_name": "Iron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-49",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607162337",
       "standard_time_display": "2026-07-16 16:37 MST",
       "standard_time_zone": "MST",
@@ -1111,7 +1137,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-49",
+      "report_id": "iem-lsr-SLC-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607170200",
       "standard_time_display": "2026-07-16 19:00 MST",
@@ -1133,7 +1159,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-50",
+      "report_id": "iem-lsr-SLC-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607170500",
       "standard_time_display": "2026-07-16 22:00 MST",
@@ -1155,7 +1181,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-51",
+      "report_id": "iem-lsr-SLC-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607171927",
       "standard_time_display": "2026-07-17 12:27 MST",
@@ -1177,7 +1203,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-52",
+      "report_id": "iem-lsr-SLC-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607172126",
       "standard_time_display": "2026-07-17 14:26 MST",
@@ -1199,7 +1225,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-53",
+      "report_id": "iem-lsr-SLC-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607172130",
       "standard_time_display": "2026-07-17 14:30 MST",
@@ -1221,7 +1247,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-54",
+      "report_id": "iem-lsr-SLC-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607172230",
       "standard_time_display": "2026-07-17 15:30 MST",
@@ -1243,7 +1269,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-55",
+      "report_id": "iem-lsr-SLC-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607172230",
       "standard_time_display": "2026-07-17 15:30 MST",
@@ -1265,7 +1291,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-56",
+      "report_id": "iem-lsr-SLC-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607172300",
       "standard_time_display": "2026-07-17 16:00 MST",
@@ -1287,7 +1313,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-57",
+      "report_id": "iem-lsr-SLC-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607180015",
       "standard_time_display": "2026-07-17 17:15 MST",
@@ -1309,7 +1335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-58",
+      "report_id": "iem-lsr-SLC-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607180145",
       "standard_time_display": "2026-07-17 18:45 MST",
@@ -1331,7 +1357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-59",
+      "report_id": "iem-lsr-SLC-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607180300",
       "standard_time_display": "2026-07-17 20:00 MST",
@@ -1353,7 +1379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-60",
+      "report_id": "iem-lsr-SLC-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607180300",
       "standard_time_display": "2026-07-17 20:00 MST",
@@ -1375,7 +1401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-61",
+      "report_id": "iem-lsr-SLC-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607182043",
       "standard_time_display": "2026-07-18 13:43 MST",
@@ -1397,7 +1423,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-62",
+      "report_id": "iem-lsr-SLC-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607182145",
       "standard_time_display": "2026-07-18 14:45 MST",
@@ -1419,7 +1445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-63",
+      "report_id": "iem-lsr-SLC-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607182145",
       "standard_time_display": "2026-07-18 14:45 MST",
@@ -1441,7 +1467,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-64",
+      "report_id": "iem-lsr-SLC-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607182230",
       "standard_time_display": "2026-07-18 15:30 MST",
@@ -1463,7 +1489,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-65",
+      "report_id": "iem-lsr-SLC-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607182255",
       "standard_time_display": "2026-07-18 15:55 MST",
@@ -1485,7 +1511,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-66",
+      "report_id": "iem-lsr-SLC-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607190054",
       "standard_time_display": "2026-07-18 17:54 MST",
@@ -1507,7 +1533,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-67",
+      "report_id": "iem-lsr-SLC-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607190100",
       "standard_time_display": "2026-07-18 18:00 MST",
@@ -1529,7 +1555,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-68",
+      "report_id": "iem-lsr-SLC-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607190223",
       "standard_time_display": "2026-07-18 19:23 MST",
@@ -1551,7 +1577,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-69",
+      "report_id": "iem-lsr-SLC-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607192200",
       "standard_time_display": "2026-07-19 15:00 MST",
@@ -1573,7 +1599,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-70",
+      "report_id": "iem-lsr-SLC-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607192255",
       "standard_time_display": "2026-07-19 15:55 MST",
@@ -1595,7 +1621,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-71",
+      "report_id": "iem-lsr-SLC-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607200100",
       "standard_time_display": "2026-07-19 18:00 MST",
@@ -1617,7 +1643,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-72",
+      "report_id": "iem-lsr-SLC-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607200100",
       "standard_time_display": "2026-07-19 18:00 MST",
@@ -1639,7 +1665,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-73",
+      "report_id": "iem-lsr-SLC-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607200314",
       "standard_time_display": "2026-07-19 20:14 MST",
@@ -1661,7 +1687,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-74",
+      "report_id": "iem-lsr-SLC-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607210000",
       "standard_time_display": "2026-07-20 17:00 MST",
@@ -1683,7 +1709,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-75",
+      "report_id": "iem-lsr-SLC-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607210620",
       "standard_time_display": "2026-07-20 23:20 MST",
@@ -1705,7 +1731,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-76",
+      "report_id": "iem-lsr-SLC-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607210620",
       "standard_time_display": "2026-07-20 23:20 MST",
@@ -1727,7 +1753,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-77",
+      "report_id": "iem-lsr-SLC-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607210700",
       "standard_time_display": "2026-07-21 00:00 MST",
@@ -1749,7 +1775,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-78",
+      "report_id": "iem-lsr-SLC-79",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607211156",
+      "standard_time_display": "2026-07-21 04:56 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 ESE Beaver",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Beaver County Emergency Management reported flash flooding in Beaver River and North Creek.",
+      "lat": 38.26,
+      "lon": -112.52,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607212141",
       "standard_time_display": "2026-07-21 14:41 MST",
@@ -1771,7 +1819,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-79",
+      "report_id": "iem-lsr-SLC-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607212217",
       "standard_time_display": "2026-07-21 15:17 MST",
@@ -1793,7 +1841,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-80",
+      "report_id": "iem-lsr-SLC-82",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607212229",
+      "standard_time_display": "2026-07-21 15:29 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Sigurd",
+      "county": "Sevier",
+      "state": "UT",
+      "source": "Dept of Highways",
+      "remark": "UDOT reported flash flooding on Highway 24 in Lower Sigurd canyon.",
+      "lat": 38.83,
+      "lon": -111.95,
+      "ugc": "UTC041",
+      "ugc_name": "Sevier",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607212255",
       "standard_time_display": "2026-07-21 15:55 MST",
@@ -1815,7 +1885,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-81",
+      "report_id": "iem-lsr-SLC-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607220220",
       "standard_time_display": "2026-07-21 19:20 MST",
@@ -1837,7 +1907,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-82",
+      "report_id": "iem-lsr-SLC-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607220240",
       "standard_time_display": "2026-07-21 19:40 MST",
@@ -1859,7 +1929,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-83",
+      "report_id": "iem-lsr-SLC-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607220254",
       "standard_time_display": "2026-07-21 19:54 MST",
@@ -1881,7 +1951,95 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-84",
+      "report_id": "iem-lsr-SLC-87",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607220300",
+      "standard_time_display": "2026-07-21 20:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 E Manderfield",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Flash flood on North Creek from the Cottonwood burn scar detected by flood camera.",
+      "lat": 38.34,
+      "lon": -112.54,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607220307",
+      "standard_time_display": "2026-07-21 20:07 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 SSE Marysvale",
+      "county": "Piute",
+      "state": "UT",
+      "source": "Dept of Highways",
+      "remark": "UDOT reported US-89 is closed between mile posts 166 and 176 due to debris flows reaching the highway from multiple drainages originating from the Cottonwood burn scar.",
+      "lat": 38.35,
+      "lon": -112.22,
+      "ugc": "UTC031",
+      "ugc_name": "Piute",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-89",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607220915",
+      "standard_time_display": "2026-07-22 02:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Junction",
+      "county": "Piute",
+      "state": "UT",
+      "source": "Broadcast Media",
+      "remark": "Flash flooding into the town of Junction off the Cottonwood burn scar. Media reports that the flash flood broke through a berm built to divert flood waters_ inundating portions of the town. Time esti",
+      "lat": 38.24,
+      "lon": -112.22,
+      "ugc": "UTC031",
+      "ugc_name": "Piute",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-90",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607221014",
+      "standard_time_display": "2026-07-22 03:14 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 N Junction",
+      "county": "Piute",
+      "state": "UT",
+      "source": "Dept of Highways",
+      "remark": "Flash flooding from Cottonwood burn scar sent debris flow over US-89 between mile markers 164 and 177.",
+      "lat": 38.34,
+      "lon": -112.22,
+      "ugc": "UTC031",
+      "ugc_name": "Piute",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607222032",
       "standard_time_display": "2026-07-22 13:32 MST",
@@ -1903,7 +2061,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-85",
+      "report_id": "iem-lsr-SLC-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607222100",
       "standard_time_display": "2026-07-22 14:00 MST",
@@ -1925,7 +2083,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-86",
+      "report_id": "iem-lsr-SLC-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607222200",
       "standard_time_display": "2026-07-22 15:00 MST",
@@ -1947,7 +2105,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-87",
+      "report_id": "iem-lsr-SLC-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607222230",
       "standard_time_display": "2026-07-22 15:30 MST",
@@ -1969,7 +2127,117 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-88",
+      "report_id": "iem-lsr-SLC-95",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607222327",
+      "standard_time_display": "2026-07-22 16:27 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 ESE Beaver",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Muddy flows moving through Cottonwood burn scar on the Beaver River.",
+      "lat": 38.26,
+      "lon": -112.52,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-96",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607230226",
+      "standard_time_display": "2026-07-22 19:26 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 ESE Beaver",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Additional debris flow out of Baker Canyon crossing SR-153 and creating a secondary rise on the Beaver River.",
+      "lat": 38.26,
+      "lon": -112.52,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-97",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607240209",
+      "standard_time_display": "2026-07-23 19:09 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Pine Vly",
+      "county": "Washington",
+      "state": "UT",
+      "source": "Other Federal",
+      "remark": "USGS stream gauge on the Santa Clara river showed a minor flash flood spike from the Forsyth Burn Scar.",
+      "lat": 37.38,
+      "lon": -113.48,
+      "ugc": "UTC053",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-98",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607242106",
+      "standard_time_display": "2026-07-24 14:06 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 E Manderfield",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Flash flood debris flow detected on flood camera number 3 on North Creek.",
+      "lat": 38.34,
+      "lon": -112.54,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-99",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607252041",
+      "standard_time_display": "2026-07-25 13:41 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 S Capitol Reef Np",
+      "county": "Wayne",
+      "state": "UT",
+      "source": "Park/Forest Srvc",
+      "remark": "Capitol Reef National Park reported 9 inches of flowing water in Capitol Gorge near the parking area which stranded a vehicle.",
+      "lat": 38.21,
+      "lon": -111.19,
+      "ugc": "UTC055",
+      "ugc_name": "Wayne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-100",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260130",
       "standard_time_display": "2026-07-25 18:30 MST",
@@ -1991,7 +2259,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-89",
+      "report_id": "iem-lsr-SLC-101",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607260228",
       "standard_time_display": "2026-07-25 19:28 MST",
@@ -2013,7 +2281,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-90",
+      "report_id": "iem-lsr-SLC-102",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607272150",
       "standard_time_display": "2026-07-27 14:50 MST",
@@ -2035,7 +2303,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-91",
+      "report_id": "iem-lsr-SLC-103",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607272310",
+      "standard_time_display": "2026-07-27 16:10 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 E Manderfield",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Official NWS Obs",
+      "remark": "The Beaver live camera 3 showed a debris flow ongoing at this time. Location is approximate.",
+      "lat": 38.34,
+      "lon": -112.55,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-104",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607280000",
+      "standard_time_display": "2026-07-27 17:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Monroe",
+      "county": "Sevier",
+      "state": "UT",
+      "source": "Broadcast Media",
+      "remark": "Local media reports that the Fishlake National Forest has closed Monroe Canyon Road due to flooding_ and that crews are actively working to remove mud_ boulders_ and other debris from the roadway. Ti",
+      "lat": 38.6,
+      "lon": -112.08,
+      "ugc": "UTC041",
+      "ugc_name": "Sevier",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-105",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607280010",
       "standard_time_display": "2026-07-27 17:10 MST",
@@ -2057,7 +2369,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-92",
+      "report_id": "iem-lsr-SLC-106",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607280020",
       "standard_time_display": "2026-07-27 17:20 MST",
@@ -2077,6 +2389,50 @@
       "ugc": "UTC027",
       "ugc_name": "Millard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-107",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607282203",
+      "standard_time_display": "2026-07-28 15:03 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SW Kanosh",
+      "county": "Millard",
+      "state": "UT",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media and multiple social media videos depict an EF-U fire tornado associated with the Widemouth 2 fire south of Kanosh_ UT. Currently_ it is uncertain how long the fire tornado was on the",
+      "lat": 38.76,
+      "lon": -112.48,
+      "ugc": "UTC027",
+      "ugc_name": "Millard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-108",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607290153",
+      "standard_time_display": "2026-07-28 18:53 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 E Beaver",
+      "county": "Beaver",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "State DEM webcam showed debris flow flash flood wave continuing farther downstream in the Beaver River within the Cottonwood burn scar.",
+      "lat": 38.26,
+      "lon": -112.52,
+      "ugc": "UTC001",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2085,7 +2441,7 @@
       "wfo": "SLC",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-28T11:27:41Z"
+      "generated_utc": "2026-07-29T11:34:01Z"
     },
     "primary_links": [
       {

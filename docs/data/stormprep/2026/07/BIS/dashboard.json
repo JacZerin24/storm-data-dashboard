@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-28T11:26:21Z",
+    "generated_utc": "2026-07-29T11:32:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,23 @@
     "year": 2026,
     "month": 7,
     "wfo": "BIS",
-    "total_candidate_reports": 98,
-    "mapped_candidate_reports": 98,
+    "total_candidate_reports": 100,
+    "mapped_candidate_reports": 100,
     "candidate_report_counts": {
       "hail": 39,
+      "heat_cold": 1,
       "other": 16,
-      "thunderstorm_wind": 40,
+      "thunderstorm_wind": 41,
       "tornado": 3
     },
     "candidate_report_type_counts": {
+      "EXTREME HEAT": 1,
       "HAIL": 39,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 1,
       "RAIN": 15,
       "TORNADO": 3,
-      "TSTM WND DMG": 13,
+      "TSTM WND DMG": 14,
       "TSTM WND GST": 26
     },
     "nws_api_alert_count": 0,
@@ -1731,6 +1733,28 @@
     {
       "report_id": "iem-lsr-BIS-77",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607242125",
+      "standard_time_display": "2026-07-24 15:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Washburn",
+      "county": "McLean",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Time estimated from radar. Additional damage reports from the Washburn area. Roof damage occurred at multiple businesses and the ambulance bay. Significant corn crop damage was reported at a farm in",
+      "lat": 47.29,
+      "lon": -101.03,
+      "ugc": "NDC055",
+      "ugc_name": "McLean",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-78",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242135",
       "standard_time_display": "2026-07-24 15:35 CST",
       "standard_time_zone": "CST",
@@ -1751,7 +1775,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-78",
+      "report_id": "iem-lsr-BIS-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242150",
       "standard_time_display": "2026-07-24 15:50 CST",
@@ -1773,7 +1797,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-79",
+      "report_id": "iem-lsr-BIS-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242151",
       "standard_time_display": "2026-07-24 15:51 CST",
@@ -1795,7 +1819,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-80",
+      "report_id": "iem-lsr-BIS-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242202",
       "standard_time_display": "2026-07-24 16:02 CST",
@@ -1817,7 +1841,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-81",
+      "report_id": "iem-lsr-BIS-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242215",
       "standard_time_display": "2026-07-24 16:15 CST",
@@ -1839,7 +1863,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-82",
+      "report_id": "iem-lsr-BIS-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242229",
       "standard_time_display": "2026-07-24 16:29 CST",
@@ -1861,7 +1885,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-83",
+      "report_id": "iem-lsr-BIS-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242229",
       "standard_time_display": "2026-07-24 16:29 CST",
@@ -1883,7 +1907,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-84",
+      "report_id": "iem-lsr-BIS-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242230",
       "standard_time_display": "2026-07-24 16:30 CST",
@@ -1905,7 +1929,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-85",
+      "report_id": "iem-lsr-BIS-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242235",
       "standard_time_display": "2026-07-24 16:35 CST",
@@ -1927,7 +1951,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-86",
+      "report_id": "iem-lsr-BIS-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242236",
       "standard_time_display": "2026-07-24 16:36 CST",
@@ -1949,7 +1973,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-87",
+      "report_id": "iem-lsr-BIS-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242310",
       "standard_time_display": "2026-07-24 17:10 CST",
@@ -1971,7 +1995,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-88",
+      "report_id": "iem-lsr-BIS-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242310",
       "standard_time_display": "2026-07-24 17:10 CST",
@@ -1993,7 +2017,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-89",
+      "report_id": "iem-lsr-BIS-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242315",
       "standard_time_display": "2026-07-24 17:15 CST",
@@ -2015,7 +2039,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-90",
+      "report_id": "iem-lsr-BIS-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242325",
       "standard_time_display": "2026-07-24 17:25 CST",
@@ -2037,7 +2061,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-91",
+      "report_id": "iem-lsr-BIS-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242340",
       "standard_time_display": "2026-07-24 17:40 CST",
@@ -2059,7 +2083,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-92",
+      "report_id": "iem-lsr-BIS-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242342",
       "standard_time_display": "2026-07-24 17:42 CST",
@@ -2081,7 +2105,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-93",
+      "report_id": "iem-lsr-BIS-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242348",
       "standard_time_display": "2026-07-24 17:48 CST",
@@ -2103,7 +2127,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-94",
+      "report_id": "iem-lsr-BIS-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607242348",
       "standard_time_display": "2026-07-24 17:48 CST",
@@ -2125,7 +2149,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-95",
+      "report_id": "iem-lsr-BIS-96",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607250015",
       "standard_time_display": "2026-07-24 18:15 CST",
@@ -2147,7 +2171,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-96",
+      "report_id": "iem-lsr-BIS-97",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607250015",
       "standard_time_display": "2026-07-24 18:15 CST",
@@ -2169,7 +2193,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-97",
+      "report_id": "iem-lsr-BIS-98",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607250045",
       "standard_time_display": "2026-07-24 18:45 CST",
@@ -2191,7 +2215,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BIS-98",
+      "report_id": "iem-lsr-BIS-99",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607250104",
       "standard_time_display": "2026-07-24 19:04 CST",
@@ -2211,6 +2235,28 @@
       "ugc": "NDC045",
       "ugc_name": "LaMoure",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-100",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607261905",
+      "standard_time_display": "2026-07-26 13:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "EXTREME HEAT",
+      "event_category": "heat_cold",
+      "magnitude": 104.0,
+      "magnitude_qualifier": null,
+      "city": "2 SE Bismarck",
+      "county": "Burleigh",
+      "state": "ND",
+      "source": "ASOS/AWOS",
+      "remark": "Heat Index measured at the Bismarck airport.",
+      "lat": 46.78,
+      "lon": -100.76,
+      "ugc": "NDC015",
+      "ugc_name": "Burleigh",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2219,7 +2265,7 @@
       "wfo": "BIS",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-28T11:26:21Z"
+      "generated_utc": "2026-07-29T11:32:35Z"
     },
     "primary_links": [
       {

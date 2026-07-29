@@ -6,7 +6,7 @@
     "wfo": "DLH",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-28T11:26:34Z",
+    "generated_utc": "2026-07-29T11:32:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "DLH",
-    "total_candidate_reports": 111,
-    "mapped_candidate_reports": 111,
+    "total_candidate_reports": 112,
+    "mapped_candidate_reports": 112,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 25,
       "marine": 5,
       "other": 53,
-      "thunderstorm_wind": 25
+      "thunderstorm_wind": 26
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
       "HAIL": 25,
       "MARINE TSTM WIND": 5,
+      "NON-TSTM WND DMG": 1,
       "NON-TSTM WND GST": 1,
       "RAIN": 53,
       "TSTM WND DMG": 19,
@@ -2280,6 +2281,28 @@
     {
       "report_id": "iem-lsr-DLH-102",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607250700",
+      "standard_time_display": "2026-07-25 01:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Tower",
+      "county": "St. Louis",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Report of strong winds from the southwest that lasted about an hour on Pine Island_ approximately 3N of Tower. Report of a boat lift blown onto shore and water rushing into a cabin coming off the lak",
+      "lat": 47.88,
+      "lon": -92.31,
+      "ugc": "MNC137",
+      "ugc_name": "St. Louis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-103",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270100",
       "standard_time_display": "2026-07-26 19:00 CST",
       "standard_time_zone": "CST",
@@ -2300,7 +2323,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-103",
+      "report_id": "iem-lsr-DLH-104",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270110",
       "standard_time_display": "2026-07-26 19:10 CST",
@@ -2322,7 +2345,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-104",
+      "report_id": "iem-lsr-DLH-105",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270140",
       "standard_time_display": "2026-07-26 19:40 CST",
@@ -2344,7 +2367,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-105",
+      "report_id": "iem-lsr-DLH-106",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270140",
       "standard_time_display": "2026-07-26 19:40 CST",
@@ -2366,7 +2389,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-106",
+      "report_id": "iem-lsr-DLH-107",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270505",
       "standard_time_display": "2026-07-26 23:05 CST",
@@ -2388,7 +2411,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-107",
+      "report_id": "iem-lsr-DLH-108",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270505",
       "standard_time_display": "2026-07-26 23:05 CST",
@@ -2410,7 +2433,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-108",
+      "report_id": "iem-lsr-DLH-109",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270600",
       "standard_time_display": "2026-07-27 00:00 CST",
@@ -2432,7 +2455,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-109",
+      "report_id": "iem-lsr-DLH-110",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270745",
       "standard_time_display": "2026-07-27 01:45 CST",
@@ -2454,7 +2477,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-110",
+      "report_id": "iem-lsr-DLH-111",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270745",
       "standard_time_display": "2026-07-27 01:45 CST",
@@ -2476,7 +2499,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-111",
+      "report_id": "iem-lsr-DLH-112",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607270820",
       "standard_time_display": "2026-07-27 02:20 CST",
@@ -2504,7 +2527,7 @@
       "wfo": "DLH",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-28T11:26:34Z"
+      "generated_utc": "2026-07-29T11:32:48Z"
     },
     "primary_links": [
       {

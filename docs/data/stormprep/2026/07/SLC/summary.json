@@ -3,20 +3,22 @@
   "year": 2026,
   "month": 7,
   "wfo": "SLC",
-  "total_candidate_reports": 92,
-  "mapped_candidate_reports": 92,
+  "total_candidate_reports": 108,
+  "mapped_candidate_reports": 108,
   "candidate_report_counts": {
-    "flooding": 43,
+    "flooding": 58,
     "hail": 1,
     "other": 2,
-    "thunderstorm_wind": 46
+    "thunderstorm_wind": 46,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "DEBRIS FLOW": 2,
-    "FLASH FLOOD": 42,
+    "FLASH FLOOD": 57,
     "FLOOD": 1,
     "HAIL": 1,
     "NON-TSTM WND GST": 15,
+    "TORNADO": 1,
     "TSTM WND DMG": 5,
     "TSTM WND GST": 26
   },
@@ -25,6 +27,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

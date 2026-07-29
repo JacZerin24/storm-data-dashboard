@@ -3,24 +3,29 @@
   "year": 2026,
   "month": 7,
   "wfo": "MRX",
-  "total_candidate_reports": 84,
-  "mapped_candidate_reports": 84,
+  "total_candidate_reports": 114,
+  "mapped_candidate_reports": 114,
   "candidate_report_counts": {
-    "flooding": 40,
-    "hail": 7,
-    "thunderstorm_wind": 37
+    "flooding": 43,
+    "hail": 9,
+    "other": 1,
+    "thunderstorm_wind": 59,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "FLASH FLOOD": 39,
+    "FLASH FLOOD": 42,
     "FLOOD": 1,
-    "HAIL": 7,
-    "TSTM WND DMG": 37
+    "FUNNEL CLOUD": 2,
+    "HAIL": 9,
+    "LIGHTNING": 1,
+    "TSTM WND DMG": 59
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

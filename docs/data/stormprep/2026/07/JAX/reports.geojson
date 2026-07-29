@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-28T11:27:00Z",
+    "generated_utc": "2026-07-29T11:33:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2724,6 +2724,32 @@
       "id": "iem-lsr-JAX-105",
       "properties": {
         "report_id": "iem-lsr-JAX-105",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607271747",
+        "standard_time_display": "2026-07-27 12:47 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Flagler",
+        "city": "3 S Palm Coast",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Dispatch received a report of power line wires down near the intersection of Palm Lane and Palmwood drive in Palm Coast."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.22,
+          29.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-106",
+      "properties": {
+        "report_id": "iem-lsr-JAX-106",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607272001",
@@ -2742,6 +2768,32 @@
         "coordinates": [
           -82.28,
           29.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-107",
+      "properties": {
+        "report_id": "iem-lsr-JAX-107",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607290053",
+        "standard_time_display": "2026-07-28 19:53 EST",
+        "wfo": "JAX",
+        "county_or_zone": "AMZ452",
+        "city": "2 N Mayport",
+        "state": "FL",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Weatherflow mesonet station XHUP at Huguenot Park reported a peak gust of 44 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.41,
+          30.42
         ]
       }
     }

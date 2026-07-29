@@ -7,7 +7,7 @@
     "wfo": "MOB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-28T11:27:16Z",
+    "generated_utc": "2026-07-29T11:33:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -428,6 +428,58 @@
         "coordinates": [
           -86.49,
           30.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-17",
+      "properties": {
+        "report_id": "iem-lsr-MOB-17",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607282156",
+        "standard_time_display": "2026-07-28 15:56 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Mobile",
+        "city": "1 WNW Mobile Regional A",
+        "state": "AL",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KMOB Mobile Bates measured a wind gust of 46 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.25,
+          30.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-18",
+      "properties": {
+        "report_id": "iem-lsr-MOB-18",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607282359",
+        "standard_time_display": "2026-07-28 17:59 CST",
+        "wfo": "MOB",
+        "county_or_zone": "GMZ634",
+        "city": "2 W Gulf Breeze",
+        "state": "FL",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "WeatherFlow station XFPL Fair Point Light 2 recorded a wind gust of 50 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.21,
+          30.37
         ]
       }
     }
