@@ -7,7 +7,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-29T11:32:26Z",
+    "generated_utc": "2026-07-30T11:19:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1572,6 +1572,58 @@
         "coordinates": [
           -108.85,
           35.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-61",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-61",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607290015",
+        "standard_time_display": "2026-07-28 17:15 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "McKinley",
+        "city": "2 ENE Allison",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report of 4-6 inches of water flowing across southbound US-491 just north of Gallup. Location estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.76,
+          35.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-62",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-62",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607292110",
+        "standard_time_display": "2026-07-29 14:10 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Colfax",
+        "city": "Raton Crews Airport",
+        "state": "NM",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KRTN Raton Crews Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5,
+          36.73
         ]
       }
     }
