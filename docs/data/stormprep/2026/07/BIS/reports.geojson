@@ -7,7 +7,7 @@
     "wfo": "BIS",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-30T11:19:13Z",
+    "generated_utc": "2026-07-31T11:34:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2646,6 +2646,32 @@
       "id": "iem-lsr-BIS-102",
       "properties": {
         "report_id": "iem-lsr-BIS-102",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607292200",
+        "standard_time_display": "2026-07-29 16:00 CST",
+        "wfo": "BIS",
+        "county_or_zone": "McLean",
+        "city": "Coleharbor",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photos of a camper rolled onto its side relayed through broadcast media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.22,
+          47.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-103",
+      "properties": {
+        "report_id": "iem-lsr-BIS-103",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607292201",
@@ -2669,9 +2695,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BIS-103",
+      "id": "iem-lsr-BIS-104",
       "properties": {
-        "report_id": "iem-lsr-BIS-103",
+        "report_id": "iem-lsr-BIS-104",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607292204",
+        "standard_time_display": "2026-07-29 16:04 CST",
+        "wfo": "BIS",
+        "county_or_zone": "McLean",
+        "city": "2 SW Turtle Lake",
+        "state": "ND",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Measured wind gust from private weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.93,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-105",
+      "properties": {
+        "report_id": "iem-lsr-BIS-105",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607292220",
@@ -2695,9 +2747,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BIS-104",
+      "id": "iem-lsr-BIS-106",
       "properties": {
-        "report_id": "iem-lsr-BIS-104",
+        "report_id": "iem-lsr-BIS-106",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607292230",
@@ -2721,9 +2773,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BIS-105",
+      "id": "iem-lsr-BIS-107",
       "properties": {
-        "report_id": "iem-lsr-BIS-105",
+        "report_id": "iem-lsr-BIS-107",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202607292352",
@@ -2747,9 +2799,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BIS-106",
+      "id": "iem-lsr-BIS-108",
       "properties": {
-        "report_id": "iem-lsr-BIS-106",
+        "report_id": "iem-lsr-BIS-108",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202607300607",
@@ -2768,6 +2820,188 @@
         "coordinates": [
           -101.99,
           46.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-109",
+      "properties": {
+        "report_id": "iem-lsr-BIS-109",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607301224",
+        "standard_time_display": "2026-07-30 06:24 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Wells",
+        "city": "Hurdsfield",
+        "state": "ND",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Hurdsfield NW NDAWN reported wind."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.94,
+          47.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-110",
+      "properties": {
+        "report_id": "iem-lsr-BIS-110",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607301454",
+        "standard_time_display": "2026-07-30 08:54 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Wells",
+        "city": "Bremen",
+        "state": "ND",
+        "magnitude": 2.8,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Heavy rain this morning. Relayed to NWS by radio broadcast media partner in Harvey."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.39,
+          47.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-111",
+      "properties": {
+        "report_id": "iem-lsr-BIS-111",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607301612",
+        "standard_time_display": "2026-07-30 10:12 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Wells",
+        "city": "11 SSW Harvey",
+        "state": "ND",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Heavy rain this morning near Pony Gulch. Relayed to NWS by radio broadcast media partner in Harvey."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.01,
+          47.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-112",
+      "properties": {
+        "report_id": "iem-lsr-BIS-112",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607302021",
+        "standard_time_display": "2026-07-30 14:21 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Wells",
+        "city": "Hurdsfield",
+        "state": "ND",
+        "magnitude": 1.18,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Hurdsfield NW NDAWN reported storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.94,
+          47.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-113",
+      "properties": {
+        "report_id": "iem-lsr-BIS-113",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607302023",
+        "standard_time_display": "2026-07-30 14:23 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Wells",
+        "city": "3 E Bremen",
+        "state": "ND",
+        "magnitude": 1.57,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Bremen NDAWN storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.32,
+          47.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-114",
+      "properties": {
+        "report_id": "iem-lsr-BIS-114",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607302110",
+        "standard_time_display": "2026-07-30 15:10 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Dickey",
+        "city": "Oakes",
+        "state": "ND",
+        "magnitude": 2.75,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast media relayed picture of a low laying playground area completely flooded. It was also reported that 2.75 inches of rain was received over 2 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.09,
+          46.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-115",
+      "properties": {
+        "report_id": "iem-lsr-BIS-115",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607310051",
+        "standard_time_display": "2026-07-30 18:51 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Dickey",
+        "city": "4 NNE Ludden",
+        "state": "ND",
+        "magnitude": 2.53,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Oakes NDAWN storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1,
+          46.07
         ]
       }
     }

@@ -6,7 +6,7 @@
     "wfo": "OAX",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-30T11:20:11Z",
+    "generated_utc": "2026-07-31T11:35:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 7,
     "wfo": "OAX",
-    "total_candidate_reports": 44,
-    "mapped_candidate_reports": 44,
+    "total_candidate_reports": 46,
+    "mapped_candidate_reports": 46,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 10,
       "other": 3,
-      "thunderstorm_wind": 28,
+      "thunderstorm_wind": 30,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -33,8 +33,8 @@
       "HAIL": 10,
       "LIGHTNING": 2,
       "RAIN": 1,
-      "TSTM WND DMG": 17,
-      "TSTM WND GST": 11
+      "TSTM WND DMG": 18,
+      "TSTM WND GST": 12
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1025,6 +1025,50 @@
       "ugc": "NEC109",
       "ugc_name": "Lancaster",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-45",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607310143",
+      "standard_time_display": "2026-07-30 19:43 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Norfolk",
+      "county": "Madison",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Image relayed from social media of a 2 ft diameter tree blown down_ time estimated from radar.",
+      "lat": 42.02,
+      "lon": -97.41,
+      "ugc": "NEC119",
+      "ugc_name": "Madison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607310628",
+      "standard_time_display": "2026-07-31 00:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Preston",
+      "county": "Richardson",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Personal weather station measured gust.",
+      "lat": 40.04,
+      "lon": -95.55,
+      "ugc": "NEC147",
+      "ugc_name": "Richardson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1033,7 +1077,7 @@
       "wfo": "OAX",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-30T11:20:12Z"
+      "generated_utc": "2026-07-31T11:35:28Z"
     },
     "primary_links": [
       {

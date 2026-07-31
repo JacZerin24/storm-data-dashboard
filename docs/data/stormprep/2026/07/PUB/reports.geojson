@@ -7,7 +7,7 @@
     "wfo": "PUB",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-30T11:20:23Z",
+    "generated_utc": "2026-07-31T11:35:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1208,6 +1208,58 @@
         "coordinates": [
           -104.97,
           38.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-47",
+      "properties": {
+        "report_id": "iem-lsr-PUB-47",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202607301400",
+        "standard_time_display": "2026-07-30 07:00 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Custer",
+        "city": "2 SSW Wetmore",
+        "state": "CO",
+        "magnitude": 0.7,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "24 hour total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1,
+          38.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-48",
+      "properties": {
+        "report_id": "iem-lsr-PUB-48",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202607310255",
+        "standard_time_display": "2026-07-30 19:55 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Baca",
+        "city": "4 N Springfield",
+        "state": "CO",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K8V7 3 N Springfield."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.62,
+          37.46
         ]
       }
     }
