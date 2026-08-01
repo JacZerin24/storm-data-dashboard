@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 8,
+    "wfo": "EPZ",
+    "start_utc": "2026-08-01T00:00:00Z",
+    "end_utc": "2026-09-01T00:00:00Z",
+    "generated_utc": "2026-08-01T10:46:57Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EPZ-1",
+      "properties": {
+        "report_id": "iem-lsr-EPZ-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010100",
+        "standard_time_display": "2026-07-31 18:00 MST",
+        "wfo": "EPZ",
+        "county_or_zone": "El Paso",
+        "city": "9 NE El Paso",
+        "state": "TX",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KBIF Biggs Field AWOS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.38,
+          31.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EPZ-2",
+      "properties": {
+        "report_id": "iem-lsr-EPZ-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010101",
+        "standard_time_display": "2026-07-31 18:01 MST",
+        "wfo": "EPZ",
+        "county_or_zone": "El Paso",
+        "city": "7 ENE El Paso",
+        "state": "TX",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KELP El Paso International Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.38,
+          31.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EPZ-3",
+      "properties": {
+        "report_id": "iem-lsr-EPZ-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608010143",
+        "standard_time_display": "2026-07-31 18:43 MST",
+        "wfo": "EPZ",
+        "county_or_zone": "Dona Ana",
+        "city": "3 N Mesquite",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Flooding reported along Stern Drive and Las Alturas Drive_ the I-10 Frontage Roads_ between Peter Hurd Rd and Mesquite. Note the lat/lon is near the mid-point of these locations."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.69,
+          32.21
+        ]
+      }
+    }
+  ]
+}

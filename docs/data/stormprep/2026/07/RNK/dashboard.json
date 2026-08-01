@@ -6,7 +6,7 @@
     "wfo": "RNK",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-31T11:35:40Z",
+    "generated_utc": "2026-08-01T10:49:40Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 7,
     "wfo": "RNK",
-    "total_candidate_reports": 246,
-    "mapped_candidate_reports": 246,
+    "total_candidate_reports": 247,
+    "mapped_candidate_reports": 247,
     "candidate_report_counts": {
       "flooding": 21,
       "hail": 10,
       "other": 5,
-      "thunderstorm_wind": 210
+      "thunderstorm_wind": 210,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 1,
       "FLASH FLOOD": 20,
       "FLOOD": 1,
+      "FUNNEL CLOUD": 1,
       "HAIL": 10,
       "LIGHTNING": 1,
       "RAIN": 3,
@@ -40,7 +42,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RNK&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -52,7 +55,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RNK&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -5162,6 +5166,28 @@
     {
       "report_id": "iem-lsr-RNK-233",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202607281935",
+      "standard_time_display": "2026-07-28 14:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RNK",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Burkes Garden",
+      "county": "Tazewell",
+      "state": "VA",
+      "source": "Public",
+      "remark": "Video sent of a funnel cloud in Burkes Garden. A Storm Survey was sent on 07/31/2026 to investigate possible tornadic damage but there was no conclusive evidence.",
+      "lat": 37.1,
+      "lon": -81.34,
+      "ugc": "VAC185",
+      "ugc_name": "Tazewell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RNK-234",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607281939",
       "standard_time_display": "2026-07-28 14:39 EST",
       "standard_time_zone": "EST",
@@ -5182,7 +5208,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-234",
+      "report_id": "iem-lsr-RNK-235",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607281958",
       "standard_time_display": "2026-07-28 14:58 EST",
@@ -5204,7 +5230,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-235",
+      "report_id": "iem-lsr-RNK-236",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282020",
       "standard_time_display": "2026-07-28 15:20 EST",
@@ -5226,7 +5252,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-236",
+      "report_id": "iem-lsr-RNK-237",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282031",
       "standard_time_display": "2026-07-28 15:31 EST",
@@ -5248,7 +5274,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-237",
+      "report_id": "iem-lsr-RNK-238",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282039",
       "standard_time_display": "2026-07-28 15:39 EST",
@@ -5270,7 +5296,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-238",
+      "report_id": "iem-lsr-RNK-239",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282044",
       "standard_time_display": "2026-07-28 15:44 EST",
@@ -5292,7 +5318,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-239",
+      "report_id": "iem-lsr-RNK-240",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282045",
       "standard_time_display": "2026-07-28 15:45 EST",
@@ -5314,7 +5340,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-240",
+      "report_id": "iem-lsr-RNK-241",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282055",
       "standard_time_display": "2026-07-28 15:55 EST",
@@ -5336,7 +5362,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-241",
+      "report_id": "iem-lsr-RNK-242",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282104",
       "standard_time_display": "2026-07-28 16:04 EST",
@@ -5358,7 +5384,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-242",
+      "report_id": "iem-lsr-RNK-243",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282220",
       "standard_time_display": "2026-07-28 17:20 EST",
@@ -5380,7 +5406,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-243",
+      "report_id": "iem-lsr-RNK-244",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282223",
       "standard_time_display": "2026-07-28 17:23 EST",
@@ -5402,7 +5428,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-244",
+      "report_id": "iem-lsr-RNK-245",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282225",
       "standard_time_display": "2026-07-28 17:25 EST",
@@ -5424,7 +5450,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-245",
+      "report_id": "iem-lsr-RNK-246",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282229",
       "standard_time_display": "2026-07-28 17:29 EST",
@@ -5446,7 +5472,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RNK&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-RNK-246",
+      "report_id": "iem-lsr-RNK-247",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202607282324",
       "standard_time_display": "2026-07-28 18:24 EST",
@@ -5474,7 +5500,7 @@
       "wfo": "RNK",
       "start_utc": "2026-07-01T00:00:00Z",
       "end_utc": "2026-08-01T00:00:00Z",
-      "generated_utc": "2026-07-31T11:35:41Z"
+      "generated_utc": "2026-08-01T10:49:40Z"
     },
     "primary_links": [
       {
