@@ -7,12 +7,117 @@
     "wfo": "PAH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:47:45Z",
+    "generated_utc": "2026-08-02T10:49:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-1",
+      "properties": {
+        "report_id": "iem-lsr-PAH-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010403",
+        "standard_time_display": "2026-07-31 22:03 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Bollinger",
+        "city": "2 E Glenallen",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Late report. Tree down on County Road 800. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0,
+          37.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-2",
+      "properties": {
+        "report_id": "iem-lsr-PAH-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010412",
+        "standard_time_display": "2026-07-31 22:12 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Wayne",
+        "city": "Piedmont",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Several trees down in Piedmont. Late report. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7,
+          37.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-3",
+      "properties": {
+        "report_id": "iem-lsr-PAH-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010455",
+        "standard_time_display": "2026-07-31 22:55 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Pulaski",
+        "city": "2 NNE Pulaski",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on Old Highway 51 south of Ullin. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2,
+          37.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-4",
+      "properties": {
+        "report_id": "iem-lsr-PAH-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010540",
+        "standard_time_display": "2026-07-31 23:40 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Butler",
+        "city": "Neelyville",
+        "state": "MO",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.51,
+          36.56
+        ]
+      }
+    }
+  ]
 }

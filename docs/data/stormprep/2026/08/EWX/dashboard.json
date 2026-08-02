@@ -6,7 +6,7 @@
     "wfo": "EWX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:46:58Z",
+    "generated_utc": "2026-08-02T10:48:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "EWX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "flooding": 2,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 2,
+      "TSTM WND GST": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +46,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EWX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-EWX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012340",
+      "standard_time_display": "2026-08-01 17:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Cheapside",
+      "county": "DeWitt",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "Mesonet station TWB99 Pennell Cattle Co.",
+      "lat": 29.24,
+      "lon": -97.43,
+      "ugc": "TXC123",
+      "ugc_name": "DeWitt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020030",
+      "standard_time_display": "2026-08-01 18:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Concan",
+      "county": "Uvalde",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Water over road on CR 348 (River Road) at the low water crossings.",
+      "lat": 29.54,
+      "lon": -99.71,
+      "ugc": "TXC463",
+      "ugc_name": "Uvalde",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020030",
+      "standard_time_display": "2026-08-01 18:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Concan",
+      "county": "Uvalde",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "water over roadway SH 127 at Brushy Creek.",
+      "lat": 29.46,
+      "lon": -99.67,
+      "ugc": "TXC463",
+      "ugc_name": "Uvalde",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "EWX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-01T10:46:58Z"
+      "generated_utc": "2026-08-02T10:48:30Z"
     },
     "primary_links": [
       {

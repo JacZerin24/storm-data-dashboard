@@ -7,12 +7,221 @@
     "wfo": "ABQ",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:46:29Z",
+    "generated_utc": "2026-08-02T10:48:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-1",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608010220",
+        "standard_time_display": "2026-07-31 19:20 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Lincoln",
+        "city": "8 SW Ramon",
+        "state": "NM",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station TR931 Roswell No. 2 Portable."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01,
+          34.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-2",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608011938",
+        "standard_time_display": "2026-08-01 12:38 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Mora",
+        "city": "Mora",
+        "state": "NM",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "From NMSP dispatch. Also reported light flooding on Highway 434 between mileposts 4 through 12."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.33,
+          35.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-3",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608011940",
+        "standard_time_display": "2026-08-01 12:40 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Mora",
+        "city": "Mora",
+        "state": "NM",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "From NMSP dispatch. Also reported light flooding on Highway 434 between mileposts 4 through 12."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.33,
+          35.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-4",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020003",
+        "standard_time_display": "2026-08-01 17:03 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Socorro",
+        "city": "10 SW Bingham",
+        "state": "NM",
+        "magnitude": 72.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from 10 SW Bingham. Mine Site WSMR Mesonet (WSM40)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.49,
+          33.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-5",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020003",
+        "standard_time_display": "2026-08-01 17:03 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Socorro",
+        "city": "10 SW Bingham",
+        "state": "NM",
+        "magnitude": 72.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Mine Site WSMR Mesonet (WSM40)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.49,
+          33.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-6",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020018",
+        "standard_time_display": "2026-08-01 17:18 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Socorro",
+        "city": "10 ESE Bosque del Apach",
+        "state": "NM",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Sulf Site WSMR Mesonet (WSM35)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.74,
+          33.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-7",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020033",
+        "standard_time_display": "2026-08-01 17:33 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Lincoln",
+        "city": "17 WNW Oscuro",
+        "state": "NM",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Shist WSMR Mesonet (WSM39)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.34,
+          33.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-8",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-8",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608020045",
+        "standard_time_display": "2026-08-01 17:45 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Lincoln",
+        "city": "1 NE Angus",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Several feet of fast flowing water over Carole Drive near the intersection of West Cedar Road. Road impassable. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.62,
+          33.53
+        ]
+      }
+    }
+  ]
 }

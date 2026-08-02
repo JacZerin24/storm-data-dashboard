@@ -7,12 +7,91 @@
     "wfo": "BMX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:46:39Z",
+    "generated_utc": "2026-08-02T10:48:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BMX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BMX-1",
+      "properties": {
+        "report_id": "iem-lsr-BMX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608012337",
+        "standard_time_display": "2026-08-01 17:37 CST",
+        "wfo": "BMX",
+        "county_or_zone": "Talladega",
+        "city": "1 SSE Alpine",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Trees down in the Alpine area of Shadetree Lane. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.21,
+          33.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BMX-2",
+      "properties": {
+        "report_id": "iem-lsr-BMX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608012337",
+        "standard_time_display": "2026-08-01 17:37 CST",
+        "wfo": "BMX",
+        "county_or_zone": "Talladega",
+        "city": "1 SSE Alpine",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Trees down in the Apline area of Shadetree Lane. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.21,
+          33.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BMX-3",
+      "properties": {
+        "report_id": "iem-lsr-BMX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608012343",
+        "standard_time_display": "2026-08-01 17:43 CST",
+        "wfo": "BMX",
+        "county_or_zone": "Talladega",
+        "city": "Munford",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Trees down and blocking Cedars Road. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.95,
+          33.53
+        ]
+      }
+    }
+  ]
 }

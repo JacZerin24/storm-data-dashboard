@@ -7,12 +7,117 @@
     "wfo": "CHS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:46:47Z",
+    "generated_utc": "2026-08-02T10:48:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-1",
+      "properties": {
+        "report_id": "iem-lsr-CHS-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202608011805",
+        "standard_time_display": "2026-08-01 13:05 EST",
+        "wfo": "CHS",
+        "county_or_zone": "AMZ360",
+        "city": "Folly Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Waterspouts. No discernable damage. Multiple waterspouts were reported just south of the Folly Beach Pier via social media. Time verified by Surfline Cams."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-2",
+      "properties": {
+        "report_id": "iem-lsr-CHS-2",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202608011823",
+        "standard_time_display": "2026-08-01 13:23 EST",
+        "wfo": "CHS",
+        "county_or_zone": "AMZ360",
+        "city": "1 SE Folly Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Waterspout. No discernable damage. Trained spotter reported a waterspout located north of the Folly Beach Pier. Time was confirmed by Surfline webcams."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          32.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-3",
+      "properties": {
+        "report_id": "iem-lsr-CHS-3",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202608011833",
+        "standard_time_display": "2026-08-01 13:33 EST",
+        "wfo": "CHS",
+        "county_or_zone": "AMZ360",
+        "city": "Folly Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Storm Survey",
+        "event_narrative": "A well-defined waterspout moved onshore as a tornado just south of the 3rd Street East public beach access point. It moved across the beach_ throwing tents_ chairs and beach coverings into the air be"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-4",
+      "properties": {
+        "report_id": "iem-lsr-CHS-4",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202608011833",
+        "standard_time_display": "2026-08-01 13:33 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Folly Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Waterspout moved onshore just north of the Folly Beach Pier. No discernable damage. Timing was verified by social media and Surfline webcams."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          32.66
+        ]
+      }
+    }
+  ]
 }

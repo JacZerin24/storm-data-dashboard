@@ -7,12 +7,143 @@
     "wfo": "ILN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:47:14Z",
+    "generated_utc": "2026-08-02T10:48:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-1",
+      "properties": {
+        "report_id": "iem-lsr-ILN-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608012235",
+        "standard_time_display": "2026-08-01 17:35 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Franklin",
+        "city": "3 NW Saint Leon",
+        "state": "IN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "House damage along with small barn/garage."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.99,
+          39.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-2",
+      "properties": {
+        "report_id": "iem-lsr-ILN-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608012353",
+        "standard_time_display": "2026-08-01 18:53 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Preble",
+        "city": "4 NNW Eaton",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "4 homes significantly damaged along with tree damage."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.67,
+          39.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-3",
+      "properties": {
+        "report_id": "iem-lsr-ILN-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608020015",
+        "standard_time_display": "2026-08-01 19:15 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Wayne",
+        "city": "2 WSW Whitewater",
+        "state": "IN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Water rushing over Wallace Rd reaching up to bottom of vehicle. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.87,
+          39.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-4",
+      "properties": {
+        "report_id": "iem-lsr-ILN-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020028",
+        "standard_time_display": "2026-08-01 19:28 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Warren",
+        "city": "Franklin",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Trees downed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31,
+          39.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-5",
+      "properties": {
+        "report_id": "iem-lsr-ILN-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608020202",
+        "standard_time_display": "2026-08-01 21:02 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Montgomery",
+        "city": "Clayton",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Standing water on roadways. Ponds overflowing."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36,
+          39.86
+        ]
+      }
+    }
+  ]
 }

@@ -7,12 +7,65 @@
     "wfo": "HUN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:47:12Z",
+    "generated_utc": "2026-08-02T10:48:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HUN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HUN-1",
+      "properties": {
+        "report_id": "iem-lsr-HUN-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020052",
+        "standard_time_display": "2026-08-01 18:52 CST",
+        "wfo": "HUN",
+        "county_or_zone": "DeKalb",
+        "city": "6 NE Ider",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6,
+          34.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HUN-2",
+      "properties": {
+        "report_id": "iem-lsr-HUN-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608020052",
+        "standard_time_display": "2026-08-01 18:52 CST",
+        "wfo": "HUN",
+        "county_or_zone": "DeKalb",
+        "city": "8 NNE Ider",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree down across the roadway of CR 146."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6,
+          34.8
+        ]
+      }
+    }
+  ]
 }

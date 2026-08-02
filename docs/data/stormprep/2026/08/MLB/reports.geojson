@@ -7,12 +7,221 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:47:35Z",
+    "generated_utc": "2026-08-02T10:49:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-1",
+      "properties": {
+        "report_id": "iem-lsr-MLB-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608011938",
+        "standard_time_display": "2026-08-01 14:38 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 WSW Cocoa Beach",
+        "state": "FL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherFlow site XCOA Cocoa Beach Club measured a wind gust of 41MPH/36KTS from the southwest."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.63,
+          28.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-2",
+      "properties": {
+        "report_id": "iem-lsr-MLB-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608011945",
+        "standard_time_display": "2026-08-01 14:45 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 N Rockledge",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 9404 measured a peak wind gust of 40MPH/35KT from the southwest at 3:45 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73,
+          28.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-3",
+      "properties": {
+        "report_id": "iem-lsr-MLB-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608011946",
+        "standard_time_display": "2026-08-01 14:46 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "3 E Merritt Island",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherFlow station at Banana River - 520 measured a peak wind gust of 39MPH/34KT from the south at 3:46 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-4",
+      "properties": {
+        "report_id": "iem-lsr-MLB-4",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608011950",
+        "standard_time_display": "2026-08-01 14:50 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "2 WSW Port Canaveral",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherSTEM station at Brevard Port Canaveral measured a peak wind gust of 40MPH/35KT from the south at 3:50 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-5",
+      "properties": {
+        "report_id": "iem-lsr-MLB-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608011950",
+        "standard_time_display": "2026-08-01 14:50 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "2 WSW Port Canaveral",
+        "state": "FL",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 300 measured a peak wind gust of 47MPH/41KT from the southwest at 3:50 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-6",
+      "properties": {
+        "report_id": "iem-lsr-MLB-6",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202608011950",
+        "standard_time_display": "2026-08-01 14:50 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "3 NNW Port Canaveral",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Webcam at Port Canaveral and photos from an off duty NWS employee show a brief waterspout developed in the Banana River_ between North Merritt Island and the Cape_ and north of SR-528."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.64,
+          28.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-7",
+      "properties": {
+        "report_id": "iem-lsr-MLB-7",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608012005",
+        "standard_time_display": "2026-08-01 15:05 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "2 S Cape Canaveral SFS",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 2 (SE Sensor) measured a peak wind gust of 43MPH/37KT from the southwest at 4:05 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56,
+          28.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-8",
+      "properties": {
+        "report_id": "iem-lsr-MLB-8",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608020156",
+        "standard_time_display": "2026-08-01 20:56 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "2 NE Cape Canaveral",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherFlow station at Cocoa Beach - Jetty Park measured a peak wind gust of 40MPH/35KT from the southwest at 9:56 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.59,
+          28.41
+        ]
+      }
+    }
+  ]
 }

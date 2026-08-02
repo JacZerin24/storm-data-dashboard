@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:48:08Z",
+    "generated_utc": "2026-08-02T10:49:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "TWC",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "other": 2,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "DUST STORM": 2,
+      "TSTM WND GST": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +46,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TWC&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-TWC-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020033",
+      "standard_time_display": "2026-08-01 17:33 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "34 S Duncan",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "Dept of Highways",
+      "remark": "ADOT camera depicts wall of dense blowing dust in a haboob toward the east with estimated near-zero visibility.",
+      "lat": 32.26,
+      "lon": -109.2,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020108",
+      "standard_time_display": "2026-08-01 18:08 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "Safford",
+      "county": "Graham",
+      "state": "AZ",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 32.83,
+      "lon": -109.7,
+      "ugc": "AZC009",
+      "ugc_name": "Graham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020252",
+      "standard_time_display": "2026-08-01 19:52 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "24 ENE Tombstone",
+      "county": "Cochise",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Wall of dense blowing dust observed on webcam from near Sunizona toward the northwest and west.",
+      "lat": 31.9,
+      "lon": -109.71,
+      "ugc": "AZC003",
+      "ugc_name": "Cochise",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "TWC",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-01T10:48:09Z"
+      "generated_utc": "2026-08-02T10:49:45Z"
     },
     "primary_links": [
       {

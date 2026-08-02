@@ -7,12 +7,65 @@
     "wfo": "ILM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-01T10:47:14Z",
+    "generated_utc": "2026-08-02T10:48:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-1",
+      "properties": {
+        "report_id": "iem-lsr-ILM-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202608012127",
+        "standard_time_display": "2026-08-01 16:27 EST",
+        "wfo": "ILM",
+        "county_or_zone": "AMZ252",
+        "city": "5 SE Sunset Beach",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency Manager relayed a report of a waterspout offshore_ also viewed on beach webcam for 12 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.46,
+          33.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-2",
+      "properties": {
+        "report_id": "iem-lsr-ILM-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608012315",
+        "standard_time_display": "2026-08-01 18:15 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Williamsburg",
+        "city": "1 E Kingstree",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "911 call center reported numerous reports of water over the roads at 630 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.82,
+          33.66
+        ]
+      }
+    }
+  ]
 }
