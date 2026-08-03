@@ -3,17 +3,19 @@
   "year": 2026,
   "month": 7,
   "wfo": "GJT",
-  "total_candidate_reports": 274,
-  "mapped_candidate_reports": 274,
+  "total_candidate_reports": 286,
+  "mapped_candidate_reports": 286,
   "candidate_report_counts": {
-    "flooding": 30,
+    "flooding": 34,
     "hail": 3,
-    "other": 161,
-    "thunderstorm_wind": 80
+    "other": 168,
+    "thunderstorm_wind": 80,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "DEBRIS FLOW": 25,
-    "FLASH FLOOD": 30,
+    "DEBRIS FLOW": 32,
+    "FLASH FLOOD": 34,
+    "FUNNEL CLOUD": 1,
     "HAIL": 3,
     "NON-TSTM WND GST": 55,
     "RAIN": 136,
@@ -25,6 +27,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GJT&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

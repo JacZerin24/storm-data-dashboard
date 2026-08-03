@@ -6,7 +6,7 @@
     "wfo": "BRO",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:14Z",
+    "generated_utc": "2026-08-03T12:35:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "BRO",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND GST": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BRO&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BRO-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608022324",
+      "standard_time_display": "2026-08-02 17:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSW McAllen",
+      "county": "Hidalgo",
+      "state": "TX",
+      "source": "ASOS",
+      "remark": "ASOS station KMFE McAllen reported thunderstorm wind gust of 62 mph.",
+      "lat": 26.18,
+      "lon": -98.25,
+      "ugc": "TXC215",
+      "ugc_name": "Hidalgo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "BRO",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-02T10:48:14Z"
+      "generated_utc": "2026-08-03T12:35:10Z"
     },
     "primary_links": [
       {

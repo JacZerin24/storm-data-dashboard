@@ -7,12 +7,169 @@
     "wfo": "CRP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:21Z",
+    "generated_utc": "2026-08-03T12:35:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-1",
+      "properties": {
+        "report_id": "iem-lsr-CRP-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021359",
+        "standard_time_display": "2026-08-02 07:59 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Aransas",
+        "city": "1 NW Fulton",
+        "state": "TX",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KRKP Rockport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.05,
+          28.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-2",
+      "properties": {
+        "report_id": "iem-lsr-CRP-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021400",
+        "standard_time_display": "2026-08-02 08:00 CST",
+        "wfo": "CRP",
+        "county_or_zone": "GMZ255",
+        "city": "9 SE Aransas Pass",
+        "state": "TX",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station ANPT2 9 SE Aransas Pass."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.04,
+          27.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-3",
+      "properties": {
+        "report_id": "iem-lsr-CRP-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021436",
+        "standard_time_display": "2026-08-02 08:36 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "8 SE Aransas Pass",
+        "state": "TX",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "Buoy station RTAT2 Port Aransas_ TX."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.07,
+          27.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-4",
+      "properties": {
+        "report_id": "iem-lsr-CRP-4",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021449",
+        "standard_time_display": "2026-08-02 08:49 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "1 ESE Cc Nas",
+        "state": "TX",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KNGP C. Christi NAS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27,
+          27.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-5",
+      "properties": {
+        "report_id": "iem-lsr-CRP-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021455",
+        "standard_time_display": "2026-08-02 08:55 CST",
+        "wfo": "CRP",
+        "county_or_zone": "GMZ232",
+        "city": "8 ESE Ingleside",
+        "state": "TX",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KRAS Port Aransas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.08,
+          27.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-6",
+      "properties": {
+        "report_id": "iem-lsr-CRP-6",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608022040",
+        "standard_time_display": "2026-08-02 14:40 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Live Oak",
+        "city": "5 ESE George West",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Current various road closures due to flooding along the Nueces River: County Roads 438/369/365/202/203/380. Time from Live Oak County Office of Emergency Management social media post."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05,
+          28.3
+        ]
+      }
+    }
+  ]
 }

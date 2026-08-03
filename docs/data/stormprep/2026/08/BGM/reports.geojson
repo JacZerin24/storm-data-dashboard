@@ -7,12 +7,221 @@
     "wfo": "BGM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:09Z",
+    "generated_utc": "2026-08-03T12:35:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-1",
+      "properties": {
+        "report_id": "iem-lsr-BGM-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030005",
+        "standard_time_display": "2026-08-02 19:05 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Broome",
+        "city": "West Corners",
+        "state": "NY",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.07,
+          42.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-2",
+      "properties": {
+        "report_id": "iem-lsr-BGM-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608030047",
+        "standard_time_display": "2026-08-02 19:47 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "1 NNW New Albany",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Leesway Lane flooded with a victim rescued."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.45,
+          41.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-3",
+      "properties": {
+        "report_id": "iem-lsr-BGM-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608030047",
+        "standard_time_display": "2026-08-02 19:47 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "New Albany",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "6 inches of water over the road on Hatch Hill in New Albany."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.45,
+          41.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-4",
+      "properties": {
+        "report_id": "iem-lsr-BGM-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030056",
+        "standard_time_display": "2026-08-02 19:56 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Broome",
+        "city": "Vestal",
+        "state": "NY",
+        "magnitude": 1.38,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.05,
+          42.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-5",
+      "properties": {
+        "report_id": "iem-lsr-BGM-5",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030112",
+        "standard_time_display": "2026-08-02 20:12 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "2 WSW Wilmot",
+        "state": "PA",
+        "magnitude": 3.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.35,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-6",
+      "properties": {
+        "report_id": "iem-lsr-BGM-6",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030207",
+        "standard_time_display": "2026-08-02 21:07 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Delaware",
+        "city": "Davenport Center",
+        "state": "NY",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.92,
+          42.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-7",
+      "properties": {
+        "report_id": "iem-lsr-BGM-7",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030210",
+        "standard_time_display": "2026-08-02 21:10 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Broome",
+        "city": "Vestal",
+        "state": "NY",
+        "magnitude": 1.59,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.05,
+          42.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-8",
+      "properties": {
+        "report_id": "iem-lsr-BGM-8",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608030225",
+        "standard_time_display": "2026-08-02 21:25 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Broome",
+        "city": "West Corners",
+        "state": "NY",
+        "magnitude": 1.87,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.07,
+          42.12
+        ]
+      }
+    }
+  ]
 }

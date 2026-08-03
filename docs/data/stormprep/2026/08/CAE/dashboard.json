@@ -6,7 +6,7 @@
     "wfo": "CAE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:17Z",
+    "generated_utc": "2026-08-03T12:35:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "CAE",
-    "total_candidate_reports": 14,
-    "mapped_candidate_reports": 14,
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
     "candidate_report_counts": {
       "flooding": 9,
-      "other": 5
+      "other": 5,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 8,
       "FLOOD": 1,
-      "RAIN": 5
+      "RAIN": 5,
+      "TSTM WND DMG": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -73,6 +75,28 @@
     {
       "report_id": "iem-lsr-CAE-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608011905",
+      "standard_time_display": "2026-08-01 14:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Swansea",
+      "county": "Calhoun",
+      "state": "SC",
+      "source": "Amateur Radio",
+      "remark": "HAM Radio operator relayed a report via SLACK of a downed tree blocking the roadway near the 2000 block of Pineplain Road. Time estimated by radar.",
+      "lat": 33.77,
+      "lon": -81.06,
+      "ugc": "SCC017",
+      "ugc_name": "Calhoun",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-3",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608011945",
       "standard_time_display": "2026-08-01 14:45 EST",
       "standard_time_zone": "EST",
@@ -93,7 +117,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-3",
+      "report_id": "iem-lsr-CAE-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608011958",
       "standard_time_display": "2026-08-01 14:58 EST",
@@ -115,7 +139,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-4",
+      "report_id": "iem-lsr-CAE-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012009",
       "standard_time_display": "2026-08-01 15:09 EST",
@@ -137,7 +161,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-5",
+      "report_id": "iem-lsr-CAE-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012013",
       "standard_time_display": "2026-08-01 15:13 EST",
@@ -159,7 +183,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-6",
+      "report_id": "iem-lsr-CAE-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012100",
       "standard_time_display": "2026-08-01 16:00 EST",
@@ -181,7 +205,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-7",
+      "report_id": "iem-lsr-CAE-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012101",
       "standard_time_display": "2026-08-01 16:01 EST",
@@ -203,7 +227,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-8",
+      "report_id": "iem-lsr-CAE-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012124",
+      "standard_time_display": "2026-08-01 16:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Healing Springs",
+      "county": "Barnwell",
+      "state": "SC",
+      "source": "Emergency Mngr",
+      "remark": "SCEMD Situation Report contained a road closure in Barnwell County. Barnwell County Emergency Management reported a road closure near the intersection of Highway 3 and Whaley Road due to downed trees",
+      "lat": 33.43,
+      "lon": -81.29,
+      "ugc": "SCC011",
+      "ugc_name": "Barnwell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012327",
       "standard_time_display": "2026-08-01 18:27 EST",
@@ -225,7 +271,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-9",
+      "report_id": "iem-lsr-CAE-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020017",
       "standard_time_display": "2026-08-01 19:17 EST",
@@ -247,7 +293,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-10",
+      "report_id": "iem-lsr-CAE-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020047",
       "standard_time_display": "2026-08-01 19:47 EST",
@@ -269,7 +315,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-11",
+      "report_id": "iem-lsr-CAE-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020100",
       "standard_time_display": "2026-08-01 20:00 EST",
@@ -291,7 +337,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-12",
+      "report_id": "iem-lsr-CAE-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020226",
       "standard_time_display": "2026-08-01 21:26 EST",
@@ -313,7 +359,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-13",
+      "report_id": "iem-lsr-CAE-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020227",
       "standard_time_display": "2026-08-01 21:27 EST",
@@ -335,7 +381,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CAE-14",
+      "report_id": "iem-lsr-CAE-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020227",
       "standard_time_display": "2026-08-01 21:27 EST",
@@ -355,6 +401,28 @@
       "ugc": "SCC079",
       "ugc_name": "Richland",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608021938",
+      "standard_time_display": "2026-08-02 14:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Waynesboro",
+      "county": "Burke",
+      "state": "GA",
+      "source": "Emergency Mngr",
+      "remark": "Burke EM reported trees down throughout the county.",
+      "lat": 33.09,
+      "lon": -82.03,
+      "ugc": "GAC033",
+      "ugc_name": "Burke",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -363,7 +431,7 @@
       "wfo": "CAE",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-02T10:48:18Z"
+      "generated_utc": "2026-08-03T12:35:14Z"
     },
     "primary_links": [
       {

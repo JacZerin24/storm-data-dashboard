@@ -6,7 +6,7 @@
     "wfo": "CLE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:20Z",
+    "generated_utc": "2026-08-03T12:35:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,23 @@
     "year": 2026,
     "month": 8,
     "wfo": "CLE",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
+    "candidate_report_counts": {
+      "hail": 1,
+      "tornado": 3
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 1,
+      "WATERSPOUT": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CLE&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -38,16 +45,106 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CLE&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-CLE-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608022020",
+      "standard_time_display": "2026-08-02 15:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Ashtabula",
+      "county": "LEZ148",
+      "state": "OH",
+      "source": "Trained Spotter",
+      "remark": "Observed waterspout with a picture shared on social media off of Walnut Beach Park.",
+      "lat": 41.9,
+      "lon": -80.81,
+      "ugc": "LEZ148",
+      "ugc_name": "Geneva-on-the-Lake to Conneaut OH",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608022118",
+      "standard_time_display": "2026-08-02 16:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Hudson",
+      "county": "Summit",
+      "state": "OH",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported pea size hail lasting approximately 4 minutes.",
+      "lat": 41.24,
+      "lon": -81.44,
+      "ugc": "OHC153",
+      "ugc_name": "Summit",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608022213",
+      "standard_time_display": "2026-08-02 17:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Lawrence Park",
+      "county": "Erie",
+      "state": "PA",
+      "source": "Broadcast Media",
+      "remark": "Multiple photos shared by public of waterspout on Lake Erie.",
+      "lat": 42.16,
+      "lon": -80.02,
+      "ugc": "PAC049",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608022222",
+      "standard_time_display": "2026-08-02 17:22 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW North East",
+      "county": "LEZ149",
+      "state": "PA",
+      "source": "Broadcast Media",
+      "remark": "Twin waterspouts on Lake Erie at Freeport Beach in North East. Video shared by WJET viewers.",
+      "lat": 42.25,
+      "lon": -79.83,
+      "ugc": "LEZ149",
+      "ugc_name": "Conneaut OH to Ripley NY",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "CLE",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-02T10:48:20Z"
+      "generated_utc": "2026-08-03T12:35:16Z"
     },
     "primary_links": [
       {

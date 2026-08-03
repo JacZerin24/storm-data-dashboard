@@ -7,12 +7,143 @@
     "wfo": "GSP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:39Z",
+    "generated_utc": "2026-08-03T12:35:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-1",
+      "properties": {
+        "report_id": "iem-lsr-GSP-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608022000",
+        "standard_time_display": "2026-08-02 15:00 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Franklin",
+        "city": "1 SE Lavonia",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Multiple trees down on roads."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1,
+          34.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-2",
+      "properties": {
+        "report_id": "iem-lsr-GSP-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608022002",
+        "standard_time_display": "2026-08-02 15:02 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Stephens",
+        "city": "Toccoa",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Multiple powerlines down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.33,
+          34.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-3",
+      "properties": {
+        "report_id": "iem-lsr-GSP-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608022020",
+        "standard_time_display": "2026-08-02 15:20 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Oconee",
+        "city": "3 NNW Westminster",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree down near Doyle Street and Charles Drive."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-4",
+      "properties": {
+        "report_id": "iem-lsr-GSP-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608022030",
+        "standard_time_display": "2026-08-02 15:30 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Oconee",
+        "city": "4 WNW Walhalla",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Tree down near Highlands Highway and Stumphouse Tunnel Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.13,
+          34.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-5",
+      "properties": {
+        "report_id": "iem-lsr-GSP-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608022206",
+        "standard_time_display": "2026-08-02 17:06 EST",
+        "wfo": "GSP",
+        "county_or_zone": "York",
+        "city": "3 ENE Bullock Creek",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Large tree down on road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.36,
+          34.88
+        ]
+      }
+    }
+  ]
 }

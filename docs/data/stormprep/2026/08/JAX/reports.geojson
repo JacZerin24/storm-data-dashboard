@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:52Z",
+    "generated_utc": "2026-08-03T12:35:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -64,6 +64,58 @@
         "coordinates": [
           -82.87,
           30.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-3",
+      "properties": {
+        "report_id": "iem-lsr-JAX-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608022320",
+        "standard_time_display": "2026-08-02 18:20 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Suwannee",
+        "city": "3 E Dowling Park",
+        "state": "FL",
+        "magnitude": 5.01,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Personal weather station Its All Good - KFLLIVEO82 measured 5.01 inches of rainfall. Rain began around 3 AM. About 2 inches fell between 430 PM and 530 PM EDT. Surrounding sites measured 2 to 4 inche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.19,
+          30.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-4",
+      "properties": {
+        "report_id": "iem-lsr-JAX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608030019",
+        "standard_time_display": "2026-08-02 19:19 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Alachua",
+        "city": "Gainesville Airport",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KGNV Gainesville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.28,
+          29.7
         ]
       }
     }

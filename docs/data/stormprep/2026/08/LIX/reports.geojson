@@ -7,12 +7,91 @@
     "wfo": "LIX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-02T10:48:57Z",
+    "generated_utc": "2026-08-03T12:35:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-1",
+      "properties": {
+        "report_id": "iem-lsr-LIX-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608021350",
+        "standard_time_display": "2026-08-02 07:50 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Assumption",
+        "city": "1 ESE Napoleonville",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Delayed report. A social media post showed water covering the road_ yards and encroaching on homes near the intersection of Cane Drive and Elmfield."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0,
+          29.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-2",
+      "properties": {
+        "report_id": "iem-lsr-LIX-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608021350",
+        "standard_time_display": "2026-08-02 07:50 CST",
+        "wfo": "LIX",
+        "county_or_zone": "Assumption",
+        "city": "3 S Pierre Part",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Delayed report. A social media post showed water near the top of the slab of a home along Verda Street in Pierre Part."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.22,
+          29.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LIX-3",
+      "properties": {
+        "report_id": "iem-lsr-LIX-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608021400",
+        "standard_time_display": "2026-08-02 08:00 CST",
+        "wfo": "LIX",
+        "county_or_zone": "GMZ534",
+        "city": "3 NE Yscloskey",
+        "state": "LA",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "The NDCB station SHBL1 at Shell Beach measured a thunderstorm wind gust of 39 mph or 34 knots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.65,
+          29.87
+        ]
+      }
+    }
+  ]
 }
