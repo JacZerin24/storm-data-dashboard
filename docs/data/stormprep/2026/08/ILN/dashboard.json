@@ -6,7 +6,7 @@
     "wfo": "ILN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:45Z",
+    "generated_utc": "2026-08-04T11:32:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,26 @@
     "year": 2026,
     "month": 8,
     "wfo": "ILN",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
     "candidate_report_counts": {
       "flooding": 2,
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 9,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 1,
-      "TSTM WND DMG": 8
+      "TORNADO": 2,
+      "TSTM WND DMG": 9
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,11 +48,34 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILN&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-ILN-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012232",
+      "standard_time_display": "2026-08-01 16:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ILN",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Saint Leon",
+      "county": "Dearborn",
+      "state": "IN",
+      "source": "NWS Storm Survey",
+      "remark": "An EF-0 tornado occurred just east of Lawrenceville in northern Dearborn County. The tornado moved north-northeast and resulted in additional damage along a path in southeast Dearborn County. Damage",
+      "lat": 39.28,
+      "lon": -85.01,
+      "ugc": "INC029",
+      "ugc_name": "Dearborn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012235",
       "standard_time_display": "2026-08-01 17:35 EST",
@@ -71,7 +97,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-2",
+      "report_id": "iem-lsr-ILN-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012345",
       "standard_time_display": "2026-08-01 18:45 EST",
@@ -93,7 +119,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-3",
+      "report_id": "iem-lsr-ILN-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012353",
       "standard_time_display": "2026-08-01 18:53 EST",
@@ -115,7 +141,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-4",
+      "report_id": "iem-lsr-ILN-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608012354",
       "standard_time_display": "2026-08-01 18:54 EST",
@@ -137,7 +163,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-5",
+      "report_id": "iem-lsr-ILN-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020007",
       "standard_time_display": "2026-08-01 19:07 EST",
@@ -159,7 +185,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-6",
+      "report_id": "iem-lsr-ILN-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020015",
       "standard_time_display": "2026-08-01 19:15 EST",
@@ -181,7 +207,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-7",
+      "report_id": "iem-lsr-ILN-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020018",
       "standard_time_display": "2026-08-01 19:18 EST",
@@ -203,7 +229,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-8",
+      "report_id": "iem-lsr-ILN-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020028",
       "standard_time_display": "2026-08-01 19:28 EST",
@@ -225,7 +251,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-9",
+      "report_id": "iem-lsr-ILN-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020037",
+      "standard_time_display": "2026-08-01 19:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SW Drexel",
+      "county": "Montgomery",
+      "state": "OH",
+      "source": "NWS Storm Survey",
+      "remark": "EF0 tornado confirmed east of New Lebanon in Montgomery County_ Ohio. Maximum winds of 75 MPH. This tornado caused tree damage along Snyder Road_ with some minor damage to a few structures.",
+      "lat": 39.71,
+      "lon": -84.33,
+      "ugc": "OHC113",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020047",
       "standard_time_display": "2026-08-01 19:47 EST",
@@ -247,7 +295,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILN-10",
+      "report_id": "iem-lsr-ILN-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608020117",
+      "standard_time_display": "2026-08-01 20:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Springboro",
+      "county": "Warren",
+      "state": "OH",
+      "source": "Public",
+      "remark": "Four trees down on Applewood Lane.",
+      "lat": 39.51,
+      "lon": -84.18,
+      "ugc": "OHC165",
+      "ugc_name": "Warren",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILN-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020202",
       "standard_time_display": "2026-08-01 21:02 EST",
@@ -275,7 +345,7 @@
       "wfo": "ILN",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-03T12:35:45Z"
+      "generated_utc": "2026-08-04T11:32:51Z"
     },
     "primary_links": [
       {

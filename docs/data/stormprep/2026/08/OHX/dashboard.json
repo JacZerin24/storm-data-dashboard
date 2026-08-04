@@ -6,7 +6,7 @@
     "wfo": "OHX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:36:12Z",
+    "generated_utc": "2026-08-04T11:33:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,23 @@
     "year": 2026,
     "month": 8,
     "wfo": "OHX",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 2
+      "flooding": 2,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 2
+      "FLASH FLOOD": 2,
+      "TORNADO": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OHX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,7 +45,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OHX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -88,6 +92,50 @@
       "ugc": "TNC189",
       "ugc_name": "Wilson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012322",
+      "standard_time_display": "2026-08-01 17:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "13 SSW Crossville",
+      "county": "Cumberland",
+      "state": "TN",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Nashville confirmed an EF0 touched down near Grapevine Rd along the Bledsoe and Cumberland County line. Estimated peak winds were 75 mph and max width was 140 yards. The path length was 1.77 mile",
+      "lat": 35.77,
+      "lon": -85.12,
+      "ugc": "TNC035",
+      "ugc_name": "Cumberland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012332",
+      "standard_time_display": "2026-08-01 18:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OHX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Allardt",
+      "county": "Fentress",
+      "state": "TN",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Nashville confirmed a brief EF0 tornado near Heinss Rd in Fentress County. The tornado path was only 0.43 miles long and 50 yards wide with peak estimated winds of 70 mph.",
+      "lat": 36.37,
+      "lon": -84.82,
+      "ugc": "TNC049",
+      "ugc_name": "Fentress",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +144,7 @@
       "wfo": "OHX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-03T12:36:12Z"
+      "generated_utc": "2026-08-04T11:33:17Z"
     },
     "primary_links": [
       {

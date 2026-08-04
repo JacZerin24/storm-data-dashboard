@@ -7,7 +7,7 @@
     "wfo": "BIS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:06Z",
+    "generated_utc": "2026-08-04T11:32:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -38,6 +38,110 @@
         "coordinates": [
           -100.9,
           46.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-2",
+      "properties": {
+        "report_id": "iem-lsr-BIS-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608031220",
+        "standard_time_display": "2026-08-03 06:20 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Burleigh",
+        "city": "2 W Lincoln",
+        "state": "ND",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KBIS Bismarck Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.75,
+          46.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-3",
+      "properties": {
+        "report_id": "iem-lsr-BIS-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608031220",
+        "standard_time_display": "2026-08-03 06:20 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Burleigh",
+        "city": "1 N Bismarck",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Picture from social media of tree branches down. Estimated around 3 in diameter. Time matched with the highest wind gust at KBIS ASOS 3 miles southeast of location."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.78,
+          46.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-4",
+      "properties": {
+        "report_id": "iem-lsr-BIS-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608031230",
+        "standard_time_display": "2026-08-03 06:30 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Morton",
+        "city": "4 W Huff",
+        "state": "ND",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station EW9213 Huff Hills."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.72,
+          46.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-5",
+      "properties": {
+        "report_id": "iem-lsr-BIS-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608031652",
+        "standard_time_display": "2026-08-03 10:52 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Burleigh",
+        "city": "Bismarck",
+        "state": "ND",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Multiple reports across Bismarck of small to medium trees and branches down_ including around the airport and WFO property."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.78,
+          46.81
         ]
       }
     }

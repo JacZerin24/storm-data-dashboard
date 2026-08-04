@@ -7,7 +7,7 @@
     "wfo": "CHS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:15Z",
+    "generated_utc": "2026-08-04T11:32:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -324,6 +324,58 @@
         "coordinates": [
           -79.79,
           32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-13",
+      "properties": {
+        "report_id": "iem-lsr-CHS-13",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608032053",
+        "standard_time_display": "2026-08-03 15:53 EST",
+        "wfo": "CHS",
+        "county_or_zone": "AMZ362",
+        "city": "6 WSW Forest Beach",
+        "state": "SC",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Calibogue Sound Weatherflow sensor reported a 40 knot wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.84,
+          32.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-14",
+      "properties": {
+        "report_id": "iem-lsr-CHS-14",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608032058",
+        "standard_time_display": "2026-08-03 15:58 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Berkeley",
+        "city": "Berkeley County Airport",
+        "state": "SC",
+        "magnitude": 4.0,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Media relayed a report of 4 inches of rain at the Berkeley County Airport in Moncks Corner."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.04,
+          33.19
         ]
       }
     }

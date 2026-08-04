@@ -7,12 +7,195 @@
     "wfo": "PSR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:36:22Z",
+    "generated_utc": "2026-08-04T11:33:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-1",
+      "properties": {
+        "report_id": "iem-lsr-PSR-1",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202608040350",
+        "standard_time_display": "2026-08-03 20:50 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "6 E Arizona City",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Picture showed visibility less than 25 feet along I-10 near Eloy in dense blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.57,
+          32.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-2",
+      "properties": {
+        "report_id": "iem-lsr-PSR-2",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202608040400",
+        "standard_time_display": "2026-08-03 21:00 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "5 SSE Casa Grande",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "A utility company camera near the intersection of Interstate 10 and Interstate 8_ just south of Casa Grande_ showed visibility dropping to less than one quarter mile in dense blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.71,
+          32.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-3",
+      "properties": {
+        "report_id": "iem-lsr-PSR-3",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202608040415",
+        "standard_time_display": "2026-08-03 21:15 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "6 ESE Coolidge",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KP08 Coolidge Muni."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.43,
+          32.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-4",
+      "properties": {
+        "report_id": "iem-lsr-PSR-4",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202608040455",
+        "standard_time_display": "2026-08-03 21:55 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "1 SE Phoenix Mesa Gatew",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "0.5 mile visibility in blowing dust at Mesa Gateway Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.65,
+          33.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-5",
+      "properties": {
+        "report_id": "iem-lsr-PSR-5",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202608040520",
+        "standard_time_display": "2026-08-03 22:20 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "4 NW East Mesa",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "0.5 mile visibility reported at Falcon Field Airport in blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.73,
+          33.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-6",
+      "properties": {
+        "report_id": "iem-lsr-PSR-6",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202608040550",
+        "standard_time_display": "2026-08-03 22:50 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "1 ESE Sky Harbor Airpor",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "0.5 mile visibility in blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0,
+          33.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-7",
+      "properties": {
+        "report_id": "iem-lsr-PSR-7",
+        "report_type": "BLOWING DUST",
+        "event_category": "other",
+        "valid_utc": "202608040628",
+        "standard_time_display": "2026-08-03 23:28 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "3 ENE Deer Valley",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "0.75 mile visibility at Deer Valley Airport in blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.08,
+          33.69
+        ]
+      }
+    }
+  ]
 }

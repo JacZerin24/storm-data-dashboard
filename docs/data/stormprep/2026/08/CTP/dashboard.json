@@ -6,7 +6,7 @@
     "wfo": "CTP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:17Z",
+    "generated_utc": "2026-08-04T11:32:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "CTP",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
     "candidate_report_counts": {
       "flooding": 14,
-      "other": 1
+      "other": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 12,
       "FLOOD": 2,
+      "LANDSLIDE": 1,
       "RAIN": 1
     },
     "nws_api_alert_count": 0,
@@ -359,6 +360,28 @@
     {
       "report_id": "iem-lsr-CTP-15",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608030810",
+      "standard_time_display": "2026-08-03 03:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "LANDSLIDE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Saxton",
+      "county": "Huntingdon",
+      "state": "PA",
+      "source": "Emergency Mngr",
+      "remark": "A rockslide closed Weaver Falls Road and Power Plant Road in Hopewell Township.",
+      "lat": 40.23,
+      "lon": -78.22,
+      "ugc": "PAC061",
+      "ugc_name": "Huntingdon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-16",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031034",
       "standard_time_display": "2026-08-03 05:34 EST",
       "standard_time_zone": "EST",
@@ -385,7 +408,7 @@
       "wfo": "CTP",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-03T12:35:18Z"
+      "generated_utc": "2026-08-04T11:32:28Z"
     },
     "primary_links": [
       {

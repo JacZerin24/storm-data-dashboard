@@ -7,12 +7,117 @@
     "wfo": "CYS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:18Z",
+    "generated_utc": "2026-08-04T11:32:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CYS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-1",
+      "properties": {
+        "report_id": "iem-lsr-CYS-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608031600",
+        "standard_time_display": "2026-08-03 09:00 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Carbon",
+        "city": "14 NNE Skyline",
+        "state": "WY",
+        "magnitude": 0.4,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SBCW4 South Brush Creek."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5,
+          41.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-2",
+      "properties": {
+        "report_id": "iem-lsr-CYS-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608031600",
+        "standard_time_display": "2026-08-03 09:00 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Albany",
+        "city": "6 N Vedauwoo",
+        "state": "WY",
+        "magnitude": 0.4,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station CRWW4 Crow Creek."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.38,
+          41.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-3",
+      "properties": {
+        "report_id": "iem-lsr-CYS-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608031600",
+        "standard_time_display": "2026-08-03 09:00 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Carbon",
+        "city": "20 WNW Encampment",
+        "state": "WY",
+        "magnitude": 0.6,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DVDW4 Divide Peak."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.15,
+          41.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-4",
+      "properties": {
+        "report_id": "iem-lsr-CYS-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608031700",
+        "standard_time_display": "2026-08-03 10:00 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Carbon",
+        "city": "14 W Centennial",
+        "state": "WY",
+        "magnitude": 0.3,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station NFCW4 North French Creek."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.38,
+          41.33
+        ]
+      }
+    }
+  ]
 }

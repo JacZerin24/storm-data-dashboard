@@ -6,7 +6,7 @@
     "wfo": "AMA",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:35:02Z",
+    "generated_utc": "2026-08-04T11:32:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,13 @@
     "year": 2026,
     "month": 8,
     "wfo": "AMA",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "thunderstorm_wind": 5
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 1,
       "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -154,6 +155,28 @@
       "ugc": "TXC117",
       "ugc_name": "Deaf Smith",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608040520",
+      "standard_time_display": "2026-08-03 22:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Black Mesa Park",
+      "county": "Cimarron",
+      "state": "OK",
+      "source": "Mesonet",
+      "remark": "Severe wind gusts occurred for approximately 5 minutes at the mesonet. Peak gust was 62 mph. The event was likely caused by a heat burst since mesonet data also showed a 7 degree temperature spike in",
+      "lat": 36.83,
+      "lon": -102.88,
+      "ugc": "OKC025",
+      "ugc_name": "Cimarron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -162,7 +185,7 @@
       "wfo": "AMA",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-03T12:35:03Z"
+      "generated_utc": "2026-08-04T11:32:14Z"
     },
     "primary_links": [
       {

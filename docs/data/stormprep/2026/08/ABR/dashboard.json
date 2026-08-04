@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-03T12:34:58Z",
+    "generated_utc": "2026-08-04T11:32:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "ABR",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "other": 1
+      "other": 1,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
-      "FOG": 1
+      "FOG": 1,
+      "NON-TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +68,72 @@
       "ugc": "SDC029",
       "ugc_name": "Codington",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608040006",
+      "standard_time_display": "2026-08-03 18:06 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "11 S Bullhead",
+      "county": "Corson",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station GRRS2 Bullhead 10 S.",
+      "lat": 45.61,
+      "lon": -101.06,
+      "ugc": "SDC031",
+      "ugc_name": "Corson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608040032",
+      "standard_time_display": "2026-08-03 18:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Mobridge Municipal Airp",
+      "county": "Walworth",
+      "state": "SD",
+      "source": "ASOS",
+      "remark": "ASOS station KMBG Mobridge Muni AP.",
+      "lat": 45.55,
+      "lon": -100.41,
+      "ugc": "SDC129",
+      "ugc_name": "Walworth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608040041",
+      "standard_time_display": "2026-08-03 18:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "5 WNW Mclaughlin",
+      "county": "Corson",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 205 McLaughlin (SDDOT).",
+      "lat": 45.85,
+      "lon": -100.91,
+      "ugc": "SDC031",
+      "ugc_name": "Corson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +142,7 @@
       "wfo": "ABR",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-03T12:34:58Z"
+      "generated_utc": "2026-08-04T11:32:10Z"
     },
     "primary_links": [
       {
