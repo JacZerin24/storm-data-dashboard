@@ -7,7 +7,7 @@
     "wfo": "DLH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-04T11:32:30Z",
+    "generated_utc": "2026-08-05T11:27:40Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-DLH-1",
       "properties": {
         "report_id": "iem-lsr-DLH-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040150",
+        "standard_time_display": "2026-08-03 19:50 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Koochiching",
+        "city": "4 NE Margie",
+        "state": "MN",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous non-tstm wnd gst report from 4 NE Margie to tstm wnd gst. Mesonet station MN072 T.h.71 Margie Mp 379."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.88,
+          48.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-2",
+      "properties": {
+        "report_id": "iem-lsr-DLH-2",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608040150",
@@ -43,9 +69,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DLH-2",
+      "id": "iem-lsr-DLH-3",
       "properties": {
-        "report_id": "iem-lsr-DLH-2",
+        "report_id": "iem-lsr-DLH-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040223",
+        "standard_time_display": "2026-08-03 20:23 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Koochiching",
+        "city": "1 S International Falls",
+        "state": "MN",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Corrects previous non-tstm wnd gst report from 1 S International Falls to tstm wnd gst. ASOS station KINL International Falls Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4,
+          48.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-4",
+      "properties": {
+        "report_id": "iem-lsr-DLH-4",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608040223",
@@ -64,6 +116,292 @@
         "coordinates": [
           -93.4,
           48.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-5",
+      "properties": {
+        "report_id": "iem-lsr-DLH-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040240",
+        "standard_time_display": "2026-08-03 20:40 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Koochiching",
+        "city": "2 WNW Island View",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report and pictures of a two foot diameter tree uprooted along with a 10 inch diameter tree snapped 15 feet up the trunk and a dozen smaller diameter trees with trunks snapped. Time estimated from ra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.23,
+          48.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-6",
+      "properties": {
+        "report_id": "iem-lsr-DLH-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040540",
+        "standard_time_display": "2026-08-03 23:40 CST",
+        "wfo": "DLH",
+        "county_or_zone": "St. Louis",
+        "city": "4 WSW Tower",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Multiple reports with photos from social media showing trees down on south side of Lake Vermillion and a few miles west of Tower. One photo showed a few trees snapped at the base and one photo showed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.35,
+          47.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-7",
+      "properties": {
+        "report_id": "iem-lsr-DLH-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040542",
+        "standard_time_display": "2026-08-03 23:42 CST",
+        "wfo": "DLH",
+        "county_or_zone": "St. Louis",
+        "city": "4 W Tower",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report via social media. Picture of a tree laying across a road. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.37,
+          47.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-8",
+      "properties": {
+        "report_id": "iem-lsr-DLH-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040542",
+        "standard_time_display": "2026-08-03 23:42 CST",
+        "wfo": "DLH",
+        "county_or_zone": "St. Louis",
+        "city": "6 NNW Tower",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Video via social media of several downed trees on the north side of Pine Island on Lake Vermilion. Trees were laying down in the same direction. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.32,
+          47.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-9",
+      "properties": {
+        "report_id": "iem-lsr-DLH-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040545",
+        "standard_time_display": "2026-08-03 23:45 CST",
+        "wfo": "DLH",
+        "county_or_zone": "St. Louis",
+        "city": "1 W Tower",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Picture via social media of a tree downed in an RV park just west of Tower. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.29,
+          47.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-10",
+      "properties": {
+        "report_id": "iem-lsr-DLH-10",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608040547",
+        "standard_time_display": "2026-08-03 23:47 CST",
+        "wfo": "DLH",
+        "county_or_zone": "St. Louis",
+        "city": "6 N Soudan",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several pictures of trees downed and uprooted on several private properties off of Mud Lake Road on the northern end of Lake Vermillion. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.25,
+          47.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-11",
+      "properties": {
+        "report_id": "iem-lsr-DLH-11",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041200",
+        "standard_time_display": "2026-08-04 06:00 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Koochiching",
+        "city": "5 SSW International Fal",
+        "state": "MN",
+        "magnitude": 1.2,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MN-KC-10 International Falls 5.1 SSW."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.46,
+          48.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-12",
+      "properties": {
+        "report_id": "iem-lsr-DLH-12",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041300",
+        "standard_time_display": "2026-08-04 07:00 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Cass",
+        "city": "1 NNW Federal Dam",
+        "state": "MN",
+        "magnitude": 1.3,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "CO-OP Observer station FEDM5 Federal Dam 3 WNW."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.22,
+          47.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-13",
+      "properties": {
+        "report_id": "iem-lsr-DLH-13",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041301",
+        "standard_time_display": "2026-08-04 07:01 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Cass",
+        "city": "1 W Cass Lake",
+        "state": "MN",
+        "magnitude": 1.11,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station CASM5 Cass Lake DNR RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.61,
+          47.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-14",
+      "properties": {
+        "report_id": "iem-lsr-DLH-14",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041308",
+        "standard_time_display": "2026-08-04 07:08 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Koochiching",
+        "city": "1 SW Littlefork",
+        "state": "MN",
+        "magnitude": 1.12,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station LITM5 Littlefork RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.56,
+          48.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-15",
+      "properties": {
+        "report_id": "iem-lsr-DLH-15",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041315",
+        "standard_time_display": "2026-08-04 07:15 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Itasca",
+        "city": "1 N Bigfork",
+        "state": "MN",
+        "magnitude": 1.24,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KFOZ Bigfork Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.65,
+          47.77
         ]
       }
     }

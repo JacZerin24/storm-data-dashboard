@@ -6,7 +6,7 @@
     "wfo": "ALY",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-04T11:32:13Z",
+    "generated_utc": "2026-08-05T11:27:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "ALY",
-    "total_candidate_reports": 40,
-    "mapped_candidate_reports": 40,
+    "total_candidate_reports": 42,
+    "mapped_candidate_reports": 42,
     "candidate_report_counts": {
-      "flooding": 2,
-      "other": 38
+      "flooding": 3,
+      "other": 38,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 2,
+      "FLASH FLOOD": 3,
+      "NON-TSTM WND DMG": 1,
       "RAIN": 38
     },
     "nws_api_alert_count": 0,
@@ -556,6 +558,28 @@
     {
       "report_id": "iem-lsr-ALY-24",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608031111",
+      "standard_time_display": "2026-08-03 06:11 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Pawling",
+      "county": "Dutchess",
+      "state": "NY",
+      "source": "Dept of Highways",
+      "remark": "Social Media report with pictures from the Town of Pawling Highway Department reporting road closure of South Quaker Road between Ravine Road and Birch Hill Road due to water flowing across the roadw",
+      "lat": 41.53,
+      "lon": -73.57,
+      "ugc": "NYC027",
+      "ugc_name": "Dutchess",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-25",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031127",
       "standard_time_display": "2026-08-03 06:27 EST",
       "standard_time_zone": "EST",
@@ -576,7 +600,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-25",
+      "report_id": "iem-lsr-ALY-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031127",
       "standard_time_display": "2026-08-03 06:27 EST",
@@ -598,7 +622,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-26",
+      "report_id": "iem-lsr-ALY-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -620,7 +644,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-27",
+      "report_id": "iem-lsr-ALY-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -642,7 +666,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-28",
+      "report_id": "iem-lsr-ALY-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -664,7 +688,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-29",
+      "report_id": "iem-lsr-ALY-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -686,7 +710,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-30",
+      "report_id": "iem-lsr-ALY-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -708,7 +732,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-31",
+      "report_id": "iem-lsr-ALY-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031130",
       "standard_time_display": "2026-08-03 06:30 EST",
@@ -730,7 +754,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-32",
+      "report_id": "iem-lsr-ALY-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031200",
       "standard_time_display": "2026-08-03 07:00 EST",
@@ -752,7 +776,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-33",
+      "report_id": "iem-lsr-ALY-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031200",
       "standard_time_display": "2026-08-03 07:00 EST",
@@ -774,7 +798,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-34",
+      "report_id": "iem-lsr-ALY-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031200",
       "standard_time_display": "2026-08-03 07:00 EST",
@@ -796,7 +820,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-35",
+      "report_id": "iem-lsr-ALY-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031230",
       "standard_time_display": "2026-08-03 07:30 EST",
@@ -818,7 +842,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-36",
+      "report_id": "iem-lsr-ALY-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031300",
       "standard_time_display": "2026-08-03 08:00 EST",
@@ -840,7 +864,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-37",
+      "report_id": "iem-lsr-ALY-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031300",
       "standard_time_display": "2026-08-03 08:00 EST",
@@ -862,7 +886,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-38",
+      "report_id": "iem-lsr-ALY-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031300",
       "standard_time_display": "2026-08-03 08:00 EST",
@@ -884,7 +908,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-39",
+      "report_id": "iem-lsr-ALY-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031339",
       "standard_time_display": "2026-08-03 08:39 EST",
@@ -906,7 +930,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ALY-40",
+      "report_id": "iem-lsr-ALY-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608031340",
       "standard_time_display": "2026-08-03 08:40 EST",
@@ -926,6 +950,28 @@
       "ugc": "CTC005",
       "ugc_name": "Litchfield",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ALY-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608031630",
+      "standard_time_display": "2026-08-03 11:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ALY",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Gansevoort",
+      "county": "Saratoga",
+      "state": "NY",
+      "source": "Broadcast Media",
+      "remark": "Multiple trees downed or uprooted.",
+      "lat": 43.2,
+      "lon": -73.65,
+      "ugc": "NYC091",
+      "ugc_name": "Saratoga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ALY&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -934,7 +980,7 @@
       "wfo": "ALY",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-04T11:32:13Z"
+      "generated_utc": "2026-08-05T11:27:23Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "BTV",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-04T11:32:21Z",
+    "generated_utc": "2026-08-05T11:27:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-BTV-1",
       "properties": {
         "report_id": "iem-lsr-BTV-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608040330",
+        "standard_time_display": "2026-08-03 22:30 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Essex",
+        "city": "1 NW Maidstone State Pa",
+        "state": "VT",
+        "magnitude": 0.78,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.65,
+          44.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-2",
+      "properties": {
+        "report_id": "iem-lsr-BTV-2",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608041000",
@@ -43,9 +69,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-BTV-2",
+      "id": "iem-lsr-BTV-3",
       "properties": {
-        "report_id": "iem-lsr-BTV-2",
+        "report_id": "iem-lsr-BTV-3",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608041027",
@@ -64,6 +90,32 @@
         "coordinates": [
           -72.28,
           44.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-4",
+      "properties": {
+        "report_id": "iem-lsr-BTV-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608041300",
+        "standard_time_display": "2026-08-04 08:00 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Orleans",
+        "city": "Brownington",
+        "state": "VT",
+        "magnitude": 0.42,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.17,
+          44.84
         ]
       }
     }
