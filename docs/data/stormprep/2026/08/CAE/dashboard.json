@@ -6,7 +6,7 @@
     "wfo": "CAE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:27:33Z",
+    "generated_utc": "2026-08-06T11:31:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "CAE",
-    "total_candidate_reports": 17,
-    "mapped_candidate_reports": 17,
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
     "candidate_report_counts": {
       "flooding": 9,
       "other": 5,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 8,
       "FLOOD": 1,
       "RAIN": 5,
-      "TSTM WND DMG": 3
+      "TSTM WND DMG": 5,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -423,6 +424,72 @@
       "ugc": "GAC033",
       "ugc_name": "Burke",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608052002",
+      "standard_time_display": "2026-08-05 15:02 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Lexington",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Emergency Mngr",
+      "remark": "Lexington County Emergency Management reports power lines down in Lexington near the intersection of Northwood Rd and Caughman Rd. Time estimated from radar.",
+      "lat": 33.99,
+      "lon": -81.24,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608052002",
+      "standard_time_display": "2026-08-05 15:02 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lexington",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Dept of Highways",
+      "remark": "SC Dept of Public Safety reports trees down on Corley St in Lexington near hwy 6. Time estimated from radar.",
+      "lat": 33.98,
+      "lon": -81.23,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAE-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608052010",
+      "standard_time_display": "2026-08-05 15:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Lake Murray Dam",
+      "county": "Lexington",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "Richland County Mesonet Reports a 43 mph wind gust at 4:10 pm at the Lake Murray Dam.",
+      "lat": 34.04,
+      "lon": -81.22,
+      "ugc": "SCC063",
+      "ugc_name": "Lexington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAE&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -431,7 +498,7 @@
       "wfo": "CAE",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-05T11:27:34Z"
+      "generated_utc": "2026-08-06T11:31:07Z"
     },
     "primary_links": [
       {

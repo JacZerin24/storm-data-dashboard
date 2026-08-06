@@ -7,12 +7,169 @@
     "wfo": "TOP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:28:51Z",
+    "generated_utc": "2026-08-06T11:32:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-1",
+      "properties": {
+        "report_id": "iem-lsr-TOP-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060324",
+        "standard_time_display": "2026-08-05 21:24 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Osage",
+        "city": "3 S Melvern",
+        "state": "KS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.63,
+          38.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-2",
+      "properties": {
+        "report_id": "iem-lsr-TOP-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060358",
+        "standard_time_display": "2026-08-05 21:58 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Lyon",
+        "city": "1 ENE Emporia",
+        "state": "KS",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.16,
+          38.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-3",
+      "properties": {
+        "report_id": "iem-lsr-TOP-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060358",
+        "standard_time_display": "2026-08-05 21:58 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Lyon",
+        "city": "1 ENE Emporia",
+        "state": "KS",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.16,
+          38.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-4",
+      "properties": {
+        "report_id": "iem-lsr-TOP-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060359",
+        "standard_time_display": "2026-08-05 21:59 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Lyon",
+        "city": "1 E Emporia",
+        "state": "KS",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.16,
+          38.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-5",
+      "properties": {
+        "report_id": "iem-lsr-TOP-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060403",
+        "standard_time_display": "2026-08-05 22:03 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Lyon",
+        "city": "3 E Emporia",
+        "state": "KS",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.12,
+          38.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TOP-6",
+      "properties": {
+        "report_id": "iem-lsr-TOP-6",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608061019",
+        "standard_time_display": "2026-08-06 04:19 CST",
+        "wfo": "TOP",
+        "county_or_zone": "Osage",
+        "city": "2 NE Reading",
+        "state": "KS",
+        "magnitude": 3.1,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Total rainfalll amount from early Thursday morning."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.93,
+          38.55
+        ]
+      }
+    }
+  ]
 }

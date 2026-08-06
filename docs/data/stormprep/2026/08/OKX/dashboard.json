@@ -6,7 +6,7 @@
     "wfo": "OKX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:28:28Z",
+    "generated_utc": "2026-08-06T11:32:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "OKX",
-    "total_candidate_reports": 19,
-    "mapped_candidate_reports": 19,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
-      "flooding": 14,
+      "flooding": 16,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 14,
+      "FLASH FLOOD": 16,
       "NON-TSTM WND DMG": 4,
       "TSTM WND DMG": 1
     },
@@ -465,6 +465,50 @@
       "ugc": "NYC087",
       "ugc_name": "Rockland",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608052246",
+      "standard_time_display": "2026-08-05 17:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Rahway",
+      "county": "Union",
+      "state": "NJ",
+      "source": "Trained Spotter",
+      "remark": "Water rescue on Plainfield Ave.",
+      "lat": 40.6,
+      "lon": -74.29,
+      "ugc": "NJC039",
+      "ugc_name": "Union",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608060513",
+      "standard_time_display": "2026-08-06 00:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Bloomingdale",
+      "county": "Passaic",
+      "state": "NJ",
+      "source": "Dept of Highways",
+      "remark": "Flooding on NJ 23 Northbound North of Paterson Hamburg Tpke (West Milford Twp)_ All lanes closed.",
+      "lat": 41.01,
+      "lon": -74.38,
+      "ugc": "NJC031",
+      "ugc_name": "Passaic",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -473,7 +517,7 @@
       "wfo": "OKX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-05T11:28:28Z"
+      "generated_utc": "2026-08-06T11:32:01Z"
     },
     "primary_links": [
       {

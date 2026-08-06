@@ -6,7 +6,7 @@
     "wfo": "GUM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:27:55Z",
+    "generated_utc": "2026-08-06T11:31:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "GUM",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "flooding": 1,
+      "other": 1
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 1,
+      "LANDSLIDE": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +46,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GUM&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GUM-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608060230",
+      "standard_time_display": "2026-08-06 12:30 ChST",
+      "standard_time_zone": "ChST",
+      "wfo": "GUM",
+      "report_type": "LANDSLIDE",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Nimitz Hill",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": "Landslide reported at Nimitz Hill_ photo submitted by the public shows debris covering one lane.",
+      "lat": 13.46,
+      "lon": 144.73,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GUM-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608060315",
+      "standard_time_display": "2026-08-06 13:15 ChST",
+      "standard_time_zone": "ChST",
+      "wfo": "GUM",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Talofofo",
+      "county": "Guam",
+      "state": "GU",
+      "source": "Public",
+      "remark": "Member of public reported flooding at Windward Hills Apts in Yona_ rain water seeped underneath the door.",
+      "lat": 13.37,
+      "lon": 144.74,
+      "ugc": "GUC010",
+      "ugc_name": "Guam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GUM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "GUM",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-05T11:27:56Z"
+      "generated_utc": "2026-08-06T11:31:27Z"
     },
     "primary_links": [
       {

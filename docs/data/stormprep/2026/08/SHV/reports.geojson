@@ -7,12 +7,65 @@
     "wfo": "SHV",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:28:45Z",
+    "generated_utc": "2026-08-06T11:32:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-1",
+      "properties": {
+        "report_id": "iem-lsr-SHV-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608052007",
+        "standard_time_display": "2026-08-05 14:07 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Caddo",
+        "city": "2 SW Shreveport",
+        "state": "LA",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Measured at the Shreveport Regional Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.82,
+          32.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SHV-2",
+      "properties": {
+        "report_id": "iem-lsr-SHV-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608052012",
+        "standard_time_display": "2026-08-05 14:12 CST",
+        "wfo": "SHV",
+        "county_or_zone": "Caddo",
+        "city": "2 SW Shreveport",
+        "state": "LA",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Peak wind gust measured at the Shreveport Regional Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.82,
+          32.45
+        ]
+      }
+    }
+  ]
 }

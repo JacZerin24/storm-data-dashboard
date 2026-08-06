@@ -7,7 +7,7 @@
     "wfo": "CAE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:27:33Z",
+    "generated_utc": "2026-08-06T11:31:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -454,6 +454,84 @@
         "coordinates": [
           -82.03,
           33.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-18",
+      "properties": {
+        "report_id": "iem-lsr-CAE-18",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608052002",
+        "standard_time_display": "2026-08-05 15:02 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Lexington",
+        "city": "1 WNW Lexington",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Lexington County Emergency Management reports power lines down in Lexington near the intersection of Northwood Rd and Caughman Rd. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.24,
+          33.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-19",
+      "properties": {
+        "report_id": "iem-lsr-CAE-19",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608052002",
+        "standard_time_display": "2026-08-05 15:02 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Lexington",
+        "city": "Lexington",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "SC Dept of Public Safety reports trees down on Corley St in Lexington near hwy 6. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.23,
+          33.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-20",
+      "properties": {
+        "report_id": "iem-lsr-CAE-20",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608052010",
+        "standard_time_display": "2026-08-05 15:10 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Lexington",
+        "city": "1 S Lake Murray Dam",
+        "state": "SC",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Richland County Mesonet Reports a 43 mph wind gust at 4:10 pm at the Lake Murray Dam."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.22,
+          34.04
         ]
       }
     }

@@ -6,7 +6,7 @@
     "wfo": "MRX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:28:24Z",
+    "generated_utc": "2026-08-06T11:31:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "MRX",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
       "flooding": 2,
-      "thunderstorm_wind": 6
+      "thunderstorm_wind": 6,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
+      "TORNADO": 1,
       "TSTM WND DMG": 6
     },
     "nws_api_alert_count": 0,
@@ -32,7 +34,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,11 +47,34 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MRX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-MRX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608012321",
+      "standard_time_display": "2026-08-01 17:21 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MRX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Melvine",
+      "county": "Bledsoe",
+      "state": "TN",
+      "source": "NWS Storm Survey",
+      "remark": "EF0 - The start of the tornado occurred in Bledsoe County near Grapevine Road about one quarter of mile south of the Cumberland County line. Several trees were uprooted. No structures were affected i",
+      "lat": 35.77,
+      "lon": -85.12,
+      "ugc": "TNC007",
+      "ugc_name": "Bledsoe",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MRX-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020015",
       "standard_time_display": "2026-08-01 19:15 EST",
@@ -70,7 +96,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-2",
+      "report_id": "iem-lsr-MRX-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020025",
       "standard_time_display": "2026-08-01 19:25 EST",
@@ -92,7 +118,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-3",
+      "report_id": "iem-lsr-MRX-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020128",
       "standard_time_display": "2026-08-01 19:28 CST",
@@ -114,7 +140,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-4",
+      "report_id": "iem-lsr-MRX-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020133",
       "standard_time_display": "2026-08-01 19:33 CST",
@@ -136,7 +162,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-5",
+      "report_id": "iem-lsr-MRX-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020137",
       "standard_time_display": "2026-08-01 19:37 CST",
@@ -158,7 +184,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-6",
+      "report_id": "iem-lsr-MRX-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020150",
       "standard_time_display": "2026-08-01 20:50 EST",
@@ -180,7 +206,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-7",
+      "report_id": "iem-lsr-MRX-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020430",
       "standard_time_display": "2026-08-01 23:30 EST",
@@ -202,7 +228,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MRX-8",
+      "report_id": "iem-lsr-MRX-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608020515",
       "standard_time_display": "2026-08-02 00:15 EST",
@@ -230,7 +256,7 @@
       "wfo": "MRX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-05T11:28:24Z"
+      "generated_utc": "2026-08-06T11:31:57Z"
     },
     "primary_links": [
       {

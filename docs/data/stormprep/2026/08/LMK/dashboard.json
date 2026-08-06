@@ -6,7 +6,7 @@
     "wfo": "LMK",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-05T11:28:11Z",
+    "generated_utc": "2026-08-06T11:31:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "LMK",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "thunderstorm_wind": 3
+      "flooding": 1,
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 1,
+      "FLASH FLOOD": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -111,6 +113,50 @@
       "ugc": "KYC103",
       "ugc_name": "Henry",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LMK-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608051730",
+      "standard_time_display": "2026-08-05 12:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LMK",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NE Lexington",
+      "county": "Fayette",
+      "state": "KY",
+      "source": "Broadcast Media",
+      "remark": "Multiple trees and small branches down along Paris Pike.",
+      "lat": 38.1,
+      "lon": -84.42,
+      "ugc": "KYC067",
+      "ugc_name": "Fayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LMK-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608052012",
+      "standard_time_display": "2026-08-05 15:12 EST",
+      "standard_time_zone": "EST",
+      "wfo": "LMK",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 S Centerville",
+      "county": "Fayette",
+      "state": "KY",
+      "source": "911 Call Center",
+      "remark": "Three vehicles stuck in water on Muir Station Road at Payson Stud Lane. Water Rescue being performed.",
+      "lat": 38.12,
+      "lon": -84.39,
+      "ugc": "KYC067",
+      "ugc_name": "Fayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -119,7 +165,7 @@
       "wfo": "LMK",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-05T11:28:11Z"
+      "generated_utc": "2026-08-06T11:31:45Z"
     },
     "primary_links": [
       {
