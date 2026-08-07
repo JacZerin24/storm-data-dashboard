@@ -6,7 +6,7 @@
     "wfo": "CTP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-06T11:31:10Z",
+    "generated_utc": "2026-08-07T10:08:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,20 @@
     "year": 2026,
     "month": 8,
     "wfo": "CTP",
-    "total_candidate_reports": 17,
-    "mapped_candidate_reports": 17,
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
     "candidate_report_counts": {
-      "flooding": 15,
-      "other": 2
+      "flooding": 16,
+      "other": 3,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 13,
+      "FLASH FLOOD": 14,
       "FLOOD": 2,
       "LANDSLIDE": 1,
-      "RAIN": 1
+      "LIGHTNING": 1,
+      "RAIN": 1,
+      "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -422,6 +425,72 @@
       "ugc": "PAC113",
       "ugc_name": "Sullivan",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062010",
+      "standard_time_display": "2026-08-06 15:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Carlisle Springs",
+      "county": "Cumberland",
+      "state": "PA",
+      "source": "Trained Spotter",
+      "remark": "Trees down on wires near the fairgrounds.",
+      "lat": 40.22,
+      "lon": -77.18,
+      "ugc": "PAC041",
+      "ugc_name": "Cumberland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062045",
+      "standard_time_display": "2026-08-06 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Carlisle",
+      "county": "Cumberland",
+      "state": "PA",
+      "source": "Trained Spotter",
+      "remark": "Water overflowing Harrisburg Pike.",
+      "lat": 40.21,
+      "lon": -77.18,
+      "ugc": "PAC041",
+      "ugc_name": "Cumberland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062248",
+      "standard_time_display": "2026-08-06 17:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 N Lancaster",
+      "county": "Lancaster",
+      "state": "PA",
+      "source": "911 Call Center",
+      "remark": "Person struck by lightning on the 300 block of Eden Road.",
+      "lat": 40.07,
+      "lon": -76.3,
+      "ugc": "PAC071",
+      "ugc_name": "Lancaster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -430,7 +499,7 @@
       "wfo": "CTP",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-06T11:31:11Z"
+      "generated_utc": "2026-08-07T10:08:59Z"
     },
     "primary_links": [
       {

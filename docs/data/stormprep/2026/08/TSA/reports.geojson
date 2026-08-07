@@ -7,12 +7,65 @@
     "wfo": "TSA",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-06T11:32:23Z",
+    "generated_utc": "2026-08-07T10:10:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-1",
+      "properties": {
+        "report_id": "iem-lsr-TSA-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608070140",
+        "standard_time_display": "2026-08-06 19:40 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Madison",
+        "city": "Kingston",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Reports of trees down in residential areas in Kingston_ including some on houses. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.52,
+          36.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-2",
+      "properties": {
+        "report_id": "iem-lsr-TSA-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608070230",
+        "standard_time_display": "2026-08-06 20:30 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Ottawa",
+        "city": "1 WNW Miami",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Report of either a power pole or power line downed due to wind on G Street NW in Miami. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89,
+          36.88
+        ]
+      }
+    }
+  ]
 }

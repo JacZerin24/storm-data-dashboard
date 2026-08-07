@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-06T11:31:39Z",
+    "generated_utc": "2026-08-07T10:09:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "JAX",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
       "other": 6,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "RAIN": 6,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 3
+      "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -267,6 +267,28 @@
       "ugc": "FLC083",
       "ugc_name": "Marion",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062245",
+      "standard_time_display": "2026-08-06 17:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "4 E Alachua",
+      "county": "Alachua",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "FAWN site at Alachua measured a wind gust of 40 mph.",
+      "lat": 29.78,
+      "lon": -82.41,
+      "ugc": "FLC001",
+      "ugc_name": "Alachua",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -275,7 +297,7 @@
       "wfo": "JAX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-06T11:31:40Z"
+      "generated_utc": "2026-08-07T10:09:27Z"
     },
     "primary_links": [
       {

@@ -7,12 +7,117 @@
     "wfo": "LZK",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-06T11:31:49Z",
+    "generated_utc": "2026-08-07T10:09:36Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LZK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-1",
+      "properties": {
+        "report_id": "iem-lsr-LZK-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608062307",
+        "standard_time_display": "2026-08-06 17:07 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Boone",
+        "city": "Diamond City",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was reported blown down onto highway 7 in Diamond City."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.92,
+          36.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-2",
+      "properties": {
+        "report_id": "iem-lsr-LZK-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608062320",
+        "standard_time_display": "2026-08-06 17:20 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Marion",
+        "city": "1 ESE Lead Hill",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree reported down on Marion County Road 2050."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.88,
+          36.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-3",
+      "properties": {
+        "report_id": "iem-lsr-LZK-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608070057",
+        "standard_time_display": "2026-08-06 18:57 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Newton",
+        "city": "Jasper",
+        "state": "AR",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Quarter sized hail reported at the Jasper Police Department."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.19,
+          36.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-4",
+      "properties": {
+        "report_id": "iem-lsr-LZK-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608070059",
+        "standard_time_display": "2026-08-06 18:59 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Newton",
+        "city": "Jasper",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "Tree reported down on Highway 7 just south of the Jasper city limits blocking one lane of traffic."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.19,
+          36.0
+        ]
+      }
+    }
+  ]
 }

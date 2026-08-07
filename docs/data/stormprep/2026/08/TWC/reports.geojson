@@ -7,7 +7,7 @@
     "wfo": "TWC",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-06T11:32:23Z",
+    "generated_utc": "2026-08-07T10:10:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1450,6 +1450,32 @@
       "id": "iem-lsr-TWC-56",
       "properties": {
         "report_id": "iem-lsr-TWC-56",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060057",
+        "standard_time_display": "2026-08-05 17:57 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Graham",
+        "city": "4 ENE Safford",
+        "state": "AZ",
+        "magnitude": 69.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Corrects previous non-tstm wnd gst report from 4 ENE Safford. ASOS station KSAD Safford Regional Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.63,
+          32.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-57",
+      "properties": {
+        "report_id": "iem-lsr-TWC-57",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060057",
@@ -1473,9 +1499,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-57",
+      "id": "iem-lsr-TWC-58",
       "properties": {
-        "report_id": "iem-lsr-TWC-57",
+        "report_id": "iem-lsr-TWC-58",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202608060118",
@@ -1499,9 +1525,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-58",
+      "id": "iem-lsr-TWC-59",
       "properties": {
-        "report_id": "iem-lsr-TWC-58",
+        "report_id": "iem-lsr-TWC-59",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060130",
+        "standard_time_display": "2026-08-05 18:30 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Graham",
+        "city": "5 SSE Safford",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Newspaper",
+        "event_narrative": "Significant damage to house. Roof peeled off_ which crushed car. Outbuildings destroyed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.66,
+          32.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-60",
+      "properties": {
+        "report_id": "iem-lsr-TWC-60",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060136",
+        "standard_time_display": "2026-08-05 18:36 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "Tombstone",
+        "state": "AZ",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.06,
+          31.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-61",
+      "properties": {
+        "report_id": "iem-lsr-TWC-61",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608060140",
@@ -1525,9 +1603,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-59",
+      "id": "iem-lsr-TWC-62",
       "properties": {
-        "report_id": "iem-lsr-TWC-59",
+        "report_id": "iem-lsr-TWC-62",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608060156",
@@ -1551,9 +1629,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-60",
+      "id": "iem-lsr-TWC-63",
       "properties": {
-        "report_id": "iem-lsr-TWC-60",
+        "report_id": "iem-lsr-TWC-63",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060210",
+        "standard_time_display": "2026-08-05 19:10 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "12 SSW Tombstone",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Storm Survey",
+        "event_narrative": "Multiple structure damage on property: Roof deck was uplifted and a loss of significant roof covering material (>20%). A chimney and a carport roof collapse on vehicle. Garage doors collapse inwards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.11,
+          31.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-64",
+      "properties": {
+        "report_id": "iem-lsr-TWC-64",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060234",
+        "standard_time_display": "2026-08-05 19:34 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "6 SE Sierra Vista",
+        "state": "AZ",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported by Trained Spotter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.25,
+          31.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-65",
+      "properties": {
+        "report_id": "iem-lsr-TWC-65",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202608060238",
@@ -1577,9 +1707,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-61",
+      "id": "iem-lsr-TWC-66",
       "properties": {
-        "report_id": "iem-lsr-TWC-61",
+        "report_id": "iem-lsr-TWC-66",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608060430",
+        "standard_time_display": "2026-08-05 21:30 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "14 SE Tucson",
+        "state": "AZ",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported by Trained Spotter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.71,
+          32.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-67",
+      "properties": {
+        "report_id": "iem-lsr-TWC-67",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608060430",
@@ -1603,9 +1759,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-62",
+      "id": "iem-lsr-TWC-68",
       "properties": {
-        "report_id": "iem-lsr-TWC-62",
+        "report_id": "iem-lsr-TWC-68",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202608060431",
@@ -1629,9 +1785,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-63",
+      "id": "iem-lsr-TWC-69",
       "properties": {
-        "report_id": "iem-lsr-TWC-63",
+        "report_id": "iem-lsr-TWC-69",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060433",
@@ -1655,9 +1811,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-64",
+      "id": "iem-lsr-TWC-70",
       "properties": {
-        "report_id": "iem-lsr-TWC-64",
+        "report_id": "iem-lsr-TWC-70",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608060452",
+        "standard_time_display": "2026-08-05 21:52 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "14 SE Tucson",
+        "state": "AZ",
+        "magnitude": 0.65,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported by Trained Spotter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.68,
+          32.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-71",
+      "properties": {
+        "report_id": "iem-lsr-TWC-71",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060455",
@@ -1681,9 +1863,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-65",
+      "id": "iem-lsr-TWC-72",
       "properties": {
-        "report_id": "iem-lsr-TWC-65",
+        "report_id": "iem-lsr-TWC-72",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060500",
+        "standard_time_display": "2026-08-05 22:00 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "2 E Tucson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Large tree down just west of Golf Links and Wilmont."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.86,
+          32.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-73",
+      "properties": {
+        "report_id": "iem-lsr-TWC-73",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202608060516",
@@ -1707,9 +1915,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-66",
+      "id": "iem-lsr-TWC-74",
       "properties": {
-        "report_id": "iem-lsr-TWC-66",
+        "report_id": "iem-lsr-TWC-74",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060525",
@@ -1733,9 +1941,87 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-67",
+      "id": "iem-lsr-TWC-75",
       "properties": {
-        "report_id": "iem-lsr-TWC-67",
+        "report_id": "iem-lsr-TWC-75",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608060530",
+        "standard_time_display": "2026-08-05 22:30 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "3 N Bisbee",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Significant flash flooding of Brewery Wash into portions of Bisbee. At least one small debris flow. Multiple vehicles impacted with other damage to roads evident from video. Water was flowing at leas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.91,
+          31.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-76",
+      "properties": {
+        "report_id": "iem-lsr-TWC-76",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608060539",
+        "standard_time_display": "2026-08-05 22:39 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "11 ESE Tucson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Swift water rescue on E Old Spanish Trail."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.72,
+          32.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-77",
+      "properties": {
+        "report_id": "iem-lsr-TWC-77",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060551",
+        "standard_time_display": "2026-08-05 22:51 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "3 NE Three Points",
+        "state": "AZ",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "58 mph gust from severe thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.24,
+          32.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-78",
+      "properties": {
+        "report_id": "iem-lsr-TWC-78",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060554",
@@ -1759,9 +2045,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TWC-68",
+      "id": "iem-lsr-TWC-79",
       "properties": {
-        "report_id": "iem-lsr-TWC-68",
+        "report_id": "iem-lsr-TWC-79",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608060555",
@@ -1780,6 +2066,110 @@
         "coordinates": [
           -110.87,
           32.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-80",
+      "properties": {
+        "report_id": "iem-lsr-TWC-80",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608060600",
+        "standard_time_display": "2026-08-05 23:00 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "2 NNE Three Points",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Utility reported 40 power poles down mostly along Ajo Highway between Three Points and Sandario Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.26,
+          32.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-81",
+      "properties": {
+        "report_id": "iem-lsr-TWC-81",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608060730",
+        "standard_time_display": "2026-08-06 00:30 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "14 SE Tucson",
+        "state": "AZ",
+        "magnitude": 1.24,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported by Trained Spotter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.71,
+          32.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-82",
+      "properties": {
+        "report_id": "iem-lsr-TWC-82",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608061510",
+        "standard_time_display": "2026-08-06 08:10 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "10 NNE Three Points",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Report of swift water rescue near the Black Wash."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.22,
+          32.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-83",
+      "properties": {
+        "report_id": "iem-lsr-TWC-83",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608061900",
+        "standard_time_display": "2026-08-06 12:00 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Pima",
+        "city": "4 S Picture Rocks",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "West Manville Road from North Anway Road to North Reservation Road closed due to flooding on the road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.25,
+          32.29
         ]
       }
     }
