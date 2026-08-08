@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:27Z",
+    "generated_utc": "2026-08-08T09:52:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "JAX",
-    "total_candidate_reports": 11,
-    "mapped_candidate_reports": 11,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
       "other": 6,
-      "thunderstorm_wind": 5
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
       "RAIN": 6,
-      "TSTM WND DMG": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
@@ -271,6 +271,28 @@
     {
       "report_id": "iem-lsr-JAX-11",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062150",
+      "standard_time_display": "2026-08-06 16:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Interlachen",
+      "county": "Putnam",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Delayed report of several large trees down on vehicles in Interlachen. Time estimated via radar data.",
+      "lat": 29.61,
+      "lon": -81.88,
+      "ugc": "FLC107",
+      "ugc_name": "Putnam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608062245",
       "standard_time_display": "2026-08-06 17:45 EST",
       "standard_time_zone": "EST",
@@ -297,7 +319,7 @@
       "wfo": "JAX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-07T10:09:27Z"
+      "generated_utc": "2026-08-08T09:52:26Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "CHS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:08:56Z",
+    "generated_utc": "2026-08-08T09:51:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "CHS",
-    "total_candidate_reports": 24,
-    "mapped_candidate_reports": 24,
+    "total_candidate_reports": 26,
+    "mapped_candidate_reports": 26,
     "candidate_report_counts": {
       "hail": 1,
       "marine": 5,
       "other": 1,
       "thunderstorm_wind": 8,
-      "tornado": 9
+      "tornado": 11
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
@@ -32,7 +32,7 @@
       "RAIN": 1,
       "TORNADO": 2,
       "TSTM WND DMG": 8,
-      "WATERSPOUT": 7
+      "WATERSPOUT": 9
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -583,6 +583,50 @@
       "ugc": "GAC043",
       "ugc_name": "Candler",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608071225",
+      "standard_time_display": "2026-08-07 07:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 W Port Royal",
+      "county": "Beaufort",
+      "state": "SC",
+      "source": "Trained Spotter",
+      "remark": "Spotter reported a waterspout on the Broad River near the SC-170 Bridge.",
+      "lat": 32.39,
+      "lon": -80.8,
+      "ugc": "SCC013",
+      "ugc_name": "Beaufort",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608071240",
+      "standard_time_display": "2026-08-07 07:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 E Sullivans Island",
+      "county": "AMZ360",
+      "state": "SC",
+      "source": "Public",
+      "remark": "Boat captain reported a waterspout well off the Isle of Palms coast.",
+      "lat": 32.75,
+      "lon": -79.7,
+      "ugc": "AMZ360",
+      "ugc_name": "Coastal waters from South Santee River to Edisto Beach SC out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -591,7 +635,7 @@
       "wfo": "CHS",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-07T10:08:57Z"
+      "generated_utc": "2026-08-08T09:51:56Z"
     },
     "primary_links": [
       {

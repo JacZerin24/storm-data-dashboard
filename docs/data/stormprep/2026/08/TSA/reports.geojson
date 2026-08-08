@@ -7,7 +7,7 @@
     "wfo": "TSA",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:10:13Z",
+    "generated_utc": "2026-08-08T09:53:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-TSA-1",
       "properties": {
         "report_id": "iem-lsr-TSA-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608062335",
+        "standard_time_display": "2026-08-06 17:35 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Benton",
+        "city": "Gateway",
+        "state": "AR",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Public report to NWS Little Rock social media and then relayed to our office. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.93,
+          36.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-2",
+      "properties": {
+        "report_id": "iem-lsr-TSA-2",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608070140",
@@ -43,9 +69,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TSA-2",
+      "id": "iem-lsr-TSA-3",
       "properties": {
-        "report_id": "iem-lsr-TSA-2",
+        "report_id": "iem-lsr-TSA-3",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608070230",
@@ -64,6 +90,84 @@
         "coordinates": [
           -94.89,
           36.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-4",
+      "properties": {
+        "report_id": "iem-lsr-TSA-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608070320",
+        "standard_time_display": "2026-08-06 21:20 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Delaware",
+        "city": "3 E Ketchum",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Strong thunderstorm wind uprooted several trees_ snapped large tree limbs_ and damaged the roofs of a couple homes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.96,
+          36.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-5",
+      "properties": {
+        "report_id": "iem-lsr-TSA-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608072300",
+        "standard_time_display": "2026-08-07 17:00 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Carroll",
+        "city": "Green Forest",
+        "state": "AR",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Quarter (1.00 in.). Time adjusted from original report through radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.44,
+          36.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-6",
+      "properties": {
+        "report_id": "iem-lsr-TSA-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072325",
+        "standard_time_display": "2026-08-07 17:25 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Madison",
+        "city": "Marble",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photos of tree and building damage in Marble relayed by broadcast media. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.59,
+          36.14
         ]
       }
     }

@@ -7,12 +7,169 @@
     "wfo": "OUN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:50Z",
+    "generated_utc": "2026-08-08T09:52:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-1",
+      "properties": {
+        "report_id": "iem-lsr-OUN-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608071630",
+        "standard_time_display": "2026-08-07 10:30 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Kingfisher",
+        "city": "4 N Kingfisher",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Damage to buildings_ trees and power poles. Location is approximate. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93,
+          35.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-2",
+      "properties": {
+        "report_id": "iem-lsr-OUN-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608071725",
+        "standard_time_display": "2026-08-07 11:25 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Canadian",
+        "city": "5 NNE Piedmont",
+        "state": "OK",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather station measurement."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71,
+          35.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-3",
+      "properties": {
+        "report_id": "iem-lsr-OUN-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608071750",
+        "standard_time_display": "2026-08-07 11:50 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Oklahoma",
+        "city": "5 NW Warr Acres",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "4 inch limbs down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67,
+          35.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-4",
+      "properties": {
+        "report_id": "iem-lsr-OUN-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608071820",
+        "standard_time_display": "2026-08-07 12:20 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Canadian",
+        "city": "3 WNW Yukon",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Seven to eight power poles blown down along Richland Road. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8,
+          35.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-5",
+      "properties": {
+        "report_id": "iem-lsr-OUN-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608071835",
+        "standard_time_display": "2026-08-07 12:35 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Lincoln",
+        "city": "2 ESE Chandler",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Images show large metal shipping containers blown over or displaced due to thunderstorm winds. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.85,
+          35.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-6",
+      "properties": {
+        "report_id": "iem-lsr-OUN-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072000",
+        "standard_time_display": "2026-08-07 14:00 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Hughes",
+        "city": "3 ESE Holdenville",
+        "state": "OK",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Holdenville Mesonet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.36,
+          35.07
+        ]
+      }
+    }
+  ]
 }

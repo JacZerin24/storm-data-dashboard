@@ -7,12 +7,91 @@
     "wfo": "FWD",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:10Z",
+    "generated_utc": "2026-08-08T09:52:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-1",
+      "properties": {
+        "report_id": "iem-lsr-FWD-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608072235",
+        "standard_time_display": "2026-08-07 16:35 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Grayson",
+        "city": "Pottsboro",
+        "state": "TX",
+        "magnitude": 0.88,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Media reported nickel-size hail near Pottsboro at 5:35pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67,
+          33.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-2",
+      "properties": {
+        "report_id": "iem-lsr-FWD-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072235",
+        "standard_time_display": "2026-08-07 16:35 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Grayson",
+        "city": "Pottsboro",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Facebook photo showed a tree down in Pottsboro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67,
+          33.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-3",
+      "properties": {
+        "report_id": "iem-lsr-FWD-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608072351",
+        "standard_time_display": "2026-08-07 17:51 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Denton",
+        "city": "4 W Prosper",
+        "state": "TX",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Dime (0.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.86,
+          33.24
+        ]
+      }
+    }
+  ]
 }

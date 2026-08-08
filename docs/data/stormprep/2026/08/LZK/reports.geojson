@@ -7,7 +7,7 @@
     "wfo": "LZK",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:36Z",
+    "generated_utc": "2026-08-08T09:52:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -72,6 +72,84 @@
       "id": "iem-lsr-LZK-3",
       "properties": {
         "report_id": "iem-lsr-LZK-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608062347",
+        "standard_time_display": "2026-08-06 17:47 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Searcy",
+        "city": "Gilbert",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Trees and power lines reported down in Gilbert. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.72,
+          35.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-4",
+      "properties": {
+        "report_id": "iem-lsr-LZK-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608070023",
+        "standard_time_display": "2026-08-06 18:23 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Baxter",
+        "city": "1 N Cotter",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "This is a delayed report. Numerous tree limbs were reported down at the RV Park on Denton Ferry Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.52,
+          36.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-5",
+      "properties": {
+        "report_id": "iem-lsr-LZK-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608070025",
+        "standard_time_display": "2026-08-06 18:25 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Baxter",
+        "city": "1 ENE Gassville",
+        "state": "AR",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "This is a delayed report. Pea sized hail was reported in the town of Gassville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.48,
+          36.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-6",
+      "properties": {
+        "report_id": "iem-lsr-LZK-6",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202608070057",
@@ -95,9 +173,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-LZK-4",
+      "id": "iem-lsr-LZK-7",
       "properties": {
-        "report_id": "iem-lsr-LZK-4",
+        "report_id": "iem-lsr-LZK-7",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608070059",
@@ -116,6 +194,84 @@
         "coordinates": [
           -93.19,
           36.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-8",
+      "properties": {
+        "report_id": "iem-lsr-LZK-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072149",
+        "standard_time_display": "2026-08-07 15:49 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Polk",
+        "city": "Mena Intermountain Muni",
+        "state": "AR",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Mena Intermountain Airport measured a wind gust of 58 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.21,
+          34.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-9",
+      "properties": {
+        "report_id": "iem-lsr-LZK-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072336",
+        "standard_time_display": "2026-08-07 17:36 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Boone",
+        "city": "Boone County Airport",
+        "state": "AR",
+        "magnitude": 49.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "This is a correction of location for the incorrect LSR location at the Baxter County Airport. The correct location was at the Boone County Airport northwest of the town of Harrison where a 49 mph win"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.15,
+          36.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LZK-10",
+      "properties": {
+        "report_id": "iem-lsr-LZK-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608072336",
+        "standard_time_display": "2026-08-07 17:36 CST",
+        "wfo": "LZK",
+        "county_or_zone": "Baxter",
+        "city": "Ozark Regional Airport",
+        "state": "AR",
+        "magnitude": 49.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Measured wind gust reported at Harrison Airport of 49 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.47,
+          36.37
         ]
       }
     }

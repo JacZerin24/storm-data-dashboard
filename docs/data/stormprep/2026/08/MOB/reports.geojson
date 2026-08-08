@@ -7,12 +7,39 @@
     "wfo": "MOB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:43Z",
+    "generated_utc": "2026-08-08T09:52:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-1",
+      "properties": {
+        "report_id": "iem-lsr-MOB-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202608071405",
+        "standard_time_display": "2026-08-07 08:05 CST",
+        "wfo": "MOB",
+        "county_or_zone": "GMZ650",
+        "city": "4 SSE Gulf Shores",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Brief waterspout offshore from the beaches this morning. Report via video and pictures on social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67,
+          30.21
+        ]
+      }
+    }
+  ]
 }

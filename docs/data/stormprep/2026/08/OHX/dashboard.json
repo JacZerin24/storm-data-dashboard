@@ -6,7 +6,7 @@
     "wfo": "OHX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:48Z",
+    "generated_utc": "2026-08-08T09:52:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "OHX",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "flooding": 7,
+      "flooding": 9,
+      "thunderstorm_wind": 1,
       "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 7,
-      "TORNADO": 2
+      "FLASH FLOOD": 9,
+      "TORNADO": 2,
+      "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -246,6 +248,72 @@
       "ugc": "TNC141",
       "ugc_name": "Putnam",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072226",
+      "standard_time_display": "2026-08-07 16:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 W Murfreesboro",
+      "county": "Rutherford",
+      "state": "TN",
+      "source": "Public",
+      "remark": "a few trees down in the Kingdom Ridge subdivision. Time is radar estimated.",
+      "lat": 35.84,
+      "lon": -86.49,
+      "ugc": "TNC149",
+      "ugc_name": "Rutherford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072236",
+      "standard_time_display": "2026-08-07 16:36 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Smyrna",
+      "county": "Rutherford",
+      "state": "TN",
+      "source": "Trained Spotter",
+      "remark": "report of road closures and vehicles stranded between Smyrna and Murfreesboro.",
+      "lat": 35.92,
+      "lon": -86.52,
+      "ugc": "TNC149",
+      "ugc_name": "Rutherford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OHX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608080014",
+      "standard_time_display": "2026-08-07 18:14 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OHX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 E Spring Hill",
+      "county": "Williamson",
+      "state": "TN",
+      "source": "Emergency Mngr",
+      "remark": "flooding on Bethesda Rd at Bethesda-Duplex Rd.",
+      "lat": 35.76,
+      "lon": -86.79,
+      "ugc": "TNC187",
+      "ugc_name": "Williamson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -254,7 +322,7 @@
       "wfo": "OHX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-07T10:09:49Z"
+      "generated_utc": "2026-08-08T09:52:47Z"
     },
     "primary_links": [
       {

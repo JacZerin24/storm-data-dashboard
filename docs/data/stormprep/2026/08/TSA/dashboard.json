@@ -6,7 +6,7 @@
     "wfo": "TSA",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:10:13Z",
+    "generated_utc": "2026-08-08T09:53:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "TSA",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "thunderstorm_wind": 2
+      "hail": 2,
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 2
+      "HAIL": 2,
+      "TSTM WND DMG": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -48,6 +50,28 @@
     {
       "report_id": "iem-lsr-TSA-1",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608062335",
+      "standard_time_display": "2026-08-06 17:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Gateway",
+      "county": "Benton",
+      "state": "AR",
+      "source": "Public",
+      "remark": "Delayed report. Public report to NWS Little Rock social media and then relayed to our office. Time estimated from radar.",
+      "lat": 36.49,
+      "lon": -93.93,
+      "ugc": "ARC007",
+      "ugc_name": "Benton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-2",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608070140",
       "standard_time_display": "2026-08-06 19:40 CST",
       "standard_time_zone": "CST",
@@ -68,7 +92,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TSA-2",
+      "report_id": "iem-lsr-TSA-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608070230",
       "standard_time_display": "2026-08-06 20:30 CST",
@@ -88,6 +112,72 @@
       "ugc": "OKC115",
       "ugc_name": "Ottawa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608070320",
+      "standard_time_display": "2026-08-06 21:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Ketchum",
+      "county": "Delaware",
+      "state": "OK",
+      "source": "Public",
+      "remark": "Strong thunderstorm wind uprooted several trees_ snapped large tree limbs_ and damaged the roofs of a couple homes.",
+      "lat": 36.52,
+      "lon": -94.96,
+      "ugc": "OKC041",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072300",
+      "standard_time_display": "2026-08-07 17:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Green Forest",
+      "county": "Carroll",
+      "state": "AR",
+      "source": "Public",
+      "remark": "Report from mPING: Quarter (1.00 in.). Time adjusted from original report through radar.",
+      "lat": 36.33,
+      "lon": -93.44,
+      "ugc": "ARC015",
+      "ugc_name": "Carroll",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072325",
+      "standard_time_display": "2026-08-07 17:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Marble",
+      "county": "Madison",
+      "state": "AR",
+      "source": "Public",
+      "remark": "Photos of tree and building damage in Marble relayed by broadcast media. Time estimated by radar.",
+      "lat": 36.14,
+      "lon": -93.59,
+      "ugc": "ARC087",
+      "ugc_name": "Madison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +186,7 @@
       "wfo": "TSA",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-07T10:10:13Z"
+      "generated_utc": "2026-08-08T09:53:10Z"
     },
     "primary_links": [
       {

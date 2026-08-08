@@ -6,7 +6,7 @@
     "wfo": "FWD",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-07T10:09:10Z",
+    "generated_utc": "2026-08-08T09:52:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "FWD",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "hail": 2,
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 2,
+      "TSTM WND DMG": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +46,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FWD&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-FWD-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072235",
+      "standard_time_display": "2026-08-07 16:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "Pottsboro",
+      "county": "Grayson",
+      "state": "TX",
+      "source": "Broadcast Media",
+      "remark": "Media reported nickel-size hail near Pottsboro at 5:35pm.",
+      "lat": 33.77,
+      "lon": -96.67,
+      "ugc": "TXC181",
+      "ugc_name": "Grayson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072235",
+      "standard_time_display": "2026-08-07 16:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Pottsboro",
+      "county": "Grayson",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Facebook photo showed a tree down in Pottsboro.",
+      "lat": 33.77,
+      "lon": -96.67,
+      "ugc": "TXC181",
+      "ugc_name": "Grayson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608072351",
+      "standard_time_display": "2026-08-07 17:51 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "4 W Prosper",
+      "county": "Denton",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 33.24,
+      "lon": -96.86,
+      "ugc": "TXC121",
+      "ugc_name": "Denton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "FWD",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-07T10:09:11Z"
+      "generated_utc": "2026-08-08T09:52:10Z"
     },
     "primary_links": [
       {
