@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-08T09:51:47Z",
+    "generated_utc": "2026-08-09T09:53:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "BIS",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
+      "hail": 1,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
+      "HAIL": 1,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 3
     },
@@ -155,6 +157,28 @@
       "ugc": "NDC015",
       "ugc_name": "Burleigh",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608090110",
+      "standard_time_display": "2026-08-08 19:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "4 W Strasburg",
+      "county": "Emmons",
+      "state": "ND",
+      "source": "Public",
+      "remark": "Broadcast media forwarded a picture of a hail stone_ next to a quarter.",
+      "lat": 46.13,
+      "lon": -100.24,
+      "ugc": "NDC029",
+      "ugc_name": "Emmons",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -163,7 +187,7 @@
       "wfo": "BIS",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-08T09:51:48Z"
+      "generated_utc": "2026-08-09T09:53:40Z"
     },
     "primary_links": [
       {

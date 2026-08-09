@@ -6,7 +6,7 @@
     "wfo": "BGM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-08T09:51:47Z",
+    "generated_utc": "2026-08-09T09:53:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "BGM",
-    "total_candidate_reports": 39,
-    "mapped_candidate_reports": 39,
+    "total_candidate_reports": 42,
+    "mapped_candidate_reports": 42,
     "candidate_report_counts": {
       "flooding": 12,
+      "hail": 1,
       "other": 12,
-      "thunderstorm_wind": 15
+      "thunderstorm_wind": 17
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 12,
+      "HAIL": 1,
       "RAIN": 12,
-      "TSTM WND DMG": 15
+      "TSTM WND DMG": 17
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -906,6 +908,72 @@
       "ugc": "NYC067",
       "ugc_name": "Onondaga",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608081757",
+      "standard_time_display": "2026-08-08 12:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Afton",
+      "county": "Chenango",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree and wires down on Sherman Hill road.",
+      "lat": 42.23,
+      "lon": -75.49,
+      "ugc": "NYC017",
+      "ugc_name": "Chenango",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608081757",
+      "standard_time_display": "2026-08-08 12:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Stilesville",
+      "county": "Delaware",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree down on road.",
+      "lat": 42.14,
+      "lon": -75.4,
+      "ugc": "NYC025",
+      "ugc_name": "Delaware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BGM-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608082142",
+      "standard_time_display": "2026-08-08 16:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BGM",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.62,
+      "magnitude_qualifier": null,
+      "city": "3.5 NE Baldwinsville",
+      "county": "Onondaga",
+      "state": "NY",
+      "source": "Cocorahs",
+      "remark": null,
+      "lat": 43.19,
+      "lon": -76.28,
+      "ugc": "NYC067",
+      "ugc_name": "Onondaga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -914,7 +982,7 @@
       "wfo": "BGM",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-08T09:51:47Z"
+      "generated_utc": "2026-08-09T09:53:39Z"
     },
     "primary_links": [
       {

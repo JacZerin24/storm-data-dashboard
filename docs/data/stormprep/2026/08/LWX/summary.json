@@ -3,24 +3,27 @@
   "year": 2026,
   "month": 8,
   "wfo": "LWX",
-  "total_candidate_reports": 35,
-  "mapped_candidate_reports": 35,
+  "total_candidate_reports": 100,
+  "mapped_candidate_reports": 100,
   "candidate_report_counts": {
     "flooding": 8,
-    "marine": 12,
-    "thunderstorm_wind": 15
+    "marine": 35,
+    "thunderstorm_wind": 56,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 8,
-    "MARINE TSTM WIND": 12,
-    "TSTM WND DMG": 14,
-    "TSTM WND GST": 1
+    "MARINE TSTM WIND": 35,
+    "TSTM WND DMG": 51,
+    "TSTM WND GST": 5,
+    "WATERSPOUT": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=LWX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

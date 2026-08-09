@@ -6,7 +6,7 @@
     "wfo": "SLC",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-08T09:53:06Z",
+    "generated_utc": "2026-08-09T09:54:55Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "SLC",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 1
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND GST": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-SLC-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608081920",
+      "standard_time_display": "2026-08-08 12:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "11 WSW Panguitch",
+      "county": "Garfield",
+      "state": "UT",
+      "source": "Mesonet",
+      "remark": "Mesonet station PC170 Panguitch Lake.",
+      "lat": 37.74,
+      "lon": -112.61,
+      "ugc": "UTC017",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "SLC",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-08T09:53:06Z"
+      "generated_utc": "2026-08-09T09:54:55Z"
     },
     "primary_links": [
       {

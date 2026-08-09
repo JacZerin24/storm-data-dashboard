@@ -7,7 +7,7 @@
     "wfo": "PUB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-08T09:52:57Z",
+    "generated_utc": "2026-08-09T09:54:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -64,6 +64,58 @@
         "coordinates": [
           -102.55,
           37.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-3",
+      "properties": {
+        "report_id": "iem-lsr-PUB-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608082134",
+        "standard_time_display": "2026-08-08 14:34 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Kiowa",
+        "city": "5 ENE Eads",
+        "state": "CO",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7,
+          38.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-4",
+      "properties": {
+        "report_id": "iem-lsr-PUB-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608090311",
+        "standard_time_display": "2026-08-08 20:11 MST",
+        "wfo": "PUB",
+        "county_or_zone": "El Paso",
+        "city": "2 SSE Peterson AFB",
+        "state": "CO",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KCOS Colorado Springs Airport originated from decaying high based shower."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.69,
+          38.81
         ]
       }
     }
