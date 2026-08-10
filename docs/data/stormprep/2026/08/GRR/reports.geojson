@@ -7,12 +7,143 @@
     "wfo": "GRR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-09T09:54:05Z",
+    "generated_utc": "2026-08-10T10:35:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-1",
+      "properties": {
+        "report_id": "iem-lsr-GRR-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608091918",
+        "standard_time_display": "2026-08-09 13:18 CST",
+        "wfo": "GRR",
+        "county_or_zone": "LMZ845",
+        "city": "2 NNW Saugatuck",
+        "state": "MI",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XSTK Saugatuck Pier."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.22,
+          42.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-2",
+      "properties": {
+        "report_id": "iem-lsr-GRR-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608091920",
+        "standard_time_display": "2026-08-09 13:20 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Allegan",
+        "city": "1 E Saugatuck",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Trees and wires down at Mason Street and North Maple street Saugatuck_ MI."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.19,
+          42.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-3",
+      "properties": {
+        "report_id": "iem-lsr-GRR-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608091924",
+        "standard_time_display": "2026-08-09 13:24 CST",
+        "wfo": "GRR",
+        "county_or_zone": "Ottawa",
+        "city": "Macatawa",
+        "state": "MI",
+        "magnitude": 31.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "Buoy station HLNM4 Holland Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2,
+          42.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-4",
+      "properties": {
+        "report_id": "iem-lsr-GRR-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608100851",
+        "standard_time_display": "2026-08-10 03:51 EST",
+        "wfo": "GRR",
+        "county_or_zone": "Jackson",
+        "city": "3 ENE Sandstone",
+        "state": "MI",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Corrects previous non-tstm wnd gst report from 3 ENE Sandstone. ASOS station KJXN Jackson County-Reynolds Field Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47,
+          42.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GRR-5",
+      "properties": {
+        "report_id": "iem-lsr-GRR-5",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608100851",
+        "standard_time_display": "2026-08-10 03:51 EST",
+        "wfo": "GRR",
+        "county_or_zone": "Jackson",
+        "city": "3 ENE Sandstone",
+        "state": "MI",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KJXN Jackson County-Reynolds Field Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47,
+          42.27
+        ]
+      }
+    }
+  ]
 }

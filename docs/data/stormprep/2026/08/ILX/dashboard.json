@@ -6,7 +6,7 @@
     "wfo": "ILX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-09T09:54:13Z",
+    "generated_utc": "2026-08-10T10:35:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "ILX",
-    "total_candidate_reports": 59,
-    "mapped_candidate_reports": 59,
+    "total_candidate_reports": 61,
+    "mapped_candidate_reports": 61,
     "candidate_report_counts": {
       "flooding": 1,
       "other": 51,
-      "tornado": 7
+      "tornado": 9
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "FUNNEL CLOUD": 7,
-      "RAIN": 51
+      "FUNNEL CLOUD": 8,
+      "RAIN": 51,
+      "TORNADO": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1348,6 +1349,50 @@
       "ugc": "ILC029",
       "ugc_name": "Coles",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILX-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100352",
+      "standard_time_display": "2026-08-09 21:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ILX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Elmwood",
+      "county": "Peoria",
+      "state": "IL",
+      "source": "Trained Spotter",
+      "remark": "Funnel cloud extended about halfway to the ground.",
+      "lat": 40.81,
+      "lon": -89.93,
+      "ugc": "ILC143",
+      "ugc_name": "Peoria",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILX-61",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100353",
+      "standard_time_display": "2026-08-09 21:53 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ILX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Brimfield",
+      "county": "Peoria",
+      "state": "IL",
+      "source": "Storm Chaser",
+      "remark": "Brief touchdown in a field_ no damage reported.",
+      "lat": 40.81,
+      "lon": -89.88,
+      "ugc": "ILC143",
+      "ugc_name": "Peoria",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1356,7 +1401,7 @@
       "wfo": "ILX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-09T09:54:14Z"
+      "generated_utc": "2026-08-10T10:35:24Z"
     },
     "primary_links": [
       {

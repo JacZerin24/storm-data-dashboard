@@ -6,7 +6,7 @@
     "wfo": "EAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-09T09:53:55Z",
+    "generated_utc": "2026-08-10T10:35:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "EAX",
-    "total_candidate_reports": 77,
-    "mapped_candidate_reports": 77,
+    "total_candidate_reports": 79,
+    "mapped_candidate_reports": 79,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 2,
-      "thunderstorm_wind": 72
+      "thunderstorm_wind": 74
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 3,
       "HAIL": 2,
-      "TSTM WND DMG": 66,
-      "TSTM WND GST": 6
+      "TSTM WND DMG": 67,
+      "TSTM WND GST": 7
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1743,6 +1743,50 @@
       "ugc": "MOC089",
       "ugc_name": "Howard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-78",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100538",
+      "standard_time_display": "2026-08-09 23:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Arkoe",
+      "county": "Nodaway",
+      "state": "MO",
+      "source": "Fire Dept/Rescue",
+      "remark": "8 in diameter tree branch snapped.",
+      "lat": 40.26,
+      "lon": -94.87,
+      "ugc": "MOC147",
+      "ugc_name": "Nodaway",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-79",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100902",
+      "standard_time_display": "2026-08-10 03:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Clare",
+      "county": "Johnson",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 38.83,
+      "lon": -94.89,
+      "ugc": "KSC091",
+      "ugc_name": "Johnson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1751,7 +1795,7 @@
       "wfo": "EAX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-09T09:53:55Z"
+      "generated_utc": "2026-08-10T10:35:05Z"
     },
     "primary_links": [
       {
