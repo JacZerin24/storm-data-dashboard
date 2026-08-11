@@ -6,7 +6,7 @@
     "wfo": "LBF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-10T10:35:29Z",
+    "generated_utc": "2026-08-11T10:09:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "LBF",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "hail": 1
+      "hail": 3,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "HAIL": 1
+      "HAIL": 3,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +68,72 @@
       "ugc": "NEC171",
       "ugc_name": "Thomas",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110045",
+      "standard_time_display": "2026-08-10 18:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LBF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "26 N Whitman",
+      "county": "Cherry",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Time estimated from radar.",
+      "lat": 42.42,
+      "lon": -101.56,
+      "ugc": "NEC031",
+      "ugc_name": "Cherry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110047",
+      "standard_time_display": "2026-08-10 18:47 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LBF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "26 N Whitman",
+      "county": "Cherry",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Time estimated from radar.",
+      "lat": 42.42,
+      "lon": -101.56,
+      "ugc": "NEC031",
+      "ugc_name": "Cherry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110118",
+      "standard_time_display": "2026-08-10 19:18 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LBF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "9 SSW Merritt Reservoir",
+      "county": "Cherry",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Mostly peas with a few quarters. Time estimated from radar.",
+      "lat": 42.52,
+      "lon": -100.91,
+      "ugc": "NEC031",
+      "ugc_name": "Cherry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +142,7 @@
       "wfo": "LBF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-10T10:35:29Z"
+      "generated_utc": "2026-08-11T10:09:22Z"
     },
     "primary_links": [
       {

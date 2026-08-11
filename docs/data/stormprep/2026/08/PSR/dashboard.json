@@ -6,7 +6,7 @@
     "wfo": "PSR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-10T10:35:57Z",
+    "generated_utc": "2026-08-11T10:09:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,21 @@
     "year": 2026,
     "month": 8,
     "wfo": "PSR",
-    "total_candidate_reports": 27,
-    "mapped_candidate_reports": 27,
+    "total_candidate_reports": 34,
+    "mapped_candidate_reports": 34,
     "candidate_report_counts": {
+      "flooding": 2,
       "hail": 1,
       "other": 13,
-      "thunderstorm_wind": 13
+      "thunderstorm_wind": 18
     },
     "candidate_report_type_counts": {
       "BLOWING DUST": 9,
       "DUST STORM": 4,
+      "FLASH FLOOD": 2,
       "HAIL": 1,
-      "TSTM WND DMG": 4,
-      "TSTM WND GST": 9
+      "TSTM WND DMG": 6,
+      "TSTM WND GST": 12
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -340,6 +342,28 @@
     {
       "report_id": "iem-lsr-PSR-14",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100020",
+      "standard_time_display": "2026-08-09 17:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 NW Miami",
+      "county": "Gila",
+      "state": "AZ",
+      "source": "Other Federal",
+      "remark": "***DELAYED REPORT*** The Pinto Creek near Miami gage recorded a rapid rise of 6.7 ft_ impacting nearby low water crossings upstream of the gage.",
+      "lat": 33.48,
+      "lon": -111.0,
+      "ugc": "AZC007",
+      "ugc_name": "Gila",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-15",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100155",
       "standard_time_display": "2026-08-09 18:55 MST",
       "standard_time_zone": "MST",
@@ -360,7 +384,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-15",
+      "report_id": "iem-lsr-PSR-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100155",
       "standard_time_display": "2026-08-09 18:55 MST",
@@ -382,7 +406,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-16",
+      "report_id": "iem-lsr-PSR-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100209",
       "standard_time_display": "2026-08-09 19:09 MST",
@@ -404,7 +428,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-17",
+      "report_id": "iem-lsr-PSR-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100325",
       "standard_time_display": "2026-08-09 20:25 MST",
@@ -426,7 +450,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-18",
+      "report_id": "iem-lsr-PSR-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100333",
+      "standard_time_display": "2026-08-09 20:33 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 E Glendale",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Utility Company",
+      "remark": "Corrects previous tstm wnd dmg report from 4 E Glendale. Report of power lines down in the area.",
+      "lat": 33.54,
+      "lon": -112.12,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100341",
       "standard_time_display": "2026-08-09 20:41 MST",
@@ -448,7 +494,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-19",
+      "report_id": "iem-lsr-PSR-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100341",
       "standard_time_display": "2026-08-09 20:41 MST",
@@ -470,7 +516,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-20",
+      "report_id": "iem-lsr-PSR-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100345",
+      "standard_time_display": "2026-08-09 20:45 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Glendale",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Broadcast Media",
+      "remark": "***DELAYED REPORT*** Snapped powerpole near the area of 51st Ave and Glendale Avenue in Glendale.",
+      "lat": 33.54,
+      "lon": -112.17,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100359",
       "standard_time_display": "2026-08-09 20:59 MST",
@@ -492,7 +560,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-21",
+      "report_id": "iem-lsr-PSR-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100400",
       "standard_time_display": "2026-08-09 21:00 MST",
@@ -514,7 +582,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-22",
+      "report_id": "iem-lsr-PSR-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100420",
       "standard_time_display": "2026-08-09 21:20 MST",
@@ -536,7 +604,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-23",
+      "report_id": "iem-lsr-PSR-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100421",
       "standard_time_display": "2026-08-09 21:21 MST",
@@ -558,7 +626,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-24",
+      "report_id": "iem-lsr-PSR-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100421",
       "standard_time_display": "2026-08-09 21:21 MST",
@@ -580,7 +648,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-25",
+      "report_id": "iem-lsr-PSR-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100430",
       "standard_time_display": "2026-08-09 21:30 MST",
@@ -602,7 +670,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-26",
+      "report_id": "iem-lsr-PSR-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100435",
       "standard_time_display": "2026-08-09 21:35 MST",
@@ -624,7 +692,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-27",
+      "report_id": "iem-lsr-PSR-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608100455",
       "standard_time_display": "2026-08-09 21:55 MST",
@@ -644,6 +712,94 @@
       "ugc": "AZC013",
       "ugc_name": "Maricopa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100626",
+      "standard_time_display": "2026-08-09 23:26 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SW Ak-Chin Village",
+      "county": "Pinal",
+      "state": "AZ",
+      "source": "Dept of Highways",
+      "remark": "***DELAYED REPORT*** Val Vista Rd low water crossing at Vekol Wash was closed due to flooding.",
+      "lat": 32.97,
+      "lon": -112.14,
+      "ugc": "AZC021",
+      "ugc_name": "Pinal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110126",
+      "standard_time_display": "2026-08-10 18:26 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "18 NNW Coyote Wells",
+      "county": "Imperial",
+      "state": "CA",
+      "source": "Mesonet",
+      "remark": "Mesonet station FHCC1 Fish Creek Mountains.",
+      "lat": 32.99,
+      "lon": -116.07,
+      "ugc": "CAC025",
+      "ugc_name": "Imperial",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110311",
+      "standard_time_display": "2026-08-10 20:11 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "9 E Sentinel",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "A privately owned automated weather station along Union Pacific Railroad south of Interstate 8 reported a wind gust to 58 mph.",
+      "lat": 32.88,
+      "lon": -113.06,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608110534",
+      "standard_time_display": "2026-08-10 22:34 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 69.0,
+      "magnitude_qualifier": null,
+      "city": "18 SSW Quartzsite",
+      "county": "La Paz",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "An automated weather station in Yuma Proving Ground_ site YPG 19_ reported a maximum wind gust of 69 mph.",
+      "lat": 33.41,
+      "lon": -114.3,
+      "ugc": "AZC012",
+      "ugc_name": "La Paz",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -652,7 +808,7 @@
       "wfo": "PSR",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-10T10:35:57Z"
+      "generated_utc": "2026-08-11T10:09:45Z"
     },
     "primary_links": [
       {
