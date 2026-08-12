@@ -3,28 +3,35 @@
   "year": 2026,
   "month": 8,
   "wfo": "IWX",
-  "total_candidate_reports": 60,
-  "mapped_candidate_reports": 60,
+  "total_candidate_reports": 211,
+  "mapped_candidate_reports": 211,
   "candidate_report_counts": {
-    "hail": 11,
-    "marine": 2,
-    "other": 1,
-    "thunderstorm_wind": 46
+    "flooding": 23,
+    "hail": 34,
+    "marine": 5,
+    "other": 31,
+    "thunderstorm_wind": 117,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "HAIL": 11,
-    "MARINE TSTM WIND": 2,
+    "FLASH FLOOD": 16,
+    "FLOOD": 7,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 34,
+    "LIGHTNING": 2,
+    "MARINE TSTM WIND": 5,
     "NON-TSTM WND DMG": 1,
     "NON-TSTM WND GST": 1,
-    "RAIN": 1,
-    "TSTM WND DMG": 35,
-    "TSTM WND GST": 9
+    "RAIN": 29,
+    "TSTM WND DMG": 95,
+    "TSTM WND GST": 20
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=IWX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

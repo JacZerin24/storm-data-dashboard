@@ -6,7 +6,7 @@
     "wfo": "LOX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-11T10:09:25Z",
+    "generated_utc": "2026-08-12T10:18:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "LOX",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
-      "flooding": 1
+      "flooding": 3
     },
     "candidate_report_type_counts": {
-      "COASTAL FLOOD": 1
+      "COASTAL FLOOD": 1,
+      "FLASH FLOOD": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +67,50 @@
       "ugc": "CAC037",
       "ugc_name": "Los Angeles",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608112030",
+      "standard_time_display": "2026-08-11 12:30 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LOX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Lockwood Valley",
+      "county": "Ventura",
+      "state": "CA",
+      "source": "Trained Spotter",
+      "remark": "Flooding of private property and Boy Scout Camp Road. Several inches deep. Large log flowing down the street. 0.25 inch hail.",
+      "lat": 34.75,
+      "lon": -119.13,
+      "ugc": "CAC111",
+      "ugc_name": "Ventura",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LOX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608112123",
+      "standard_time_display": "2026-08-11 13:23 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LOX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Reyes Peak",
+      "county": "Ventura",
+      "state": "CA",
+      "source": "Emergency Mngr",
+      "remark": "Flash flooding of dry Cuyama River bed covering low-river crossings on Lockwood Valley Road.",
+      "lat": 34.7,
+      "lon": -119.32,
+      "ugc": "CAC111",
+      "ugc_name": "Ventura",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LOX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +119,7 @@
       "wfo": "LOX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-11T10:09:25Z"
+      "generated_utc": "2026-08-12T10:18:46Z"
     },
     "primary_links": [
       {

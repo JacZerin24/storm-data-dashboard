@@ -6,7 +6,7 @@
     "wfo": "ARX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-11T10:08:47Z",
+    "generated_utc": "2026-08-12T10:17:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "ARX",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
-      "other": 6
+      "flooding": 1,
+      "other": 7
     },
     "candidate_report_type_counts": {
-      "RAIN": 6
+      "FLOOD": 1,
+      "RAIN": 7
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -176,6 +178,50 @@
       "ugc": "WIC057",
       "ugc_name": "Juneau",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608111220",
+      "standard_time_display": "2026-08-11 06:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.5,
+      "magnitude_qualifier": null,
+      "city": "Colwell",
+      "county": "Floyd",
+      "state": "IA",
+      "source": "Public",
+      "remark": "3.75 inch per hour rain rates.",
+      "lat": 43.16,
+      "lon": -92.59,
+      "ugc": "IAC067",
+      "ugc_name": "Floyd",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608111225",
+      "standard_time_display": "2026-08-11 06:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Elma",
+      "county": "Howard",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Ponding on roadways from heavy rainfall rates of 3.5 inch per hour.",
+      "lat": 43.25,
+      "lon": -92.44,
+      "ugc": "IAC089",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -184,7 +230,7 @@
       "wfo": "ARX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-11T10:08:47Z"
+      "generated_utc": "2026-08-12T10:17:58Z"
     },
     "primary_links": [
       {
