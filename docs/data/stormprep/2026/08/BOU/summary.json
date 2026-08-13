@@ -3,15 +3,25 @@
   "year": 2026,
   "month": 8,
   "wfo": "BOU",
-  "total_candidate_reports": 0,
-  "mapped_candidate_reports": 0,
-  "candidate_report_counts": {},
-  "candidate_report_type_counts": {},
+  "total_candidate_reports": 13,
+  "mapped_candidate_reports": 13,
+  "candidate_report_counts": {
+    "hail": 1,
+    "thunderstorm_wind": 11,
+    "tornado": 1
+  },
+  "candidate_report_type_counts": {
+    "HAIL": 1,
+    "TORNADO": 1,
+    "TSTM WND DMG": 1,
+    "TSTM WND GST": 10
+  },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BOU&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

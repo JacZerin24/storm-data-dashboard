@@ -6,7 +6,7 @@
     "wfo": "GRB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-12T10:18:26Z",
+    "generated_utc": "2026-08-13T10:22:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "GRB",
-    "total_candidate_reports": 14,
-    "mapped_candidate_reports": 14,
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
     "candidate_report_counts": {
-      "hail": 3,
+      "hail": 4,
       "other": 10,
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "HAIL": 3,
+      "HAIL": 4,
       "RAIN": 10,
-      "TSTM WND DMG": 1
+      "TSTM WND DMG": 1,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -356,6 +357,50 @@
       "ugc": "WIC073",
       "ugc_name": "Marathon",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRB-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608120631",
+      "standard_time_display": "2026-08-12 00:31 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GRB",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "4 SW Mattoon",
+      "county": "Shawano",
+      "state": "WI",
+      "source": "Cocorahs",
+      "remark": "Delayed report for 5.9 ENE Birnamwood. Ping pong ball sized hail observed for 14 min. Time based on radar.",
+      "lat": 44.96,
+      "lon": -89.09,
+      "ugc": "WIC115",
+      "ugc_name": "Shawano",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRB-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608120835",
+      "standard_time_display": "2026-08-12 02:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GRB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Suring",
+      "county": "Oconto",
+      "state": "WI",
+      "source": "Mesonet",
+      "remark": "Gust measured on private weather station as thunderstorms moved through.",
+      "lat": 45.0,
+      "lon": -88.4,
+      "ugc": "WIC083",
+      "ugc_name": "Oconto",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -364,7 +409,7 @@
       "wfo": "GRB",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-12T10:18:26Z"
+      "generated_utc": "2026-08-13T10:22:09Z"
     },
     "primary_links": [
       {

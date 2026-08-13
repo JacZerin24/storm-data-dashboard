@@ -6,7 +6,7 @@
     "wfo": "DMX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-12T10:18:13Z",
+    "generated_utc": "2026-08-13T10:21:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "DMX",
-    "total_candidate_reports": 42,
-    "mapped_candidate_reports": 42,
+    "total_candidate_reports": 44,
+    "mapped_candidate_reports": 44,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 6,
       "other": 26,
       "thunderstorm_wind": 6,
-      "tornado": 2
+      "tornado": 4
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
-      "FUNNEL CLOUD": 1,
+      "FUNNEL CLOUD": 3,
       "HAIL": 6,
       "RAIN": 26,
       "TORNADO": 1,
@@ -980,6 +980,50 @@
       "ugc": "IAC013",
       "ugc_name": "Black Hawk",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122026",
+      "standard_time_display": "2026-08-12 14:26 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 E Whitten",
+      "county": "Grundy",
+      "state": "IA",
+      "source": "Broadcast Media",
+      "remark": "Delayed Report. Photo passed along by broadcast media of a funnel between Whitten and Conrad.",
+      "lat": 42.27,
+      "lon": -92.94,
+      "ugc": "IAC075",
+      "ugc_name": "Grundy",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122302",
+      "standard_time_display": "2026-08-12 17:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE New Hartford",
+      "county": "Butler",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Delayed report. Funnel cloud reported between New Hartford and the Butler County line. Funnel was ongoing at time of call.",
+      "lat": 42.56,
+      "lon": -92.6,
+      "ugc": "IAC023",
+      "ugc_name": "Butler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -988,7 +1032,7 @@
       "wfo": "DMX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-12T10:18:14Z"
+      "generated_utc": "2026-08-13T10:21:59Z"
     },
     "primary_links": [
       {

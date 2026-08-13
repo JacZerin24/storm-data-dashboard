@@ -6,7 +6,7 @@
     "wfo": "BUF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-12T10:18:05Z",
+    "generated_utc": "2026-08-13T10:21:52Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "BUF",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
       "flooding": 7,
       "marine": 2,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 7,
       "MARINE TSTM WIND": 2,
-      "TSTM WND DMG": 4
+      "TSTM WND DMG": 6
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -334,6 +334,50 @@
       "ugc": "NYC009",
       "ugc_name": "Cattaraugus",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122225",
+      "standard_time_display": "2026-08-12 17:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Bristol",
+      "county": "Ontario",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Tree down across entire Silvernail Road.",
+      "lat": 42.85,
+      "lon": -77.45,
+      "ugc": "NYC069",
+      "ugc_name": "Ontario",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122231",
+      "standard_time_display": "2026-08-12 17:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Naples",
+      "county": "Ontario",
+      "state": "NY",
+      "source": "911 Call Center",
+      "remark": "Wires down across North Main Street near Lyon Street. Transformer problem.",
+      "lat": 42.62,
+      "lon": -77.4,
+      "ugc": "NYC069",
+      "ugc_name": "Ontario",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -342,7 +386,7 @@
       "wfo": "BUF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-12T10:18:05Z"
+      "generated_utc": "2026-08-13T10:21:52Z"
     },
     "primary_links": [
       {

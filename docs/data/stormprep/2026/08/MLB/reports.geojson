@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-12T10:18:55Z",
+    "generated_utc": "2026-08-13T10:22:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -948,6 +948,84 @@
         "coordinates": [
           -81.41,
           29.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-37",
+      "properties": {
+        "report_id": "iem-lsr-MLB-37",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608121845",
+        "standard_time_display": "2026-08-12 13:45 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ555",
+        "city": "1 WSW Stuart",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The mesonet station SLE-SF measured a peak wind gust of 43MPH/37KT from the south at 2:45 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.26,
+          27.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-38",
+      "properties": {
+        "report_id": "iem-lsr-MLB-38",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608122013",
+        "standard_time_display": "2026-08-12 15:13 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Orange",
+        "city": "1 SW Orlando Internatio",
+        "state": "FL",
+        "magnitude": 49.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Orlando International Airport measured a peak wind gust of 49MPH/43KT from the southwest at 4:13 PM. Earlier_ a gust to 43MPH/37KT occurred at 4:07 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.33,
+          28.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-39",
+      "properties": {
+        "report_id": "iem-lsr-MLB-39",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608122325",
+        "standard_time_display": "2026-08-12 18:25 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 NW Kennedy Space Cent",
+        "state": "FL",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 512 (SLF Center) measured a peak wind gust of 46MPH/40KT from the southwest at 7:25 PM. Sensor elevation is 30 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.69,
+          28.62
         ]
       }
     }
