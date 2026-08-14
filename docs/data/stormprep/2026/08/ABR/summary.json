@@ -3,15 +3,27 @@
   "year": 2026,
   "month": 8,
   "wfo": "ABR",
-  "total_candidate_reports": 0,
-  "mapped_candidate_reports": 0,
-  "candidate_report_counts": {},
-  "candidate_report_type_counts": {},
+  "total_candidate_reports": 77,
+  "mapped_candidate_reports": 77,
+  "candidate_report_counts": {
+    "flooding": 2,
+    "hail": 6,
+    "other": 64,
+    "thunderstorm_wind": 5
+  },
+  "candidate_report_type_counts": {
+    "FLOOD": 2,
+    "FOG": 10,
+    "HAIL": 6,
+    "NON-TSTM WND GST": 3,
+    "RAIN": 54,
+    "TSTM WND DMG": 1,
+    "TSTM WND GST": 1
+  },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "LSR fetch failed: HTTPSConnectionPool(host='mesonet.agron.iastate.edu', port=443): Read timed out. (read timeout=60)",
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABR&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ]

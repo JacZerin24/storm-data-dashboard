@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-13T10:22:59Z",
+    "generated_utc": "2026-08-14T10:15:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "VEF",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
     "candidate_report_counts": {
-      "flooding": 3,
-      "thunderstorm_wind": 10
+      "flooding": 4,
+      "thunderstorm_wind": 15
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 3,
-      "TSTM WND DMG": 2,
-      "TSTM WND GST": 8
+      "FLASH FLOOD": 4,
+      "TSTM WND DMG": 5,
+      "TSTM WND GST": 10
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -205,6 +205,28 @@
     {
       "report_id": "iem-lsr-VEF-8",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608120110",
+      "standard_time_display": "2026-08-11 17:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 S Amboy",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Powerlines down over Amboy Road due to thunderstorm winds. Reported via social media. Time estimated by radar.",
+      "lat": 34.47,
+      "lon": -115.74,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-9",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608121511",
       "standard_time_display": "2026-08-12 08:11 MST",
       "standard_time_zone": "MST",
@@ -225,7 +247,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-9",
+      "report_id": "iem-lsr-VEF-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608121721",
+      "standard_time_display": "2026-08-12 10:21 MST",
+      "standard_time_zone": "MST",
+      "wfo": "VEF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 ENE New Kingman-Butle",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Corrects previous flash flood report from 6 ENE New Kingman-Butler. Images and videos show flash flooding along Route 66 between Kingman Airport and Valle Vista. Time is estimated based on radar.",
+      "lat": 35.3,
+      "lon": -113.93,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608122103",
       "standard_time_display": "2026-08-12 13:03 PST",
@@ -247,7 +291,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-10",
+      "report_id": "iem-lsr-VEF-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122115",
+      "standard_time_display": "2026-08-12 13:15 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 81.0,
+      "magnitude_qualifier": null,
+      "city": "Cottonwood Cove",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Corrects previous tstm wnd gst report from Cottonwood Cove. Cottonwood Cove HADS sensor reports peak wind of 81 MPH.",
+      "lat": 35.49,
+      "lon": -114.69,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608122216",
+      "standard_time_display": "2026-08-12 14:16 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "12 WNW Ludlow",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Newspaper",
+      "remark": "Semi-truck blown over due to thunderstorm winds.",
+      "lat": 34.77,
+      "lon": -116.36,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608122230",
       "standard_time_display": "2026-08-12 15:30 MST",
@@ -269,7 +357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-11",
+      "report_id": "iem-lsr-VEF-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608122315",
       "standard_time_display": "2026-08-12 15:15 PST",
@@ -291,7 +379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-12",
+      "report_id": "iem-lsr-VEF-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608122315",
       "standard_time_display": "2026-08-12 15:15 PST",
@@ -313,7 +401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-13",
+      "report_id": "iem-lsr-VEF-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608122340",
       "standard_time_display": "2026-08-12 15:40 PST",
@@ -333,6 +421,50 @@
       "ugc": "AZC015",
       "ugc_name": "Mohave",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608130304",
+      "standard_time_display": "2026-08-12 19:04 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WNW Needles",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Law Enforcement",
+      "remark": "Semi-truck blown off I-40 near MM 40 due to high winds.",
+      "lat": 34.89,
+      "lon": -114.7,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608132122",
+      "standard_time_display": "2026-08-13 13:22 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "4 S Railroad Pass",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Mesonet station BDCNV Us-95 Mm 53.",
+      "lat": 35.91,
+      "lon": -114.92,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -341,7 +473,7 @@
       "wfo": "VEF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-13T10:22:59Z"
+      "generated_utc": "2026-08-14T10:15:56Z"
     },
     "primary_links": [
       {

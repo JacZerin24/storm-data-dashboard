@@ -7,12 +7,221 @@
     "wfo": "CAR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-13T10:21:54Z",
+    "generated_utc": "2026-08-14T10:14:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-1",
+      "properties": {
+        "report_id": "iem-lsr-CAR-1",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202608132039",
+        "standard_time_display": "2026-08-13 15:39 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "4 NNW Bradford",
+        "state": "ME",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "*** 1 INJ *** Approx 70 year old male was struck by lightning outside behind his home. The individual was transported to the hospital."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.97,
+          45.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-2",
+      "properties": {
+        "report_id": "iem-lsr-CAR-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132042",
+        "standard_time_display": "2026-08-13 15:42 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Piscataquis",
+        "city": "1 NW Dover-Foxcroft",
+        "state": "ME",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Delayed Report. Photo received from social media shows a 7-9 inch diameter poplar tree snapped into a backyard fence. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.24,
+          45.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-3",
+      "properties": {
+        "report_id": "iem-lsr-CAR-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608132051",
+        "standard_time_display": "2026-08-13 15:51 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Piscataquis",
+        "city": "Dover-Foxcroft",
+        "state": "ME",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.23,
+          45.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-4",
+      "properties": {
+        "report_id": "iem-lsr-CAR-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608132116",
+        "standard_time_display": "2026-08-13 16:16 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "2 W Charleston",
+        "state": "ME",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Photo received via social media shows mostly pea size hail with a few half inch size hailstones. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.08,
+          45.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-5",
+      "properties": {
+        "report_id": "iem-lsr-CAR-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608132136",
+        "standard_time_display": "2026-08-13 16:36 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "1 SSW Dexter",
+        "state": "ME",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed Report. Pea size hail. Video via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.3,
+          45.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-6",
+      "properties": {
+        "report_id": "iem-lsr-CAR-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132204",
+        "standard_time_display": "2026-08-13 17:04 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "4 ENE Newport",
+        "state": "ME",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Corrects previous tstm wnd dmg report from 4 ENE Newport. Update from Newport Fire Department. Multiple trees down on wires on Durham Bridge Road. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.21,
+          44.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-7",
+      "properties": {
+        "report_id": "iem-lsr-CAR-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132232",
+        "standard_time_display": "2026-08-13 17:32 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "4 ENE Newport",
+        "state": "ME",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down on wires."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.21,
+          44.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAR-8",
+      "properties": {
+        "report_id": "iem-lsr-CAR-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132318",
+        "standard_time_display": "2026-08-13 18:18 EST",
+        "wfo": "CAR",
+        "county_or_zone": "Penobscot",
+        "city": "3 NNW Mattawamkeag",
+        "state": "ME",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Tree down into powerlines on the Medway Road. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.39,
+          45.56
+        ]
+      }
+    }
+  ]
 }

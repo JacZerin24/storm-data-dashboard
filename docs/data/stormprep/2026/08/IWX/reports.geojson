@@ -7,7 +7,7 @@
     "wfo": "IWX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-13T10:22:19Z",
+    "generated_utc": "2026-08-14T10:15:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -6512,6 +6512,84 @@
         "coordinates": [
           -86.5,
           40.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-IWX-251",
+      "properties": {
+        "report_id": "iem-lsr-IWX-251",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608140356",
+        "standard_time_display": "2026-08-13 21:56 CST",
+        "wfo": "IWX",
+        "county_or_zone": "Grant",
+        "city": "1 NE Rigdon",
+        "state": "IN",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.77,
+          40.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-IWX-252",
+      "properties": {
+        "report_id": "iem-lsr-IWX-252",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608140413",
+        "standard_time_display": "2026-08-13 22:13 CST",
+        "wfo": "IWX",
+        "county_or_zone": "Cass",
+        "city": "Royal Center",
+        "state": "IN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "EM passed along heavy street flooding. A basement wall collapsed in a residence nearby. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5,
+          40.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-IWX-253",
+      "properties": {
+        "report_id": "iem-lsr-IWX-253",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608140632",
+        "standard_time_display": "2026-08-14 00:32 CST",
+        "wfo": "IWX",
+        "county_or_zone": "Cass",
+        "city": "2 W Walton",
+        "state": "IN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Multiple areas of water across SR-218 in the area of 500 E."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.28,
+          40.66
         ]
       }
     }

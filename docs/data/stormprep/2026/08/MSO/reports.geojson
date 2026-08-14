@@ -7,12 +7,91 @@
     "wfo": "MSO",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-13T10:22:35Z",
+    "generated_utc": "2026-08-14T10:15:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MSO&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MSO-1",
+      "properties": {
+        "report_id": "iem-lsr-MSO-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608140000",
+        "standard_time_display": "2026-08-13 17:00 MST",
+        "wfo": "MSO",
+        "county_or_zone": "Silver Bow",
+        "city": "1 WNW Butte",
+        "state": "MT",
+        "magnitude": 0.54,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "3 hour rainfall total of 0.69 inches from thunderstorms."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.56,
+          46.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MSO-2",
+      "properties": {
+        "report_id": "iem-lsr-MSO-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608140015",
+        "standard_time_display": "2026-08-13 16:15 PST",
+        "wfo": "MSO",
+        "county_or_zone": "Ravalli",
+        "city": "10 SW Conner",
+        "state": "MT",
+        "magnitude": 0.45,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Rainfall amount from a single thunderstorm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.26,
+          45.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MSO-3",
+      "properties": {
+        "report_id": "iem-lsr-MSO-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608140230",
+        "standard_time_display": "2026-08-13 18:30 PST",
+        "wfo": "MSO",
+        "county_or_zone": "Missoula",
+        "city": "Huson",
+        "state": "MT",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.33,
+          47.03
+        ]
+      }
+    }
+  ]
 }

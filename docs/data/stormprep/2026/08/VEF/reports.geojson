@@ -7,7 +7,7 @@
     "wfo": "VEF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-13T10:22:59Z",
+    "generated_utc": "2026-08-14T10:15:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -202,6 +202,32 @@
       "id": "iem-lsr-VEF-8",
       "properties": {
         "report_id": "iem-lsr-VEF-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608120110",
+        "standard_time_display": "2026-08-11 17:10 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "6 S Amboy",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Powerlines down over Amboy Road due to thunderstorm winds. Reported via social media. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.74,
+          34.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-9",
+      "properties": {
+        "report_id": "iem-lsr-VEF-9",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608121511",
@@ -225,9 +251,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-9",
+      "id": "iem-lsr-VEF-10",
       "properties": {
-        "report_id": "iem-lsr-VEF-9",
+        "report_id": "iem-lsr-VEF-10",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608121721",
+        "standard_time_display": "2026-08-12 10:21 MST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "6 ENE New Kingman-Butle",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous flash flood report from 6 ENE New Kingman-Butler. Images and videos show flash flooding along Route 66 between Kingman Airport and Valle Vista. Time is estimated based on radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.93,
+          35.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-11",
+      "properties": {
+        "report_id": "iem-lsr-VEF-11",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608122103",
@@ -251,9 +303,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-10",
+      "id": "iem-lsr-VEF-12",
       "properties": {
-        "report_id": "iem-lsr-VEF-10",
+        "report_id": "iem-lsr-VEF-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608122115",
+        "standard_time_display": "2026-08-12 13:15 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Clark",
+        "city": "Cottonwood Cove",
+        "state": "NV",
+        "magnitude": 81.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from Cottonwood Cove. Cottonwood Cove HADS sensor reports peak wind of 81 MPH."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.69,
+          35.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-13",
+      "properties": {
+        "report_id": "iem-lsr-VEF-13",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608122216",
+        "standard_time_display": "2026-08-12 14:16 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "12 WNW Ludlow",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Newspaper",
+        "event_narrative": "Semi-truck blown over due to thunderstorm winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.36,
+          34.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-14",
+      "properties": {
+        "report_id": "iem-lsr-VEF-14",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202608122230",
@@ -277,9 +381,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-11",
+      "id": "iem-lsr-VEF-15",
       "properties": {
-        "report_id": "iem-lsr-VEF-11",
+        "report_id": "iem-lsr-VEF-15",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608122315",
@@ -303,9 +407,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-12",
+      "id": "iem-lsr-VEF-16",
       "properties": {
-        "report_id": "iem-lsr-VEF-12",
+        "report_id": "iem-lsr-VEF-16",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608122315",
@@ -329,9 +433,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-13",
+      "id": "iem-lsr-VEF-17",
       "properties": {
-        "report_id": "iem-lsr-VEF-13",
+        "report_id": "iem-lsr-VEF-17",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608122340",
@@ -350,6 +454,58 @@
         "coordinates": [
           -114.36,
           34.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-18",
+      "properties": {
+        "report_id": "iem-lsr-VEF-18",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608130304",
+        "standard_time_display": "2026-08-12 19:04 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "6 WNW Needles",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Semi-truck blown off I-40 near MM 40 due to high winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.7,
+          34.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-19",
+      "properties": {
+        "report_id": "iem-lsr-VEF-19",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132122",
+        "standard_time_display": "2026-08-13 13:22 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Clark",
+        "city": "4 S Railroad Pass",
+        "state": "NV",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BDCNV Us-95 Mm 53."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.92,
+          35.91
         ]
       }
     }
