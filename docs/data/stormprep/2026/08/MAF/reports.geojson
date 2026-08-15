@@ -7,7 +7,7 @@
     "wfo": "MAF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:15:23Z",
+    "generated_utc": "2026-08-15T09:37:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -324,6 +324,84 @@
         "coordinates": [
           -102.92,
           30.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-13",
+      "properties": {
+        "report_id": "iem-lsr-MAF-13",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608142343",
+        "standard_time_display": "2026-08-14 16:43 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Lea",
+        "city": "Monument",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Lea County Emergency Management reported wind damage to 2 small structures_ an uprooted tree_ and multiple downed power lines in Monument_ NM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.26,
+          32.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-14",
+      "properties": {
+        "report_id": "iem-lsr-MAF-14",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608150015",
+        "standard_time_display": "2026-08-14 17:15 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "5 ENE Lajitas",
+        "state": "TX",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Lajitas AWOS recorded a thunderstorm related wind gust of 61 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.69,
+          29.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-15",
+      "properties": {
+        "report_id": "iem-lsr-MAF-15",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608150145",
+        "standard_time_display": "2026-08-14 18:45 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "6 NNE Study Butte",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "An off-duty FAA Traffic Controller reported flash flooding in Terlingua Ranch and along HWY 118 north of Study Butte."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.51,
+          29.41
         ]
       }
     }

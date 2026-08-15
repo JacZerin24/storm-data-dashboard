@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:15:52Z",
+    "generated_utc": "2026-08-15T09:38:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,25 @@
     "year": 2026,
     "month": 8,
     "wfo": "TBW",
-    "total_candidate_reports": 21,
-    "mapped_candidate_reports": 21,
+    "total_candidate_reports": 23,
+    "mapped_candidate_reports": 23,
     "candidate_report_counts": {
       "marine": 3,
-      "thunderstorm_wind": 18
+      "thunderstorm_wind": 19,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "MARINE TSTM WIND": 3,
-      "TSTM WND GST": 18
+      "TSTM WND GST": 19,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -508,6 +512,50 @@
       "ugc": "FLC015",
       "ugc_name": "Charlotte",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608142129",
+      "standard_time_display": "2026-08-14 16:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Fort Myers",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Broadcast media relayed multiple videos from the public of a waterspout along the Caloosahatchee River just northeast of the U.S. Hwy 41/Edison Bridge crossing.",
+      "lat": 26.67,
+      "lon": -81.87,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608142142",
+      "standard_time_display": "2026-08-14 16:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "2 NW Fort Myers",
+      "county": "Lee",
+      "state": "FL",
+      "source": "Buoy",
+      "remark": "Buoy station FMRF1 Fort Myers_ FL.",
+      "lat": 26.65,
+      "lon": -81.87,
+      "ugc": "FLC071",
+      "ugc_name": "Lee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -516,7 +564,7 @@
       "wfo": "TBW",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-14T10:15:52Z"
+      "generated_utc": "2026-08-15T09:38:20Z"
     },
     "primary_links": [
       {

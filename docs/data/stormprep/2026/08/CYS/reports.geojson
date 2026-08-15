@@ -7,7 +7,7 @@
     "wfo": "CYS",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:14:49Z",
+    "generated_utc": "2026-08-15T09:36:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -748,6 +748,58 @@
       "id": "iem-lsr-CYS-29",
       "properties": {
         "report_id": "iem-lsr-CYS-29",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608140200",
+        "standard_time_display": "2026-08-13 19:00 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Kimball",
+        "city": "2 SW Bushnell",
+        "state": "NE",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency Manager noted significant water flowing over Highway 30 approximately 2 miles west of Bushnell. First call received around 8:00PM_ EM arrived to see flooding still ongoing around 9:00PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.92,
+          41.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-30",
+      "properties": {
+        "report_id": "iem-lsr-CYS-30",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202608140216",
+        "standard_time_display": "2026-08-13 19:16 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Kimball",
+        "city": "7 SSE Bushnell",
+        "state": "NE",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Deputy EM reported damage in a corn field_ about 100 yards long and 50 feet wide_ with objects scattered in random directions. Time estimated based off of radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.86,
+          41.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-31",
+      "properties": {
+        "report_id": "iem-lsr-CYS-31",
         "report_type": "FLOOD",
         "event_category": "flooding",
         "valid_utc": "202608140248",
@@ -771,9 +823,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-CYS-30",
+      "id": "iem-lsr-CYS-32",
       "properties": {
-        "report_id": "iem-lsr-CYS-30",
+        "report_id": "iem-lsr-CYS-32",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202608140249",
@@ -792,6 +844,136 @@
         "coordinates": [
           -103.9,
           41.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-33",
+      "properties": {
+        "report_id": "iem-lsr-CYS-33",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608142220",
+        "standard_time_display": "2026-08-14 15:20 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Laramie",
+        "city": "3 NNE Warren Af Base",
+        "state": "WY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "3 inches of water at Gardenia and Spirit. Water was rising."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85,
+          41.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-34",
+      "properties": {
+        "report_id": "iem-lsr-CYS-34",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608142235",
+        "standard_time_display": "2026-08-14 15:35 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Laramie",
+        "city": "1 N Cheyenne",
+        "state": "WY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Flooding reported on roadways."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79,
+          41.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-35",
+      "properties": {
+        "report_id": "iem-lsr-CYS-35",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608142247",
+        "standard_time_display": "2026-08-14 15:47 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Morrill",
+        "city": "7 NNE Dalton",
+        "state": "NE",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Video shared on social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.91,
+          41.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-36",
+      "properties": {
+        "report_id": "iem-lsr-CYS-36",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608142247",
+        "standard_time_display": "2026-08-14 15:47 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Morrill",
+        "city": "7 NNE Dalton",
+        "state": "NE",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Video shared via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.91,
+          41.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CYS-37",
+      "properties": {
+        "report_id": "iem-lsr-CYS-37",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608142249",
+        "standard_time_display": "2026-08-14 15:49 MST",
+        "wfo": "CYS",
+        "county_or_zone": "Laramie",
+        "city": "1 NNW Cheyenne",
+        "state": "WY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "NWS employee sent photo reports and a video of street flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8,
+          41.16
         ]
       }
     }

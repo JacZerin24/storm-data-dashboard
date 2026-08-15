@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:15:09Z",
+    "generated_utc": "2026-08-15T09:37:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "ICT",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "hail": 12,
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 12
     },
     "candidate_report_type_counts": {
       "HAIL": 12,
-      "TSTM WND DMG": 1,
-      "TSTM WND GST": 7
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -447,6 +447,28 @@
     {
       "report_id": "iem-lsr-ICT-19",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608140004",
+      "standard_time_display": "2026-08-13 18:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Wilson",
+      "county": "Russell",
+      "state": "KS",
+      "source": "Public",
+      "remark": "*** 1 INJ *** Delayed report. An empty semi trailer rolled over due to a possible microburst on Interstate 70. This was confirmed by law enforcement. Driver was transported with suspected minor injur",
+      "lat": 38.85,
+      "lon": -98.5,
+      "ugc": "KSC167",
+      "ugc_name": "Russell",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-20",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140010",
       "standard_time_display": "2026-08-13 18:10 CST",
       "standard_time_zone": "CST",
@@ -467,7 +489,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ICT-20",
+      "report_id": "iem-lsr-ICT-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140059",
       "standard_time_display": "2026-08-13 18:59 CST",
@@ -487,6 +509,72 @@
       "ugc": "KSC009",
       "ugc_name": "Barton",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608142332",
+      "standard_time_display": "2026-08-14 17:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Willowbrook",
+      "county": "Reno",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "Delayed report. Numerous tree limbs down on the northwest side of Hutchinson. Photo received from KWCH. Time estimated from radar.",
+      "lat": 38.09,
+      "lon": -97.96,
+      "ugc": "KSC155",
+      "ugc_name": "Reno",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150056",
+      "standard_time_display": "2026-08-14 18:56 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 N Nashville",
+      "county": "Kingman",
+      "state": "KS",
+      "source": "911 Call Center",
+      "remark": "Numerous trees down_ likely caused by a microburst.",
+      "lat": 37.51,
+      "lon": -98.42,
+      "ugc": "KSC095",
+      "ugc_name": "Kingman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150129",
+      "standard_time_display": "2026-08-14 19:29 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "Hutchinson",
+      "county": "Reno",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 38.07,
+      "lon": -97.91,
+      "ugc": "KSC155",
+      "ugc_name": "Reno",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -495,7 +583,7 @@
       "wfo": "ICT",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-14T10:15:10Z"
+      "generated_utc": "2026-08-15T09:37:24Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:15:27Z",
+    "generated_utc": "2026-08-15T09:37:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1026,6 +1026,58 @@
         "coordinates": [
           -80.69,
           28.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-40",
+      "properties": {
+        "report_id": "iem-lsr-MLB-40",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608141908",
+        "standard_time_display": "2026-08-14 14:08 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "1 E Lagrange",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "[delayed report] The WeatherFlow station at Parrish Park North measured a peak wind gust of 40MPH/35KT from the northwest at 3:08 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.81,
+          28.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-41",
+      "properties": {
+        "report_id": "iem-lsr-MLB-41",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608142001",
+        "standard_time_display": "2026-08-14 15:01 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Orange",
+        "city": "1 E Orlando Internation",
+        "state": "FL",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "The Integrated Terminal Weather System at the Orlando International Airport measured a wind gust of 55MPH/48KTS from the east-northeast."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3,
+          28.43
         ]
       }
     }

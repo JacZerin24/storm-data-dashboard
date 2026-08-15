@@ -3,27 +3,30 @@
   "year": 2026,
   "month": 8,
   "wfo": "OAX",
-  "total_candidate_reports": 118,
-  "mapped_candidate_reports": 118,
+  "total_candidate_reports": 139,
+  "mapped_candidate_reports": 139,
   "candidate_report_counts": {
-    "flooding": 4,
+    "flooding": 11,
     "hail": 2,
     "other": 96,
-    "thunderstorm_wind": 16
+    "thunderstorm_wind": 26,
+    "tornado": 4
   },
   "candidate_report_type_counts": {
-    "FLASH FLOOD": 1,
-    "FLOOD": 3,
+    "FLASH FLOOD": 6,
+    "FLOOD": 5,
     "HAIL": 2,
     "RAIN": 96,
-    "TSTM WND DMG": 6,
-    "TSTM WND GST": 10
+    "TORNADO": 4,
+    "TSTM WND DMG": 15,
+    "TSTM WND GST": 11
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OAX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

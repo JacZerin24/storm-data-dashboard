@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:14:37Z",
+    "generated_utc": "2026-08-15T09:36:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -618,6 +618,32 @@
       "id": "iem-lsr-AMA-24",
       "properties": {
         "report_id": "iem-lsr-AMA-24",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132300",
+        "standard_time_display": "2026-08-13 17:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Donley",
+        "city": "2 NNE Howardwick",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Awning on a house was destroyed and power lines in the area were down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.89,
+          35.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-25",
+      "properties": {
+        "report_id": "iem-lsr-AMA-25",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608132310",
@@ -641,9 +667,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-25",
+      "id": "iem-lsr-AMA-26",
       "properties": {
-        "report_id": "iem-lsr-AMA-25",
+        "report_id": "iem-lsr-AMA-26",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608132353",
@@ -662,6 +688,58 @@
         "coordinates": [
           -100.78,
           34.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-27",
+      "properties": {
+        "report_id": "iem-lsr-AMA-27",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608132353",
+        "standard_time_display": "2026-08-13 17:53 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Donley",
+        "city": "1 SW Lelia Lake",
+        "state": "TX",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from 1 SW Lelia Lake. Trees reported down in the area including one that fell on a patrol car."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.78,
+          34.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-28",
+      "properties": {
+        "report_id": "iem-lsr-AMA-28",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608142052",
+        "standard_time_display": "2026-08-14 14:52 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Lipscomb",
+        "city": "8 W Lipscomb",
+        "state": "TX",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "First severe wind gust occurred at 3:51pm; last severe wind gust occurred at 3:52pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.41,
+          36.22
         ]
       }
     }

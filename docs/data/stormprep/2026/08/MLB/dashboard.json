@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-14T10:15:27Z",
+    "generated_utc": "2026-08-15T09:37:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 8,
     "wfo": "MLB",
-    "total_candidate_reports": 39,
-    "mapped_candidate_reports": 39,
+    "total_candidate_reports": 41,
+    "mapped_candidate_reports": 41,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "flooding": 3,
-      "marine": 26,
-      "thunderstorm_wind": 8,
+      "marine": 27,
+      "thunderstorm_wind": 9,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 2,
-      "MARINE TSTM WIND": 26,
-      "TSTM WND GST": 8,
+      "MARINE TSTM WIND": 27,
+      "TSTM WND GST": 9,
       "WATERSPOUT": 1,
       "WILDFIRE": 1
     },
@@ -913,6 +913,50 @@
       "ugc": "FLC009",
       "ugc_name": "Brevard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608141908",
+      "standard_time_display": "2026-08-14 14:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Lagrange",
+      "county": "AMZ552",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "[delayed report] The WeatherFlow station at Parrish Park North measured a peak wind gust of 40MPH/35KT from the northwest at 3:08 PM.",
+      "lat": 28.63,
+      "lon": -80.81,
+      "ugc": "AMZ552",
+      "ugc_name": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608142001",
+      "standard_time_display": "2026-08-14 15:01 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Orlando Internation",
+      "county": "Orange",
+      "state": "FL",
+      "source": "Other Federal",
+      "remark": "The Integrated Terminal Weather System at the Orlando International Airport measured a wind gust of 55MPH/48KTS from the east-northeast.",
+      "lat": 28.43,
+      "lon": -81.3,
+      "ugc": "FLC095",
+      "ugc_name": "Orange",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -921,7 +965,7 @@
       "wfo": "MLB",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-14T10:15:27Z"
+      "generated_utc": "2026-08-15T09:37:48Z"
     },
     "primary_links": [
       {
