@@ -6,7 +6,7 @@
     "wfo": "TFX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-15T09:38:20Z",
+    "generated_utc": "2026-08-16T09:39:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "TFX",
-    "total_candidate_reports": 11,
-    "mapped_candidate_reports": 11,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "other": 2,
+      "other": 3,
       "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "NON-TSTM WND GST": 8,
-      "RAIN": 2,
+      "RAIN": 3,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -289,6 +289,28 @@
       "ugc": "MTC031",
       "ugc_name": "Gallatin",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TFX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TFX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608151235",
+      "standard_time_display": "2026-08-15 05:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TFX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.38,
+      "magnitude_qualifier": null,
+      "city": "11 SSE Ulm",
+      "county": "Cascade",
+      "state": "MT",
+      "source": "Trained Spotter",
+      "remark": "Rainfall since Wednesday_ August 13th.",
+      "lat": 47.28,
+      "lon": -111.43,
+      "ugc": "MTC013",
+      "ugc_name": "Cascade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TFX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -297,7 +319,7 @@
       "wfo": "TFX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-15T09:38:21Z"
+      "generated_utc": "2026-08-16T09:39:12Z"
     },
     "primary_links": [
       {

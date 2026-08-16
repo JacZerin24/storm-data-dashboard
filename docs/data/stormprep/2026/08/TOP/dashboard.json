@@ -6,7 +6,7 @@
     "wfo": "TOP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-15T09:38:21Z",
+    "generated_utc": "2026-08-16T09:39:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "TOP",
-    "total_candidate_reports": 22,
-    "mapped_candidate_reports": 22,
+    "total_candidate_reports": 28,
+    "mapped_candidate_reports": 28,
     "candidate_report_counts": {
       "hail": 5,
       "other": 1,
-      "thunderstorm_wind": 16
+      "thunderstorm_wind": 22
     },
     "candidate_report_type_counts": {
       "HAIL": 5,
       "RAIN": 1,
-      "TSTM WND DMG": 7,
-      "TSTM WND GST": 9
+      "TSTM WND DMG": 12,
+      "TSTM WND GST": 10
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -405,6 +405,28 @@
     {
       "report_id": "iem-lsr-TOP-17",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150440",
+      "standard_time_display": "2026-08-14 22:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Meriden",
+      "county": "Jefferson",
+      "state": "KS",
+      "source": "Fire Dept/Rescue",
+      "remark": "Fire Department reported multiple 4 to 8 inch diameter tree branches down. Time estimated from radar.",
+      "lat": 39.16,
+      "lon": -95.55,
+      "ugc": "KSC087",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-18",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150441",
       "standard_time_display": "2026-08-14 22:41 CST",
       "standard_time_zone": "CST",
@@ -425,7 +447,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TOP-18",
+      "report_id": "iem-lsr-TOP-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150442",
       "standard_time_display": "2026-08-14 22:42 CST",
@@ -447,7 +469,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TOP-19",
+      "report_id": "iem-lsr-TOP-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150447",
       "standard_time_display": "2026-08-14 22:47 CST",
@@ -469,7 +491,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TOP-20",
+      "report_id": "iem-lsr-TOP-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150447",
       "standard_time_display": "2026-08-14 22:47 CST",
@@ -491,7 +513,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TOP-21",
+      "report_id": "iem-lsr-TOP-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150455",
       "standard_time_display": "2026-08-14 22:55 CST",
@@ -513,7 +535,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TOP-22",
+      "report_id": "iem-lsr-TOP-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150455",
       "standard_time_display": "2026-08-14 22:55 CST",
@@ -533,6 +555,116 @@
       "ugc": "KSC087",
       "ugc_name": "Jefferson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150512",
+      "standard_time_display": "2026-08-14 23:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Oskaloosa",
+      "county": "Jefferson",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": "Dollar General store had front doors blown in by wind. Time estimated by radar.",
+      "lat": 39.21,
+      "lon": -95.31,
+      "ugc": "KSC087",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150515",
+      "standard_time_display": "2026-08-14 23:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Oskaloosa",
+      "county": "Jefferson",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": "Downed trees 20 to 28 inches in diameter at Wellman and Fairview Roads. Trees were blocking the roadway.",
+      "lat": 39.24,
+      "lon": -95.26,
+      "ugc": "KSC087",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150522",
+      "standard_time_display": "2026-08-14 23:22 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Mclouth",
+      "county": "Jefferson",
+      "state": "KS",
+      "source": "Fire Dept/Rescue",
+      "remark": "24 inch diameter tree fell on vehicles. Time estimated by radar.",
+      "lat": 39.25,
+      "lon": -95.21,
+      "ugc": "KSC087",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150524",
+      "standard_time_display": "2026-08-14 23:24 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNE Mclouth",
+      "county": "Jefferson",
+      "state": "KS",
+      "source": "Emergency Mngr",
+      "remark": "Large tree branches down and damage to a roof of a home. Time estimated from radar.",
+      "lat": 39.26,
+      "lon": -95.19,
+      "ugc": "KSC087",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TOP-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608160840",
+      "standard_time_display": "2026-08-16 02:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TOP",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW Clay Center",
+      "county": "Clay",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 39.42,
+      "lon": -97.14,
+      "ugc": "KSC027",
+      "ugc_name": "Clay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TOP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -541,7 +673,7 @@
       "wfo": "TOP",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-15T09:38:22Z"
+      "generated_utc": "2026-08-16T09:39:13Z"
     },
     "primary_links": [
       {

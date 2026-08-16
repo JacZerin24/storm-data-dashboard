@@ -6,7 +6,7 @@
     "wfo": "LIX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-15T09:37:34Z",
+    "generated_utc": "2026-08-16T09:38:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "LIX",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
       "flooding": 2,
       "marine": 1,
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "MARINE TSTM WIND": 1,
-      "TSTM WND DMG": 1
+      "TSTM WND DMG": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -136,6 +136,50 @@
       "ugc": "LAC109",
       "ugc_name": "Terrebonne",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608152140",
+      "standard_time_display": "2026-08-15 15:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Wade",
+      "county": "Jackson",
+      "state": "MS",
+      "source": "Emergency Mngr",
+      "remark": "a few trees down outside of Hurley.",
+      "lat": 30.61,
+      "lon": -88.53,
+      "ugc": "MSC059",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LIX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608152140",
+      "standard_time_display": "2026-08-15 15:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LIX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Wade",
+      "county": "Jackson",
+      "state": "MS",
+      "source": "Emergency Mngr",
+      "remark": "Corrects previous tstm wnd dmg report from 3 SE Wade. Several tree tops snapped along Big Point Road between Hwy 63 and the Black Creek reservoir.",
+      "lat": 30.61,
+      "lon": -88.53,
+      "ugc": "MSC059",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LIX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -144,7 +188,7 @@
       "wfo": "LIX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-15T09:37:35Z"
+      "generated_utc": "2026-08-16T09:38:34Z"
     },
     "primary_links": [
       {

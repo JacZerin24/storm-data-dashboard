@@ -6,7 +6,7 @@
     "wfo": "GID",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-15T09:37:13Z",
+    "generated_utc": "2026-08-16T09:38:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "GID",
-    "total_candidate_reports": 57,
-    "mapped_candidate_reports": 57,
+    "total_candidate_reports": 60,
+    "mapped_candidate_reports": 60,
     "candidate_report_counts": {
       "hail": 1,
       "other": 15,
-      "thunderstorm_wind": 41
+      "thunderstorm_wind": 44
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
       "NON-TSTM WND DMG": 1,
       "RAIN": 15,
-      "TSTM WND DMG": 11,
-      "TSTM WND GST": 29
+      "TSTM WND DMG": 13,
+      "TSTM WND GST": 30
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1286,6 +1286,28 @@
     {
       "report_id": "iem-lsr-GID-57",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608150659",
+      "standard_time_display": "2026-08-15 00:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Gothenburg",
+      "county": "Dawson",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Corrects previous tstm wnd dmg report from 1 NNW Gothenburg. Concert stage overturned. Time estimated from nearby reports.",
+      "lat": 40.94,
+      "lon": -100.17,
+      "ugc": "NEC047",
+      "ugc_name": "Dawson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-58",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608150704",
       "standard_time_display": "2026-08-15 01:04 CST",
       "standard_time_zone": "CST",
@@ -1304,6 +1326,50 @@
       "ugc": "NEC047",
       "ugc_name": "Dawson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-59",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608151159",
+      "standard_time_display": "2026-08-15 05:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Gothenburg",
+      "county": "Dawson",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Concert stage overturned. Time estimated from nearby reports.",
+      "lat": 40.94,
+      "lon": -100.17,
+      "ugc": "NEC047",
+      "ugc_name": "Dawson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GID-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608160545",
+      "standard_time_display": "2026-08-15 23:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GID",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "6 N Plainville",
+      "county": "Rooks",
+      "state": "KS",
+      "source": "Public",
+      "remark": "52.7 MPH wind gust measured from a Kansas State Mesonet.",
+      "lat": 39.32,
+      "lon": -99.3,
+      "ugc": "KSC163",
+      "ugc_name": "Rooks",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GID&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1312,7 +1378,7 @@
       "wfo": "GID",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-15T09:37:14Z"
+      "generated_utc": "2026-08-16T09:38:16Z"
     },
     "primary_links": [
       {
