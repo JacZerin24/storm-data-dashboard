@@ -7,7 +7,7 @@
     "wfo": "DVN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-16T09:38:08Z",
+    "generated_utc": "2026-08-17T09:55:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -5992,6 +5992,58 @@
         "coordinates": [
           -90.59,
           41.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DVN-231",
+      "properties": {
+        "report_id": "iem-lsr-DVN-231",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608160259",
+        "standard_time_display": "2026-08-15 20:59 CST",
+        "wfo": "DVN",
+        "county_or_zone": "Rock Island",
+        "city": "1 WSW East Moline",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Re-transmission of previous tstm wnd dmg report from 1 WSW East Moline. Mping of broken 3 inch tree limbs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.44,
+          41.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DVN-232",
+      "properties": {
+        "report_id": "iem-lsr-DVN-232",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608162323",
+        "standard_time_display": "2026-08-16 17:23 CST",
+        "wfo": "DVN",
+        "county_or_zone": "Johnson",
+        "city": "3 WNW Newport",
+        "state": "IA",
+        "magnitude": 3.81,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "3 day rainfall total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.52,
+          41.75
         ]
       }
     }
