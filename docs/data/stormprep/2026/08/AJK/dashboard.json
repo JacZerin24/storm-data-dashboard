@@ -6,7 +6,7 @@
     "wfo": "AJK",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-17T09:54:43Z",
+    "generated_utc": "2026-08-18T09:46:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "AJK",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 2
+      "flooding": 2,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "FLOOD": 2
+      "FLOOD": 2,
+      "NON-TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -88,6 +90,50 @@
       "ugc": "AKC110",
       "ugc_name": "Juneau",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AJK-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608171939",
+      "standard_time_display": "2026-08-17 10:39 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AJK",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Skagway",
+      "county": "PKZ012",
+      "state": "AK",
+      "source": "ASOS",
+      "remark": "ASOS station PAGY Skagway Airport.",
+      "lat": 59.45,
+      "lon": -135.33,
+      "ugc": "PKZ012",
+      "ugc_name": "Northern Lynn Canal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AJK-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608171952",
+      "standard_time_display": "2026-08-17 10:52 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AJK",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 45.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Skagway",
+      "county": "PKZ012",
+      "state": "AK",
+      "source": "Mesonet",
+      "remark": "Mesonet station SKDA2 Skagway.",
+      "lat": 59.45,
+      "lon": -135.33,
+      "ugc": "PKZ012",
+      "ugc_name": "Northern Lynn Canal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AJK&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +142,7 @@
       "wfo": "AJK",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-17T09:54:43Z"
+      "generated_utc": "2026-08-18T09:46:08Z"
     },
     "primary_links": [
       {

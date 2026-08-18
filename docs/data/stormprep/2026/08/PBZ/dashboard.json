@@ -6,7 +6,7 @@
     "wfo": "PBZ",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-17T09:56:02Z",
+    "generated_utc": "2026-08-18T09:47:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,23 @@
     "year": 2026,
     "month": 8,
     "wfo": "PBZ",
-    "total_candidate_reports": 257,
-    "mapped_candidate_reports": 257,
+    "total_candidate_reports": 263,
+    "mapped_candidate_reports": 263,
     "candidate_report_counts": {
-      "flooding": 83,
+      "flooding": 84,
       "hail": 2,
       "other": 8,
-      "thunderstorm_wind": 164
+      "thunderstorm_wind": 168,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 77,
+      "FLASH FLOOD": 78,
       "FLOOD": 6,
       "HAIL": 2,
       "LIGHTNING": 2,
       "RAIN": 6,
-      "TSTM WND DMG": 158,
+      "TORNADO": 1,
+      "TSTM WND DMG": 162,
       "TSTM WND GST": 6
     },
     "nws_api_alert_count": 0,
@@ -39,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PBZ&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PBZ&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -3885,6 +3889,28 @@
     {
       "report_id": "iem-lsr-PBZ-175",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608161906",
+      "standard_time_display": "2026-08-16 14:06 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Harshaville",
+      "county": "Beaver",
+      "state": "PA",
+      "source": "NWS Storm Survey",
+      "remark": "A brief_ narrow EF0 tornado caused damage mainly to trees along Upper Service Road in Greene and Raccoon Townships. Max wind was estimated at 75 mph_ and path width was roughly 50 yd. The tornado beg",
+      "lat": 40.57,
+      "lon": -80.41,
+      "ugc": "PAC007",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-176",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161907",
       "standard_time_display": "2026-08-16 14:07 EST",
       "standard_time_zone": "EST",
@@ -3905,7 +3931,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-176",
+      "report_id": "iem-lsr-PBZ-177",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161910",
       "standard_time_display": "2026-08-16 14:10 EST",
@@ -3927,7 +3953,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-177",
+      "report_id": "iem-lsr-PBZ-178",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161912",
       "standard_time_display": "2026-08-16 14:12 EST",
@@ -3949,7 +3975,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-178",
+      "report_id": "iem-lsr-PBZ-179",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161914",
       "standard_time_display": "2026-08-16 14:14 EST",
@@ -3971,7 +3997,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-179",
+      "report_id": "iem-lsr-PBZ-180",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161915",
       "standard_time_display": "2026-08-16 14:15 EST",
@@ -3993,7 +4019,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-180",
+      "report_id": "iem-lsr-PBZ-181",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608161917",
+      "standard_time_display": "2026-08-16 14:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Baden",
+      "county": "Beaver",
+      "state": "PA",
+      "source": "Public",
+      "remark": "Trees down. Time estimated via radar.",
+      "lat": 40.64,
+      "lon": -80.24,
+      "ugc": "PAC007",
+      "ugc_name": "Beaver",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-182",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161917",
       "standard_time_display": "2026-08-16 14:17 EST",
@@ -4015,7 +4063,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-181",
+      "report_id": "iem-lsr-PBZ-183",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161918",
       "standard_time_display": "2026-08-16 14:18 EST",
@@ -4037,7 +4085,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-182",
+      "report_id": "iem-lsr-PBZ-184",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161918",
       "standard_time_display": "2026-08-16 14:18 EST",
@@ -4059,7 +4107,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-183",
+      "report_id": "iem-lsr-PBZ-185",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161918",
       "standard_time_display": "2026-08-16 14:18 EST",
@@ -4081,7 +4129,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-184",
+      "report_id": "iem-lsr-PBZ-186",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161918",
       "standard_time_display": "2026-08-16 14:18 EST",
@@ -4103,7 +4151,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-185",
+      "report_id": "iem-lsr-PBZ-187",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161925",
       "standard_time_display": "2026-08-16 14:25 EST",
@@ -4125,7 +4173,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-186",
+      "report_id": "iem-lsr-PBZ-188",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161930",
       "standard_time_display": "2026-08-16 14:30 EST",
@@ -4147,7 +4195,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-187",
+      "report_id": "iem-lsr-PBZ-189",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161931",
       "standard_time_display": "2026-08-16 14:31 EST",
@@ -4169,7 +4217,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-188",
+      "report_id": "iem-lsr-PBZ-190",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608161937",
+      "standard_time_display": "2026-08-16 14:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Bellevue",
+      "county": "Allegheny",
+      "state": "PA",
+      "source": "Public",
+      "remark": "Tree down across Jacks Run Road blocking both lanes. Time estimated via radar.",
+      "lat": 40.49,
+      "lon": -80.05,
+      "ugc": "PAC003",
+      "ugc_name": "Allegheny",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-191",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161940",
       "standard_time_display": "2026-08-16 14:40 EST",
@@ -4191,7 +4261,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-189",
+      "report_id": "iem-lsr-PBZ-192",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161941",
       "standard_time_display": "2026-08-16 14:41 EST",
@@ -4213,7 +4283,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-190",
+      "report_id": "iem-lsr-PBZ-193",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161941",
       "standard_time_display": "2026-08-16 14:41 EST",
@@ -4235,7 +4305,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-191",
+      "report_id": "iem-lsr-PBZ-194",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161943",
       "standard_time_display": "2026-08-16 14:43 EST",
@@ -4257,7 +4327,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-192",
+      "report_id": "iem-lsr-PBZ-195",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161943",
       "standard_time_display": "2026-08-16 14:43 EST",
@@ -4279,7 +4349,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-193",
+      "report_id": "iem-lsr-PBZ-196",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161948",
       "standard_time_display": "2026-08-16 14:48 EST",
@@ -4301,7 +4371,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-194",
+      "report_id": "iem-lsr-PBZ-197",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161950",
       "standard_time_display": "2026-08-16 14:50 EST",
@@ -4323,7 +4393,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-195",
+      "report_id": "iem-lsr-PBZ-198",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161954",
       "standard_time_display": "2026-08-16 14:54 EST",
@@ -4345,7 +4415,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-196",
+      "report_id": "iem-lsr-PBZ-199",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161955",
       "standard_time_display": "2026-08-16 14:55 EST",
@@ -4367,7 +4437,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-197",
+      "report_id": "iem-lsr-PBZ-200",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161957",
       "standard_time_display": "2026-08-16 14:57 EST",
@@ -4389,7 +4459,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-198",
+      "report_id": "iem-lsr-PBZ-201",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161957",
       "standard_time_display": "2026-08-16 14:57 EST",
@@ -4411,7 +4481,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-199",
+      "report_id": "iem-lsr-PBZ-202",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161958",
       "standard_time_display": "2026-08-16 14:58 EST",
@@ -4433,7 +4503,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-200",
+      "report_id": "iem-lsr-PBZ-203",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161959",
       "standard_time_display": "2026-08-16 14:59 EST",
@@ -4455,7 +4525,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-201",
+      "report_id": "iem-lsr-PBZ-204",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608161959",
       "standard_time_display": "2026-08-16 14:59 EST",
@@ -4477,7 +4547,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-202",
+      "report_id": "iem-lsr-PBZ-205",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162005",
       "standard_time_display": "2026-08-16 15:05 EST",
@@ -4499,7 +4569,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-203",
+      "report_id": "iem-lsr-PBZ-206",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162006",
       "standard_time_display": "2026-08-16 15:06 EST",
@@ -4521,7 +4591,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-204",
+      "report_id": "iem-lsr-PBZ-207",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162008",
       "standard_time_display": "2026-08-16 15:08 EST",
@@ -4543,7 +4613,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-205",
+      "report_id": "iem-lsr-PBZ-208",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162008",
       "standard_time_display": "2026-08-16 15:08 EST",
@@ -4565,7 +4635,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-206",
+      "report_id": "iem-lsr-PBZ-209",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162010",
       "standard_time_display": "2026-08-16 15:10 EST",
@@ -4587,7 +4657,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-207",
+      "report_id": "iem-lsr-PBZ-210",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162010",
       "standard_time_display": "2026-08-16 15:10 EST",
@@ -4609,7 +4679,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-208",
+      "report_id": "iem-lsr-PBZ-211",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162012",
       "standard_time_display": "2026-08-16 15:12 EST",
@@ -4631,7 +4701,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-209",
+      "report_id": "iem-lsr-PBZ-212",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162012",
       "standard_time_display": "2026-08-16 15:12 EST",
@@ -4653,7 +4723,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-210",
+      "report_id": "iem-lsr-PBZ-213",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162013",
       "standard_time_display": "2026-08-16 15:13 EST",
@@ -4675,7 +4745,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-211",
+      "report_id": "iem-lsr-PBZ-214",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162014",
       "standard_time_display": "2026-08-16 15:14 EST",
@@ -4697,7 +4767,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-212",
+      "report_id": "iem-lsr-PBZ-215",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608162014",
+      "standard_time_display": "2026-08-16 15:14 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Apollo",
+      "county": "Armstrong",
+      "state": "PA",
+      "source": "Public",
+      "remark": "Multiple trees down along North 7th Street. Time estimated via radar.",
+      "lat": 40.59,
+      "lon": -79.56,
+      "ugc": "PAC005",
+      "ugc_name": "Armstrong",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-216",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162014",
       "standard_time_display": "2026-08-16 15:14 EST",
@@ -4719,7 +4811,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-213",
+      "report_id": "iem-lsr-PBZ-217",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162015",
       "standard_time_display": "2026-08-16 15:15 EST",
@@ -4741,7 +4833,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-214",
+      "report_id": "iem-lsr-PBZ-218",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162015",
       "standard_time_display": "2026-08-16 15:15 EST",
@@ -4763,7 +4855,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-215",
+      "report_id": "iem-lsr-PBZ-219",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162016",
       "standard_time_display": "2026-08-16 15:16 EST",
@@ -4785,7 +4877,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-216",
+      "report_id": "iem-lsr-PBZ-220",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162016",
       "standard_time_display": "2026-08-16 15:16 EST",
@@ -4807,7 +4899,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-217",
+      "report_id": "iem-lsr-PBZ-221",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162016",
       "standard_time_display": "2026-08-16 15:16 EST",
@@ -4829,7 +4921,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-218",
+      "report_id": "iem-lsr-PBZ-222",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162016",
       "standard_time_display": "2026-08-16 15:16 EST",
@@ -4851,7 +4943,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-219",
+      "report_id": "iem-lsr-PBZ-223",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162018",
       "standard_time_display": "2026-08-16 15:18 EST",
@@ -4873,7 +4965,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-220",
+      "report_id": "iem-lsr-PBZ-224",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162018",
       "standard_time_display": "2026-08-16 15:18 EST",
@@ -4895,7 +4987,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-221",
+      "report_id": "iem-lsr-PBZ-225",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162019",
       "standard_time_display": "2026-08-16 15:19 EST",
@@ -4917,7 +5009,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-222",
+      "report_id": "iem-lsr-PBZ-226",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162019",
       "standard_time_display": "2026-08-16 15:19 EST",
@@ -4939,7 +5031,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-223",
+      "report_id": "iem-lsr-PBZ-227",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162020",
       "standard_time_display": "2026-08-16 15:20 EST",
@@ -4961,7 +5053,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-224",
+      "report_id": "iem-lsr-PBZ-228",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162020",
       "standard_time_display": "2026-08-16 15:20 EST",
@@ -4983,7 +5075,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-225",
+      "report_id": "iem-lsr-PBZ-229",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162022",
       "standard_time_display": "2026-08-16 15:22 EST",
@@ -5005,7 +5097,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-226",
+      "report_id": "iem-lsr-PBZ-230",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162022",
       "standard_time_display": "2026-08-16 15:22 EST",
@@ -5027,7 +5119,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-227",
+      "report_id": "iem-lsr-PBZ-231",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162023",
       "standard_time_display": "2026-08-16 15:23 EST",
@@ -5049,7 +5141,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-228",
+      "report_id": "iem-lsr-PBZ-232",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162023",
       "standard_time_display": "2026-08-16 15:23 EST",
@@ -5071,7 +5163,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-229",
+      "report_id": "iem-lsr-PBZ-233",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162023",
       "standard_time_display": "2026-08-16 15:23 EST",
@@ -5093,7 +5185,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-230",
+      "report_id": "iem-lsr-PBZ-234",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162027",
       "standard_time_display": "2026-08-16 15:27 EST",
@@ -5115,7 +5207,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-231",
+      "report_id": "iem-lsr-PBZ-235",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608162028",
+      "standard_time_display": "2026-08-16 15:28 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Derry",
+      "county": "Westmoreland",
+      "state": "PA",
+      "source": "Emergency Manager",
+      "remark": "Uprooted trees and limbs snapped along Dinco Rd near Superior Rd.",
+      "lat": 40.37,
+      "lon": -79.34,
+      "ugc": "PAC129",
+      "ugc_name": "Westmoreland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-236",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162030",
       "standard_time_display": "2026-08-16 15:30 EST",
@@ -5137,7 +5251,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-232",
+      "report_id": "iem-lsr-PBZ-237",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162030",
       "standard_time_display": "2026-08-16 15:30 EST",
@@ -5159,7 +5273,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-233",
+      "report_id": "iem-lsr-PBZ-238",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162033",
       "standard_time_display": "2026-08-16 15:33 EST",
@@ -5181,7 +5295,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-234",
+      "report_id": "iem-lsr-PBZ-239",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162035",
       "standard_time_display": "2026-08-16 15:35 EST",
@@ -5203,7 +5317,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-235",
+      "report_id": "iem-lsr-PBZ-240",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162035",
       "standard_time_display": "2026-08-16 15:35 EST",
@@ -5225,7 +5339,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-236",
+      "report_id": "iem-lsr-PBZ-241",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162035",
       "standard_time_display": "2026-08-16 15:35 EST",
@@ -5247,7 +5361,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-237",
+      "report_id": "iem-lsr-PBZ-242",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162037",
       "standard_time_display": "2026-08-16 15:37 EST",
@@ -5269,7 +5383,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-238",
+      "report_id": "iem-lsr-PBZ-243",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162039",
       "standard_time_display": "2026-08-16 15:39 EST",
@@ -5291,7 +5405,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-239",
+      "report_id": "iem-lsr-PBZ-244",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162040",
       "standard_time_display": "2026-08-16 15:40 EST",
@@ -5313,7 +5427,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-240",
+      "report_id": "iem-lsr-PBZ-245",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162041",
       "standard_time_display": "2026-08-16 15:41 EST",
@@ -5335,7 +5449,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-241",
+      "report_id": "iem-lsr-PBZ-246",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162044",
       "standard_time_display": "2026-08-16 15:44 EST",
@@ -5357,7 +5471,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-242",
+      "report_id": "iem-lsr-PBZ-247",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162047",
       "standard_time_display": "2026-08-16 15:47 EST",
@@ -5379,7 +5493,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-243",
+      "report_id": "iem-lsr-PBZ-248",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162051",
       "standard_time_display": "2026-08-16 15:51 EST",
@@ -5401,7 +5515,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-244",
+      "report_id": "iem-lsr-PBZ-249",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162055",
       "standard_time_display": "2026-08-16 15:55 EST",
@@ -5423,7 +5537,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-245",
+      "report_id": "iem-lsr-PBZ-250",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162056",
       "standard_time_display": "2026-08-16 15:56 EST",
@@ -5445,7 +5559,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-246",
+      "report_id": "iem-lsr-PBZ-251",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162059",
       "standard_time_display": "2026-08-16 15:59 EST",
@@ -5467,7 +5581,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-247",
+      "report_id": "iem-lsr-PBZ-252",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162104",
       "standard_time_display": "2026-08-16 16:04 EST",
@@ -5489,7 +5603,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-248",
+      "report_id": "iem-lsr-PBZ-253",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162138",
       "standard_time_display": "2026-08-16 16:38 EST",
@@ -5511,7 +5625,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-249",
+      "report_id": "iem-lsr-PBZ-254",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162142",
       "standard_time_display": "2026-08-16 16:42 EST",
@@ -5533,7 +5647,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-250",
+      "report_id": "iem-lsr-PBZ-255",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162259",
       "standard_time_display": "2026-08-16 17:59 EST",
@@ -5555,7 +5669,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-251",
+      "report_id": "iem-lsr-PBZ-256",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162315",
       "standard_time_display": "2026-08-16 18:15 EST",
@@ -5577,7 +5691,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-252",
+      "report_id": "iem-lsr-PBZ-257",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608162342",
       "standard_time_display": "2026-08-16 18:42 EST",
@@ -5599,7 +5713,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-253",
+      "report_id": "iem-lsr-PBZ-258",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608170000",
       "standard_time_display": "2026-08-16 19:00 EST",
@@ -5621,7 +5735,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-254",
+      "report_id": "iem-lsr-PBZ-259",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608170000",
       "standard_time_display": "2026-08-16 19:00 EST",
@@ -5643,7 +5757,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-255",
+      "report_id": "iem-lsr-PBZ-260",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608170015",
       "standard_time_display": "2026-08-16 19:15 EST",
@@ -5665,7 +5779,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-256",
+      "report_id": "iem-lsr-PBZ-261",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608170030",
       "standard_time_display": "2026-08-16 19:30 EST",
@@ -5687,7 +5801,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PBZ-257",
+      "report_id": "iem-lsr-PBZ-262",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608170037",
       "standard_time_display": "2026-08-16 19:37 EST",
@@ -5707,6 +5821,28 @@
       "ugc": "PAC065",
       "ugc_name": "Jefferson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-263",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608171840",
+      "standard_time_display": "2026-08-17 13:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Smithfield",
+      "county": "Wetzel",
+      "state": "WV",
+      "source": "Public",
+      "remark": "Picture of South Fork Fishing Creek out of its banks reaching the back of homes.",
+      "lat": 39.47,
+      "lon": -80.52,
+      "ugc": "WVC103",
+      "ugc_name": "Wetzel",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -5715,7 +5851,7 @@
       "wfo": "PBZ",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-17T09:56:03Z"
+      "generated_utc": "2026-08-18T09:47:31Z"
     },
     "primary_links": [
       {

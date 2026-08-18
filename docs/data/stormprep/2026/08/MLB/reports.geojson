@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-17T09:55:51Z",
+    "generated_utc": "2026-08-18T09:47:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1078,6 +1078,84 @@
         "coordinates": [
           -81.3,
           28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-42",
+      "properties": {
+        "report_id": "iem-lsr-MLB-42",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608172041",
+        "standard_time_display": "2026-08-17 15:41 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Orange",
+        "city": "1 SW Orlando Internatio",
+        "state": "FL",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "The ASOS at the Orlando International Airport measured a wind gust of 62MPH/54KTS from the southwest."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.33,
+          28.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-43",
+      "properties": {
+        "report_id": "iem-lsr-MLB-43",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202608172045",
+        "standard_time_display": "2026-08-17 15:45 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ550",
+        "city": "2 NW Daytona Beach Shor",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public photo showed a funnel cloud over the Halifax River south of Daytona Beach."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0,
+          29.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-44",
+      "properties": {
+        "report_id": "iem-lsr-MLB-44",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608172133",
+        "standard_time_display": "2026-08-17 16:33 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Volusia",
+        "city": "5 N Edgewater",
+        "state": "FL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherFlow station at New Smyrna Beach measured a peak wind gust of 45MPH/39KT from the northwest at 5:33 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9,
+          29.05
         ]
       }
     }

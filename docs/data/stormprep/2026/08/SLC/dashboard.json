@@ -6,7 +6,7 @@
     "wfo": "SLC",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-17T09:56:21Z",
+    "generated_utc": "2026-08-18T09:47:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,25 +17,28 @@
     "year": 2026,
     "month": 8,
     "wfo": "SLC",
-    "total_candidate_reports": 49,
-    "mapped_candidate_reports": 49,
+    "total_candidate_reports": 53,
+    "mapped_candidate_reports": 53,
     "candidate_report_counts": {
-      "flooding": 17,
+      "flooding": 19,
       "other": 1,
-      "thunderstorm_wind": 31
+      "thunderstorm_wind": 32,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 1,
-      "FLASH FLOOD": 17,
+      "FLASH FLOOD": 19,
+      "TORNADO": 1,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 30
+      "TSTM WND GST": 31
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -47,7 +50,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SLC&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -713,6 +717,28 @@
     {
       "report_id": "iem-lsr-SLC-31",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608132341",
+      "standard_time_display": "2026-08-13 16:41 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Dugway",
+      "county": "Tooele",
+      "state": "UT",
+      "source": "NWS Storm Survey",
+      "remark": "Storm survey revealed EF-1 damage over a 1 mile long_ 300 yard wide path in the south end of the Skull Valley in Tooele County.",
+      "lat": 40.3,
+      "lon": -112.73,
+      "ugc": "UTC045",
+      "ugc_name": "Tooele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-32",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132345",
       "standard_time_display": "2026-08-13 16:45 MST",
       "standard_time_zone": "MST",
@@ -733,7 +759,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-32",
+      "report_id": "iem-lsr-SLC-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132345",
       "standard_time_display": "2026-08-13 16:45 MST",
@@ -755,7 +781,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-33",
+      "report_id": "iem-lsr-SLC-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132345",
       "standard_time_display": "2026-08-13 16:45 MST",
@@ -777,7 +803,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-34",
+      "report_id": "iem-lsr-SLC-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132350",
       "standard_time_display": "2026-08-13 16:50 MST",
@@ -799,7 +825,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-35",
+      "report_id": "iem-lsr-SLC-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132355",
       "standard_time_display": "2026-08-13 16:55 MST",
@@ -821,7 +847,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-36",
+      "report_id": "iem-lsr-SLC-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140000",
       "standard_time_display": "2026-08-13 17:00 MST",
@@ -843,7 +869,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-37",
+      "report_id": "iem-lsr-SLC-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140024",
       "standard_time_display": "2026-08-13 17:24 MST",
@@ -865,7 +891,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-38",
+      "report_id": "iem-lsr-SLC-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140030",
       "standard_time_display": "2026-08-13 17:30 MST",
@@ -887,7 +913,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-39",
+      "report_id": "iem-lsr-SLC-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608140045",
+      "standard_time_display": "2026-08-13 17:45 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Stockton",
+      "county": "Tooele",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Tooele County Emergency Management reported a flash flood resulting in a deposit of rocks and mud 1 to 2 feet deep across Solider Canyon Rd between the first retention pond to Pipe Hollow. Time estim",
+      "lat": 40.43,
+      "lon": -112.3,
+      "ugc": "UTC045",
+      "ugc_name": "Tooele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608140100",
       "standard_time_display": "2026-08-13 18:00 MST",
@@ -909,7 +957,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-40",
+      "report_id": "iem-lsr-SLC-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141515",
       "standard_time_display": "2026-08-14 08:15 MST",
@@ -931,7 +979,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-41",
+      "report_id": "iem-lsr-SLC-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141538",
       "standard_time_display": "2026-08-14 08:38 MST",
@@ -953,7 +1001,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-42",
+      "report_id": "iem-lsr-SLC-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141540",
       "standard_time_display": "2026-08-14 08:40 MST",
@@ -975,7 +1023,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-43",
+      "report_id": "iem-lsr-SLC-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141551",
       "standard_time_display": "2026-08-14 08:51 MST",
@@ -997,7 +1045,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-44",
+      "report_id": "iem-lsr-SLC-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141718",
       "standard_time_display": "2026-08-14 10:18 MST",
@@ -1019,7 +1067,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-45",
+      "report_id": "iem-lsr-SLC-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141733",
       "standard_time_display": "2026-08-14 10:33 MST",
@@ -1041,7 +1089,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-46",
+      "report_id": "iem-lsr-SLC-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141754",
       "standard_time_display": "2026-08-14 10:54 MST",
@@ -1063,7 +1111,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-47",
+      "report_id": "iem-lsr-SLC-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141804",
       "standard_time_display": "2026-08-14 11:04 MST",
@@ -1085,7 +1133,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-48",
+      "report_id": "iem-lsr-SLC-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608141809",
       "standard_time_display": "2026-08-14 11:09 MST",
@@ -1107,7 +1155,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-49",
+      "report_id": "iem-lsr-SLC-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608142200",
       "standard_time_display": "2026-08-14 15:00 MST",
@@ -1127,6 +1175,50 @@
       "ugc": "UTC035",
       "ugc_name": "Salt Lake",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-52",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608142200",
+      "standard_time_display": "2026-08-14 15:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 ESE Mapleton",
+      "county": "Utah",
+      "state": "UT",
+      "source": "Newspaper",
+      "remark": "The media reported multiple mudslides across Diamond Fork road in Diamond Fork Canyon beginning around Monks Hollow_ prompting the road to close. Based on radar estimated precipitation and surface ob",
+      "lat": 40.08,
+      "lon": -111.39,
+      "ugc": "UTC049",
+      "ugc_name": "Utah",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-53",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608180320",
+      "standard_time_display": "2026-08-17 20:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "12 W Knolls",
+      "county": "Tooele",
+      "state": "UT",
+      "source": "Mesonet",
+      "remark": "Mesonet station UT33 I-80 at MP 29.",
+      "lat": 40.73,
+      "lon": -113.5,
+      "ugc": "UTC045",
+      "ugc_name": "Tooele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1135,7 +1227,7 @@
       "wfo": "SLC",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-17T09:56:22Z"
+      "generated_utc": "2026-08-18T09:47:50Z"
     },
     "primary_links": [
       {
