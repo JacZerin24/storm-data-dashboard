@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-18T09:47:19Z",
+    "generated_utc": "2026-08-19T09:47:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 8,
     "wfo": "MLB",
-    "total_candidate_reports": 44,
-    "mapped_candidate_reports": 44,
+    "total_candidate_reports": 46,
+    "mapped_candidate_reports": 46,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "flooding": 3,
-      "marine": 28,
+      "marine": 30,
       "thunderstorm_wind": 10,
       "tornado": 2
     },
@@ -30,7 +30,7 @@
       "FLASH FLOOD": 1,
       "FLOOD": 2,
       "FUNNEL CLOUD": 1,
-      "MARINE TSTM WIND": 28,
+      "MARINE TSTM WIND": 30,
       "TSTM WND GST": 10,
       "WATERSPOUT": 1,
       "WILDFIRE": 1
@@ -1024,6 +1024,50 @@
       "ugc": "FLC127",
       "ugc_name": "Volusia",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-45",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608181825",
+      "standard_time_display": "2026-08-18 13:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Cocoa",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Other Federal",
+      "remark": "US Space Force wind sensor at tower 1000 measured a wind gust of 41MPH/36KTS from the northwest.",
+      "lat": 28.41,
+      "lon": -80.76,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608181850",
+      "standard_time_display": "2026-08-18 13:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Port Canaveral",
+      "county": "AMZ552",
+      "state": "FL",
+      "source": "Other Federal",
+      "remark": "USSF wind sensor on tower 300 measured a peak wind gust of 43MPH/37KT from the northwest at 2:50 PM. Sensor elevation is 54 feet.",
+      "lat": 28.4,
+      "lon": -80.65,
+      "ugc": "AMZ552",
+      "ugc_name": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1032,7 +1076,7 @@
       "wfo": "MLB",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-18T09:47:19Z"
+      "generated_utc": "2026-08-19T09:47:53Z"
     },
     "primary_links": [
       {

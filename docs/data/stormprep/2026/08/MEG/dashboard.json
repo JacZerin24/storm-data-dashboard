@@ -6,7 +6,7 @@
     "wfo": "MEG",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-18T09:47:15Z",
+    "generated_utc": "2026-08-19T09:47:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "MEG",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
     "candidate_report_counts": {
       "flooding": 1,
-      "thunderstorm_wind": 14
+      "thunderstorm_wind": 18
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "TSTM WND DMG": 12,
+      "TSTM WND DMG": 16,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -183,6 +183,28 @@
     {
       "report_id": "iem-lsr-MEG-7",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172050",
+      "standard_time_display": "2026-08-17 14:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MEG",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Caldwell",
+      "county": "St. Francis",
+      "state": "AR",
+      "source": "Emergency Mngr",
+      "remark": "Downed trees and power lines at SFC 311 and 313.",
+      "lat": 35.06,
+      "lon": -90.77,
+      "ugc": "ARC123",
+      "ugc_name": "St. Francis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MEG-8",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172138",
       "standard_time_display": "2026-08-17 15:38 CST",
       "standard_time_zone": "CST",
@@ -203,7 +225,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-8",
+      "report_id": "iem-lsr-MEG-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172139",
       "standard_time_display": "2026-08-17 15:39 CST",
@@ -225,7 +247,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-9",
+      "report_id": "iem-lsr-MEG-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172140",
       "standard_time_display": "2026-08-17 15:40 CST",
@@ -247,7 +269,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-10",
+      "report_id": "iem-lsr-MEG-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172145",
+      "standard_time_display": "2026-08-17 15:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MEG",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Coldwater",
+      "county": "Tate",
+      "state": "MS",
+      "source": "Public",
+      "remark": "Multiple trees down at the Coldwater RV park.",
+      "lat": 34.7,
+      "lon": -89.97,
+      "ugc": "MSC137",
+      "ugc_name": "Tate",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MEG-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172145",
+      "standard_time_display": "2026-08-17 15:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MEG",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Senatobia",
+      "county": "Tate",
+      "state": "MS",
+      "source": "Public",
+      "remark": "Large tree down on Porter St.",
+      "lat": 34.62,
+      "lon": -89.96,
+      "ugc": "MSC137",
+      "ugc_name": "Tate",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MEG-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172150",
+      "standard_time_display": "2026-08-17 15:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MEG",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Southaven",
+      "county": "DeSoto",
+      "state": "MS",
+      "source": "Public",
+      "remark": "Several broken utility poles near the intersection of Goodman Rd and Getwell Rd.",
+      "lat": 34.96,
+      "lon": -89.94,
+      "ugc": "MSC033",
+      "ugc_name": "DeSoto",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MEG-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172154",
       "standard_time_display": "2026-08-17 15:54 CST",
@@ -269,7 +357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-11",
+      "report_id": "iem-lsr-MEG-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172302",
       "standard_time_display": "2026-08-17 17:02 CST",
@@ -291,7 +379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-12",
+      "report_id": "iem-lsr-MEG-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172306",
       "standard_time_display": "2026-08-17 17:06 CST",
@@ -313,7 +401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-13",
+      "report_id": "iem-lsr-MEG-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172326",
       "standard_time_display": "2026-08-17 17:26 CST",
@@ -335,7 +423,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-14",
+      "report_id": "iem-lsr-MEG-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172331",
       "standard_time_display": "2026-08-17 17:31 CST",
@@ -357,7 +445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MEG-15",
+      "report_id": "iem-lsr-MEG-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172353",
       "standard_time_display": "2026-08-17 17:53 CST",
@@ -385,7 +473,7 @@
       "wfo": "MEG",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-18T09:47:15Z"
+      "generated_utc": "2026-08-19T09:47:50Z"
     },
     "primary_links": [
       {

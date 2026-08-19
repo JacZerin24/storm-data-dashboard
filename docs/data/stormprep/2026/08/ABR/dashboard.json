@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-18T09:46:05Z",
+    "generated_utc": "2026-08-19T09:46:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 8,
     "wfo": "ABR",
-    "total_candidate_reports": 90,
-    "mapped_candidate_reports": 90,
+    "total_candidate_reports": 96,
+    "mapped_candidate_reports": 96,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 6,
       "other": 64,
-      "thunderstorm_wind": 18
+      "thunderstorm_wind": 24
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
@@ -31,8 +31,8 @@
       "HAIL": 6,
       "NON-TSTM WND GST": 3,
       "RAIN": 54,
-      "TSTM WND DMG": 2,
-      "TSTM WND GST": 13
+      "TSTM WND DMG": 3,
+      "TSTM WND GST": 18
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1751,6 +1751,28 @@
     {
       "report_id": "iem-lsr-ABR-78",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172130",
+      "standard_time_display": "2026-08-17 15:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Lantry",
+      "county": "Dewey",
+      "state": "SD",
+      "source": "Trained Spotter",
+      "remark": "no hail_ strong winds: estimated 60mph_ had 1 inch of rain. Time estimated by radar.",
+      "lat": 45.01,
+      "lon": -101.43,
+      "ugc": "SDC041",
+      "ugc_name": "Dewey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-79",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172211",
       "standard_time_display": "2026-08-17 16:11 CST",
       "standard_time_zone": "CST",
@@ -1771,7 +1793,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-79",
+      "report_id": "iem-lsr-ABR-80",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172234",
+      "standard_time_display": "2026-08-17 16:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 NW Hayes",
+      "county": "Stanley",
+      "state": "SD",
+      "source": "Emergency Mngr",
+      "remark": "Roof to a shop was blown off by the winds. Time estimated by radar.",
+      "lat": 44.43,
+      "lon": -101.13,
+      "ugc": "SDC117",
+      "ugc_name": "Stanley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172245",
+      "standard_time_display": "2026-08-17 16:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 50.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Hayes",
+      "county": "Stanley",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Time estimated by radar.",
+      "lat": 44.36,
+      "lon": -101.02,
+      "ugc": "SDC117",
+      "ugc_name": "Stanley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172248",
       "standard_time_display": "2026-08-17 16:48 CST",
@@ -1793,7 +1859,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-80",
+      "report_id": "iem-lsr-ABR-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172250",
       "standard_time_display": "2026-08-17 16:50 CST",
@@ -1815,7 +1881,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-81",
+      "report_id": "iem-lsr-ABR-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172300",
       "standard_time_display": "2026-08-17 17:00 CST",
@@ -1837,7 +1903,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-82",
+      "report_id": "iem-lsr-ABR-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172314",
       "standard_time_display": "2026-08-17 17:14 CST",
@@ -1859,7 +1925,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-83",
+      "report_id": "iem-lsr-ABR-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172317",
       "standard_time_display": "2026-08-17 17:17 CST",
@@ -1881,7 +1947,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-84",
+      "report_id": "iem-lsr-ABR-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172324",
       "standard_time_display": "2026-08-17 17:24 CST",
@@ -1903,7 +1969,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-85",
+      "report_id": "iem-lsr-ABR-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608172334",
+      "standard_time_display": "2026-08-17 17:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Blunt",
+      "county": "Hughes",
+      "state": "SD",
+      "source": "Trained Spotter",
+      "remark": "Time estimated by radar.",
+      "lat": 44.48,
+      "lon": -99.96,
+      "ugc": "SDC065",
+      "ugc_name": "Hughes",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172340",
       "standard_time_display": "2026-08-17 17:40 CST",
@@ -1925,7 +2013,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-86",
+      "report_id": "iem-lsr-ABR-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172342",
       "standard_time_display": "2026-08-17 17:42 CST",
@@ -1947,7 +2035,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-87",
+      "report_id": "iem-lsr-ABR-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608172346",
       "standard_time_display": "2026-08-17 17:46 CST",
@@ -1969,7 +2057,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-88",
+      "report_id": "iem-lsr-ABR-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180019",
       "standard_time_display": "2026-08-17 18:19 CST",
@@ -1991,7 +2079,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-89",
+      "report_id": "iem-lsr-ABR-93",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608180101",
+      "standard_time_display": "2026-08-17 19:01 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "12 ESE Sunshine Bible A",
+      "county": "Hand",
+      "state": "SD",
+      "source": "Mesonet",
+      "remark": "Mesonet station RHUS2 Danforth 5 E. Time estimated on radar.",
+      "lat": 44.24,
+      "lon": -98.77,
+      "ugc": "SDC059",
+      "ugc_name": "Hand",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180524",
       "standard_time_display": "2026-08-17 23:24 CST",
@@ -2013,7 +2123,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABR-90",
+      "report_id": "iem-lsr-ABR-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180555",
       "standard_time_display": "2026-08-17 23:55 CST",
@@ -2033,6 +2143,28 @@
       "ugc": "SDC017",
       "ugc_name": "Buffalo",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABR-96",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608180730",
+      "standard_time_display": "2026-08-18 01:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "5 N Iona",
+      "county": "Lyman",
+      "state": "SD",
+      "source": "Public",
+      "remark": "Strong winds and rain was coming down horizontally (0.70in). time estimated by Radar.",
+      "lat": 43.62,
+      "lon": -99.42,
+      "ugc": "SDC085",
+      "ugc_name": "Lyman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2041,7 +2173,7 @@
       "wfo": "ABR",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-18T09:46:05Z"
+      "generated_utc": "2026-08-19T09:46:53Z"
     },
     "primary_links": [
       {
