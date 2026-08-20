@@ -6,7 +6,7 @@
     "wfo": "MKX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-19T09:47:52Z",
+    "generated_utc": "2026-08-20T09:49:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,21 @@
     "year": 2026,
     "month": 8,
     "wfo": "MKX",
-    "total_candidate_reports": 160,
-    "mapped_candidate_reports": 160,
+    "total_candidate_reports": 164,
+    "mapped_candidate_reports": 164,
     "candidate_report_counts": {
       "flooding": 1,
-      "hail": 11,
+      "hail": 12,
       "other": 130,
-      "thunderstorm_wind": 18
+      "thunderstorm_wind": 20,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
-      "HAIL": 11,
+      "HAIL": 12,
       "RAIN": 130,
-      "TSTM WND DMG": 13,
+      "TORNADO": 1,
+      "TSTM WND DMG": 15,
       "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -37,7 +39,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MKX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +52,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MKX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -3311,6 +3315,50 @@
     {
       "report_id": "iem-lsr-MKX-149",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608182148",
+      "standard_time_display": "2026-08-18 15:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Reedsburg",
+      "county": "Sauk",
+      "state": "WI",
+      "source": "Emergency Mngr",
+      "remark": "Delayed report of broken limbs and down trees in Reedsburg. Time estimated from radar.",
+      "lat": 43.54,
+      "lon": -89.98,
+      "ugc": "WIC111",
+      "ugc_name": "Sauk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-150",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608182150",
+      "standard_time_display": "2026-08-18 15:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 NE Fond Du Lac",
+      "county": "Fond du Lac",
+      "state": "WI",
+      "source": "Trained Spotter",
+      "remark": "Delayed Storm Report. Quarter sized hail.",
+      "lat": 43.79,
+      "lon": -88.44,
+      "ugc": "WIC039",
+      "ugc_name": "Fond du Lac",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-151",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182150",
       "standard_time_display": "2026-08-18 15:50 CST",
       "standard_time_zone": "CST",
@@ -3331,7 +3379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-150",
+      "report_id": "iem-lsr-MKX-152",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182330",
       "standard_time_display": "2026-08-18 17:30 CST",
@@ -3353,7 +3401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-151",
+      "report_id": "iem-lsr-MKX-153",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182331",
       "standard_time_display": "2026-08-18 17:31 CST",
@@ -3375,7 +3423,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-152",
+      "report_id": "iem-lsr-MKX-154",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608182333",
+      "standard_time_display": "2026-08-18 17:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Hubertus",
+      "county": "Washington",
+      "state": "WI",
+      "source": "NWS Storm Survey",
+      "remark": "NWS storm survey finds a brief EF0 tornado damage track beginning near the intersection of Elmwood Rd & Timber Stone Way. Max wind speed 80 MPH. Additional details to follow in a Public Information S",
+      "lat": 43.22,
+      "lon": -88.23,
+      "ugc": "WIC131",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-155",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182334",
       "standard_time_display": "2026-08-18 17:34 CST",
@@ -3397,7 +3467,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-153",
+      "report_id": "iem-lsr-MKX-156",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182335",
       "standard_time_display": "2026-08-18 17:35 CST",
@@ -3419,7 +3489,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-154",
+      "report_id": "iem-lsr-MKX-157",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182338",
       "standard_time_display": "2026-08-18 17:38 CST",
@@ -3441,7 +3511,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-155",
+      "report_id": "iem-lsr-MKX-158",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608182341",
+      "standard_time_display": "2026-08-18 17:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Menomonee Falls",
+      "county": "Waukesha",
+      "state": "WI",
+      "source": "NWS Employee",
+      "remark": "Large pine tree fell on a camper. Time estimated from radar.",
+      "lat": 43.14,
+      "lon": -88.12,
+      "ugc": "WIC133",
+      "ugc_name": "Waukesha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-159",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182343",
       "standard_time_display": "2026-08-18 17:43 CST",
@@ -3463,7 +3555,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-156",
+      "report_id": "iem-lsr-MKX-160",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182348",
       "standard_time_display": "2026-08-18 17:48 CST",
@@ -3485,7 +3577,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-157",
+      "report_id": "iem-lsr-MKX-161",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182349",
       "standard_time_display": "2026-08-18 17:49 CST",
@@ -3507,7 +3599,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-158",
+      "report_id": "iem-lsr-MKX-162",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182351",
       "standard_time_display": "2026-08-18 17:51 CST",
@@ -3529,7 +3621,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-159",
+      "report_id": "iem-lsr-MKX-163",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182355",
       "standard_time_display": "2026-08-18 17:55 CST",
@@ -3551,7 +3643,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-160",
+      "report_id": "iem-lsr-MKX-164",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608182356",
       "standard_time_display": "2026-08-18 17:56 CST",
@@ -3579,7 +3671,7 @@
       "wfo": "MKX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-19T09:47:53Z"
+      "generated_utc": "2026-08-20T09:49:08Z"
     },
     "primary_links": [
       {

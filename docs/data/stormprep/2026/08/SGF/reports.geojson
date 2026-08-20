@@ -7,7 +7,7 @@
     "wfo": "SGF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-19T09:48:15Z",
+    "generated_utc": "2026-08-20T09:49:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2074,6 +2074,32 @@
       "id": "iem-lsr-SGF-80",
       "properties": {
         "report_id": "iem-lsr-SGF-80",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608170010",
+        "standard_time_display": "2026-08-16 18:10 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Christian",
+        "city": "2 SE Highlandville",
+        "state": "MO",
+        "magnitude": 75.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Thunderstorm winds estimated up to 75 mph uprooted trees on August 16th."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25,
+          36.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-81",
+      "properties": {
+        "report_id": "iem-lsr-SGF-81",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608170010",
@@ -2097,9 +2123,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SGF-81",
+      "id": "iem-lsr-SGF-82",
       "properties": {
-        "report_id": "iem-lsr-SGF-81",
+        "report_id": "iem-lsr-SGF-82",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608170010",
@@ -2118,6 +2144,58 @@
         "coordinates": [
           -93.22,
           36.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-83",
+      "properties": {
+        "report_id": "iem-lsr-SGF-83",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608190605",
+        "standard_time_display": "2026-08-19 00:05 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Benton",
+        "city": "4 WSW Cole Camp",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A few damage reports came in from the Lange road area near Center street southwest of Cole Camp. Several trees were downed along with the roof of a barn was destroyed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.27,
+          38.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-84",
+      "properties": {
+        "report_id": "iem-lsr-SGF-84",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608190635",
+        "standard_time_display": "2026-08-19 00:35 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Morgan",
+        "city": "Laurie",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Thunderstorm winds downed 2 to 4 inch in diameter tree limbs in Laurie."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.83,
+          38.2
         ]
       }
     }
