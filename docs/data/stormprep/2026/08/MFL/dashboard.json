@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-20T09:49:05Z",
+    "generated_utc": "2026-08-21T09:51:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,10 @@
     "year": 2026,
     "month": 8,
     "wfo": "MFL",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
-      "fire_smoke": 5,
+      "fire_smoke": 7,
       "other": 2,
       "thunderstorm_wind": 2
     },
@@ -28,7 +28,7 @@
       "LIGHTNING": 2,
       "TSTM WND DMG": 1,
       "TSTM WND GST": 1,
-      "WILDFIRE": 5
+      "WILDFIRE": 7
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -247,6 +247,50 @@
       "ugc": "FLC086",
       "ugc_name": "Miami-Dade",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608192237",
+      "standard_time_display": "2026-08-19 17:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Rotenberger Wildli",
+      "county": "Palm Beach",
+      "state": "FL",
+      "source": "Park/Forest Srvc",
+      "remark": "The H1 (50) Wildfire has burned 9733 acres and is at 95 percent contained.",
+      "lat": 26.36,
+      "lon": -80.76,
+      "ugc": "FLC099",
+      "ugc_name": "Palm Beach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608201916",
+      "standard_time_display": "2026-08-20 14:16 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 N Pa-Hay Okee Overlo",
+      "county": "Miami-Dade",
+      "state": "FL",
+      "source": "Park/Forest Srvc",
+      "remark": "The Movie Dome wildfire in the Everglades has burned an estimated 2_000-3_000 acres.",
+      "lat": 25.5,
+      "lon": -80.79,
+      "ugc": "FLC086",
+      "ugc_name": "Miami-Dade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -255,7 +299,7 @@
       "wfo": "MFL",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-20T09:49:06Z"
+      "generated_utc": "2026-08-21T09:51:22Z"
     },
     "primary_links": [
       {

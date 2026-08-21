@@ -6,7 +6,7 @@
     "wfo": "PSR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-20T09:49:24Z",
+    "generated_utc": "2026-08-21T09:51:40Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 8,
     "wfo": "PSR",
-    "total_candidate_reports": 92,
-    "mapped_candidate_reports": 92,
+    "total_candidate_reports": 96,
+    "mapped_candidate_reports": 96,
     "candidate_report_counts": {
       "flooding": 13,
       "hail": 1,
-      "other": 20,
-      "thunderstorm_wind": 58
+      "other": 21,
+      "thunderstorm_wind": 61
     },
     "candidate_report_type_counts": {
       "BLOWING DUST": 10,
-      "DUST STORM": 10,
+      "DUST STORM": 11,
       "FLASH FLOOD": 13,
       "HAIL": 1,
       "NON-TSTM WND GST": 4,
-      "TSTM WND DMG": 29,
+      "TSTM WND DMG": 32,
       "TSTM WND GST": 25
     },
     "nws_api_alert_count": 0,
@@ -1905,6 +1905,28 @@
     {
       "report_id": "iem-lsr-PSR-85",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608200358",
+      "standard_time_display": "2026-08-19 20:58 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Coolidge",
+      "county": "Pinal",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "***DELAYED REPORT*** Attaway Rd between Hunt Hwy and SR 287 was closed due to downed power poles. Timing estimated from radar.",
+      "lat": 33.02,
+      "lon": -111.47,
+      "ugc": "AZC021",
+      "ugc_name": "Pinal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-86",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200410",
       "standard_time_display": "2026-08-19 21:10 MST",
       "standard_time_zone": "MST",
@@ -1925,7 +1947,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-86",
+      "report_id": "iem-lsr-PSR-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200410",
       "standard_time_display": "2026-08-19 21:10 MST",
@@ -1947,7 +1969,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-87",
+      "report_id": "iem-lsr-PSR-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608200418",
+      "standard_time_display": "2026-08-19 21:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Phoenix Mesa Gatew",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Dept of Highways",
+      "remark": "***DELAYED REPORT*** ADOT traffic camera at Power Rd and Loop 202 showed visibility dropping below a quarter mile due to dense blowing dust.",
+      "lat": 33.33,
+      "lon": -111.69,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200420",
       "standard_time_display": "2026-08-19 21:20 MST",
@@ -1969,7 +2013,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-88",
+      "report_id": "iem-lsr-PSR-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200431",
       "standard_time_display": "2026-08-19 21:31 MST",
@@ -1991,7 +2035,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-89",
+      "report_id": "iem-lsr-PSR-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200448",
       "standard_time_display": "2026-08-19 21:48 MST",
@@ -2013,7 +2057,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-90",
+      "report_id": "iem-lsr-PSR-92",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608200450",
+      "standard_time_display": "2026-08-19 21:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Tempe",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Broadcast Media",
+      "remark": "***DELAYED REPORT*** Parts of a roof at Waterstone Apartments near Dobson Rd and US 60 was torn off. Timing estimated from radar.",
+      "lat": 33.38,
+      "lon": -111.87,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-93",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608200453",
+      "standard_time_display": "2026-08-19 21:53 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PSR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Tempe",
+      "county": "Maricopa",
+      "state": "AZ",
+      "source": "Broadcast Media",
+      "remark": "***DELAYED REPORT*** Videos showed portions of the Marcos De Niza High School roofing torn off. Timing estimated from radar.",
+      "lat": 33.37,
+      "lon": -111.92,
+      "ugc": "AZC013",
+      "ugc_name": "Maricopa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PSR-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200458",
       "standard_time_display": "2026-08-19 21:58 MST",
@@ -2035,7 +2123,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-91",
+      "report_id": "iem-lsr-PSR-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200458",
       "standard_time_display": "2026-08-19 21:58 MST",
@@ -2057,7 +2145,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PSR-92",
+      "report_id": "iem-lsr-PSR-96",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200519",
       "standard_time_display": "2026-08-19 22:19 MST",
@@ -2085,7 +2173,7 @@
       "wfo": "PSR",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-20T09:49:25Z"
+      "generated_utc": "2026-08-21T09:51:40Z"
     },
     "primary_links": [
       {

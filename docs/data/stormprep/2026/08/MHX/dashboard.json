@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-20T09:49:07Z",
+    "generated_utc": "2026-08-21T09:51:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 8,
     "wfo": "MHX",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
       "flooding": 4,
       "hail": 1,
-      "marine": 6,
+      "marine": 7,
       "other": 1,
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 4,
       "HAIL": 1,
-      "MARINE TSTM WIND": 6,
+      "MARINE TSTM WIND": 7,
       "RAIN": 1,
-      "TSTM WND DMG": 1
+      "TSTM WND DMG": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -338,6 +338,50 @@
       "ugc": "AMZ135",
       "ugc_name": "Pamlico Sound",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202125",
+      "standard_time_display": "2026-08-20 16:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Olympia",
+      "county": "Craven",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Trees down on Saints Delight Church Road.",
+      "lat": 35.19,
+      "lon": -77.0,
+      "ugc": "NCC049",
+      "ugc_name": "Craven",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202200",
+      "standard_time_display": "2026-08-20 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "Core Point",
+      "county": "AMZ136",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "Private Tempest station recorded a gust of 36 knots.",
+      "lat": 35.43,
+      "lon": -76.85,
+      "ugc": "AMZ136",
+      "ugc_name": "Pamlico and Pungo Rivers",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -346,7 +390,7 @@
       "wfo": "MHX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-20T09:49:07Z"
+      "generated_utc": "2026-08-21T09:51:23Z"
     },
     "primary_links": [
       {
