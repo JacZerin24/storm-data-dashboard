@@ -3,14 +3,15 @@
   "year": 2026,
   "month": 8,
   "wfo": "OKX",
-  "total_candidate_reports": 131,
-  "mapped_candidate_reports": 131,
+  "total_candidate_reports": 132,
+  "mapped_candidate_reports": 132,
   "candidate_report_counts": {
     "flooding": 46,
     "hail": 4,
     "marine": 35,
     "other": 2,
-    "thunderstorm_wind": 44
+    "thunderstorm_wind": 44,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 46,
@@ -20,6 +21,7 @@
     "NON-TSTM WND DMG": 4,
     "NON-TSTM WND GST": 1,
     "RAIN": 1,
+    "TORNADO": 1,
     "TSTM WND DMG": 37,
     "TSTM WND GST": 2
   },
@@ -28,6 +30,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OKX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

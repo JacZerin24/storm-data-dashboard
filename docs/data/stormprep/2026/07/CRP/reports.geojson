@@ -7,12 +7,663 @@
     "wfo": "CRP",
     "start_utc": "2026-07-01T00:00:00Z",
     "end_utc": "2026-08-01T00:00:00Z",
-    "generated_utc": "2026-07-15T11:01:32Z",
+    "generated_utc": "2026-08-22T09:40:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-07-01T00%3A00%3A00Z&ets=2026-08-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-1",
+      "properties": {
+        "report_id": "iem-lsr-CRP-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202607151854",
+        "standard_time_display": "2026-07-15 12:54 CST",
+        "wfo": "CRP",
+        "county_or_zone": "GMZ236",
+        "city": "8 NE Fulton",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photos of a waterspout over Saint Charles Bay."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.96,
+          28.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-2",
+      "properties": {
+        "report_id": "iem-lsr-CRP-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607160724",
+        "standard_time_display": "2026-07-16 01:24 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Nueces",
+        "city": "8 SE Aransas Pass",
+        "state": "TX",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "Buoy station RTAT2 Port Aransas_ TX."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.07,
+          27.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-3",
+      "properties": {
+        "report_id": "iem-lsr-CRP-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202607160812",
+        "standard_time_display": "2026-07-16 02:12 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Calhoun",
+        "city": "15 ENE Fulton",
+        "state": "TX",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MIRT2 Matagorda Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8,
+          28.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-4",
+      "properties": {
+        "report_id": "iem-lsr-CRP-4",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607192135",
+        "standard_time_display": "2026-07-19 15:35 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 N Los Angeles",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure from the intersection of El Jardin Rd and FM-469 travelling NNE to the Frio River due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0,
+          28.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-5",
+      "properties": {
+        "report_id": "iem-lsr-CRP-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607192135",
+        "standard_time_display": "2026-07-19 15:35 CST",
+        "wfo": "CRP",
+        "county_or_zone": "McMullen",
+        "city": "4 NNE Fowlerton",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of Natus Rd at HWY-97 per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8,
+          28.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-6",
+      "properties": {
+        "report_id": "iem-lsr-CRP-6",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607201318",
+        "standard_time_display": "2026-07-20 07:18 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "3 NNE Fowlerton",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure at the intersection of HWY-97 and HWY-72 in Fowlerton per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8,
+          28.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-7",
+      "properties": {
+        "report_id": "iem-lsr-CRP-7",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607201318",
+        "standard_time_display": "2026-07-20 07:18 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "3 WSW Fowlerton",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure 8 miles ESE from Los Angeles on HWY-97 per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.87,
+          28.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-8",
+      "properties": {
+        "report_id": "iem-lsr-CRP-8",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607201318",
+        "standard_time_display": "2026-07-20 07:18 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "9 SSE Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure between Holland Dam Rd and Allerkamp Rd per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.17,
+          28.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-9",
+      "properties": {
+        "report_id": "iem-lsr-CRP-9",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607201537",
+        "standard_time_display": "2026-07-20 09:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "4 NW Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure for intersection of FM-468 and Valley Wells Rd per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.29,
+          28.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-10",
+      "properties": {
+        "report_id": "iem-lsr-CRP-10",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607210409",
+        "standard_time_display": "2026-07-20 22:09 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "1 WSW Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure for IH-35 East to West Frontage Rd Underpass at MM66 near KOA Campground due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.25,
+          28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-11",
+      "properties": {
+        "report_id": "iem-lsr-CRP-11",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607210409",
+        "standard_time_display": "2026-07-20 22:09 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 SE Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure for Dobie Road at Mustang Creek per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.22,
+          28.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-12",
+      "properties": {
+        "report_id": "iem-lsr-CRP-12",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "11 SSW Los Angeles",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of the FM624 at FM469 intersection due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.08,
+          28.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-13",
+      "properties": {
+        "report_id": "iem-lsr-CRP-13",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "1 E Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of Guadalupe Rd from Elm St to FM624 due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.22,
+          28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-14",
+      "properties": {
+        "report_id": "iem-lsr-CRP-14",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "1 ESE Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of Martinez at Mustang Creek (blockades placed at Guadalupe Cant and Altito) per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.22,
+          28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-15",
+      "properties": {
+        "report_id": "iem-lsr-CRP-15",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "1 SSW Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Closure of the Nueces Bridge at S. Main per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.24,
+          28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-16",
+      "properties": {
+        "report_id": "iem-lsr-CRP-16",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 SE Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of FM624 at Dobie Rd per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.21,
+          28.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-17",
+      "properties": {
+        "report_id": "iem-lsr-CRP-17",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 SW Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of Cochina Ranch Road per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.26,
+          28.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-18",
+      "properties": {
+        "report_id": "iem-lsr-CRP-18",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "4 NNE Artesia Wells",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of FM1019 at Cemetery Rd due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.28,
+          28.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-19",
+      "properties": {
+        "report_id": "iem-lsr-CRP-19",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607212037",
+        "standard_time_display": "2026-07-21 14:37 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of Baylor St in between Main and 3rd per La Salle County Fire Rescue due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.24,
+          28.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-20",
+      "properties": {
+        "report_id": "iem-lsr-CRP-20",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607221619",
+        "standard_time_display": "2026-07-22 10:19 CST",
+        "wfo": "CRP",
+        "county_or_zone": "McMullen",
+        "city": "Tilden",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "The 200 block of Hackberry St. closed due to water crossing between JV Steel and the white house_ causing structural failure."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55,
+          28.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-21",
+      "properties": {
+        "report_id": "iem-lsr-CRP-21",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607231630",
+        "standard_time_display": "2026-07-23 10:30 CST",
+        "wfo": "CRP",
+        "county_or_zone": "La Salle",
+        "city": "2 S Cotulla",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Road closure of FM 3408 from reference markers #572 to #574 due to rising water and/or high water on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.23,
+          28.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-22",
+      "properties": {
+        "report_id": "iem-lsr-CRP-22",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607291947",
+        "standard_time_display": "2026-07-29 13:47 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Live Oak",
+        "city": "2 WSW Simmons",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Live Oak County Office reported County Road 436 in the Simmons Community Area closed due to river flooding along the Nueces. Time used in social media post."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.33,
+          28.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-23",
+      "properties": {
+        "report_id": "iem-lsr-CRP-23",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607301602",
+        "standard_time_display": "2026-07-30 10:02 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Live Oak",
+        "city": "1 NE Simmons",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Water from the Nueces River backed up covering County Road 438. Time from Live Oak County Office of Emergency Management social media post."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.29,
+          28.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-24",
+      "properties": {
+        "report_id": "iem-lsr-CRP-24",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607301700",
+        "standard_time_display": "2026-07-30 11:00 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Live Oak",
+        "city": "1 WSW Three Rivers",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Backwater flow into the Frio River from the Nueces River has flooded parts of Tips Park. City has closed the park. Time from photos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19,
+          28.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-25",
+      "properties": {
+        "report_id": "iem-lsr-CRP-25",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202607311813",
+        "standard_time_display": "2026-07-31 12:13 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Live Oak",
+        "city": "5 ESE George West",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Closure of County Road 369 due to rising floodwater covering road. Time used by Live Oak County Office of Emergency Management social media post."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.04,
+          28.3
+        ]
+      }
+    }
+  ]
 }

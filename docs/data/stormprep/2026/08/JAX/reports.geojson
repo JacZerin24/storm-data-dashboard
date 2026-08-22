@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:51:10Z",
+    "generated_utc": "2026-08-22T09:39:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2646,6 +2646,32 @@
       "id": "iem-lsr-JAX-102",
       "properties": {
         "report_id": "iem-lsr-JAX-102",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608202225",
+        "standard_time_display": "2026-08-20 17:25 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Columbia",
+        "city": "4 NE Columbia",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Delayed Report...Restaurant under construction collapsed due to strong wind gusts from passing storms. Time based off radar and nearby weather station observations."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.66,
+          30.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-103",
+      "properties": {
+        "report_id": "iem-lsr-JAX-103",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202608202239",
@@ -2669,9 +2695,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-JAX-103",
+      "id": "iem-lsr-JAX-104",
       "properties": {
-        "report_id": "iem-lsr-JAX-103",
+        "report_id": "iem-lsr-JAX-104",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608210004",
@@ -2690,6 +2716,58 @@
         "coordinates": [
           -83.19,
           30.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-105",
+      "properties": {
+        "report_id": "iem-lsr-JAX-105",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608212145",
+        "standard_time_display": "2026-08-21 16:45 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Atkinson",
+        "city": "Willacoochee",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Trees were reported down in Willacoochee."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04,
+          31.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-106",
+      "properties": {
+        "report_id": "iem-lsr-JAX-106",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608212229",
+        "standard_time_display": "2026-08-21 17:29 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Appling",
+        "city": "2 NNW Baxley",
+        "state": "GA",
+        "magnitude": 42.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Wunderground site KGABAXLE41 indicated a gust to 42 mph from the northwest."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.37,
+          31.79
         ]
       }
     }

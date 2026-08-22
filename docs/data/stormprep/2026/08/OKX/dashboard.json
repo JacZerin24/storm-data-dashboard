@@ -6,7 +6,7 @@
     "wfo": "OKX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:51:31Z",
+    "generated_utc": "2026-08-22T09:39:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "OKX",
-    "total_candidate_reports": 131,
-    "mapped_candidate_reports": 131,
+    "total_candidate_reports": 132,
+    "mapped_candidate_reports": 132,
     "candidate_report_counts": {
       "flooding": 46,
       "hail": 4,
       "marine": 35,
       "other": 2,
-      "thunderstorm_wind": 44
+      "thunderstorm_wind": 44,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 46,
@@ -34,6 +35,7 @@
       "NON-TSTM WND DMG": 4,
       "NON-TSTM WND GST": 1,
       "RAIN": 1,
+      "TORNADO": 1,
       "TSTM WND DMG": 37,
       "TSTM WND GST": 2
     },
@@ -42,7 +44,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OKX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -54,7 +57,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=OKX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -2678,6 +2682,28 @@
     {
       "report_id": "iem-lsr-OKX-120",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202247",
+      "standard_time_display": "2026-08-20 17:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Atlantic Beach",
+      "county": "Nassau",
+      "state": "NY",
+      "source": "NWS Storm Survey",
+      "remark": "NWS storm survey confirmed an EF-1 tornado producing a narrow swath of damage with estimated wind gusts of 65 to 97 mph across the far western end of Atlantic Beach between 647pm and 650pm. Moderate",
+      "lat": 40.59,
+      "lon": -73.75,
+      "ugc": "NYC059",
+      "ugc_name": "Nassau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-121",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202254",
       "standard_time_display": "2026-08-20 17:54 EST",
       "standard_time_zone": "EST",
@@ -2698,7 +2724,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-121",
+      "report_id": "iem-lsr-OKX-122",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202304",
       "standard_time_display": "2026-08-20 18:04 EST",
@@ -2720,7 +2746,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-122",
+      "report_id": "iem-lsr-OKX-123",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202307",
       "standard_time_display": "2026-08-20 18:07 EST",
@@ -2742,7 +2768,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-123",
+      "report_id": "iem-lsr-OKX-124",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202327",
       "standard_time_display": "2026-08-20 18:27 EST",
@@ -2764,7 +2790,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-124",
+      "report_id": "iem-lsr-OKX-125",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202328",
       "standard_time_display": "2026-08-20 18:28 EST",
@@ -2786,7 +2812,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-125",
+      "report_id": "iem-lsr-OKX-126",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202328",
       "standard_time_display": "2026-08-20 18:28 EST",
@@ -2808,7 +2834,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-126",
+      "report_id": "iem-lsr-OKX-127",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202352",
       "standard_time_display": "2026-08-20 18:52 EST",
@@ -2830,7 +2856,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-127",
+      "report_id": "iem-lsr-OKX-128",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202355",
       "standard_time_display": "2026-08-20 18:55 EST",
@@ -2852,7 +2878,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-128",
+      "report_id": "iem-lsr-OKX-129",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202359",
       "standard_time_display": "2026-08-20 18:59 EST",
@@ -2874,7 +2900,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-129",
+      "report_id": "iem-lsr-OKX-130",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210014",
       "standard_time_display": "2026-08-20 19:14 EST",
@@ -2896,7 +2922,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-130",
+      "report_id": "iem-lsr-OKX-131",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210029",
       "standard_time_display": "2026-08-20 19:29 EST",
@@ -2918,7 +2944,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OKX-131",
+      "report_id": "iem-lsr-OKX-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210113",
       "standard_time_display": "2026-08-20 20:13 EST",
@@ -2946,7 +2972,7 @@
       "wfo": "OKX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-21T09:51:31Z"
+      "generated_utc": "2026-08-22T09:39:40Z"
     },
     "primary_links": [
       {

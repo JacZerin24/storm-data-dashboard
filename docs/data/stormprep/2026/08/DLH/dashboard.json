@@ -6,7 +6,7 @@
     "wfo": "DLH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:50:44Z",
+    "generated_utc": "2026-08-22T09:38:54Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "DLH",
-    "total_candidate_reports": 41,
-    "mapped_candidate_reports": 41,
+    "total_candidate_reports": 52,
+    "mapped_candidate_reports": 52,
     "candidate_report_counts": {
-      "hail": 12,
+      "hail": 21,
       "other": 15,
-      "thunderstorm_wind": 14
+      "thunderstorm_wind": 16
     },
     "candidate_report_type_counts": {
-      "HAIL": 12,
+      "HAIL": 21,
       "NON-TSTM WND GST": 2,
       "RAIN": 15,
-      "TSTM WND DMG": 10,
-      "TSTM WND GST": 2
+      "TSTM WND DMG": 11,
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -472,6 +472,28 @@
     {
       "report_id": "iem-lsr-DLH-20",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608180159",
+      "standard_time_display": "2026-08-17 19:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "Chisholm",
+      "county": "St. Louis",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Report from mPING: Dime (0.75 in.).",
+      "lat": 47.49,
+      "lon": -92.89,
+      "ugc": "MNC137",
+      "ugc_name": "St. Louis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-21",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180320",
       "standard_time_display": "2026-08-17 21:20 CST",
       "standard_time_zone": "CST",
@@ -492,7 +514,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-21",
+      "report_id": "iem-lsr-DLH-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180335",
       "standard_time_display": "2026-08-17 21:35 CST",
@@ -514,7 +536,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-22",
+      "report_id": "iem-lsr-DLH-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608180900",
       "standard_time_display": "2026-08-18 03:00 CST",
@@ -536,7 +558,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-23",
+      "report_id": "iem-lsr-DLH-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181130",
       "standard_time_display": "2026-08-18 05:30 CST",
@@ -558,7 +580,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-24",
+      "report_id": "iem-lsr-DLH-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181200",
       "standard_time_display": "2026-08-18 06:00 CST",
@@ -580,7 +602,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-25",
+      "report_id": "iem-lsr-DLH-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181200",
       "standard_time_display": "2026-08-18 06:00 CST",
@@ -602,7 +624,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-26",
+      "report_id": "iem-lsr-DLH-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181200",
       "standard_time_display": "2026-08-18 06:00 CST",
@@ -624,7 +646,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-27",
+      "report_id": "iem-lsr-DLH-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181200",
       "standard_time_display": "2026-08-18 06:00 CST",
@@ -646,7 +668,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-28",
+      "report_id": "iem-lsr-DLH-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181200",
       "standard_time_display": "2026-08-18 06:00 CST",
@@ -668,7 +690,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-29",
+      "report_id": "iem-lsr-DLH-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608181457",
       "standard_time_display": "2026-08-18 08:57 CST",
@@ -690,7 +712,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-30",
+      "report_id": "iem-lsr-DLH-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202212",
       "standard_time_display": "2026-08-20 16:12 CST",
@@ -712,7 +734,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-31",
+      "report_id": "iem-lsr-DLH-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202231",
       "standard_time_display": "2026-08-20 16:31 CST",
@@ -734,7 +756,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-32",
+      "report_id": "iem-lsr-DLH-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202247",
+      "standard_time_display": "2026-08-20 16:47 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "7 S Side Lake",
+      "county": "St. Louis",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "Pea to quarter size hail. Spotter reported estimated 40-50 mph wind gusts with rear-flank downdraft.",
+      "lat": 47.57,
+      "lon": -93.0,
+      "ugc": "MNC137",
+      "ugc_name": "St. Louis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202301",
       "standard_time_display": "2026-08-20 17:01 CST",
@@ -756,7 +800,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-33",
+      "report_id": "iem-lsr-DLH-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202305",
+      "standard_time_display": "2026-08-20 17:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "1 NW Chisholm",
+      "county": "St. Louis",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 47.5,
+      "lon": -92.9,
+      "ugc": "MNC137",
+      "ugc_name": "St. Louis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202307",
       "standard_time_display": "2026-08-20 17:07 CST",
@@ -778,7 +844,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-34",
+      "report_id": "iem-lsr-DLH-37",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202309",
+      "standard_time_display": "2026-08-20 17:09 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "1 SW Chisholm",
+      "county": "St. Louis",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 47.48,
+      "lon": -92.89,
+      "ugc": "MNC137",
+      "ugc_name": "St. Louis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202359",
+      "standard_time_display": "2026-08-20 17:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "2 E Fifty Lakes",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Public",
+      "remark": null,
+      "lat": 46.75,
+      "lon": -94.05,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210000",
       "standard_time_display": "2026-08-20 18:00 CST",
@@ -800,7 +910,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-35",
+      "report_id": "iem-lsr-DLH-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210007",
+      "standard_time_display": "2026-08-20 18:07 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.5,
+      "magnitude_qualifier": null,
+      "city": "6 NW Swanburg",
+      "county": "Cass",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Report from mPING: Half-inch (0.50 in.).",
+      "lat": 46.82,
+      "lon": -94.22,
+      "ugc": "MNC021",
+      "ugc_name": "Cass",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210007",
       "standard_time_display": "2026-08-20 18:07 CST",
@@ -822,7 +954,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-36",
+      "report_id": "iem-lsr-DLH-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210020",
       "standard_time_display": "2026-08-20 18:20 CST",
@@ -844,7 +976,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-37",
+      "report_id": "iem-lsr-DLH-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210032",
       "standard_time_display": "2026-08-20 18:32 CST",
@@ -866,7 +998,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-38",
+      "report_id": "iem-lsr-DLH-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210046",
+      "standard_time_display": "2026-08-20 18:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "6 ENE Mission",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Most hail was smaller than quarter-size. Largest was half-dollar.",
+      "lat": 46.63,
+      "lon": -93.95,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210100",
       "standard_time_display": "2026-08-20 19:00 CST",
@@ -888,7 +1042,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-39",
+      "report_id": "iem-lsr-DLH-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210103",
       "standard_time_display": "2026-08-20 19:03 CST",
@@ -910,7 +1064,95 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-40",
+      "report_id": "iem-lsr-DLH-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210103",
+      "standard_time_display": "2026-08-20 19:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Cuyuna",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Public report with photo of hail. Person reported largest stone measured 2 inches in diameter.",
+      "lat": 46.54,
+      "lon": -93.91,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210134",
+      "standard_time_display": "2026-08-20 19:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 49.0,
+      "magnitude_qualifier": null,
+      "city": "5 SSE Merrifield",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "ASOS",
+      "remark": "Measured wind gust of 49mph at Brainerd Airport.",
+      "lat": 46.41,
+      "lon": -94.13,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-49",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210134",
+      "standard_time_display": "2026-08-20 19:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Brainerd",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "Wind gusts took down large mature oak trees_ several large branches and a brick chimney on home. Widespread damage from north to south Brainerd. Power outages in several spots in town. Time estimated",
+      "lat": 46.37,
+      "lon": -94.17,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608210141",
+      "standard_time_display": "2026-08-20 19:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 S Brainerd",
+      "county": "Crow Wing",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Social media report of dime to quarter size hail 2 miles SW of MN-25 and MN-18. Time estimated from radar.",
+      "lat": 46.33,
+      "lon": -94.19,
+      "ugc": "MNC035",
+      "ugc_name": "Crow Wing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210144",
       "standard_time_display": "2026-08-20 19:44 CST",
@@ -932,7 +1174,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DLH-41",
+      "report_id": "iem-lsr-DLH-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210210",
       "standard_time_display": "2026-08-20 20:10 CST",
@@ -960,7 +1202,7 @@
       "wfo": "DLH",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-21T09:50:45Z"
+      "generated_utc": "2026-08-22T09:38:54Z"
     },
     "primary_links": [
       {

@@ -3,31 +3,38 @@
   "year": 2026,
   "month": 7,
   "wfo": "CHS",
-  "total_candidate_reports": 170,
-  "mapped_candidate_reports": 170,
+  "total_candidate_reports": 342,
+  "mapped_candidate_reports": 342,
   "candidate_report_counts": {
-    "flooding": 14,
-    "hail": 6,
-    "heat_cold": 23,
-    "marine": 24,
-    "other": 5,
-    "thunderstorm_wind": 98
+    "fire_smoke": 2,
+    "flooding": 47,
+    "hail": 10,
+    "heat_cold": 55,
+    "marine": 46,
+    "other": 40,
+    "thunderstorm_wind": 141,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "EXTREME HEAT": 23,
-    "FLASH FLOOD": 13,
-    "FLOOD": 1,
-    "HAIL": 6,
-    "MARINE TSTM WIND": 24,
-    "RAIN": 5,
-    "TSTM WND DMG": 89,
-    "TSTM WND GST": 9
+    "COASTAL FLOOD": 12,
+    "EXTREME HEAT": 55,
+    "FLASH FLOOD": 31,
+    "FLOOD": 4,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 10,
+    "LIGHTNING": 2,
+    "MARINE TSTM WIND": 45,
+    "RAIN": 38,
+    "RIP CURRENTS": 1,
+    "TSTM WND DMG": 127,
+    "TSTM WND GST": 14,
+    "WILDFIRE": 2
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CHS&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

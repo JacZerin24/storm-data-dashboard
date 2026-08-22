@@ -3,17 +3,19 @@
   "year": 2026,
   "month": 8,
   "wfo": "MFL",
-  "total_candidate_reports": 11,
-  "mapped_candidate_reports": 11,
+  "total_candidate_reports": 12,
+  "mapped_candidate_reports": 12,
   "candidate_report_counts": {
     "fire_smoke": 7,
     "other": 2,
-    "thunderstorm_wind": 2
+    "thunderstorm_wind": 2,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "LIGHTNING": 2,
     "TSTM WND DMG": 1,
     "TSTM WND GST": 1,
+    "WATERSPOUT": 1,
     "WILDFIRE": 7
   },
   "nws_api_alert_count": 0,
@@ -21,6 +23,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

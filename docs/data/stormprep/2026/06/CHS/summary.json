@@ -3,32 +3,37 @@
   "year": 2026,
   "month": 6,
   "wfo": "CHS",
-  "total_candidate_reports": 67,
-  "mapped_candidate_reports": 67,
+  "total_candidate_reports": 210,
+  "mapped_candidate_reports": 210,
   "candidate_report_counts": {
-    "flooding": 15,
+    "flooding": 19,
     "hail": 4,
     "heat_cold": 22,
-    "marine": 1,
-    "other": 4,
-    "thunderstorm_wind": 21
+    "marine": 27,
+    "other": 7,
+    "thunderstorm_wind": 129,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
+    "COASTAL FLOOD": 2,
     "EXTREME HEAT": 22,
     "FLASH FLOOD": 14,
-    "FLOOD": 1,
+    "FLOOD": 3,
+    "FUNNEL CLOUD": 1,
     "HAIL": 4,
-    "LIGHTNING": 2,
-    "RAIN": 2,
+    "LIGHTNING": 4,
+    "MARINE TSTM WIND": 26,
+    "RAIN": 3,
     "RIP CURRENTS": 1,
-    "TSTM WND DMG": 19,
-    "TSTM WND GST": 2
+    "TSTM WND DMG": 121,
+    "TSTM WND GST": 8,
+    "WATERSPOUT": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CHS&start=2026-06-01T00%3A00%3A00Z&end=2026-07-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:51:10Z",
+    "generated_utc": "2026-08-22T09:39:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "JAX",
-    "total_candidate_reports": 103,
-    "mapped_candidate_reports": 103,
+    "total_candidate_reports": 106,
+    "mapped_candidate_reports": 106,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 3,
       "marine": 4,
       "other": 12,
-      "thunderstorm_wind": 81,
+      "thunderstorm_wind": 84,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -35,8 +35,8 @@
       "MARINE TSTM WIND": 4,
       "NON-TSTM WND GST": 1,
       "RAIN": 11,
-      "TSTM WND DMG": 45,
-      "TSTM WND GST": 35
+      "TSTM WND DMG": 47,
+      "TSTM WND GST": 36
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2285,6 +2285,28 @@
     {
       "report_id": "iem-lsr-JAX-102",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202225",
+      "standard_time_display": "2026-08-20 17:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Columbia",
+      "county": "Columbia",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Delayed Report...Restaurant under construction collapsed due to strong wind gusts from passing storms. Time based off radar and nearby weather station observations.",
+      "lat": 30.12,
+      "lon": -82.66,
+      "ugc": "FLC023",
+      "ugc_name": "Columbia",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-103",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202239",
       "standard_time_display": "2026-08-20 17:39 EST",
       "standard_time_zone": "EST",
@@ -2305,7 +2327,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-103",
+      "report_id": "iem-lsr-JAX-104",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608210004",
       "standard_time_display": "2026-08-20 19:04 EST",
@@ -2325,6 +2347,50 @@
       "ugc": "FLC121",
       "ugc_name": "Suwannee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-105",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608212145",
+      "standard_time_display": "2026-08-21 16:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Willacoochee",
+      "county": "Atkinson",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Trees were reported down in Willacoochee.",
+      "lat": 31.34,
+      "lon": -83.04,
+      "ugc": "GAC003",
+      "ugc_name": "Atkinson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-106",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608212229",
+      "standard_time_display": "2026-08-21 17:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 42.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Baxley",
+      "county": "Appling",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Wunderground site KGABAXLE41 indicated a gust to 42 mph from the northwest.",
+      "lat": 31.79,
+      "lon": -82.37,
+      "ugc": "GAC001",
+      "ugc_name": "Appling",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2333,7 +2399,7 @@
       "wfo": "JAX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-21T09:51:10Z"
+      "generated_utc": "2026-08-22T09:39:19Z"
     },
     "primary_links": [
       {

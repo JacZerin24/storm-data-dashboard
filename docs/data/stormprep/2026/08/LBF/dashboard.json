@@ -6,7 +6,7 @@
     "wfo": "LBF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:51:12Z",
+    "generated_utc": "2026-08-22T09:39:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "LBF",
-    "total_candidate_reports": 131,
-    "mapped_candidate_reports": 131,
+    "total_candidate_reports": 133,
+    "mapped_candidate_reports": 133,
     "candidate_report_counts": {
-      "hail": 30,
+      "hail": 31,
       "other": 24,
-      "thunderstorm_wind": 77
+      "thunderstorm_wind": 78
     },
     "candidate_report_type_counts": {
-      "HAIL": 30,
+      "HAIL": 31,
       "RAIN": 24,
       "TSTM WND DMG": 12,
-      "TSTM WND GST": 65
+      "TSTM WND GST": 66
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2931,6 +2931,50 @@
       "ugc": "NEC063",
       "ugc_name": "Frontier",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-132",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608211204",
+      "standard_time_display": "2026-08-21 05:04 MST",
+      "standard_time_zone": "MST",
+      "wfo": "LBF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Rushville",
+      "county": "Sheridan",
+      "state": "NE",
+      "source": "Mesonet",
+      "remark": "Nebraska Mesonet.",
+      "lat": 42.71,
+      "lon": -102.44,
+      "ugc": "NEC161",
+      "ugc_name": "Sheridan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-133",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608211205",
+      "standard_time_display": "2026-08-21 06:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LBF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.7,
+      "magnitude_qualifier": null,
+      "city": "Stuart",
+      "county": "Holt",
+      "state": "NE",
+      "source": "Broadcast Media",
+      "remark": "Relayed via broadcast media.",
+      "lat": 42.6,
+      "lon": -99.14,
+      "ugc": "NEC089",
+      "ugc_name": "Holt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2939,7 +2983,7 @@
       "wfo": "LBF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-21T09:51:12Z"
+      "generated_utc": "2026-08-22T09:39:21Z"
     },
     "primary_links": [
       {

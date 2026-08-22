@@ -3,25 +3,33 @@
   "year": 2026,
   "month": 7,
   "wfo": "GYX",
-  "total_candidate_reports": 51,
-  "mapped_candidate_reports": 51,
+  "total_candidate_reports": 228,
+  "mapped_candidate_reports": 228,
   "candidate_report_counts": {
-    "hail": 2,
+    "flooding": 2,
+    "hail": 18,
     "heat_cold": 24,
-    "marine": 1,
-    "thunderstorm_wind": 24
+    "marine": 9,
+    "other": 39,
+    "thunderstorm_wind": 135,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "EXTREME HEAT": 24,
-    "HAIL": 2,
-    "MARINE TSTM WIND": 1,
-    "TSTM WND DMG": 24
+    "FLOOD": 2,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 18,
+    "LIGHTNING": 1,
+    "MARINE TSTM WIND": 9,
+    "RAIN": 38,
+    "TSTM WND DMG": 131,
+    "TSTM WND GST": 4
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GYX&start=2026-07-01T00%3A00%3A00Z&end=2026-08-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

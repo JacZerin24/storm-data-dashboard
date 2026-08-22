@@ -6,7 +6,7 @@
     "wfo": "CTP",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-21T09:50:42Z",
+    "generated_utc": "2026-08-22T09:38:52Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "CTP",
-    "total_candidate_reports": 136,
-    "mapped_candidate_reports": 136,
+    "total_candidate_reports": 138,
+    "mapped_candidate_reports": 138,
     "candidate_report_counts": {
       "flooding": 57,
       "hail": 3,
       "other": 5,
-      "thunderstorm_wind": 71
+      "thunderstorm_wind": 71,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 51,
@@ -32,6 +33,7 @@
       "LANDSLIDE": 1,
       "LIGHTNING": 2,
       "RAIN": 2,
+      "TORNADO": 2,
       "TSTM WND DMG": 71
     },
     "nws_api_alert_count": 0,
@@ -39,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CTP&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CTP&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -2675,6 +2679,28 @@
     {
       "report_id": "iem-lsr-CTP-120",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202024",
+      "standard_time_display": "2026-08-20 15:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Wrightsville",
+      "county": "York",
+      "state": "PA",
+      "source": "NWS Storm Survey",
+      "remark": "*** 1 INJ *** An NWS Storm Survey confirmed an EF-2 tornado occurred in eastern York County_ PA with a path length of 1.07 miles and a path width of 100 yards. The most significant damage occurred at",
+      "lat": 40.0,
+      "lon": -76.55,
+      "ugc": "PAC133",
+      "ugc_name": "York",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-121",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202028",
       "standard_time_display": "2026-08-20 15:28 EST",
       "standard_time_zone": "EST",
@@ -2695,7 +2721,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-121",
+      "report_id": "iem-lsr-CTP-122",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202028",
       "standard_time_display": "2026-08-20 15:28 EST",
@@ -2717,7 +2743,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-122",
+      "report_id": "iem-lsr-CTP-123",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202030",
       "standard_time_display": "2026-08-20 15:30 EST",
@@ -2739,7 +2765,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-123",
+      "report_id": "iem-lsr-CTP-124",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608202030",
+      "standard_time_display": "2026-08-20 15:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "0 SW Columbia",
+      "county": "Lancaster",
+      "state": "PA",
+      "source": "NWS Storm Survey",
+      "remark": "An NWS Storm Survey confirmed an EF-1 tornado occurred in Columbia_ PA with a path length of 1.47 miles and a path width of 100 yards. The tornado exhibited anomalous motion from northwest to southea",
+      "lat": 40.03,
+      "lon": -76.5,
+      "ugc": "PAC071",
+      "ugc_name": "Lancaster",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CTP-125",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202033",
       "standard_time_display": "2026-08-20 15:33 EST",
@@ -2761,7 +2809,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-124",
+      "report_id": "iem-lsr-CTP-126",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202033",
       "standard_time_display": "2026-08-20 15:33 EST",
@@ -2783,7 +2831,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-125",
+      "report_id": "iem-lsr-CTP-127",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202038",
       "standard_time_display": "2026-08-20 15:38 EST",
@@ -2805,7 +2853,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-126",
+      "report_id": "iem-lsr-CTP-128",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202042",
       "standard_time_display": "2026-08-20 15:42 EST",
@@ -2827,7 +2875,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-127",
+      "report_id": "iem-lsr-CTP-129",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202053",
       "standard_time_display": "2026-08-20 15:53 EST",
@@ -2849,7 +2897,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-128",
+      "report_id": "iem-lsr-CTP-130",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202053",
       "standard_time_display": "2026-08-20 15:53 EST",
@@ -2871,7 +2919,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-129",
+      "report_id": "iem-lsr-CTP-131",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202057",
       "standard_time_display": "2026-08-20 15:57 EST",
@@ -2893,7 +2941,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-130",
+      "report_id": "iem-lsr-CTP-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202057",
       "standard_time_display": "2026-08-20 15:57 EST",
@@ -2915,7 +2963,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-131",
+      "report_id": "iem-lsr-CTP-133",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202100",
       "standard_time_display": "2026-08-20 16:00 EST",
@@ -2937,7 +2985,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-132",
+      "report_id": "iem-lsr-CTP-134",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202106",
       "standard_time_display": "2026-08-20 16:06 EST",
@@ -2959,7 +3007,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-133",
+      "report_id": "iem-lsr-CTP-135",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202106",
       "standard_time_display": "2026-08-20 16:06 EST",
@@ -2981,7 +3029,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-134",
+      "report_id": "iem-lsr-CTP-136",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202116",
       "standard_time_display": "2026-08-20 16:16 EST",
@@ -3003,7 +3051,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-135",
+      "report_id": "iem-lsr-CTP-137",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202121",
       "standard_time_display": "2026-08-20 16:21 EST",
@@ -3025,7 +3073,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CTP-136",
+      "report_id": "iem-lsr-CTP-138",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608202128",
       "standard_time_display": "2026-08-20 16:28 EST",
@@ -3053,7 +3101,7 @@
       "wfo": "CTP",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-21T09:50:43Z"
+      "generated_utc": "2026-08-22T09:38:52Z"
     },
     "primary_links": [
       {
