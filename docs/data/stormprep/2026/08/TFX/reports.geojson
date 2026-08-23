@@ -7,7 +7,7 @@
     "wfo": "TFX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-22T09:40:01Z",
+    "generated_utc": "2026-08-23T09:41:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -480,6 +480,58 @@
         "coordinates": [
           -110.17,
           47.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-19",
+      "properties": {
+        "report_id": "iem-lsr-TFX-19",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608222225",
+        "standard_time_display": "2026-08-22 15:25 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "21 SW Lima",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station HRKM8 Harkness RAWS at 6800ft. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.95,
+          44.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-20",
+      "properties": {
+        "report_id": "iem-lsr-TFX-20",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608230252",
+        "standard_time_display": "2026-08-22 19:52 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "2 N Clancy",
+        "state": "MT",
+        "magnitude": 0.47,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public measured 0.47 inches of rainfall over the past 3 hours and 32 mph wind gusts."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98,
+          46.5
         ]
       }
     }

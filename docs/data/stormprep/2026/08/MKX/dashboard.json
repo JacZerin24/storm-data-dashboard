@@ -6,7 +6,7 @@
     "wfo": "MKX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-22T09:39:32Z",
+    "generated_utc": "2026-08-23T09:40:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "MKX",
-    "total_candidate_reports": 169,
-    "mapped_candidate_reports": 169,
+    "total_candidate_reports": 170,
+    "mapped_candidate_reports": 170,
     "candidate_report_counts": {
       "flooding": 1,
       "hail": 12,
       "other": 130,
       "thunderstorm_wind": 20,
-      "tornado": 6
+      "tornado": 7
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
@@ -33,7 +33,8 @@
       "RAIN": 130,
       "TORNADO": 1,
       "TSTM WND DMG": 15,
-      "TSTM WND GST": 5
+      "TSTM WND GST": 5,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -3774,6 +3775,28 @@
       "ugc": "WIC025",
       "ugc_name": "Dane",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-170",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608222100",
+      "standard_time_display": "2026-08-22 15:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 ENE Howards Grove",
+      "county": "LMZ669",
+      "state": "WI",
+      "source": "Public",
+      "remark": "Relayed via the Sheboygan County Sheriffs Office. Viewed from I-43 between Sheboygan and Manitowoc.",
+      "lat": 43.89,
+      "lon": -87.64,
+      "ugc": "LMZ669",
+      "ugc_name": "Lake Michigan from Sheboygan to Port Washington WI 5NM offshore to Mid Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -3782,7 +3805,7 @@
       "wfo": "MKX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-22T09:39:32Z"
+      "generated_utc": "2026-08-23T09:40:41Z"
     },
     "primary_links": [
       {

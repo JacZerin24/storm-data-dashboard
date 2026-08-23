@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-22T09:39:18Z",
+    "generated_utc": "2026-08-23T09:40:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2724,6 +2724,32 @@
       "id": "iem-lsr-JAX-105",
       "properties": {
         "report_id": "iem-lsr-JAX-105",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202608212140",
+        "standard_time_display": "2026-08-21 16:40 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Jeff Davis",
+        "city": "1 ESE Hazlehurst",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "A funnel cloud was reported east of Hazlehurst heading toward Baxley_ GA. Time was estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.59,
+          31.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-106",
+      "properties": {
+        "report_id": "iem-lsr-JAX-106",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608212145",
@@ -2747,9 +2773,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-JAX-106",
+      "id": "iem-lsr-JAX-107",
       "properties": {
-        "report_id": "iem-lsr-JAX-106",
+        "report_id": "iem-lsr-JAX-107",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608212229",
@@ -2768,6 +2794,84 @@
         "coordinates": [
           -82.37,
           31.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-108",
+      "properties": {
+        "report_id": "iem-lsr-JAX-108",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608212230",
+        "standard_time_display": "2026-08-21 17:30 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Appling",
+        "city": "1 N Baxley",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Downed trees and powerlines were reported in Baxley_ GA along Penniman St. Time was estimated by radar and nearby measured 42 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.35,
+          31.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-109",
+      "properties": {
+        "report_id": "iem-lsr-JAX-109",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608221553",
+        "standard_time_display": "2026-08-22 10:53 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Marion",
+        "city": "2 E Ocala",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Ocala Fire Rescue reported a large tree crashed through the roof of a home along SE Eighth St_ compromising the residences structural integrity by breaking through trusses and damaging areas from the"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.09,
+          29.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-110",
+      "properties": {
+        "report_id": "iem-lsr-JAX-110",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608222138",
+        "standard_time_display": "2026-08-22 16:38 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Appling",
+        "city": "4 SSW Baxley",
+        "state": "GA",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "RAWS station BXYG1 Baxley measured a gust of 47 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.39,
+          31.71
         ]
       }
     }

@@ -7,7 +7,7 @@
     "wfo": "PAH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-22T09:39:41Z",
+    "generated_utc": "2026-08-23T09:40:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2430,6 +2430,58 @@
         "coordinates": [
           -88.65,
           36.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-94",
+      "properties": {
+        "report_id": "iem-lsr-PAH-94",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608220830",
+        "standard_time_display": "2026-08-22 02:30 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Jefferson",
+        "city": "8 WNW Dix",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "A few scattered power outages in this area. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.09,
+          38.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-95",
+      "properties": {
+        "report_id": "iem-lsr-PAH-95",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608222111",
+        "standard_time_display": "2026-08-22 15:11 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Muhlenberg",
+        "city": "3 SW Rosewood",
+        "state": "KY",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Half-inch (0.50 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.13,
+          37.05
         ]
       }
     }

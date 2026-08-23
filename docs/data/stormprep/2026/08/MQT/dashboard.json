@@ -6,7 +6,7 @@
     "wfo": "MQT",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-22T09:39:35Z",
+    "generated_utc": "2026-08-23T09:40:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "MQT",
-    "total_candidate_reports": 122,
-    "mapped_candidate_reports": 122,
+    "total_candidate_reports": 124,
+    "mapped_candidate_reports": 124,
     "candidate_report_counts": {
-      "hail": 1,
+      "hail": 2,
       "marine": 5,
-      "other": 111,
+      "other": 112,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
-      "HAIL": 1,
+      "HAIL": 2,
       "MARINE TSTM WIND": 5,
       "NON-TSTM WND GST": 1,
-      "RAIN": 111,
+      "RAIN": 112,
       "TSTM WND DMG": 1,
       "TSTM WND GST": 3
     },
@@ -2736,6 +2736,50 @@
       "ugc": "MIC109",
       "ugc_name": "Menominee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-123",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608211645",
+      "standard_time_display": "2026-08-21 10:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.28,
+      "magnitude_qualifier": null,
+      "city": "Baraga",
+      "county": "Baraga",
+      "state": "MI",
+      "source": "Mesonet",
+      "remark": "Mesonet station DW8215 Baraga MI APRSWXNET/CWOP.",
+      "lat": 46.78,
+      "lon": -88.49,
+      "ugc": "MIC013",
+      "ugc_name": "Baraga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MQT-124",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608222141",
+      "standard_time_display": "2026-08-22 15:41 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MQT",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Daggett",
+      "county": "Menominee",
+      "state": "MI",
+      "source": "Public",
+      "remark": null,
+      "lat": 45.46,
+      "lon": -87.61,
+      "ugc": "MIC109",
+      "ugc_name": "Menominee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2744,7 +2788,7 @@
       "wfo": "MQT",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-22T09:39:35Z"
+      "generated_utc": "2026-08-23T09:40:44Z"
     },
     "primary_links": [
       {
