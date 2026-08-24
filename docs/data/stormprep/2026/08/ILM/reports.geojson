@@ -7,7 +7,7 @@
     "wfo": "ILM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:40:20Z",
+    "generated_utc": "2026-08-24T10:01:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -748,6 +748,32 @@
       "id": "iem-lsr-ILM-29",
       "properties": {
         "report_id": "iem-lsr-ILM-29",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608212110",
+        "standard_time_display": "2026-08-21 16:10 EST",
+        "wfo": "ILM",
+        "county_or_zone": "New Hanover",
+        "city": "1 N Bayshore",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Tree down on home along Old Market St. Time estimated by radar and time of report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.79,
+          34.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-30",
+      "properties": {
+        "report_id": "iem-lsr-ILM-30",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202608212112",
@@ -771,9 +797,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ILM-30",
+      "id": "iem-lsr-ILM-31",
       "properties": {
-        "report_id": "iem-lsr-ILM-30",
+        "report_id": "iem-lsr-ILM-31",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608212120",
@@ -797,9 +823,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ILM-31",
+      "id": "iem-lsr-ILM-32",
       "properties": {
-        "report_id": "iem-lsr-ILM-31",
+        "report_id": "iem-lsr-ILM-32",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608212130",
@@ -823,9 +849,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ILM-32",
+      "id": "iem-lsr-ILM-33",
       "properties": {
-        "report_id": "iem-lsr-ILM-32",
+        "report_id": "iem-lsr-ILM-33",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202608212145",
@@ -849,9 +875,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ILM-33",
+      "id": "iem-lsr-ILM-34",
       "properties": {
-        "report_id": "iem-lsr-ILM-33",
+        "report_id": "iem-lsr-ILM-34",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202608220430",
@@ -875,9 +901,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-ILM-34",
+      "id": "iem-lsr-ILM-35",
       "properties": {
-        "report_id": "iem-lsr-ILM-34",
+        "report_id": "iem-lsr-ILM-35",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608222250",
@@ -896,6 +922,58 @@
         "coordinates": [
           -78.96,
           33.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-36",
+      "properties": {
+        "report_id": "iem-lsr-ILM-36",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608231945",
+        "standard_time_display": "2026-08-23 14:45 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Georgetown",
+        "city": "1 W Litchfield Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Tree down entangled in utility wires at the intersection of Hawthorn Drive and Old Cedar Loop. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.12,
+          33.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILM-37",
+      "properties": {
+        "report_id": "iem-lsr-ILM-37",
+        "report_type": "LIGHTNING",
+        "event_category": "other",
+        "valid_utc": "202608232015",
+        "standard_time_display": "2026-08-23 15:15 EST",
+        "wfo": "ILM",
+        "county_or_zone": "Georgetown",
+        "city": "1 NE Pawley's Island",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Lightning strike caused a residential structure fire on Pawleys Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.12,
+          33.44
         ]
       }
     }

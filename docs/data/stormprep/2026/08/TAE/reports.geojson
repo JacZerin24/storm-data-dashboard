@@ -7,7 +7,7 @@
     "wfo": "TAE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:41:10Z",
+    "generated_utc": "2026-08-24T10:02:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -5654,6 +5654,84 @@
         "coordinates": [
           -83.84,
           31.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-218",
+      "properties": {
+        "report_id": "iem-lsr-TAE-218",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608232335",
+        "standard_time_display": "2026-08-23 18:35 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Wakulla",
+        "city": "2 W Wakulla",
+        "state": "FL",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "mPING Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.26,
+          30.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-219",
+      "properties": {
+        "report_id": "iem-lsr-TAE-219",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608240005",
+        "standard_time_display": "2026-08-23 19:05 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Wakulla",
+        "city": "4 SSE Port Leon",
+        "state": "FL",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "FSWN Wakulla St. Marks Lighthouse."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.18,
+          30.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-220",
+      "properties": {
+        "report_id": "iem-lsr-TAE-220",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608240005",
+        "standard_time_display": "2026-08-23 19:05 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Wakulla",
+        "city": "4 SSE Port Leon",
+        "state": "FL",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from 4 SSE Port Leon. FSWN Wakulla St. Marks Lighthouse."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.18,
+          30.07
         ]
       }
     }

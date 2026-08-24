@@ -6,7 +6,7 @@
     "wfo": "ILM",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:40:20Z",
+    "generated_utc": "2026-08-24T10:01:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 8,
     "wfo": "ILM",
-    "total_candidate_reports": 34,
-    "mapped_candidate_reports": 34,
+    "total_candidate_reports": 37,
+    "mapped_candidate_reports": 37,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 2,
       "marine": 3,
-      "thunderstorm_wind": 25,
+      "other": 1,
+      "thunderstorm_wind": 27,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 3,
       "HAIL": 2,
+      "LIGHTNING": 1,
       "MARINE TSTM WIND": 3,
-      "TSTM WND DMG": 22,
+      "TSTM WND DMG": 24,
       "TSTM WND GST": 3,
       "WATERSPOUT": 1
     },
@@ -675,6 +677,28 @@
     {
       "report_id": "iem-lsr-ILM-29",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608212110",
+      "standard_time_display": "2026-08-21 16:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Bayshore",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Tree down on home along Old Market St. Time estimated by radar and time of report.",
+      "lat": 34.3,
+      "lon": -77.79,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-30",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212112",
       "standard_time_display": "2026-08-21 16:12 EST",
       "standard_time_zone": "EST",
@@ -695,7 +719,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILM-30",
+      "report_id": "iem-lsr-ILM-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212120",
       "standard_time_display": "2026-08-21 16:20 EST",
@@ -717,7 +741,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILM-31",
+      "report_id": "iem-lsr-ILM-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212130",
       "standard_time_display": "2026-08-21 16:30 EST",
@@ -739,7 +763,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILM-32",
+      "report_id": "iem-lsr-ILM-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212145",
       "standard_time_display": "2026-08-21 16:45 EST",
@@ -761,7 +785,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILM-33",
+      "report_id": "iem-lsr-ILM-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608220430",
       "standard_time_display": "2026-08-21 23:30 EST",
@@ -783,7 +807,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ILM-34",
+      "report_id": "iem-lsr-ILM-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608222250",
       "standard_time_display": "2026-08-22 17:50 EST",
@@ -803,6 +827,50 @@
       "ugc": "SCC051",
       "ugc_name": "Horry",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608231945",
+      "standard_time_display": "2026-08-23 14:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Litchfield Beach",
+      "county": "Georgetown",
+      "state": "SC",
+      "source": "Emergency Manager",
+      "remark": "Tree down entangled in utility wires at the intersection of Hawthorn Drive and Old Cedar Loop. Time estimated via radar.",
+      "lat": 33.47,
+      "lon": -79.12,
+      "ugc": "SCC043",
+      "ugc_name": "Georgetown",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-37",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608232015",
+      "standard_time_display": "2026-08-23 15:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Pawley's Island",
+      "county": "Georgetown",
+      "state": "SC",
+      "source": "Emergency Manager",
+      "remark": "Lightning strike caused a residential structure fire on Pawleys Island.",
+      "lat": 33.44,
+      "lon": -79.12,
+      "ugc": "SCC043",
+      "ugc_name": "Georgetown",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -811,7 +879,7 @@
       "wfo": "ILM",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-23T09:40:21Z"
+      "generated_utc": "2026-08-24T10:01:33Z"
     },
     "primary_links": [
       {

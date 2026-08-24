@@ -6,7 +6,7 @@
     "wfo": "OTX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:40:49Z",
+    "generated_utc": "2026-08-24T10:02:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "OTX",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
+      "hail": 1,
       "other": 2
     },
     "candidate_report_type_counts": {
-      "DEBRIS FLOW": 2
+      "DEBRIS FLOW": 2,
+      "HAIL": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -88,6 +90,28 @@
       "ugc": "WAC007",
       "ugc_name": "Chelan",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OTX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608230642",
+      "standard_time_display": "2026-08-22 22:42 PST",
+      "standard_time_zone": "PST",
+      "wfo": "OTX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "3 S Addy",
+      "county": "Stevens",
+      "state": "WA",
+      "source": "Public",
+      "remark": "Photo from Facebook of hail next to a nickel.",
+      "lat": 48.32,
+      "lon": -117.82,
+      "ugc": "WAC065",
+      "ugc_name": "Stevens",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OTX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +120,7 @@
       "wfo": "OTX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-23T09:40:50Z"
+      "generated_utc": "2026-08-24T10:02:06Z"
     },
     "primary_links": [
       {

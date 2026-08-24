@@ -6,7 +6,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:40:07Z",
+    "generated_utc": "2026-08-24T10:01:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 8,
     "wfo": "FGZ",
-    "total_candidate_reports": 48,
-    "mapped_candidate_reports": 48,
+    "total_candidate_reports": 49,
+    "mapped_candidate_reports": 49,
     "candidate_report_counts": {
       "flooding": 27,
       "hail": 12,
-      "other": 1,
+      "other": 2,
       "thunderstorm_wind": 8
     },
     "candidate_report_type_counts": {
@@ -31,6 +31,7 @@
       "HAIL": 12,
       "LANDSPOUT": 1,
       "NON-TSTM WND GST": 1,
+      "RAIN": 1,
       "TSTM WND DMG": 1,
       "TSTM WND GST": 6
     },
@@ -1109,6 +1110,28 @@
       "ugc": "AZC005",
       "ugc_name": "Coconino",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FGZ-49",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608231929",
+      "standard_time_display": "2026-08-23 12:29 MST",
+      "standard_time_zone": "MST",
+      "wfo": "FGZ",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "3 S Prescott Valley",
+      "county": "Yavapai",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "1.5 inches of rain in less than one hour. Some street flooding with rocks washed onto roadways_ but roads were not impassable. In addition_ small hail was observed.",
+      "lat": 34.56,
+      "lon": -112.34,
+      "ugc": "AZC025",
+      "ugc_name": "Yavapai",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1117,7 +1140,7 @@
       "wfo": "FGZ",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-23T09:40:07Z"
+      "generated_utc": "2026-08-24T10:01:18Z"
     },
     "primary_links": [
       {

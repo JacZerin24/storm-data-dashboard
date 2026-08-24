@@ -6,7 +6,7 @@
     "wfo": "RIW",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-23T09:41:01Z",
+    "generated_utc": "2026-08-24T10:02:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 8,
     "wfo": "RIW",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 7
+      "TSTM WND GST": 10
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -221,6 +221,72 @@
       "ugc": "WYC019",
       "ugc_name": "Johnson",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240034",
+      "standard_time_display": "2026-08-23 17:34 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "5 NW Riverton",
+      "county": "Fremont",
+      "state": "WY",
+      "source": "ASOS",
+      "remark": "ASOS station KRIW Riverton Airport (ASOS). Winds were generated in the wake of an outflow boundary.",
+      "lat": 43.07,
+      "lon": -108.47,
+      "ugc": "WYC013",
+      "ugc_name": "Fremont",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240050",
+      "standard_time_display": "2026-08-23 17:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "19 ESE Riverton",
+      "county": "Fremont",
+      "state": "WY",
+      "source": "Mesonet",
+      "remark": "Mesonet station PC633 Poston Ranch Rd (PC). Wind gust due to an outflow boundary.",
+      "lat": 42.91,
+      "lon": -108.03,
+      "ugc": "WYC013",
+      "ugc_name": "Fremont",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240335",
+      "standard_time_display": "2026-08-23 20:35 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 55.0,
+      "magnitude_qualifier": null,
+      "city": "2 NW Greybull",
+      "county": "Big Horn",
+      "state": "WY",
+      "source": "ASOS",
+      "remark": "ASOS station KGEY Greybull Airport (ASOS). Wind gust likely caused by an outflow boundary.",
+      "lat": 44.52,
+      "lon": -108.08,
+      "ugc": "WYC003",
+      "ugc_name": "Big Horn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -229,7 +295,7 @@
       "wfo": "RIW",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-23T09:41:01Z"
+      "generated_utc": "2026-08-24T10:02:19Z"
     },
     "primary_links": [
       {
