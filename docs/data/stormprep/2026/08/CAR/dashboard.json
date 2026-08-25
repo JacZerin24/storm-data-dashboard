@@ -6,7 +6,7 @@
     "wfo": "CAR",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-24T10:01:02Z",
+    "generated_utc": "2026-08-25T09:49:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "CAR",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
     "candidate_report_counts": {
       "hail": 3,
       "other": 1,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
       "HAIL": 3,
       "LIGHTNING": 1,
-      "TSTM WND DMG": 4
+      "TSTM WND DMG": 6
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -224,6 +224,50 @@
       "ugc": "MEC019",
       "ugc_name": "Penobscot",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608242340",
+      "standard_time_display": "2026-08-24 18:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Atkinson",
+      "county": "Piscataquis",
+      "state": "ME",
+      "source": "911 Call Center",
+      "remark": "Tree reported down. Time estimated from radar.",
+      "lat": 45.18,
+      "lon": -69.12,
+      "ugc": "MEC021",
+      "ugc_name": "Piscataquis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CAR-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608242355",
+      "standard_time_display": "2026-08-24 18:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CAR",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Milo",
+      "county": "Piscataquis",
+      "state": "ME",
+      "source": "911 Call Center",
+      "remark": "Large tree reported down on West Main Street.",
+      "lat": 45.25,
+      "lon": -69.0,
+      "ugc": "MEC021",
+      "ugc_name": "Piscataquis",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CAR&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -232,7 +276,7 @@
       "wfo": "CAR",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-24T10:01:02Z"
+      "generated_utc": "2026-08-25T09:49:31Z"
     },
     "primary_links": [
       {

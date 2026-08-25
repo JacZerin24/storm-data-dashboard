@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-24T10:02:32Z",
+    "generated_utc": "2026-08-25T09:50:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 8,
     "wfo": "TWC",
-    "total_candidate_reports": 200,
-    "mapped_candidate_reports": 200,
+    "total_candidate_reports": 208,
+    "mapped_candidate_reports": 208,
     "candidate_report_counts": {
       "flooding": 62,
       "hail": 18,
-      "other": 17,
-      "thunderstorm_wind": 100,
+      "heat_cold": 1,
+      "other": 19,
+      "thunderstorm_wind": 105,
       "tornado": 3
     },
     "candidate_report_type_counts": {
-      "DUST STORM": 3,
+      "DUST STORM": 5,
+      "EXTREME HEAT": 1,
       "FLASH FLOOD": 62,
       "FUNNEL CLOUD": 3,
       "HAIL": 18,
@@ -35,8 +37,8 @@
       "LIGHTNING": 2,
       "NON-TSTM WND GST": 1,
       "RAIN": 11,
-      "TSTM WND DMG": 53,
-      "TSTM WND GST": 46
+      "TSTM WND DMG": 57,
+      "TSTM WND GST": 47
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -3869,6 +3871,28 @@
     {
       "report_id": "iem-lsr-TWC-174",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608200105",
+      "standard_time_display": "2026-08-19 18:05 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Delayed report. Tree down intersection of E Speedway and N Arcadia. Time estimated based on radar.",
+      "lat": 32.24,
+      "lon": -110.89,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-175",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200129",
       "standard_time_display": "2026-08-19 18:29 MST",
       "standard_time_zone": "MST",
@@ -3889,7 +3913,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-175",
+      "report_id": "iem-lsr-TWC-176",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200134",
       "standard_time_display": "2026-08-19 18:34 MST",
@@ -3911,7 +3935,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-176",
+      "report_id": "iem-lsr-TWC-177",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200137",
       "standard_time_display": "2026-08-19 18:37 MST",
@@ -3933,7 +3957,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-177",
+      "report_id": "iem-lsr-TWC-178",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200140",
       "standard_time_display": "2026-08-19 18:40 MST",
@@ -3955,7 +3979,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-178",
+      "report_id": "iem-lsr-TWC-179",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200140",
       "standard_time_display": "2026-08-19 18:40 MST",
@@ -3977,7 +4001,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-179",
+      "report_id": "iem-lsr-TWC-180",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200141",
       "standard_time_display": "2026-08-19 18:41 MST",
@@ -3999,7 +4023,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-180",
+      "report_id": "iem-lsr-TWC-181",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200145",
       "standard_time_display": "2026-08-19 18:45 MST",
@@ -4021,7 +4045,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-181",
+      "report_id": "iem-lsr-TWC-182",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200148",
       "standard_time_display": "2026-08-19 18:48 MST",
@@ -4043,7 +4067,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-182",
+      "report_id": "iem-lsr-TWC-183",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200149",
       "standard_time_display": "2026-08-19 18:49 MST",
@@ -4065,7 +4089,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-183",
+      "report_id": "iem-lsr-TWC-184",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200149",
       "standard_time_display": "2026-08-19 18:49 MST",
@@ -4087,7 +4111,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-184",
+      "report_id": "iem-lsr-TWC-185",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200153",
       "standard_time_display": "2026-08-19 18:53 MST",
@@ -4109,7 +4133,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-185",
+      "report_id": "iem-lsr-TWC-186",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200155",
       "standard_time_display": "2026-08-19 18:55 MST",
@@ -4131,7 +4155,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-186",
+      "report_id": "iem-lsr-TWC-187",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200200",
       "standard_time_display": "2026-08-19 19:00 MST",
@@ -4153,7 +4177,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-187",
+      "report_id": "iem-lsr-TWC-188",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200202",
       "standard_time_display": "2026-08-19 19:02 MST",
@@ -4175,7 +4199,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-188",
+      "report_id": "iem-lsr-TWC-189",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200202",
       "standard_time_display": "2026-08-19 19:02 MST",
@@ -4197,7 +4221,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-189",
+      "report_id": "iem-lsr-TWC-190",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200215",
       "standard_time_display": "2026-08-19 19:15 MST",
@@ -4219,7 +4243,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-190",
+      "report_id": "iem-lsr-TWC-191",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200226",
       "standard_time_display": "2026-08-19 19:26 MST",
@@ -4241,7 +4265,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-191",
+      "report_id": "iem-lsr-TWC-192",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200233",
       "standard_time_display": "2026-08-19 19:33 MST",
@@ -4263,7 +4287,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-192",
+      "report_id": "iem-lsr-TWC-193",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200247",
       "standard_time_display": "2026-08-19 19:47 MST",
@@ -4285,7 +4309,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-193",
+      "report_id": "iem-lsr-TWC-194",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608200515",
       "standard_time_display": "2026-08-19 22:15 MST",
@@ -4307,7 +4331,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-194",
+      "report_id": "iem-lsr-TWC-195",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212223",
       "standard_time_display": "2026-08-21 15:23 MST",
@@ -4329,7 +4353,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-195",
+      "report_id": "iem-lsr-TWC-196",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212226",
       "standard_time_display": "2026-08-21 15:26 MST",
@@ -4351,7 +4375,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-196",
+      "report_id": "iem-lsr-TWC-197",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212253",
       "standard_time_display": "2026-08-21 15:53 MST",
@@ -4373,7 +4397,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-197",
+      "report_id": "iem-lsr-TWC-198",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608231905",
+      "standard_time_display": "2026-08-23 12:05 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "EXTREME HEAT",
+      "event_category": "heat_cold",
+      "magnitude": 104.0,
+      "magnitude_qualifier": null,
+      "city": "8 S Summerhaven",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "911 Call Center",
+      "remark": "14 individuals in total rescued due to heat related illness while hiking. 1 of those individuals was medical evacuated via helicopter. Temperature estimated from Saguaro RAWS (QSGA332.31/-110.82 @ 27",
+      "lat": 32.32,
+      "lon": -110.78,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-199",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608232340",
+      "standard_time_display": "2026-08-23 16:40 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 NNW Rio Rico",
+      "county": "Santa Cruz",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Social media shows a large Palo Verde tree uprooted.",
+      "lat": 31.61,
+      "lon": -111.05,
+      "ugc": "AZC023",
+      "ugc_name": "Santa Cruz",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-200",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608232358",
       "standard_time_display": "2026-08-23 16:58 MST",
@@ -4395,7 +4463,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-198",
+      "report_id": "iem-lsr-TWC-201",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608240003",
       "standard_time_display": "2026-08-23 17:03 MST",
@@ -4417,7 +4485,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-199",
+      "report_id": "iem-lsr-TWC-202",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240020",
+      "standard_time_display": "2026-08-23 17:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Social media shows portion of roof peeled off the Dollar Tree. Some of the material was in the parking lot. Time estimated based on radar.",
+      "lat": 32.25,
+      "lon": -110.91,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-203",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240020",
+      "standard_time_display": "2026-08-23 17:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Tree in roadway. Time estimated based on radar.",
+      "lat": 32.25,
+      "lon": -110.92,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-204",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240215",
+      "standard_time_display": "2026-08-23 19:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "16 ESE Eloy",
+      "county": "Pinal",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Gust to 58 mph.",
+      "lat": 32.68,
+      "lon": -111.29,
+      "ugc": "AZC021",
+      "ugc_name": "Pinal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-205",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608240248",
       "standard_time_display": "2026-08-23 19:48 MST",
@@ -4439,7 +4573,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TWC-200",
+      "report_id": "iem-lsr-TWC-206",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240255",
+      "standard_time_display": "2026-08-23 19:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 N Santa Rosa",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Storm Chaser",
+      "remark": "Dust storm with visibility less than 10 yards. Winds appear to be in excess of 50 mph.",
+      "lat": 32.44,
+      "lon": -112.02,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-207",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608240300",
+      "standard_time_display": "2026-08-23 20:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Eloy",
+      "county": "Pinal",
+      "state": "AZ",
+      "source": "Storm Chaser",
+      "remark": "Dust storm. Visibility les than 10 yards.",
+      "lat": 32.75,
+      "lon": -111.55,
+      "ugc": "AZC021",
+      "ugc_name": "Pinal",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-208",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608240615",
       "standard_time_display": "2026-08-23 23:15 MST",
@@ -4467,7 +4645,7 @@
       "wfo": "TWC",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-24T10:02:33Z"
+      "generated_utc": "2026-08-25T09:50:50Z"
     },
     "primary_links": [
       {

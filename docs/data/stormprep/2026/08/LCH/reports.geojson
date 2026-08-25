@@ -7,7 +7,7 @@
     "wfo": "LCH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-24T10:01:43Z",
+    "generated_utc": "2026-08-25T09:50:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -592,6 +592,32 @@
       "id": "iem-lsr-LCH-23",
       "properties": {
         "report_id": "iem-lsr-LCH-23",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608222132",
+        "standard_time_display": "2026-08-22 15:32 CST",
+        "wfo": "LCH",
+        "county_or_zone": "Jasper",
+        "city": "6 NNW Buna",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "After further review and talking to eye witnesses_ this was determined to be a large dust devil with winds estimated to be between 60-70 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.02,
+          30.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LCH-24",
+      "properties": {
+        "report_id": "iem-lsr-LCH-24",
         "report_type": "LANDSPOUT",
         "event_category": "other",
         "valid_utc": "202608222132",
@@ -610,6 +636,32 @@
         "coordinates": [
           -94.02,
           30.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LCH-25",
+      "properties": {
+        "report_id": "iem-lsr-LCH-25",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608242013",
+        "standard_time_display": "2026-08-24 14:13 CST",
+        "wfo": "LCH",
+        "county_or_zone": "Lafayette",
+        "city": "2 ESE Lafayette",
+        "state": "LA",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KLFT Lafayette."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0,
+          30.2
         ]
       }
     }

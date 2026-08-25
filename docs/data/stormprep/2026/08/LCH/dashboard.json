@@ -6,7 +6,7 @@
     "wfo": "LCH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-24T10:01:43Z",
+    "generated_utc": "2026-08-25T09:50:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "LCH",
-    "total_candidate_reports": 23,
-    "mapped_candidate_reports": 23,
+    "total_candidate_reports": 25,
+    "mapped_candidate_reports": 25,
     "candidate_report_counts": {
       "other": 3,
-      "thunderstorm_wind": 20
+      "thunderstorm_wind": 22
     },
     "candidate_report_type_counts": {
       "LANDSPOUT": 3,
+      "NON-TSTM WND DMG": 1,
       "TSTM WND DMG": 16,
-      "TSTM WND GST": 4
+      "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -539,6 +540,28 @@
       "standard_time_display": "2026-08-22 15:32 CST",
       "standard_time_zone": "CST",
       "wfo": "LCH",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NNW Buna",
+      "county": "Jasper",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "After further review and talking to eye witnesses_ this was determined to be a large dust devil with winds estimated to be between 60-70 mph.",
+      "lat": 30.52,
+      "lon": -94.02,
+      "ugc": "TXC241",
+      "ugc_name": "Jasper",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608222132",
+      "standard_time_display": "2026-08-22 15:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
       "report_type": "LANDSPOUT",
       "event_category": "other",
       "magnitude": null,
@@ -553,6 +576,28 @@
       "ugc": "TXC241",
       "ugc_name": "Jasper",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608242013",
+      "standard_time_display": "2026-08-24 14:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Lafayette",
+      "county": "Lafayette",
+      "state": "LA",
+      "source": "ASOS",
+      "remark": "ASOS station KLFT Lafayette.",
+      "lat": 30.2,
+      "lon": -92.0,
+      "ugc": "LAC055",
+      "ugc_name": "Lafayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -561,7 +606,7 @@
       "wfo": "LCH",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-24T10:01:43Z"
+      "generated_utc": "2026-08-25T09:50:06Z"
     },
     "primary_links": [
       {
