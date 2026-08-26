@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-25T09:49:15Z",
+    "generated_utc": "2026-08-26T09:54:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 8,
     "wfo": "ABQ",
-    "total_candidate_reports": 46,
-    "mapped_candidate_reports": 46,
+    "total_candidate_reports": 48,
+    "mapped_candidate_reports": 48,
     "candidate_report_counts": {
       "flooding": 15,
       "hail": 11,
       "other": 1,
-      "thunderstorm_wind": 19
+      "thunderstorm_wind": 21
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 1,
       "FLASH FLOOD": 15,
       "HAIL": 11,
-      "NON-TSTM WND GST": 5,
+      "NON-TSTM WND GST": 6,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 13
+      "TSTM WND GST": 14
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1064,6 +1064,50 @@
       "ugc": "NMC001",
       "ugc_name": "Bernalillo",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608252137",
+      "standard_time_display": "2026-08-25 14:37 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 84.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Clayton",
+      "county": "Union",
+      "state": "NM",
+      "source": "ASOS",
+      "remark": "ASOS station KCAO Clayton Muni Airpark.",
+      "lat": 36.45,
+      "lon": -103.15,
+      "ugc": "NMC059",
+      "ugc_name": "Union",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608252350",
+      "standard_time_display": "2026-08-25 16:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Fort Sumner",
+      "county": "De Baca",
+      "state": "NM",
+      "source": "Mesonet",
+      "remark": "Mesonet site East Fort Sumner.",
+      "lat": 34.47,
+      "lon": -104.21,
+      "ugc": "NMC011",
+      "ugc_name": "De Baca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1072,7 +1116,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-25T09:49:15Z"
+      "generated_utc": "2026-08-26T09:54:31Z"
     },
     "primary_links": [
       {
