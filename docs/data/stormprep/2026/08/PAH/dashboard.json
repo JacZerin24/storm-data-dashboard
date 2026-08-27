@@ -6,7 +6,7 @@
     "wfo": "PAH",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-26T09:55:38Z",
+    "generated_utc": "2026-08-27T19:50:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,11 +17,12 @@
     "year": 2026,
     "month": 8,
     "wfo": "PAH",
-    "total_candidate_reports": 96,
-    "mapped_candidate_reports": 96,
+    "total_candidate_reports": 97,
+    "mapped_candidate_reports": 97,
     "candidate_report_counts": {
       "flooding": 8,
       "hail": 4,
+      "other": 1,
       "thunderstorm_wind": 79,
       "tornado": 5
     },
@@ -30,6 +31,7 @@
       "FLOOD": 1,
       "FUNNEL CLOUD": 1,
       "HAIL": 4,
+      "RAIN": 1,
       "TORNADO": 4,
       "TSTM WND DMG": 70,
       "TSTM WND GST": 9
@@ -2167,6 +2169,28 @@
       "ugc": "KYC177",
       "ugc_name": "Muhlenberg",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PAH-97",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608261128",
+      "standard_time_display": "2026-08-26 05:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "PAH",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "3 NNW McBride",
+      "county": "Perry",
+      "state": "MO",
+      "source": "Public",
+      "remark": "1 inch of rain measured from the Perryville Regional Airport. Radar used to estimate time.",
+      "lat": 37.87,
+      "lon": -89.86,
+      "ugc": "MOC157",
+      "ugc_name": "Perry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2175,7 +2199,7 @@
       "wfo": "PAH",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-26T09:55:39Z"
+      "generated_utc": "2026-08-27T19:50:31Z"
     },
     "primary_links": [
       {

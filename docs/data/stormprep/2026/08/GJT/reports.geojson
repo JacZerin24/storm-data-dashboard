@@ -7,7 +7,7 @@
     "wfo": "GJT",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-26T09:55:02Z",
+    "generated_utc": "2026-08-27T19:49:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -3262,6 +3262,84 @@
         "coordinates": [
           -107.84,
           37.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GJT-126",
+      "properties": {
+        "report_id": "iem-lsr-GJT-126",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608262207",
+        "standard_time_display": "2026-08-26 15:07 MST",
+        "wfo": "GJT",
+        "county_or_zone": "La Plata",
+        "city": "3 WSW Oxford",
+        "state": "CO",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KDRO Durango La Plata Cnty Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.77,
+          37.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GJT-127",
+      "properties": {
+        "report_id": "iem-lsr-GJT-127",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608262300",
+        "standard_time_display": "2026-08-26 16:00 MST",
+        "wfo": "GJT",
+        "county_or_zone": "Uintah",
+        "city": "13 NE Maeser",
+        "state": "UT",
+        "magnitude": 50.84,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.49,
+          40.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GJT-128",
+      "properties": {
+        "report_id": "iem-lsr-GJT-128",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608271400",
+        "standard_time_display": "2026-08-27 07:00 MST",
+        "wfo": "GJT",
+        "county_or_zone": "Montezuma",
+        "city": "5 E Stoner",
+        "state": "CO",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.22,
+          37.58
         ]
       }
     }
