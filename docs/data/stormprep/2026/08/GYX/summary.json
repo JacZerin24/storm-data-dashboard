@@ -3,22 +3,24 @@
   "year": 2026,
   "month": 8,
   "wfo": "GYX",
-  "total_candidate_reports": 129,
-  "mapped_candidate_reports": 129,
+  "total_candidate_reports": 132,
+  "mapped_candidate_reports": 132,
   "candidate_report_counts": {
     "flooding": 4,
     "hail": 3,
     "marine": 1,
     "other": 103,
-    "thunderstorm_wind": 18
+    "thunderstorm_wind": 20,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLOOD": 4,
+    "FUNNEL CLOUD": 1,
     "HAIL": 2,
     "MARINE HAIL": 1,
     "MARINE TSTM WIND": 1,
     "RAIN": 103,
-    "TSTM WND DMG": 16,
+    "TSTM WND DMG": 18,
     "TSTM WND GST": 2
   },
   "nws_api_alert_count": 0,
@@ -26,6 +28,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GYX&start=2026-08-01T00%3A00%3A00Z&end=2026-09-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

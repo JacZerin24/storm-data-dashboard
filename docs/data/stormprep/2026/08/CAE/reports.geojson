@@ -7,7 +7,7 @@
     "wfo": "CAE",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-27T19:49:33Z",
+    "generated_utc": "2026-08-28T20:49:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -3626,6 +3626,58 @@
         "coordinates": [
           -82.19,
           33.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-140",
+      "properties": {
+        "report_id": "iem-lsr-CAE-140",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608280213",
+        "standard_time_display": "2026-08-27 21:13 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Lancaster",
+        "city": "3 S Indian Land",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Lancaster county reported several flooded roads in the panhandle along 521."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.85,
+          34.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-141",
+      "properties": {
+        "report_id": "iem-lsr-CAE-141",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608280252",
+        "standard_time_display": "2026-08-27 21:52 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Lancaster",
+        "city": "5 SSE Indian Land",
+        "state": "SC",
+        "magnitude": 4.68,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Numerous home weather stations reported between 4-4.75 inches in Sun City_ Belair_ and Carolina Reserve subdivisions in roughly 90 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83,
+          34.94
         ]
       }
     }

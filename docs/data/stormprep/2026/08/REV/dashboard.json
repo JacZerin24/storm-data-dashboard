@@ -6,7 +6,7 @@
     "wfo": "REV",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-27T19:50:40Z",
+    "generated_utc": "2026-08-28T20:50:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "REV",
-    "total_candidate_reports": 50,
-    "mapped_candidate_reports": 50,
+    "total_candidate_reports": 51,
+    "mapped_candidate_reports": 51,
     "candidate_report_counts": {
       "flooding": 9,
       "hail": 6,
-      "other": 26,
+      "other": 27,
       "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 2,
+      "DUST STORM": 1,
       "FLASH FLOOD": 6,
       "FLOOD": 3,
       "HAIL": 6,
@@ -1153,6 +1154,28 @@
       "ugc": "NVC031",
       "ugc_name": "Washoe",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=REV&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-REV-51",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608280040",
+      "standard_time_display": "2026-08-27 16:40 PST",
+      "standard_time_zone": "PST",
+      "wfo": "REV",
+      "report_type": "DUST STORM",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 SSW Lovelock",
+      "county": "Pershing",
+      "state": "NV",
+      "source": "ASOS",
+      "remark": "Lovelock ASOS (KLOL) reported visibility as low as one-half mile within a dust channel. Visibility remained below 3 miles for 1 hour and 35 minutes_ from 5:40 PM to 7:15 PM. Nearby cameras confirmed",
+      "lat": 40.07,
+      "lon": -118.57,
+      "ugc": "NVC027",
+      "ugc_name": "Pershing",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=REV&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1161,7 +1184,7 @@
       "wfo": "REV",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-27T19:50:40Z"
+      "generated_utc": "2026-08-28T20:50:49Z"
     },
     "primary_links": [
       {

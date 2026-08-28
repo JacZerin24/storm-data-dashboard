@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-27T19:50:03Z",
+    "generated_utc": "2026-08-28T20:50:15Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "JAX",
-    "total_candidate_reports": 126,
-    "mapped_candidate_reports": 126,
+    "total_candidate_reports": 128,
+    "mapped_candidate_reports": 128,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 4,
       "marine": 4,
-      "other": 23,
+      "other": 24,
       "thunderstorm_wind": 91,
-      "tornado": 2
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
@@ -34,9 +34,10 @@
       "LIGHTNING": 5,
       "MARINE TSTM WIND": 4,
       "NON-TSTM WND GST": 1,
-      "RAIN": 18,
+      "RAIN": 19,
       "TSTM WND DMG": 52,
-      "TSTM WND GST": 38
+      "TSTM WND GST": 38,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2831,6 +2832,50 @@
       "ugc": "FLC125",
       "ugc_name": "Union",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-127",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608281715",
+      "standard_time_display": "2026-08-28 12:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE South Ponte Vedra",
+      "county": "AMZ452",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Waterspout developed offshore near Vilano Beach.",
+      "lat": 29.99,
+      "lon": -81.29,
+      "ugc": "AMZ452",
+      "ugc_name": "Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-128",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608281909",
+      "standard_time_display": "2026-08-28 14:09 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 4.02,
+      "magnitude_qualifier": null,
+      "city": "1 SW Saint Simons",
+      "county": "Glynn",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Weather station KGASAINT68 reported 4.02 inches of rainfall over the past few hours.",
+      "lat": 31.17,
+      "lon": -81.39,
+      "ugc": "GAC127",
+      "ugc_name": "Glynn",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2839,7 +2884,7 @@
       "wfo": "JAX",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-27T19:50:04Z"
+      "generated_utc": "2026-08-28T20:50:16Z"
     },
     "primary_links": [
       {
