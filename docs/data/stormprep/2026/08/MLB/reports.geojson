@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-28T20:50:31Z",
+    "generated_utc": "2026-08-29T14:27:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2742,6 +2742,84 @@
         "coordinates": [
           -80.73,
           28.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-106",
+      "properties": {
+        "report_id": "iem-lsr-MLB-106",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608282235",
+        "standard_time_display": "2026-08-28 17:35 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "4 NW Kennedy Space Cent",
+        "state": "FL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 513 (SLF North) measured a peak wind gust of 41MPH/36KT from the west at 6:35 PM. Sensor elevation is 30 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7,
+          28.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-107",
+      "properties": {
+        "report_id": "iem-lsr-MLB-107",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202608282255",
+        "standard_time_display": "2026-08-28 17:55 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "2 WSW Playalinda Beach",
+        "state": "FL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 313 (NE Sensor) measured a peak wind gust of 45MPH/39KT from the west at 6:55 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.66,
+          28.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-108",
+      "properties": {
+        "report_id": "iem-lsr-MLB-108",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608282325",
+        "standard_time_display": "2026-08-28 18:25 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 E Patrick Air Force B",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "Patrick Space Force Base measured a peak wind gust of 39MPH/34KT from the west at 7:25 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6,
+          28.23
         ]
       }
     }
