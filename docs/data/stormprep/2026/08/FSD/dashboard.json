@@ -6,7 +6,7 @@
     "wfo": "FSD",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-29T14:27:21Z",
+    "generated_utc": "2026-08-30T14:24:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "FSD",
-    "total_candidate_reports": 48,
-    "mapped_candidate_reports": 48,
+    "total_candidate_reports": 50,
+    "mapped_candidate_reports": 50,
     "candidate_report_counts": {
       "hail": 31,
-      "thunderstorm_wind": 17
+      "thunderstorm_wind": 19
     },
     "candidate_report_type_counts": {
       "HAIL": 31,
-      "NON-TSTM WND GST": 1,
+      "NON-TSTM WND DMG": 1,
+      "NON-TSTM WND GST": 2,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 14
     },
@@ -1064,6 +1065,28 @@
     {
       "report_id": "iem-lsr-FSD-47",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608291000",
+      "standard_time_display": "2026-08-29 04:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Dovray",
+      "county": "Murray",
+      "state": "MN",
+      "source": "Public",
+      "remark": "Numerous large limbs down along with a couple of trees.",
+      "lat": 44.11,
+      "lon": -95.5,
+      "ugc": "MNC101",
+      "ugc_name": "Murray",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-48",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608291035",
       "standard_time_display": "2026-08-29 04:35 CST",
       "standard_time_zone": "CST",
@@ -1084,13 +1107,35 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FSD-48",
+      "report_id": "iem-lsr-FSD-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608291050",
       "standard_time_display": "2026-08-29 04:50 CST",
       "standard_time_zone": "CST",
       "wfo": "FSD",
       "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 68.0,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Jeffers",
+      "county": "Cottonwood",
+      "state": "MN",
+      "source": "Dept of Highways",
+      "remark": "An SDDOT site near Jeffers recorded a 68 mph wind gust. (TH-71/Jeffers).",
+      "lat": 44.08,
+      "lon": -95.12,
+      "ugc": "MNC033",
+      "ugc_name": "Cottonwood",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FSD-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608291050",
+      "standard_time_display": "2026-08-29 04:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FSD",
+      "report_type": "NON-TSTM WND GST",
       "event_category": "thunderstorm_wind",
       "magnitude": 68.0,
       "magnitude_qualifier": null,
@@ -1112,7 +1157,7 @@
       "wfo": "FSD",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-29T14:27:22Z"
+      "generated_utc": "2026-08-30T14:24:46Z"
     },
     "primary_links": [
       {

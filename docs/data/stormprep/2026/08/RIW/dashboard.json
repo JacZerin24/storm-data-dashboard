@@ -6,7 +6,7 @@
     "wfo": "RIW",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-29T14:28:23Z",
+    "generated_utc": "2026-08-30T14:25:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "RIW",
-    "total_candidate_reports": 33,
-    "mapped_candidate_reports": 33,
+    "total_candidate_reports": 36,
+    "mapped_candidate_reports": 36,
     "candidate_report_counts": {
-      "thunderstorm_wind": 33
+      "thunderstorm_wind": 36
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 3,
-      "TSTM WND GST": 30
+      "NON-TSTM WND GST": 1,
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 31
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -761,6 +762,28 @@
       "event_category": "thunderstorm_wind",
       "magnitude": null,
       "magnitude_qualifier": null,
+      "city": "1 N Smoot",
+      "county": "Lincoln",
+      "state": "WY",
+      "source": "Emergency Manager",
+      "remark": "Photos show a broad north to south area of damaged barns_ silos_ fencing_ and house siding_ as well as numerous downed trees. At least one horse trailer was flipped over. Damage appears consistent wi",
+      "lat": 42.63,
+      "lon": -110.92,
+      "ugc": "WYC023",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608290115",
+      "standard_time_display": "2026-08-28 18:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
       "city": "Smoot",
       "county": "Lincoln",
       "state": "WY",
@@ -771,6 +794,50 @@
       "ugc": "WYC023",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608291657",
+      "standard_time_display": "2026-08-29 09:57 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 67.0,
+      "magnitude_qualifier": null,
+      "city": "8 SE Reliance",
+      "county": "Sweetwater",
+      "state": "WY",
+      "source": "ASOS/AWOS",
+      "remark": null,
+      "lat": 41.59,
+      "lon": -109.07,
+      "ugc": "WYC037",
+      "ugc_name": "Sweetwater",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RIW-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608291722",
+      "standard_time_display": "2026-08-29 10:22 MST",
+      "standard_time_zone": "MST",
+      "wfo": "RIW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 66.0,
+      "magnitude_qualifier": null,
+      "city": "10 NE Atlantic City",
+      "county": "Fremont",
+      "state": "WY",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 42.62,
+      "lon": -108.61,
+      "ugc": "WYC013",
+      "ugc_name": "Fremont",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RIW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -779,7 +846,7 @@
       "wfo": "RIW",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-29T14:28:23Z"
+      "generated_utc": "2026-08-30T14:25:51Z"
     },
     "primary_links": [
       {
