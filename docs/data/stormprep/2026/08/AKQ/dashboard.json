@@ -6,7 +6,7 @@
     "wfo": "AKQ",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-30T14:24:11Z",
+    "generated_utc": "2026-08-31T17:02:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "AKQ",
-    "total_candidate_reports": 308,
-    "mapped_candidate_reports": 308,
+    "total_candidate_reports": 309,
+    "mapped_candidate_reports": 309,
     "candidate_report_counts": {
       "flooding": 86,
       "hail": 8,
       "marine": 32,
       "other": 40,
       "thunderstorm_wind": 140,
-      "tornado": 2
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 84,
@@ -37,7 +37,8 @@
       "NON-TSTM WND DMG": 2,
       "RAIN": 36,
       "TSTM WND DMG": 135,
-      "TSTM WND GST": 3
+      "TSTM WND GST": 3,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -6730,23 +6731,23 @@
     {
       "report_id": "iem-lsr-AKQ-304",
       "source_dataset": "IEM Local Storm Reports archive",
-      "valid_utc": "202608282335",
-      "standard_time_display": "2026-08-28 18:35 EST",
+      "valid_utc": "202608281715",
+      "standard_time_display": "2026-08-28 12:15 EST",
       "standard_time_zone": "EST",
       "wfo": "AKQ",
-      "report_type": "FLASH FLOOD",
-      "event_category": "flooding",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
       "magnitude": null,
       "magnitude_qualifier": null,
-      "city": "Saluda",
-      "county": "Middlesex",
+      "city": "5 S Modest Town",
+      "county": "ANZ652",
       "state": "VA",
       "source": "Public",
-      "remark": "Public reported about 3.2 inches of rain have fallen within the hour and caused their driveway to be completely flooded.",
-      "lat": 37.61,
-      "lon": -76.59,
-      "ugc": "VAC119",
-      "ugc_name": "Middlesex",
+      "remark": "(Delayed report) A picture of a waterspout was shared on social media over the north side of Metompkin Bay. The time was estimated on the post.",
+      "lat": 37.74,
+      "lon": -75.56,
+      "ugc": "ANZ652",
+      "ugc_name": "Coastal waters from Chincoteague to Parramore Island VA out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
@@ -6764,7 +6765,7 @@
       "county": "Middlesex",
       "state": "VA",
       "source": "Public",
-      "remark": "Public reported about 3.2 of rain have fallen within the hour and caused their driveway to be completely flooded.",
+      "remark": "Public reported about 3.2 inches of rain have fallen within the hour and caused their driveway to be completely flooded.",
       "lat": 37.61,
       "lon": -76.59,
       "ugc": "VAC119",
@@ -6786,6 +6787,28 @@
       "county": "Middlesex",
       "state": "VA",
       "source": "Public",
+      "remark": "Public reported about 3.2 of rain have fallen within the hour and caused their driveway to be completely flooded.",
+      "lat": 37.61,
+      "lon": -76.59,
+      "ugc": "VAC119",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AKQ-307",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608282335",
+      "standard_time_display": "2026-08-28 18:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "AKQ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Saluda",
+      "county": "Middlesex",
+      "state": "VA",
+      "source": "Public",
       "remark": "Video of flooding at Middlesex High School due to overflowing storm drains.",
       "lat": 37.61,
       "lon": -76.6,
@@ -6794,7 +6817,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-AKQ-307",
+      "report_id": "iem-lsr-AKQ-308",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608282354",
       "standard_time_display": "2026-08-28 18:54 EST",
@@ -6816,7 +6839,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-AKQ-308",
+      "report_id": "iem-lsr-AKQ-309",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608291752",
       "standard_time_display": "2026-08-29 12:52 EST",
@@ -6844,7 +6867,7 @@
       "wfo": "AKQ",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-30T14:24:11Z"
+      "generated_utc": "2026-08-31T17:02:18Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "TFX",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-30T14:26:02Z",
+    "generated_utc": "2026-08-31T17:04:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1814,6 +1814,32 @@
       "id": "iem-lsr-TFX-70",
       "properties": {
         "report_id": "iem-lsr-TFX-70",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608292345",
+        "standard_time_display": "2026-08-29 16:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "9 E Kremlin",
+        "state": "MT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Horse shed roof blown of and carried 200 feet. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.88,
+          48.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-71",
+      "properties": {
+        "report_id": "iem-lsr-TFX-71",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608292351",
@@ -1837,9 +1863,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-TFX-71",
+      "id": "iem-lsr-TFX-72",
       "properties": {
-        "report_id": "iem-lsr-TFX-71",
+        "report_id": "iem-lsr-TFX-72",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202608300015",
@@ -1858,6 +1884,188 @@
         "coordinates": [
           -109.64,
           48.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-73",
+      "properties": {
+        "report_id": "iem-lsr-TFX-73",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202608301613",
+        "standard_time_display": "2026-08-30 09:13 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "7 SSE Ulm",
+        "state": "MT",
+        "magnitude": 0.36,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          47.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-74",
+      "properties": {
+        "report_id": "iem-lsr-TFX-74",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608302000",
+        "standard_time_display": "2026-08-30 13:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "14 WSW Saint Mary",
+        "state": "MT",
+        "magnitude": 49.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station LGPVC Logan Pass (GNP)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.72,
+          48.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-75",
+      "properties": {
+        "report_id": "iem-lsr-TFX-75",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608302100",
+        "standard_time_display": "2026-08-30 14:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "8 WSW Saint Mary",
+        "state": "MT",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SNPMT Sunpoint."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.58,
+          48.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-76",
+      "properties": {
+        "report_id": "iem-lsr-TFX-76",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608302110",
+        "standard_time_display": "2026-08-30 14:10 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "9 ESE East Glacier Park",
+        "state": "MT",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DOGM8 Dog Gun Lake E."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.06,
+          48.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-77",
+      "properties": {
+        "report_id": "iem-lsr-TFX-77",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608302121",
+        "standard_time_display": "2026-08-30 14:21 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "8 SE East Glacier Park",
+        "state": "MT",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DCRM8 Deep Creek RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.11,
+          48.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-78",
+      "properties": {
+        "report_id": "iem-lsr-TFX-78",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608302321",
+        "standard_time_display": "2026-08-30 16:21 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "8 SE East Glacier Park",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DCRM8 Deep Creek RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.11,
+          48.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-79",
+      "properties": {
+        "report_id": "iem-lsr-TFX-79",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202608310000",
+        "standard_time_display": "2026-08-30 17:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "5 N Ledger",
+        "state": "MT",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTM73 Ledger N Mda."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.82,
+          48.34
         ]
       }
     }

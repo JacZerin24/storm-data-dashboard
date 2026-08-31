@@ -6,7 +6,7 @@
     "wfo": "GGW",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-30T14:24:47Z",
+    "generated_utc": "2026-08-31T17:02:55Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 8,
     "wfo": "GGW",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
     "candidate_report_counts": {
       "other": 11,
-      "thunderstorm_wind": 9
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "RAIN": 11,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 8
+      "TSTM WND GST": 10
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -487,6 +487,50 @@
       "ugc": "MTC105",
       "ugc_name": "Valley",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GGW-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608301830",
+      "standard_time_display": "2026-08-30 11:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GGW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "10 SSW Cohagen",
+      "county": "Garfield",
+      "state": "MT",
+      "source": "Mesonet",
+      "remark": "Cohagen South Montana mesonet surface station.",
+      "lat": 46.91,
+      "lon": -106.68,
+      "ugc": "MTC033",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GGW-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608301855",
+      "standard_time_display": "2026-08-30 11:55 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GGW",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "7 WSW Crow Rock",
+      "county": "Garfield",
+      "state": "MT",
+      "source": "Mesonet",
+      "remark": "43G62 Rock Springs N_ MT.",
+      "lat": 46.89,
+      "lon": -106.21,
+      "ugc": "MTC033",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -495,7 +539,7 @@
       "wfo": "GGW",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-30T14:24:47Z"
+      "generated_utc": "2026-08-31T17:02:56Z"
     },
     "primary_links": [
       {

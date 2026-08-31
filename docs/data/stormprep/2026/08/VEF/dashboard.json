@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-30T14:26:06Z",
+    "generated_utc": "2026-08-31T17:04:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 8,
     "wfo": "VEF",
-    "total_candidate_reports": 42,
-    "mapped_candidate_reports": 42,
+    "total_candidate_reports": 44,
+    "mapped_candidate_reports": 44,
     "candidate_report_counts": {
       "flooding": 19,
       "hail": 1,
+      "other": 2,
       "thunderstorm_wind": 22
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 19,
       "HAIL": 1,
+      "RAIN": 2,
       "TSTM WND DMG": 11,
       "TSTM WND GST": 11
     },
@@ -973,6 +975,50 @@
       "ugc": "NVC003",
       "ugc_name": "Clark",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608310238",
+      "standard_time_display": "2026-08-30 18:38 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.89,
+      "magnitude_qualifier": null,
+      "city": "7 NE Desert Hills",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "Ram Peak station on the Mohave County Flood Control District ALERT system. The period of the rain event was 43 minutes.",
+      "lat": 34.61,
+      "lon": -114.27,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608310244",
+      "standard_time_display": "2026-08-30 18:44 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.42,
+      "magnitude_qualifier": null,
+      "city": "6 NE Desert Hills",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "Catsaurus station on the Mohave County Flood Control District ALERT System. The period of the rain event was 45 minutes.",
+      "lat": 34.61,
+      "lon": -114.29,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -981,7 +1027,7 @@
       "wfo": "VEF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-30T14:26:07Z"
+      "generated_utc": "2026-08-31T17:04:22Z"
     },
     "primary_links": [
       {

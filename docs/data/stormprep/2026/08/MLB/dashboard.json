@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-30T14:25:26Z",
+    "generated_utc": "2026-08-31T17:03:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "MLB",
-    "total_candidate_reports": 108,
-    "mapped_candidate_reports": 108,
+    "total_candidate_reports": 110,
+    "mapped_candidate_reports": 110,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "flooding": 6,
       "hail": 2,
       "marine": 80,
-      "thunderstorm_wind": 16,
+      "other": 1,
+      "thunderstorm_wind": 17,
       "tornado": 3
     },
     "candidate_report_type_counts": {
@@ -32,9 +33,10 @@
       "FLOOD": 4,
       "FUNNEL CLOUD": 2,
       "HAIL": 2,
+      "LIGHTNING": 1,
       "MARINE TSTM WIND": 80,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 15,
+      "TSTM WND GST": 16,
       "WATERSPOUT": 1,
       "WILDFIRE": 1
     },
@@ -2435,6 +2437,50 @@
       "ugc": "FLC009",
       "ugc_name": "Brevard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-109",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608291645",
+      "standard_time_display": "2026-08-29 11:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 NNE Hobe Sound Beach",
+      "county": "AMZ555",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "*** 1 INJ *** Multiple media outlets report the outrigging of a boat was struck by lightning shortly before 1 PM EDT approximately 6 miles east of Stuart. The rod was disintegrated. Rescue officials",
+      "lat": 27.18,
+      "lon": -80.06,
+      "ugc": "AMZ555",
+      "ugc_name": "Sebastian Inlet to Jupiter Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-110",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608301521",
+      "standard_time_display": "2026-08-30 10:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Vero Beach",
+      "county": "Indian River",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "Vero Beach Municipal Airport measured a peak wind gust of 39MPH/34KT from the southeast at 11:21 AM.",
+      "lat": 27.65,
+      "lon": -80.42,
+      "ugc": "FLC061",
+      "ugc_name": "Indian River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2443,7 +2489,7 @@
       "wfo": "MLB",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-30T14:25:27Z"
+      "generated_utc": "2026-08-31T17:03:36Z"
     },
     "primary_links": [
       {
