@@ -7,7 +7,7 @@
     "wfo": "VEF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-31T17:04:21Z",
+    "generated_utc": "2026-09-01T14:11:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1112,6 +1112,32 @@
       "id": "iem-lsr-VEF-43",
       "properties": {
         "report_id": "iem-lsr-VEF-43",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608310230",
+        "standard_time_display": "2026-08-30 18:30 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "9 NNE Desert Hills",
+        "state": "AZ",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "One inch hail reported in Havasu Heights. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.29,
+          34.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-44",
+      "properties": {
+        "report_id": "iem-lsr-VEF-44",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608310238",
@@ -1135,9 +1161,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-VEF-44",
+      "id": "iem-lsr-VEF-45",
       "properties": {
-        "report_id": "iem-lsr-VEF-44",
+        "report_id": "iem-lsr-VEF-45",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202608310244",
@@ -1156,6 +1182,58 @@
         "coordinates": [
           -114.29,
           34.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-46",
+      "properties": {
+        "report_id": "iem-lsr-VEF-46",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202608311810",
+        "standard_time_display": "2026-08-31 10:10 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Lincoln",
+        "city": "2 SSW Caliente",
+        "state": "NV",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Park/Forest Srvc",
+        "event_narrative": "One inch hail reported at Kershaw-Ryan State Park."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.53,
+          37.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-47",
+      "properties": {
+        "report_id": "iem-lsr-VEF-47",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202608312144",
+        "standard_time_display": "2026-08-31 13:44 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Lincoln",
+        "city": "18 ESE Panaca",
+        "state": "NV",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "All lanes blocked on State Route 319 due to flash flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.08,
+          37.73
         ]
       }
     }

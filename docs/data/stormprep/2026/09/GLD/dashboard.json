@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 9,
+    "wfo": "GLD",
+    "start_utc": "2026-09-01T00:00:00Z",
+    "end_utc": "2026-10-01T00:00:00Z",
+    "generated_utc": "2026-09-01T14:08:16Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 9,
+    "wfo": "GLD",
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
+    "candidate_report_counts": {
+      "hail": 1,
+      "other": 1,
+      "thunderstorm_wind": 5
+    },
+    "candidate_report_type_counts": {
+      "HAIL": 1,
+      "RAIN": 1,
+      "TSTM WND GST": 5
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GLD&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=GLD&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GLD&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GLD-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010046",
+      "standard_time_display": "2026-08-31 18:46 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Saint Francis",
+      "county": "Cheyenne",
+      "state": "KS",
+      "source": "AWOS",
+      "remark": "KSYF AWOS reported a 60 MPH wind gust.",
+      "lat": 39.76,
+      "lon": -101.8,
+      "ugc": "KSC023",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010118",
+      "standard_time_display": "2026-08-31 18:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GLD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "4 SW Arapahoe",
+      "county": "Cheyenne",
+      "state": "CO",
+      "source": "Mesonet",
+      "remark": "Report of 56 MPH wind gust from Mesonet station ID: weatherlink_ae973420-d8d9-47ed-b666-50a2779da9a8.",
+      "lat": 38.8,
+      "lon": -102.22,
+      "ugc": "COC017",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010118",
+      "standard_time_display": "2026-08-31 18:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "GLD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Cheyenne Wells",
+      "county": "Cheyenne",
+      "state": "CO",
+      "source": "Mesonet",
+      "remark": "Report of 60 MPH wind gust from Mesonet station ID: weatherlink_cb43137a-fef7-477a-a087-e6f5e54b6a7b.",
+      "lat": 38.82,
+      "lon": -102.34,
+      "ugc": "COC017",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010134",
+      "standard_time_display": "2026-08-31 19:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "7 N Bird City",
+      "county": "Cheyenne",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": "Trained weather spotter reported nickel size hail.",
+      "lat": 39.84,
+      "lon": -101.53,
+      "ugc": "KSC023",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010134",
+      "standard_time_display": "2026-08-31 19:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "7 N Bird City",
+      "county": "Cheyenne",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": "Trained weather spotter reported wind gust of 60 mph.",
+      "lat": 39.84,
+      "lon": -101.53,
+      "ugc": "KSC023",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010204",
+      "standard_time_display": "2026-08-31 20:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "10 WNW Horace",
+      "county": "Greeley",
+      "state": "KS",
+      "source": "Mesonet",
+      "remark": "Report of 56 MPH wind gust at Mesonet Station ID: ambient_2826cb29615d9acaa3ccfaf3c182016e.",
+      "lat": 38.55,
+      "lon": -101.96,
+      "ugc": "KSC071",
+      "ugc_name": "Greeley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609010206",
+      "standard_time_display": "2026-08-31 20:06 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Saint Francis",
+      "county": "Cheyenne",
+      "state": "KS",
+      "source": "Trained Spotter",
+      "remark": "Trained Spotter report of roughly 2.00 inches of rain has fallen in around 30 minutes.",
+      "lat": 39.79,
+      "lon": -101.82,
+      "ugc": "KSC023",
+      "ugc_name": "Cheyenne",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "GLD",
+      "start_utc": "2026-09-01T00:00:00Z",
+      "end_utc": "2026-10-01T00:00:00Z",
+      "generated_utc": "2026-09-01T14:08:16Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=GLD&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for GLD",
+            "url": "https://api.weather.gov/products/types/LSR/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for GLD",
+            "url": "https://api.weather.gov/products/types/PNS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for GLD",
+            "url": "https://api.weather.gov/products/types/TOR/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for GLD",
+            "url": "https://api.weather.gov/products/types/SVR/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for GLD",
+            "url": "https://api.weather.gov/products/types/SVS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for GLD",
+            "url": "https://api.weather.gov/products/types/SPS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for GLD",
+            "url": "https://api.weather.gov/products/types/WCN/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for GLD",
+            "url": "https://api.weather.gov/products/types/FFW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for GLD",
+            "url": "https://api.weather.gov/products/types/FFS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for GLD",
+            "url": "https://api.weather.gov/products/types/FLS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for GLD",
+            "url": "https://api.weather.gov/products/types/FLW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for GLD",
+            "url": "https://api.weather.gov/products/types/RVS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for GLD",
+            "url": "https://api.weather.gov/products/types/ESF/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for GLD",
+            "url": "https://api.weather.gov/products/types/SMW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for GLD",
+            "url": "https://api.weather.gov/products/types/MWS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for GLD",
+            "url": "https://api.weather.gov/products/types/MWW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for GLD",
+            "url": "https://api.weather.gov/products/types/CFW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for GLD",
+            "url": "https://api.weather.gov/products/types/CWF/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for GLD",
+            "url": "https://api.weather.gov/products/types/HLS/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for GLD",
+            "url": "https://api.weather.gov/products/types/NPW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for GLD",
+            "url": "https://api.weather.gov/products/types/WSW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for GLD",
+            "url": "https://api.weather.gov/products/types/RFW/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for GLD",
+            "url": "https://api.weather.gov/products/types/DGT/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for GLD",
+            "url": "https://api.weather.gov/products/types/HWO/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for GLD",
+            "url": "https://api.weather.gov/products/types/AFD/locations/GLD",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.2.4",
+  "year": 2026,
+  "month": 9,
+  "wfo": "PUB",
+  "total_candidate_reports": 5,
+  "mapped_candidate_reports": 5,
+  "candidate_report_counts": {
+    "other": 1,
+    "thunderstorm_wind": 4
+  },
+  "candidate_report_type_counts": {
+    "RAIN": 1,
+    "TSTM WND GST": 4
+  },
+  "nws_api_alert_count": 0,
+  "nws_api_alert_type_counts": {},
+  "tornado_track_count": 0,
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=PUB&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ]
+}

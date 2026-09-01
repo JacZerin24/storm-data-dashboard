@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-08-31T17:04:21Z",
+    "generated_utc": "2026-09-01T14:11:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 8,
     "wfo": "VEF",
-    "total_candidate_reports": 44,
-    "mapped_candidate_reports": 44,
+    "total_candidate_reports": 47,
+    "mapped_candidate_reports": 47,
     "candidate_report_counts": {
-      "flooding": 19,
-      "hail": 1,
+      "flooding": 20,
+      "hail": 3,
       "other": 2,
       "thunderstorm_wind": 22
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 19,
-      "HAIL": 1,
+      "FLASH FLOOD": 20,
+      "HAIL": 3,
       "RAIN": 2,
       "TSTM WND DMG": 11,
       "TSTM WND GST": 11
@@ -979,6 +979,28 @@
     {
       "report_id": "iem-lsr-VEF-43",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608310230",
+      "standard_time_display": "2026-08-30 18:30 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "9 NNE Desert Hills",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "One inch hail reported in Havasu Heights. Time estimated by radar.",
+      "lat": 34.66,
+      "lon": -114.29,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-44",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608310238",
       "standard_time_display": "2026-08-30 18:38 PST",
       "standard_time_zone": "PST",
@@ -999,7 +1021,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-VEF-44",
+      "report_id": "iem-lsr-VEF-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608310244",
       "standard_time_display": "2026-08-30 18:44 PST",
@@ -1019,6 +1041,50 @@
       "ugc": "AZC015",
       "ugc_name": "Mohave",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-46",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608311810",
+      "standard_time_display": "2026-08-31 10:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Caliente",
+      "county": "Lincoln",
+      "state": "NV",
+      "source": "Park/Forest Srvc",
+      "remark": "One inch hail reported at Kershaw-Ryan State Park.",
+      "lat": 37.59,
+      "lon": -114.53,
+      "ugc": "NVC017",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608312144",
+      "standard_time_display": "2026-08-31 13:44 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "18 ESE Panaca",
+      "county": "Lincoln",
+      "state": "NV",
+      "source": "Dept of Highways",
+      "remark": "All lanes blocked on State Route 319 due to flash flooding.",
+      "lat": 37.73,
+      "lon": -114.08,
+      "ugc": "NVC017",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1027,7 +1093,7 @@
       "wfo": "VEF",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-08-31T17:04:22Z"
+      "generated_utc": "2026-09-01T14:11:25Z"
     },
     "primary_links": [
       {

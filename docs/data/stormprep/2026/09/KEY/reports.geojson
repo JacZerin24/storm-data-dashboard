@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 9,
+    "wfo": "KEY",
+    "start_utc": "2026-09-01T00:00:00Z",
+    "end_utc": "2026-10-01T00:00:00Z",
+    "generated_utc": "2026-09-01T14:08:33Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-1",
+      "properties": {
+        "report_id": "iem-lsr-KEY-1",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202609011150",
+        "standard_time_display": "2026-09-01 06:50 EST",
+        "wfo": "KEY",
+        "county_or_zone": "GMZ044",
+        "city": "5 SE Big Coppitt Key",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "A waterspout was reported 5 SE of Big Coppitt Key in Hawk Channel. The Monroe County Emergency Manager observed a mature_ tilted waterspout oceanside of Sugarloaf Key at 750 am EDT. Due to the distan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6,
+          24.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-KEY-2",
+      "properties": {
+        "report_id": "iem-lsr-KEY-2",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202609011150",
+        "standard_time_display": "2026-09-01 06:50 EST",
+        "wfo": "KEY",
+        "county_or_zone": "GMZ035",
+        "city": "9 WNW Big Torch Key",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "The Monroe County Emergency Manager observed a mature_ tilted waterspout about 10 miles north of Sugarloaf Key at 750 am EDT. Due to the distance from land_ there was no observed spray ring."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.56,
+          24.8
+        ]
+      }
+    }
+  ]
+}
