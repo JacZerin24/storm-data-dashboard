@@ -7,12 +7,91 @@
     "wfo": "MKX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-01T14:08:48Z",
+    "generated_utc": "2026-09-02T13:37:00Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MKX-1",
+      "properties": {
+        "report_id": "iem-lsr-MKX-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020725",
+        "standard_time_display": "2026-09-02 01:25 CST",
+        "wfo": "MKX",
+        "county_or_zone": "Green Lake",
+        "city": "2 WNW Fairwater",
+        "state": "WI",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal Wx Station Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9,
+          43.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MKX-2",
+      "properties": {
+        "report_id": "iem-lsr-MKX-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020725",
+        "standard_time_display": "2026-09-02 01:25 CST",
+        "wfo": "MKX",
+        "county_or_zone": "Green Lake",
+        "city": "2 SSW Green Lake",
+        "state": "WI",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal Wx Station Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.97,
+          43.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MKX-3",
+      "properties": {
+        "report_id": "iem-lsr-MKX-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020727",
+        "standard_time_display": "2026-09-02 01:27 CST",
+        "wfo": "MKX",
+        "county_or_zone": "Fond du Lac",
+        "city": "1 SW Ripon",
+        "state": "WI",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal Wx Station Report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.85,
+          43.84
+        ]
+      }
+    }
+  ]
 }

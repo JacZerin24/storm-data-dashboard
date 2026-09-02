@@ -7,12 +7,481 @@
     "wfo": "ARX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-01T14:07:46Z",
+    "generated_utc": "2026-09-02T13:36:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-1",
+      "properties": {
+        "report_id": "iem-lsr-ARX-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609020510",
+        "standard_time_display": "2026-09-01 23:10 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Winona",
+        "city": "6 ENE Pickwick",
+        "state": "MN",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Multiple reports of 1 to 1.5 inch hail sizes. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.49,
+          44.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-2",
+      "properties": {
+        "report_id": "iem-lsr-ARX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020536",
+        "standard_time_display": "2026-09-01 23:36 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Juneau",
+        "city": "3 SSE Buckhorn State Pa",
+        "state": "WI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree on powerline. Damage reported at 204am. Time of event estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.99,
+          43.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-3",
+      "properties": {
+        "report_id": "iem-lsr-ARX-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020620",
+        "standard_time_display": "2026-09-02 00:20 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Dodge",
+        "city": "2 E Kasson",
+        "state": "MN",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MN029 U.s.14 - Byron - Mp 200."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.71,
+          44.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-4",
+      "properties": {
+        "report_id": "iem-lsr-ARX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020630",
+        "standard_time_display": "2026-09-02 00:30 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Olmsted",
+        "city": "3 NNW Stewartville",
+        "state": "MN",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KRST Rochester International Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5,
+          43.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-5",
+      "properties": {
+        "report_id": "iem-lsr-ARX-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020635",
+        "standard_time_display": "2026-09-02 00:35 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Olmsted",
+        "city": "2 NNW Marion",
+        "state": "MN",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.37,
+          43.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-6",
+      "properties": {
+        "report_id": "iem-lsr-ARX-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020635",
+        "standard_time_display": "2026-09-02 00:35 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Olmsted",
+        "city": "Rochester",
+        "state": "MN",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K9MN Mayo Helipad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.48,
+          44.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-7",
+      "properties": {
+        "report_id": "iem-lsr-ARX-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020635",
+        "standard_time_display": "2026-09-02 00:35 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Olmsted",
+        "city": "3 N Rochester",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Large downed trees and power outages reported. Time estimated via RADAR."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.48,
+          44.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-8",
+      "properties": {
+        "report_id": "iem-lsr-ARX-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020657",
+        "standard_time_display": "2026-09-02 00:57 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Wabasha",
+        "city": "1 ENE Elgin",
+        "state": "MN",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.23,
+          44.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-9",
+      "properties": {
+        "report_id": "iem-lsr-ARX-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020710",
+        "standard_time_display": "2026-09-02 01:10 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Winona",
+        "city": "Saint Charles",
+        "state": "MN",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal Weather Station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.07,
+          43.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-10",
+      "properties": {
+        "report_id": "iem-lsr-ARX-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020729",
+        "standard_time_display": "2026-09-02 01:29 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Buffalo",
+        "city": "6 W Arcadia",
+        "state": "WI",
+        "magnitude": 54.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.61,
+          44.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-11",
+      "properties": {
+        "report_id": "iem-lsr-ARX-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020737",
+        "standard_time_display": "2026-09-02 01:37 CST",
+        "wfo": "ARX",
+        "county_or_zone": "La Crosse",
+        "city": "2 NE New Amsterdam",
+        "state": "WI",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.29,
+          44.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-12",
+      "properties": {
+        "report_id": "iem-lsr-ARX-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020738",
+        "standard_time_display": "2026-09-02 01:38 CST",
+        "wfo": "ARX",
+        "county_or_zone": "La Crosse",
+        "city": "1 S Holmen",
+        "state": "WI",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.26,
+          43.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-13",
+      "properties": {
+        "report_id": "iem-lsr-ARX-13",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020747",
+        "standard_time_display": "2026-09-02 01:47 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Jackson",
+        "city": "4 NNW Melrose",
+        "state": "WI",
+        "magnitude": 53.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.02,
+          44.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-14",
+      "properties": {
+        "report_id": "iem-lsr-ARX-14",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020843",
+        "standard_time_display": "2026-09-02 02:43 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Adams",
+        "city": "1 NNE Monroe Center",
+        "state": "WI",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.94,
+          44.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-15",
+      "properties": {
+        "report_id": "iem-lsr-ARX-15",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020924",
+        "standard_time_display": "2026-09-02 03:24 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Mower",
+        "city": "3 SSW Rose Creek",
+        "state": "MN",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.84,
+          43.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-16",
+      "properties": {
+        "report_id": "iem-lsr-ARX-16",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020943",
+        "standard_time_display": "2026-09-02 03:43 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Fillmore",
+        "city": "1 NNW Spring Valley",
+        "state": "MN",
+        "magnitude": 52.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          43.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-17",
+      "properties": {
+        "report_id": "iem-lsr-ARX-17",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609021038",
+        "standard_time_display": "2026-09-02 04:38 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Olmsted",
+        "city": "1 NE Rochester",
+        "state": "MN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report of water intrusion into some Mayo Clinic buildings associated with heavy rainfall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.47,
+          44.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ARX-18",
+      "properties": {
+        "report_id": "iem-lsr-ARX-18",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609021223",
+        "standard_time_display": "2026-09-02 06:23 CST",
+        "wfo": "ARX",
+        "county_or_zone": "Wabasha",
+        "city": "1 N Wabasha",
+        "state": "MN",
+        "magnitude": 1.9,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.04,
+          44.38
+        ]
+      }
+    }
+  ]
 }

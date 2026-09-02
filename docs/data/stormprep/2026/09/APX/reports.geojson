@@ -7,12 +7,169 @@
     "wfo": "APX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-01T14:07:45Z",
+    "generated_utc": "2026-09-02T13:36:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-1",
+      "properties": {
+        "report_id": "iem-lsr-APX-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609011100",
+        "standard_time_display": "2026-09-01 06:00 EST",
+        "wfo": "APX",
+        "county_or_zone": "Roscommon",
+        "city": "3 N South Higgins Lake",
+        "state": "MI",
+        "magnitude": 1.71,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-RS-11 Roscommon 4.2 WSW."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.67,
+          44.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-2",
+      "properties": {
+        "report_id": "iem-lsr-APX-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609011200",
+        "standard_time_display": "2026-09-01 07:00 EST",
+        "wfo": "APX",
+        "county_or_zone": "Arenac",
+        "city": "9 NE Au Gres",
+        "state": "MI",
+        "magnitude": 1.03,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-AR-3 Tawas City 9.3 SSW."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57,
+          44.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-3",
+      "properties": {
+        "report_id": "iem-lsr-APX-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609011200",
+        "standard_time_display": "2026-09-01 07:00 EST",
+        "wfo": "APX",
+        "county_or_zone": "Arenac",
+        "city": "6 N Au Gres",
+        "state": "MI",
+        "magnitude": 1.6,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.69,
+          44.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-4",
+      "properties": {
+        "report_id": "iem-lsr-APX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021126",
+        "standard_time_display": "2026-09-02 05:26 CST",
+        "wfo": "APX",
+        "county_or_zone": "LMZ346",
+        "city": "1 SW Frankfort",
+        "state": "MI",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XFLT Frankfort Light."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.25,
+          44.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-5",
+      "properties": {
+        "report_id": "iem-lsr-APX-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021134",
+        "standard_time_display": "2026-09-02 05:34 CST",
+        "wfo": "APX",
+        "county_or_zone": "Manistee",
+        "city": "2 E Parkdale",
+        "state": "MI",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KMBL Manistee - Blacker Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.25,
+          44.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-APX-6",
+      "properties": {
+        "report_id": "iem-lsr-APX-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021135",
+        "standard_time_display": "2026-09-02 05:35 CST",
+        "wfo": "APX",
+        "county_or_zone": "Benzie",
+        "city": "2 ENE Elberta",
+        "state": "MI",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KFKS Frankfort - Dow Memorial Field."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2,
+          44.63
+        ]
+      }
+    }
+  ]
 }

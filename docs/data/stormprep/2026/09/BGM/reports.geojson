@@ -7,12 +7,169 @@
     "wfo": "BGM",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-01T14:07:47Z",
+    "generated_utc": "2026-09-02T13:36:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BGM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-1",
+      "properties": {
+        "report_id": "iem-lsr-BGM-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609012203",
+        "standard_time_display": "2026-09-01 17:03 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "1 SE Muhlenberg",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree and wires down on Main Road_ as per county dispatch feed. Radar-estimated time."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.14,
+          41.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-2",
+      "properties": {
+        "report_id": "iem-lsr-BGM-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609012210",
+        "standard_time_display": "2026-09-01 17:10 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "1 WSW Nuangola",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "As per county dispatch_ tree down on wires_ involving Slocum Road. Radar-estimated time."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0,
+          41.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-3",
+      "properties": {
+        "report_id": "iem-lsr-BGM-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609012222",
+        "standard_time_display": "2026-09-01 17:22 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Luzerne",
+        "city": "Slocum",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Trees downed in Slocum Township. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.05,
+          41.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-4",
+      "properties": {
+        "report_id": "iem-lsr-BGM-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609012242",
+        "standard_time_display": "2026-09-01 17:42 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "West Burlington",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of trees downed in West Burlington. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.67,
+          41.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-5",
+      "properties": {
+        "report_id": "iem-lsr-BGM-5",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202609012309",
+        "standard_time_display": "2026-09-01 18:09 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "2 WNW Overton",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Funnel cloud report relayed by county emergency manager. Near Bradford Sullivan Colunty border west of Overton. Radar-estimated time for when rotation was passing."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.54,
+          41.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BGM-6",
+      "properties": {
+        "report_id": "iem-lsr-BGM-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609012354",
+        "standard_time_display": "2026-09-01 18:54 EST",
+        "wfo": "BGM",
+        "county_or_zone": "Bradford",
+        "city": "Orwell",
+        "state": "PA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Report of trees downed in Orwell. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.28,
+          41.88
+        ]
+      }
+    }
+  ]
 }
