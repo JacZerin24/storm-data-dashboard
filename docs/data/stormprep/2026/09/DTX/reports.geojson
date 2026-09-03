@@ -7,12 +7,1027 @@
     "wfo": "DTX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:22Z",
+    "generated_utc": "2026-09-03T13:33:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DTX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-1",
+      "properties": {
+        "report_id": "iem-lsr-DTX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022000",
+        "standard_time_display": "2026-09-02 15:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Sanilac",
+        "city": "Palms",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Sanilac County Dispatch reported numerous calls related to tree damage and wires downed across the northern half of the county."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.77,
+          43.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-2",
+      "properties": {
+        "report_id": "iem-lsr-DTX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022005",
+        "standard_time_display": "2026-09-02 15:05 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Sanilac",
+        "city": "1 S Richmondville",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Amateur Radio",
+        "event_narrative": "Large uprooted maple tree at Shabbona Rd and M-25."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.59,
+          43.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-3",
+      "properties": {
+        "report_id": "iem-lsr-DTX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022005",
+        "standard_time_display": "2026-09-02 15:05 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Sanilac",
+        "city": "Richmondville",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "EM reported significant damage over and west of Richmondville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6,
+          43.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-4",
+      "properties": {
+        "report_id": "iem-lsr-DTX-4",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609022030",
+        "standard_time_display": "2026-09-02 15:30 EST",
+        "wfo": "DTX",
+        "county_or_zone": "LHZ443",
+        "city": "Lexington Harbor",
+        "state": "MI",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured at Lexington Harbor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.52,
+          43.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-5",
+      "properties": {
+        "report_id": "iem-lsr-DTX-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609022138",
+        "standard_time_display": "2026-09-02 16:38 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Saginaw",
+        "city": "Birch Run",
+        "state": "MI",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Multiple spotter and public reports with images of hailstones up to 2 inches in diamater across Birch Run."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.79,
+          43.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-6",
+      "properties": {
+        "report_id": "iem-lsr-DTX-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609022204",
+        "standard_time_display": "2026-09-02 17:04 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Lapeer",
+        "city": "Otter Lake",
+        "state": "MI",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Reported along 6600 block of Hart Lake Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.46,
+          43.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-7",
+      "properties": {
+        "report_id": "iem-lsr-DTX-7",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609022249",
+        "standard_time_display": "2026-09-02 17:49 EST",
+        "wfo": "DTX",
+        "county_or_zone": "St. Clair",
+        "city": "1 NW Capac",
+        "state": "MI",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.95,
+          43.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-8",
+      "properties": {
+        "report_id": "iem-lsr-DTX-8",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609022317",
+        "standard_time_display": "2026-09-02 18:17 EST",
+        "wfo": "DTX",
+        "county_or_zone": "St. Clair",
+        "city": "Kimball",
+        "state": "MI",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.56,
+          42.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-9",
+      "properties": {
+        "report_id": "iem-lsr-DTX-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022319",
+        "standard_time_display": "2026-09-02 18:19 EST",
+        "wfo": "DTX",
+        "county_or_zone": "St. Clair",
+        "city": "1 S South Park",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Trees and wires downed along Peavey St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.46,
+          42.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-10",
+      "properties": {
+        "report_id": "iem-lsr-DTX-10",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030231",
+        "standard_time_display": "2026-09-02 21:31 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "3 E Milford",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Multiple Trees and large branches down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.54,
+          42.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-11",
+      "properties": {
+        "report_id": "iem-lsr-DTX-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030237",
+        "standard_time_display": "2026-09-02 21:37 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Livingston",
+        "city": "Howell",
+        "state": "MI",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.94,
+          42.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-12",
+      "properties": {
+        "report_id": "iem-lsr-DTX-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030240",
+        "standard_time_display": "2026-09-02 21:40 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Livingston",
+        "city": "Livingston County Airpo",
+        "state": "MI",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.98,
+          42.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-13",
+      "properties": {
+        "report_id": "iem-lsr-DTX-13",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030317",
+        "standard_time_display": "2026-09-02 22:17 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "Detroit City Airport",
+        "state": "MI",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.01,
+          42.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-14",
+      "properties": {
+        "report_id": "iem-lsr-DTX-14",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609030400",
+        "standard_time_display": "2026-09-02 23:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "Farmington Hills",
+        "state": "MI",
+        "magnitude": 1.77,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "1 hour rainfall total from 11 pm to midnight."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.38,
+          42.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-15",
+      "properties": {
+        "report_id": "iem-lsr-DTX-15",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609030435",
+        "standard_time_display": "2026-09-02 23:35 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "3 E Detroit",
+        "state": "MI",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": "Measured wind gust at Belle Isle."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.99,
+          42.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-16",
+      "properties": {
+        "report_id": "iem-lsr-DTX-16",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030638",
+        "standard_time_display": "2026-09-03 01:38 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Macomb",
+        "city": "2 SW Center Line",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Multiple Trees Down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.05,
+          42.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-17",
+      "properties": {
+        "report_id": "iem-lsr-DTX-17",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609030649",
+        "standard_time_display": "2026-09-03 01:49 EST",
+        "wfo": "DTX",
+        "county_or_zone": "LCZ460",
+        "city": "Grosse Pointe YC",
+        "state": "MI",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.87,
+          42.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-18",
+      "properties": {
+        "report_id": "iem-lsr-DTX-18",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609030651",
+        "standard_time_display": "2026-09-03 01:51 EST",
+        "wfo": "DTX",
+        "county_or_zone": "LCZ460",
+        "city": "Peche Island Light",
+        "state": "MI",
+        "magnitude": 54.0,
+        "magnitude_units": null,
+        "source": "C-Man Station",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.91,
+          42.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-19",
+      "properties": {
+        "report_id": "iem-lsr-DTX-19",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030742",
+        "standard_time_display": "2026-09-03 02:42 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "Harper Woods",
+        "state": "MI",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Multiple large tree branches down. Roof damage to a house caused by a large tree branch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.93,
+          42.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-20",
+      "properties": {
+        "report_id": "iem-lsr-DTX-20",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609030900",
+        "standard_time_display": "2026-09-03 04:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Macomb",
+        "city": "2 NNW Saint Clair Shore",
+        "state": "MI",
+        "magnitude": 1.31,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-MB-33 Roseville 1.7 ENE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9,
+          42.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-21",
+      "properties": {
+        "report_id": "iem-lsr-DTX-21",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031015",
+        "standard_time_display": "2026-09-03 05:15 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "3 NW White Lake",
+        "state": "MI",
+        "magnitude": 1.21,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-77 White Lake 0.5 E. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.55,
+          42.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-22",
+      "properties": {
+        "report_id": "iem-lsr-DTX-22",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031035",
+        "standard_time_display": "2026-09-03 05:35 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "1 N Royal Oak",
+        "state": "MI",
+        "magnitude": 2.34,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-141 1 N Royal Oak. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.15,
+          42.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-23",
+      "properties": {
+        "report_id": "iem-lsr-DTX-23",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031045",
+        "standard_time_display": "2026-09-03 05:45 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Macomb",
+        "city": "4 ENE Northeast Detroit",
+        "state": "MI",
+        "magnitude": 2.04,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-MB-73 Eastpointe 1.2 SSW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.96,
+          42.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-24",
+      "properties": {
+        "report_id": "iem-lsr-DTX-24",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031049",
+        "standard_time_display": "2026-09-03 05:49 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "Troy",
+        "state": "MI",
+        "magnitude": 1.12,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "12 hour rainfall total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.14,
+          42.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-25",
+      "properties": {
+        "report_id": "iem-lsr-DTX-25",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Livingston",
+        "city": "4 N Chilson",
+        "state": "MI",
+        "magnitude": 1.04,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-LV-24 Howell 4.9 ESE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.85,
+          42.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-26",
+      "properties": {
+        "report_id": "iem-lsr-DTX-26",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "3 SSW White Lake",
+        "state": "MI",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-144 Milford 4.0 ENE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.53,
+          42.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-27",
+      "properties": {
+        "report_id": "iem-lsr-DTX-27",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "1 SSW Waterford",
+        "state": "MI",
+        "magnitude": 1.27,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-192 Waterford 1.2 SSW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4,
+          42.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-28",
+      "properties": {
+        "report_id": "iem-lsr-DTX-28",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "2 NE Livonia",
+        "state": "MI",
+        "magnitude": 1.33,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-WY-52 Livonia 2.0 NE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.34,
+          42.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-29",
+      "properties": {
+        "report_id": "iem-lsr-DTX-29",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "2 SW Grosse Pointe",
+        "state": "MI",
+        "magnitude": 1.41,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-WY-182 1 SW Grosse Pointe. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.93,
+          42.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-30",
+      "properties": {
+        "report_id": "iem-lsr-DTX-30",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "2 NE Birmingham",
+        "state": "MI",
+        "magnitude": 1.44,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-190 Troy 3.0 WSW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2,
+          42.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-31",
+      "properties": {
+        "report_id": "iem-lsr-DTX-31",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "1 WSW Farmington",
+        "state": "MI",
+        "magnitude": 1.54,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-125 Farmington Hills 2.4 SSW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4,
+          42.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-32",
+      "properties": {
+        "report_id": "iem-lsr-DTX-32",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "Bloomfield Hills",
+        "state": "MI",
+        "magnitude": 1.83,
+        "magnitude_units": null,
+        "source": "Co-Op Observer",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.25,
+          42.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-33",
+      "properties": {
+        "report_id": "iem-lsr-DTX-33",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "1 SSE Farmington",
+        "state": "MI",
+        "magnitude": 2.11,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-184 Farmington Hills 2.7 SSE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.36,
+          42.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-34",
+      "properties": {
+        "report_id": "iem-lsr-DTX-34",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031100",
+        "standard_time_display": "2026-09-03 06:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "4 WSW Orchard Lake",
+        "state": "MI",
+        "magnitude": 2.17,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-149 Commerce Charter Twp 1.8 ESE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.45,
+          42.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-35",
+      "properties": {
+        "report_id": "iem-lsr-DTX-35",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031115",
+        "standard_time_display": "2026-09-03 06:15 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Macomb",
+        "city": "1 WNW Warren",
+        "state": "MI",
+        "magnitude": 1.82,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-MB-96 Warren 1.2 WNW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.05,
+          42.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-36",
+      "properties": {
+        "report_id": "iem-lsr-DTX-36",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031130",
+        "standard_time_display": "2026-09-03 06:30 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "1 ENE Farmington",
+        "state": "MI",
+        "magnitude": 1.96,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "CO-OP Observer station FARM4 0.6 E Farmington. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.37,
+          42.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-37",
+      "properties": {
+        "report_id": "iem-lsr-DTX-37",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031142",
+        "standard_time_display": "2026-09-03 06:42 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "5 NNW Novi",
+        "state": "MI",
+        "magnitude": 2.18,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-OK-53 Wixom 1.3 NE. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.52,
+          42.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-38",
+      "properties": {
+        "report_id": "iem-lsr-DTX-38",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031145",
+        "standard_time_display": "2026-09-03 06:45 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Wayne",
+        "city": "2 S Farmington",
+        "state": "MI",
+        "magnitude": 1.93,
+        "magnitude_units": null,
+        "source": "Cocorahs",
+        "event_narrative": "Cocorahs station MI-WY-33 Livonia 2.3 NNW. The period of the Rain event was 24 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.38,
+          42.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DTX-39",
+      "properties": {
+        "report_id": "iem-lsr-DTX-39",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031200",
+        "standard_time_display": "2026-09-03 07:00 EST",
+        "wfo": "DTX",
+        "county_or_zone": "Oakland",
+        "city": "Beverly Hills",
+        "state": "MI",
+        "magnitude": 2.23,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "24 hour rainfall total"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22,
+          42.52
+        ]
+      }
+    }
+  ]
 }

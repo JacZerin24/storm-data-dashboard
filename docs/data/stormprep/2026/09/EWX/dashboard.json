@@ -6,7 +6,7 @@
     "wfo": "EWX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:26Z",
+    "generated_utc": "2026-09-03T13:33:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "EWX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "other": 2
+    },
+    "candidate_report_type_counts": {
+      "LANDSPOUT": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EWX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-EWX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022125",
+      "standard_time_display": "2026-09-02 15:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "LANDSPOUT",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Serenada",
+      "county": "Williamson",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Corrects previous landspout report from 3 ENE Serenada. Pictures and videos of a possible landspout or dust devil between SH 195 and I-35 to the north of Georgetown. Evidence could support either pos",
+      "lat": 30.72,
+      "lon": -97.65,
+      "ugc": "TXC491",
+      "ugc_name": "Williamson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022125",
+      "standard_time_display": "2026-09-02 15:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "LANDSPOUT",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Serenada",
+      "county": "Williamson",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Pictures and videos of a landspout with a weak shower in the vicinity between SH 195 and I-35 to the north of Georgetown. Estimated time based on reports and when radar matches time with shower nearb",
+      "lat": 30.72,
+      "lon": -97.65,
+      "ugc": "TXC491",
+      "ugc_name": "Williamson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "EWX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-02T13:36:27Z"
+      "generated_utc": "2026-09-03T13:33:11Z"
     },
     "primary_links": [
       {

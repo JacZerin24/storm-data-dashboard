@@ -7,7 +7,7 @@
     "wfo": "DMX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:21Z",
+    "generated_utc": "2026-09-03T13:33:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,58 @@
       "id": "iem-lsr-DMX-1",
       "properties": {
         "report_id": "iem-lsr-DMX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020815",
+        "standard_time_display": "2026-09-02 02:15 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Hancock",
+        "city": "4 W Britt",
+        "state": "IA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "2 power poles broken and a photo with damage to a grain bin roof. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.88,
+          43.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-2",
+      "properties": {
+        "report_id": "iem-lsr-DMX-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609020820",
+        "standard_time_display": "2026-09-02 02:20 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Hancock",
+        "city": "4 N Britt",
+        "state": "IA",
+        "magnitude": 87.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Delayed report. Peak wind gust from a personal weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8,
+          43.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-3",
+      "properties": {
+        "report_id": "iem-lsr-DMX-3",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609020835",
@@ -38,6 +90,32 @@
         "coordinates": [
           -93.63,
           43.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-4",
+      "properties": {
+        "report_id": "iem-lsr-DMX-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030810",
+        "standard_time_display": "2026-09-03 02:10 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Kossuth",
+        "city": "Algona",
+        "state": "IA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Trained spotter reports several large branches down and a tree split and blocking the street. Appears to be limited to just his block. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.23,
+          43.07
         ]
       }
     }

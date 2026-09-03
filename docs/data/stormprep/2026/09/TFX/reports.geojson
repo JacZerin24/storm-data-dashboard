@@ -7,12 +7,2275 @@
     "wfo": "TFX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:37:35Z",
+    "generated_utc": "2026-09-03T13:34:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TFX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-1",
+      "properties": {
+        "report_id": "iem-lsr-TFX-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021759",
+        "standard_time_display": "2026-09-02 10:59 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "4 NE Lima",
+        "state": "MT",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station LMRM8 Antelope RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.54,
+          44.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-2",
+      "properties": {
+        "report_id": "iem-lsr-TFX-2",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021830",
+        "standard_time_display": "2026-09-02 11:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Madison",
+        "city": "4 NNE Mcallister",
+        "state": "MT",
+        "magnitude": 51.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTNOR Norris Hill (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-3",
+      "properties": {
+        "report_id": "iem-lsr-TFX-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609021835",
+        "standard_time_display": "2026-09-02 11:35 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "Wisdom",
+        "state": "MT",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Pea sized hail falling near Wisdom...at fire camp."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.45,
+          45.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-4",
+      "properties": {
+        "report_id": "iem-lsr-TFX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021915",
+        "standard_time_display": "2026-09-02 12:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "8 NE Bannack",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTM14 BLM - Argenta."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.88,
+          45.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-5",
+      "properties": {
+        "report_id": "iem-lsr-TFX-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609021926",
+        "standard_time_display": "2026-09-02 12:26 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Beaverhead",
+        "city": "5 ENE Dillon",
+        "state": "MT",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KDLN Dillon Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.55,
+          45.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-6",
+      "properties": {
+        "report_id": "iem-lsr-TFX-6",
+        "report_type": "HIGH SUST WINDS",
+        "event_category": "other",
+        "valid_utc": "202609021930",
+        "standard_time_display": "2026-09-02 12:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Madison",
+        "city": "4 NNE Mcallister",
+        "state": "MT",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTNOR Norris Hill (MT DOT). Sustained winds averaged 40 mph from 12:30 PM-1:30 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-7",
+      "properties": {
+        "report_id": "iem-lsr-TFX-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022028",
+        "standard_time_display": "2026-09-02 13:28 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "11 W Helena",
+        "state": "MT",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.25,
+          46.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-8",
+      "properties": {
+        "report_id": "iem-lsr-TFX-8",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022030",
+        "standard_time_display": "2026-09-02 13:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Madison",
+        "city": "4 NNE Mcallister",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTNOR Norris Hill (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-9",
+      "properties": {
+        "report_id": "iem-lsr-TFX-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022045",
+        "standard_time_display": "2026-09-02 13:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "2 SE Wickes",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTBOU Boulder Hill (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07,
+          46.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-10",
+      "properties": {
+        "report_id": "iem-lsr-TFX-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022045",
+        "standard_time_display": "2026-09-02 13:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "10 SE Boulder",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTBLS Boulder South Mt-69 Mp 27.7."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98,
+          46.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-11",
+      "properties": {
+        "report_id": "iem-lsr-TFX-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022045",
+        "standard_time_display": "2026-09-02 13:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "8 SSW Wolf Creek",
+        "state": "MT",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTSBN Sieben Flats - MDT."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.11,
+          46.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-12",
+      "properties": {
+        "report_id": "iem-lsr-TFX-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022045",
+        "standard_time_display": "2026-09-02 13:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "Helena",
+        "state": "MT",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.02,
+          46.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-13",
+      "properties": {
+        "report_id": "iem-lsr-TFX-13",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022050",
+        "standard_time_display": "2026-09-02 13:50 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "16 SE Augusta",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BNWM8 Bowmans Corner Nw."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.17,
+          47.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-14",
+      "properties": {
+        "report_id": "iem-lsr-TFX-14",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022052",
+        "standard_time_display": "2026-09-02 13:52 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "14 SW Simms",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K1GM Golf."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1,
+          47.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-15",
+      "properties": {
+        "report_id": "iem-lsr-TFX-15",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022053",
+        "standard_time_display": "2026-09-02 13:53 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "2 ENE Helena",
+        "state": "MT",
+        "magnitude": 71.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "71 mph wind gust at the Helena Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99,
+          46.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-16",
+      "properties": {
+        "report_id": "iem-lsr-TFX-16",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022100",
+        "standard_time_display": "2026-09-02 14:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "6 ESE East Helena",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTSPK Spokane Creek Us-287 Mp 55.7."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.79,
+          46.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-17",
+      "properties": {
+        "report_id": "iem-lsr-TFX-17",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022100",
+        "standard_time_display": "2026-09-02 14:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "17 SW Simms",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTBOW Bowmans (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.15,
+          47.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-18",
+      "properties": {
+        "report_id": "iem-lsr-TFX-18",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022100",
+        "standard_time_display": "2026-09-02 14:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Madison",
+        "city": "4 NNE Mcallister",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTNOR Norris Hill (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-19",
+      "properties": {
+        "report_id": "iem-lsr-TFX-19",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022100",
+        "standard_time_display": "2026-09-02 14:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "7 NE Craig",
+        "state": "MT",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTYEP MDT - Gary Cooper Bridge - Dearborn."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86,
+          47.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-20",
+      "properties": {
+        "report_id": "iem-lsr-TFX-20",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022101",
+        "standard_time_display": "2026-09-02 14:01 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "3 ENE Wolf Creek",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station EW3831 Wolf Creek."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.01,
+          47.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-21",
+      "properties": {
+        "report_id": "iem-lsr-TFX-21",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022105",
+        "standard_time_display": "2026-09-02 14:05 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "7 NNE Augusta",
+        "state": "MT",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station AGNM8 Augusta N."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.36,
+          47.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-22",
+      "properties": {
+        "report_id": "iem-lsr-TFX-22",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022110",
+        "standard_time_display": "2026-09-02 14:10 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "8 SSE Fort  Shaw",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SURM8 Sun River Se."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.72,
+          47.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-23",
+      "properties": {
+        "report_id": "iem-lsr-TFX-23",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022115",
+        "standard_time_display": "2026-09-02 14:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Broadwater",
+        "city": "3 WNW Townsend",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GINM8 Ginger RAWS. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.59,
+          46.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-24",
+      "properties": {
+        "report_id": "iem-lsr-TFX-24",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022115",
+        "standard_time_display": "2026-09-02 14:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "6 ESE East Helena",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTSPK Spokane Creek Us-287 Mp 55.7."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.79,
+          46.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-25",
+      "properties": {
+        "report_id": "iem-lsr-TFX-25",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022115",
+        "standard_time_display": "2026-09-02 14:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "12 NNE Augusta",
+        "state": "MT",
+        "magnitude": 68.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station HODMT Hodgkiss."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.29,
+          47.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-26",
+      "properties": {
+        "report_id": "iem-lsr-TFX-26",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022115",
+        "standard_time_display": "2026-09-02 14:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "8 SSW Choteau",
+        "state": "MT",
+        "magnitude": 77.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTCTS Choteau South Us-287 Mp 56.0."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.23,
+          47.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-27",
+      "properties": {
+        "report_id": "iem-lsr-TFX-27",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022120",
+        "standard_time_display": "2026-09-02 14:20 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "5 NNE Fairfield",
+        "state": "MT",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station FARM8 Fairfield."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94,
+          47.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-28",
+      "properties": {
+        "report_id": "iem-lsr-TFX-28",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022124",
+        "standard_time_display": "2026-09-02 14:24 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "14 SW Bynum",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Wind was strong enough to throw two (2) chairs_ each weighing 50lbs_ approximately 25 feet across the yard."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.51,
+          47.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-29",
+      "properties": {
+        "report_id": "iem-lsr-TFX-29",
+        "report_type": "HIGH SUST WINDS",
+        "event_category": "other",
+        "valid_utc": "202609022125",
+        "standard_time_display": "2026-09-02 14:25 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "Ulm",
+        "state": "MT",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Range of sustained winds 40-50 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.51,
+          47.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-30",
+      "properties": {
+        "report_id": "iem-lsr-TFX-30",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022129",
+        "standard_time_display": "2026-09-02 14:29 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "13 SW Augusta",
+        "state": "MT",
+        "magnitude": 71.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station TR276 L-C Portable No. 1."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.55,
+          47.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-31",
+      "properties": {
+        "report_id": "iem-lsr-TFX-31",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022130",
+        "standard_time_display": "2026-09-02 14:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "6 N Choteau",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station TRFM Teton River - Agrimet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.16,
+          47.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-32",
+      "properties": {
+        "report_id": "iem-lsr-TFX-32",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022130",
+        "standard_time_display": "2026-09-02 14:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "7 SSE Ulm",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "In addition_ dirt in the air."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          47.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-33",
+      "properties": {
+        "report_id": "iem-lsr-TFX-33",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022130",
+        "standard_time_display": "2026-09-02 14:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "4 E Cascade",
+        "state": "MT",
+        "magnitude": 62.43,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.62,
+          47.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-34",
+      "properties": {
+        "report_id": "iem-lsr-TFX-34",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022130",
+        "standard_time_display": "2026-09-02 14:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "5 NE Craig",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DBOM8 Dearborn RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9,
+          47.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-35",
+      "properties": {
+        "report_id": "iem-lsr-TFX-35",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022130",
+        "standard_time_display": "2026-09-02 14:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "8 S Sun River",
+        "state": "MT",
+        "magnitude": 70.2,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.72,
+          47.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-36",
+      "properties": {
+        "report_id": "iem-lsr-TFX-36",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022131",
+        "standard_time_display": "2026-09-02 14:31 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "7 ENE Power",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K1JM 6 ENE Power."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.55,
+          47.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-37",
+      "properties": {
+        "report_id": "iem-lsr-TFX-37",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022135",
+        "standard_time_display": "2026-09-02 14:35 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "10 NNE Vaughn",
+        "state": "MT",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BLWM8 Benton Lake W."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.47,
+          47.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-38",
+      "properties": {
+        "report_id": "iem-lsr-TFX-38",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022140",
+        "standard_time_display": "2026-09-02 14:40 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "11 SSE Ulm",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "59 mph thunderstorm wind gust. Time estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.43,
+          47.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-39",
+      "properties": {
+        "report_id": "iem-lsr-TFX-39",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022140",
+        "standard_time_display": "2026-09-02 14:40 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "8 WSW Stockett",
+        "state": "MT",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station ENWM8 Eden Nw."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.33,
+          47.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-40",
+      "properties": {
+        "report_id": "iem-lsr-TFX-40",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022141",
+        "standard_time_display": "2026-09-02 14:41 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "1 ESE Malmstrom Afb",
+        "state": "MT",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KGFA Malmstrom AFB."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.17,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-41",
+      "properties": {
+        "report_id": "iem-lsr-TFX-41",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022143",
+        "standard_time_display": "2026-09-02 14:43 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "Ulm",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "In addition_ sustained winds of 40-50 mph unknown time frame for sustained winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.51,
+          47.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-42",
+      "properties": {
+        "report_id": "iem-lsr-TFX-42",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022145",
+        "standard_time_display": "2026-09-02 14:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "6 N Dutton",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTTRV Teton River I-15 Mp 319.0."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.74,
+          47.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-43",
+      "properties": {
+        "report_id": "iem-lsr-TFX-43",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022145",
+        "standard_time_display": "2026-09-02 14:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "8 WNW Brady",
+        "state": "MT",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station RADM8 Midway Colony."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.01,
+          48.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-44",
+      "properties": {
+        "report_id": "iem-lsr-TFX-44",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022145",
+        "standard_time_display": "2026-09-02 14:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "9 W Bynum",
+        "state": "MT",
+        "magnitude": 71.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BYUM8 Bynum W."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.49,
+          47.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-45",
+      "properties": {
+        "report_id": "iem-lsr-TFX-45",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022146",
+        "standard_time_display": "2026-09-02 14:46 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "7 ENE Power",
+        "state": "MT",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K1JM 6 ENE Power."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.55,
+          47.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-46",
+      "properties": {
+        "report_id": "iem-lsr-TFX-46",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022150",
+        "standard_time_display": "2026-09-02 14:50 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "5 NW Belt",
+        "state": "MT",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station ELTM8 Belt Nw."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.02,
+          47.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-47",
+      "properties": {
+        "report_id": "iem-lsr-TFX-47",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022153",
+        "standard_time_display": "2026-09-02 14:53 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "5 WSW Great Falls",
+        "state": "MT",
+        "magnitude": 83.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KGTF Great Falls Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.38,
+          47.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-48",
+      "properties": {
+        "report_id": "iem-lsr-TFX-48",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022155",
+        "standard_time_display": "2026-09-02 14:55 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "8 SSE Ulm",
+        "state": "MT",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station K1IM India."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.47,
+          47.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-49",
+      "properties": {
+        "report_id": "iem-lsr-TFX-49",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022155",
+        "standard_time_display": "2026-09-02 14:55 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "5 NW Belt",
+        "state": "MT",
+        "magnitude": 70.93,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.02,
+          47.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-50",
+      "properties": {
+        "report_id": "iem-lsr-TFX-50",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022200",
+        "standard_time_display": "2026-09-02 15:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "9 ENE Brady",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BRYM8 Brady Ne."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.66,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-51",
+      "properties": {
+        "report_id": "iem-lsr-TFX-51",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022200",
+        "standard_time_display": "2026-09-02 15:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "5 ESE Pendroy",
+        "state": "MT",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station RICMT Rice Ridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2,
+          48.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-52",
+      "properties": {
+        "report_id": "iem-lsr-TFX-52",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022200",
+        "standard_time_display": "2026-09-02 15:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "6 SE Dutton",
+        "state": "MT",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DAHMT Dahlman."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6,
+          47.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-53",
+      "properties": {
+        "report_id": "iem-lsr-TFX-53",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022200",
+        "standard_time_display": "2026-09-02 15:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "1 WSW Sun Prairie",
+        "state": "MT",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station FW5493 Vaughn."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5,
+          47.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-54",
+      "properties": {
+        "report_id": "iem-lsr-TFX-54",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022200",
+        "standard_time_display": "2026-09-02 15:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "7 ESE Floweree",
+        "state": "MT",
+        "magnitude": 69.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station HIWM8 Highwood Bench."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9,
+          47.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-55",
+      "properties": {
+        "report_id": "iem-lsr-TFX-55",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022205",
+        "standard_time_display": "2026-09-02 15:05 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "Highwood Bench",
+        "state": "MT",
+        "magnitude": 80.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9,
+          47.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-56",
+      "properties": {
+        "report_id": "iem-lsr-TFX-56",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022210",
+        "standard_time_display": "2026-09-02 15:10 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "6 WNW Ledger",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station CNNM8 Conrad N."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92,
+          48.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-57",
+      "properties": {
+        "report_id": "iem-lsr-TFX-57",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022215",
+        "standard_time_display": "2026-09-02 15:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "11 NNE The Knees",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW3488 TIBER DAM TWELVE SOUTH."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.17,
+          48.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-58",
+      "properties": {
+        "report_id": "iem-lsr-TFX-58",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022215",
+        "standard_time_display": "2026-09-02 15:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "2 NW Pendroy",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTPND Pendroy (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.33,
+          48.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-59",
+      "properties": {
+        "report_id": "iem-lsr-TFX-59",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022215",
+        "standard_time_display": "2026-09-02 15:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "17 N Carter",
+        "state": "MT",
+        "magnitude": 58.63,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.99,
+          48.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-60",
+      "properties": {
+        "report_id": "iem-lsr-TFX-60",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022216",
+        "standard_time_display": "2026-09-02 15:16 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "6 WNW Ledger",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTVAR Valier Jct 1-15 Mp 347.0."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94,
+          48.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-61",
+      "properties": {
+        "report_id": "iem-lsr-TFX-61",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022225",
+        "standard_time_display": "2026-09-02 15:25 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "7 N Dupuyer",
+        "state": "MT",
+        "magnitude": 59.75,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.55,
+          48.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-62",
+      "properties": {
+        "report_id": "iem-lsr-TFX-62",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022225",
+        "standard_time_display": "2026-09-02 15:25 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "10 S Fort Benton",
+        "state": "MT",
+        "magnitude": 76.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DVI04529 Fort Benton."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.63,
+          47.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-63",
+      "properties": {
+        "report_id": "iem-lsr-TFX-63",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022230",
+        "standard_time_display": "2026-09-02 15:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "9 ESE East Glacier Park",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DOGM8 Dog Gun Lake E."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.06,
+          48.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-64",
+      "properties": {
+        "report_id": "iem-lsr-TFX-64",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022230",
+        "standard_time_display": "2026-09-02 15:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Judith Basin",
+        "city": "2 SSE Geyser",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTGYS Geyser (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.48,
+          47.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-65",
+      "properties": {
+        "report_id": "iem-lsr-TFX-65",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022230",
+        "standard_time_display": "2026-09-02 15:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "11 NE The Knees",
+        "state": "MT",
+        "magnitude": 63.01,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.17,
+          48.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-66",
+      "properties": {
+        "report_id": "iem-lsr-TFX-66",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022235",
+        "standard_time_display": "2026-09-02 15:35 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "2 NNW Shelby",
+        "state": "MT",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS station KSBX 2 NNW Shelby."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87,
+          48.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-67",
+      "properties": {
+        "report_id": "iem-lsr-TFX-67",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022239",
+        "standard_time_display": "2026-09-02 15:39 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "Chester",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Spotter reported several trees down in Chester_ Power outage until around 6:15 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.96,
+          48.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-68",
+      "properties": {
+        "report_id": "iem-lsr-TFX-68",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022240",
+        "standard_time_display": "2026-09-02 15:40 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "1 NE Loma",
+        "state": "MT",
+        "magnitude": 64.22,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.49,
+          47.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-69",
+      "properties": {
+        "report_id": "iem-lsr-TFX-69",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022245",
+        "standard_time_display": "2026-09-02 15:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "7 NW Devon",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.56,
+          48.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-70",
+      "properties": {
+        "report_id": "iem-lsr-TFX-70",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022245",
+        "standard_time_display": "2026-09-02 15:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "3 SW Cut Bank",
+        "state": "MT",
+        "magnitude": 70.2,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.38,
+          48.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-71",
+      "properties": {
+        "report_id": "iem-lsr-TFX-71",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022250",
+        "standard_time_display": "2026-09-02 15:50 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "4 NNW Ethridge",
+        "state": "MT",
+        "magnitude": 70.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station ETNM8 Ethridge N."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.15,
+          48.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-72",
+      "properties": {
+        "report_id": "iem-lsr-TFX-72",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022255",
+        "standard_time_display": "2026-09-02 15:55 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "Kevin",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DW0975 Kevin."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.97,
+          48.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-73",
+      "properties": {
+        "report_id": "iem-lsr-TFX-73",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022300",
+        "standard_time_display": "2026-09-02 16:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "11 S Rudyard",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW3530 RUDYARD ELEVEN SOUTH."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.56,
+          48.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-74",
+      "properties": {
+        "report_id": "iem-lsr-TFX-74",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022300",
+        "standard_time_display": "2026-09-02 16:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "Joplin",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW0416 Joplin."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.76,
+          48.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-75",
+      "properties": {
+        "report_id": "iem-lsr-TFX-75",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022300",
+        "standard_time_display": "2026-09-02 16:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "13 N Chester",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DW4776 Chester."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.98,
+          48.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-76",
+      "properties": {
+        "report_id": "iem-lsr-TFX-76",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022305",
+        "standard_time_display": "2026-09-02 16:05 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Pondera",
+        "city": "9 ENE Brady",
+        "state": "MT",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station BRYM8 Brady Ne."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.66,
+          48.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-77",
+      "properties": {
+        "report_id": "iem-lsr-TFX-77",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022305",
+        "standard_time_display": "2026-09-02 16:05 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "11 N Inverness",
+        "state": "MT",
+        "magnitude": 69.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station INNM8 Inverness N."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.71,
+          48.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-78",
+      "properties": {
+        "report_id": "iem-lsr-TFX-78",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022315",
+        "standard_time_display": "2026-09-02 16:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "Sunburst",
+        "state": "MT",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTSUN Sunburst (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9,
+          48.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-79",
+      "properties": {
+        "report_id": "iem-lsr-TFX-79",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022315",
+        "standard_time_display": "2026-09-02 16:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "6 SSE Gildford",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW6390 Gildford 6se."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.25,
+          48.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-80",
+      "properties": {
+        "report_id": "iem-lsr-TFX-80",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022315",
+        "standard_time_display": "2026-09-02 16:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "17 N Joplin",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW0625 Joplin 17 North."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.77,
+          48.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-81",
+      "properties": {
+        "report_id": "iem-lsr-TFX-81",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022320",
+        "standard_time_display": "2026-09-02 16:20 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "6 SSE Gildford",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW6390 Gildford 6se."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.25,
+          48.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-82",
+      "properties": {
+        "report_id": "iem-lsr-TFX-82",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022320",
+        "standard_time_display": "2026-09-02 16:20 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "6 WNW Sunburst",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SBSM8 Sunburst Nw."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.02,
+          48.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-83",
+      "properties": {
+        "report_id": "iem-lsr-TFX-83",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022330",
+        "standard_time_display": "2026-09-02 16:30 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Toole",
+        "city": "6 NNW Sunburst",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTSWT Sweetgrass (MT DOT)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94,
+          48.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-84",
+      "properties": {
+        "report_id": "iem-lsr-TFX-84",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022337",
+        "standard_time_display": "2026-09-02 16:37 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "1 N Havre",
+        "state": "MT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Estimated 72 mph peak gust. Blowing dust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.68,
+          48.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-85",
+      "properties": {
+        "report_id": "iem-lsr-TFX-85",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022340",
+        "standard_time_display": "2026-09-02 16:40 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Hill",
+        "city": "12 N Gildford",
+        "state": "MT",
+        "magnitude": 65.58,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.22,
+          48.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-86",
+      "properties": {
+        "report_id": "iem-lsr-TFX-86",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609022345",
+        "standard_time_display": "2026-09-02 16:45 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Liberty",
+        "city": "15 E Whitlash",
+        "state": "MT",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.91,
+          48.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-87",
+      "properties": {
+        "report_id": "iem-lsr-TFX-87",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609030015",
+        "standard_time_display": "2026-09-02 17:15 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Fergus",
+        "city": "9 SSE Grass Range",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTBCH Beacon Hill Us-87 Mp 35.0."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.74,
+          46.9
+        ]
+      }
+    }
+  ]
 }

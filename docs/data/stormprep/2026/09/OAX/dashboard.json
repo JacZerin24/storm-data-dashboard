@@ -6,7 +6,7 @@
     "wfo": "OAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:37:07Z",
+    "generated_utc": "2026-09-03T13:33:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 9,
     "wfo": "OAX",
-    "total_candidate_reports": 18,
-    "mapped_candidate_reports": 18,
+    "total_candidate_reports": 26,
+    "mapped_candidate_reports": 26,
     "candidate_report_counts": {
-      "hail": 9,
-      "thunderstorm_wind": 9
+      "hail": 11,
+      "thunderstorm_wind": 15
     },
     "candidate_report_type_counts": {
-      "HAIL": 9,
-      "TSTM WND DMG": 5,
-      "TSTM WND GST": 4
+      "HAIL": 11,
+      "TSTM WND DMG": 7,
+      "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -51,6 +51,28 @@
     {
       "report_id": "iem-lsr-OAX-1",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020040",
+      "standard_time_display": "2026-09-01 18:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SW Niobrara",
+      "county": "Knox",
+      "state": "NE",
+      "source": "Emergency Mngr",
+      "remark": "Camper blown over_ damage to trees_ and window damage_ possibly from wind-driven hail. Time estimated from radar.",
+      "lat": 42.71,
+      "lon": -98.07,
+      "ugc": "NEC107",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020041",
       "standard_time_display": "2026-09-01 18:41 CST",
       "standard_time_zone": "CST",
@@ -71,7 +93,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-2",
+      "report_id": "iem-lsr-OAX-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020044",
       "standard_time_display": "2026-09-01 18:44 CST",
@@ -93,7 +115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-3",
+      "report_id": "iem-lsr-OAX-4",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020045",
       "standard_time_display": "2026-09-01 18:45 CST",
@@ -115,7 +137,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-4",
+      "report_id": "iem-lsr-OAX-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020057",
       "standard_time_display": "2026-09-01 18:57 CST",
@@ -137,7 +159,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-5",
+      "report_id": "iem-lsr-OAX-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020058",
       "standard_time_display": "2026-09-01 18:58 CST",
@@ -159,7 +181,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-6",
+      "report_id": "iem-lsr-OAX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020107",
+      "standard_time_display": "2026-09-01 19:07 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 2.5,
+      "magnitude_qualifier": null,
+      "city": "8 SE Santee",
+      "county": "Knox",
+      "state": "NE",
+      "source": "Trained Spotter",
+      "remark": "Wind driven hail with wind estimated at over 70 mph. Windows knocked out on west side of home. Time estimated from radar.",
+      "lat": 42.76,
+      "lon": -97.74,
+      "ugc": "NEC107",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020107",
+      "standard_time_display": "2026-09-01 19:07 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "8 SE Santee",
+      "county": "Knox",
+      "state": "NE",
+      "source": "Trained Spotter",
+      "remark": "Estimated gusts of at least 70 mph with tennis ball sized hail. Windows knocked out on west side of home. Damage to vehicles_ grain bins_ trees_ outbuildings_ and power lines in the area as well. Tim",
+      "lat": 42.76,
+      "lon": -97.74,
+      "ugc": "NEC107",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020110",
+      "standard_time_display": "2026-09-01 19:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 102.0,
+      "magnitude_qualifier": null,
+      "city": "11 N Bloomfield",
+      "county": "Knox",
+      "state": "NE",
+      "source": "Mesonet",
+      "remark": "Measured by Nebraska Mesonet Site.",
+      "lat": 42.76,
+      "lon": -97.65,
+      "ugc": "NEC107",
+      "ugc_name": "Knox",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020119",
       "standard_time_display": "2026-09-01 19:19 CST",
@@ -181,7 +269,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-7",
+      "report_id": "iem-lsr-OAX-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020121",
       "standard_time_display": "2026-09-01 19:21 CST",
@@ -203,7 +291,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-8",
+      "report_id": "iem-lsr-OAX-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020123",
       "standard_time_display": "2026-09-01 19:23 CST",
@@ -225,7 +313,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-9",
+      "report_id": "iem-lsr-OAX-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020125",
       "standard_time_display": "2026-09-01 19:25 CST",
@@ -247,7 +335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-10",
+      "report_id": "iem-lsr-OAX-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020125",
       "standard_time_display": "2026-09-01 19:25 CST",
@@ -269,7 +357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-11",
+      "report_id": "iem-lsr-OAX-15",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020132",
       "standard_time_display": "2026-09-01 19:32 CST",
@@ -291,7 +379,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-12",
+      "report_id": "iem-lsr-OAX-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020133",
+      "standard_time_display": "2026-09-01 19:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 113.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Fordyce",
+      "county": "Cedar",
+      "state": "NE",
+      "source": "Mesonet",
+      "remark": "Measured by Nebraska Mesonet Site near Fordyce.",
+      "lat": 42.75,
+      "lon": -97.39,
+      "ugc": "NEC027",
+      "ugc_name": "Cedar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020134",
+      "standard_time_display": "2026-09-01 19:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 110.0,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Fordyce",
+      "county": "Cedar",
+      "state": "NE",
+      "source": "Mesonet",
+      "remark": "Corrects previous tstm wnd gst report from 4 NNE Fordyce. Wind gust of 98 mph measured by Nebraska Mesonet Station near Fordyce.",
+      "lat": 42.75,
+      "lon": -97.35,
+      "ugc": "NEC027",
+      "ugc_name": "Cedar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020145",
       "standard_time_display": "2026-09-01 19:45 CST",
@@ -313,7 +445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-13",
+      "report_id": "iem-lsr-OAX-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020152",
       "standard_time_display": "2026-09-01 19:52 CST",
@@ -335,7 +467,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-14",
+      "report_id": "iem-lsr-OAX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609020155",
+      "standard_time_display": "2026-09-01 19:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 2.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Brunswick",
+      "county": "Antelope",
+      "state": "NE",
+      "source": "Public",
+      "remark": "Social media photo of hail slightly larger than golf balls.",
+      "lat": 42.32,
+      "lon": -97.97,
+      "ugc": "NEC003",
+      "ugc_name": "Antelope",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020203",
       "standard_time_display": "2026-09-01 20:03 CST",
@@ -357,7 +511,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-15",
+      "report_id": "iem-lsr-OAX-22",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020204",
       "standard_time_display": "2026-09-01 20:04 CST",
@@ -379,7 +533,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-16",
+      "report_id": "iem-lsr-OAX-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020226",
       "standard_time_display": "2026-09-01 20:26 CST",
@@ -401,7 +555,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-17",
+      "report_id": "iem-lsr-OAX-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020241",
       "standard_time_display": "2026-09-01 20:41 CST",
@@ -423,7 +577,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-OAX-18",
+      "report_id": "iem-lsr-OAX-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609020259",
       "standard_time_display": "2026-09-01 20:59 CST",
@@ -443,6 +597,28 @@
       "ugc": "NEC027",
       "ugc_name": "Cedar",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OAX-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609021220",
+      "standard_time_display": "2026-09-02 06:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "OAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Ceresco",
+      "county": "Saunders",
+      "state": "NE",
+      "source": "Emergency Mngr",
+      "remark": "Multiple tree branches down and on houses in Ceresco. Also some windows blown out of a business. Time estimated from radar.",
+      "lat": 41.06,
+      "lon": -96.65,
+      "ugc": "NEC155",
+      "ugc_name": "Saunders",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -451,7 +627,7 @@
       "wfo": "OAX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-02T13:37:08Z"
+      "generated_utc": "2026-09-03T13:33:58Z"
     },
     "primary_links": [
       {

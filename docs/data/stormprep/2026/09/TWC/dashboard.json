@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:37:38Z",
+    "generated_utc": "2026-09-03T13:34:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,16 @@
     "year": 2026,
     "month": 9,
     "wfo": "TWC",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 1
+      "flooding": 3,
+      "other": 1
     },
     "candidate_report_type_counts": {
-      "FLOOD": 1
+      "FLASH FLOOD": 2,
+      "FLOOD": 1,
+      "RAIN": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +69,72 @@
       "ugc": "AZC019",
       "ugc_name": "Pima",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022115",
+      "standard_time_display": "2026-09-02 14:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.44,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Green Valley",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Mesonet",
+      "remark": "Private weather station. Rain fell in about 90 minutes.",
+      "lat": 31.86,
+      "lon": -111.07,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022228",
+      "standard_time_display": "2026-09-02 15:28 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Green Valley",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "911 Call Center",
+      "remark": "Swift Water Rescue.",
+      "lat": 31.87,
+      "lon": -111.06,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022230",
+      "standard_time_display": "2026-09-02 15:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 NE Arivaca",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Video of water rushing across Arivaca Road shared via social media. Reported that multiple washes through Arivaca Road were flowing.",
+      "lat": 31.68,
+      "lon": -111.21,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +143,7 @@
       "wfo": "TWC",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-02T13:37:38Z"
+      "generated_utc": "2026-09-03T13:34:26Z"
     },
     "primary_links": [
       {

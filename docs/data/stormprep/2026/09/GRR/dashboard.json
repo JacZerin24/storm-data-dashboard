@@ -6,7 +6,7 @@
     "wfo": "GRR",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:35Z",
+    "generated_utc": "2026-09-03T13:33:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "GRR",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
+      "hail": 2,
       "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
+      "HAIL": 2,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -66,6 +68,50 @@
       "ugc": "MIC105",
       "ugc_name": "Mason",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRR-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609030232",
+      "standard_time_display": "2026-09-02 21:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GRR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Williamston",
+      "county": "Ingham",
+      "state": "MI",
+      "source": "Public",
+      "remark": "Relayed through Ingham Co Emergency Management.",
+      "lat": 42.69,
+      "lon": -84.28,
+      "ugc": "MIC065",
+      "ugc_name": "Ingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GRR-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609031312",
+      "standard_time_display": "2026-09-03 08:12 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GRR",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.88,
+      "magnitude_qualifier": null,
+      "city": "2 W Springport",
+      "county": "Calhoun",
+      "state": "MI",
+      "source": "Trained Spotter",
+      "remark": "Small 1-2 inch branches also down. Time estimated from radar.",
+      "lat": 42.38,
+      "lon": -84.75,
+      "ugc": "MIC025",
+      "ugc_name": "Calhoun",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GRR&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +120,7 @@
       "wfo": "GRR",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-02T13:36:35Z"
+      "generated_utc": "2026-09-03T13:33:21Z"
     },
     "primary_links": [
       {

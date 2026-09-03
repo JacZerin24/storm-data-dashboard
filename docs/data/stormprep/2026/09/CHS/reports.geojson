@@ -7,12 +7,39 @@
     "wfo": "CHS",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:16Z",
+    "generated_utc": "2026-09-03T13:32:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-1",
+      "properties": {
+        "report_id": "iem-lsr-CHS-1",
+        "report_type": "RIP CURRENTS",
+        "event_category": "marine",
+        "valid_utc": "202609021500",
+        "standard_time_display": "2026-09-02 10:00 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Beaufort",
+        "city": "Forest Beach",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Lifeguard",
+        "event_narrative": "Lifeguards reported a moderate strength rip current leading to 1 rescue approximately 2 miles north of Coligny Beach Park on Hilton Head Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74,
+          32.15
+        ]
+      }
+    }
+  ]
 }

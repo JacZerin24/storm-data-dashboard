@@ -7,12 +7,195 @@
     "wfo": "BIS",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-02T13:36:07Z",
+    "generated_utc": "2026-09-03T13:32:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-1",
+      "properties": {
+        "report_id": "iem-lsr-BIS-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609030840",
+        "standard_time_display": "2026-09-03 01:40 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Williams",
+        "city": "Williston",
+        "state": "ND",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Multiple reports of penny to quarter size hail."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.63,
+          48.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-2",
+      "properties": {
+        "report_id": "iem-lsr-BIS-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609030930",
+        "standard_time_display": "2026-09-03 02:30 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Williams",
+        "city": "Williston",
+        "state": "ND",
+        "magnitude": 1.63,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.63,
+          48.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-3",
+      "properties": {
+        "report_id": "iem-lsr-BIS-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609031014",
+        "standard_time_display": "2026-09-03 04:14 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Ward",
+        "city": "8 SSW Sawyer",
+        "state": "ND",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "10 m wind gust at NDAWN station Sawyer 7 S."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.09,
+          47.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-4",
+      "properties": {
+        "report_id": "iem-lsr-BIS-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031152",
+        "standard_time_display": "2026-09-03 05:52 CST",
+        "wfo": "BIS",
+        "county_or_zone": "Ward",
+        "city": "15 S Minot",
+        "state": "ND",
+        "magnitude": 4.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Very heavy rain fell in about 45 minutes. Also had pea size hail. Passed on to NWS by broadcast media partner."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.3,
+          48.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-5",
+      "properties": {
+        "report_id": "iem-lsr-BIS-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609031200",
+        "standard_time_display": "2026-09-03 06:00 CST",
+        "wfo": "BIS",
+        "county_or_zone": "McHenry",
+        "city": "3 NNE Simcoe",
+        "state": "ND",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Largest hail size reported."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.84,
+          48.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-6",
+      "properties": {
+        "report_id": "iem-lsr-BIS-6",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031220",
+        "standard_time_display": "2026-09-03 05:20 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Williams",
+        "city": "Williston",
+        "state": "ND",
+        "magnitude": 1.63,
+        "magnitude_units": null,
+        "source": "CO-OP Observer",
+        "event_narrative": "Storm total. Fell within 40 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.63,
+          48.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BIS-7",
+      "properties": {
+        "report_id": "iem-lsr-BIS-7",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609031223",
+        "standard_time_display": "2026-09-03 05:23 MST",
+        "wfo": "BIS",
+        "county_or_zone": "Williams",
+        "city": "1 ESE Williston",
+        "state": "ND",
+        "magnitude": 3.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Heavy rainfall on the east side of Williston. Relayed to NWS by broadcast media partner."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.61,
+          48.15
+        ]
+      }
+    }
+  ]
 }
