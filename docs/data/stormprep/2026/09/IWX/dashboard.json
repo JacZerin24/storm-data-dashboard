@@ -6,7 +6,7 @@
     "wfo": "IWX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:33:33Z",
+    "generated_utc": "2026-09-04T13:30:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "IWX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 3
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND DMG": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=IWX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-IWX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609031919",
+      "standard_time_display": "2026-09-03 13:19 CST",
+      "standard_time_zone": "CST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Findley",
+      "county": "St. Joseph",
+      "state": "MI",
+      "source": "Public",
+      "remark": "mPing report of power lines down or broken.",
+      "lat": 41.89,
+      "lon": -85.33,
+      "ugc": "MIC149",
+      "ugc_name": "St. Joseph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032148",
+      "standard_time_display": "2026-09-03 16:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 ESE Pleasant Bend",
+      "county": "Putnam",
+      "state": "OH",
+      "source": "Broadcast Media",
+      "remark": "Tree damage.",
+      "lat": 41.16,
+      "lon": -84.13,
+      "ugc": "OHC137",
+      "ugc_name": "Putnam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-IWX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032159",
+      "standard_time_display": "2026-09-03 16:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "IWX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Leipsic",
+      "county": "Putnam",
+      "state": "OH",
+      "source": "Broadcast Media",
+      "remark": "Tree down in Leipsic.",
+      "lat": 41.1,
+      "lon": -83.99,
+      "ugc": "OHC137",
+      "ugc_name": "Putnam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=IWX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "IWX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-03T13:33:34Z"
+      "generated_utc": "2026-09-04T13:30:33Z"
     },
     "primary_links": [
       {

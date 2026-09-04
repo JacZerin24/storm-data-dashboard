@@ -6,7 +6,7 @@
     "wfo": "BUF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:32:54Z",
+    "generated_utc": "2026-09-04T13:30:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,23 @@
     "year": 2026,
     "month": 9,
     "wfo": "BUF",
-    "total_candidate_reports": 55,
-    "mapped_candidate_reports": 55,
+    "total_candidate_reports": 74,
+    "mapped_candidate_reports": 74,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 12,
       "hail": 3,
       "marine": 1,
-      "thunderstorm_wind": 50
+      "other": 1,
+      "thunderstorm_wind": 54,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 1,
+      "FLASH FLOOD": 12,
       "HAIL": 3,
       "MARINE TSTM WIND": 1,
-      "TSTM WND DMG": 47,
+      "RAIN": 1,
+      "TORNADO": 3,
+      "TSTM WND DMG": 51,
       "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
@@ -37,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BUF&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BUF&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -539,6 +545,28 @@
     {
       "report_id": "iem-lsr-BUF-23",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022207",
+      "standard_time_display": "2026-09-02 17:07 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Olcott",
+      "county": "Niagara",
+      "state": "NY",
+      "source": "NWS Storm Survey",
+      "remark": "The National Weather Service in Buffalo completed a damage survey across Niagara County today in response to reports of concentrated areas of damage near Olcott from a line of severe thunderstorms ye",
+      "lat": 43.34,
+      "lon": -78.71,
+      "ugc": "NYC063",
+      "ugc_name": "Niagara",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-24",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022208",
       "standard_time_display": "2026-09-02 17:08 EST",
       "standard_time_zone": "EST",
@@ -559,7 +587,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-24",
+      "report_id": "iem-lsr-BUF-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022219",
       "standard_time_display": "2026-09-02 17:19 EST",
@@ -581,7 +609,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-25",
+      "report_id": "iem-lsr-BUF-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022220",
       "standard_time_display": "2026-09-02 17:20 EST",
@@ -603,7 +631,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-26",
+      "report_id": "iem-lsr-BUF-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022221",
       "standard_time_display": "2026-09-02 17:21 EST",
@@ -625,7 +653,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-27",
+      "report_id": "iem-lsr-BUF-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022225",
       "standard_time_display": "2026-09-02 17:25 EST",
@@ -647,7 +675,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-28",
+      "report_id": "iem-lsr-BUF-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022229",
       "standard_time_display": "2026-09-02 17:29 EST",
@@ -669,7 +697,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-29",
+      "report_id": "iem-lsr-BUF-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022237",
       "standard_time_display": "2026-09-02 17:37 EST",
@@ -691,7 +719,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-30",
+      "report_id": "iem-lsr-BUF-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022245",
+      "standard_time_display": "2026-09-02 17:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Medina",
+      "county": "Orleans",
+      "state": "NY",
+      "source": "NWS Storm Survey",
+      "remark": "The National Weather Service in Buffalo completed a damage survey across Orleans County today in response to reports of concentrated areas of damage near Shelby from a line of severe thunderstorms ye",
+      "lat": 43.18,
+      "lon": -78.34,
+      "ugc": "NYC073",
+      "ugc_name": "Orleans",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022256",
       "standard_time_display": "2026-09-02 17:56 EST",
@@ -713,7 +763,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-31",
+      "report_id": "iem-lsr-BUF-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022258",
       "standard_time_display": "2026-09-02 17:58 EST",
@@ -735,7 +785,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-32",
+      "report_id": "iem-lsr-BUF-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022315",
       "standard_time_display": "2026-09-02 18:15 EST",
@@ -757,7 +807,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-33",
+      "report_id": "iem-lsr-BUF-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022317",
       "standard_time_display": "2026-09-02 18:17 EST",
@@ -779,7 +829,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-34",
+      "report_id": "iem-lsr-BUF-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022322",
       "standard_time_display": "2026-09-02 18:22 EST",
@@ -801,7 +851,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-35",
+      "report_id": "iem-lsr-BUF-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022322",
       "standard_time_display": "2026-09-02 18:22 EST",
@@ -823,7 +873,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-36",
+      "report_id": "iem-lsr-BUF-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022327",
+      "standard_time_display": "2026-09-02 18:27 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Byron",
+      "county": "Genesee",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Several large trees and power lines down.",
+      "lat": 43.09,
+      "lon": -78.07,
+      "ugc": "NYC037",
+      "ugc_name": "Genesee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022329",
+      "standard_time_display": "2026-09-02 18:29 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Alexander",
+      "county": "Genesee",
+      "state": "NY",
+      "source": "NWS Storm Survey",
+      "remark": "The National Weather Service in Buffalo investigated storm- related damage from a bowing line of thunderstorms that ended up producing an EF-1 tornado during the evening of September 2nd that affecte",
+      "lat": 42.91,
+      "lon": -78.2,
+      "ugc": "NYC037",
+      "ugc_name": "Genesee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022330",
       "standard_time_display": "2026-09-02 18:30 EST",
@@ -845,7 +939,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-37",
+      "report_id": "iem-lsr-BUF-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022331",
+      "standard_time_display": "2026-09-02 18:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Stafford",
+      "county": "Genesee",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Power pole snapped.",
+      "lat": 43.0,
+      "lon": -78.05,
+      "ugc": "NYC037",
+      "ugc_name": "Genesee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-42",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022331",
+      "standard_time_display": "2026-09-02 18:31 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Stafford",
+      "county": "Genesee",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Several large trees uprooted.",
+      "lat": 43.0,
+      "lon": -78.04,
+      "ugc": "NYC037",
+      "ugc_name": "Genesee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-43",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022335",
+      "standard_time_display": "2026-09-02 18:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Le Roy",
+      "county": "Genesee",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Several large trees_ limbs_ and power lines down.",
+      "lat": 42.98,
+      "lon": -78.0,
+      "ugc": "NYC037",
+      "ugc_name": "Genesee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022340",
       "standard_time_display": "2026-09-02 18:40 EST",
@@ -867,7 +1027,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-38",
+      "report_id": "iem-lsr-BUF-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022343",
       "standard_time_display": "2026-09-02 18:43 EST",
@@ -889,7 +1049,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-39",
+      "report_id": "iem-lsr-BUF-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022351",
       "standard_time_display": "2026-09-02 18:51 EST",
@@ -911,7 +1071,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-40",
+      "report_id": "iem-lsr-BUF-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609022351",
       "standard_time_display": "2026-09-02 18:51 EST",
@@ -933,7 +1093,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-41",
+      "report_id": "iem-lsr-BUF-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030000",
       "standard_time_display": "2026-09-02 19:00 EST",
@@ -955,7 +1115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-42",
+      "report_id": "iem-lsr-BUF-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030002",
       "standard_time_display": "2026-09-02 19:02 EST",
@@ -977,7 +1137,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-43",
+      "report_id": "iem-lsr-BUF-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030004",
       "standard_time_display": "2026-09-02 19:04 EST",
@@ -999,7 +1159,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-44",
+      "report_id": "iem-lsr-BUF-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030004",
       "standard_time_display": "2026-09-02 19:04 EST",
@@ -1021,7 +1181,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-45",
+      "report_id": "iem-lsr-BUF-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030005",
       "standard_time_display": "2026-09-02 19:05 EST",
@@ -1043,7 +1203,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-46",
+      "report_id": "iem-lsr-BUF-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030007",
       "standard_time_display": "2026-09-02 19:07 EST",
@@ -1065,7 +1225,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-47",
+      "report_id": "iem-lsr-BUF-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030007",
       "standard_time_display": "2026-09-02 19:07 EST",
@@ -1087,7 +1247,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-48",
+      "report_id": "iem-lsr-BUF-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030010",
       "standard_time_display": "2026-09-02 19:10 EST",
@@ -1109,7 +1269,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-49",
+      "report_id": "iem-lsr-BUF-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030010",
       "standard_time_display": "2026-09-02 19:10 EST",
@@ -1131,7 +1291,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-50",
+      "report_id": "iem-lsr-BUF-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030010",
       "standard_time_display": "2026-09-02 19:10 EST",
@@ -1153,7 +1313,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-51",
+      "report_id": "iem-lsr-BUF-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030017",
       "standard_time_display": "2026-09-02 19:17 EST",
@@ -1175,7 +1335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-52",
+      "report_id": "iem-lsr-BUF-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030020",
       "standard_time_display": "2026-09-02 19:20 EST",
@@ -1197,7 +1357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-53",
+      "report_id": "iem-lsr-BUF-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030023",
       "standard_time_display": "2026-09-02 19:23 EST",
@@ -1219,7 +1379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-54",
+      "report_id": "iem-lsr-BUF-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030051",
       "standard_time_display": "2026-09-02 19:51 EST",
@@ -1241,7 +1401,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BUF-55",
+      "report_id": "iem-lsr-BUF-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609030135",
+      "standard_time_display": "2026-09-02 20:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Ellicottville",
+      "county": "Cattaraugus",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Delayed report of fast moving water over the roadway with a large amount of debris making the road impassable. Video from social media.",
+      "lat": 42.3,
+      "lon": -78.64,
+      "ugc": "NYC009",
+      "ugc_name": "Cattaraugus",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030215",
       "standard_time_display": "2026-09-02 21:15 EST",
@@ -1261,6 +1443,248 @@
       "ugc": "NYC013",
       "ugc_name": "Chautauqua",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-64",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032345",
+      "standard_time_display": "2026-09-03 18:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "3 water rescues at Linden Ave. and Delaware Ave. Water up to car doors.",
+      "lat": 42.94,
+      "lon": -78.87,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032345",
+      "standard_time_display": "2026-09-03 18:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "2.26 inches of rain in an hour from 6:45 to 7:45. Water over the curb on Wardman Road.",
+      "lat": 42.96,
+      "lon": -78.87,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032347",
+      "standard_time_display": "2026-09-03 18:47 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Depew",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Report from mPING: Street/road flooding; Street/road closed; Vehicles stranded.",
+      "lat": 42.93,
+      "lon": -78.7,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-67",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032350",
+      "standard_time_display": "2026-09-03 18:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Law Enforcement",
+      "remark": "Parkside Avenue_ Linden Avenue_ Elmwood Avenue and Hertel Avenue closed due to flooding.",
+      "lat": 42.94,
+      "lon": -78.85,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-68",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032350",
+      "standard_time_display": "2026-09-03 18:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Trained Spotter",
+      "remark": "2 water rescues at underpass at Linden Ave. and Colvin Ave.",
+      "lat": 42.94,
+      "lon": -78.86,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032354",
+      "standard_time_display": "2026-09-03 18:54 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Tonawanda",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Dept of Highways",
+      "remark": "Ramp I-190 South To I-290 East is closed. Additional lanes on the 190 are blocked by standing water.",
+      "lat": 42.99,
+      "lon": -78.91,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-70",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040015",
+      "standard_time_display": "2026-09-03 19:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Depew",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Dept of Highways",
+      "remark": "Transit Road closed from Walden to Broadway due to flooding.",
+      "lat": 42.91,
+      "lon": -78.7,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-71",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040030",
+      "standard_time_display": "2026-09-03 19:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Public",
+      "remark": "Several inches of water flowing over Virgil Avenue creating widespread flooding along the street.",
+      "lat": 42.95,
+      "lon": -78.86,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040036",
+      "standard_time_display": "2026-09-03 19:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Cheektowaga",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Dept of Highways",
+      "remark": "Route 33 West is closed from Genesee to Union Road due to flooding.",
+      "lat": 42.93,
+      "lon": -78.75,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040100",
+      "standard_time_display": "2026-09-03 20:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.29,
+      "magnitude_qualifier": null,
+      "city": "1 NW Kenmore",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Cocorahs",
+      "remark": "Fell in 2 1/2 hours.",
+      "lat": 42.97,
+      "lon": -78.88,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BUF-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040100",
+      "standard_time_display": "2026-09-03 20:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BUF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Cheektowaga",
+      "county": "Erie",
+      "state": "NY",
+      "source": "Dept of Highways",
+      "remark": "Several On/Off ramps closed at the I-90 and Route 33 interchange.",
+      "lat": 42.93,
+      "lon": -78.77,
+      "ugc": "NYC029",
+      "ugc_name": "Erie",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1269,7 +1693,7 @@
       "wfo": "BUF",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-03T13:32:54Z"
+      "generated_utc": "2026-09-04T13:30:01Z"
     },
     "primary_links": [
       {

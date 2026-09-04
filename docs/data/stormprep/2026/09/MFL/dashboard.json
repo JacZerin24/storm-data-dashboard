@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:33:48Z",
+    "generated_utc": "2026-09-04T13:30:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,25 @@
     "year": 2026,
     "month": 9,
     "wfo": "MFL",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "flooding": 1,
-      "other": 1
+      "flooding": 2,
+      "other": 2,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLOOD": 1,
-      "LIGHTNING": 1
+      "FLOOD": 2,
+      "LIGHTNING": 2,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -90,6 +94,72 @@
       "ugc": "FLC099",
       "ugc_name": "Palm Beach",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609031828",
+      "standard_time_display": "2026-09-03 13:28 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Lakeport",
+      "county": "AMZ610",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media reported a waterspout at about 2:28 PM. Supporting images show the waterspout over the waters of Lake Okeechobee at approximately 2:28 PM today.",
+      "lat": 26.96,
+      "lon": -81.08,
+      "ugc": "AMZ610",
+      "ugc_name": "Lake Okeechobee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609031930",
+      "standard_time_display": "2026-09-03 14:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Fort Lauderdale",
+      "county": "Broward",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media shared footage of flooding along a lane of Broward Blvd associated with heavy rainfall.",
+      "lat": 26.12,
+      "lon": -80.17,
+      "ugc": "FLC011",
+      "ugc_name": "Broward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032114",
+      "standard_time_display": "2026-09-03 16:14 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Doral",
+      "county": "Miami-Dade",
+      "state": "FL",
+      "source": "Newspaper",
+      "remark": "*** 1 INJ *** Off duty Miami Dade Sheriffs Deputy was injured when the car he was in was struck by lightning.",
+      "lat": 25.81,
+      "lon": -80.35,
+      "ugc": "FLC086",
+      "ugc_name": "Miami-Dade",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -98,7 +168,7 @@
       "wfo": "MFL",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-03T13:33:49Z"
+      "generated_utc": "2026-09-04T13:30:45Z"
     },
     "primary_links": [
       {

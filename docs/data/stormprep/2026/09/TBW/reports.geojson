@@ -7,7 +7,7 @@
     "wfo": "TBW",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:34:23Z",
+    "generated_utc": "2026-09-04T13:31:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -176,6 +176,32 @@
       "id": "iem-lsr-TBW-7",
       "properties": {
         "report_id": "iem-lsr-TBW-7",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202609022345",
+        "standard_time_display": "2026-09-02 18:45 EST",
+        "wfo": "TBW",
+        "county_or_zone": "GMZ853",
+        "city": "8 WNW Belleair Shores",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "(Delayed Report) Pictures and videos from the public relayed via social and broadcast media showed multiple waterspouts visible offshore coastal Pinellas County."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.96,
+          27.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-8",
+      "properties": {
+        "report_id": "iem-lsr-TBW-8",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609030150",
@@ -194,6 +220,58 @@
         "coordinates": [
           -81.78,
           26.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-9",
+      "properties": {
+        "report_id": "iem-lsr-TBW-9",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202609032034",
+        "standard_time_display": "2026-09-03 15:34 EST",
+        "wfo": "TBW",
+        "county_or_zone": "GMZ850",
+        "city": "9 W Crystal River",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Updates previous waterspout report time from 9 W Crystal River. Broadcast media reported double waterspouts due west of Crystal River_ later corroborated by videos posted to social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.74,
+          28.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TBW-10",
+      "properties": {
+        "report_id": "iem-lsr-TBW-10",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202609032043",
+        "standard_time_display": "2026-09-03 15:43 EST",
+        "wfo": "TBW",
+        "county_or_zone": "GMZ850",
+        "city": "9 W Crystal River",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast media reported double waterspouts due west of Crystal River. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.74,
+          28.88
         ]
       }
     }

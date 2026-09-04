@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:34:23Z",
+    "generated_utc": "2026-09-04T13:31:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,23 @@
     "year": 2026,
     "month": 9,
     "wfo": "TBW",
-    "total_candidate_reports": 7,
-    "mapped_candidate_reports": 7,
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
     "candidate_report_counts": {
-      "thunderstorm_wind": 7
+      "thunderstorm_wind": 7,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
-      "TSTM WND GST": 7
+      "TSTM WND GST": 7,
+      "WATERSPOUT": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,7 +45,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TBW&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -180,6 +184,28 @@
     {
       "report_id": "iem-lsr-TBW-7",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609022345",
+      "standard_time_display": "2026-09-02 18:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 WNW Belleair Shores",
+      "county": "GMZ853",
+      "state": "FL",
+      "source": "Public",
+      "remark": "(Delayed Report) Pictures and videos from the public relayed via social and broadcast media showed multiple waterspouts visible offshore coastal Pinellas County.",
+      "lat": 27.97,
+      "lon": -82.96,
+      "ugc": "GMZ853",
+      "ugc_name": "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-8",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609030150",
       "standard_time_display": "2026-09-02 20:50 EST",
       "standard_time_zone": "EST",
@@ -198,6 +224,50 @@
       "ugc": "FLC071",
       "ugc_name": "Lee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032034",
+      "standard_time_display": "2026-09-03 15:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 W Crystal River",
+      "county": "GMZ850",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Updates previous waterspout report time from 9 W Crystal River. Broadcast media reported double waterspouts due west of Crystal River_ later corroborated by videos posted to social media.",
+      "lat": 28.88,
+      "lon": -82.74,
+      "ugc": "GMZ850",
+      "ugc_name": "Coastal waters from Tarpon Springs to Suwannee River FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609032043",
+      "standard_time_display": "2026-09-03 15:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "9 W Crystal River",
+      "county": "GMZ850",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media reported double waterspouts due west of Crystal River. Time estimated from radar.",
+      "lat": 28.88,
+      "lon": -82.74,
+      "ugc": "GMZ850",
+      "ugc_name": "Coastal waters from Tarpon Springs to Suwannee River FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -206,7 +276,7 @@
       "wfo": "TBW",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-03T13:34:24Z"
+      "generated_utc": "2026-09-04T13:31:17Z"
     },
     "primary_links": [
       {

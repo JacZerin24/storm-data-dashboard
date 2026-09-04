@@ -7,12 +7,65 @@
     "wfo": "FWD",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-03T13:33:15Z",
+    "generated_utc": "2026-09-04T13:30:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-1",
+      "properties": {
+        "report_id": "iem-lsr-FWD-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609031530",
+        "standard_time_display": "2026-09-03 09:30 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Freestone",
+        "city": "8 SSE Teague",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of fast moving water flowing over parts of CR 764 and CR 781 west of Buffalo and southeast of Teague."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.23,
+          31.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-2",
+      "properties": {
+        "report_id": "iem-lsr-FWD-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609031600",
+        "standard_time_display": "2026-09-03 10:00 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Leon",
+        "city": "Centerville",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of fast moving water flowing over FM 200 AKA Deer Meadows Road in eastern Centerville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.97,
+          31.26
+        ]
+      }
+    }
+  ]
 }
