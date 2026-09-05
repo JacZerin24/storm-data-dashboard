@@ -6,7 +6,7 @@
     "wfo": "HUN",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:28Z",
+    "generated_utc": "2026-09-05T12:39:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "HUN",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 2
+    },
+    "candidate_report_type_counts": {
+      "TSTM WND DMG": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=HUN&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-HUN-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042037",
+      "standard_time_display": "2026-09-04 14:37 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HUN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NW Sheffield",
+      "county": "Lauderdale",
+      "state": "AL",
+      "source": "Broadcast Media",
+      "remark": "Pole broken along CR 4.",
+      "lat": 34.8,
+      "lon": -87.78,
+      "ugc": "ALC077",
+      "ugc_name": "Lauderdale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HUN&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HUN-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042037",
+      "standard_time_display": "2026-09-04 14:37 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HUN",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WSW Underwood-Petersv",
+      "county": "Lauderdale",
+      "state": "AL",
+      "source": "Broadcast Media",
+      "remark": "Tree down along CR 137 (time estimated by radar).",
+      "lat": 34.84,
+      "lon": -87.78,
+      "ugc": "ALC077",
+      "ugc_name": "Lauderdale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HUN&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "HUN",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:30:28Z"
+      "generated_utc": "2026-09-05T12:39:40Z"
     },
     "primary_links": [
       {

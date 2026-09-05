@@ -6,7 +6,7 @@
     "wfo": "DMX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:10Z",
+    "generated_utc": "2026-09-05T12:39:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "DMX",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
     "candidate_report_counts": {
+      "hail": 2,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
+      "HAIL": 2,
       "TSTM WND DMG": 3,
       "TSTM WND GST": 2
     },
@@ -155,6 +157,50 @@
       "ugc": "IAC109",
       "ugc_name": "Kossuth",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042023",
+      "standard_time_display": "2026-09-04 14:23 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Aplington",
+      "county": "Butler",
+      "state": "IA",
+      "source": "Broadcast Media",
+      "remark": "Picture of quarter sized hail that fell between 320 and 330 pm north of Aplington. Location radar estimated. Relayed by broadcast media.",
+      "lat": 42.6,
+      "lon": -92.83,
+      "ugc": "IAC023",
+      "ugc_name": "Butler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042028",
+      "standard_time_display": "2026-09-04 14:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "3 NW Parkersburg",
+      "county": "Butler",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Report from mPING: Golf Ball (1.75 in.).",
+      "lat": 42.61,
+      "lon": -92.81,
+      "ugc": "IAC023",
+      "ugc_name": "Butler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -163,7 +209,7 @@
       "wfo": "DMX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:30:10Z"
+      "generated_utc": "2026-09-05T12:39:23Z"
     },
     "primary_links": [
       {

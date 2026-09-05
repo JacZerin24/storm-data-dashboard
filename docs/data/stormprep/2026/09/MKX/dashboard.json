@@ -6,7 +6,7 @@
     "wfo": "MKX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:47Z",
+    "generated_utc": "2026-09-05T12:39:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "MKX",
-    "total_candidate_reports": 17,
-    "mapped_candidate_reports": 17,
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
     "candidate_report_counts": {
       "hail": 2,
       "marine": 1,
-      "thunderstorm_wind": 14
+      "thunderstorm_wind": 17
     },
     "candidate_report_type_counts": {
       "HAIL": 2,
       "MARINE TSTM WIND": 1,
-      "TSTM WND DMG": 8,
+      "TSTM WND DMG": 11,
       "TSTM WND GST": 6
     },
     "nws_api_alert_count": 0,
@@ -339,6 +339,28 @@
     {
       "report_id": "iem-lsr-MKX-14",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040530",
+      "standard_time_display": "2026-09-03 23:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Hubertus",
+      "county": "Washington",
+      "state": "WI",
+      "source": "Public",
+      "remark": "Report of multiple trees downed from west to east at a private residence. Largest tree trunk approximately 12 inches in diameter. Time estimated from radar.",
+      "lat": 43.25,
+      "lon": -88.2,
+      "ugc": "WIC131",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040551",
       "standard_time_display": "2026-09-03 23:51 CST",
       "standard_time_zone": "CST",
@@ -359,7 +381,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-15",
+      "report_id": "iem-lsr-MKX-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040553",
       "standard_time_display": "2026-09-03 23:53 CST",
@@ -381,7 +403,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-16",
+      "report_id": "iem-lsr-MKX-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040555",
       "standard_time_display": "2026-09-03 23:55 CST",
@@ -403,7 +425,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MKX-17",
+      "report_id": "iem-lsr-MKX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040635",
+      "standard_time_display": "2026-09-04 00:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Bayside",
+      "county": "Milwaukee",
+      "state": "WI",
+      "source": "Broadcast Media",
+      "remark": "Public report of a 6-12 inch tree limb downed in Bayside. Time estimated from radar data.",
+      "lat": 43.18,
+      "lon": -87.89,
+      "ugc": "WIC079",
+      "ugc_name": "Milwaukee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040635",
+      "standard_time_display": "2026-09-04 00:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Fox Point",
+      "county": "Milwaukee",
+      "state": "WI",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media video of multiple 6-12 inch diameter trees and tree limbs uprooted or snapped near Lake Michigan in Fox Point. Time estimated from radar data.",
+      "lat": 43.16,
+      "lon": -87.89,
+      "ugc": "WIC079",
+      "ugc_name": "Milwaukee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040800",
       "standard_time_display": "2026-09-04 02:00 CST",
@@ -431,7 +497,7 @@
       "wfo": "MKX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:30:48Z"
+      "generated_utc": "2026-09-05T12:39:58Z"
     },
     "primary_links": [
       {

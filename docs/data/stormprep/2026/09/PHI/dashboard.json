@@ -6,7 +6,7 @@
     "wfo": "PHI",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:59Z",
+    "generated_utc": "2026-09-05T12:40:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,23 @@
     "year": 2026,
     "month": 9,
     "wfo": "PHI",
-    "total_candidate_reports": 126,
-    "mapped_candidate_reports": 126,
+    "total_candidate_reports": 139,
+    "mapped_candidate_reports": 139,
     "candidate_report_counts": {
-      "flooding": 10,
+      "flooding": 12,
       "hail": 4,
       "marine": 34,
       "other": 2,
-      "thunderstorm_wind": 76
+      "thunderstorm_wind": 87
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 7,
-      "FLOOD": 3,
+      "FLOOD": 5,
       "HAIL": 4,
       "LIGHTNING": 2,
       "MARINE TSTM WIND": 34,
-      "TSTM WND DMG": 64,
-      "TSTM WND GST": 12
+      "TSTM WND DMG": 70,
+      "TSTM WND GST": 17
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -2302,6 +2302,50 @@
     {
       "report_id": "iem-lsr-PHI-103",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040427",
+      "standard_time_display": "2026-09-03 23:27 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NW Wittman",
+      "county": "Queen Anne's",
+      "state": "MD",
+      "source": "Emergency Mngr",
+      "remark": "Downed tree/wires with brief fire on Chesapeake Bay Dr in Stevensville. Time given in report from EM.",
+      "lat": 38.84,
+      "lon": -76.37,
+      "ugc": "MDC035",
+      "ugc_name": "Queen Anne's",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-104",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040430",
+      "standard_time_display": "2026-09-03 23:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 53.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Tilghman Island",
+      "county": "Talbot",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "Mesonet station 030MD Ferry Cove.",
+      "lat": 38.77,
+      "lon": -76.33,
+      "ugc": "MDC041",
+      "ugc_name": "Talbot",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-105",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040430",
       "standard_time_display": "2026-09-03 23:30 EST",
       "standard_time_zone": "EST",
@@ -2322,7 +2366,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-104",
+      "report_id": "iem-lsr-PHI-106",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040438",
       "standard_time_display": "2026-09-03 23:38 EST",
@@ -2344,7 +2388,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-105",
+      "report_id": "iem-lsr-PHI-107",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040440",
       "standard_time_display": "2026-09-03 23:40 EST",
@@ -2366,7 +2410,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-106",
+      "report_id": "iem-lsr-PHI-108",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040443",
       "standard_time_display": "2026-09-03 23:43 EST",
@@ -2388,7 +2432,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-107",
+      "report_id": "iem-lsr-PHI-109",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040443",
+      "standard_time_display": "2026-09-03 23:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Grasonville",
+      "county": "Queen Anne's",
+      "state": "MD",
+      "source": "Emergency Mngr",
+      "remark": "Tree through a roof on Bunker Court in Grasonville. Time given in report.",
+      "lat": 38.91,
+      "lon": -76.19,
+      "ugc": "MDC035",
+      "ugc_name": "Queen Anne's",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-110",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040444",
       "standard_time_display": "2026-09-03 23:44 EST",
@@ -2410,7 +2476,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-108",
+      "report_id": "iem-lsr-PHI-111",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040445",
+      "standard_time_display": "2026-09-03 23:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Stevensville",
+      "county": "Queen Anne's",
+      "state": "MD",
+      "source": "Public",
+      "remark": null,
+      "lat": 39.03,
+      "lon": -76.32,
+      "ugc": "MDC035",
+      "ugc_name": "Queen Anne's",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-112",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040445",
       "standard_time_display": "2026-09-03 23:45 EST",
@@ -2432,7 +2520,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-109",
+      "report_id": "iem-lsr-PHI-113",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040445",
       "standard_time_display": "2026-09-03 23:45 EST",
@@ -2454,7 +2542,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-110",
+      "report_id": "iem-lsr-PHI-114",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040450",
+      "standard_time_display": "2026-09-03 23:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "2 E Chester",
+      "county": "Queen Anne's",
+      "state": "MD",
+      "source": "Mesonet",
+      "remark": "Mesonet station MD040 Us-50 Kent Narrow Bridge.",
+      "lat": 38.97,
+      "lon": -76.25,
+      "ugc": "MDC035",
+      "ugc_name": "Queen Anne's",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-115",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040453",
       "standard_time_display": "2026-09-03 23:53 EST",
@@ -2476,7 +2586,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-111",
+      "report_id": "iem-lsr-PHI-116",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040500",
       "standard_time_display": "2026-09-04 00:00 EST",
@@ -2498,7 +2608,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-112",
+      "report_id": "iem-lsr-PHI-117",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040502",
       "standard_time_display": "2026-09-04 00:02 EST",
@@ -2520,7 +2630,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-113",
+      "report_id": "iem-lsr-PHI-118",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040508",
+      "standard_time_display": "2026-09-04 00:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 WNW Bridgeville",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Dept of Highways",
+      "remark": "DelDOT reported trees down which are blocking Trinity Church Road in Bridgeville. Time estimated from radar.",
+      "lat": 38.78,
+      "lon": -75.7,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-119",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040524",
+      "standard_time_display": "2026-09-04 00:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 S Laurel",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Broadcast Media",
+      "remark": "Multiple trees were blown down in the area between Laurel and Delmar. Time estimated from radar.",
+      "lat": 38.51,
+      "lon": -75.57,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-120",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040525",
+      "standard_time_display": "2026-09-04 00:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Lincoln",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Dept of Highways",
+      "remark": "DelDOT reported trees down which are blocking Johnson Road in Lincoln. Time estimated from radar.",
+      "lat": 38.87,
+      "lon": -75.44,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-121",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040531",
       "standard_time_display": "2026-09-04 00:31 EST",
@@ -2542,7 +2718,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-114",
+      "report_id": "iem-lsr-PHI-122",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040532",
+      "standard_time_display": "2026-09-04 00:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Harbeson",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Dept of Highways",
+      "remark": "DelDOT reported trees down and blocking Cool Spring Road in Milton. Time estimated from radar.",
+      "lat": 38.71,
+      "lon": -75.24,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-123",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040548",
       "standard_time_display": "2026-09-04 00:48 EST",
@@ -2564,7 +2762,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-115",
+      "report_id": "iem-lsr-PHI-124",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040550",
       "standard_time_display": "2026-09-04 00:50 EST",
@@ -2586,7 +2784,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-116",
+      "report_id": "iem-lsr-PHI-125",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040552",
       "standard_time_display": "2026-09-04 00:52 EST",
@@ -2596,19 +2794,19 @@
       "event_category": "thunderstorm_wind",
       "magnitude": 63.0,
       "magnitude_qualifier": null,
-      "city": "1 S Indian Beach",
+      "city": "Indian Beach",
       "county": "Sussex",
       "state": "DE",
       "source": "Mesonet",
-      "remark": "Corrects previous marine tstm wind report from 1 S Indian Beach. Dewey Beach Mesonet.",
-      "lat": 38.67,
-      "lon": -75.07,
+      "remark": "Mesonet station XDEW Dewey Beach.",
+      "lat": 38.68,
+      "lon": -75.08,
       "ugc": "DEC005",
       "ugc_name": "Sussex",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-117",
+      "report_id": "iem-lsr-PHI-126",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040552",
       "standard_time_display": "2026-09-04 00:52 EST",
@@ -2630,7 +2828,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-118",
+      "report_id": "iem-lsr-PHI-127",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040553",
       "standard_time_display": "2026-09-04 00:53 EST",
@@ -2652,7 +2850,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-119",
+      "report_id": "iem-lsr-PHI-128",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040554",
       "standard_time_display": "2026-09-04 00:54 EST",
@@ -2674,7 +2872,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-120",
+      "report_id": "iem-lsr-PHI-129",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040554",
+      "standard_time_display": "2026-09-04 00:54 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 57.0,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Lewes",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Mesonet station XLEW Lewes.",
+      "lat": 38.79,
+      "lon": -75.16,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-130",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040554",
       "standard_time_display": "2026-09-04 00:54 EST",
@@ -2696,7 +2916,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-121",
+      "report_id": "iem-lsr-PHI-131",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040555",
       "standard_time_display": "2026-09-04 00:55 EST",
@@ -2718,7 +2938,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-122",
+      "report_id": "iem-lsr-PHI-132",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040555",
       "standard_time_display": "2026-09-04 00:55 EST",
@@ -2740,7 +2960,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-123",
+      "report_id": "iem-lsr-PHI-133",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609040557",
+      "standard_time_display": "2026-09-04 00:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Indian River Inlet",
+      "county": "Sussex",
+      "state": "DE",
+      "source": "Mesonet",
+      "remark": "Mesonet station DEL18 Sr1 Irib North.",
+      "lat": 38.61,
+      "lon": -75.06,
+      "ugc": "DEC005",
+      "ugc_name": "Sussex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-134",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040600",
       "standard_time_display": "2026-09-04 01:00 EST",
@@ -2762,7 +3004,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-124",
+      "report_id": "iem-lsr-PHI-135",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040605",
       "standard_time_display": "2026-09-04 01:05 EST",
@@ -2784,7 +3026,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-125",
+      "report_id": "iem-lsr-PHI-136",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040606",
       "standard_time_display": "2026-09-04 01:06 EST",
@@ -2806,7 +3048,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-PHI-126",
+      "report_id": "iem-lsr-PHI-137",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609040630",
       "standard_time_display": "2026-09-04 01:30 EST",
@@ -2826,6 +3068,50 @@
       "ugc": "ANZ485",
       "ugc_name": "Waters from Cape May NJ to Fenwick Island DE from 20 to 60 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-138",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609050536",
+      "standard_time_display": "2026-09-05 00:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Upper Deerfield T",
+      "county": "Cumberland",
+      "state": "NJ",
+      "source": "Trained Spotter",
+      "remark": "Flooding occurring on Palatine Lake Road between Route 77 and Burlington Road and also on Route 77 near Johnson Farms. Water 4-8 inches deep. Nearby farmland under water.",
+      "lat": 39.53,
+      "lon": -75.22,
+      "ugc": "NJC011",
+      "ugc_name": "Cumberland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-139",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609050630",
+      "standard_time_display": "2026-09-05 01:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "North Wildwood",
+      "county": "Cape May",
+      "state": "NJ",
+      "source": "Law Enforcement",
+      "remark": "Minor street flooding.",
+      "lat": 39.0,
+      "lon": -74.79,
+      "ugc": "NJC009",
+      "ugc_name": "Cape May",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2834,7 +3120,7 @@
       "wfo": "PHI",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:31:00Z"
+      "generated_utc": "2026-09-05T12:40:09Z"
     },
     "primary_links": [
       {

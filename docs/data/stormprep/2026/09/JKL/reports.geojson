@@ -7,12 +7,117 @@
     "wfo": "JKL",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:34Z",
+    "generated_utc": "2026-09-05T12:39:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JKL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JKL-1",
+      "properties": {
+        "report_id": "iem-lsr-JKL-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609041934",
+        "standard_time_display": "2026-09-04 14:34 EST",
+        "wfo": "JKL",
+        "county_or_zone": "Johnson",
+        "city": "1 E Nero",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was blown down onto KY 302 near the intersection with Mountain Spring Road. The event time is radar estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.72,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JKL-2",
+      "properties": {
+        "report_id": "iem-lsr-JKL-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609041935",
+        "standard_time_display": "2026-09-04 14:35 EST",
+        "wfo": "JKL",
+        "county_or_zone": "Johnson",
+        "city": "1 ESE Odds",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was down half way up Sycamore Creek Road_ Van Lear address. The event time is radar estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.68,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JKL-3",
+      "properties": {
+        "report_id": "iem-lsr-JKL-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609042237",
+        "standard_time_display": "2026-09-04 17:37 EST",
+        "wfo": "JKL",
+        "county_or_zone": "Rowan",
+        "city": "2 SW Hilda",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Downed trees reported on properties along Bullfork Road in Rowan County. Time estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.53,
+          38.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JKL-4",
+      "properties": {
+        "report_id": "iem-lsr-JKL-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609042247",
+        "standard_time_display": "2026-09-04 17:47 EST",
+        "wfo": "JKL",
+        "county_or_zone": "Rowan",
+        "city": "3 N Bluestone",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Resends previous tstm wnd dmg report from 3 N Bluestone due to an IRIS error message. Morehead/Rowan County Dispatch received reports of 2 to 3 downed trees in the 800 Block of Sugar Loaf Mountain Ro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.52,
+          38.19
+        ]
+      }
+    }
+  ]
 }

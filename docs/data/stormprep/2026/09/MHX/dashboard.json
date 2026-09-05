@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:30:46Z",
+    "generated_utc": "2026-09-05T12:39:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 9,
     "wfo": "MHX",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "marine": 1
+      "marine": 3,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 1
+      "MARINE TSTM WIND": 3,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +68,72 @@
       "ugc": "NCC049",
       "ugc_name": "Craven",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042218",
+      "standard_time_display": "2026-09-04 17:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "3 WNW East Lake",
+      "county": "AMZ131",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "36 kt wind gust recorded at the Alligator River Bridge.",
+      "lat": 35.9,
+      "lon": -76.0,
+      "ugc": "AMZ131",
+      "ugc_name": "Alligator River",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609050035",
+      "standard_time_display": "2026-09-04 19:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 56.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Everetts",
+      "county": "Martin",
+      "state": "NC",
+      "source": "AWOS",
+      "remark": "Peak wind gust at the Williamston Airport (MCZ AWOS).",
+      "lat": 35.86,
+      "lon": -77.18,
+      "ugc": "NCC117",
+      "ugc_name": "Martin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609050215",
+      "standard_time_display": "2026-09-04 21:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "Washington",
+      "county": "Beaufort",
+      "state": "NC",
+      "source": "Mesonet",
+      "remark": "KOCW measured a wind gust of 35 kts as thunderstorms moved through the area.",
+      "lat": 35.56,
+      "lon": -77.05,
+      "ugc": "NCC013",
+      "ugc_name": "Beaufort",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +142,7 @@
       "wfo": "MHX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:30:47Z"
+      "generated_utc": "2026-09-05T12:39:57Z"
     },
     "primary_links": [
       {

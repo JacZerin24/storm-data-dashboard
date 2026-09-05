@@ -6,7 +6,7 @@
     "wfo": "ARX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-04T13:29:54Z",
+    "generated_utc": "2026-09-05T12:39:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,21 @@
     "year": 2026,
     "month": 9,
     "wfo": "ARX",
-    "total_candidate_reports": 19,
-    "mapped_candidate_reports": 19,
+    "total_candidate_reports": 24,
+    "mapped_candidate_reports": 24,
     "candidate_report_counts": {
       "flooding": 1,
-      "hail": 1,
-      "other": 1,
-      "thunderstorm_wind": 16
+      "hail": 3,
+      "other": 2,
+      "thunderstorm_wind": 17,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
-      "HAIL": 1,
-      "RAIN": 1,
-      "TSTM WND DMG": 2,
+      "FUNNEL CLOUD": 1,
+      "HAIL": 3,
+      "RAIN": 2,
+      "TSTM WND DMG": 3,
       "TSTM WND GST": 14
     },
     "nws_api_alert_count": 0,
@@ -37,7 +39,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ARX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +52,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ARX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -469,6 +473,116 @@
       "ugc": "MNC157",
       "ugc_name": "Wabasha",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-20",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609041938",
+      "standard_time_display": "2026-09-04 13:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Waukon",
+      "county": "Allamakee",
+      "state": "IA",
+      "source": "Law Enforcement",
+      "remark": "Report of several trees down across Allamakee County. Time and location estimated from radar.",
+      "lat": 43.32,
+      "lon": -91.44,
+      "ugc": "IAC005",
+      "ugc_name": "Allamakee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042123",
+      "standard_time_display": "2026-09-04 15:23 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "Monona",
+      "county": "Clayton",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Picture of a large hailstone shared via NWSChat.",
+      "lat": 43.05,
+      "lon": -91.39,
+      "ugc": "IAC043",
+      "ugc_name": "Clayton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042135",
+      "standard_time_display": "2026-09-04 15:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Giard",
+      "county": "Clayton",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Report of hail near Giard_ estimated around quarter sized.",
+      "lat": 43.0,
+      "lon": -91.3,
+      "ugc": "IAC043",
+      "ugc_name": "Clayton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-23",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042338",
+      "standard_time_display": "2026-09-04 17:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 N Chili",
+      "county": "Clark",
+      "state": "WI",
+      "source": "Trained Spotter",
+      "remark": "Report of a funnel cloud southwest of Spencer near Veefkind.",
+      "lat": 44.71,
+      "lon": -90.34,
+      "ugc": "WIC019",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ARX-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609051130",
+      "standard_time_display": "2026-09-05 05:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ARX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.51,
+      "magnitude_qualifier": null,
+      "city": "1 S De Soto",
+      "county": "Crawford",
+      "state": "WI",
+      "source": "Public",
+      "remark": null,
+      "lat": 43.41,
+      "lon": -91.19,
+      "ugc": "WIC023",
+      "ugc_name": "Crawford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ARX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -477,7 +591,7 @@
       "wfo": "ARX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-04T13:29:55Z"
+      "generated_utc": "2026-09-05T12:39:09Z"
     },
     "primary_links": [
       {
