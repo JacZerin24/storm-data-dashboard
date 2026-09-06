@@ -7,7 +7,7 @@
     "wfo": "JAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:39:45Z",
+    "generated_utc": "2026-09-06T12:53:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -98,6 +98,58 @@
       "id": "iem-lsr-JAX-4",
       "properties": {
         "report_id": "iem-lsr-JAX-4",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609042139",
+        "standard_time_display": "2026-09-04 16:39 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Alachua",
+        "city": "3 NNE Newberry",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Minor street flooding was reported along NW 244th Terrace and NW 32nd Ave. A nearby pasture was also flooded which usually only floods during tropical systems."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6,
+          29.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-5",
+      "properties": {
+        "report_id": "iem-lsr-JAX-5",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609042230",
+        "standard_time_display": "2026-09-04 17:30 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Alachua",
+        "city": "2 N Newberry",
+        "state": "FL",
+        "magnitude": 3.04,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Personal weather station My Home - KFLNEWBE35 measured v3.04 inches of rain. Rain began at 1255 PM EDT. About 2.3 inches of rain fell between 445 and 545 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.61,
+          29.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-6",
+      "properties": {
+        "report_id": "iem-lsr-JAX-6",
         "report_type": "FUNNEL CLOUD",
         "event_category": "tornado",
         "valid_utc": "202609042300",

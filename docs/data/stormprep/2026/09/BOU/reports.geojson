@@ -7,12 +7,117 @@
     "wfo": "BOU",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:39:12Z",
+    "generated_utc": "2026-09-06T12:52:54Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-1",
+      "properties": {
+        "report_id": "iem-lsr-BOU-1",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609052302",
+        "standard_time_display": "2026-09-05 16:02 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Logan",
+        "city": "1 SE Sterling",
+        "state": "CO",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Golf Ball (1.75 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.21,
+          40.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-2",
+      "properties": {
+        "report_id": "iem-lsr-BOU-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609060258",
+        "standard_time_display": "2026-09-05 19:58 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Logan",
+        "city": "11 WNW Peetz",
+        "state": "CO",
+        "magnitude": 54.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.31,
+          40.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-3",
+      "properties": {
+        "report_id": "iem-lsr-BOU-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609060316",
+        "standard_time_display": "2026-09-05 20:16 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Logan",
+        "city": "5 WNW Peetz",
+        "state": "CO",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.19,
+          40.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOU-4",
+      "properties": {
+        "report_id": "iem-lsr-BOU-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609060317",
+        "standard_time_display": "2026-09-05 20:17 MST",
+        "wfo": "BOU",
+        "county_or_zone": "Logan",
+        "city": "4 W Peetz",
+        "state": "CO",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "AWOS Station: K1JW Juliet-Peetz."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2,
+          40.97
+        ]
+      }
+    }
+  ]
 }

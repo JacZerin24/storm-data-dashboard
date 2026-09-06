@@ -7,7 +7,7 @@
     "wfo": "MAF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:39:54Z",
+    "generated_utc": "2026-09-06T12:53:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -38,6 +38,58 @@
         "coordinates": [
           -103.89,
           30.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-2",
+      "properties": {
+        "report_id": "iem-lsr-MAF-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052300",
+        "standard_time_display": "2026-09-05 16:00 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Brewster",
+        "city": "1 SSW Study Butte",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Fire Dept/Rescue",
+        "event_narrative": "Terlingua Fire and EMS posted a report on social media regarding a downed power line across Texas State Highway 118 in front of the Big Bend Stables."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.53,
+          29.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-3",
+      "properties": {
+        "report_id": "iem-lsr-MAF-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609060056",
+        "standard_time_display": "2026-09-05 17:56 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Lea",
+        "city": "2 SSW Lovington",
+        "state": "NM",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Tatum Mesonet recorded a wind gust of 58 mph at 7:56 PM CDT."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.36,
+          32.92
         ]
       }
     }

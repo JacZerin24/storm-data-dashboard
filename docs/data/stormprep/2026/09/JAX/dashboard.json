@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:39:45Z",
+    "generated_utc": "2026-09-06T12:53:31Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "JAX",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "other": 3,
+      "flooding": 1,
+      "other": 4,
       "tornado": 1
     },
     "candidate_report_type_counts": {
+      "FLOOD": 1,
       "FUNNEL CLOUD": 1,
-      "RAIN": 3
+      "RAIN": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -118,6 +120,50 @@
     {
       "report_id": "iem-lsr-JAX-4",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042139",
+      "standard_time_display": "2026-09-04 16:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NNE Newberry",
+      "county": "Alachua",
+      "state": "FL",
+      "source": "Trained Spotter",
+      "remark": "Minor street flooding was reported along NW 244th Terrace and NW 32nd Ave. A nearby pasture was also flooded which usually only floods during tropical systems.",
+      "lat": 29.68,
+      "lon": -82.6,
+      "ugc": "FLC001",
+      "ugc_name": "Alachua",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609042230",
+      "standard_time_display": "2026-09-04 17:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.04,
+      "magnitude_qualifier": null,
+      "city": "2 N Newberry",
+      "county": "Alachua",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Personal weather station My Home - KFLNEWBE35 measured v3.04 inches of rain. Rain began at 1255 PM EDT. About 2.3 inches of rain fell between 445 and 545 PM.",
+      "lat": 29.67,
+      "lon": -82.61,
+      "ugc": "FLC001",
+      "ugc_name": "Alachua",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609042300",
       "standard_time_display": "2026-09-04 18:00 EST",
       "standard_time_zone": "EST",
@@ -144,7 +190,7 @@
       "wfo": "JAX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-05T12:39:45Z"
+      "generated_utc": "2026-09-06T12:53:31Z"
     },
     "primary_links": [
       {

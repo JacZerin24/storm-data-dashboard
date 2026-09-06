@@ -7,12 +7,169 @@
     "wfo": "PAH",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:40:06Z",
+    "generated_utc": "2026-09-06T12:53:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PAH&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-1",
+      "properties": {
+        "report_id": "iem-lsr-PAH-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052023",
+        "standard_time_display": "2026-09-05 14:23 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Perry",
+        "city": "1 SSW Silver Lake",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Barn collapsed due to thunderstorm winds_ many trees were affected as well."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0,
+          37.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-2",
+      "properties": {
+        "report_id": "iem-lsr-PAH-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052137",
+        "standard_time_display": "2026-09-05 15:37 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Scott",
+        "city": "3 SSW Chaffee",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Tree blown down covering MO-77 between Chaffee and Oran."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.67,
+          37.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-3",
+      "properties": {
+        "report_id": "iem-lsr-PAH-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052140",
+        "standard_time_display": "2026-09-05 15:40 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Scott",
+        "city": "2 W New Hamburg",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Small tree partially blocking County Hwy 242 near New Hamburg."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.64,
+          37.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-4",
+      "properties": {
+        "report_id": "iem-lsr-PAH-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052210",
+        "standard_time_display": "2026-09-05 16:10 CST",
+        "wfo": "PAH",
+        "county_or_zone": "White",
+        "city": "Norris City",
+        "state": "IL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Several trees downed in Norris City including a decent size tree uprooted_ with multiple roads blocked."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.33,
+          37.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-5",
+      "properties": {
+        "report_id": "iem-lsr-PAH-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052223",
+        "standard_time_display": "2026-09-05 16:23 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Daviess",
+        "city": "4 NNW Philpot",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "A tree was blown down onto Jones Rd near Thruston. A large tree limb was downed onto a car on Cambridge Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.01,
+          37.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-6",
+      "properties": {
+        "report_id": "iem-lsr-PAH-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609060029",
+        "standard_time_display": "2026-09-05 18:29 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Daviess",
+        "city": "4 ENE Macio",
+        "state": "KY",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Hail estimated to penny to quarter size falling along US-60 near South Chestnut Grove Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.94,
+          37.89
+        ]
+      }
+    }
+  ]
 }

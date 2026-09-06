@@ -7,12 +7,117 @@
     "wfo": "OHX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-05T12:40:04Z",
+    "generated_utc": "2026-09-06T12:53:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-1",
+      "properties": {
+        "report_id": "iem-lsr-OHX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052035",
+        "standard_time_display": "2026-09-05 14:35 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Warren",
+        "city": "1 N Mcminnville",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photos received of damage at the Papa Johns on Sunny Side Heights. The roof of the building next door looks to be peeled off and blown into the Papa Johns. Other reported damage includes a downed tra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.78,
+          35.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-2",
+      "properties": {
+        "report_id": "iem-lsr-OHX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052346",
+        "standard_time_display": "2026-09-05 17:46 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Wilson",
+        "city": "6 N Lebanon",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree down at the 2000 block of Mann Road northwest of Lebanon. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.33,
+          36.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-3",
+      "properties": {
+        "report_id": "iem-lsr-OHX-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052347",
+        "standard_time_display": "2026-09-05 17:47 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Wilson",
+        "city": "4 N Lebanon",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Tree down on the 4600 block of Coles Ferry Pike northwest of Lebanon. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.33,
+          36.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OHX-4",
+      "properties": {
+        "report_id": "iem-lsr-OHX-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609052349",
+        "standard_time_display": "2026-09-05 17:49 CST",
+        "wfo": "OHX",
+        "county_or_zone": "Wilson",
+        "city": "2 NW Lebanon",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Downed powerlines reported near Clover Drive and Blue Field Lane northwest of Lebanon. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.35,
+          36.23
+        ]
+      }
+    }
+  ]
 }
