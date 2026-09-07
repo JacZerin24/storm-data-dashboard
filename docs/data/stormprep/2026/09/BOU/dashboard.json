@@ -6,7 +6,7 @@
     "wfo": "BOU",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:52:54Z",
+    "generated_utc": "2026-09-07T15:02:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 9,
     "wfo": "BOU",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
       "hail": 1,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
@@ -134,6 +135,50 @@
       "ugc": "COC075",
       "ugc_name": "Logan",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609070058",
+      "standard_time_display": "2026-09-06 17:58 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Garden City",
+      "county": "Weld",
+      "state": "CO",
+      "source": "Public",
+      "remark": "Large tree blown down on UNC Campus. Damage to car.",
+      "lat": 40.4,
+      "lon": -104.7,
+      "ugc": "COC123",
+      "ugc_name": "Weld",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOU-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609070118",
+      "standard_time_display": "2026-09-06 18:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BOU",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Galeton",
+      "county": "Weld",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": "3 inch diameter tree limbs broken.",
+      "lat": 40.52,
+      "lon": -104.56,
+      "ugc": "COC123",
+      "ugc_name": "Weld",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOU&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -142,7 +187,7 @@
       "wfo": "BOU",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-06T12:52:54Z"
+      "generated_utc": "2026-09-07T15:02:08Z"
     },
     "primary_links": [
       {

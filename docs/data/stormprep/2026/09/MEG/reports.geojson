@@ -7,12 +7,169 @@
     "wfo": "MEG",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:53:43Z",
+    "generated_utc": "2026-09-07T15:03:00Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MEG&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-1",
+      "properties": {
+        "report_id": "iem-lsr-MEG-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609061831",
+        "standard_time_display": "2026-09-06 12:31 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Craighead",
+        "city": "Jonesboro",
+        "state": "AR",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "JBR ASOS Wind NNE 39 Gust to 59 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.69,
+          35.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-2",
+      "properties": {
+        "report_id": "iem-lsr-MEG-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609061837",
+        "standard_time_display": "2026-09-06 12:37 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Craighead",
+        "city": "4 W Brookland",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Trees down on Hwy 351 near Sage Meadows neighborhood."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.64,
+          35.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-3",
+      "properties": {
+        "report_id": "iem-lsr-MEG-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609061901",
+        "standard_time_display": "2026-09-06 13:01 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Craighead",
+        "city": "4 W Brookland",
+        "state": "AR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Trees down along County road 712."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.64,
+          35.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-4",
+      "properties": {
+        "report_id": "iem-lsr-MEG-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609061910",
+        "standard_time_display": "2026-09-06 13:10 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Pontotoc",
+        "city": "Ecru",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Local Official",
+        "event_narrative": "Several houses with shingles blown off_ tin blown off_ siding blown off along Friendship Road. Numerous tree limbs down and one tree uprooted."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.03,
+          34.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-5",
+      "properties": {
+        "report_id": "iem-lsr-MEG-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609061915",
+        "standard_time_display": "2026-09-06 13:15 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Pontotoc",
+        "city": "3 SSW Ecru",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Local Official",
+        "event_narrative": "A mobile home was overturned near Ecru."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.04,
+          34.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MEG-6",
+      "properties": {
+        "report_id": "iem-lsr-MEG-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062056",
+        "standard_time_display": "2026-09-06 14:56 CST",
+        "wfo": "MEG",
+        "county_or_zone": "Tallahatchie",
+        "city": "Tutwiler",
+        "state": "MS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Trees and power lines down in Tutwiler. Time is radar estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.43,
+          34.01
+        ]
+      }
+    }
+  ]
 }

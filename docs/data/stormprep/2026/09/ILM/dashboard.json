@@ -6,7 +6,7 @@
     "wfo": "ILM",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:53:26Z",
+    "generated_utc": "2026-09-07T15:02:42Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,23 +17,28 @@
     "year": 2026,
     "month": 9,
     "wfo": "ILM",
-    "total_candidate_reports": 36,
-    "mapped_candidate_reports": 36,
+    "total_candidate_reports": 40,
+    "mapped_candidate_reports": 40,
     "candidate_report_counts": {
-      "marine": 2,
-      "thunderstorm_wind": 34
+      "flooding": 2,
+      "marine": 3,
+      "thunderstorm_wind": 34,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 2,
+      "FLASH FLOOD": 2,
+      "MARINE TSTM WIND": 3,
       "TSTM WND DMG": 31,
-      "TSTM WND GST": 3
+      "TSTM WND GST": 3,
+      "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILM&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,7 +50,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ILM&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -839,6 +845,94 @@
       "ugc": "SCC051",
       "ugc_name": "Horry",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-37",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062045",
+      "standard_time_display": "2026-09-06 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Lake Waccamaw",
+      "county": "Columbus",
+      "state": "NC",
+      "source": "Broadcast Media",
+      "remark": "Shared video of a waterspout on Lake Waccamaw via social media. Time estimated by radar.",
+      "lat": 34.29,
+      "lon": -78.52,
+      "ugc": "NCC047",
+      "ugc_name": "Columbus",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-38",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062148",
+      "standard_time_display": "2026-09-06 16:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Myrtle Beach",
+      "county": "AMZ254",
+      "state": "SC",
+      "source": "Other Federal",
+      "remark": "Springmaid Pier",
+      "lat": 33.66,
+      "lon": -78.92,
+      "ugc": "AMZ254",
+      "ugc_name": "Coastal waters from Little River Inlet to Murrells Inlet SC out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062241",
+      "standard_time_display": "2026-09-06 17:41 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Wilmington",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Fire Department/R",
+      "remark": "Water in apartments near Hanover Landing on Wilshire Blvd. in Wilmington_ NC.",
+      "lat": 34.23,
+      "lon": -77.9,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ILM-40",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062258",
+      "standard_time_display": "2026-09-06 17:58 EST",
+      "standard_time_zone": "EST",
+      "wfo": "ILM",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Wilmington",
+      "county": "New Hanover",
+      "state": "NC",
+      "source": "Public",
+      "remark": "Photos show water covering College Road up to the doors of passing vehicles.",
+      "lat": 34.21,
+      "lon": -77.89,
+      "ugc": "NCC129",
+      "ugc_name": "New Hanover",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILM&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -847,7 +941,7 @@
       "wfo": "ILM",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-06T12:53:27Z"
+      "generated_utc": "2026-09-07T15:02:43Z"
     },
     "primary_links": [
       {

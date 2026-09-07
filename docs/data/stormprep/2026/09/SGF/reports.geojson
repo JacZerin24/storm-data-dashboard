@@ -7,12 +7,195 @@
     "wfo": "SGF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:54:10Z",
+    "generated_utc": "2026-09-07T15:03:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SGF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-1",
+      "properties": {
+        "report_id": "iem-lsr-SGF-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062000",
+        "standard_time_display": "2026-09-06 14:00 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Lawrence",
+        "city": "1 SW Mount Vernon",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A tree was downed just west of Mount Vernon near Highway 39 and V highway. The Missouri ag site weather station measured a 50mph wind gust with this storm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.83,
+          37.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-2",
+      "properties": {
+        "report_id": "iem-lsr-SGF-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062100",
+        "standard_time_display": "2026-09-06 15:00 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Stone",
+        "city": "1 SW Table Rock",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Trees down in the vicinity of the Dewey Short Visitor Center."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.31,
+          36.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-3",
+      "properties": {
+        "report_id": "iem-lsr-SGF-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062103",
+        "standard_time_display": "2026-09-06 15:03 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Taney",
+        "city": "1 ENE Table Rock",
+        "state": "MO",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A 63 mph wind gust was measured at Branson Fire Station number 4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.29,
+          36.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-4",
+      "properties": {
+        "report_id": "iem-lsr-SGF-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070115",
+        "standard_time_display": "2026-09-06 19:15 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Cedar",
+        "city": "2 SSW El Dorado Springs",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Several power poles were broken and lines were down just southwest of El Dorado Springs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.03,
+          37.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-5",
+      "properties": {
+        "report_id": "iem-lsr-SGF-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070119",
+        "standard_time_display": "2026-09-06 19:19 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Vernon",
+        "city": "5 WSW El Dorado Springs",
+        "state": "MO",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "A public weather station measured a 65mph wind gust just off Highway 54 west of the Cedar county line."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1,
+          37.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-6",
+      "properties": {
+        "report_id": "iem-lsr-SGF-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070128",
+        "standard_time_display": "2026-09-06 19:28 CST",
+        "wfo": "SGF",
+        "county_or_zone": "Cedar",
+        "city": "5 NNW Olympia",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Several trees and powerlines were down near HH highway and 700 road. A trailer home slid off its blocks in this area as well."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.07,
+          37.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGF-7",
+      "properties": {
+        "report_id": "iem-lsr-SGF-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070150",
+        "standard_time_display": "2026-09-06 19:50 CST",
+        "wfo": "SGF",
+        "county_or_zone": "St. Clair",
+        "city": "1 SE Appleton City",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Reports of barn damage in the Appleton City area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.02,
+          38.19
+        ]
+      }
+    }
+  ]
 }

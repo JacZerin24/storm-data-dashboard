@@ -7,12 +7,559 @@
     "wfo": "EAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:53:08Z",
+    "generated_utc": "2026-09-07T15:02:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-1",
+      "properties": {
+        "report_id": "iem-lsr-EAX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062145",
+        "standard_time_display": "2026-09-06 15:45 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Nodaway",
+        "city": "3 SE Clyde",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Utility Company",
+        "event_narrative": "Photo from utility company showing a row of power lines downed between Conception and Stanberry. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.64,
+          40.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-2",
+      "properties": {
+        "report_id": "iem-lsr-EAX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062330",
+        "standard_time_display": "2026-09-06 17:30 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Johnson",
+        "city": "2 WSW Holliday",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media picture of large tree branches down near K-7 and Johnson Dr. in Shawnee. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.85,
+          39.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-3",
+      "properties": {
+        "report_id": "iem-lsr-EAX-3",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609062333",
+        "standard_time_display": "2026-09-06 17:33 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Johnson",
+        "city": "2 SE Bonner Springs",
+        "state": "KS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Quarter (1.00 in.)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.86,
+          39.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-4",
+      "properties": {
+        "report_id": "iem-lsr-EAX-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609062338",
+        "standard_time_display": "2026-09-06 17:38 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Johnson",
+        "city": "2 E Bonner Springs",
+        "state": "KS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public reported quarter hail. Also receive mPing for quarters in similar area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.85,
+          39.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-5",
+      "properties": {
+        "report_id": "iem-lsr-EAX-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609062357",
+        "standard_time_display": "2026-09-06 17:57 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "5 E Santa Rosa",
+        "state": "MO",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Picture ping pong ball hail north of Exit 68 on I-35. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.12,
+          39.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-6",
+      "properties": {
+        "report_id": "iem-lsr-EAX-6",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609062358",
+        "standard_time_display": "2026-09-06 17:58 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "5 ESE Santa Rosa",
+        "state": "MO",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo showing what appears to be golf ball to 2 inch diameter hail from a residence near Interstate 35 and Major Avenue south of Pattonsburg."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.11,
+          39.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-7",
+      "properties": {
+        "report_id": "iem-lsr-EAX-7",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609062358",
+        "standard_time_display": "2026-09-06 17:58 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Daviess",
+        "city": "5 ESE Santa Rosa",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo on social media of tree snapped near Interstate 35 and Major Avenue south of Pattonsburg. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.11,
+          39.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-8",
+      "properties": {
+        "report_id": "iem-lsr-EAX-8",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070004",
+        "standard_time_display": "2026-09-06 18:04 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Leavenworth",
+        "city": "4 WSW Leavenworth",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "8 inch tree branch across Highway 92 and 183rd street."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0,
+          39.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-9",
+      "properties": {
+        "report_id": "iem-lsr-EAX-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070022",
+        "standard_time_display": "2026-09-06 18:22 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Platte",
+        "city": "2 N Waldron",
+        "state": "MO",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "PWS measured 58 mph wind gusts."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          39.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-10",
+      "properties": {
+        "report_id": "iem-lsr-EAX-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070022",
+        "standard_time_display": "2026-09-06 18:22 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Cass",
+        "city": "4 NE Peculiar",
+        "state": "MO",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "PWS measured wind gusts to 59 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.41,
+          38.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-11",
+      "properties": {
+        "report_id": "iem-lsr-EAX-11",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070023",
+        "standard_time_display": "2026-09-06 18:23 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Cass",
+        "city": "3 ESE Raymore",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Power lines down along Hubach Hill Rd. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4,
+          38.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-12",
+      "properties": {
+        "report_id": "iem-lsr-EAX-12",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070032",
+        "standard_time_display": "2026-09-06 18:32 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Cass",
+        "city": "2 W Raymore",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Power lines down. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.48,
+          38.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-13",
+      "properties": {
+        "report_id": "iem-lsr-EAX-13",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070124",
+        "standard_time_display": "2026-09-06 19:24 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clinton",
+        "city": "Gower",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Large tree limb into a house with heavy damage and 1 person injured."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.59,
+          39.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-14",
+      "properties": {
+        "report_id": "iem-lsr-EAX-14",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070135",
+        "standard_time_display": "2026-09-06 19:35 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clay",
+        "city": "Birmingham",
+        "state": "MO",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Measured at personal weather station."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.45,
+          39.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-15",
+      "properties": {
+        "report_id": "iem-lsr-EAX-15",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070136",
+        "standard_time_display": "2026-09-06 19:36 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Jackson",
+        "city": "Sugar Creek",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media pictures of large tree limbs downed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.45,
+          39.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-16",
+      "properties": {
+        "report_id": "iem-lsr-EAX-16",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070137",
+        "standard_time_display": "2026-09-06 19:37 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Jackson",
+        "city": "Independence",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "EM passed along damage to numerous tents and vendors at the Santa-Cali-Gon Days Festival. Estimated peak wind gusts of 50 to 60 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.41,
+          39.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-17",
+      "properties": {
+        "report_id": "iem-lsr-EAX-17",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070143",
+        "standard_time_display": "2026-09-06 19:43 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Clay",
+        "city": "2 SSE Glenaire",
+        "state": "MO",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "60 MPH wind gust measured by PWS. Time confirmed from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.44,
+          39.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-18",
+      "properties": {
+        "report_id": "iem-lsr-EAX-18",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070206",
+        "standard_time_display": "2026-09-06 20:06 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Henry",
+        "city": "Montrose",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.98,
+          38.26
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-19",
+      "properties": {
+        "report_id": "iem-lsr-EAX-19",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609070228",
+        "standard_time_display": "2026-09-06 20:28 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Miami",
+        "city": "Louisburg",
+        "state": "KS",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media photos showing quarter to half dollar sized hail in Louisburg. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.68,
+          38.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-20",
+      "properties": {
+        "report_id": "iem-lsr-EAX-20",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609070231",
+        "standard_time_display": "2026-09-06 20:31 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Miami",
+        "city": "Louisburg",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Spotter relayed combo of nickel hail and tree branches down. They estimated winds briefly in the 60 to 70 mph range."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.68,
+          38.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-21",
+      "properties": {
+        "report_id": "iem-lsr-EAX-21",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609070258",
+        "standard_time_display": "2026-09-06 20:58 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Miami",
+        "city": "6 ESE Paola",
+        "state": "KS",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.77,
+          38.55
+        ]
+      }
+    }
+  ]
 }

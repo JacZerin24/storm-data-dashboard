@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-06T12:53:44Z",
+    "generated_utc": "2026-09-07T15:03:01Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 9,
     "wfo": "MFL",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
       "flooding": 2,
       "other": 2,
+      "thunderstorm_wind": 1,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
       "LIGHTNING": 2,
+      "TSTM WND DMG": 1,
       "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
@@ -160,6 +162,28 @@
       "ugc": "FLC086",
       "ugc_name": "Miami-Dade",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609061850",
+      "standard_time_display": "2026-09-06 13:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Plantation",
+      "county": "Broward",
+      "state": "FL",
+      "source": "Other Federal",
+      "remark": "Reports of tree damage caused by thunderstorm wind gusts between 2:50-3:00 PM EDT in the Plantation Gardens areas. Picture evidence shows tree damage on top of the roof of a house.",
+      "lat": 26.13,
+      "lon": -80.25,
+      "ugc": "FLC011",
+      "ugc_name": "Broward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -168,7 +192,7 @@
       "wfo": "MFL",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-06T12:53:44Z"
+      "generated_utc": "2026-09-07T15:03:02Z"
     },
     "primary_links": [
       {
