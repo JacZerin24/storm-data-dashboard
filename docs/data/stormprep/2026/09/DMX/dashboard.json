@@ -6,7 +6,7 @@
     "wfo": "DMX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-07T15:02:21Z",
+    "generated_utc": "2026-09-08T13:34:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 9,
     "wfo": "DMX",
-    "total_candidate_reports": 18,
-    "mapped_candidate_reports": 18,
+    "total_candidate_reports": 20,
+    "mapped_candidate_reports": 20,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 5,
       "other": 6,
-      "thunderstorm_wind": 5
+      "thunderstorm_wind": 7
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
       "HAIL": 5,
       "LIGHTNING": 1,
       "RAIN": 5,
-      "TSTM WND DMG": 3,
+      "TSTM WND DMG": 5,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -320,6 +320,50 @@
     {
       "report_id": "iem-lsr-DMX-13",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062143",
+      "standard_time_display": "2026-09-06 15:43 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Coon Rapids",
+      "county": "Carroll",
+      "state": "IA",
+      "source": "Emergency Mngr",
+      "remark": "Emergency management reports a large outbuilding sustained significant damage from thunderstorm winds. Delayed report. Time estimated.",
+      "lat": 41.89,
+      "lon": -94.69,
+      "ugc": "IAC027",
+      "ugc_name": "Carroll",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062200",
+      "standard_time_display": "2026-09-06 16:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DMX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 S Jefferson",
+      "county": "Greene",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reports small branches down and other tree damage_ as well as trampolines blown about. Delayed report. Time estimated from radar.",
+      "lat": 42.0,
+      "lon": -94.37,
+      "ugc": "IAC073",
+      "ugc_name": "Greene",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DMX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062212",
       "standard_time_display": "2026-09-06 16:12 CST",
       "standard_time_zone": "CST",
@@ -340,7 +384,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DMX-14",
+      "report_id": "iem-lsr-DMX-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062215",
       "standard_time_display": "2026-09-06 16:15 CST",
@@ -362,7 +406,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DMX-15",
+      "report_id": "iem-lsr-DMX-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062221",
       "standard_time_display": "2026-09-06 16:21 CST",
@@ -384,7 +428,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DMX-16",
+      "report_id": "iem-lsr-DMX-18",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062227",
       "standard_time_display": "2026-09-06 16:27 CST",
@@ -406,7 +450,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DMX-17",
+      "report_id": "iem-lsr-DMX-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609070010",
       "standard_time_display": "2026-09-06 18:10 CST",
@@ -428,7 +472,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DMX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-DMX-18",
+      "report_id": "iem-lsr-DMX-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609070022",
       "standard_time_display": "2026-09-06 18:22 CST",
@@ -456,7 +500,7 @@
       "wfo": "DMX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-07T15:02:21Z"
+      "generated_utc": "2026-09-08T13:34:56Z"
     },
     "primary_links": [
       {

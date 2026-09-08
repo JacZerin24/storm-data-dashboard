@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-07T15:02:47Z",
+    "generated_utc": "2026-09-08T13:35:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 9,
     "wfo": "JAX",
-    "total_candidate_reports": 16,
-    "mapped_candidate_reports": 16,
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
     "candidate_report_counts": {
       "flooding": 2,
-      "other": 10,
-      "thunderstorm_wind": 3,
+      "other": 12,
+      "thunderstorm_wind": 7,
       "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
       "FUNNEL CLOUD": 1,
-      "RAIN": 10,
+      "RAIN": 12,
+      "TSTM WND DMG": 4,
       "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
@@ -232,6 +233,28 @@
     {
       "report_id": "iem-lsr-JAX-9",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062030",
+      "standard_time_display": "2026-09-06 15:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE West Lake",
+      "county": "Hamilton",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Report of a tree down onto a powerline. Time estimated by radar.",
+      "lat": 30.51,
+      "lon": -83.1,
+      "ugc": "FLC047",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-10",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062100",
       "standard_time_display": "2026-09-06 16:00 EST",
       "standard_time_zone": "EST",
@@ -252,7 +275,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-10",
+      "report_id": "iem-lsr-JAX-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062105",
       "standard_time_display": "2026-09-06 16:05 EST",
@@ -274,7 +297,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-11",
+      "report_id": "iem-lsr-JAX-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062115",
+      "standard_time_display": "2026-09-06 16:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NW Starke",
+      "county": "Bradford",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Report of a large dree blocking the roadway. Time estimated by Radar.",
+      "lat": 30.01,
+      "lon": -82.16,
+      "ugc": "FLC007",
+      "ugc_name": "Bradford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062124",
       "standard_time_display": "2026-09-06 16:24 EST",
@@ -296,7 +341,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-12",
+      "report_id": "iem-lsr-JAX-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062155",
       "standard_time_display": "2026-09-06 16:55 EST",
@@ -318,7 +363,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-13",
+      "report_id": "iem-lsr-JAX-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062215",
+      "standard_time_display": "2026-09-06 17:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Palatka",
+      "county": "Putnam",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Multiple reports of Trees and powerlines down in eastern Putnam county. Time estimated by Radar.",
+      "lat": 29.63,
+      "lon": -81.66,
+      "ugc": "FLC107",
+      "ugc_name": "Putnam",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-16",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062220",
       "standard_time_display": "2026-09-06 17:20 EST",
@@ -340,7 +407,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-14",
+      "report_id": "iem-lsr-JAX-17",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062227",
       "standard_time_display": "2026-09-06 17:27 EST",
@@ -362,7 +429,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-15",
+      "report_id": "iem-lsr-JAX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062320",
+      "standard_time_display": "2026-09-06 18:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ESE Bickley",
+      "county": "Ware",
+      "state": "GA",
+      "source": "911 Call Center",
+      "remark": "Report of a tree blocking the roadway along Perdie Lee Rd near the intersection of Bickley highway.",
+      "lat": 31.39,
+      "lon": -82.54,
+      "ugc": "GAC299",
+      "ugc_name": "Ware",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-19",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609062320",
       "standard_time_display": "2026-09-06 18:20 EST",
@@ -384,7 +473,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-JAX-16",
+      "report_id": "iem-lsr-JAX-20",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609070005",
       "standard_time_display": "2026-09-06 19:05 EST",
@@ -404,6 +493,50 @@
       "ugc": "FLC001",
       "ugc_name": "Alachua",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609072215",
+      "standard_time_display": "2026-09-07 17:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.21,
+      "magnitude_qualifier": null,
+      "city": "7 SSW Ocala Airport",
+      "county": "Marion",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station KFLOCALA559 measured 2.21 inches in 1 hour between 515pm and 615pm.",
+      "lat": 29.09,
+      "lon": -82.28,
+      "ugc": "FLC083",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609072235",
+      "standard_time_display": "2026-09-07 17:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.08,
+      "magnitude_qualifier": null,
+      "city": "4 WSW Weirsdale",
+      "county": "Marion",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "Mesonet station KFLSUMME133 via Wunderground map reported around 2.08 inches in 1 hour between 530pm and 630 pm.",
+      "lat": 28.96,
+      "lon": -81.98,
+      "ugc": "FLC083",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -412,7 +545,7 @@
       "wfo": "JAX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-07T15:02:48Z"
+      "generated_utc": "2026-09-08T13:35:19Z"
     },
     "primary_links": [
       {

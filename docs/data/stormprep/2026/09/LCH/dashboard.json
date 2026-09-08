@@ -6,7 +6,7 @@
     "wfo": "LCH",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-07T15:02:51Z",
+    "generated_utc": "2026-09-08T13:35:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,12 @@
     "year": 2026,
     "month": 9,
     "wfo": "LCH",
-    "total_candidate_reports": 197,
-    "mapped_candidate_reports": 197,
+    "total_candidate_reports": 199,
+    "mapped_candidate_reports": 199,
     "candidate_report_counts": {
       "flooding": 40,
       "other": 97,
-      "thunderstorm_wind": 59,
+      "thunderstorm_wind": 61,
       "tornado": 1
     },
     "candidate_report_type_counts": {
@@ -32,6 +32,7 @@
       "RAIN": 93,
       "STORM SURGE": 2,
       "TROPICAL CYCLONE": 4,
+      "TSTM WND DMG": 2,
       "WATERSPOUT": 1
     },
     "nws_api_alert_count": 0,
@@ -4389,6 +4390,50 @@
       "ugc": "LAC011",
       "ugc_name": "Beauregard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-198",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609072331",
+      "standard_time_display": "2026-09-07 17:31 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lecompte",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Law Enforcement",
+      "remark": "Rapides 911 reported trees down in Lecompte on Hwy 71. Trees were also down in nearby Spring Creek and Deville.",
+      "lat": 31.09,
+      "lon": -92.4,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LCH-199",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609080003",
+      "standard_time_display": "2026-09-07 18:03 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LCH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Glenmora",
+      "county": "Rapides",
+      "state": "LA",
+      "source": "Law Enforcement",
+      "remark": "Rapides 911 reported a few trees down in the Glenmora/Plainview area.",
+      "lat": 30.97,
+      "lon": -92.58,
+      "ugc": "LAC079",
+      "ugc_name": "Rapides",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -4397,7 +4442,7 @@
       "wfo": "LCH",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-07T15:02:51Z"
+      "generated_utc": "2026-09-08T13:35:23Z"
     },
     "primary_links": [
       {

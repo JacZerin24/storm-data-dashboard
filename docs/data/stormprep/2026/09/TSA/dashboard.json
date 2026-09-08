@@ -6,7 +6,7 @@
     "wfo": "TSA",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-07T15:03:38Z",
+    "generated_utc": "2026-09-08T13:36:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "TSA",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 4
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 1
+      "TSTM WND DMG": 3,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +67,72 @@
       "ugc": "OKC041",
       "ugc_name": "Delaware",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062100",
+      "standard_time_display": "2026-09-06 15:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SSE Muskogee",
+      "county": "Muskogee",
+      "state": "OK",
+      "source": "Public",
+      "remark": "Delayed report. Multiple reports of thunderstorm wind damage from the public in replies to county emergency management and local digital meteorologist social media posts. Downed trees the main report",
+      "lat": 35.69,
+      "lon": -95.32,
+      "ugc": "OKC101",
+      "ugc_name": "Muskogee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609062200",
+      "standard_time_display": "2026-09-06 16:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Inola",
+      "county": "Rogers",
+      "state": "OK",
+      "source": "Public",
+      "remark": "Delayed report. Multiple reports of storm damage near Inola and between Inola and Chouteau in replies to a local digital meteorologist social media post_ including trees down and fence damage. Only s",
+      "lat": 36.19,
+      "lon": -95.46,
+      "ugc": "OKC131",
+      "ugc_name": "Rogers",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609072250",
+      "standard_time_display": "2026-09-07 16:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "3 E Mill Creek",
+      "county": "Sebastian",
+      "state": "AR",
+      "source": "ASOS",
+      "remark": "Peak gust observed at KFSM.",
+      "lat": 35.34,
+      "lon": -94.37,
+      "ugc": "ARC131",
+      "ugc_name": "Sebastian",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +141,7 @@
       "wfo": "TSA",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-07T15:03:38Z"
+      "generated_utc": "2026-09-08T13:36:04Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "GGW",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-07T15:02:31Z",
+    "generated_utc": "2026-09-08T13:35:04Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -98,6 +98,58 @@
       "id": "iem-lsr-GGW-4",
       "properties": {
         "report_id": "iem-lsr-GGW-4",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609070450",
+        "standard_time_display": "2026-09-06 21:50 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Phillips",
+        "city": "14 SW Landusky",
+        "state": "MT",
+        "magnitude": 3.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING: Baseball+ (3.25 in.). Time estiamted from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.72,
+          47.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-5",
+      "properties": {
+        "report_id": "iem-lsr-GGW-5",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609070545",
+        "standard_time_display": "2026-09-06 22:45 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Phillips",
+        "city": "Wagner",
+        "state": "MT",
+        "magnitude": 1.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "1.40 West of Malta at Wagner. Fair bit of golf ball sized hail as well. Lot of crop wiped out."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.08,
+          48.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-6",
+      "properties": {
+        "report_id": "iem-lsr-GGW-6",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609070550",
@@ -121,9 +173,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GGW-5",
+      "id": "iem-lsr-GGW-7",
       "properties": {
-        "report_id": "iem-lsr-GGW-5",
+        "report_id": "iem-lsr-GGW-7",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609070615",
@@ -147,9 +199,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-GGW-6",
+      "id": "iem-lsr-GGW-8",
       "properties": {
-        "report_id": "iem-lsr-GGW-6",
+        "report_id": "iem-lsr-GGW-8",
         "report_type": "NON-TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609070744",
@@ -168,6 +220,84 @@
         "coordinates": [
           -106.95,
           48.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-9",
+      "properties": {
+        "report_id": "iem-lsr-GGW-9",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609071630",
+        "standard_time_display": "2026-09-07 09:30 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Daniels",
+        "city": "Scobey",
+        "state": "MT",
+        "magnitude": 3.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Heavy rain 2.5-3 in. flooded basements. Downed powerlines. Closest wind obs reports gusts 30-40 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.42,
+          48.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-10",
+      "properties": {
+        "report_id": "iem-lsr-GGW-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609071845",
+        "standard_time_display": "2026-09-07 11:45 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Petroleum",
+        "city": "1 NNW Winnett",
+        "state": "MT",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station MTWIN Winnett Mt-200 Mp 136.0."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.36,
+          47.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-11",
+      "properties": {
+        "report_id": "iem-lsr-GGW-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609072125",
+        "standard_time_display": "2026-09-07 14:25 MST",
+        "wfo": "GGW",
+        "county_or_zone": "McCone",
+        "city": "1 NW Brockway",
+        "state": "MT",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station WAYM8 Brockway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.77,
+          47.31
         ]
       }
     }
