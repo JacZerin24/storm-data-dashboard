@@ -6,7 +6,7 @@
     "wfo": "TBW",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-08T13:36:02Z",
+    "generated_utc": "2026-09-09T13:42:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "TBW",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
+      "other": 1,
       "thunderstorm_wind": 10,
-      "tornado": 3
+      "tornado": 4
     },
     "candidate_report_type_counts": {
+      "LIGHTNING": 1,
       "TSTM WND GST": 10,
-      "WATERSPOUT": 3
+      "WATERSPOUT": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -334,6 +336,50 @@
       "ugc": "FLC103",
       "ugc_name": "Pinellas",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609071455",
+      "standard_time_display": "2026-09-07 09:55 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 W Palm Harbor",
+      "county": "GMZ853",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "Delayed Report: Broadcast media shared images of a waterspout off Honeymoon Island just before 11AM yesterday. The waterspout remained offshore for its lifecycle per reports.",
+      "lat": 28.08,
+      "lon": -82.85,
+      "ugc": "GMZ853",
+      "ugc_name": "Coastal waters from Englewood to Tarpon Springs FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TBW-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609081935",
+      "standard_time_display": "2026-09-08 14:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TBW",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Kenneth City",
+      "county": "Pinellas",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Pinellas County Emergency Management relayed a report of a structure fire at a school that is believed to have been caused by a lightning strike.",
+      "lat": 27.78,
+      "lon": -82.72,
+      "ugc": "FLC103",
+      "ugc_name": "Pinellas",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TBW&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -342,7 +388,7 @@
       "wfo": "TBW",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-08T13:36:02Z"
+      "generated_utc": "2026-09-09T13:42:49Z"
     },
     "primary_links": [
       {
