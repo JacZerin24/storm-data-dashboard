@@ -7,7 +7,7 @@
     "wfo": "DMX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-09T13:41:40Z",
+    "generated_utc": "2026-09-10T13:34:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1060,6 +1060,32 @@
       "id": "iem-lsr-DMX-41",
       "properties": {
         "report_id": "iem-lsr-DMX-41",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609082329",
+        "standard_time_display": "2026-09-08 17:29 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "2 NW Des Moines",
+        "state": "IA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Picture of large branches down. Relayed from broadcast media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.64,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-42",
+      "properties": {
+        "report_id": "iem-lsr-DMX-42",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202609082331",
@@ -1083,9 +1109,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-42",
+      "id": "iem-lsr-DMX-43",
       "properties": {
-        "report_id": "iem-lsr-DMX-42",
+        "report_id": "iem-lsr-DMX-43",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609082343",
@@ -1109,9 +1135,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-43",
+      "id": "iem-lsr-DMX-44",
       "properties": {
-        "report_id": "iem-lsr-DMX-43",
+        "report_id": "iem-lsr-DMX-44",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202609090015",
@@ -1135,35 +1161,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-44",
+      "id": "iem-lsr-DMX-45",
       "properties": {
-        "report_id": "iem-lsr-DMX-44",
+        "report_id": "iem-lsr-DMX-45",
         "report_type": "RAIN",
         "event_category": "other",
-        "valid_utc": "202609090114",
-        "standard_time_display": "2026-09-08 19:14 CST",
+        "valid_utc": "202609091035",
+        "standard_time_display": "2026-09-09 04:35 CST",
         "wfo": "DMX",
-        "county_or_zone": "Polk",
-        "city": "Ankeny",
+        "county_or_zone": "Warren",
+        "city": "Norwalk",
         "state": "IA",
-        "magnitude": 6.0,
+        "magnitude": 5.25,
         "magnitude_units": null,
-        "source": "Trained Spotter",
-        "event_narrative": null
+        "source": "Emergency Mngr",
+        "event_narrative": "Overnight rain total report from EM."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.6,
-          41.74
+          -93.69,
+          41.5
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-45",
+      "id": "iem-lsr-DMX-46",
       "properties": {
-        "report_id": "iem-lsr-DMX-45",
+        "report_id": "iem-lsr-DMX-46",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091118",
@@ -1187,9 +1213,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-46",
+      "id": "iem-lsr-DMX-47",
       "properties": {
-        "report_id": "iem-lsr-DMX-46",
+        "report_id": "iem-lsr-DMX-47",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091120",
@@ -1213,9 +1239,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-47",
+      "id": "iem-lsr-DMX-48",
       "properties": {
-        "report_id": "iem-lsr-DMX-47",
+        "report_id": "iem-lsr-DMX-48",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091126",
@@ -1239,9 +1265,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-48",
+      "id": "iem-lsr-DMX-49",
       "properties": {
-        "report_id": "iem-lsr-DMX-48",
+        "report_id": "iem-lsr-DMX-49",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091139",
@@ -1265,9 +1291,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-49",
+      "id": "iem-lsr-DMX-50",
       "properties": {
-        "report_id": "iem-lsr-DMX-49",
+        "report_id": "iem-lsr-DMX-50",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091150",
@@ -1291,9 +1317,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-50",
+      "id": "iem-lsr-DMX-51",
       "properties": {
-        "report_id": "iem-lsr-DMX-50",
+        "report_id": "iem-lsr-DMX-51",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091155",
+        "standard_time_display": "2026-09-09 05:55 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Dallas",
+        "city": "2 ESE Van Meter",
+        "state": "IA",
+        "magnitude": 7.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Rain in gauge was over the markings. Estimated total based off picture."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.91,
+          41.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-52",
+      "properties": {
+        "report_id": "iem-lsr-DMX-52",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091200",
+        "standard_time_display": "2026-09-09 06:00 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "2 E Johnston",
+        "state": "IA",
+        "magnitude": 3.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "24 Hour storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7,
+          41.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-53",
+      "properties": {
+        "report_id": "iem-lsr-DMX-53",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091200",
@@ -1317,9 +1395,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-51",
+      "id": "iem-lsr-DMX-54",
       "properties": {
-        "report_id": "iem-lsr-DMX-51",
+        "report_id": "iem-lsr-DMX-54",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091200",
@@ -1343,9 +1421,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-52",
+      "id": "iem-lsr-DMX-55",
       "properties": {
-        "report_id": "iem-lsr-DMX-52",
+        "report_id": "iem-lsr-DMX-55",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091200",
@@ -1369,9 +1447,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-53",
+      "id": "iem-lsr-DMX-56",
       "properties": {
-        "report_id": "iem-lsr-DMX-53",
+        "report_id": "iem-lsr-DMX-56",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091200",
@@ -1395,9 +1473,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-54",
+      "id": "iem-lsr-DMX-57",
       "properties": {
-        "report_id": "iem-lsr-DMX-54",
+        "report_id": "iem-lsr-DMX-57",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091230",
+        "standard_time_display": "2026-09-09 06:30 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Warren",
+        "city": "8 ENE New Virginia",
+        "state": "IA",
+        "magnitude": 3.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Measured on 3 different rain gauges."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.59,
+          41.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-58",
+      "properties": {
+        "report_id": "iem-lsr-DMX-58",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091230",
@@ -1421,9 +1525,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-DMX-55",
+      "id": "iem-lsr-DMX-59",
       "properties": {
-        "report_id": "iem-lsr-DMX-55",
+        "report_id": "iem-lsr-DMX-59",
         "report_type": "RAIN",
         "event_category": "other",
         "valid_utc": "202609091245",
@@ -1442,6 +1546,318 @@
         "coordinates": [
           -93.62,
           41.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-60",
+      "properties": {
+        "report_id": "iem-lsr-DMX-60",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091245",
+        "standard_time_display": "2026-09-09 06:45 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "1 NW Windsor Heights",
+        "state": "IA",
+        "magnitude": 7.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Overnight rainfall as of 7:45 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.73,
+          41.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-61",
+      "properties": {
+        "report_id": "iem-lsr-DMX-61",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091251",
+        "standard_time_display": "2026-09-09 06:51 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "Urbandale",
+        "state": "IA",
+        "magnitude": 7.5,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Rain in gauge was above markings. Estimated from picture."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74,
+          41.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-62",
+      "properties": {
+        "report_id": "iem-lsr-DMX-62",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091300",
+        "standard_time_display": "2026-09-09 07:00 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "West Des Moines",
+        "state": "IA",
+        "magnitude": 6.91,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.75,
+          41.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-63",
+      "properties": {
+        "report_id": "iem-lsr-DMX-63",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091302",
+        "standard_time_display": "2026-09-09 07:02 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "2 SSW Clive",
+        "state": "IA",
+        "magnitude": 6.5,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.78,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-64",
+      "properties": {
+        "report_id": "iem-lsr-DMX-64",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091325",
+        "standard_time_display": "2026-09-09 07:25 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Warren",
+        "city": "1 N Indianola",
+        "state": "IA",
+        "magnitude": 5.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "24 hour storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.57,
+          41.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-65",
+      "properties": {
+        "report_id": "iem-lsr-DMX-65",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091329",
+        "standard_time_display": "2026-09-09 07:29 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "Pleasant Hill",
+        "state": "IA",
+        "magnitude": 4.7,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.51,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-66",
+      "properties": {
+        "report_id": "iem-lsr-DMX-66",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091413",
+        "standard_time_display": "2026-09-09 08:13 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "1 SE Altoona",
+        "state": "IA",
+        "magnitude": 6.7,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.46,
+          41.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-67",
+      "properties": {
+        "report_id": "iem-lsr-DMX-67",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091507",
+        "standard_time_display": "2026-09-09 09:07 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "1 N West Des Moines",
+        "state": "IA",
+        "magnitude": 5.85,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Location estimated *near Valley HS*."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.76,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-68",
+      "properties": {
+        "report_id": "iem-lsr-DMX-68",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091553",
+        "standard_time_display": "2026-09-09 09:53 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "2 NW Ankeny",
+        "state": "IA",
+        "magnitude": 4.8,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Overnight rain totals."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.64,
+          41.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-69",
+      "properties": {
+        "report_id": "iem-lsr-DMX-69",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091700",
+        "standard_time_display": "2026-09-09 11:00 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "Runnells",
+        "state": "IA",
+        "magnitude": 4.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "24 Hour storm total."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.36,
+          41.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-70",
+      "properties": {
+        "report_id": "iem-lsr-DMX-70",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091720",
+        "standard_time_display": "2026-09-09 11:20 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Polk",
+        "city": "2 WNW Des Moines",
+        "state": "IA",
+        "magnitude": 6.47,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Rain gauge totals since 6pm yesterday."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.65,
+          41.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DMX-71",
+      "properties": {
+        "report_id": "iem-lsr-DMX-71",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609091726",
+        "standard_time_display": "2026-09-09 11:26 CST",
+        "wfo": "DMX",
+        "county_or_zone": "Guthrie",
+        "city": "Casey",
+        "state": "IA",
+        "magnitude": 5.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Overnight rain gauge totals."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.52,
+          41.51
         ]
       }
     }

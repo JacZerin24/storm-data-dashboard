@@ -6,7 +6,7 @@
     "wfo": "APX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-09T13:41:22Z",
+    "generated_utc": "2026-09-10T13:33:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 9,
     "wfo": "APX",
-    "total_candidate_reports": 17,
-    "mapped_candidate_reports": 17,
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
     "candidate_report_counts": {
       "hail": 1,
       "other": 13,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
+      "NON-TSTM WND GST": 2,
       "RAIN": 13,
       "TSTM WND GST": 3
     },
@@ -422,6 +423,50 @@
       "ugc": "MIC101",
       "ugc_name": "Manistee",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609092144",
+      "standard_time_display": "2026-09-09 16:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "APX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "1 S Sault Ste. Marie",
+      "county": "Chippewa",
+      "state": "MI",
+      "source": "AWOS",
+      "remark": "AWOS station KANJ Sault Ste Marie - Municipal Airport.",
+      "lat": 46.47,
+      "lon": -84.37,
+      "ugc": "MIC033",
+      "ugc_name": "Chippewa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609092224",
+      "standard_time_display": "2026-09-09 17:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "APX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Sault Ste. Marie",
+      "county": "Chippewa",
+      "state": "MI",
+      "source": "Buoy",
+      "remark": "Buoy station SWPM4 S.W. Pier_ MI.",
+      "lat": 46.5,
+      "lon": -84.37,
+      "ugc": "MIC033",
+      "ugc_name": "Chippewa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -430,7 +475,7 @@
       "wfo": "APX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-09T13:41:22Z"
+      "generated_utc": "2026-09-10T13:33:52Z"
     },
     "primary_links": [
       {
