@@ -7,7 +7,7 @@
     "wfo": "TAE",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-11T13:33:28Z",
+    "generated_utc": "2026-09-12T12:51:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1000,6 +1000,58 @@
         "coordinates": [
           -85.03,
           29.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-39",
+      "properties": {
+        "report_id": "iem-lsr-TAE-39",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609111312",
+        "standard_time_display": "2026-09-11 08:12 EST",
+        "wfo": "TAE",
+        "county_or_zone": "GMZ751",
+        "city": "1 SE Gulf Resort Beach",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet site reported a 40 mph wind gust at Russel Fields Pier."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.88,
+          30.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TAE-40",
+      "properties": {
+        "report_id": "iem-lsr-TAE-40",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609112050",
+        "standard_time_display": "2026-09-11 15:50 EST",
+        "wfo": "TAE",
+        "county_or_zone": "Franklin",
+        "city": "Dog Island",
+        "state": "FL",
+        "magnitude": 4.31,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The Dog Island Weatherstem measured 4.31 inches of rain so far today."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.58,
+          29.81
         ]
       }
     }

@@ -3,19 +3,24 @@
   "year": 2026,
   "month": 9,
   "wfo": "MPX",
-  "total_candidate_reports": 8,
-  "mapped_candidate_reports": 8,
+  "total_candidate_reports": 18,
+  "mapped_candidate_reports": 18,
   "candidate_report_counts": {
-    "hail": 8
+    "hail": 15,
+    "thunderstorm_wind": 1,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "HAIL": 8
+    "HAIL": 15,
+    "TORNADO": 2,
+    "TSTM WND DMG": 1
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MPX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
