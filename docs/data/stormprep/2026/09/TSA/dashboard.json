@@ -6,7 +6,7 @@
     "wfo": "TSA",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-12T12:51:14Z",
+    "generated_utc": "2026-09-13T13:49:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "TSA",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 6
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 3,
-      "TSTM WND GST": 1
+      "TSTM WND DMG": 4,
+      "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -133,6 +133,50 @@
       "ugc": "ARC131",
       "ugc_name": "Sebastian",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609121630",
+      "standard_time_display": "2026-09-12 10:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Broken Arrow",
+      "county": "Wagoner",
+      "state": "OK",
+      "source": "Public",
+      "remark": "Shingles blow off house_ small branches broken and power outages in the vicinity of County Line and 41st street. Time estimated from radar.",
+      "lat": 36.1,
+      "lon": -95.76,
+      "ugc": "OKC145",
+      "ugc_name": "Wagoner",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609121734",
+      "standard_time_display": "2026-09-12 11:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "5 SSE Haskell",
+      "county": "Muskogee",
+      "state": "OK",
+      "source": "Mesonet",
+      "remark": "58 mph wind gust recorded by Oklahoma mesonet.",
+      "lat": 35.75,
+      "lon": -95.64,
+      "ugc": "OKC101",
+      "ugc_name": "Muskogee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -141,7 +185,7 @@
       "wfo": "TSA",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-12T12:51:14Z"
+      "generated_utc": "2026-09-13T13:49:06Z"
     },
     "primary_links": [
       {

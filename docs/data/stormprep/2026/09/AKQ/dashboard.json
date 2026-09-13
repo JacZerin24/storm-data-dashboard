@@ -6,7 +6,7 @@
     "wfo": "AKQ",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-12T12:49:43Z",
+    "generated_utc": "2026-09-13T13:47:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 9,
     "wfo": "AKQ",
-    "total_candidate_reports": 75,
-    "mapped_candidate_reports": 75,
+    "total_candidate_reports": 77,
+    "mapped_candidate_reports": 77,
     "candidate_report_counts": {
-      "flooding": 2,
+      "flooding": 3,
       "hail": 2,
       "marine": 8,
       "other": 2,
-      "thunderstorm_wind": 61
+      "thunderstorm_wind": 61,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 2,
+      "FLASH FLOOD": 3,
       "HAIL": 2,
       "LIGHTNING": 2,
       "MARINE TSTM WIND": 8,
+      "TORNADO": 1,
       "TSTM WND DMG": 57,
       "TSTM WND GST": 4
     },
@@ -39,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AKQ&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AKQ&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -1703,6 +1707,50 @@
       "ugc": "VAC117",
       "ugc_name": "Mecklenburg",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AKQ-76",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609122046",
+      "standard_time_display": "2026-09-12 15:46 EST",
+      "standard_time_zone": "EST",
+      "wfo": "AKQ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Spring Grove",
+      "county": "Surry",
+      "state": "VA",
+      "source": "NWS Storm Survey",
+      "remark": "Storm survey conducted by NWS employee found tornado damage consistent with an EF-0 along VA-10 east of Spring Grove. Time is estimated based on radar.",
+      "lat": 37.16,
+      "lon": -76.96,
+      "ugc": "VAC181",
+      "ugc_name": "Surry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AKQ-77",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609122208",
+      "standard_time_display": "2026-09-12 17:08 EST",
+      "standard_time_zone": "EST",
+      "wfo": "AKQ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WSW Montrose",
+      "county": "City of Richmond",
+      "state": "VA",
+      "source": "Dept of Highways",
+      "remark": "VDOT reports a few delays from standing water on I-95 between mile marker 69 and 73. The north and south left shoulder and left lane are closed.",
+      "lat": 37.51,
+      "lon": -77.43,
+      "ugc": "VAC760",
+      "ugc_name": "City of Richmond",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AKQ&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1711,7 +1759,7 @@
       "wfo": "AKQ",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-12T12:49:43Z"
+      "generated_utc": "2026-09-13T13:47:17Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "TSA",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-12T12:51:14Z",
+    "generated_utc": "2026-09-13T13:49:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -116,6 +116,58 @@
         "coordinates": [
           -94.37,
           35.34
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-5",
+      "properties": {
+        "report_id": "iem-lsr-TSA-5",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609121630",
+        "standard_time_display": "2026-09-12 10:30 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Wagoner",
+        "city": "4 NNE Broken Arrow",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Shingles blow off house_ small branches broken and power outages in the vicinity of County Line and 41st street. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.76,
+          36.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TSA-6",
+      "properties": {
+        "report_id": "iem-lsr-TSA-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609121734",
+        "standard_time_display": "2026-09-12 11:34 CST",
+        "wfo": "TSA",
+        "county_or_zone": "Muskogee",
+        "city": "5 SSE Haskell",
+        "state": "OK",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "58 mph wind gust recorded by Oklahoma mesonet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.64,
+          35.75
         ]
       }
     }

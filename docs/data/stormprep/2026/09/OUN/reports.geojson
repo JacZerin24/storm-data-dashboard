@@ -7,12 +7,143 @@
     "wfo": "OUN",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-12T12:50:52Z",
+    "generated_utc": "2026-09-13T13:48:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OUN&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-1",
+      "properties": {
+        "report_id": "iem-lsr-OUN-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609122100",
+        "standard_time_display": "2026-09-12 15:00 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Kingfisher",
+        "city": "6 NW Cashion",
+        "state": "OK",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Personal weather stations in the area reported 60-70 mph wind gusts."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76,
+          35.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-2",
+      "properties": {
+        "report_id": "iem-lsr-OUN-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609122110",
+        "standard_time_display": "2026-09-12 15:10 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Oklahoma",
+        "city": "1 NNW Oklahoma City",
+        "state": "OK",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52,
+          35.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-3",
+      "properties": {
+        "report_id": "iem-lsr-OUN-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609122200",
+        "standard_time_display": "2026-09-12 16:00 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Kingfisher",
+        "city": "3 SE Kingfisher",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Two wooden power poles snapped."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89,
+          35.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-4",
+      "properties": {
+        "report_id": "iem-lsr-OUN-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609122239",
+        "standard_time_display": "2026-09-12 16:39 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Kingfisher",
+        "city": "1 E Okarche",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Large tree blown down."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96,
+          35.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-OUN-5",
+      "properties": {
+        "report_id": "iem-lsr-OUN-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609130210",
+        "standard_time_display": "2026-09-12 20:10 CST",
+        "wfo": "OUN",
+        "county_or_zone": "Woodward",
+        "city": "3 SSW Freedom",
+        "state": "OK",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.13,
+          36.73
+        ]
+      }
+    }
+  ]
 }
