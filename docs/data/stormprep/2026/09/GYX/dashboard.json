@@ -6,7 +6,7 @@
     "wfo": "GYX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-13T13:47:56Z",
+    "generated_utc": "2026-09-14T15:52:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "GYX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "other": 2
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GYX&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GYX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609132027",
+      "standard_time_display": "2026-09-13 15:27 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.27,
+      "magnitude_qualifier": null,
+      "city": "3 SE Londonderry",
+      "county": "Rockingham",
+      "state": "NH",
+      "source": "Mesonet",
+      "remark": "Mesonet station FW9206 Windham.",
+      "lat": 42.84,
+      "lon": -71.33,
+      "ugc": "NHC015",
+      "ugc_name": "Rockingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609132045",
+      "standard_time_display": "2026-09-13 15:45 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.42,
+      "magnitude_qualifier": null,
+      "city": "1 S Nashua",
+      "county": "Hillsborough",
+      "state": "NH",
+      "source": "Mesonet",
+      "remark": "Mesonet station GW2840 Nashua.",
+      "lat": 42.73,
+      "lon": -71.49,
+      "ugc": "NHC011",
+      "ugc_name": "Hillsborough",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "GYX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-13T13:47:57Z"
+      "generated_utc": "2026-09-14T15:52:49Z"
     },
     "primary_links": [
       {

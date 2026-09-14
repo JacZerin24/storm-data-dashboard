@@ -6,7 +6,7 @@
     "wfo": "BTV",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-13T13:47:27Z",
+    "generated_utc": "2026-09-14T15:52:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "BTV",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
       "flooding": 1,
-      "other": 9
+      "other": 9,
+      "thunderstorm_wind": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
-      "RAIN": 9
+      "RAIN": 9,
+      "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -266,6 +268,28 @@
       "ugc": "VTC019",
       "ugc_name": "Orleans",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BTV-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609132139",
+      "standard_time_display": "2026-09-13 16:39 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BTV",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Bombay",
+      "county": "Franklin",
+      "state": "NY",
+      "source": "Fire Dept/Rescue",
+      "remark": "Franklin County dispatch received several reports of trees down in Bombay. Time estimated from radar.",
+      "lat": 44.94,
+      "lon": -74.57,
+      "ugc": "NYC033",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -274,7 +298,7 @@
       "wfo": "BTV",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-13T13:47:28Z"
+      "generated_utc": "2026-09-14T15:52:22Z"
     },
     "primary_links": [
       {

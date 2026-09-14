@@ -7,12 +7,65 @@
     "wfo": "GYX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-13T13:47:56Z",
+    "generated_utc": "2026-09-14T15:52:49Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GYX-1",
+      "properties": {
+        "report_id": "iem-lsr-GYX-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609132027",
+        "standard_time_display": "2026-09-13 15:27 EST",
+        "wfo": "GYX",
+        "county_or_zone": "Rockingham",
+        "city": "3 SE Londonderry",
+        "state": "NH",
+        "magnitude": 2.27,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station FW9206 Windham."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.33,
+          42.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GYX-2",
+      "properties": {
+        "report_id": "iem-lsr-GYX-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202609132045",
+        "standard_time_display": "2026-09-13 15:45 EST",
+        "wfo": "GYX",
+        "county_or_zone": "Hillsborough",
+        "city": "1 S Nashua",
+        "state": "NH",
+        "magnitude": 2.42,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station GW2840 Nashua."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.49,
+          42.73
+        ]
+      }
+    }
+  ]
 }
