@@ -7,7 +7,7 @@
     "wfo": "GLD",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-14T15:52:45Z",
+    "generated_utc": "2026-09-15T14:19:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -505,6 +505,58 @@
         "type": "Point",
         "coordinates": [
           -101.04,
+          39.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GLD-20",
+      "properties": {
+        "report_id": "iem-lsr-GLD-20",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609142203",
+        "standard_time_display": "2026-09-14 16:03 CST",
+        "wfo": "GLD",
+        "county_or_zone": "Graham",
+        "city": "1 NE Hill City",
+        "state": "KS",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Delayed report of KHLC 65 MPH wind report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.83,
+          39.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GLD-21",
+      "properties": {
+        "report_id": "iem-lsr-GLD-21",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609142205",
+        "standard_time_display": "2026-09-14 16:05 CST",
+        "wfo": "GLD",
+        "county_or_zone": "Graham",
+        "city": "1 NE Hill City",
+        "state": "KS",
+        "magnitude": 55.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station reported wind gust of 55 mph Station ID: KSmesonet_Hill_City."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.83,
           39.38
         ]
       }

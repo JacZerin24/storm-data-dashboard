@@ -6,7 +6,7 @@
     "wfo": "EAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-14T15:52:35Z",
+    "generated_utc": "2026-09-15T14:19:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 9,
     "wfo": "EAX",
-    "total_candidate_reports": 87,
-    "mapped_candidate_reports": 87,
+    "total_candidate_reports": 90,
+    "mapped_candidate_reports": 90,
     "candidate_report_counts": {
+      "flooding": 2,
       "hail": 12,
-      "thunderstorm_wind": 75
+      "thunderstorm_wind": 76
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 2,
       "HAIL": 12,
       "TSTM WND DMG": 68,
-      "TSTM WND GST": 7
+      "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1961,6 +1963,72 @@
       "ugc": "MOC159",
       "ugc_name": "Pettis",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609141215",
+      "standard_time_display": "2026-09-14 06:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Fillmore",
+      "county": "Andrew",
+      "state": "MO",
+      "source": "Public",
+      "remark": "Social media report of flooding of a creek and drainage ditch adjacent to a rural road near Savannah. The creek flooded property and farmland near a couple of residences and flowed over a driveway at",
+      "lat": 39.97,
+      "lon": -94.95,
+      "ugc": "MOC003",
+      "ugc_name": "Andrew",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-89",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609141442",
+      "standard_time_display": "2026-09-14 08:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Rosendale",
+      "county": "Andrew",
+      "state": "MO",
+      "source": "Dept of Highways",
+      "remark": "Highway 48 closed due to flooding just east of Rosendale.",
+      "lat": 40.05,
+      "lon": -94.81,
+      "ugc": "MOC003",
+      "ugc_name": "Andrew",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-90",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609150312",
+      "standard_time_display": "2026-09-14 21:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 52.0,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Westboro",
+      "county": "Atchison",
+      "state": "MO",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 40.56,
+      "lon": -95.33,
+      "ugc": "MOC005",
+      "ugc_name": "Atchison",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1969,7 +2037,7 @@
       "wfo": "EAX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-14T15:52:36Z"
+      "generated_utc": "2026-09-15T14:19:39Z"
     },
     "primary_links": [
       {
