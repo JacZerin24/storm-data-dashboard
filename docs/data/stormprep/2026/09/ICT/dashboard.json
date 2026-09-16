@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-15T14:19:59Z",
+    "generated_utc": "2026-09-16T14:11:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 9,
     "wfo": "ICT",
-    "total_candidate_reports": 46,
-    "mapped_candidate_reports": 46,
+    "total_candidate_reports": 49,
+    "mapped_candidate_reports": 49,
     "candidate_report_counts": {
       "flooding": 3,
       "hail": 2,
       "other": 27,
-      "thunderstorm_wind": 14
+      "thunderstorm_wind": 17
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
       "HAIL": 2,
       "RAIN": 27,
-      "TSTM WND DMG": 9,
-      "TSTM WND GST": 5
+      "TSTM WND DMG": 10,
+      "TSTM WND GST": 7
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1063,6 +1063,72 @@
       "ugc": "KSC133",
       "ugc_name": "Neosho",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609151853",
+      "standard_time_display": "2026-09-15 12:53 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "Mcconnell Air Force Bas",
+      "county": "Sedgwick",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": null,
+      "lat": 37.62,
+      "lon": -97.26,
+      "ugc": "KSC173",
+      "ugc_name": "Sedgwick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609151942",
+      "standard_time_display": "2026-09-15 13:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 75.0,
+      "magnitude_qualifier": null,
+      "city": "Mcconnell Air Force Bas",
+      "county": "Sedgwick",
+      "state": "KS",
+      "source": "ASOS",
+      "remark": "Measured at McConnell AFB.",
+      "lat": 37.62,
+      "lon": -97.26,
+      "ugc": "KSC173",
+      "ugc_name": "Sedgwick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-49",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609151942",
+      "standard_time_display": "2026-09-15 13:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Mcconnell Air Forc",
+      "county": "Sedgwick",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "Delayed report_ time estimated from radar and observations. Large panels of a 70 foot wall at a Boeing/Spirit plant were ripped off. Courtesy of KSN TV. Reported by Sedgwick County Emergency Manageme",
+      "lat": 37.61,
+      "lon": -97.28,
+      "ugc": "KSC173",
+      "ugc_name": "Sedgwick",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1071,7 +1137,7 @@
       "wfo": "ICT",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-15T14:20:00Z"
+      "generated_utc": "2026-09-16T14:11:27Z"
     },
     "primary_links": [
       {
