@@ -7,12 +7,169 @@
     "wfo": "AFC",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-16T14:10:46Z",
+    "generated_utc": "2026-09-17T14:16:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-1",
+      "properties": {
+        "report_id": "iem-lsr-AFC-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609150805",
+        "standard_time_display": "2026-09-14 23:05 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Aleutians West",
+        "city": "3 S Saint Paul",
+        "state": "AK",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.22,
+          57.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-2",
+      "properties": {
+        "report_id": "iem-lsr-AFC-2",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609151540",
+        "standard_time_display": "2026-09-15 06:40 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Bethel",
+        "city": "2 W Bethel",
+        "state": "AK",
+        "magnitude": 67.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "Bethel ASOS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.84,
+          60.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-3",
+      "properties": {
+        "report_id": "iem-lsr-AFC-3",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609151700",
+        "standard_time_display": "2026-09-15 08:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Bethel",
+        "city": "Bethel",
+        "state": "AK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reports and imagery on social media show minor flooding in low-lying areas of Bethel. This include water across the road in Front (/1st) St._ as well as by Eddie Hoffman / Bridge Ave near the Brown S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.75,
+          60.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-4",
+      "properties": {
+        "report_id": "iem-lsr-AFC-4",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609151915",
+        "standard_time_display": "2026-09-15 10:15 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Bethel",
+        "city": "Kwethluk",
+        "state": "AK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Observer called to report Kwethluk had been flooding for the past two days. The west side of town (which is the lowest part of town) and the intersection between town and the airport road were floode"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.44,
+          60.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-5",
+      "properties": {
+        "report_id": "iem-lsr-AFC-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609151915",
+        "standard_time_display": "2026-09-15 10:15 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Bethel",
+        "city": "Napaskiak",
+        "state": "AK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Observer in Napaskiak called around high tide. All low lying areas were ponding water and the Kusko was at or just over bank. Similar conditions were occuring in Bethel_ Napakiak_ and Oscarville."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -161.77,
+          60.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-6",
+      "properties": {
+        "report_id": "iem-lsr-AFC-6",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609152135",
+        "standard_time_display": "2026-09-15 12:35 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Bethel",
+        "city": "Kipnuk",
+        "state": "AK",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.03,
+          59.93
+        ]
+      }
+    }
+  ]
 }
