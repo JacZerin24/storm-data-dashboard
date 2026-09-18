@@ -6,7 +6,7 @@
     "wfo": "LBF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-17T14:17:06Z",
+    "generated_utc": "2026-09-18T13:34:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 9,
     "wfo": "LBF",
-    "total_candidate_reports": 66,
-    "mapped_candidate_reports": 66,
+    "total_candidate_reports": 67,
+    "mapped_candidate_reports": 67,
     "candidate_report_counts": {
       "flooding": 2,
       "hail": 15,
       "other": 22,
       "thunderstorm_wind": 26,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
       "HAIL": 15,
       "NON-TSTM WND GST": 3,
       "RAIN": 22,
-      "TORNADO": 1,
+      "TORNADO": 2,
       "TSTM WND GST": 23
     },
     "nws_api_alert_count": 0,
@@ -1507,6 +1507,28 @@
       "ugc": "NEC015",
       "ugc_name": "Boyd",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LBF-67",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609180034",
+      "standard_time_display": "2026-09-17 17:34 MST",
+      "standard_time_zone": "MST",
+      "wfo": "LBF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "11 NNE Chappell",
+      "county": "Garden",
+      "state": "NE",
+      "source": "Storm Chaser",
+      "remark": "Brief tornado touchdown reported by storm chaser via social media photo.",
+      "lat": 41.24,
+      "lon": -102.38,
+      "ugc": "NEC069",
+      "ugc_name": "Garden",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LBF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1515,7 +1537,7 @@
       "wfo": "LBF",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-17T14:17:07Z"
+      "generated_utc": "2026-09-18T13:34:56Z"
     },
     "primary_links": [
       {

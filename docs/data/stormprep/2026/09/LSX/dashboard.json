@@ -6,7 +6,7 @@
     "wfo": "LSX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-17T14:17:12Z",
+    "generated_utc": "2026-09-18T13:35:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "LSX",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "thunderstorm_wind": 2
+      "hail": 1,
+      "other": 1,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
-      "TSTM WND DMG": 1,
+      "HAIL": 1,
+      "RAIN": 1,
+      "TSTM WND DMG": 2,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -89,6 +93,72 @@
       "ugc": "MOC019",
       "ugc_name": "Boone",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LSX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609172038",
+      "standard_time_display": "2026-09-17 14:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LSX",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Saint Paul",
+      "county": "St. Charles",
+      "state": "MO",
+      "source": "NWS Employee",
+      "remark": null,
+      "lat": 38.84,
+      "lon": -90.74,
+      "ugc": "MOC183",
+      "ugc_name": "St. Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LSX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609172045",
+      "standard_time_display": "2026-09-17 14:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LSX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Saint Paul",
+      "county": "St. Charles",
+      "state": "MO",
+      "source": "NWS Employee",
+      "remark": "Few trees and tree limbs larger than 6 inches down. A few shingles blown off roofs.",
+      "lat": 38.85,
+      "lon": -90.75,
+      "ugc": "MOC183",
+      "ugc_name": "St. Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LSX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609172145",
+      "standard_time_display": "2026-09-17 15:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LSX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.35,
+      "magnitude_qualifier": null,
+      "city": "1 SW Saint Paul",
+      "county": "St. Charles",
+      "state": "MO",
+      "source": "NWS Employee",
+      "remark": "2.35 inches of rain measured by off duty NWS Employee in approximately 90 minutes.",
+      "lat": 38.85,
+      "lon": -90.75,
+      "ugc": "MOC183",
+      "ugc_name": "St. Charles",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -97,7 +167,7 @@
       "wfo": "LSX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-17T14:17:12Z"
+      "generated_utc": "2026-09-18T13:35:02Z"
     },
     "primary_links": [
       {

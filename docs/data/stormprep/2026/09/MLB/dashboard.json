@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-17T14:17:20Z",
+    "generated_utc": "2026-09-18T13:35:11Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,11 +17,11 @@
     "year": 2026,
     "month": 9,
     "wfo": "MLB",
-    "total_candidate_reports": 27,
-    "mapped_candidate_reports": 27,
+    "total_candidate_reports": 28,
+    "mapped_candidate_reports": 28,
     "candidate_report_counts": {
       "fire_smoke": 1,
-      "marine": 19,
+      "marine": 20,
       "other": 2,
       "thunderstorm_wind": 2,
       "tornado": 3
@@ -29,7 +29,7 @@
     "candidate_report_type_counts": {
       "FUNNEL CLOUD": 2,
       "LIGHTNING": 1,
-      "MARINE TSTM WIND": 19,
+      "MARINE TSTM WIND": 20,
       "NON-TSTM WND GST": 1,
       "RAIN": 1,
       "TSTM WND DMG": 1,
@@ -651,6 +651,28 @@
       "ugc": "FLC061",
       "ugc_name": "Indian River",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609172352",
+      "standard_time_display": "2026-09-17 18:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Melbourne",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "The ASOS at the Melbourne International Airport measured a wind gust of 40MPH/35KTS from the east.",
+      "lat": 28.1,
+      "lon": -80.65,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -659,7 +681,7 @@
       "wfo": "MLB",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-17T14:17:20Z"
+      "generated_utc": "2026-09-18T13:35:11Z"
     },
     "primary_links": [
       {

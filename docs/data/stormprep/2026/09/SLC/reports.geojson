@@ -7,7 +7,7 @@
     "wfo": "SLC",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-17T14:17:48Z",
+    "generated_utc": "2026-09-18T13:35:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -706,8 +706,8 @@
         "state": "UT",
         "magnitude": 1.0,
         "magnitude_units": null,
-        "source": "Public",
-        "event_narrative": "Social media report of multiple hailstones_ estimated to the size of a quarter."
+        "source": "Emergency Mngr",
+        "event_narrative": "More than a dozen vehicles damaged by hail in Huntington. Time estimated based on other reports."
       },
       "geometry": {
         "type": "Point",
@@ -722,6 +722,32 @@
       "id": "iem-lsr-SLC-28",
       "properties": {
         "report_id": "iem-lsr-SLC-28",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609162035",
+        "standard_time_display": "2026-09-16 13:35 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Emery",
+        "city": "Huntington",
+        "state": "UT",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of multiple hailstones_ estimated to the size of a quarter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.96,
+          39.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-29",
+      "properties": {
+        "report_id": "iem-lsr-SLC-29",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202609162202",
@@ -745,9 +771,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SLC-29",
+      "id": "iem-lsr-SLC-30",
       "properties": {
-        "report_id": "iem-lsr-SLC-29",
+        "report_id": "iem-lsr-SLC-30",
         "report_type": "HAIL",
         "event_category": "hail",
         "valid_utc": "202609162204",
@@ -771,9 +797,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SLC-30",
+      "id": "iem-lsr-SLC-31",
       "properties": {
-        "report_id": "iem-lsr-SLC-30",
+        "report_id": "iem-lsr-SLC-31",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202609162220",
@@ -797,9 +823,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-SLC-31",
+      "id": "iem-lsr-SLC-32",
       "properties": {
-        "report_id": "iem-lsr-SLC-31",
+        "report_id": "iem-lsr-SLC-32",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202609162225",
@@ -818,6 +844,58 @@
         "coordinates": [
           -111.19,
           38.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-33",
+      "properties": {
+        "report_id": "iem-lsr-SLC-33",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609170745",
+        "standard_time_display": "2026-09-17 00:45 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Washington",
+        "city": "3 SSE Pine Vly",
+        "state": "UT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "Gauge on the Santa Clara River near Pine Valley increased by nearly 200 cfs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.49,
+          37.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SLC-34",
+      "properties": {
+        "report_id": "iem-lsr-SLC-34",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609180100",
+        "standard_time_display": "2026-09-17 18:00 MST",
+        "wfo": "SLC",
+        "county_or_zone": "Wasatch",
+        "city": "Midway",
+        "state": "UT",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.47,
+          40.51
         ]
       }
     }
