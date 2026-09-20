@@ -6,7 +6,7 @@
     "wfo": "PUB",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-19T13:08:18Z",
+    "generated_utc": "2026-09-20T13:35:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 9,
     "wfo": "PUB",
-    "total_candidate_reports": 23,
-    "mapped_candidate_reports": 23,
+    "total_candidate_reports": 25,
+    "mapped_candidate_reports": 25,
     "candidate_report_counts": {
       "hail": 3,
-      "other": 12,
-      "thunderstorm_wind": 8
+      "other": 13,
+      "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "HAIL": 3,
-      "RAIN": 12,
+      "RAIN": 13,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 7
+      "TSTM WND GST": 8
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -555,6 +555,50 @@
       "ugc": "COC079",
       "ugc_name": "Mineral",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609192254",
+      "standard_time_display": "2026-09-19 15:54 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "9 NNW Woodland Park",
+      "county": "Teller",
+      "state": "CO",
+      "source": "Mesonet",
+      "remark": "Mesonet station HACC2 Manchester.",
+      "lat": 39.11,
+      "lon": -105.14,
+      "ugc": "COC119",
+      "ugc_name": "Teller",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609200136",
+      "standard_time_display": "2026-09-19 18:36 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.53,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Monument",
+      "county": "El Paso",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": "Total QPF from today.",
+      "lat": 39.12,
+      "lon": -104.86,
+      "ugc": "COC041",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -563,7 +607,7 @@
       "wfo": "PUB",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-19T13:08:20Z"
+      "generated_utc": "2026-09-20T13:35:17Z"
     },
     "primary_links": [
       {
