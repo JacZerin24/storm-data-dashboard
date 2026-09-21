@@ -6,7 +6,7 @@
     "wfo": "MOB",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-20T13:35:00Z",
+    "generated_utc": "2026-09-21T15:53:17Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "MOB",
-    "total_candidate_reports": 14,
-    "mapped_candidate_reports": 14,
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
     "candidate_report_counts": {
-      "marine": 5,
-      "thunderstorm_wind": 6,
+      "marine": 6,
+      "thunderstorm_wind": 7,
       "tornado": 3
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 5,
+      "MARINE TSTM WIND": 6,
       "TSTM WND DMG": 4,
-      "TSTM WND GST": 2,
+      "TSTM WND GST": 3,
       "WATERSPOUT": 3
     },
     "nws_api_alert_count": 0,
@@ -359,6 +359,50 @@
       "ugc": "FLC113",
       "ugc_name": "Santa Rosa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609210000",
+      "standard_time_display": "2026-09-20 18:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 NW Miflin",
+      "county": "Baldwin",
+      "state": "AL",
+      "source": "AWOS",
+      "remark": "AWOS station KNBJ Miflin reports a wind gust of 40 mph.",
+      "lat": 30.38,
+      "lon": -87.62,
+      "ugc": "ALC003",
+      "ugc_name": "Baldwin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MOB-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609210048",
+      "standard_time_display": "2026-09-20 18:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MOB",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Fort Morgan",
+      "county": "GMZ631",
+      "state": "AL",
+      "source": "Mesonet",
+      "remark": "Mesonet station FRMA1 1 ENE Fort Morgan reports a wind gust of 44 mph.",
+      "lat": 30.23,
+      "lon": -87.99,
+      "ugc": "GMZ631",
+      "ugc_name": "South Mobile Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -367,7 +411,7 @@
       "wfo": "MOB",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-20T13:35:00Z"
+      "generated_utc": "2026-09-21T15:53:18Z"
     },
     "primary_links": [
       {

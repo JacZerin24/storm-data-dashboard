@@ -6,7 +6,7 @@
     "wfo": "LSX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-20T13:34:51Z",
+    "generated_utc": "2026-09-21T15:53:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "LSX",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
     "candidate_report_counts": {
       "hail": 1,
       "other": 1,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "HAIL": 1,
       "RAIN": 1,
-      "TSTM WND DMG": 2,
+      "TSTM WND DMG": 4,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -159,6 +159,50 @@
       "ugc": "MOC183",
       "ugc_name": "St. Charles",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LSX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202230",
+      "standard_time_display": "2026-09-20 16:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LSX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Witt",
+      "county": "Montgomery",
+      "state": "IL",
+      "source": "Emergency Mngr",
+      "remark": "Power outages_ tree limbs down on lines and homes.",
+      "lat": 39.26,
+      "lon": -89.35,
+      "ugc": "ILC135",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LSX-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202315",
+      "standard_time_display": "2026-09-20 17:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "LSX",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Ramsey",
+      "county": "Fayette",
+      "state": "IL",
+      "source": "Broadcast Media",
+      "remark": "Power lines reported down in Ramsey. Time estimated by RADAR.",
+      "lat": 39.15,
+      "lon": -89.11,
+      "ugc": "ILC051",
+      "ugc_name": "Fayette",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -167,7 +211,7 @@
       "wfo": "LSX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-20T13:34:52Z"
+      "generated_utc": "2026-09-21T15:53:10Z"
     },
     "primary_links": [
       {

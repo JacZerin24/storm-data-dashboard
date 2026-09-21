@@ -6,7 +6,7 @@
     "wfo": "MKX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-20T13:34:58Z",
+    "generated_utc": "2026-09-21T15:53:16Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 9,
     "wfo": "MKX",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 22,
+    "mapped_candidate_reports": 22,
     "candidate_report_counts": {
+      "flooding": 2,
       "hail": 2,
       "marine": 1,
       "thunderstorm_wind": 17
     },
     "candidate_report_type_counts": {
+      "FLOOD": 2,
       "HAIL": 2,
       "MARINE TSTM WIND": 1,
       "TSTM WND DMG": 11,
@@ -489,6 +491,50 @@
       "ugc": "LMZ643",
       "ugc_name": "Sheboygan to Port Washington WI",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202040",
+      "standard_time_display": "2026-09-20 14:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Union Grove",
+      "county": "Kenosha",
+      "state": "WI",
+      "source": "Public",
+      "remark": "Public images of flooding at Great Lakes Dragway. Relayed by Broadcast Media.",
+      "lat": 42.67,
+      "lon": -88.03,
+      "ugc": "WIC059",
+      "ugc_name": "Kenosha",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MKX-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202040",
+      "standard_time_display": "2026-09-20 14:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MKX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Sturtevant",
+      "county": "Racine",
+      "state": "WI",
+      "source": "Public",
+      "remark": "Multiple reports of minor flooding to low lying areas along the Pike River from Sturtevant south through Somers.",
+      "lat": 42.68,
+      "lon": -87.87,
+      "ugc": "WIC101",
+      "ugc_name": "Racine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -497,7 +543,7 @@
       "wfo": "MKX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-20T13:34:58Z"
+      "generated_utc": "2026-09-21T15:53:16Z"
     },
     "primary_links": [
       {
