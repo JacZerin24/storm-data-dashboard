@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-21T15:53:46Z",
+    "generated_utc": "2026-09-22T14:03:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 9,
     "wfo": "VEF",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 1
+      "flooding": 1,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 1
+      "FLASH FLOOD": 1,
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +68,72 @@
       "ugc": "AZC015",
       "ugc_name": "Mohave",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609220045",
+      "standard_time_display": "2026-09-21 16:45 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "24 N Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 37.0,
+      "lon": -116.06,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609220315",
+      "standard_time_display": "2026-09-21 19:15 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 65.0,
+      "magnitude_qualifier": null,
+      "city": "8 NNW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 36.77,
+      "lon": -116.06,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609220445",
+      "standard_time_display": "2026-09-21 20:45 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 62.0,
+      "magnitude_qualifier": null,
+      "city": "38 NNW Mercury",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": null,
+      "lat": 37.2,
+      "lon": -116.16,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +142,7 @@
       "wfo": "VEF",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-21T15:53:46Z"
+      "generated_utc": "2026-09-22T14:03:10Z"
     },
     "primary_links": [
       {

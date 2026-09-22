@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-21T15:53:14Z",
+    "generated_utc": "2026-09-22T14:02:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "MFL",
-    "total_candidate_reports": 20,
-    "mapped_candidate_reports": 20,
+    "total_candidate_reports": 21,
+    "mapped_candidate_reports": 21,
     "candidate_report_counts": {
-      "flooding": 8,
+      "flooding": 9,
       "marine": 1,
       "other": 4,
       "thunderstorm_wind": 5,
       "tornado": 2
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 1,
       "FLOOD": 8,
       "LANDSPOUT": 2,
       "LIGHTNING": 2,
@@ -496,6 +497,28 @@
       "ugc": "FLC086",
       "ugc_name": "Miami-Dade",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-21",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609212200",
+      "standard_time_display": "2026-09-21 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "North Lauderdale",
+      "county": "Broward",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Local Broward County regional dispatch reported that a vehicle was stranded in ponding water in a North Lauderdale neighborhood. Water was reported to be entering the vehicle.",
+      "lat": 26.22,
+      "lon": -80.23,
+      "ugc": "FLC011",
+      "ugc_name": "Broward",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -504,7 +527,7 @@
       "wfo": "MFL",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-21T15:53:14Z"
+      "generated_utc": "2026-09-22T14:02:28Z"
     },
     "primary_links": [
       {

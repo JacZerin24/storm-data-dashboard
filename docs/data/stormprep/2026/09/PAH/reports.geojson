@@ -7,7 +7,7 @@
     "wfo": "PAH",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-21T15:53:25Z",
+    "generated_utc": "2026-09-22T14:02:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -350,6 +350,58 @@
         "coordinates": [
           -87.53,
           37.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-14",
+      "properties": {
+        "report_id": "iem-lsr-PAH-14",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202609212242",
+        "standard_time_display": "2026-09-21 16:42 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Graves",
+        "city": "3 S Mayfield",
+        "state": "KY",
+        "magnitude": 0.75,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from mPING of Dime (0.75 in.) hail."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.63,
+          36.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PAH-15",
+      "properties": {
+        "report_id": "iem-lsr-PAH-15",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609212242",
+        "standard_time_display": "2026-09-21 16:42 CST",
+        "wfo": "PAH",
+        "county_or_zone": "Graves",
+        "city": "2 W Sedalia",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Large tree limbs down between Wingo and Farmington. Time estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.63,
+          36.64
         ]
       }
     }

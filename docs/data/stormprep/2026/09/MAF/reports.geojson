@@ -7,7 +7,7 @@
     "wfo": "MAF",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-21T15:53:13Z",
+    "generated_utc": "2026-09-22T14:02:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -298,6 +298,58 @@
         "coordinates": [
           -102.92,
           30.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-12",
+      "properties": {
+        "report_id": "iem-lsr-MAF-12",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609212220",
+        "standard_time_display": "2026-09-21 15:20 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Midland",
+        "city": "1 NW Midland Internatio",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KMAF Midland measured a 58 mph wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2,
+          31.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-13",
+      "properties": {
+        "report_id": "iem-lsr-MAF-13",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609212245",
+        "standard_time_display": "2026-09-21 15:45 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Midland",
+        "city": "1 WSW Warfield",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Trained spotter reported flash flooding at South County Road 1290 and Business 20."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.23,
+          31.91
         ]
       }
     }

@@ -7,7 +7,7 @@
     "wfo": "MOB",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-21T15:53:17Z",
+    "generated_utc": "2026-09-22T14:02:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -428,6 +428,110 @@
         "coordinates": [
           -87.99,
           30.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-17",
+      "properties": {
+        "report_id": "iem-lsr-MOB-17",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609212359",
+        "standard_time_display": "2026-09-21 17:59 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Clarke",
+        "city": "1 WNW Whately",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Trees reported down around Whatley_ blocking roads in the area. One tree reported down and on fire."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72,
+          31.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-18",
+      "properties": {
+        "report_id": "iem-lsr-MOB-18",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609220045",
+        "standard_time_display": "2026-09-21 18:45 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Clarke",
+        "city": "Jackson",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Several reports of trees down in the city of Jackson from earlier strong winds from nearby thunderstorms."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.89,
+          31.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-19",
+      "properties": {
+        "report_id": "iem-lsr-MOB-19",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609220534",
+        "standard_time_display": "2026-09-21 23:34 CST",
+        "wfo": "MOB",
+        "county_or_zone": "GMZ633",
+        "city": "4 E Orange Beach",
+        "state": "AL",
+        "magnitude": 45.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "XMLP - Mill Point Mesonet reported a peak gust of 45 mph or 39 knots from thunderstorm winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.51,
+          30.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-20",
+      "properties": {
+        "report_id": "iem-lsr-MOB-20",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202609220545",
+        "standard_time_display": "2026-09-21 23:45 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Escambia",
+        "city": "7 N Johnsons Beach",
+        "state": "FL",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Paradise Beach Cir mesonet site reported a peak wind gust of 44 mph or 38 knots from thunderstorm winds."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.42,
+          30.4
         ]
       }
     }
