@@ -7,7 +7,7 @@
     "wfo": "CHS",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-22T14:01:34Z",
+    "generated_utc": "2026-09-23T14:13:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1234,6 +1234,58 @@
         "coordinates": [
           -80.6,
           32.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-48",
+      "properties": {
+        "report_id": "iem-lsr-CHS-48",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202609221956",
+        "standard_time_display": "2026-09-22 14:56 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Evans",
+        "city": "1 SE Hagan",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "911 Call Center reported a power line down at the 1300 block of Perkins Mill Road. Time estimated by radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.92,
+          32.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-49",
+      "properties": {
+        "report_id": "iem-lsr-CHS-49",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609222221",
+        "standard_time_display": "2026-09-22 17:21 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Colleton",
+        "city": "2 NW Walterboro",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency manager passed along a video showing vehicles driving through large puddles at the intersection of Bells Highway and I-95. All lanes are still passable."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.69,
+          32.93
         ]
       }
     }

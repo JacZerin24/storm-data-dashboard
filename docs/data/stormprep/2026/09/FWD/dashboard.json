@@ -6,7 +6,7 @@
     "wfo": "FWD",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-22T14:01:54Z",
+    "generated_utc": "2026-09-23T14:13:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,21 @@
     "year": 2026,
     "month": 9,
     "wfo": "FWD",
-    "total_candidate_reports": 30,
-    "mapped_candidate_reports": 30,
+    "total_candidate_reports": 35,
+    "mapped_candidate_reports": 35,
     "candidate_report_counts": {
-      "flooding": 5,
+      "flooding": 6,
       "hail": 10,
-      "other": 2,
-      "thunderstorm_wind": 13
+      "other": 3,
+      "thunderstorm_wind": 16
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 5,
+      "FLASH FLOOD": 6,
       "HAIL": 10,
+      "LIGHTNING": 1,
       "RAIN": 2,
-      "TSTM WND DMG": 9,
-      "TSTM WND GST": 4
+      "TSTM WND DMG": 11,
+      "TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -473,6 +474,28 @@
     {
       "report_id": "iem-lsr-FWD-20",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202128",
+      "standard_time_display": "2026-09-20 15:28 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Keene",
+      "county": "Johnson",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "A microburst caused localized wind damage on Hyline Dr and Oakridge Rd. A shed had part of its sheet metal roof blown off and some rocks were embedded into its siding. A few trees and large tree limb",
+      "lat": 32.42,
+      "lon": -97.32,
+      "ugc": "TXC251",
+      "ugc_name": "Johnson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-21",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609202130",
       "standard_time_display": "2026-09-20 15:30 CST",
       "standard_time_zone": "CST",
@@ -493,7 +516,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-21",
+      "report_id": "iem-lsr-FWD-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202150",
+      "standard_time_display": "2026-09-20 15:50 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "9 W Rio Vista",
+      "county": "Johnson",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Facebook report of 50-60 mph winds one mile east of Texas Lime Plant.",
+      "lat": 32.24,
+      "lon": -97.52,
+      "ugc": "TXC251",
+      "ugc_name": "Johnson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609202217",
       "standard_time_display": "2026-09-20 16:17 CST",
@@ -515,7 +560,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-22",
+      "report_id": "iem-lsr-FWD-24",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202300",
+      "standard_time_display": "2026-09-20 17:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Denison",
+      "county": "Grayson",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "15 reports of trees down blocking roads across Denison.",
+      "lat": 33.76,
+      "lon": -96.56,
+      "ugc": "TXC181",
+      "ugc_name": "Grayson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609202320",
       "standard_time_display": "2026-09-20 17:20 CST",
@@ -537,7 +604,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-23",
+      "report_id": "iem-lsr-FWD-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609202320",
+      "standard_time_display": "2026-09-20 17:20 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E Denison",
+      "county": "Grayson",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Swift water rescue of two people and a dog from two separate vehicles trapped in two to three feet of rushing water between the railroad bridges on East Crawford St and East Owens St.",
+      "lat": 33.75,
+      "lon": -96.53,
+      "ugc": "TXC181",
+      "ugc_name": "Grayson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609202340",
       "standard_time_display": "2026-09-20 17:40 CST",
@@ -559,7 +648,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-24",
+      "report_id": "iem-lsr-FWD-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609211200",
       "standard_time_display": "2026-09-21 06:00 CST",
@@ -581,7 +670,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-25",
+      "report_id": "iem-lsr-FWD-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609211842",
       "standard_time_display": "2026-09-21 12:42 CST",
@@ -603,7 +692,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-26",
+      "report_id": "iem-lsr-FWD-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609212145",
       "standard_time_display": "2026-09-21 15:45 CST",
@@ -625,7 +714,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-27",
+      "report_id": "iem-lsr-FWD-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609212300",
+      "standard_time_display": "2026-09-21 17:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FWD",
+      "report_type": "LIGHTNING",
+      "event_category": "other",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 W Saint Jo",
+      "county": "Montague",
+      "state": "TX",
+      "source": "Fire Dept/Rescue",
+      "remark": "St Jo Fire Department reported an oil tank was struck by lightning and caught fire. Lightning also caused an apparent separate grass fire 100 yards to the south. Multiple area fire crews were dispatc",
+      "lat": 33.69,
+      "lon": -97.57,
+      "ugc": "TXC337",
+      "ugc_name": "Montague",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FWD-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609220025",
       "standard_time_display": "2026-09-21 18:25 CST",
@@ -647,7 +758,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-28",
+      "report_id": "iem-lsr-FWD-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609220030",
       "standard_time_display": "2026-09-21 18:30 CST",
@@ -669,7 +780,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-29",
+      "report_id": "iem-lsr-FWD-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609220036",
       "standard_time_display": "2026-09-21 18:36 CST",
@@ -691,7 +802,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-FWD-30",
+      "report_id": "iem-lsr-FWD-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609220115",
       "standard_time_display": "2026-09-21 19:15 CST",
@@ -719,7 +830,7 @@
       "wfo": "FWD",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-22T14:01:55Z"
+      "generated_utc": "2026-09-23T14:13:23Z"
     },
     "primary_links": [
       {
