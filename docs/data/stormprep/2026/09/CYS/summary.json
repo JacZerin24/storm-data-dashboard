@@ -3,19 +3,21 @@
   "year": 2026,
   "month": 9,
   "wfo": "CYS",
-  "total_candidate_reports": 102,
-  "mapped_candidate_reports": 102,
+  "total_candidate_reports": 111,
+  "mapped_candidate_reports": 111,
   "candidate_report_counts": {
     "flooding": 10,
     "hail": 15,
-    "other": 60,
-    "thunderstorm_wind": 17
+    "other": 68,
+    "thunderstorm_wind": 17,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 10,
+    "FUNNEL CLOUD": 1,
     "HAIL": 15,
     "NON-TSTM WND GST": 2,
-    "RAIN": 60,
+    "RAIN": 68,
     "TSTM WND DMG": 2,
     "TSTM WND GST": 13
   },
@@ -24,6 +26,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CYS&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

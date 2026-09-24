@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-23T14:13:53Z",
+    "generated_utc": "2026-09-24T14:12:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 9,
     "wfo": "MHX",
-    "total_candidate_reports": 43,
-    "mapped_candidate_reports": 43,
+    "total_candidate_reports": 44,
+    "mapped_candidate_reports": 44,
     "candidate_report_counts": {
-      "flooding": 4,
+      "flooding": 5,
       "hail": 8,
       "marine": 11,
       "thunderstorm_wind": 18,
       "tornado": 2
     },
     "candidate_report_type_counts": {
+      "COASTAL FLOOD": 1,
       "FLASH FLOOD": 3,
       "FLOOD": 1,
       "HAIL": 8,
@@ -1002,6 +1003,28 @@
       "ugc": "AMZ156",
       "ugc_name": "S of Ocracoke Inlet NC to Cape Lookout NC out to 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-44",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609241015",
+      "standard_time_display": "2026-09-24 05:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SSE Oregon Inlet",
+      "county": "Dare",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "NC 12 currently closed from the Basnight Bridge to Rodanthe due to ocean overwash.",
+      "lat": 35.73,
+      "lon": -75.5,
+      "ugc": "NCC055",
+      "ugc_name": "Dare",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1010,7 +1033,7 @@
       "wfo": "MHX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-23T14:13:53Z"
+      "generated_utc": "2026-09-24T14:12:06Z"
     },
     "primary_links": [
       {
