@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-24T14:11:53Z",
+    "generated_utc": "2026-09-25T14:35:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,19 @@
     "year": 2026,
     "month": 9,
     "wfo": "JAX",
-    "total_candidate_reports": 35,
-    "mapped_candidate_reports": 35,
+    "total_candidate_reports": 36,
+    "mapped_candidate_reports": 36,
     "candidate_report_counts": {
       "flooding": 3,
       "other": 17,
-      "thunderstorm_wind": 13,
+      "thunderstorm_wind": 14,
       "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLOOD": 3,
       "FUNNEL CLOUD": 2,
       "LANDSPOUT": 1,
+      "NON-TSTM WND GST": 1,
       "RAIN": 16,
       "TSTM WND DMG": 4,
       "TSTM WND GST": 9
@@ -824,6 +825,28 @@
       "ugc": "FLC089",
       "ugc_name": "Nassau",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609242013",
+      "standard_time_display": "2026-09-24 15:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 42.0,
+      "magnitude_qualifier": null,
+      "city": "Marineland",
+      "county": "Flagler",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Flagler Assist reported that Marineland WeatherStem weather observation site measured a peak wind gust of 42 mph.",
+      "lat": 29.67,
+      "lon": -81.21,
+      "ugc": "FLC035",
+      "ugc_name": "Flagler",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -832,7 +855,7 @@
       "wfo": "JAX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-24T14:11:53Z"
+      "generated_utc": "2026-09-25T14:35:59Z"
     },
     "primary_links": [
       {
