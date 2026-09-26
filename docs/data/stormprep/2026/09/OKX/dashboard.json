@@ -6,7 +6,7 @@
     "wfo": "OKX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-25T14:36:20Z",
+    "generated_utc": "2026-09-26T13:45:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 9,
     "wfo": "OKX",
-    "total_candidate_reports": 57,
-    "mapped_candidate_reports": 57,
+    "total_candidate_reports": 60,
+    "mapped_candidate_reports": 60,
     "candidate_report_counts": {
       "flooding": 55,
-      "thunderstorm_wind": 2
+      "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 55,
+      "NON-TSTM WND DMG": 3,
       "TSTM WND DMG": 2
     },
     "nws_api_alert_count": 0,
@@ -1300,6 +1301,72 @@
       "ugc": "NJC003",
       "ugc_name": "Bergen",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-58",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260830",
+      "standard_time_display": "2026-09-26 03:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE Yaphank",
+      "county": "Suffolk",
+      "state": "NY",
+      "source": "Official NWS Obs",
+      "remark": "A large tree limb down on northbound side of William Floyd Parkway on edge of right lane.",
+      "lat": 40.86,
+      "lon": -72.9,
+      "ugc": "NYC103",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-59",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260830",
+      "standard_time_display": "2026-09-26 03:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Upton (NWS Office)",
+      "county": "Suffolk",
+      "state": "NY",
+      "source": "Official NWS Obs",
+      "remark": "Large pine tree snapped just above base and down with multiple branches down across fence and across small one story structure with time estimated.",
+      "lat": 40.87,
+      "lon": -72.86,
+      "ugc": "NYC103",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-OKX-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609261330",
+      "standard_time_display": "2026-09-26 08:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "OKX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Stony Brook",
+      "county": "Suffolk",
+      "state": "NY",
+      "source": "NWS Employee",
+      "remark": "Tree down on the shoulder of Route 25A in Stony Brook near Thompson Hay Path.",
+      "lat": 40.92,
+      "lon": -73.12,
+      "ugc": "NYC103",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=OKX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1308,7 +1375,7 @@
       "wfo": "OKX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-25T14:36:21Z"
+      "generated_utc": "2026-09-26T13:45:07Z"
     },
     "primary_links": [
       {

@@ -7,7 +7,7 @@
     "wfo": "DDC",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-25T14:35:34Z",
+    "generated_utc": "2026-09-26T13:44:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1312,6 +1312,84 @@
         "coordinates": [
           -101.73,
           37.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DDC-51",
+      "properties": {
+        "report_id": "iem-lsr-DDC-51",
+        "report_type": "FOG",
+        "event_category": "other",
+        "valid_utc": "202609251254",
+        "standard_time_display": "2026-09-25 06:54 CST",
+        "wfo": "DDC",
+        "county_or_zone": "Finney",
+        "city": "4 NW Pierceville",
+        "state": "KS",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "KGCK ASOS Measurement."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.72,
+          37.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DDC-52",
+      "properties": {
+        "report_id": "iem-lsr-DDC-52",
+        "report_type": "FUNNEL CLOUD",
+        "event_category": "tornado",
+        "valid_utc": "202609252211",
+        "standard_time_display": "2026-09-25 16:11 CST",
+        "wfo": "DDC",
+        "county_or_zone": "Comanche",
+        "city": "3 WSW Lake Coldwater",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "A trained storm spotter reported a funnel cloud 5 miles northeast of Protection at approximately 5:11 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4,
+          37.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DDC-53",
+      "properties": {
+        "report_id": "iem-lsr-DDC-53",
+        "report_type": "LANDSPOUT",
+        "event_category": "other",
+        "valid_utc": "202609252245",
+        "standard_time_display": "2026-09-25 16:45 CST",
+        "wfo": "DDC",
+        "county_or_zone": "Comanche",
+        "city": "1 SE Wilmore",
+        "state": "KS",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "An Emergency Manager passed along a public report of a landspout at 2050 Rd 20. At a similar time_ the sherrifs office reported a large landspout southeast of Wilmore."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2,
+          37.33
         ]
       }
     }
