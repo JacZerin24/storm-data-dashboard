@@ -6,7 +6,7 @@
     "wfo": "GYX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-26T13:44:35Z",
+    "generated_utc": "2026-09-27T14:40:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 9,
     "wfo": "GYX",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "other": 3
+      "other": 3,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
+      "NON-TSTM WND DMG": 2,
       "RAIN": 3
     },
     "nws_api_alert_count": 0,
@@ -110,6 +112,50 @@
       "ugc": "MEC031",
       "ugc_name": "York",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609270435",
+      "standard_time_display": "2026-09-26 23:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Hampton",
+      "county": "Rockingham",
+      "state": "NH",
+      "source": "Trained Spotter",
+      "remark": "Tree and wires down on Winnecunnet rd in Hampton. One large branch fell through a home_ damaging a room.",
+      "lat": 42.94,
+      "lon": -70.83,
+      "ugc": "NHC015",
+      "ugc_name": "Rockingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609270440",
+      "standard_time_display": "2026-09-26 23:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Hampton",
+      "county": "Rockingham",
+      "state": "NH",
+      "source": "Trained Spotter",
+      "remark": "Trees and wires down. Road closed at time of report.",
+      "lat": 42.94,
+      "lon": -70.82,
+      "ugc": "NHC015",
+      "ugc_name": "Rockingham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -118,7 +164,7 @@
       "wfo": "GYX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-26T13:44:35Z"
+      "generated_utc": "2026-09-27T14:40:58Z"
     },
     "primary_links": [
       {
