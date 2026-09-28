@@ -6,7 +6,7 @@
     "wfo": "BOX",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-27T14:40:35Z",
+    "generated_utc": "2026-09-28T17:37:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,18 @@
     "year": 2026,
     "month": 9,
     "wfo": "BOX",
-    "total_candidate_reports": 85,
-    "mapped_candidate_reports": 85,
+    "total_candidate_reports": 113,
+    "mapped_candidate_reports": 113,
     "candidate_report_counts": {
-      "flooding": 25,
-      "thunderstorm_wind": 60
+      "flooding": 41,
+      "thunderstorm_wind": 72
     },
     "candidate_report_type_counts": {
-      "COASTAL FLOOD": 9,
+      "COASTAL FLOOD": 13,
       "FLASH FLOOD": 16,
-      "NON-TSTM WND DMG": 60
+      "FLOOD": 12,
+      "NON-TSTM WND DMG": 61,
+      "NON-TSTM WND GST": 11
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -623,6 +625,72 @@
     {
       "report_id": "iem-lsr-BOX-27",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260526",
+      "standard_time_display": "2026-09-26 00:26 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "Marthas Vineyard AP",
+      "county": "Dukes",
+      "state": "MA",
+      "source": "ASOS",
+      "remark": "ASOS station KMVY Marthas Vineyard AP.",
+      "lat": 41.4,
+      "lon": -70.62,
+      "ugc": "MAC007",
+      "ugc_name": "Dukes",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260637",
+      "standard_time_display": "2026-09-26 01:37 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "Nantucket AP",
+      "county": "Nantucket",
+      "state": "MA",
+      "source": "ASOS",
+      "remark": "ASOS station KACK Nantucket AP.",
+      "lat": 41.25,
+      "lon": -70.07,
+      "ugc": "MAC019",
+      "ugc_name": "Nantucket",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-29",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260659",
+      "standard_time_display": "2026-09-26 01:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "Hyannis AP",
+      "county": "Barnstable",
+      "state": "MA",
+      "source": "ASOS",
+      "remark": "ASOS station KHYA Hyannis AP.",
+      "lat": 41.67,
+      "lon": -70.27,
+      "ugc": "MAC001",
+      "ugc_name": "Barnstable",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-30",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609260706",
       "standard_time_display": "2026-09-26 02:06 EST",
       "standard_time_zone": "EST",
@@ -643,7 +711,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-28",
+      "report_id": "iem-lsr-BOX-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260742",
+      "standard_time_display": "2026-09-26 02:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "2 N Block Island",
+      "county": "Washington",
+      "state": "RI",
+      "source": "Mesonet",
+      "remark": "Mesonet station XBLK Block Island Jetty.",
+      "lat": 41.19,
+      "lon": -71.59,
+      "ugc": "RIC009",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-32",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260759",
+      "standard_time_display": "2026-09-26 02:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 71.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Block Island",
+      "county": "Washington",
+      "state": "RI",
+      "source": "Mesonet",
+      "remark": "Mesonet station FW8194 New Shoreham.",
+      "lat": 41.15,
+      "lon": -71.55,
+      "ugc": "RIC009",
+      "ugc_name": "Washington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609260828",
       "standard_time_display": "2026-09-26 03:28 EST",
@@ -665,7 +777,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-29",
+      "report_id": "iem-lsr-BOX-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260833",
+      "standard_time_display": "2026-09-26 03:33 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "6 S Mattapoisett",
+      "county": "ANZ234",
+      "state": "MA",
+      "source": "Mesonet",
+      "remark": "Mesonet station XWST West Island.",
+      "lat": 41.58,
+      "lon": -70.82,
+      "ugc": "ANZ234",
+      "ugc_name": "Buzzards Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260844",
+      "standard_time_display": "2026-09-26 03:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "3 SE Mattapoisett",
+      "county": "ANZ234",
+      "state": "MA",
+      "source": "Mesonet",
+      "remark": "Mesonet station XAPL Angelica Point Li.",
+      "lat": 41.64,
+      "lon": -70.76,
+      "ugc": "ANZ234",
+      "ugc_name": "Buzzards Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609260900",
+      "standard_time_display": "2026-09-26 04:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "5 WSW Gosnold",
+      "county": "ANZ235",
+      "state": "MA",
+      "source": "Mesonet",
+      "remark": "Mesonet station BUZM3 9 SE Little Compton.",
+      "lat": 41.4,
+      "lon": -71.03,
+      "ugc": "ANZ235",
+      "ugc_name": "Rhode Island Sound",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261055",
       "standard_time_display": "2026-09-26 05:55 EST",
@@ -687,7 +865,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-30",
+      "report_id": "iem-lsr-BOX-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261100",
       "standard_time_display": "2026-09-26 06:00 EST",
@@ -709,7 +887,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-31",
+      "report_id": "iem-lsr-BOX-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261126",
       "standard_time_display": "2026-09-26 06:26 EST",
@@ -731,7 +909,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-32",
+      "report_id": "iem-lsr-BOX-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261134",
       "standard_time_display": "2026-09-26 06:34 EST",
@@ -753,7 +931,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-33",
+      "report_id": "iem-lsr-BOX-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261147",
       "standard_time_display": "2026-09-26 06:47 EST",
@@ -775,7 +953,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-34",
+      "report_id": "iem-lsr-BOX-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261220",
       "standard_time_display": "2026-09-26 07:20 EST",
@@ -797,7 +975,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-35",
+      "report_id": "iem-lsr-BOX-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261223",
       "standard_time_display": "2026-09-26 07:23 EST",
@@ -819,7 +997,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-36",
+      "report_id": "iem-lsr-BOX-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261224",
       "standard_time_display": "2026-09-26 07:24 EST",
@@ -841,7 +1019,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-37",
+      "report_id": "iem-lsr-BOX-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261230",
       "standard_time_display": "2026-09-26 07:30 EST",
@@ -863,7 +1041,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-38",
+      "report_id": "iem-lsr-BOX-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261236",
       "standard_time_display": "2026-09-26 07:36 EST",
@@ -885,7 +1063,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-39",
+      "report_id": "iem-lsr-BOX-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261253",
       "standard_time_display": "2026-09-26 07:53 EST",
@@ -907,7 +1085,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-40",
+      "report_id": "iem-lsr-BOX-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261330",
       "standard_time_display": "2026-09-26 08:30 EST",
@@ -929,7 +1107,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-41",
+      "report_id": "iem-lsr-BOX-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261335",
       "standard_time_display": "2026-09-26 08:35 EST",
@@ -951,7 +1129,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-42",
+      "report_id": "iem-lsr-BOX-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261338",
       "standard_time_display": "2026-09-26 08:38 EST",
@@ -973,7 +1151,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-43",
+      "report_id": "iem-lsr-BOX-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261339",
       "standard_time_display": "2026-09-26 08:39 EST",
@@ -995,7 +1173,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-44",
+      "report_id": "iem-lsr-BOX-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261343",
       "standard_time_display": "2026-09-26 08:43 EST",
@@ -1017,7 +1195,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-45",
+      "report_id": "iem-lsr-BOX-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261424",
       "standard_time_display": "2026-09-26 09:24 EST",
@@ -1039,7 +1217,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-46",
+      "report_id": "iem-lsr-BOX-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261426",
       "standard_time_display": "2026-09-26 09:26 EST",
@@ -1061,7 +1239,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-47",
+      "report_id": "iem-lsr-BOX-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261427",
       "standard_time_display": "2026-09-26 09:27 EST",
@@ -1083,7 +1261,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-48",
+      "report_id": "iem-lsr-BOX-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261441",
       "standard_time_display": "2026-09-26 09:41 EST",
@@ -1105,7 +1283,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-49",
+      "report_id": "iem-lsr-BOX-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261442",
       "standard_time_display": "2026-09-26 09:42 EST",
@@ -1127,7 +1305,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-50",
+      "report_id": "iem-lsr-BOX-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261444",
       "standard_time_display": "2026-09-26 09:44 EST",
@@ -1149,7 +1327,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-51",
+      "report_id": "iem-lsr-BOX-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261446",
       "standard_time_display": "2026-09-26 09:46 EST",
@@ -1171,7 +1349,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-52",
+      "report_id": "iem-lsr-BOX-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261447",
       "standard_time_display": "2026-09-26 09:47 EST",
@@ -1193,7 +1371,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-53",
+      "report_id": "iem-lsr-BOX-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261450",
       "standard_time_display": "2026-09-26 09:50 EST",
@@ -1215,7 +1393,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-54",
+      "report_id": "iem-lsr-BOX-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261450",
       "standard_time_display": "2026-09-26 09:50 EST",
@@ -1237,7 +1415,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-55",
+      "report_id": "iem-lsr-BOX-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261452",
       "standard_time_display": "2026-09-26 09:52 EST",
@@ -1259,7 +1437,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-56",
+      "report_id": "iem-lsr-BOX-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261455",
       "standard_time_display": "2026-09-26 09:55 EST",
@@ -1281,7 +1459,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-57",
+      "report_id": "iem-lsr-BOX-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261455",
       "standard_time_display": "2026-09-26 09:55 EST",
@@ -1303,7 +1481,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-58",
+      "report_id": "iem-lsr-BOX-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261500",
       "standard_time_display": "2026-09-26 10:00 EST",
@@ -1325,7 +1503,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-59",
+      "report_id": "iem-lsr-BOX-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261500",
       "standard_time_display": "2026-09-26 10:00 EST",
@@ -1347,7 +1525,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-60",
+      "report_id": "iem-lsr-BOX-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261500",
       "standard_time_display": "2026-09-26 10:00 EST",
@@ -1369,7 +1547,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-61",
+      "report_id": "iem-lsr-BOX-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261500",
       "standard_time_display": "2026-09-26 10:00 EST",
@@ -1391,7 +1569,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-62",
+      "report_id": "iem-lsr-BOX-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261505",
       "standard_time_display": "2026-09-26 10:05 EST",
@@ -1413,7 +1591,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-63",
+      "report_id": "iem-lsr-BOX-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261530",
       "standard_time_display": "2026-09-26 10:30 EST",
@@ -1435,7 +1613,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-64",
+      "report_id": "iem-lsr-BOX-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261645",
       "standard_time_display": "2026-09-26 11:45 EST",
@@ -1457,7 +1635,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-65",
+      "report_id": "iem-lsr-BOX-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261730",
       "standard_time_display": "2026-09-26 12:30 EST",
@@ -1479,7 +1657,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-66",
+      "report_id": "iem-lsr-BOX-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261850",
       "standard_time_display": "2026-09-26 13:50 EST",
@@ -1501,7 +1679,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-67",
+      "report_id": "iem-lsr-BOX-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261920",
       "standard_time_display": "2026-09-26 14:20 EST",
@@ -1523,7 +1701,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-68",
+      "report_id": "iem-lsr-BOX-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261950",
       "standard_time_display": "2026-09-26 14:50 EST",
@@ -1545,7 +1723,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-69",
+      "report_id": "iem-lsr-BOX-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609261950",
       "standard_time_display": "2026-09-26 14:50 EST",
@@ -1567,7 +1745,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-70",
+      "report_id": "iem-lsr-BOX-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262005",
       "standard_time_display": "2026-09-26 15:05 EST",
@@ -1589,7 +1767,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-71",
+      "report_id": "iem-lsr-BOX-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262007",
       "standard_time_display": "2026-09-26 15:07 EST",
@@ -1611,7 +1789,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-72",
+      "report_id": "iem-lsr-BOX-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262015",
       "standard_time_display": "2026-09-26 15:15 EST",
@@ -1633,7 +1811,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-73",
+      "report_id": "iem-lsr-BOX-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262040",
       "standard_time_display": "2026-09-26 15:40 EST",
@@ -1655,7 +1833,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-74",
+      "report_id": "iem-lsr-BOX-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262045",
       "standard_time_display": "2026-09-26 15:45 EST",
@@ -1677,7 +1855,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-75",
+      "report_id": "iem-lsr-BOX-83",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262050",
       "standard_time_display": "2026-09-26 15:50 EST",
@@ -1699,7 +1877,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-76",
+      "report_id": "iem-lsr-BOX-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262055",
       "standard_time_display": "2026-09-26 15:55 EST",
@@ -1721,7 +1899,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-77",
+      "report_id": "iem-lsr-BOX-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262100",
       "standard_time_display": "2026-09-26 16:00 EST",
@@ -1743,7 +1921,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-78",
+      "report_id": "iem-lsr-BOX-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262210",
       "standard_time_display": "2026-09-26 17:10 EST",
@@ -1765,7 +1943,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-79",
+      "report_id": "iem-lsr-BOX-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262255",
       "standard_time_display": "2026-09-26 17:55 EST",
@@ -1787,7 +1965,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-80",
+      "report_id": "iem-lsr-BOX-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262300",
       "standard_time_display": "2026-09-26 18:00 EST",
@@ -1809,7 +1987,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-81",
+      "report_id": "iem-lsr-BOX-89",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262325",
       "standard_time_display": "2026-09-26 18:25 EST",
@@ -1831,7 +2009,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-82",
+      "report_id": "iem-lsr-BOX-90",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609262330",
+      "standard_time_display": "2026-09-26 18:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "3 SSW Gloucester",
+      "county": "ANZ251",
+      "state": "MA",
+      "source": "Mesonet",
+      "remark": "Mesonet station XDOG Dog Bar Breakwater.",
+      "lat": 42.58,
+      "lon": -70.67,
+      "ugc": "ANZ251",
+      "ugc_name": "Massachusetts Bay and Ipswich Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609262350",
       "standard_time_display": "2026-09-26 18:50 EST",
@@ -1853,7 +2053,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-83",
+      "report_id": "iem-lsr-BOX-92",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609270033",
+      "standard_time_display": "2026-09-26 19:33 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "1 E Hull",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Mesonet",
+      "remark": "Mesonet station XHUL Hull YC.",
+      "lat": 42.31,
+      "lon": -70.89,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609270033",
       "standard_time_display": "2026-09-26 19:33 EST",
@@ -1875,7 +2097,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-84",
+      "report_id": "iem-lsr-BOX-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609270035",
       "standard_time_display": "2026-09-26 19:35 EST",
@@ -1897,7 +2119,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-BOX-85",
+      "report_id": "iem-lsr-BOX-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609270040",
       "standard_time_display": "2026-09-26 19:40 EST",
@@ -1917,6 +2139,402 @@
       "ugc": "MAC023",
       "ugc_name": "Plymouth",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-96",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609270825",
+      "standard_time_display": "2026-09-27 03:25 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Reading",
+      "county": "Middlesex",
+      "state": "MA",
+      "source": "Trained Spotter",
+      "remark": "In Reading_ downed wire lines and downed tree; 116 West Street Reading MA. Power out between County Road and Woburn Street.",
+      "lat": 42.51,
+      "lon": -71.12,
+      "ugc": "MAC017",
+      "ugc_name": "Middlesex",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-97",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271235",
+      "standard_time_display": "2026-09-27 07:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Weymouth",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Weymouth_ East street was flooded. Relayed by amateur radio.",
+      "lat": 42.22,
+      "lon": -70.94,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-98",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271418",
+      "standard_time_display": "2026-09-27 09:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Randolph",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Randolph_ North St_ Nancy Cr_ and Conley Dr were flooded. Relayed by amateur radio.",
+      "lat": 42.16,
+      "lon": -71.04,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-99",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271443",
+      "standard_time_display": "2026-09-27 09:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ENE Milton",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Milton_ Centre St was completely flooded. Relayed by amateur radio.",
+      "lat": 42.25,
+      "lon": -71.07,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-100",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271443",
+      "standard_time_display": "2026-09-27 09:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Avon",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Avon_ Harrison Blvd at West St was completely flooded with a vehicle disabled. Relayed by amateur radio.",
+      "lat": 42.13,
+      "lon": -71.04,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-101",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271459",
+      "standard_time_display": "2026-09-27 09:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Scituate",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Scituate_ significant coastal flooding was reported on Central Ave with law enforcement assisting a vehicle. Relayed by amateur radio.",
+      "lat": 42.15,
+      "lon": -70.7,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-102",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271517",
+      "standard_time_display": "2026-09-27 10:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Boston",
+      "county": "Suffolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Boston_ Morrisey Blvd was flooded with 2 lanes closed. Relayed by amateur radio.",
+      "lat": 42.31,
+      "lon": -71.05,
+      "ugc": "MAC025",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-103",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271520",
+      "standard_time_display": "2026-09-27 10:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE Quincy",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Quincy_ Quincy Shore Drive was flooded due to coastal flooding. Relayed by amateur radio.",
+      "lat": 42.27,
+      "lon": -71.0,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-104",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271540",
+      "standard_time_display": "2026-09-27 10:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Walpole",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Walpole_ a vehicle was flooded and disabled on Main St. Relayed by amateur radio.",
+      "lat": 42.14,
+      "lon": -71.25,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-105",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271616",
+      "standard_time_display": "2026-09-27 11:16 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SE Winthrop",
+      "county": "Suffolk",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Winthrop_ Winthrop Shore Dr (DCR Parkway) was closed due to coastal flooding. Relayed by amateur radio.",
+      "lat": 42.37,
+      "lon": -70.97,
+      "ugc": "MAC025",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-106",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271636",
+      "standard_time_display": "2026-09-27 11:36 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Shrewsbury",
+      "county": "Worcester",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Shrewsbury_ South Brook St was flooded. Relayed by amateur radio.",
+      "lat": 42.29,
+      "lon": -71.71,
+      "ugc": "MAC027",
+      "ugc_name": "Worcester",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-107",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271700",
+      "standard_time_display": "2026-09-27 12:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Brockton",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Brockton_ a house was flooded on Vinedale Rd. Relayed by amateur radio.",
+      "lat": 42.08,
+      "lon": -71.02,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-108",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271724",
+      "standard_time_display": "2026-09-27 12:24 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Quincy",
+      "county": "Norfolk",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Quincy_ Burgin Parkway ramp to Quincy Adams MBTA Station was flooded. Relayed by amateur radio.",
+      "lat": 42.25,
+      "lon": -71.0,
+      "ugc": "MAC021",
+      "ugc_name": "Norfolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-109",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271843",
+      "standard_time_display": "2026-09-27 13:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Brockton",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Brockton_ flooding was reported in the vicinity of 451 Prospect Street_ with conditions significant enough that DPW assistance was requested. Report relayed by amateur radio.",
+      "lat": 42.08,
+      "lon": -71.03,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-110",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271850",
+      "standard_time_display": "2026-09-27 13:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Easton",
+      "county": "Bristol",
+      "state": "MA",
+      "source": "Law Enforcement",
+      "remark": "In Easton_ water was flooding into a home on Tanglewood Dr. Relayed by amateur radio.",
+      "lat": 42.03,
+      "lon": -71.13,
+      "ugc": "MAC005",
+      "ugc_name": "Bristol",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-111",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609272015",
+      "standard_time_display": "2026-09-27 15:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Rockland",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Fire Dept/Rescue",
+      "remark": "In Rockland_ the on ramp to Rt 3 was flooded. Relayed by amateur radio.",
+      "lat": 42.13,
+      "lon": -70.91,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-112",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609272021",
+      "standard_time_display": "2026-09-27 15:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Brockton",
+      "county": "Plymouth",
+      "state": "MA",
+      "source": "Emergency Mngr",
+      "remark": "In Brockton_ street flooding was reported along Belmont Avenue_ Teele Street_ and Main Street. Photos of the flooding were provided to the NWS for verification. Report relayed by amateur radio.",
+      "lat": 42.08,
+      "lon": -71.03,
+      "ugc": "MAC023",
+      "ugc_name": "Plymouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BOX-113",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609272359",
+      "standard_time_display": "2026-09-27 18:59 EST",
+      "standard_time_zone": "EST",
+      "wfo": "BOX",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "Logan AP",
+      "county": "Suffolk",
+      "state": "MA",
+      "source": "ASOS",
+      "remark": "ASOS station KBOS Logan AP.",
+      "lat": 42.36,
+      "lon": -71.01,
+      "ugc": "MAC025",
+      "ugc_name": "Suffolk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOX&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1925,7 +2543,7 @@
       "wfo": "BOX",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-27T14:40:36Z"
+      "generated_utc": "2026-09-28T17:37:49Z"
     },
     "primary_links": [
       {
