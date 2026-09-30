@@ -6,7 +6,7 @@
     "wfo": "SLC",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-29T15:46:55Z",
+    "generated_utc": "2026-09-30T15:55:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,20 @@
     "year": 2026,
     "month": 9,
     "wfo": "SLC",
-    "total_candidate_reports": 69,
-    "mapped_candidate_reports": 69,
+    "total_candidate_reports": 74,
+    "mapped_candidate_reports": 74,
     "candidate_report_counts": {
-      "flooding": 27,
+      "flooding": 31,
       "hail": 26,
       "thunderstorm_wind": 15,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 24,
+      "FLASH FLOOD": 28,
       "FLOOD": 3,
       "HAIL": 26,
       "NON-TSTM WND GST": 6,
-      "TORNADO": 1,
+      "TORNADO": 2,
       "TSTM WND GST": 9
     },
     "nws_api_alert_count": 0,
@@ -1378,6 +1378,50 @@
     {
       "report_id": "iem-lsr-SLC-61",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609282256",
+      "standard_time_display": "2026-09-28 15:56 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Tintic Jct",
+      "county": "Juab",
+      "state": "UT",
+      "source": "Dept of Highways",
+      "remark": "UDOT reported a closure of SR-36 between MP 1 and 6 due to flash flooding_ likely originating from the Cherry burn scar.",
+      "lat": 39.95,
+      "lon": -112.23,
+      "ugc": "UTC023",
+      "ugc_name": "Juab",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-62",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609290011",
+      "standard_time_display": "2026-09-28 17:11 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 WSW East Carbon",
+      "county": "Carbon",
+      "state": "UT",
+      "source": "Trained Spotter",
+      "remark": "Spotter posted a video depicting a mesocyclonic tornado to social media looking west-southwest from HWY 6 and Mud Spring rd. The tornado formed at 6:11PM MT and trekked across open terrain before dissipating shortly after 6:15PM MT causing no damage or injuries. Multiple other circulations with no ground confirmation were observed from this storm prior to the tornado_ and just before the storm crossed over the Book Cliffs further east.",
+      "lat": 39.49,
+      "lon": -110.55,
+      "ugc": "UTC007",
+      "ugc_name": "Carbon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-63",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290015",
       "standard_time_display": "2026-09-28 17:15 MST",
       "standard_time_zone": "MST",
@@ -1398,7 +1442,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-62",
+      "report_id": "iem-lsr-SLC-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290037",
       "standard_time_display": "2026-09-28 17:37 MST",
@@ -1420,7 +1464,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-63",
+      "report_id": "iem-lsr-SLC-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290100",
       "standard_time_display": "2026-09-28 18:00 MST",
@@ -1442,7 +1486,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-64",
+      "report_id": "iem-lsr-SLC-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609290100",
+      "standard_time_display": "2026-09-28 18:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Price",
+      "county": "Carbon",
+      "state": "UT",
+      "source": "Public",
+      "remark": "Numerous reports of flooding in Price_ with the highest volume of reports centered around 800N and 1100E and Meads Wash. The nearby Price ASOS recorded 0.43 inches of rain in 3 hours and 1.01 inches of rain in 12 hours. Time approximate.",
+      "lat": 39.61,
+      "lon": -110.8,
+      "ugc": "UTC007",
+      "ugc_name": "Carbon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290335",
       "standard_time_display": "2026-09-28 20:35 MST",
@@ -1464,7 +1530,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-65",
+      "report_id": "iem-lsr-SLC-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290340",
       "standard_time_display": "2026-09-28 20:40 MST",
@@ -1486,7 +1552,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-66",
+      "report_id": "iem-lsr-SLC-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290348",
       "standard_time_display": "2026-09-28 20:48 MST",
@@ -1508,7 +1574,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-67",
+      "report_id": "iem-lsr-SLC-70",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609290400",
+      "standard_time_display": "2026-09-28 21:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "20 W Big Water",
+      "county": "Kane",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "A portion of House Rock Valley Road was destroyed by floodwaters flowing through Buckskin Gulch. Location and time estimated.",
+      "lat": 37.02,
+      "lon": -112.02,
+      "ugc": "UTC025",
+      "ugc_name": "Kane",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290445",
       "standard_time_display": "2026-09-28 21:45 MST",
@@ -1530,7 +1618,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-68",
+      "report_id": "iem-lsr-SLC-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609290537",
       "standard_time_display": "2026-09-28 22:37 MST",
@@ -1552,7 +1640,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SLC-69",
+      "report_id": "iem-lsr-SLC-73",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609290800",
+      "standard_time_display": "2026-09-29 01:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "SLC",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "23 ESE Boulder",
+      "county": "Garfield",
+      "state": "UT",
+      "source": "Emergency Mngr",
+      "remark": "Garfield County Emergency Management reported 4 to 5 feet of water flowing in Burr Canyon. Multiple slot canyons and normally dry washes south of the Henry Mountains experienced similar conditions early this morning.",
+      "lat": 37.85,
+      "lon": -111.01,
+      "ugc": "UTC017",
+      "ugc_name": "Garfield",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SLC&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SLC-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202609291100",
       "standard_time_display": "2026-09-29 04:00 MST",
@@ -1580,7 +1690,7 @@
       "wfo": "SLC",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-29T15:46:55Z"
+      "generated_utc": "2026-09-30T15:55:25Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "FGZ",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-29T15:46:05Z",
+    "generated_utc": "2026-09-30T15:54:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 9,
     "wfo": "FGZ",
-    "total_candidate_reports": 34,
-    "mapped_candidate_reports": 34,
+    "total_candidate_reports": 35,
+    "mapped_candidate_reports": 35,
     "candidate_report_counts": {
-      "flooding": 29,
+      "flooding": 30,
       "hail": 5
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 29,
+      "FLOOD": 1,
       "HAIL": 5
     },
     "nws_api_alert_count": 0,
@@ -794,6 +795,28 @@
       "ugc": "AZC005",
       "ugc_name": "Coconino",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-FGZ-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609291900",
+      "standard_time_display": "2026-09-29 12:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "FGZ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 SE Carrizo",
+      "county": "Gila",
+      "state": "AZ",
+      "source": "Emergency Mngr",
+      "remark": "Emergency Management with the White Mountain Apache tribe reported that Hwy 73 is closed due to flooding between Carrizo and Cedar Creek. Time and location are estimated.",
+      "lat": 33.94,
+      "lon": -110.21,
+      "ugc": "AZC007",
+      "ugc_name": "Gila",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -802,7 +825,7 @@
       "wfo": "FGZ",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-29T15:46:05Z"
+      "generated_utc": "2026-09-30T15:54:27Z"
     },
     "primary_links": [
       {

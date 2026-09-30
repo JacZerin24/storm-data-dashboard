@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-29T15:46:34Z",
+    "generated_utc": "2026-09-30T15:54:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 9,
     "wfo": "MLB",
-    "total_candidate_reports": 29,
-    "mapped_candidate_reports": 29,
+    "total_candidate_reports": 30,
+    "mapped_candidate_reports": 30,
     "candidate_report_counts": {
       "fire_smoke": 1,
-      "marine": 20,
+      "marine": 21,
       "other": 2,
       "thunderstorm_wind": 2,
       "tornado": 4
     },
     "candidate_report_type_counts": {
       "FUNNEL CLOUD": 2,
+      "HIGH SURF": 1,
       "LIGHTNING": 1,
       "MARINE TSTM WIND": 20,
       "NON-TSTM WND GST": 1,
@@ -695,6 +696,28 @@
       "ugc": "AMZ555",
       "ugc_name": "Sebastian Inlet to Jupiter Inlet 0-20 nm",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-30",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609271330",
+      "standard_time_display": "2026-09-27 08:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "HIGH SURF",
+      "event_category": "marine",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Malabar",
+      "county": "AMZ552",
+      "state": "FL",
+      "source": "Broadcast Media",
+      "remark": "A 53 year old man was bodyboarding when he entered the water and did not resurface near Juan Ponce de Leon Landing. His body was recovered the next day approximately 8 miles to the south.",
+      "lat": 28.01,
+      "lon": -80.53,
+      "ugc": "AMZ552",
+      "ugc_name": "Volusia-Brevard County Line to Sebastian Inlet 0-20 nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -703,7 +726,7 @@
       "wfo": "MLB",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-29T15:46:34Z"
+      "generated_utc": "2026-09-30T15:54:59Z"
     },
     "primary_links": [
       {

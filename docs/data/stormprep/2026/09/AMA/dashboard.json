@@ -6,7 +6,7 @@
     "wfo": "AMA",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-29T15:45:44Z",
+    "generated_utc": "2026-09-30T15:53:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,19 @@
     "year": 2026,
     "month": 9,
     "wfo": "AMA",
-    "total_candidate_reports": 32,
-    "mapped_candidate_reports": 32,
+    "total_candidate_reports": 36,
+    "mapped_candidate_reports": 36,
     "candidate_report_counts": {
-      "flooding": 7,
+      "flooding": 9,
       "hail": 8,
-      "thunderstorm_wind": 17
+      "thunderstorm_wind": 17,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 7,
+      "FLASH FLOOD": 9,
       "HAIL": 8,
       "NON-TSTM WND DMG": 1,
+      "TORNADO": 2,
       "TSTM WND DMG": 6,
       "TSTM WND GST": 10
     },
@@ -36,7 +38,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -48,7 +51,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-09-01T00%3A00%3A00Z&end=2026-10-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -754,6 +758,94 @@
       "ugc": "TXC381",
       "ugc_name": "Randall",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-33",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609300012",
+      "standard_time_display": "2026-09-29 18:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SSE Claude",
+      "county": "Armstrong",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Social media video report of tornado. Position estimated via radar.",
+      "lat": 35.07,
+      "lon": -101.34,
+      "ugc": "TXC011",
+      "ugc_name": "Armstrong",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609300245",
+      "standard_time_display": "2026-09-29 20:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 WNW Timbercreek Canyo",
+      "county": "Randall",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "Tornado reported south of 335_ west of I-27. Roped out at 9:45 PM_ was on the ground for 3-4 minutes prior.",
+      "lat": 35.09,
+      "lon": -101.94,
+      "ugc": "TXC381",
+      "ugc_name": "Randall",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609300742",
+      "standard_time_display": "2026-09-30 00:42 MST",
+      "standard_time_zone": "MST",
+      "wfo": "AMA",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Boys Ranch",
+      "county": "Oldham",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "FM 1061 a mile east of US-385 has one lane closed due to flooded roadway with traffic being diverted.",
+      "lat": 35.5,
+      "lon": -102.23,
+      "ugc": "TXC359",
+      "ugc_name": "Oldham",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609300930",
+      "standard_time_display": "2026-09-30 03:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NNW Palo Duro Canyon",
+      "county": "Randall",
+      "state": "TX",
+      "source": "Park/Forest Srvc",
+      "remark": "Flash Flood caused a rock slide over Park Road 5 leading down to Palo Duro Canyon State Park.",
+      "lat": 34.98,
+      "lon": -101.68,
+      "ugc": "TXC381",
+      "ugc_name": "Randall",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -762,7 +854,7 @@
       "wfo": "AMA",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-29T15:45:45Z"
+      "generated_utc": "2026-09-30T15:53:32Z"
     },
     "primary_links": [
       {
