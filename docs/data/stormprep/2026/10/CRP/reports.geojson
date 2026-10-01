@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 10,
+    "wfo": "CRP",
+    "start_utc": "2026-10-01T00:00:00Z",
+    "end_utc": "2026-11-01T00:00:00Z",
+    "generated_utc": "2026-10-01T16:23:33Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CRP&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CRP-1",
+      "properties": {
+        "report_id": "iem-lsr-CRP-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011113",
+        "standard_time_display": "2026-10-01 05:13 CST",
+        "wfo": "CRP",
+        "county_or_zone": "Webb",
+        "city": "3 ESE Orvil",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Reports of flooded streets or water partially covering roadways over the north side of Laredo. Mainly between Bob Bullock Loop and I-35 north of Shiloh Drive. Time taken from Laredo Police Department social media post."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.46,
+          27.61
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 10,
+    "wfo": "MFL",
+    "start_utc": "2026-10-01T00:00:00Z",
+    "end_utc": "2026-11-01T00:00:00Z",
+    "generated_utc": "2026-10-01T16:24:16Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-1",
+      "properties": {
+        "report_id": "iem-lsr-MFL-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610011244",
+        "standard_time_display": "2026-10-01 07:44 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "6 SSE Princeton",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XTKY Turkey Point measured 42 kts or 48 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.35,
+          25.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-2",
+      "properties": {
+        "report_id": "iem-lsr-MFL-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610011256",
+        "standard_time_display": "2026-10-01 07:56 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ651",
+        "city": "5 SSE Miami Beach",
+        "state": "FL",
+        "magnitude": 47.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XGVT Government Cut measured 41 kts or 47 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1,
+          25.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-3",
+      "properties": {
+        "report_id": "iem-lsr-MFL-3",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610011258",
+        "standard_time_display": "2026-10-01 07:58 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ630",
+        "city": "3 SSW Miami Beach",
+        "state": "FL",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station XDGE Biscayne Bay Harbor Pilots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.15,
+          25.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-4",
+      "properties": {
+        "report_id": "iem-lsr-MFL-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011325",
+        "standard_time_display": "2026-10-01 08:25 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "2 ENE Miami Lakes",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KOPF Miami Opa Locka."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.28,
+          25.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-5",
+      "properties": {
+        "report_id": "iem-lsr-MFL-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011559",
+        "standard_time_display": "2026-10-01 10:59 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Broward",
+        "city": "Hallandale",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Local Official",
+        "event_narrative": "City of Hallandale Beach reported several streets blocked off due to flooding. 1-2 inches of rain fell in an hour during the high tide cycle."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.14,
+          25.99
+        ]
+      }
+    }
+  ]
+}

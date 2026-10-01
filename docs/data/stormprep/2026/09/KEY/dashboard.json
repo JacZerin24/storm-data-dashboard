@@ -6,7 +6,7 @@
     "wfo": "KEY",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-30T15:54:46Z",
+    "generated_utc": "2026-10-01T16:25:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 9,
     "wfo": "KEY",
-    "total_candidate_reports": 18,
-    "mapped_candidate_reports": 18,
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
     "candidate_report_counts": {
       "marine": 6,
       "thunderstorm_wind": 5,
-      "tornado": 7
+      "tornado": 8
     },
     "candidate_report_type_counts": {
       "MARINE TSTM WIND": 6,
+      "TORNADO": 1,
       "TSTM WND GST": 5,
       "WATERSPOUT": 7
     },
@@ -446,6 +447,28 @@
       "ugc": null,
       "ugc_name": null,
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-KEY-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202609301600",
+      "standard_time_display": "2026-09-30 11:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "KEY",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Rock Harbor",
+      "county": "FLC087",
+      "state": "FL",
+      "source": "Emergency Manager",
+      "remark": "Preliminary highly-localized damage to one residence in the Silver Shores community between Tavernier and Rock Harbor investigated by Emergency Manager. Time is approximate. A large enclosed porch was destroyed with a section of porch roof deposited in a tree approximately 500 feet to the west southwest. A landfalling waterspout was observed by the public and the event is being reviewed for refinements in timing and intensity.",
+      "lat": 25.05,
+      "lon": -80.48,
+      "ugc": "FLC087",
+      "ugc_name": "Mainland Monroe",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-09-01T00%3A00%3A00Z&ets=2026-10-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -454,7 +477,7 @@
       "wfo": "KEY",
       "start_utc": "2026-09-01T00:00:00Z",
       "end_utc": "2026-10-01T00:00:00Z",
-      "generated_utc": "2026-09-30T15:54:46Z"
+      "generated_utc": "2026-10-01T16:25:47Z"
     },
     "primary_links": [
       {

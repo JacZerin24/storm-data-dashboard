@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 10,
+    "wfo": "DVN",
+    "start_utc": "2026-10-01T00:00:00Z",
+    "end_utc": "2026-11-01T00:00:00Z",
+    "generated_utc": "2026-10-01T16:23:40Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute."
+  },
+  "summary": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 10,
+    "wfo": "DVN",
+    "total_candidate_reports": 13,
+    "mapped_candidate_reports": 13,
+    "candidate_report_counts": {
+      "other": 13
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 13
+    },
+    "nws_api_alert_count": 0,
+    "nws_api_alert_type_counts": {},
+    "tornado_track_count": 0,
+    "source_warnings": [
+      "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DVN&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    ]
+  },
+  "sources": {
+    "iem_lsr_csv": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv",
+    "nws_api_alerts": "https://api.weather.gov/alerts?office=DVN&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
+    "iem_text_archive": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+    "dat_viewer": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+    "dat_tornado_tracks": null
+  },
+  "source_warnings": [
+    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DVN&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+  ],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-DVN-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610010030",
+      "standard_time_display": "2026-09-30 18:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.57,
+      "magnitude_qualifier": null,
+      "city": "2 NNE Credit Island",
+      "county": "Scott",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Storm total through 7 PM.",
+      "lat": 41.52,
+      "lon": -90.6,
+      "ugc": "IAC163",
+      "ugc_name": "Scott",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610010240",
+      "standard_time_display": "2026-09-30 20:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.62,
+      "magnitude_qualifier": null,
+      "city": "Geneseo",
+      "county": "Henry",
+      "state": "IL",
+      "source": "Trained Spotter",
+      "remark": "Delayed storm total rainfall as of 9/30 940 PM LT with rain still ongoing.",
+      "lat": 41.45,
+      "lon": -90.15,
+      "ugc": "ILC073",
+      "ugc_name": "Henry",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610010430",
+      "standard_time_display": "2026-09-30 22:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.93,
+      "magnitude_qualifier": null,
+      "city": "1 W Sigourney",
+      "county": "Keokuk",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "24 hour total. Storm total is 2.26 inches currently.",
+      "lat": 41.34,
+      "lon": -92.22,
+      "ugc": "IAC107",
+      "ugc_name": "Keokuk",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610010913",
+      "standard_time_display": "2026-10-01 03:13 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.65,
+      "magnitude_qualifier": null,
+      "city": "Parnell",
+      "county": "Iowa",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "24 hour rain total.",
+      "lat": 41.59,
+      "lon": -92.0,
+      "ugc": "IAC095",
+      "ugc_name": "Iowa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011102",
+      "standard_time_display": "2026-10-01 05:02 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "3 E Garden Plain",
+      "county": "Whiteside",
+      "state": "IL",
+      "source": "Trained Spotter",
+      "remark": "24 hour total.",
+      "lat": 41.81,
+      "lon": -90.08,
+      "ugc": "ILC195",
+      "ugc_name": "Whiteside",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011215",
+      "standard_time_display": "2026-10-01 06:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.37,
+      "magnitude_qualifier": null,
+      "city": "4 NNE Muscatine",
+      "county": "Muscatine",
+      "state": "IA",
+      "source": "CO-OP Observer",
+      "remark": "24 hour total.",
+      "lat": 41.47,
+      "lon": -91.05,
+      "ugc": "IAC139",
+      "ugc_name": "Muscatine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011236",
+      "standard_time_display": "2026-10-01 06:36 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.53,
+      "magnitude_qualifier": null,
+      "city": "Lowden",
+      "county": "Cedar",
+      "state": "IA",
+      "source": "CO-OP Observer",
+      "remark": "24 hour total.",
+      "lat": 41.86,
+      "lon": -90.92,
+      "ugc": "IAC031",
+      "ugc_name": "Cedar",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011259",
+      "standard_time_display": "2026-10-01 06:59 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.8,
+      "magnitude_qualifier": null,
+      "city": "Le Claire",
+      "county": "Scott",
+      "state": "IA",
+      "source": "Public",
+      "remark": "30 hour total.",
+      "lat": 41.6,
+      "lon": -90.36,
+      "ugc": "IAC163",
+      "ugc_name": "Scott",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011305",
+      "standard_time_display": "2026-10-01 07:05 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.55,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Fairfield",
+      "county": "Jefferson",
+      "state": "IA",
+      "source": "CO-OP Observer",
+      "remark": "24 hour total.",
+      "lat": 41.02,
+      "lon": -91.96,
+      "ugc": "IAC101",
+      "ugc_name": "Jefferson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011338",
+      "standard_time_display": "2026-10-01 07:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "3 ENE Charlie Heath Mem",
+      "county": "Clark",
+      "state": "MO",
+      "source": "Trained Spotter",
+      "remark": "Storm total rainfall. 0.6 inches since last measurement.",
+      "lat": 40.59,
+      "lon": -91.84,
+      "ugc": "MOC045",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011409",
+      "standard_time_display": "2026-10-01 08:09 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 3.25,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Muscatine Municip",
+      "county": "Muscatine",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Storm total rainfall. Still raining at observation.",
+      "lat": 41.35,
+      "lon": -91.16,
+      "ugc": "IAC139",
+      "ugc_name": "Muscatine",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-12",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011532",
+      "standard_time_display": "2026-10-01 09:32 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.1,
+      "magnitude_qualifier": null,
+      "city": "1 W Bettendorf",
+      "county": "Scott",
+      "state": "IA",
+      "source": "Trained Spotter",
+      "remark": "Estimated storm total due to gauge errors. Estimated 0.83 inches since midnight and 24 hour total of 1.8 inches.",
+      "lat": 41.56,
+      "lon": -90.49,
+      "ugc": "IAC163",
+      "ugc_name": "Scott",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DVN-13",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011600",
+      "standard_time_display": "2026-10-01 10:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DVN",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.8,
+      "magnitude_qualifier": null,
+      "city": "Walcott",
+      "county": "Scott",
+      "state": "IA",
+      "source": "Public",
+      "remark": "Updates previous rain report from Walcott. Rainfall amount so far.",
+      "lat": 41.59,
+      "lon": -90.78,
+      "ugc": "IAC163",
+      "ugc_name": "Scott",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
+  "product_collections": {
+    "metadata": {
+      "schema_version": "0.2.4",
+      "wfo": "DVN",
+      "start_utc": "2026-10-01T00:00:00Z",
+      "end_utc": "2026-11-01T00:00:00Z",
+      "generated_utc": "2026-10-01T16:23:41Z"
+    },
+    "primary_links": [
+      {
+        "label": "IEM Local Storm Reports CSV used by this build",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv",
+        "note": "Candidate LSR source used to build reports.geojson and dashboard.json."
+      },
+      {
+        "label": "IEM NWS text product archive search",
+        "url": "https://mesonet.agron.iastate.edu/wx/afos/list.phtml",
+        "note": "Use this to search archived NWS text products by center or product ID for the selected month."
+      },
+      {
+        "label": "NWS API alerts query used by this build",
+        "url": "https://api.weather.gov/alerts?office=DVN&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
+        "note": "NWS API alert history is limited; older months use product archive links instead."
+      },
+      {
+        "label": "NOAA/NWS Damage Assessment Toolkit viewer",
+        "url": "https://apps.dat.noaa.gov/stormdamage/damageviewer/",
+        "note": "Use for public tornado/damage survey review."
+      }
+    ],
+    "product_groups": [
+      {
+        "group": "Local storm reports and public statements",
+        "pils": [
+          "LSR",
+          "PNS"
+        ],
+        "purpose": "Candidate reports, survey statements, public information statements, and local documentation.",
+        "links": [
+          {
+            "pil": "LSR",
+            "label": "Recent NWS API LSR products for DVN",
+            "url": "https://api.weather.gov/products/types/LSR/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "PNS",
+            "label": "Recent NWS API PNS products for DVN",
+            "url": "https://api.weather.gov/products/types/PNS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Convective warnings and statements",
+        "pils": [
+          "TOR",
+          "SVR",
+          "SVS",
+          "SPS",
+          "WCN"
+        ],
+        "purpose": "Warning context, follow-up statements, special weather statements, and watch county notifications.",
+        "links": [
+          {
+            "pil": "TOR",
+            "label": "Recent NWS API TOR products for DVN",
+            "url": "https://api.weather.gov/products/types/TOR/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVR",
+            "label": "Recent NWS API SVR products for DVN",
+            "url": "https://api.weather.gov/products/types/SVR/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SVS",
+            "label": "Recent NWS API SVS products for DVN",
+            "url": "https://api.weather.gov/products/types/SVS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "SPS",
+            "label": "Recent NWS API SPS products for DVN",
+            "url": "https://api.weather.gov/products/types/SPS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WCN",
+            "label": "Recent NWS API WCN products for DVN",
+            "url": "https://api.weather.gov/products/types/WCN/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Flood and hydro products",
+        "pils": [
+          "FFW",
+          "FFS",
+          "FLS",
+          "FLW",
+          "RVS",
+          "ESF"
+        ],
+        "purpose": "Flash flood, flood, river, and hydrologic context.",
+        "links": [
+          {
+            "pil": "FFW",
+            "label": "Recent NWS API FFW products for DVN",
+            "url": "https://api.weather.gov/products/types/FFW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FFS",
+            "label": "Recent NWS API FFS products for DVN",
+            "url": "https://api.weather.gov/products/types/FFS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLS",
+            "label": "Recent NWS API FLS products for DVN",
+            "url": "https://api.weather.gov/products/types/FLS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "FLW",
+            "label": "Recent NWS API FLW products for DVN",
+            "url": "https://api.weather.gov/products/types/FLW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RVS",
+            "label": "Recent NWS API RVS products for DVN",
+            "url": "https://api.weather.gov/products/types/RVS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "ESF",
+            "label": "Recent NWS API ESF products for DVN",
+            "url": "https://api.weather.gov/products/types/ESF/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Marine and coastal products",
+        "pils": [
+          "SMW",
+          "MWS",
+          "MWW",
+          "CFW",
+          "CWF",
+          "HLS"
+        ],
+        "purpose": "Marine warnings/statements, coastal hazards, and tropical local statements.",
+        "links": [
+          {
+            "pil": "SMW",
+            "label": "Recent NWS API SMW products for DVN",
+            "url": "https://api.weather.gov/products/types/SMW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWS",
+            "label": "Recent NWS API MWS products for DVN",
+            "url": "https://api.weather.gov/products/types/MWS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "MWW",
+            "label": "Recent NWS API MWW products for DVN",
+            "url": "https://api.weather.gov/products/types/MWW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CFW",
+            "label": "Recent NWS API CFW products for DVN",
+            "url": "https://api.weather.gov/products/types/CFW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "CWF",
+            "label": "Recent NWS API CWF products for DVN",
+            "url": "https://api.weather.gov/products/types/CWF/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HLS",
+            "label": "Recent NWS API HLS products for DVN",
+            "url": "https://api.weather.gov/products/types/HLS/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      },
+      {
+        "group": "Non-convective, winter, heat/cold, and fire products",
+        "pils": [
+          "NPW",
+          "WSW",
+          "RFW",
+          "DGT",
+          "HWO",
+          "AFD"
+        ],
+        "purpose": "Non-convective wind, winter, fire weather, drought, hazardous weather outlooks, and forecast discussion context.",
+        "links": [
+          {
+            "pil": "NPW",
+            "label": "Recent NWS API NPW products for DVN",
+            "url": "https://api.weather.gov/products/types/NPW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "WSW",
+            "label": "Recent NWS API WSW products for DVN",
+            "url": "https://api.weather.gov/products/types/WSW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "RFW",
+            "label": "Recent NWS API RFW products for DVN",
+            "url": "https://api.weather.gov/products/types/RFW/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "DGT",
+            "label": "Recent NWS API DGT products for DVN",
+            "url": "https://api.weather.gov/products/types/DGT/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "HWO",
+            "label": "Recent NWS API HWO products for DVN",
+            "url": "https://api.weather.gov/products/types/HWO/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          },
+          {
+            "pil": "AFD",
+            "label": "Recent NWS API AFD products for DVN",
+            "url": "https://api.weather.gov/products/types/AFD/locations/DVN",
+            "note": "NWS API product endpoint is useful for recent products; use IEM archive link for older monthly review."
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "reports_geojson": "reports.geojson",
+    "products_json": "products.json",
+    "warnings_geojson": "warnings.geojson",
+    "tornado_tracks_geojson": "tornado_tracks.geojson",
+    "summary_json": "summary.json"
+  }
+}

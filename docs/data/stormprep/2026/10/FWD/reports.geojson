@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schema_version": "0.2.4",
+    "year": 2026,
+    "month": 10,
+    "wfo": "FWD",
+    "start_utc": "2026-10-01T00:00:00Z",
+    "end_utc": "2026-11-01T00:00:00Z",
+    "generated_utc": "2026-10-01T16:23:48Z",
+    "mode": "storm_data_prep",
+    "public_release_status": "public-source-derived",
+    "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
+    "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
+    "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FWD&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-1",
+      "properties": {
+        "report_id": "iem-lsr-FWD-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610010903",
+        "standard_time_display": "2026-10-01 03:03 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Montague",
+        "city": "3 ENE Nocona",
+        "state": "TX",
+        "magnitude": 5.11,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station DVI016190 Winding Creek Ranch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68,
+          33.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-2",
+      "properties": {
+        "report_id": "iem-lsr-FWD-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011217",
+        "standard_time_display": "2026-10-01 06:17 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Denton",
+        "city": "2 ESE Northlake",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Multiple public reports of flooding this morning between 0715 and 0800 near Northlake in the Canyon Falls area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.22,
+          33.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-3",
+      "properties": {
+        "report_id": "iem-lsr-FWD-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011304",
+        "standard_time_display": "2026-10-01 07:04 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Tarrant",
+        "city": "1 W Fort Worth",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Delayed report. Multiple mPING reports of street flooding in west central Tarrant County near Westover Hills between 0800 and 0845 this morning."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36,
+          32.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-4",
+      "properties": {
+        "report_id": "iem-lsr-FWD-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011537",
+        "standard_time_display": "2026-10-01 09:37 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Tarrant",
+        "city": "3 N Fort Worth",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "NW 28th St west of I 35W currently closed to traffic both directions due to flooding. Water covering roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-5",
+      "properties": {
+        "report_id": "iem-lsr-FWD-5",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610011539",
+        "standard_time_display": "2026-10-01 09:39 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Tarrant",
+        "city": "3 SW White Settlement",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "I 30 westbound lanes currently closed near Chapel Creek exit due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5,
+          32.73
+        ]
+      }
+    }
+  ]
+}

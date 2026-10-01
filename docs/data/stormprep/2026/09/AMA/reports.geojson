@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-09-01T00:00:00Z",
     "end_utc": "2026-10-01T00:00:00Z",
-    "generated_utc": "2026-09-30T15:53:32Z",
+    "generated_utc": "2026-10-01T16:24:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -862,8 +862,8 @@
         "state": "TX",
         "magnitude": null,
         "magnitude_units": null,
-        "source": "Public",
-        "event_narrative": "Social media video report of tornado. Position estimated via radar."
+        "source": "NWS Storm Survey",
+        "event_narrative": "Corrects previous tornado report from 3 SSE Claude. This tornado was documented by spotters via pictures and video. No damage was found with this tornado as indicators are sparse. Path length was estimated via radar."
       },
       "geometry": {
         "type": "Point",
@@ -878,6 +878,84 @@
       "id": "iem-lsr-AMA-34",
       "properties": {
         "report_id": "iem-lsr-AMA-34",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202609300012",
+        "standard_time_display": "2026-09-29 18:12 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Armstrong",
+        "city": "3 SSE Claude",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media video report of tornado. Position estimated via radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.34,
+          35.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-35",
+      "properties": {
+        "report_id": "iem-lsr-AMA-35",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609300200",
+        "standard_time_display": "2026-09-29 20:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Armstrong",
+        "city": "6 E Washburn",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Numerous reports of standing water and stranded vehicles on US 287 between Claude and Washburn."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.47,
+          35.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-36",
+      "properties": {
+        "report_id": "iem-lsr-AMA-36",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202609300245",
+        "standard_time_display": "2026-09-29 20:45 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Randall",
+        "city": "7 WNW Timbercreek Canyo",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Storm Survey",
+        "event_narrative": "Corrects previous tornado report from 7 WNW Timbercreek Canyon.This tornado was observed by multiple spotters with picture and video evidence. The tornado developed in a field to the west of VFR Road and south of Lone Star Road. It moved very little in the field and dissipated before crossing any roads. There were no damage indicators to assess a further rating."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.94,
+          35.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-37",
+      "properties": {
+        "report_id": "iem-lsr-AMA-37",
         "report_type": "TORNADO",
         "event_category": "tornado",
         "valid_utc": "202609300245",
@@ -901,9 +979,61 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-35",
+      "id": "iem-lsr-AMA-38",
       "properties": {
-        "report_id": "iem-lsr-AMA-35",
+        "report_id": "iem-lsr-AMA-38",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609300315",
+        "standard_time_display": "2026-09-29 21:15 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Potter",
+        "city": "4 W Amarillo",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Interstate 40 westbound was shut down near Western Street due to stranded vehicles in deep water."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.88,
+          35.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-39",
+      "properties": {
+        "report_id": "iem-lsr-AMA-39",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609300455",
+        "standard_time_display": "2026-09-29 22:55 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Randall",
+        "city": "3 NW Timbercreek Canyon",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Corrects previous flash flood report from 3 NW Timbercreek Canyon. Flash flooding resulting in water inside Panhandle Greenhouses and surrounding property. Report was via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.85,
+          35.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-40",
+      "properties": {
+        "report_id": "iem-lsr-AMA-40",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202609300742",
@@ -927,9 +1057,35 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-AMA-36",
+      "id": "iem-lsr-AMA-41",
       "properties": {
-        "report_id": "iem-lsr-AMA-36",
+        "report_id": "iem-lsr-AMA-41",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609300900",
+        "standard_time_display": "2026-09-30 03:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Randall",
+        "city": "3 NW Timbercreek Canyon",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Flash flooding resulting in water inside Panhandle Greenhouses and surrounding property. Report was via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.85,
+          35.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-42",
+      "properties": {
+        "report_id": "iem-lsr-AMA-42",
         "report_type": "FLASH FLOOD",
         "event_category": "flooding",
         "valid_utc": "202609300930",
@@ -948,6 +1104,84 @@
         "coordinates": [
           -101.68,
           34.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-43",
+      "properties": {
+        "report_id": "iem-lsr-AMA-43",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609301030",
+        "standard_time_display": "2026-09-30 03:30 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Randall",
+        "city": "6 NNW Umbarger",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media reports of significant flooding on roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.15,
+          35.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-44",
+      "properties": {
+        "report_id": "iem-lsr-AMA-44",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609301500",
+        "standard_time_display": "2026-09-30 08:00 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Potter",
+        "city": "Bushland",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Water reported in several homes in Bushland_ TX."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.06,
+          35.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-45",
+      "properties": {
+        "report_id": "iem-lsr-AMA-45",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202609301515",
+        "standard_time_display": "2026-09-30 08:15 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Deaf Smith",
+        "city": "2 SW Hereford",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Flooding still over the road in Hereford near Tierra Blanco Creek. A picture showed a couple of cars stranded in the water over the road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.42,
+          34.8
         ]
       }
     }
