@@ -7,12 +7,91 @@
     "wfo": "HGX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:57Z",
+    "generated_utc": "2026-10-02T15:45:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HGX-1",
+      "properties": {
+        "report_id": "iem-lsr-HGX-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610020038",
+        "standard_time_display": "2026-10-01 18:38 CST",
+        "wfo": "HGX",
+        "county_or_zone": "Harris",
+        "city": "6 S Cypress",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "mPING report: Street/road flooding; Street/road closed; Vehicles stranded."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.66,
+          29.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HGX-2",
+      "properties": {
+        "report_id": "iem-lsr-HGX-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610020207",
+        "standard_time_display": "2026-10-01 20:07 CST",
+        "wfo": "HGX",
+        "county_or_zone": "Montgomery",
+        "city": "7 NW The Woodlands",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "mPING report: River/Creek overflowing; Cropland/Yard/Basement Flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.58,
+          30.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HGX-3",
+      "properties": {
+        "report_id": "iem-lsr-HGX-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610020243",
+        "standard_time_display": "2026-10-01 20:43 CST",
+        "wfo": "HGX",
+        "county_or_zone": "Montgomery",
+        "city": "5 NE Pinehurst",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Drainage ditches very full on 1499 between Egypt and Magnolia. Road covered in a couple of spots."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.63,
+          30.22
+        ]
+      }
+    }
+  ]
 }

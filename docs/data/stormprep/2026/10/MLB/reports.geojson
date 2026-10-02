@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:24:19Z",
+    "generated_utc": "2026-10-02T15:46:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-MLB-1",
       "properties": {
         "report_id": "iem-lsr-MLB-1",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610010608",
+        "standard_time_display": "2026-10-01 01:08 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ555",
+        "city": "9 E Moorings of Vero Be",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Corrects previous tstm wnd gst report from 9 E Moorings of Vero Beach. Buoy 41068 measured a peak wind gust of 43MPH/37KT from the southeast at 2:08 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19,
+          27.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-2",
+      "properties": {
+        "report_id": "iem-lsr-MLB-2",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610010608",
@@ -43,9 +69,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MLB-2",
+      "id": "iem-lsr-MLB-3",
       "properties": {
-        "report_id": "iem-lsr-MLB-2",
+        "report_id": "iem-lsr-MLB-3",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610010855",
@@ -69,9 +95,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-MLB-3",
+      "id": "iem-lsr-MLB-4",
       "properties": {
-        "report_id": "iem-lsr-MLB-3",
+        "report_id": "iem-lsr-MLB-4",
         "report_type": "MARINE TSTM WIND",
         "event_category": "marine",
         "valid_utc": "202610010945",
@@ -84,6 +110,188 @@
         "magnitude_units": null,
         "source": "Other Federal",
         "event_narrative": "USSF wind sensor on tower 19 (Cape Canaveral Natl Seashore South) measured a peak wind gust of 41MPH/36KT from the south at 5:45 AM. Earlier_ a gust to 40MPH/35KT occurred at 5:40 AM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7,
+          28.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-5",
+      "properties": {
+        "report_id": "iem-lsr-MLB-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011700",
+        "standard_time_display": "2026-10-01 12:00 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Martin",
+        "city": "1 SSE Hobe Sound",
+        "state": "FL",
+        "magnitude": 39.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherSTEM station at Hobe Sound measured a peak wind gust of 39MPH/34KT from the south at 1:00 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.13,
+          27.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-6",
+      "properties": {
+        "report_id": "iem-lsr-MLB-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011801",
+        "standard_time_display": "2026-10-01 13:01 EST",
+        "wfo": "MLB",
+        "county_or_zone": "St. Lucie",
+        "city": "1 WNW Treasure Coast Ai",
+        "state": "FL",
+        "magnitude": 52.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Fort Pierce_ St. Lucie County International Airport measured a peak wind gust of 52MPH/45KT from the southeast at 2:01 PM. Earlier_ a gust to 47MPH/41KT occurred at 2:00 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.38,
+          27.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-7",
+      "properties": {
+        "report_id": "iem-lsr-MLB-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011820",
+        "standard_time_display": "2026-10-01 13:20 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Indian River",
+        "city": "1 WNW Vero Beach",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Vero Beach Municipal Airport measured a peak wind gust of 48MPH/42KT from the southeast at 2:20 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.42,
+          27.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-8",
+      "properties": {
+        "report_id": "iem-lsr-MLB-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610012005",
+        "standard_time_display": "2026-10-01 15:05 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "2 S Cape Canaveral SFS",
+        "state": "FL",
+        "magnitude": 34.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 2 (NW Sensor) measured a peak wind gust of 39MPH/34KT from the south at 4:05 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56,
+          28.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-9",
+      "properties": {
+        "report_id": "iem-lsr-MLB-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610012015",
+        "standard_time_display": "2026-10-01 15:15 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "2 ESE Cape Canaveral SF",
+        "state": "FL",
+        "magnitude": 36.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 3 (Cape Canaveral) measured a peak wind gust of 41MPH/36KT from the south at 4:15 PM. Earlier_ a gust to 40MPH/35KT occurred at 4:10 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53,
+          28.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-10",
+      "properties": {
+        "report_id": "iem-lsr-MLB-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610012030",
+        "standard_time_display": "2026-10-01 15:30 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 NNE Kennedy Space Cen",
+        "state": "FL",
+        "magnitude": 36.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 311 measured a peak wind gust of 41MPH/36KT from the south at 4:30 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.64,
+          28.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-11",
+      "properties": {
+        "report_id": "iem-lsr-MLB-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610012045",
+        "standard_time_display": "2026-10-01 15:45 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 E Haulover Canal",
+        "state": "FL",
+        "magnitude": 38.0,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "USSF wind sensor on tower 19 (Cape Canaveral Natl Seashore South) measured a peak wind gust of 44MPH/38KT from the south at 4:45 PM. Sensor elevation is 54 feet."
       },
       "geometry": {
         "type": "Point",

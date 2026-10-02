@@ -6,7 +6,7 @@
     "wfo": "EAX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:41Z",
+    "generated_utc": "2026-10-02T15:45:36Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "EAX",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
     "candidate_report_counts": {
-      "flooding": 1
+      "flooding": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 1
+      "FLASH FLOOD": 1,
+      "FLOOD": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +67,50 @@
       "ugc": "KSC005",
       "ugc_name": "Atchison",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011958",
+      "standard_time_display": "2026-10-01 13:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Agency",
+      "county": "Buchanan",
+      "state": "MO",
+      "source": "Public",
+      "remark": "MoDOT reports HWY H closed over the Platte River from HWY MM to 90 SE Rd due to flooding.",
+      "lat": 39.64,
+      "lon": -94.73,
+      "ugc": "MOC021",
+      "ugc_name": "Buchanan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610012010",
+      "standard_time_display": "2026-10-01 14:10 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 N Norborne",
+      "county": "Carroll",
+      "state": "MO",
+      "source": "Dept of Highways",
+      "remark": "MoDOT reports HWY E closed from HWY D to PP due flooding.",
+      "lat": 39.38,
+      "lon": -93.67,
+      "ugc": "MOC033",
+      "ugc_name": "Carroll",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +119,7 @@
       "wfo": "EAX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-01T16:23:41Z"
+      "generated_utc": "2026-10-02T15:45:36Z"
     },
     "primary_links": [
       {

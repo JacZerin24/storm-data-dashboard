@@ -7,7 +7,7 @@
     "wfo": "MFL",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:24:16Z",
+    "generated_utc": "2026-10-02T15:46:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -142,6 +142,84 @@
         "coordinates": [
           -80.14,
           25.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-6",
+      "properties": {
+        "report_id": "iem-lsr-MFL-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011610",
+        "standard_time_display": "2026-10-01 11:10 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ650",
+        "city": "2 E Delray Beach",
+        "state": "FL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A thunderstorm produced a wind gust of 41 mph or 36 kts at Mesonet station 1847W FSWN Delray Beach North."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.06,
+          26.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-7",
+      "properties": {
+        "report_id": "iem-lsr-MFL-7",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610011618",
+        "standard_time_display": "2026-10-01 11:18 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ650",
+        "city": "2 ESE Lake Worth",
+        "state": "FL",
+        "magnitude": 44.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "A thunderstorm produced a wind gust of 44 mph or 38 kts at Buoy station LKWF1 Lake Worth Pier_ FL."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03,
+          26.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-8",
+      "properties": {
+        "report_id": "iem-lsr-MFL-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011619",
+        "standard_time_display": "2026-10-01 11:19 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Palm Beach",
+        "city": "2 ESE Haverhill",
+        "state": "FL",
+        "magnitude": 46.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "A thunderstorm produced a wind gust of 46 mph or 40 kts at President Donald J Trump International Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1,
+          26.69
         ]
       }
     }

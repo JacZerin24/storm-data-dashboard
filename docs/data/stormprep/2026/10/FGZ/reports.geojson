@@ -7,12 +7,39 @@
     "wfo": "FGZ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:47Z",
+    "generated_utc": "2026-10-02T15:45:40Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FGZ-1",
+      "properties": {
+        "report_id": "iem-lsr-FGZ-1",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610010630",
+        "standard_time_display": "2026-09-30 23:30 MST",
+        "wfo": "FGZ",
+        "county_or_zone": "Navajo",
+        "city": "9 SSE Birdsprings",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Tribal Leader",
+        "event_narrative": "The Bird Springs chapter house reported flooding overtopped the N-71 bridge near N-2. Road and bridge are still flooded as of around 11 AM the following (Thursday) morning_ along with an estimated 38 houses/properties impacted in the Transwestern Rd area about 5 miles west of Bird Springs."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.74,
+          35.19
+        ]
+      }
+    }
+  ]
 }

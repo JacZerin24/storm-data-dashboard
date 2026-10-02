@@ -7,12 +7,195 @@
     "wfo": "AFC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:16Z",
+    "generated_utc": "2026-10-02T15:45:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-1",
+      "properties": {
+        "report_id": "iem-lsr-AFC-1",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610010415",
+        "standard_time_display": "2026-09-30 19:15 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "8 SE Eagle River",
+        "state": "AK",
+        "magnitude": 5.2,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Total snowfall since 8 am 5.2 inches. Liquid Eq: 0.89 inches."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.44,
+          61.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-2",
+      "properties": {
+        "report_id": "iem-lsr-AFC-2",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610011400",
+        "standard_time_display": "2026-10-01 05:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "2 E Eagle River",
+        "state": "AK",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "Cocorahs reporter mentions first real snow of the season. Most melted as it landed. Elevation 799 ft."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5,
+          61.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-3",
+      "properties": {
+        "report_id": "iem-lsr-AFC-3",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610011500",
+        "standard_time_display": "2026-10-01 06:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "2 S Anchorage (Spenard)",
+        "state": "AK",
+        "magnitude": 0.0001,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "Rain yesterday_ moderate intensity at times. Light rain_ mixing with a few snowflakes at obs time this morning. The snow liquid equivalent was also a Trace."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.93,
+          61.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-4",
+      "properties": {
+        "report_id": "iem-lsr-AFC-4",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610011500",
+        "standard_time_display": "2026-10-01 06:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Matanuska-Susitna",
+        "city": "3 NE Knik-Fairview",
+        "state": "AK",
+        "magnitude": 0.2,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "A cloudy day with the first snowfall of the season and a high of 35 F. The day presented a mix of rain and snow_ most of which melted on contact with the ground. Night skies remained cloudy and the temperature dipped to 32 F. Currently it is cloudy and 34 F with calm winds. The barometer is 29.82 inHg and steady. 0.43 inches in the gauge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.57,
+          61.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-5",
+      "properties": {
+        "report_id": "iem-lsr-AFC-5",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610011545",
+        "standard_time_display": "2026-10-01 06:45 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Matanuska-Susitna",
+        "city": "2.3 SSE Palmer",
+        "state": "AK",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "CoCoRaHS report: 0.25 inches of precipitation_ 34 degrees F_ cloudy."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.07,
+          61.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-6",
+      "properties": {
+        "report_id": "iem-lsr-AFC-6",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610011553",
+        "standard_time_display": "2026-10-01 06:53 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "5 E Valdez",
+        "state": "AK",
+        "magnitude": 0.72,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": ".72 inches of rain_ 39.7F_ drizzle_ overcast."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.22,
+          61.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-7",
+      "properties": {
+        "report_id": "iem-lsr-AFC-7",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610011600",
+        "standard_time_display": "2026-10-01 07:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "5 SE Eagle River",
+        "state": "AK",
+        "magnitude": 4.3,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.47,
+          61.27
+        ]
+      }
+    }
+  ]
 }

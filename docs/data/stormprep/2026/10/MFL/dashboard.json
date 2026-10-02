@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:24:16Z",
+    "generated_utc": "2026-10-02T15:46:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,17 @@
     "year": 2026,
     "month": 10,
     "wfo": "MFL",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 8,
+    "mapped_candidate_reports": 8,
     "candidate_report_counts": {
       "flooding": 1,
-      "marine": 3,
-      "thunderstorm_wind": 1
+      "marine": 4,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
-      "MARINE TSTM WIND": 3,
-      "TSTM WND GST": 1
+      "MARINE TSTM WIND": 4,
+      "TSTM WND GST": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -158,6 +158,72 @@
       "ugc": "FLC011",
       "ugc_name": "Broward",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011610",
+      "standard_time_display": "2026-10-01 11:10 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 E Delray Beach",
+      "county": "AMZ650",
+      "state": "FL",
+      "source": "Mesonet",
+      "remark": "A thunderstorm produced a wind gust of 41 mph or 36 kts at Mesonet station 1847W FSWN Delray Beach North.",
+      "lat": 26.47,
+      "lon": -80.06,
+      "ugc": "AMZ650",
+      "ugc_name": "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011618",
+      "standard_time_display": "2026-10-01 11:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Lake Worth",
+      "county": "AMZ650",
+      "state": "FL",
+      "source": "Buoy",
+      "remark": "A thunderstorm produced a wind gust of 44 mph or 38 kts at Buoy station LKWF1 Lake Worth Pier_ FL.",
+      "lat": 26.61,
+      "lon": -80.03,
+      "ugc": "AMZ650",
+      "ugc_name": "Coastal waters from Jupiter Inlet to Deerfield Beach FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610011619",
+      "standard_time_display": "2026-10-01 11:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 46.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Haverhill",
+      "county": "Palm Beach",
+      "state": "FL",
+      "source": "ASOS",
+      "remark": "A thunderstorm produced a wind gust of 46 mph or 40 kts at President Donald J Trump International Airport.",
+      "lat": 26.69,
+      "lon": -80.1,
+      "ugc": "FLC099",
+      "ugc_name": "Palm Beach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -166,7 +232,7 @@
       "wfo": "MFL",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-01T16:24:16Z"
+      "generated_utc": "2026-10-02T15:46:10Z"
     },
     "primary_links": [
       {

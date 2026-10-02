@@ -7,12 +7,39 @@
     "wfo": "MOB",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:24:20Z",
+    "generated_utc": "2026-10-02T15:46:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MOB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MOB-1",
+      "properties": {
+        "report_id": "iem-lsr-MOB-1",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610020720",
+        "standard_time_display": "2026-10-02 01:20 CST",
+        "wfo": "MOB",
+        "county_or_zone": "Baldwin",
+        "city": "2 E Pinto Island",
+        "state": "AL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Minor inundation along the Causeway over Mobile Bay noted on highway webcams. By 330am_ the right lane along the Causeway was flooded along with the eastbound ramp from the Causeway to I-10."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.99,
+          30.68
+        ]
+      }
+    }
+  ]
 }

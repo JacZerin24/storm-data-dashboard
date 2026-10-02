@@ -7,12 +7,169 @@
     "wfo": "ABQ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:14Z",
+    "generated_utc": "2026-10-02T15:45:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-1",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610010500",
+        "standard_time_display": "2026-09-30 22:00 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "San Miguel",
+        "city": "Ojitos Frios",
+        "state": "NM",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "NM National Guard reports a swift water rescue was performed near the intersection of County Road A20 and Paco Road. 2 occupants were rescued from the top of a vehicle. Time estimated via social media post and accompanying pictures."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.32,
+          35.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-2",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-2",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011609",
+        "standard_time_display": "2026-10-01 09:09 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Colfax",
+        "city": "Raton Crews Airport",
+        "state": "NM",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KRTN Raton Crews Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5,
+          36.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-3",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011700",
+        "standard_time_display": "2026-10-01 10:00 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Union",
+        "city": "14 NW Sedan",
+        "state": "NM",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station SWCN5 SW Clayton."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.32,
+          36.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-4",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011729",
+        "standard_time_display": "2026-10-01 10:29 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "San Miguel",
+        "city": "6 E Storrie Lake State",
+        "state": "NM",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KLVS Las Vegas Muni Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13,
+          35.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-5",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-5",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610011833",
+        "standard_time_display": "2026-10-01 11:33 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "San Miguel",
+        "city": "6 E Storrie Lake State",
+        "state": "NM",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "ASOS station KLVS Las Vegas Muni Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13,
+          35.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABQ-6",
+      "properties": {
+        "report_id": "iem-lsr-ABQ-6",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610020645",
+        "standard_time_display": "2026-10-01 23:45 MST",
+        "wfo": "ABQ",
+        "county_or_zone": "Lincoln",
+        "city": "17 WNW Oscuro",
+        "state": "NM",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station WSM39 Shist (WSMR)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.34,
+          33.53
+        ]
+      }
+    }
+  ]
 }

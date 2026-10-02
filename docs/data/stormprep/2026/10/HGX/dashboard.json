@@ -6,7 +6,7 @@
     "wfo": "HGX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-01T16:23:57Z",
+    "generated_utc": "2026-10-02T15:45:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "HGX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "flooding": 3
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=HGX&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-HGX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610020038",
+      "standard_time_display": "2026-10-01 18:38 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 S Cypress",
+      "county": "Harris",
+      "state": "TX",
+      "source": "Public",
+      "remark": "mPING report: Street/road flooding; Street/road closed; Vehicles stranded.",
+      "lat": 29.89,
+      "lon": -95.66,
+      "ugc": "TXC201",
+      "ugc_name": "Harris",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HGX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610020207",
+      "standard_time_display": "2026-10-01 20:07 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 NW The Woodlands",
+      "county": "Montgomery",
+      "state": "TX",
+      "source": "Public",
+      "remark": "mPING report: River/Creek overflowing; Cropland/Yard/Basement Flooding.",
+      "lat": 30.22,
+      "lon": -95.58,
+      "ugc": "TXC339",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HGX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610020243",
+      "standard_time_display": "2026-10-01 20:43 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NE Pinehurst",
+      "county": "Montgomery",
+      "state": "TX",
+      "source": "Broadcast Media",
+      "remark": "Drainage ditches very full on 1499 between Egypt and Magnolia. Road covered in a couple of spots.",
+      "lat": 30.22,
+      "lon": -95.63,
+      "ugc": "TXC339",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "HGX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-01T16:23:57Z"
+      "generated_utc": "2026-10-02T15:45:51Z"
     },
     "primary_links": [
       {
