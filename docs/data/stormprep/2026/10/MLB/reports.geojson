@@ -7,7 +7,7 @@
     "wfo": "MLB",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-02T15:46:12Z",
+    "generated_utc": "2026-10-03T14:19:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -298,6 +298,58 @@
         "coordinates": [
           -80.7,
           28.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-12",
+      "properties": {
+        "report_id": "iem-lsr-MLB-12",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610021815",
+        "standard_time_display": "2026-10-02 13:15 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "2 ENE Titusville Airpor",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "USSF wind sensor on tower 1007 (NASA Causeway) measured a peak wind gust of 48MPH/42KT from the southwest at 2:15 PM. The earliest occurrence of a 48 mph gust was at 2:10 PM. Sensor elevation is 54 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.77,
+          28.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-13",
+      "properties": {
+        "report_id": "iem-lsr-MLB-13",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610021841",
+        "standard_time_display": "2026-10-02 13:41 EST",
+        "wfo": "MLB",
+        "county_or_zone": "AMZ552",
+        "city": "1 W Melbourne Beach",
+        "state": "FL",
+        "magnitude": 41.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "The WeatherFlow station at Melbourne South DB8 measured a peak wind gust of 41MPH/36KT from the southeast at 2:41 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.58,
+          28.07
         ]
       }
     }

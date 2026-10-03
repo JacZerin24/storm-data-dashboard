@@ -7,12 +7,39 @@
     "wfo": "JAX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-02T15:45:58Z",
+    "generated_utc": "2026-10-03T14:18:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-JAX-1",
+      "properties": {
+        "report_id": "iem-lsr-JAX-1",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610021705",
+        "standard_time_display": "2026-10-02 12:05 EST",
+        "wfo": "JAX",
+        "county_or_zone": "Duval",
+        "city": "4 NNW Oceanway",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Off duty NWS employee reported minor street flooding at the intersection of Pecan Park Rd and Bainbridge Dr."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.65,
+          30.52
+        ]
+      }
+    }
+  ]
 }

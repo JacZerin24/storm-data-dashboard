@@ -6,7 +6,7 @@
     "wfo": "AFC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-02T15:45:13Z",
+    "generated_utc": "2026-10-03T14:18:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "AFC",
-    "total_candidate_reports": 7,
-    "mapped_candidate_reports": 7,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
-      "other": 2,
-      "winter": 5
+      "other": 3,
+      "winter": 6
     },
     "candidate_report_type_counts": {
-      "RAIN": 2,
-      "SNOW": 5
+      "RAIN": 3,
+      "SNOW": 6
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -200,6 +200,50 @@
       "ugc": "AKC020",
       "ugc_name": "Anchorage",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610020315",
+      "standard_time_display": "2026-10-01 18:15 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFC",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 4.3,
+      "magnitude_qualifier": null,
+      "city": "8 SE Eagle River",
+      "county": "Anchorage",
+      "state": "AK",
+      "source": "Public",
+      "remark": "Updates previous report. 4.3 inches of new snow between 10am and 5pm. Total 33 hour snowfall 9.5 inches. Snow depth 9 inches.",
+      "lat": 61.23,
+      "lon": -149.44,
+      "ugc": "AKC020",
+      "ugc_name": "Anchorage",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFC-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610021857",
+      "standard_time_display": "2026-10-02 09:57 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFC",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 0.3,
+      "magnitude_qualifier": null,
+      "city": "5 E Valdez",
+      "county": "Chugach",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "35.4 degrees F_ sunny_ clear.",
+      "lat": 61.11,
+      "lon": -146.22,
+      "ugc": "AKC063",
+      "ugc_name": "Chugach",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -208,7 +252,7 @@
       "wfo": "AFC",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-02T15:45:14Z"
+      "generated_utc": "2026-10-03T14:18:10Z"
     },
     "primary_links": [
       {

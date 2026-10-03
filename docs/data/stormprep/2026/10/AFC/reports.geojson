@@ -7,7 +7,7 @@
     "wfo": "AFC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-02T15:45:13Z",
+    "generated_utc": "2026-10-03T14:18:10Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -194,6 +194,58 @@
         "coordinates": [
           -149.47,
           61.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-8",
+      "properties": {
+        "report_id": "iem-lsr-AFC-8",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610020315",
+        "standard_time_display": "2026-10-01 18:15 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "8 SE Eagle River",
+        "state": "AK",
+        "magnitude": 4.3,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Updates previous report. 4.3 inches of new snow between 10am and 5pm. Total 33 hour snowfall 9.5 inches. Snow depth 9 inches."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.44,
+          61.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-9",
+      "properties": {
+        "report_id": "iem-lsr-AFC-9",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610021857",
+        "standard_time_display": "2026-10-02 09:57 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "5 E Valdez",
+        "state": "AK",
+        "magnitude": 0.3,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "35.4 degrees F_ sunny_ clear."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.22,
+          61.11
         ]
       }
     }
