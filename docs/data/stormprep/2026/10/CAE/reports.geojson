@@ -7,7 +7,7 @@
     "wfo": "CAE",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-04T14:46:18Z",
+    "generated_utc": "2026-10-05T18:22:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -38,6 +38,58 @@
         "coordinates": [
           -80.36,
           34.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-2",
+      "properties": {
+        "report_id": "iem-lsr-CAE-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610050156",
+        "standard_time_display": "2026-10-04 20:56 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Burke",
+        "city": "7 S Vidette",
+        "state": "GA",
+        "magnitude": 5.84,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public weather station recorded 5.84 inches of rain between 6p and 945p."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.25,
+          32.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CAE-3",
+      "properties": {
+        "report_id": "iem-lsr-CAE-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050215",
+        "standard_time_display": "2026-10-04 21:15 EST",
+        "wfo": "CAE",
+        "county_or_zone": "Burke",
+        "city": "9 SE Vidette",
+        "state": "GA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Burke County Dispatch reports road flooding at intersection of GA 56 and Byne Sunshine Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.13,
+          32.96
         ]
       }
     }

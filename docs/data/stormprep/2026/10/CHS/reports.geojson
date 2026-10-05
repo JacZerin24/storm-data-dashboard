@@ -7,12 +7,715 @@
     "wfo": "CHS",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-04T14:46:19Z",
+    "generated_utc": "2026-10-05T18:22:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-1",
+      "properties": {
+        "report_id": "iem-lsr-CHS-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610041734",
+        "standard_time_display": "2026-10-04 12:34 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Evans",
+        "city": "5 ENE Midway",
+        "state": "GA",
+        "magnitude": 2.28,
+        "magnitude_units": null,
+        "source": "Other Federal",
+        "event_narrative": "The Glisson's Pond Fort Stewart RAWS site has measured 2.28 inches of rain since 7:34 am."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.81,
+          32.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-2",
+      "properties": {
+        "report_id": "iem-lsr-CHS-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610041755",
+        "standard_time_display": "2026-10-04 12:55 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Tattnall",
+        "city": "Reidsville Airport",
+        "state": "GA",
+        "magnitude": 2.55,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "The Reidsville Airport (KRVJ) AWOS has measured 2.55 inches of rain since 7:15 am."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.15,
+          32.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-3",
+      "properties": {
+        "report_id": "iem-lsr-CHS-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610041800",
+        "standard_time_display": "2026-10-04 13:00 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Tattnall",
+        "city": "3 NNE Glennville",
+        "state": "GA",
+        "magnitude": 1.99,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The Glennville UGA Weather Network site has measured 1.99 inches of rain so far today."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.92,
+          31.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-4",
+      "properties": {
+        "report_id": "iem-lsr-CHS-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050009",
+        "standard_time_display": "2026-10-04 19:09 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 W Citadel Mall",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "NWS Employee reported that Carolina Bay Drive is flooded_ but still passable in the down the middle of the road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.08,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-5",
+      "properties": {
+        "report_id": "iem-lsr-CHS-5",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050035",
+        "standard_time_display": "2026-10-04 19:35 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 NW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of Huger Street and King Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-6",
+      "properties": {
+        "report_id": "iem-lsr-CHS-6",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050038",
+        "standard_time_display": "2026-10-04 19:38 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of Vanderhorst Street and Ogier Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-7",
+      "properties": {
+        "report_id": "iem-lsr-CHS-7",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050040",
+        "standard_time_display": "2026-10-04 19:40 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 NW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A City of Charleston inundation sensor at the intersection of Huger Street and King Street measured a peak inundation of 1.78 feet. Flash flooding typically begins at this location when the inundation depth reaches 0.40 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-8",
+      "properties": {
+        "report_id": "iem-lsr-CHS-8",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610050108",
+        "standard_time_display": "2026-10-04 20:08 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 WNW Charleston",
+        "state": "SC",
+        "magnitude": 3.21,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station at the Citadel has reported 3.21 inches of rain over the past 3 hours_ with 1.45 inches in the past hour. Rainfall is ongoing."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96,
+          32.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-9",
+      "properties": {
+        "report_id": "iem-lsr-CHS-9",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050109",
+        "standard_time_display": "2026-10-04 20:09 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 N Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast Media reported that the intersection of East Bay Street and Blake Street is flooded with an estimated 3-4 inches of water on the roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-10",
+      "properties": {
+        "report_id": "iem-lsr-CHS-10",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610050128",
+        "standard_time_display": "2026-10-04 20:28 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NNW Charleston",
+        "state": "SC",
+        "magnitude": 4.97,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "CoCoRAHS spotter reports 4.91 inches of rainfall_ resulting in flooding. Rain is ongoing."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96,
+          32.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-11",
+      "properties": {
+        "report_id": "iem-lsr-CHS-11",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050128",
+        "standard_time_display": "2026-10-04 20:28 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 N Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the portion of Morrison Drive located from East Bay Street to Highway 17 is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-12",
+      "properties": {
+        "report_id": "iem-lsr-CHS-12",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050138",
+        "standard_time_display": "2026-10-04 20:38 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of Ashley Avenue and Bennett Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-13",
+      "properties": {
+        "report_id": "iem-lsr-CHS-13",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050140",
+        "standard_time_display": "2026-10-04 20:40 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of Rutledge Avenue and Bennett Street are closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-14",
+      "properties": {
+        "report_id": "iem-lsr-CHS-14",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050142",
+        "standard_time_display": "2026-10-04 20:42 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 N Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of King Street and Columbus Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-15",
+      "properties": {
+        "report_id": "iem-lsr-CHS-15",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050143",
+        "standard_time_display": "2026-10-04 20:43 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 SW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that a portion Lockwood Drive and Broad Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-16",
+      "properties": {
+        "report_id": "iem-lsr-CHS-16",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050145",
+        "standard_time_display": "2026-10-04 20:45 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported the intersection of Rutledge Avenue and Simons Street due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-17",
+      "properties": {
+        "report_id": "iem-lsr-CHS-17",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050145",
+        "standard_time_display": "2026-10-04 20:45 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported the intersection of Rutledge Avenue and Simons Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-18",
+      "properties": {
+        "report_id": "iem-lsr-CHS-18",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050149",
+        "standard_time_display": "2026-10-04 20:49 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 WSW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency manager reports that Bull St between Ashley Ave and Halsey Blvd is closed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-19",
+      "properties": {
+        "report_id": "iem-lsr-CHS-19",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050150",
+        "standard_time_display": "2026-10-04 20:50 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 E Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of Washington Street and Society Street was closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          32.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-20",
+      "properties": {
+        "report_id": "iem-lsr-CHS-20",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050151",
+        "standard_time_display": "2026-10-04 20:51 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NNW Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency Manager reported that Rutledge Ave between Gordon St to Poplar St is closed due to flash flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-21",
+      "properties": {
+        "report_id": "iem-lsr-CHS-21",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050153",
+        "standard_time_display": "2026-10-04 20:53 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Emergency manager reports that Calhoun St between Rutledge Ave to Smith St is closed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-22",
+      "properties": {
+        "report_id": "iem-lsr-CHS-22",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050228",
+        "standard_time_display": "2026-10-04 21:28 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "1 E Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Emergency Manager reported that the intersection of East Bay Street and South Market Street is closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-23",
+      "properties": {
+        "report_id": "iem-lsr-CHS-23",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050230",
+        "standard_time_display": "2026-10-04 21:30 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "As of 1030 PM_ emergency officials had performed 9 water rescues with at least 20 cars underwater."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-24",
+      "properties": {
+        "report_id": "iem-lsr-CHS-24",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610050304",
+        "standard_time_display": "2026-10-04 22:04 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Charleston",
+        "state": "SC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "A City of Charleston inundation sensor at the intersection of Ogier Street and Calhoun Street measured a peak inundation of 1.58 feet. Flash flooding typically begins at this location when the inundation depth reaches 0.40 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.94,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-25",
+      "properties": {
+        "report_id": "iem-lsr-CHS-25",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610051022",
+        "standard_time_display": "2026-10-05 05:22 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NE Saint Andrews",
+        "state": "SC",
+        "magnitude": 6.19,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "24-hour rainfall amount."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-26",
+      "properties": {
+        "report_id": "iem-lsr-CHS-26",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610051100",
+        "standard_time_display": "2026-10-05 06:00 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "Saint Andrews",
+        "state": "SC",
+        "magnitude": 6.8,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "From 7 AM Sunday through 7 AM today."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99,
+          32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CHS-27",
+      "properties": {
+        "report_id": "iem-lsr-CHS-27",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610051100",
+        "standard_time_display": "2026-10-05 06:00 EST",
+        "wfo": "CHS",
+        "county_or_zone": "Charleston",
+        "city": "2 NW Charleston",
+        "state": "SC",
+        "magnitude": 7.66,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "24-hour rainfall report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96,
+          32.81
+        ]
+      }
+    }
+  ]
 }
