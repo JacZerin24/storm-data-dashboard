@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-05T18:22:25Z",
+    "generated_utc": "2026-10-06T15:54:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "ABQ",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 2,
       "thunderstorm_wind": 5
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
+      "FLOOD": 1,
       "NON-TSTM WND GST": 5
     },
     "nws_api_alert_count": 0,
@@ -178,6 +179,28 @@
       "ugc": "NMC027",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610030200",
+      "standard_time_display": "2026-10-02 19:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Bernardo",
+      "county": "Socorro",
+      "state": "NM",
+      "source": "Newspaper",
+      "remark": "Delayed Report: River flooding along the Rio Puerco reached minor flood stage_ flooding Ramon Lopez Road and its access to the small town of San Francisco_ NM_ isolating 12 homes there. Potholes and sinkholes were also reported from the flooding.",
+      "lat": 34.4,
+      "lon": -106.84,
+      "ugc": "NMC053",
+      "ugc_name": "Socorro",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -186,7 +209,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-05T18:22:26Z"
+      "generated_utc": "2026-10-06T15:54:19Z"
     },
     "primary_links": [
       {
