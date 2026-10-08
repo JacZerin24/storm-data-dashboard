@@ -7,7 +7,7 @@
     "wfo": "AFC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-07T16:24:24Z",
+    "generated_utc": "2026-10-08T16:26:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -246,6 +246,58 @@
         "coordinates": [
           -146.22,
           61.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-10",
+      "properties": {
+        "report_id": "iem-lsr-AFC-10",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610071710",
+        "standard_time_display": "2026-10-07 08:10 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "5 E Valdez",
+        "state": "AK",
+        "magnitude": 0.05,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.22,
+          61.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-11",
+      "properties": {
+        "report_id": "iem-lsr-AFC-11",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610072155",
+        "standard_time_display": "2026-10-07 12:55 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Aleutians West",
+        "city": "Shemya",
+        "state": "AK",
+        "magnitude": 75.0,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "The Shemya AWOS recorded a wind gust of 75 mph at 1:55 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.11,
+          52.72
         ]
       }
     }
