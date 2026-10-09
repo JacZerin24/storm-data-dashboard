@@ -6,7 +6,7 @@
     "wfo": "HFO",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-08T16:26:42Z",
+    "generated_utc": "2026-10-09T16:09:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "HFO",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "flooding": 2
+    },
+    "candidate_report_type_counts": {
+      "FLOOD": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=HFO&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-HFO-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610081850",
+      "standard_time_display": "2026-10-08 08:50 HST",
+      "standard_time_zone": "HST",
+      "wfo": "HFO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NE Haleiwa",
+      "county": "Honolulu",
+      "state": "HI",
+      "source": "Emergency Mngr",
+      "remark": "Water over Kamehameha Highway at Pupukea up to 1 foot.",
+      "lat": 21.66,
+      "lon": -158.05,
+      "ugc": null,
+      "ugc_name": null,
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HFO&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HFO-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610090030",
+      "standard_time_display": "2026-10-08 14:30 HST",
+      "standard_time_zone": "HST",
+      "wfo": "HFO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Waialua",
+      "county": "Honolulu",
+      "state": "HI",
+      "source": "Law Enforcement",
+      "remark": "Both lanes of Waialua Beach Road flooded near the intersection with Komo Street. Cars going onto bike path to get around.",
+      "lat": 21.58,
+      "lon": -158.13,
+      "ugc": null,
+      "ugc_name": null,
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HFO&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "HFO",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-08T16:26:43Z"
+      "generated_utc": "2026-10-09T16:09:24Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "MLB",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-08T16:27:07Z",
+    "generated_utc": "2026-10-09T16:09:43Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "MLB",
-    "total_candidate_reports": 15,
-    "mapped_candidate_reports": 15,
+    "total_candidate_reports": 16,
+    "mapped_candidate_reports": 16,
     "candidate_report_counts": {
+      "flooding": 1,
       "marine": 6,
       "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
+      "FLOOD": 1,
       "MARINE TSTM WIND": 6,
       "TSTM WND GST": 9
     },
@@ -376,6 +378,28 @@
       "ugc": "FLC009",
       "ugc_name": "Brevard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MLB-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610090006",
+      "standard_time_display": "2026-10-08 19:06 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MLB",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Palm Bay",
+      "county": "Brevard",
+      "state": "FL",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported standing water nearly a foot deep at intersection of Rome and Nebraska in NE Palm Bay.",
+      "lat": 28.01,
+      "lon": -80.63,
+      "ugc": "FLC009",
+      "ugc_name": "Brevard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -384,7 +408,7 @@
       "wfo": "MLB",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-08T16:27:08Z"
+      "generated_utc": "2026-10-09T16:09:44Z"
     },
     "primary_links": [
       {
