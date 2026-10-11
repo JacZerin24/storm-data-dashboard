@@ -7,12 +7,403 @@
     "wfo": "SGX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:10Z",
+    "generated_utc": "2026-10-11T15:38:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-1",
+      "properties": {
+        "report_id": "iem-lsr-SGX-1",
+        "report_type": "COASTAL FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610091500",
+        "standard_time_display": "2026-10-09 07:00 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Orange",
+        "city": "1 ESE Newport Beach",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "High tides of 7.2 ft (8 AM Friday 10/9) and 7.6 ft (9 AM Saturday 10/10) MLLW reported at the Los Angeles Tide gauge and elevated surf of 4 to 6 ft Friday and Saturday resulted in widespread sea water inundation across the Balboa Peninsula. This resulted in flooded roads_ and the closures of the Wedge (from Rock Jetty to M st)_ Balboa Pier_ and Newport Pier."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.91,
+          33.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-2",
+      "properties": {
+        "report_id": "iem-lsr-SGX-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102015",
+        "standard_time_display": "2026-10-10 12:15 PST",
+        "wfo": "SGX",
+        "county_or_zone": "San Diego",
+        "city": "3 E Fallbrook",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Spotter reported top half of 30 ft. Pine tree snapped off. The Fallbrook RAWS reported a 56 mph wind gust at this time with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.19,
+          33.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-3",
+      "properties": {
+        "report_id": "iem-lsr-SGX-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102020",
+        "standard_time_display": "2026-10-10 12:20 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "4 NNE Murrieta",
+        "state": "CA",
+        "magnitude": 66.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Elderberry St Mesonet (359SE) reported a 66 mph wind gust in a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18,
+          33.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-4",
+      "properties": {
+        "report_id": "iem-lsr-SGX-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102030",
+        "standard_time_display": "2026-10-10 12:30 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "Lake Elsinore",
+        "state": "CA",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Moroni Station (394SE) reported a peak wind gust of 61 mph with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32,
+          33.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-5",
+      "properties": {
+        "report_id": "iem-lsr-SGX-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102040",
+        "standard_time_display": "2026-10-10 12:40 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "2 NNW Winchester",
+        "state": "CA",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Joppe Ave (SE757) mesonet reported a 60 mph gust with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1,
+          33.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-6",
+      "properties": {
+        "report_id": "iem-lsr-SGX-6",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102040",
+        "standard_time_display": "2026-10-10 12:40 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "3 NNE San Jacinto",
+        "state": "CA",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "KWRP San Jacinto (SEA60) reported a peak wind gust of 65 mph with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.95,
+          33.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-7",
+      "properties": {
+        "report_id": "iem-lsr-SGX-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102047",
+        "standard_time_display": "2026-10-10 12:47 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "8 NE Temecula",
+        "state": "CA",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Lake Skinner RAWS reported a peak wind gust of 60 mph with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.06,
+          33.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-8",
+      "properties": {
+        "report_id": "iem-lsr-SGX-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102050",
+        "standard_time_display": "2026-10-10 12:50 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "2 SW Beaumont",
+        "state": "CA",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mount Davis mesonet (SE665) reported a peak wind gust of 65 mph with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-9",
+      "properties": {
+        "report_id": "iem-lsr-SGX-9",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102050",
+        "standard_time_display": "2026-10-10 12:50 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "5 SW Beaumont",
+        "state": "CA",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Badlands (SE149) reported a peak wind gust of 65 mph with a band of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.03,
+          33.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-10",
+      "properties": {
+        "report_id": "iem-lsr-SGX-10",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102116",
+        "standard_time_display": "2026-10-10 13:16 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "4 SSE Beaumont",
+        "state": "CA",
+        "magnitude": 59.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Highland Springs RAWS reported a wind gust of 59 with a line of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.95,
+          33.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-11",
+      "properties": {
+        "report_id": "iem-lsr-SGX-11",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102140",
+        "standard_time_display": "2026-10-10 13:40 PST",
+        "wfo": "SGX",
+        "county_or_zone": "San Bernardino",
+        "city": "5 NW Crestline",
+        "state": "CA",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mesonet station 711SE Silverwood West (SCE1711) reported a gust of 63 mph with a line of convection moving north ahead of Tropical Storm Rachel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.36,
+          34.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-12",
+      "properties": {
+        "report_id": "iem-lsr-SGX-12",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110534",
+        "standard_time_display": "2026-10-10 21:34 PST",
+        "wfo": "SGX",
+        "county_or_zone": "San Diego",
+        "city": "5 NW Dulzura",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "SR 94 at Otay Lakes Road flooded. Rainfall rates near 1 inch per hour occurred in this area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.82,
+          32.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-13",
+      "properties": {
+        "report_id": "iem-lsr-SGX-13",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110715",
+        "standard_time_display": "2026-10-10 23:15 PST",
+        "wfo": "SGX",
+        "county_or_zone": "San Diego",
+        "city": "1 W Ramona",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Main St flooded near Ramona St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.88,
+          33.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-14",
+      "properties": {
+        "report_id": "iem-lsr-SGX-14",
+        "report_type": "DEBRIS FLOW",
+        "event_category": "other",
+        "valid_utc": "202610110750",
+        "standard_time_display": "2026-10-10 23:50 PST",
+        "wfo": "SGX",
+        "county_or_zone": "Riverside",
+        "city": "6 SSW Palm Desert",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Large rocks_ mud_ and debris covering the east and westbound lanes of Highway 74 near mile marker 89. Around 1.5 inch of rain fell within 2 hours in this area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4,
+          33.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-SGX-15",
+      "properties": {
+        "report_id": "iem-lsr-SGX-15",
+        "report_type": "DEBRIS FLOW",
+        "event_category": "other",
+        "valid_utc": "202610111437",
+        "standard_time_display": "2026-10-11 06:37 PST",
+        "wfo": "SGX",
+        "county_or_zone": "San Bernardino",
+        "city": "3 ESE Crestline",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Rocks in lanes on SR-18/SR-189 below Rim Forest. Area has received 0.75 to 1.18 inches of rain over the last 6 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.25,
+          34.23
+        ]
+      }
+    }
+  ]
 }

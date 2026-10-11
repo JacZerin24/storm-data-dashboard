@@ -7,12 +7,169 @@
     "wfo": "MRX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:20:51Z",
+    "generated_utc": "2026-10-11T15:37:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MRX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-1",
+      "properties": {
+        "report_id": "iem-lsr-MRX-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610101547",
+        "standard_time_display": "2026-10-10 10:47 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Sullivan",
+        "city": "2 NW Shady Valley",
+        "state": "TN",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Reported by Trained Spotter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.95,
+          36.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-2",
+      "properties": {
+        "report_id": "iem-lsr-MRX-2",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102028",
+        "standard_time_display": "2026-10-10 15:28 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Knox",
+        "city": "2 SE Powell",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Large tree down across road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.01,
+          36.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-3",
+      "properties": {
+        "report_id": "iem-lsr-MRX-3",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102050",
+        "standard_time_display": "2026-10-10 15:50 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Knox",
+        "city": "3 NW Seymour",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree fell down onto power lines."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.81,
+          35.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-4",
+      "properties": {
+        "report_id": "iem-lsr-MRX-4",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102134",
+        "standard_time_display": "2026-10-10 16:34 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Washington",
+        "city": "1 SSW Konnarock",
+        "state": "VA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Uprooted tree across the road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.64,
+          36.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-5",
+      "properties": {
+        "report_id": "iem-lsr-MRX-5",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102153",
+        "standard_time_display": "2026-10-10 16:53 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Washington",
+        "city": "1 SSW Glade Spring",
+        "state": "VA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Uprooted tree across road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.78,
+          36.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MRX-6",
+      "properties": {
+        "report_id": "iem-lsr-MRX-6",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610102201",
+        "standard_time_display": "2026-10-10 17:01 EST",
+        "wfo": "MRX",
+        "county_or_zone": "Knox",
+        "city": "4 S Paulette",
+        "state": "TN",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down across the road and traffic."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9,
+          36.13
+        ]
+      }
+    }
+  ]
 }

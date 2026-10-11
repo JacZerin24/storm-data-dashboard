@@ -6,7 +6,7 @@
     "wfo": "CTP",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:20:06Z",
+    "generated_utc": "2026-10-11T15:37:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "CTP",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "other": 1
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CTP&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-CTP-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111200",
+      "standard_time_display": "2026-10-11 07:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CTP",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.33,
+      "magnitude_qualifier": null,
+      "city": "3 N Ski Gap",
+      "county": "Blair",
+      "state": "PA",
+      "source": "Trained Spotter",
+      "remark": "Rainfall total as of 8 AM.",
+      "lat": 40.36,
+      "lon": -78.52,
+      "ugc": "PAC013",
+      "ugc_name": "Blair",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CTP&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "CTP",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-10T15:20:07Z"
+      "generated_utc": "2026-10-11T15:37:09Z"
     },
     "primary_links": [
       {

@@ -7,12 +7,221 @@
     "wfo": "PSR",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:03Z",
+    "generated_utc": "2026-10-11T15:38:06Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-1",
+      "properties": {
+        "report_id": "iem-lsr-PSR-1",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202610101947",
+        "standard_time_display": "2026-10-10 12:47 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "2 SW Avondale",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "AWOS",
+        "event_narrative": "An automated weather station reported zero visibility in dense blowing dust at Goodyear Municipal Airport. AWOS station KGYR at Goodyear Municipal Airport."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.37,
+          33.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-2",
+      "properties": {
+        "report_id": "iem-lsr-PSR-2",
+        "report_type": "DUST STORM",
+        "event_category": "other",
+        "valid_utc": "202610102010",
+        "standard_time_display": "2026-10-10 13:10 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "4 N Tolleson",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Trained spotter reported near zero visibility in dense blowing dust near West Camelback Rd on loop 101."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.27,
+          33.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-3",
+      "properties": {
+        "report_id": "iem-lsr-PSR-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110625",
+        "standard_time_display": "2026-10-10 23:25 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Imperial",
+        "city": "6 NW Felicity",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Ogilby Road closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.84,
+          32.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-4",
+      "properties": {
+        "report_id": "iem-lsr-PSR-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110746",
+        "standard_time_display": "2026-10-11 00:46 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Imperial",
+        "city": "4 NNE Dixieland",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Westmoreland Road near Boley Road closed due to flooding with water overtopping a bridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.74,
+          32.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-5",
+      "properties": {
+        "report_id": "iem-lsr-PSR-5",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110800",
+        "standard_time_display": "2026-10-11 01:00 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Riverside",
+        "city": "8 W Imperial Hot Minera",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "State Route 111 flooded near the Riverside/Imperial County border with 2 vehicle stuck in the floodwaters reported."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.83,
+          33.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-6",
+      "properties": {
+        "report_id": "iem-lsr-PSR-6",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110836",
+        "standard_time_display": "2026-10-11 01:36 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Riverside",
+        "city": "10 NE Desert Shores",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "Roadway flooding reported in the area of State Route 111 and Parkside Drive."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.92,
+          33.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-7",
+      "properties": {
+        "report_id": "iem-lsr-PSR-7",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110911",
+        "standard_time_display": "2026-10-11 02:11 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Riverside",
+        "city": "10 NE Desert Shores",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "The area of Sea View Way and Dolphin Drive in North Shore reported flooded."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.93,
+          33.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-8",
+      "properties": {
+        "report_id": "iem-lsr-PSR-8",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110929",
+        "standard_time_display": "2026-10-11 02:29 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Imperial",
+        "city": "1 SSE Ocotillo",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Dept of Highways",
+        "event_narrative": "State Route 98 closed from Imperial Highway to Brockman Road due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0,
+          32.73
+        ]
+      }
+    }
+  ]
 }

@@ -7,12 +7,247 @@
     "wfo": "VEF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:19Z",
+    "generated_utc": "2026-10-11T15:38:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-1",
+      "properties": {
+        "report_id": "iem-lsr-VEF-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110915",
+        "standard_time_display": "2026-10-11 01:15 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "2 SSE Fort Mohave",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Mountain View Road from East Crystal Drive to East Desert Greens Drive closed due to flash flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.58,
+          34.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-2",
+      "properties": {
+        "report_id": "iem-lsr-VEF-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610110923",
+        "standard_time_display": "2026-10-11 01:23 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "2 E Joshua Tree",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Several streets are flooded out across the city of Joshua Tree south of Highway 62."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.28,
+          34.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-3",
+      "properties": {
+        "report_id": "iem-lsr-VEF-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610111035",
+        "standard_time_display": "2026-10-11 02:35 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "5 WSW Dolan Springs",
+        "state": "AZ",
+        "magnitude": 63.0,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "Strong gradient winds resulted in a wind gust of 63 mph at Lake Havasu City Airport. KHII."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.35,
+          35.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-4",
+      "properties": {
+        "report_id": "iem-lsr-VEF-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610111103",
+        "standard_time_display": "2026-10-11 03:03 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "3 WNW Wonder Valley",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Debris and flowing water over the roadway. Hard closure of Amboy Road at Amboy and Godwin and Amboy and Chadwhich."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.92,
+          34.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-5",
+      "properties": {
+        "report_id": "iem-lsr-VEF-5",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610111121",
+        "standard_time_display": "2026-10-11 03:21 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "7 E Wonder Valley",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Vehicle stuck in flash flood waters at Amboy Road and Bauman Drive."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.76,
+          34.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-6",
+      "properties": {
+        "report_id": "iem-lsr-VEF-6",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610111130",
+        "standard_time_display": "2026-10-11 03:30 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "1 WSW Kingman",
+        "state": "AZ",
+        "magnitude": 65.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Gusts in excess of 58 mph started at 0430 and continued through 0540. Peak gust was 65 mph at 0440 and 0520 measured at Holy Moses Wash. AZT23."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.07,
+          35.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-7",
+      "properties": {
+        "report_id": "iem-lsr-VEF-7",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610111151",
+        "standard_time_display": "2026-10-11 03:51 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "9 SSE Cima",
+        "state": "CA",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Mid Hills RAWS measured a gust of 61 mph due to gradient winds. MDHC1."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.41,
+          35.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-8",
+      "properties": {
+        "report_id": "iem-lsr-VEF-8",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610111215",
+        "standard_time_display": "2026-10-11 05:15 MST",
+        "wfo": "VEF",
+        "county_or_zone": "Mohave",
+        "city": "22 SE Meadview",
+        "state": "AZ",
+        "magnitude": 73.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Truxton Canyon RAWS measured a gust of 73 mph from nearby thunderstorms. TCRA3."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8,
+          35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-9",
+      "properties": {
+        "report_id": "iem-lsr-VEF-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610111300",
+        "standard_time_display": "2026-10-11 05:00 PST",
+        "wfo": "VEF",
+        "county_or_zone": "San Bernardino",
+        "city": "2 SW Barstow",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Downed power line in Barstow Heights due to nearby thunderstorms."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.05,
+          34.87
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:18Z",
+    "generated_utc": "2026-10-11T15:38:21Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,16 @@
     "year": 2026,
     "month": 10,
     "wfo": "TWC",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 1
+      "flooding": 1,
+      "thunderstorm_wind": 3
     },
     "candidate_report_type_counts": {
-      "FLOOD": 1
+      "FLOOD": 1,
+      "TSTM WND DMG": 2,
+      "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -66,6 +69,72 @@
       "ugc": "AZC009",
       "ugc_name": "Graham",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610110153",
+      "standard_time_display": "2026-10-10 18:53 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "6 SW Tucson",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "ASOS",
+      "remark": "ASOS station KTUS Tucson International Airport.",
+      "lat": 32.13,
+      "lon": -110.95,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610110215",
+      "standard_time_display": "2026-10-10 19:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 SW Oro Valley",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Tree down on two cars. Time estimated based on radar.",
+      "lat": 32.32,
+      "lon": -111.05,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610110250",
+      "standard_time_display": "2026-10-10 19:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 WNW Oro Valley",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Public",
+      "remark": "Trees down on Moore Rd.",
+      "lat": 32.44,
+      "lon": -111.01,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +143,7 @@
       "wfo": "TWC",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-10T15:21:18Z"
+      "generated_utc": "2026-10-11T15:38:21Z"
     },
     "primary_links": [
       {

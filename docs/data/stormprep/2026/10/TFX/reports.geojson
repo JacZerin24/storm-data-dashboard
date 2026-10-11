@@ -7,12 +7,455 @@
     "wfo": "TFX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:15Z",
+    "generated_utc": "2026-10-11T15:38:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TFX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-1",
+      "properties": {
+        "report_id": "iem-lsr-TFX-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610101811",
+        "standard_time_display": "2026-10-10 11:11 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "7 SSE Ulm",
+        "state": "MT",
+        "magnitude": 0.37,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Rain is continuing to fall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          47.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-2",
+      "properties": {
+        "report_id": "iem-lsr-TFX-2",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110132",
+        "standard_time_display": "2026-10-10 18:32 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "Neihart",
+        "state": "MT",
+        "magnitude": 9.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report on social media of 9 inches of snow."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.74,
+          46.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-3",
+      "properties": {
+        "report_id": "iem-lsr-TFX-3",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110314",
+        "standard_time_display": "2026-10-10 20:14 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Judith Basin",
+        "city": "Hobson",
+        "state": "MT",
+        "magnitude": 4.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media photo from the public via broadcast met showing 4 inches new snow in Hobson. Location estimated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.87,
+          47.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-4",
+      "properties": {
+        "report_id": "iem-lsr-TFX-4",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110535",
+        "standard_time_display": "2026-10-10 22:35 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "2 N Clancy",
+        "state": "MT",
+        "magnitude": 5.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Spotter reports 5 inches new snow with a liquid equivalent of 0.27 inches. Snow has begun accumulating on roads and trees."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98,
+          46.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-5",
+      "properties": {
+        "report_id": "iem-lsr-TFX-5",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110600",
+        "standard_time_display": "2026-10-10 23:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "5 SW Great Falls",
+        "state": "MT",
+        "magnitude": 5.9,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "Official NWS Great Falls snowfall total as of midnight."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.39,
+          47.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-6",
+      "properties": {
+        "report_id": "iem-lsr-TFX-6",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110620",
+        "standard_time_display": "2026-10-10 23:20 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Glacier",
+        "city": "14 E Saint Mary",
+        "state": "MT",
+        "magnitude": 6.8,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Montana mesonet station Wetzel NE estimates a change in snow depth of nearly 7 inches since 8 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.12,
+          48.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-7",
+      "properties": {
+        "report_id": "iem-lsr-TFX-7",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110700",
+        "standard_time_display": "2026-10-11 00:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "5 SW Great Falls",
+        "state": "MT",
+        "magnitude": 6.4,
+        "magnitude_units": null,
+        "source": "Official NWS Obs",
+        "event_narrative": "Updated snowfall total as of 1 AM at the NWS Great Falls office."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.39,
+          47.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-8",
+      "properties": {
+        "report_id": "iem-lsr-TFX-8",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110706",
+        "standard_time_display": "2026-10-11 00:06 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Teton",
+        "city": "Dutton",
+        "state": "MT",
+        "magnitude": 5.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media report of 5 inches snowfall in Dutton."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.71,
+          47.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-9",
+      "properties": {
+        "report_id": "iem-lsr-TFX-9",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110800",
+        "standard_time_display": "2026-10-11 01:00 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Judith Basin",
+        "city": "12 SSE Neihart",
+        "state": "MT",
+        "magnitude": 10.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Snotel equipment at Spur Park estimates 10 inches new snow. Snow began accumulating early afternoon on the 10th."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.62,
+          46.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-10",
+      "properties": {
+        "report_id": "iem-lsr-TFX-10",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610110810",
+        "standard_time_display": "2026-10-11 01:10 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "16 SE Augusta",
+        "state": "MT",
+        "magnitude": 6.1,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Montana mesonet station Bowmans Corner estimates 6.1 inches new snow depth. Snow began accumulating around 130 PM 10/10."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.17,
+          47.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-11",
+      "properties": {
+        "report_id": "iem-lsr-TFX-11",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111236",
+        "standard_time_display": "2026-10-11 05:36 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "1 SE Helena",
+        "state": "MT",
+        "magnitude": 7.8,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0,
+          46.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-12",
+      "properties": {
+        "report_id": "iem-lsr-TFX-12",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111238",
+        "standard_time_display": "2026-10-11 05:38 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Chouteau",
+        "city": "4 NNE The Knees",
+        "state": "MT",
+        "magnitude": 3.2,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.26,
+          48.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-13",
+      "properties": {
+        "report_id": "iem-lsr-TFX-13",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111321",
+        "standard_time_display": "2026-10-11 06:21 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "7 SSE Ulm",
+        "state": "MT",
+        "magnitude": 10.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Power out since 1:10 AM MDT."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          47.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-14",
+      "properties": {
+        "report_id": "iem-lsr-TFX-14",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111342",
+        "standard_time_display": "2026-10-11 06:42 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Jefferson",
+        "city": "1 SE Montana City",
+        "state": "MT",
+        "magnitude": 10.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91,
+          46.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-15",
+      "properties": {
+        "report_id": "iem-lsr-TFX-15",
+        "report_type": "SNOW/ICE DMG",
+        "event_category": "winter",
+        "valid_utc": "202610111403",
+        "standard_time_display": "2026-10-11 07:03 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Cascade",
+        "city": "1 WSW Malmstrom Afb",
+        "state": "MT",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo relayed via social media of a large tree that has fallen due to the weight of heavy_ wet snow."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.22,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-16",
+      "properties": {
+        "report_id": "iem-lsr-TFX-16",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111458",
+        "standard_time_display": "2026-10-11 07:58 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Lewis and Clark",
+        "city": "2 W Helena",
+        "state": "MT",
+        "magnitude": 9.3,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.06,
+          46.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TFX-17",
+      "properties": {
+        "report_id": "iem-lsr-TFX-17",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202610111529",
+        "standard_time_display": "2026-10-11 08:29 MST",
+        "wfo": "TFX",
+        "county_or_zone": "Gallatin",
+        "city": "Church Hill",
+        "state": "MT",
+        "magnitude": 5.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.31,
+          45.75
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "RAH",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-10T15:21:05Z",
+    "generated_utc": "2026-10-11T15:38:07Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,23 @@
     "year": 2026,
     "month": 10,
     "wfo": "RAH",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
+    "candidate_report_counts": {
+      "thunderstorm_wind": 3,
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "TORNADO": 1,
+      "TSTM WND DMG": 3
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RAH&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -38,16 +45,106 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=RAH&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-RAH-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111414",
+      "standard_time_display": "2026-10-11 09:14 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RAH",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Candor",
+      "county": "Montgomery",
+      "state": "NC",
+      "source": "Emergency Mngr",
+      "remark": "Emergency manager reports one building destroyed and another severely damaged along with several large trees snapped in the Hurricane Drive and Hillview street areas.",
+      "lat": 35.31,
+      "lon": -79.73,
+      "ugc": "NCC123",
+      "ugc_name": "Montgomery",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111418",
+      "standard_time_display": "2026-10-11 09:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 ENE Martha",
+      "county": "Randolph",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree blocking lane of travel on Lassiter Mill Rd.",
+      "lat": 35.64,
+      "lon": -79.94,
+      "ugc": "NCC151",
+      "ugc_name": "Randolph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111430",
+      "standard_time_display": "2026-10-11 09:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Asheboro",
+      "county": "Randolph",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "Tree down and blocking both lanes of Shamrock Rd.",
+      "lat": 35.7,
+      "lon": -79.8,
+      "ugc": "NCC151",
+      "ugc_name": "Randolph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-RAH-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111432",
+      "standard_time_display": "2026-10-11 09:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "RAH",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NE New Hope",
+      "county": "Randolph",
+      "state": "NC",
+      "source": "911 Call Center",
+      "remark": "LANIER HILL RD & LOU CRANFORD RD_ tree down blocking both lanes of travel.",
+      "lat": 35.56,
+      "lon": -80.0,
+      "ugc": "NCC151",
+      "ugc_name": "Randolph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "RAH",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-10T15:21:05Z"
+      "generated_utc": "2026-10-11T15:38:08Z"
     },
     "primary_links": [
       {
