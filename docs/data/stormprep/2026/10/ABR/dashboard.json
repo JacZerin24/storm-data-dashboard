@@ -6,7 +6,7 @@
     "wfo": "ABR",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-11T15:36:50Z",
+    "generated_utc": "2026-10-12T18:58:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "ABR",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "other": 1
+    },
+    "candidate_report_type_counts": {
+      "FOG": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABR&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-ABR-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610120755",
+      "standard_time_display": "2026-10-12 01:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ABR",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "Watertown Regional Airp",
+      "county": "Codington",
+      "state": "SD",
+      "source": "ASOS",
+      "remark": "One-quarter mile visibility from 255AM to 430AM CDT.",
+      "lat": 44.91,
+      "lon": -97.17,
+      "ugc": "SDC029",
+      "ugc_name": "Codington",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "ABR",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-11T15:36:51Z"
+      "generated_utc": "2026-10-12T18:58:34Z"
     },
     "primary_links": [
       {

@@ -6,7 +6,7 @@
     "wfo": "CHS",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-11T15:37:06Z",
+    "generated_utc": "2026-10-12T18:58:51Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 10,
     "wfo": "CHS",
-    "total_candidate_reports": 68,
-    "mapped_candidate_reports": 68,
+    "total_candidate_reports": 78,
+    "mapped_candidate_reports": 78,
     "candidate_report_counts": {
       "flooding": 36,
+      "marine": 6,
       "other": 22,
-      "tornado": 10
+      "tornado": 14
     },
     "candidate_report_type_counts": {
       "COASTAL FLOOD": 13,
       "FLASH FLOOD": 23,
+      "MARINE TSTM WIND": 6,
       "RAIN": 22,
-      "TORNADO": 10
+      "TORNADO": 14
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1177,6 +1179,28 @@
     {
       "report_id": "iem-lsr-CHS-52",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610101842",
+      "standard_time_display": "2026-10-10 13:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSE Captolo",
+      "county": "Screven",
+      "state": "GA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Survey Team confirmed an EF-0 tornado south southeast of Captolo_ GA. A weak tornado briefly touched down near Wind Mill Road_ southeast of Captolo_ GA_ before moving north-northeast and dissipating just north of Limesink Road. Its track was periodically visible across open grass fields. Tornado damage was minor and limited to the breakage of large branches from both hardwood and softwood trees. The tin roof was pealed back on a standalone garage.",
+      "lat": 32.6,
+      "lon": -81.58,
+      "ugc": "GAC251",
+      "ugc_name": "Screven",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-53",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610101917",
       "standard_time_display": "2026-10-10 14:17 EST",
       "standard_time_zone": "EST",
@@ -1197,7 +1221,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-53",
+      "report_id": "iem-lsr-CHS-54",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610101919",
+      "standard_time_display": "2026-10-10 14:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Newington",
+      "county": "Screven",
+      "state": "GA",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Survey Team confirmed an EF-1 tornado in eastern Screven County_ GA. The tornado touched down just south of Hwy 21 near Ogeechee Creek before dissipating just north of Old Poor Robin Road. It produced significant tree damage along its path with numerous large hardwood and softwood trees being either snapped off or completely uprooted. One mobile home suffered major damage as a large hardwood tree fell on it. Several cars were also crushed from trees falling on them.",
+      "lat": 32.61,
+      "lon": -81.53,
+      "ugc": "GAC251",
+      "ugc_name": "Screven",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610101920",
       "standard_time_display": "2026-10-10 14:20 EST",
@@ -1219,7 +1265,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-54",
+      "report_id": "iem-lsr-CHS-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610101927",
       "standard_time_display": "2026-10-10 14:27 EST",
@@ -1241,7 +1287,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-55",
+      "report_id": "iem-lsr-CHS-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610101927",
       "standard_time_display": "2026-10-10 14:27 EST",
@@ -1263,7 +1309,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-56",
+      "report_id": "iem-lsr-CHS-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610102017",
       "standard_time_display": "2026-10-10 15:17 EST",
@@ -1285,7 +1331,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-57",
+      "report_id": "iem-lsr-CHS-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610102019",
       "standard_time_display": "2026-10-10 15:19 EST",
@@ -1307,7 +1353,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-58",
+      "report_id": "iem-lsr-CHS-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610102019",
+      "standard_time_display": "2026-10-10 15:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 SSW Appleton",
+      "county": "Allendale",
+      "state": "SC",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Survey Team confirmed an EF-1 tornado in western Allendale Co. The tornado crossed Hwy 301 west of Gravel Hill Rd_ causing significant damage. 4 homes were impacted: one sustained destruction of aluminum roofing material and a front porch; one had complete roof & outer wall failure on a rear addition; & 2 sustained minor roof damage. An outbuilding & 2 carports were destroyed. The tornado continued north with additional tree damage west of Moultry Loop and on Revolutionary Trail.",
+      "lat": 32.96,
+      "lon": -81.4,
+      "ugc": "SCC005",
+      "ugc_name": "Allendale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-61",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610102034",
+      "standard_time_display": "2026-10-10 15:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 N Appleton",
+      "county": "Allendale",
+      "state": "SC",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Survey Team confired an EF-1 tornado in northern Allendale County. A tornado touched down in the wooded area between Miller Creek Road and Yackin Road_ rapidly moving north across Camp Jackson Road. It dissipated just east of the Camp Jackson facility_ short of the Barnwell County line. Impact was primarily limited to forested areas_ with high winds snapping and uprooting clusters of hardwood and softwood trees.",
+      "lat": 33.08,
+      "lon": -81.36,
+      "ugc": "SCC005",
+      "ugc_name": "Allendale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610102037",
       "standard_time_display": "2026-10-10 15:37 EST",
@@ -1329,7 +1419,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-59",
+      "report_id": "iem-lsr-CHS-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610102039",
       "standard_time_display": "2026-10-10 15:39 EST",
@@ -1351,7 +1441,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-60",
+      "report_id": "iem-lsr-CHS-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110014",
       "standard_time_display": "2026-10-10 19:14 EST",
@@ -1373,7 +1463,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-61",
+      "report_id": "iem-lsr-CHS-65",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110015",
       "standard_time_display": "2026-10-10 19:15 EST",
@@ -1395,7 +1485,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-62",
+      "report_id": "iem-lsr-CHS-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110015",
       "standard_time_display": "2026-10-10 19:15 EST",
@@ -1417,7 +1507,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-63",
+      "report_id": "iem-lsr-CHS-67",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110016",
       "standard_time_display": "2026-10-10 19:16 EST",
@@ -1439,7 +1529,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-64",
+      "report_id": "iem-lsr-CHS-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110016",
       "standard_time_display": "2026-10-10 19:16 EST",
@@ -1461,7 +1551,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-65",
+      "report_id": "iem-lsr-CHS-69",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110018",
       "standard_time_display": "2026-10-10 19:18 EST",
@@ -1483,7 +1573,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-66",
+      "report_id": "iem-lsr-CHS-70",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110018",
       "standard_time_display": "2026-10-10 19:18 EST",
@@ -1505,7 +1595,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-67",
+      "report_id": "iem-lsr-CHS-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610110019",
       "standard_time_display": "2026-10-10 19:19 EST",
@@ -1527,7 +1617,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-CHS-68",
+      "report_id": "iem-lsr-CHS-72",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610110950",
+      "standard_time_display": "2026-10-11 04:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 42.0,
+      "magnitude_qualifier": null,
+      "city": "46 SSE McClellanville",
+      "county": "AMZ380",
+      "state": "SC",
+      "source": "Buoy",
+      "remark": "Buoy 41004 measured a 35 knot wind gust at 5:50 am. A peak wind gust of 37 knots was measured at 6:00 am.",
+      "lat": 32.5,
+      "lon": -79.1,
+      "ugc": "AMZ380",
+      "ugc_name": "Waters from South Santee River SC to Edisto Beach SC extending from 20 to 60 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610111306",
       "standard_time_display": "2026-10-11 08:06 EST",
@@ -1547,6 +1659,116 @@
       "ugc": "SCC019",
       "ugc_name": "Charleston",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-74",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111344",
+      "standard_time_display": "2026-10-11 08:44 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 E Charleston",
+      "county": "AMZ340",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "Weatherflow site XSHF recorded a marine thunderstorm wind gust of 36 knots (41 mph).",
+      "lat": 32.77,
+      "lon": -79.91,
+      "ugc": "AMZ340",
+      "ugc_name": "Charleston Harbor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-75",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111350",
+      "standard_time_display": "2026-10-11 08:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 SE Charleston",
+      "county": "AMZ340",
+      "state": "SC",
+      "source": "Official NWS Obs",
+      "remark": "The Downtown Charleston NWS observation site (KCXM) measured a 34 knot wind gust.",
+      "lat": 32.77,
+      "lon": -79.92,
+      "ugc": "AMZ340",
+      "ugc_name": "Charleston Harbor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-76",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111350",
+      "standard_time_display": "2026-10-11 08:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Fort Moultrie",
+      "county": "AMZ340",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "Weatherflow site XSUM measured a 40 mph (35 knot) marine thunderstorm wind gusts.",
+      "lat": 32.75,
+      "lon": -79.87,
+      "ugc": "AMZ340",
+      "ugc_name": "Charleston Harbor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-77",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111353",
+      "standard_time_display": "2026-10-11 08:53 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "3 NE Sullivans Island",
+      "county": "AMZ360",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "Weatherflow site XIOP measured a 39 mph (34 knot) marine thunderstorm wind gust.",
+      "lat": 32.78,
+      "lon": -79.78,
+      "ugc": "AMZ360",
+      "ugc_name": "Coastal waters from South Santee River to Edisto Beach SC out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-78",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610120135",
+      "standard_time_display": "2026-10-11 20:35 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 41.0,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Folly Beach",
+      "county": "Charleston",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "The Weatherflow site at the Folly Beach County Park measured a 36 knot wind gust.",
+      "lat": 32.64,
+      "lon": -79.97,
+      "ugc": "SCC019",
+      "ugc_name": "Charleston",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1555,7 +1777,7 @@
       "wfo": "CHS",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-11T15:37:06Z"
+      "generated_utc": "2026-10-12T18:58:52Z"
     },
     "primary_links": [
       {

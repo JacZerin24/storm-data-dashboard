@@ -7,12 +7,39 @@
     "wfo": "ABR",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-11T15:36:50Z",
+    "generated_utc": "2026-10-12T18:58:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ABR-1",
+      "properties": {
+        "report_id": "iem-lsr-ABR-1",
+        "report_type": "FOG",
+        "event_category": "other",
+        "valid_utc": "202610120755",
+        "standard_time_display": "2026-10-12 01:55 CST",
+        "wfo": "ABR",
+        "county_or_zone": "Codington",
+        "city": "Watertown Regional Airp",
+        "state": "SD",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "ASOS",
+        "event_narrative": "One-quarter mile visibility from 255AM to 430AM CDT."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17,
+          44.91
+        ]
+      }
+    }
+  ]
 }
