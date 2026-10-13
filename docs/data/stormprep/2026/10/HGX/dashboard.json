@@ -6,7 +6,7 @@
     "wfo": "HGX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-12T18:59:16Z",
+    "generated_utc": "2026-10-13T16:55:50Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "HGX",
-    "total_candidate_reports": 3,
-    "mapped_candidate_reports": 3,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "flooding": 3
+      "flooding": 3,
+      "marine": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 3
+      "FLASH FLOOD": 3,
+      "RIP CURRENTS": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -110,6 +112,28 @@
       "ugc": "TXC339",
       "ugc_name": "Montgomery",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HGX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610091830",
+      "standard_time_display": "2026-10-09 12:30 CST",
+      "standard_time_zone": "CST",
+      "wfo": "HGX",
+      "report_type": "RIP CURRENTS",
+      "event_category": "marine",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Surfside Beach",
+      "county": "Brazoria",
+      "state": "TX",
+      "source": "Broadcast Media",
+      "remark": "*** 1 FATAL *** A 16 year old male swimmer drowned after being caught in a rip current at Surfside Beach. Law enforcement noted that surf was rough during the search and rescue operation.",
+      "lat": 28.95,
+      "lon": -95.28,
+      "ugc": "TXC039",
+      "ugc_name": "Brazoria",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -118,7 +142,7 @@
       "wfo": "HGX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-12T18:59:16Z"
+      "generated_utc": "2026-10-13T16:55:51Z"
     },
     "primary_links": [
       {
