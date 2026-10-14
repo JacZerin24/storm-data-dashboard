@@ -7,12 +7,117 @@
     "wfo": "BTV",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-13T16:55:23Z",
+    "generated_utc": "2026-10-14T14:29:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BTV&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-1",
+      "properties": {
+        "report_id": "iem-lsr-BTV-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610140125",
+        "standard_time_display": "2026-10-13 20:25 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Essex",
+        "city": "1 NW Maidstone State Pa",
+        "state": "VT",
+        "magnitude": 1.21,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.65,
+          44.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-2",
+      "properties": {
+        "report_id": "iem-lsr-BTV-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610140833",
+        "standard_time_display": "2026-10-14 03:33 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Addison",
+        "city": "2 NW Bristol",
+        "state": "VT",
+        "magnitude": 1.39,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11,
+          44.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-3",
+      "properties": {
+        "report_id": "iem-lsr-BTV-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610141035",
+        "standard_time_display": "2026-10-14 05:35 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Washington",
+        "city": "3 SSW Woodbury",
+        "state": "VT",
+        "magnitude": 1.76,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.43,
+          44.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BTV-4",
+      "properties": {
+        "report_id": "iem-lsr-BTV-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202610141406",
+        "standard_time_display": "2026-10-14 09:06 EST",
+        "wfo": "BTV",
+        "county_or_zone": "Lamoille",
+        "city": "2 E North Hyde Park",
+        "state": "VT",
+        "magnitude": 2.3,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Storm Total Rainfall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.56,
+          44.68
+        ]
+      }
+    }
+  ]
 }

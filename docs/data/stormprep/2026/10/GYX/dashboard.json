@@ -6,7 +6,7 @@
     "wfo": "GYX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-13T16:55:49Z",
+    "generated_utc": "2026-10-14T14:29:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "GYX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "other": 2
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=GYX&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-GYX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610141357",
+      "standard_time_display": "2026-10-14 08:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.21,
+      "magnitude_qualifier": null,
+      "city": "Whitefield",
+      "county": "Coos",
+      "state": "NH",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 44.38,
+      "lon": -71.61,
+      "ugc": "NHC007",
+      "ugc_name": "Coos",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610141400",
+      "standard_time_display": "2026-10-14 09:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.55,
+      "magnitude_qualifier": null,
+      "city": "1 WNW Otisfield",
+      "county": "Oxford",
+      "state": "ME",
+      "source": "Trained Spotter",
+      "remark": null,
+      "lat": 44.15,
+      "lon": -70.58,
+      "ugc": "MEC017",
+      "ugc_name": "Oxford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "GYX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-13T16:55:49Z"
+      "generated_utc": "2026-10-14T14:29:48Z"
     },
     "primary_links": [
       {

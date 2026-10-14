@@ -7,12 +7,91 @@
     "wfo": "MAF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-13T16:56:11Z",
+    "generated_utc": "2026-10-14T14:30:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-1",
+      "properties": {
+        "report_id": "iem-lsr-MAF-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610140148",
+        "standard_time_display": "2026-10-13 18:48 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Ector",
+        "city": "3 NNW Odessa",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public report on social media of significant damage to a shed on the northwest side of Odessa. Other reports posted on social media showed limbs down near Sherwood and some damage to fencing. The time of occurrence is estimated from radar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.38,
+          31.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-2",
+      "properties": {
+        "report_id": "iem-lsr-MAF-2",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202610140150",
+        "standard_time_display": "2026-10-13 18:50 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Ector",
+        "city": "1 NW Odessa",
+        "state": "TX",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Hail ranging from pea to quarter size reported in central Odessa via social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.38,
+          31.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MAF-3",
+      "properties": {
+        "report_id": "iem-lsr-MAF-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610140150",
+        "standard_time_display": "2026-10-13 18:50 MST",
+        "wfo": "MAF",
+        "county_or_zone": "Ector",
+        "city": "2 N Odessa",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast media posted videos of flash flooding at 42nd Street and Dixie Blvd in Odessa. Multiple vehicles were stranded in the flood waters."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.37,
+          31.88
+        ]
+      }
+    }
+  ]
 }

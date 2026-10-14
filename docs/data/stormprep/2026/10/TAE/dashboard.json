@@ -6,7 +6,7 @@
     "wfo": "TAE",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-13T16:56:55Z",
+    "generated_utc": "2026-10-14T14:30:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 10,
     "wfo": "TAE",
-    "total_candidate_reports": 100,
-    "mapped_candidate_reports": 100,
+    "total_candidate_reports": 130,
+    "mapped_candidate_reports": 130,
     "candidate_report_counts": {
-      "flooding": 12,
+      "flooding": 41,
       "marine": 3,
       "other": 83,
-      "thunderstorm_wind": 2
+      "thunderstorm_wind": 2,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 11,
+      "FLASH FLOOD": 40,
       "FLOOD": 1,
       "MARINE TSTM WIND": 3,
       "NON-TSTM WND GST": 1,
       "RAIN": 18,
+      "TORNADO": 1,
       "TROPICAL CYCLONE": 65,
       "TSTM WND DMG": 1
     },
@@ -39,7 +41,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -51,7 +54,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TAE&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -805,6 +809,28 @@
     {
       "report_id": "iem-lsr-TAE-35",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092127",
+      "standard_time_display": "2026-10-09 16:27 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Sunnyside",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooding reported on Oleander Drive.",
+      "lat": 30.25,
+      "lon": -85.94,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-36",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092130",
       "standard_time_display": "2026-10-09 16:30 EST",
       "standard_time_zone": "EST",
@@ -825,7 +851,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-36",
+      "report_id": "iem-lsr-TAE-37",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092132",
+      "standard_time_display": "2026-10-09 16:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Carrabelle Beach",
+      "county": "Franklin",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Water was reported over the roadway at US-319 and Beacon Street.",
+      "lat": 29.83,
+      "lon": -84.69,
+      "ugc": "FLC037",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092142",
       "standard_time_display": "2026-10-09 16:42 EST",
@@ -847,7 +895,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-37",
+      "report_id": "iem-lsr-TAE-39",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092142",
+      "standard_time_display": "2026-10-09 16:42 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Green Point",
+      "county": "Franklin",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Large tree limbs damaged a couple of homes with power lines also down.",
+      "lat": 29.78,
+      "lon": -84.83,
+      "ugc": "FLC037",
+      "ugc_name": "Franklin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092150",
       "standard_time_display": "2026-10-09 16:50 EST",
@@ -869,7 +939,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-38",
+      "report_id": "iem-lsr-TAE-41",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092205",
+      "standard_time_display": "2026-10-09 17:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E West Bay",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooding reported on roads in the River Camps area.",
+      "lat": 30.3,
+      "lon": -85.82,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092207",
       "standard_time_display": "2026-10-09 17:07 EST",
@@ -891,7 +983,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-39",
+      "report_id": "iem-lsr-TAE-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092208",
       "standard_time_display": "2026-10-09 17:08 EST",
@@ -913,7 +1005,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-40",
+      "report_id": "iem-lsr-TAE-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092215",
       "standard_time_display": "2026-10-09 17:15 EST",
@@ -935,7 +1027,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-41",
+      "report_id": "iem-lsr-TAE-45",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092223",
+      "standard_time_display": "2026-10-09 17:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Tallahassee Mall",
+      "county": "Leon",
+      "state": "FL",
+      "source": "Public",
+      "remark": "mPING report of street flooding.",
+      "lat": 30.47,
+      "lon": -84.3,
+      "ugc": "FLC073",
+      "ugc_name": "Leon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092253",
       "standard_time_display": "2026-10-09 17:53 EST",
@@ -957,7 +1071,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-42",
+      "report_id": "iem-lsr-TAE-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092256",
       "standard_time_display": "2026-10-09 17:56 EST",
@@ -979,7 +1093,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-43",
+      "report_id": "iem-lsr-TAE-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092304",
       "standard_time_display": "2026-10-09 18:04 EST",
@@ -1001,7 +1115,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-44",
+      "report_id": "iem-lsr-TAE-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092304",
       "standard_time_display": "2026-10-09 18:04 EST",
@@ -1023,7 +1137,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-45",
+      "report_id": "iem-lsr-TAE-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092306",
       "standard_time_display": "2026-10-09 18:06 EST",
@@ -1045,7 +1159,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-46",
+      "report_id": "iem-lsr-TAE-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092307",
       "standard_time_display": "2026-10-09 18:07 EST",
@@ -1067,7 +1181,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-47",
+      "report_id": "iem-lsr-TAE-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092308",
       "standard_time_display": "2026-10-09 18:08 EST",
@@ -1089,7 +1203,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-48",
+      "report_id": "iem-lsr-TAE-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092310",
       "standard_time_display": "2026-10-09 18:10 EST",
@@ -1111,7 +1225,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-49",
+      "report_id": "iem-lsr-TAE-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092319",
       "standard_time_display": "2026-10-09 18:19 EST",
@@ -1133,7 +1247,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-50",
+      "report_id": "iem-lsr-TAE-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092322",
       "standard_time_display": "2026-10-09 18:22 EST",
@@ -1155,7 +1269,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-51",
+      "report_id": "iem-lsr-TAE-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092322",
       "standard_time_display": "2026-10-09 18:22 EST",
@@ -1177,7 +1291,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-52",
+      "report_id": "iem-lsr-TAE-57",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092322",
+      "standard_time_display": "2026-10-09 18:22 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Gulf Resort Beach",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Street flooding reported on South Vestavia.",
+      "lat": 30.24,
+      "lon": -85.91,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092337",
       "standard_time_display": "2026-10-09 18:37 EST",
@@ -1199,7 +1335,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-53",
+      "report_id": "iem-lsr-TAE-59",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092342",
       "standard_time_display": "2026-10-09 18:42 EST",
@@ -1221,7 +1357,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-54",
+      "report_id": "iem-lsr-TAE-60",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092345",
       "standard_time_display": "2026-10-09 18:45 EST",
@@ -1243,7 +1379,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-55",
+      "report_id": "iem-lsr-TAE-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092353",
       "standard_time_display": "2026-10-09 18:53 EST",
@@ -1265,7 +1401,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-56",
+      "report_id": "iem-lsr-TAE-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092355",
       "standard_time_display": "2026-10-09 18:55 EST",
@@ -1287,7 +1423,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-57",
+      "report_id": "iem-lsr-TAE-63",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092355",
       "standard_time_display": "2026-10-09 18:55 EST",
@@ -1309,7 +1445,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-58",
+      "report_id": "iem-lsr-TAE-64",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610092355",
       "standard_time_display": "2026-10-09 18:55 EST",
@@ -1331,7 +1467,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-59",
+      "report_id": "iem-lsr-TAE-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610092356",
+      "standard_time_display": "2026-10-09 18:56 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Gulf Lagoon Beach",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooding was reported on Ocean Drive in Lower Grand Lagoon with about six inches of water covering the bottom of a vehicle tire.",
+      "lat": 30.16,
+      "lon": -85.78,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-66",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100006",
       "standard_time_display": "2026-10-09 19:06 EST",
@@ -1353,7 +1511,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-60",
+      "report_id": "iem-lsr-TAE-67",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100013",
+      "standard_time_display": "2026-10-09 19:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Alligator Point",
+      "county": "GMZ755",
+      "state": "FL",
+      "source": "Fire Dept/Rescue",
+      "remark": "Water was reported over the roadway at 1593 Alligator Drive and westward_ making the roadway impassable.",
+      "lat": 29.9,
+      "lon": -84.41,
+      "ugc": "GMZ755",
+      "ugc_name": "Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20 Nm",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-68",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100014",
       "standard_time_display": "2026-10-09 19:14 EST",
@@ -1375,7 +1555,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-61",
+      "report_id": "iem-lsr-TAE-69",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100022",
+      "standard_time_display": "2026-10-09 19:22 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Springfield",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "The 1000 block of Huntington was reported underwater.",
+      "lat": 30.17,
+      "lon": -85.62,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-70",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100023",
+      "standard_time_display": "2026-10-09 19:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Springfield",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Roadway flooding reported in the 900 block of Forest Dale.",
+      "lat": 30.16,
+      "lon": -85.62,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-71",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100024",
       "standard_time_display": "2026-10-09 19:24 EST",
@@ -1397,7 +1621,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-62",
+      "report_id": "iem-lsr-TAE-72",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100025",
       "standard_time_display": "2026-10-09 19:25 EST",
@@ -1419,7 +1643,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-63",
+      "report_id": "iem-lsr-TAE-73",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100025",
       "standard_time_display": "2026-10-09 19:25 EST",
@@ -1441,7 +1665,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-64",
+      "report_id": "iem-lsr-TAE-74",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100028",
       "standard_time_display": "2026-10-09 19:28 EST",
@@ -1463,7 +1687,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-65",
+      "report_id": "iem-lsr-TAE-75",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100044",
       "standard_time_display": "2026-10-09 19:44 EST",
@@ -1485,7 +1709,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-66",
+      "report_id": "iem-lsr-TAE-76",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100044",
       "standard_time_display": "2026-10-09 19:44 EST",
@@ -1507,7 +1731,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-67",
+      "report_id": "iem-lsr-TAE-77",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100048",
       "standard_time_display": "2026-10-09 19:48 EST",
@@ -1529,7 +1753,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-68",
+      "report_id": "iem-lsr-TAE-78",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100048",
       "standard_time_display": "2026-10-09 19:48 EST",
@@ -1551,7 +1775,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-69",
+      "report_id": "iem-lsr-TAE-79",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100049",
       "standard_time_display": "2026-10-09 19:49 EST",
@@ -1573,7 +1797,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-70",
+      "report_id": "iem-lsr-TAE-80",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100050",
       "standard_time_display": "2026-10-09 19:50 EST",
@@ -1595,7 +1819,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-71",
+      "report_id": "iem-lsr-TAE-81",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100050",
       "standard_time_display": "2026-10-09 19:50 EST",
@@ -1617,7 +1841,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-72",
+      "report_id": "iem-lsr-TAE-82",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100050",
       "standard_time_display": "2026-10-09 19:50 EST",
@@ -1639,7 +1863,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-73",
+      "report_id": "iem-lsr-TAE-83",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100050",
+      "standard_time_display": "2026-10-09 19:50 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Dirego Park",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Flooding reported in the right lane of 23rd eastbound between Harrison and the Japanese Steakhouse.",
+      "lat": 30.19,
+      "lon": -85.66,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-84",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100053",
       "standard_time_display": "2026-10-09 19:53 EST",
@@ -1661,7 +1907,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-74",
+      "report_id": "iem-lsr-TAE-85",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100053",
       "standard_time_display": "2026-10-09 19:53 EST",
@@ -1683,7 +1929,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-75",
+      "report_id": "iem-lsr-TAE-86",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100056",
       "standard_time_display": "2026-10-09 19:56 EST",
@@ -1705,7 +1951,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-76",
+      "report_id": "iem-lsr-TAE-87",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100059",
       "standard_time_display": "2026-10-09 19:59 EST",
@@ -1727,7 +1973,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-77",
+      "report_id": "iem-lsr-TAE-88",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100059",
       "standard_time_display": "2026-10-09 19:59 EST",
@@ -1749,7 +1995,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-78",
+      "report_id": "iem-lsr-TAE-89",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100100",
+      "standard_time_display": "2026-10-09 20:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Panama City",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooding reported on West 24th Court.",
+      "lat": 30.19,
+      "lon": -85.71,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-90",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100104",
       "standard_time_display": "2026-10-09 20:04 EST",
@@ -1771,7 +2039,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-79",
+      "report_id": "iem-lsr-TAE-91",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100104",
       "standard_time_display": "2026-10-09 20:04 EST",
@@ -1793,7 +2061,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-80",
+      "report_id": "iem-lsr-TAE-92",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100105",
       "standard_time_display": "2026-10-09 20:05 EST",
@@ -1815,7 +2083,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-81",
+      "report_id": "iem-lsr-TAE-93",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100107",
       "standard_time_display": "2026-10-09 20:07 EST",
@@ -1837,7 +2105,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-82",
+      "report_id": "iem-lsr-TAE-94",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100113",
       "standard_time_display": "2026-10-09 20:13 EST",
@@ -1859,7 +2127,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-83",
+      "report_id": "iem-lsr-TAE-95",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100116",
       "standard_time_display": "2026-10-09 20:16 EST",
@@ -1881,7 +2149,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-84",
+      "report_id": "iem-lsr-TAE-96",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100120",
+      "standard_time_display": "2026-10-09 20:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Lynn Haven",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Report of 2 feet of asphalt missing on Porter Drive near Bell Circle.",
+      "lat": 30.22,
+      "lon": -85.66,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-97",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100121",
       "standard_time_display": "2026-10-09 20:21 EST",
@@ -1903,7 +2193,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-85",
+      "report_id": "iem-lsr-TAE-98",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100122",
       "standard_time_display": "2026-10-09 20:22 EST",
@@ -1925,7 +2215,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-86",
+      "report_id": "iem-lsr-TAE-99",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100123",
       "standard_time_display": "2026-10-09 20:23 EST",
@@ -1947,7 +2237,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-87",
+      "report_id": "iem-lsr-TAE-100",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100123",
       "standard_time_display": "2026-10-09 20:23 EST",
@@ -1969,7 +2259,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-88",
+      "report_id": "iem-lsr-TAE-101",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100125",
       "standard_time_display": "2026-10-09 20:25 EST",
@@ -1991,7 +2281,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-89",
+      "report_id": "iem-lsr-TAE-102",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100128",
       "standard_time_display": "2026-10-09 20:28 EST",
@@ -2013,7 +2303,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-90",
+      "report_id": "iem-lsr-TAE-103",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100129",
       "standard_time_display": "2026-10-09 20:29 EST",
@@ -2035,7 +2325,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-91",
+      "report_id": "iem-lsr-TAE-104",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100132",
+      "standard_time_display": "2026-10-09 20:32 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Altha",
+      "county": "Calhoun",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Water across the roadway near Highway 274 and Rosewood Circle.",
+      "lat": 30.57,
+      "lon": -85.14,
+      "ugc": "FLC013",
+      "ugc_name": "Calhoun",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-105",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100134",
       "standard_time_display": "2026-10-09 20:34 EST",
@@ -2057,7 +2369,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-92",
+      "report_id": "iem-lsr-TAE-106",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100138",
       "standard_time_display": "2026-10-09 20:38 EST",
@@ -2079,7 +2391,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-93",
+      "report_id": "iem-lsr-TAE-107",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100152",
+      "standard_time_display": "2026-10-09 20:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Panama City",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooding reported on 19th Street between Jenks Ave and State Ave.",
+      "lat": 30.18,
+      "lon": -85.66,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-108",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100154",
       "standard_time_display": "2026-10-09 20:54 EST",
@@ -2101,7 +2435,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-94",
+      "report_id": "iem-lsr-TAE-109",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100200",
       "standard_time_display": "2026-10-09 21:00 EST",
@@ -2123,7 +2457,73 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-95",
+      "report_id": "iem-lsr-TAE-110",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100200",
+      "standard_time_display": "2026-10-09 21:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSW Gaskin",
+      "county": "Walton",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "A large washout approximately 6 feet deep damaged Ford Hill Road_ resulting in a road closure.",
+      "lat": 30.95,
+      "lon": -86.14,
+      "ugc": "FLC131",
+      "ugc_name": "Walton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-111",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100220",
+      "standard_time_display": "2026-10-09 21:20 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Miramar Beach",
+      "county": "Walton",
+      "state": "FL",
+      "source": "Public",
+      "remark": "mPING report of street flooding.",
+      "lat": 30.39,
+      "lon": -86.38,
+      "ugc": "FLC131",
+      "ugc_name": "Walton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-112",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100230",
+      "standard_time_display": "2026-10-09 21:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WNW Fountain",
+      "county": "Bay",
+      "state": "FL",
+      "source": "Law Enforcement",
+      "remark": "Flooded roadway reported near Silver Lake Road.",
+      "lat": 30.49,
+      "lon": -85.45,
+      "ugc": "FLC005",
+      "ugc_name": "Bay",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-113",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100245",
       "standard_time_display": "2026-10-09 21:45 EST",
@@ -2145,7 +2545,95 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-96",
+      "report_id": "iem-lsr-TAE-114",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100251",
+      "standard_time_display": "2026-10-09 21:51 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Santa Rosa Beach",
+      "county": "Walton",
+      "state": "FL",
+      "source": "Trained Spotter",
+      "remark": "Flooding reported on Highway 30A.",
+      "lat": 30.35,
+      "lon": -86.25,
+      "ugc": "FLC131",
+      "ugc_name": "Walton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-115",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100300",
+      "standard_time_display": "2026-10-09 22:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SE Portland",
+      "county": "Walton",
+      "state": "FL",
+      "source": "Public",
+      "remark": "mPING report of street flooding.",
+      "lat": 30.49,
+      "lon": -86.18,
+      "ugc": "FLC131",
+      "ugc_name": "Walton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-116",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100300",
+      "standard_time_display": "2026-10-09 22:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SSW Grand Ridge",
+      "county": "Jackson",
+      "state": "FL",
+      "source": "Public",
+      "remark": "Betty Road where Tobe Way meets is almost totally washed out.",
+      "lat": 30.68,
+      "lon": -85.03,
+      "ugc": "FLC063",
+      "ugc_name": "Jackson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-117",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100315",
+      "standard_time_display": "2026-10-09 22:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW Bradfordville",
+      "county": "Leon",
+      "state": "FL",
+      "source": "Public",
+      "remark": "mPING report of yard flooding.",
+      "lat": 30.56,
+      "lon": -84.25,
+      "ugc": "FLC073",
+      "ugc_name": "Leon",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-118",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100326",
       "standard_time_display": "2026-10-09 22:26 EST",
@@ -2167,7 +2655,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-97",
+      "report_id": "iem-lsr-TAE-119",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100334",
       "standard_time_display": "2026-10-09 22:34 EST",
@@ -2189,7 +2677,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-98",
+      "report_id": "iem-lsr-TAE-120",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100345",
       "standard_time_display": "2026-10-09 22:45 EST",
@@ -2211,7 +2699,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-99",
+      "report_id": "iem-lsr-TAE-121",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100355",
       "standard_time_display": "2026-10-09 22:55 EST",
@@ -2233,7 +2721,95 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-TAE-100",
+      "report_id": "iem-lsr-TAE-122",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100400",
+      "standard_time_display": "2026-10-09 23:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SE Ganer",
+      "county": "Geneva",
+      "state": "AL",
+      "source": "Public",
+      "remark": "photo showing a washout on River Road.",
+      "lat": 31.04,
+      "lon": -86.06,
+      "ugc": "ALC061",
+      "ugc_name": "Geneva",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-123",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100400",
+      "standard_time_display": "2026-10-09 23:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Samson",
+      "county": "Geneva",
+      "state": "AL",
+      "source": "Law Enforcement",
+      "remark": "Heavy standing water reported in Samson.",
+      "lat": 31.11,
+      "lon": -86.05,
+      "ugc": "ALC061",
+      "ugc_name": "Geneva",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-124",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100430",
+      "standard_time_display": "2026-10-09 23:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 ESE Mount Pleasant",
+      "county": "Coffee",
+      "state": "AL",
+      "source": "Public",
+      "remark": "photo showing County Road 660 washed out.",
+      "lat": 31.23,
+      "lon": -85.9,
+      "ugc": "ALC031",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-125",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100430",
+      "standard_time_display": "2026-10-09 23:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Spears",
+      "county": "Geneva",
+      "state": "AL",
+      "source": "Public",
+      "remark": "photo showing water covering Spears Hill Road.",
+      "lat": 31.14,
+      "lon": -85.99,
+      "ugc": "ALC061",
+      "ugc_name": "Geneva",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-126",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610100458",
       "standard_time_display": "2026-10-09 23:58 EST",
@@ -2253,6 +2829,94 @@
       "ugc": "ALC061",
       "ugc_name": "Geneva",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-127",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100500",
+      "standard_time_display": "2026-10-10 00:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Marley Hill",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Law Enforcement",
+      "remark": "Roadway washed out with debris on Sam Lisenby Road.",
+      "lat": 31.48,
+      "lon": -85.69,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-128",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100530",
+      "standard_time_display": "2026-10-10 00:30 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Enterprise",
+      "county": "Coffee",
+      "state": "AL",
+      "source": "Public",
+      "remark": "Report of water in a basement office in Enterprise.",
+      "lat": 31.34,
+      "lon": -85.84,
+      "ugc": "ALC031",
+      "ugc_name": "Coffee",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-129",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610100615",
+      "standard_time_display": "2026-10-10 01:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Fort Novosel",
+      "county": "Dale",
+      "state": "AL",
+      "source": "Public",
+      "remark": "photo of a large washout next to the railroad tracks.",
+      "lat": 31.32,
+      "lon": -85.71,
+      "ugc": "ALC045",
+      "ugc_name": "Dale",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TAE-130",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610101600",
+      "standard_time_display": "2026-10-10 11:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "TAE",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Perry",
+      "county": "Taylor",
+      "state": "FL",
+      "source": "Public",
+      "remark": "photo of water covering a road in Perry.",
+      "lat": 30.12,
+      "lon": -83.59,
+      "ugc": "FLC123",
+      "ugc_name": "Taylor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TAE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2261,7 +2925,7 @@
       "wfo": "TAE",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-13T16:56:55Z"
+      "generated_utc": "2026-10-14T14:30:47Z"
     },
     "primary_links": [
       {
