@@ -7,12 +7,117 @@
     "wfo": "ILN",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-14T14:29:54Z",
+    "generated_utc": "2026-10-15T14:08:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ILN&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-1",
+      "properties": {
+        "report_id": "iem-lsr-ILN-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610141857",
+        "standard_time_display": "2026-10-14 13:57 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Warren",
+        "city": "1 NE Maineville",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A couple of small trees down in Hamilton."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.21,
+          39.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-2",
+      "properties": {
+        "report_id": "iem-lsr-ILN-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610141906",
+        "standard_time_display": "2026-10-14 14:06 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Warren",
+        "city": "3 ENE Butlerville",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "A couple small trees down in Harlan TWP."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.04,
+          39.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-3",
+      "properties": {
+        "report_id": "iem-lsr-ILN-3",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610141915",
+        "standard_time_display": "2026-10-14 14:15 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Clinton",
+        "city": "Blanchester",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Small tree down in Blanchester."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.99,
+          39.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-ILN-4",
+      "properties": {
+        "report_id": "iem-lsr-ILN-4",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610142053",
+        "standard_time_display": "2026-10-14 15:53 EST",
+        "wfo": "ILN",
+        "county_or_zone": "Scioto",
+        "city": "1 NE Rosemount",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down in Clay Township."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.96,
+          38.8
+        ]
+      }
+    }
+  ]
 }

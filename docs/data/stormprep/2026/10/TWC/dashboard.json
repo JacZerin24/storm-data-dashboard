@@ -6,7 +6,7 @@
     "wfo": "TWC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-14T14:30:51Z",
+    "generated_utc": "2026-10-15T14:09:36Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 10,
     "wfo": "TWC",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
       "flooding": 1,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 3,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 1,
+      "FUNNEL CLOUD": 1,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 1
     },
@@ -33,7 +35,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TWC&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -45,7 +48,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=TWC&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -135,6 +139,28 @@
       "ugc": "AZC019",
       "ugc_name": "Pima",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TWC-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610121630",
+      "standard_time_display": "2026-10-12 09:30 MST",
+      "standard_time_zone": "MST",
+      "wfo": "TWC",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "12 ENE Three Points",
+      "county": "Pima",
+      "state": "AZ",
+      "source": "Broadcast Media",
+      "remark": "Photo from broadcast media showed a funnel cloud SW of Drexel Heights. Hard to determine exact location_ but matched it to a line of developing showers.",
+      "lat": 32.11,
+      "lon": -111.09,
+      "ugc": "AZC019",
+      "ugc_name": "Pima",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TWC&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -143,7 +169,7 @@
       "wfo": "TWC",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-14T14:30:51Z"
+      "generated_utc": "2026-10-15T14:09:36Z"
     },
     "primary_links": [
       {

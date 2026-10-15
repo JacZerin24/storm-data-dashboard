@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-14T14:29:09Z",
+    "generated_utc": "2026-10-15T14:08:09Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -150,6 +150,32 @@
       "id": "iem-lsr-AMA-6",
       "properties": {
         "report_id": "iem-lsr-AMA-6",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610132256",
+        "standard_time_display": "2026-10-13 16:56 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Collingsworth",
+        "city": "4 NW Wellington",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Debris from a tree on the road caused a single vehicle accident 3 miles west of highway 83 on highway 203. No injuries."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26,
+          34.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-7",
+      "properties": {
+        "report_id": "iem-lsr-AMA-7",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610132320",
@@ -168,6 +194,58 @@
         "coordinates": [
           -100.31,
           35.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-8",
+      "properties": {
+        "report_id": "iem-lsr-AMA-8",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610140400",
+        "standard_time_display": "2026-10-13 22:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Collingsworth",
+        "city": "5 SSE Wellington",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Water was reported over the road on US 83 and was impassible for some cars due to prolonged rainfall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2,
+          34.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-9",
+      "properties": {
+        "report_id": "iem-lsr-AMA-9",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610140400",
+        "standard_time_display": "2026-10-13 22:00 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Collingsworth",
+        "city": "5 SSE Wellington",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Mngr",
+        "event_narrative": "Corrects previous flood report from 5 SSE Wellington. Water was reported over the road on US 83 and was impassible for some cars due to prolonged rainfall."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2,
+          34.79
         ]
       }
     }

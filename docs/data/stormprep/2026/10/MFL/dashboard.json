@@ -6,7 +6,7 @@
     "wfo": "MFL",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-14T14:30:13Z",
+    "generated_utc": "2026-10-15T14:09:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 10,
     "wfo": "MFL",
-    "total_candidate_reports": 9,
-    "mapped_candidate_reports": 9,
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
     "candidate_report_counts": {
       "flooding": 2,
       "marine": 4,
-      "thunderstorm_wind": 3
+      "thunderstorm_wind": 3,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
       "FLOOD": 2,
+      "FUNNEL CLOUD": 1,
       "MARINE TSTM WIND": 4,
       "TSTM WND GST": 3
     },
@@ -34,7 +36,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -46,7 +49,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MFL&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -246,6 +250,28 @@
       "ugc": "FLC021",
       "ugc_name": "Collier",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MFL-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610141628",
+      "standard_time_display": "2026-10-14 11:28 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MFL",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Miami Beach",
+      "county": "AMZ651",
+      "state": "FL",
+      "source": "Emergency Mngr",
+      "remark": "Funnel cloud seen east of Miami Beach associated with a line of showers.",
+      "lat": 25.78,
+      "lon": -80.1,
+      "ugc": "AMZ651",
+      "ugc_name": "Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -254,7 +280,7 @@
       "wfo": "MFL",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-14T14:30:14Z"
+      "generated_utc": "2026-10-15T14:09:02Z"
     },
     "primary_links": [
       {
