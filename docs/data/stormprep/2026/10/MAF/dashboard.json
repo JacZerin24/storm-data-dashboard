@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-15T14:09:00Z",
+    "generated_utc": "2026-10-16T13:56:41Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 10,
     "wfo": "MAF",
-    "total_candidate_reports": 12,
-    "mapped_candidate_reports": 12,
+    "total_candidate_reports": 19,
+    "mapped_candidate_reports": 19,
     "candidate_report_counts": {
-      "flooding": 1,
+      "flooding": 6,
       "hail": 1,
       "thunderstorm_wind": 9,
-      "tornado": 1
+      "tornado": 3
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 1,
+      "FLASH FLOOD": 6,
       "HAIL": 1,
-      "TORNADO": 1,
+      "TORNADO": 3,
       "TSTM WND DMG": 6,
       "TSTM WND GST": 3
     },
@@ -123,6 +123,50 @@
     {
       "report_id": "iem-lsr-MAF-4",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610141918",
+      "standard_time_display": "2026-10-14 12:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SSE Fort Stockton",
+      "county": "Pecos",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Emergency management reported a brief tornado touched down in Fort Stockton near the intersection of Ryan and Young Streets. The tornado tracked past the Pecos County Courthouse and lifted in James Rooney Memorial Park. A NWS Survey Team found damage to metal roofs and tree branches consistent with a high-end EF-0 tornado.",
+      "lat": 30.88,
+      "lon": -102.88,
+      "ugc": "TXC371",
+      "ugc_name": "Pecos",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610141924",
+      "standard_time_display": "2026-10-14 12:24 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Fort Stockton",
+      "county": "Pecos",
+      "state": "TX",
+      "source": "Emergency Mngr",
+      "remark": "Corrects previous tornado report from 3 NE Fort Stockton. Trained spotter and Pecos County EM reported a tornado NE of Fort Stockton. The tornado pulled metal wall panels from a building and overturned a small shed.",
+      "lat": 30.92,
+      "lon": -102.84,
+      "ugc": "TXC371",
+      "ugc_name": "Pecos",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-6",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610141929",
       "standard_time_display": "2026-10-14 12:29 MST",
       "standard_time_zone": "MST",
@@ -143,7 +187,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-5",
+      "report_id": "iem-lsr-MAF-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142038",
       "standard_time_display": "2026-10-14 13:38 MST",
@@ -165,7 +209,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-6",
+      "report_id": "iem-lsr-MAF-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142120",
       "standard_time_display": "2026-10-14 14:20 MST",
@@ -187,7 +231,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-7",
+      "report_id": "iem-lsr-MAF-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142120",
       "standard_time_display": "2026-10-14 14:20 MST",
@@ -209,7 +253,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-8",
+      "report_id": "iem-lsr-MAF-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142120",
       "standard_time_display": "2026-10-14 15:20 CST",
@@ -231,7 +275,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-9",
+      "report_id": "iem-lsr-MAF-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142143",
       "standard_time_display": "2026-10-14 15:43 CST",
@@ -253,7 +297,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-10",
+      "report_id": "iem-lsr-MAF-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142143",
       "standard_time_display": "2026-10-14 15:43 CST",
@@ -275,7 +319,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-11",
+      "report_id": "iem-lsr-MAF-13",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142143",
       "standard_time_display": "2026-10-14 15:43 CST",
@@ -297,7 +341,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-12",
+      "report_id": "iem-lsr-MAF-14",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610142147",
       "standard_time_display": "2026-10-14 15:47 CST",
@@ -317,6 +361,116 @@
       "ugc": "TXC227",
       "ugc_name": "Howard",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610151557",
+      "standard_time_display": "2026-10-15 08:57 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 WSW Midland",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported widespread flooding in north central midland and around the Midland Memorial Hospital.",
+      "lat": 32.0,
+      "lon": -102.1,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-16",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610151606",
+      "standard_time_display": "2026-10-15 09:06 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 WNW Midland",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Law Enforcement",
+      "remark": "Law Enforcement reported water over the hoods of cars and numerous cars flooded out. The draw at Lamesa Rd is over the banks.",
+      "lat": 32.02,
+      "lon": -102.14,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610151642",
+      "standard_time_display": "2026-10-15 10:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 W Stanton",
+      "county": "Martin",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter reported water over roads near the Stanton high School.",
+      "lat": 32.13,
+      "lon": -101.8,
+      "ugc": "TXC317",
+      "ugc_name": "Martin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-18",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610151647",
+      "standard_time_display": "2026-10-15 09:47 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Midland Internation",
+      "county": "Midland",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Member of public reported road closure due to flooding 4 miles north of KMAF at West State Highway 158 between County Road 1247 and Wadley St.",
+      "lat": 32.0,
+      "lon": -102.19,
+      "ugc": "TXC329",
+      "ugc_name": "Midland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-19",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610151648",
+      "standard_time_display": "2026-10-15 10:48 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 N Fairview",
+      "county": "Howard",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Report from mPING: River/Creek overflowing; Cropland/Yard/Basement Flooding.",
+      "lat": 32.42,
+      "lon": -101.54,
+      "ugc": "TXC227",
+      "ugc_name": "Howard",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -325,7 +479,7 @@
       "wfo": "MAF",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-15T14:09:01Z"
+      "generated_utc": "2026-10-16T13:56:41Z"
     },
     "primary_links": [
       {

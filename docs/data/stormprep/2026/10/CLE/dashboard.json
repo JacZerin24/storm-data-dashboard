@@ -6,7 +6,7 @@
     "wfo": "CLE",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-15T14:08:21Z",
+    "generated_utc": "2026-10-16T13:55:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "CLE",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "marine": 1,
-      "thunderstorm_wind": 1
+      "marine": 3,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 1,
-      "TSTM WND GST": 1
+      "MARINE TSTM WIND": 3,
+      "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -90,6 +90,72 @@
       "ugc": "OHC123",
       "ugc_name": "Ottawa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610160915",
+      "standard_time_display": "2026-10-16 04:15 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 44.0,
+      "magnitude_qualifier": null,
+      "city": "1 SSW South Bass Island",
+      "county": "Ottawa",
+      "state": "OH",
+      "source": "Mesonet",
+      "remark": "Mesonet station SBIO1 9 NE Port Clinton.",
+      "lat": 41.63,
+      "lon": -82.84,
+      "ugc": "OHC123",
+      "ugc_name": "Ottawa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161052",
+      "standard_time_display": "2026-10-16 05:52 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 39.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNE Cleveland",
+      "county": "Cuyahoga",
+      "state": "OH",
+      "source": "ASOS",
+      "remark": "ASOS station KBKL Cleveland measured a 34 kt marine thunderstorm wind gust.",
+      "lat": 41.52,
+      "lon": -81.68,
+      "ugc": "OHC035",
+      "ugc_name": "Cuyahoga",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161240",
+      "standard_time_display": "2026-10-16 07:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "5 NW Cleveland",
+      "county": "LEZ146",
+      "state": "OH",
+      "source": "Buoy",
+      "remark": "Station 45176 - Cleveland Intake Crib Buoy.",
+      "lat": 41.55,
+      "lon": -81.77,
+      "ugc": "LEZ146",
+      "ugc_name": "Avon Point to Willowick OH",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -98,7 +164,7 @@
       "wfo": "CLE",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-15T14:08:22Z"
+      "generated_utc": "2026-10-16T13:55:57Z"
     },
     "primary_links": [
       {

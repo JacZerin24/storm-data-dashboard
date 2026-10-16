@@ -6,7 +6,7 @@
     "wfo": "BIS",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-15T14:08:12Z",
+    "generated_utc": "2026-10-16T13:55:47Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "BIS",
-    "total_candidate_reports": 13,
-    "mapped_candidate_reports": 13,
+    "total_candidate_reports": 15,
+    "mapped_candidate_reports": 15,
     "candidate_report_counts": {
-      "other": 13
+      "other": 13,
+      "thunderstorm_wind": 2
     },
     "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 2,
       "RAIN": 13
     },
     "nws_api_alert_count": 0,
@@ -330,6 +332,50 @@
       "ugc": "NDC101",
       "ugc_name": "Ward",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-14",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610152111",
+      "standard_time_display": "2026-10-15 15:11 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BIS",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "1 W Garrison",
+      "county": "McLean",
+      "state": "ND",
+      "source": "ASOS",
+      "remark": "ASOS station KN60 Garrison.",
+      "lat": 47.65,
+      "lon": -101.43,
+      "ugc": "NDC055",
+      "ugc_name": "McLean",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BIS-15",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610152147",
+      "standard_time_display": "2026-10-15 14:47 MST",
+      "standard_time_zone": "MST",
+      "wfo": "BIS",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "5 S Dickinson",
+      "county": "Stark",
+      "state": "ND",
+      "source": "ASOS",
+      "remark": "ASOS station KDIK Dickinson Airport.",
+      "lat": 46.8,
+      "lon": -102.8,
+      "ugc": "NDC089",
+      "ugc_name": "Stark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BIS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -338,7 +384,7 @@
       "wfo": "BIS",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-15T14:08:12Z"
+      "generated_utc": "2026-10-16T13:55:47Z"
     },
     "primary_links": [
       {

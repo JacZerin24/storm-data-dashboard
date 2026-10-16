@@ -6,7 +6,7 @@
     "wfo": "MHX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-15T14:09:03Z",
+    "generated_utc": "2026-10-16T13:56:44Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "MHX",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
-      "thunderstorm_wind": 2
+      "thunderstorm_wind": 2,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
+      "TORNADO": 3,
       "TSTM WND DMG": 2
     },
     "nws_api_alert_count": 0,
@@ -30,7 +32,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,11 +45,56 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MHX&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-MHX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111738",
+      "standard_time_display": "2026-10-11 12:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Wallace",
+      "county": "Duplin",
+      "state": "NC",
+      "source": "NWS Storm Survey",
+      "remark": "A long-track tornado path was found from Wallace to Potters Hill. It should be noted that the tornado may have briefly lifted up at times_ and may have been an inconstant path especially near Beulaville toward Potters Hill. The most consistent_ concentrated damage was found from west of Wallace_ northeast to just west of Chinquapin. At the peak_ radar indicated debris lofted as high as at least 12_000 ft_ but potentially as high as 16_000 ft.",
+      "lat": 34.74,
+      "lon": -78.03,
+      "ugc": "NCC061",
+      "ugc_name": "Duplin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111738",
+      "standard_time_display": "2026-10-11 12:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Wallace",
+      "county": "Duplin",
+      "state": "NC",
+      "source": "NWS Storm Survey",
+      "remark": "Storm survey found evidence of an EF-2 tornado with estimated peak winds of 115 to 125 mph. The tornado was estimated to be 150 yards wide and 24.43 miles long. The tornado path was found from Wallace to Potters Hill. It should be noted that the tornado may have briefly lifted up at times_ and may have been an inconstant path especially near Beulaville toward Potters Hill. The most consistent_ concentrated damage was found from west of Wallace_ northeast to just west of Chinquapin. At the peak_ radar indicated debris lofted as high as at least 12_000 ft_ but potentially as high as 16_000 ft.",
+      "lat": 34.74,
+      "lon": -78.03,
+      "ugc": "NCC061",
+      "ugc_name": "Duplin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-3",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610111832",
       "standard_time_display": "2026-10-11 13:32 EST",
@@ -68,7 +116,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MHX-2",
+      "report_id": "iem-lsr-MHX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610111848",
+      "standard_time_display": "2026-10-11 13:48 EST",
+      "standard_time_zone": "EST",
+      "wfo": "MHX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Pleasant Hill",
+      "county": "Jones",
+      "state": "NC",
+      "source": "NWS Storm Survey",
+      "remark": "Storm survey found evidence of an EF-1 tornado with estimated peak winds of 90 to 100 mph. The tornado was estimated to be 125 yards wide and 3.52 miles long. A debris signature was noted on radar_ with debris estimated up to 6_000 ft to 8_000 ft.",
+      "lat": 35.1,
+      "lon": -77.56,
+      "ugc": "NCC103",
+      "ugc_name": "Jones",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MHX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MHX-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610111906",
       "standard_time_display": "2026-10-11 14:06 EST",
@@ -96,7 +166,7 @@
       "wfo": "MHX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-15T14:09:04Z"
+      "generated_utc": "2026-10-16T13:56:44Z"
     },
     "primary_links": [
       {
