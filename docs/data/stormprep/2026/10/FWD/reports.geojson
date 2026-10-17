@@ -7,7 +7,7 @@
     "wfo": "FWD",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-16T13:56:11Z",
+    "generated_utc": "2026-10-17T12:56:25Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -696,6 +696,58 @@
       "id": "iem-lsr-FWD-27",
       "properties": {
         "report_id": "iem-lsr-FWD-27",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610152130",
+        "standard_time_display": "2026-10-15 15:30 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Stephens",
+        "city": "Breckenridge",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Local Official",
+        "event_narrative": "Several roads reported flooded across Breckenridge."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.91,
+          32.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-28",
+      "properties": {
+        "report_id": "iem-lsr-FWD-28",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610152230",
+        "standard_time_display": "2026-10-15 16:30 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Palo Pinto",
+        "city": "7 W Graford",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Facebook photos and videos showed several roads were flooded between Graford and Possum Kingdom Lake including Hwy 254 and Airport Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.36,
+          32.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-29",
+      "properties": {
+        "report_id": "iem-lsr-FWD-29",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610152255",
@@ -719,9 +771,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-FWD-28",
+      "id": "iem-lsr-FWD-30",
       "properties": {
-        "report_id": "iem-lsr-FWD-28",
+        "report_id": "iem-lsr-FWD-30",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610152301",
@@ -745,9 +797,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-FWD-29",
+      "id": "iem-lsr-FWD-31",
       "properties": {
-        "report_id": "iem-lsr-FWD-29",
+        "report_id": "iem-lsr-FWD-31",
         "report_type": "TSTM WND DMG",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610152326",
@@ -771,9 +823,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-FWD-30",
+      "id": "iem-lsr-FWD-32",
       "properties": {
-        "report_id": "iem-lsr-FWD-30",
+        "report_id": "iem-lsr-FWD-32",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610160020",
@@ -792,6 +844,32 @@
         "coordinates": [
           -97.43,
           32.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FWD-33",
+      "properties": {
+        "report_id": "iem-lsr-FWD-33",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610160140",
+        "standard_time_display": "2026-10-15 19:40 CST",
+        "wfo": "FWD",
+        "county_or_zone": "Palo Pinto",
+        "city": "7 NNW Palo Pinto",
+        "state": "TX",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Fortune Bend Road and Salesville Road were closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.35,
+          32.86
         ]
       }
     }

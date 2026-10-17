@@ -7,7 +7,7 @@
     "wfo": "CLE",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-16T13:55:56Z",
+    "generated_utc": "2026-10-17T12:56:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -124,6 +124,32 @@
       "id": "iem-lsr-CLE-5",
       "properties": {
         "report_id": "iem-lsr-CLE-5",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202610161240",
+        "standard_time_display": "2026-10-16 07:40 EST",
+        "wfo": "CLE",
+        "county_or_zone": "LEZ146",
+        "city": "5 NW Cleveland",
+        "state": "OH",
+        "magnitude": 40.0,
+        "magnitude_units": null,
+        "source": "Buoy",
+        "event_narrative": "Corrects previous tstm wnd gst report from 5 NW Cleveland. Station 45176 - Cleveland Intake Crib Buoy."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.77,
+          41.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-6",
+      "properties": {
+        "report_id": "iem-lsr-CLE-6",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202610161240",
@@ -142,6 +168,84 @@
         "coordinates": [
           -81.77,
           41.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-7",
+      "properties": {
+        "report_id": "iem-lsr-CLE-7",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202610162134",
+        "standard_time_display": "2026-10-16 16:34 EST",
+        "wfo": "CLE",
+        "county_or_zone": "LEZ145",
+        "city": "5 NNW Lorain",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Video of a waterspout offshore Lakeview Beach."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.23,
+          41.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-8",
+      "properties": {
+        "report_id": "iem-lsr-CLE-8",
+        "report_type": "WATERSPOUT",
+        "event_category": "tornado",
+        "valid_utc": "202610162143",
+        "standard_time_display": "2026-10-16 16:43 EST",
+        "wfo": "CLE",
+        "county_or_zone": "LEZ145",
+        "city": "4 NNW Lorain",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Webcam image of a waterspout on Lake Erie offshore the Lorain County lighthouse."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.21,
+          41.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-CLE-9",
+      "properties": {
+        "report_id": "iem-lsr-CLE-9",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610162200",
+        "standard_time_display": "2026-10-16 17:00 EST",
+        "wfo": "CLE",
+        "county_or_zone": "Lorain",
+        "city": "Sheffield Lake",
+        "state": "OH",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Reports of tree and property damage."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1,
+          41.49
         ]
       }
     }

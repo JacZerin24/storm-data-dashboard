@@ -6,7 +6,7 @@
     "wfo": "PBZ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-16T13:56:56Z",
+    "generated_utc": "2026-10-17T12:57:02Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 10,
     "wfo": "PBZ",
-    "total_candidate_reports": 24,
-    "mapped_candidate_reports": 24,
+    "total_candidate_reports": 27,
+    "mapped_candidate_reports": 27,
     "candidate_report_counts": {
       "flooding": 7,
-      "thunderstorm_wind": 17
+      "thunderstorm_wind": 20
     },
     "candidate_report_type_counts": {
       "FLOOD": 7,
-      "NON-TSTM WND DMG": 17
+      "NON-TSTM WND DMG": 17,
+      "TSTM WND DMG": 3
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -574,6 +575,72 @@
       "ugc": "PAC019",
       "ugc_name": "Butler",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-25",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161617",
+      "standard_time_display": "2026-10-16 11:17 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 WSW West Leechburg",
+      "county": "Westmoreland",
+      "state": "PA",
+      "source": "911 Call Center",
+      "remark": "Power lines down blocking the road at the intersection of White Cloud Road and Hall Road.",
+      "lat": 40.62,
+      "lon": -79.65,
+      "ugc": "PAC129",
+      "ugc_name": "Westmoreland",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-26",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161622",
+      "standard_time_display": "2026-10-16 11:22 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NE North Vandergrift",
+      "county": "Armstrong",
+      "state": "PA",
+      "source": "911 Call Center",
+      "remark": "Large tree down across the road blocking both lanes. Truck drove into the tree. No injuries. Time estimated via radar.",
+      "lat": 40.63,
+      "lon": -79.54,
+      "ugc": "PAC005",
+      "ugc_name": "Armstrong",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PBZ-27",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161656",
+      "standard_time_display": "2026-10-16 11:56 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PBZ",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Pitcairn",
+      "county": "Allegheny",
+      "state": "PA",
+      "source": "911 Call Center",
+      "remark": "Tree and wires down at intersection of 4th Street and Center Avenue. Time estimated via radar.",
+      "lat": 40.4,
+      "lon": -79.78,
+      "ugc": "PAC003",
+      "ugc_name": "Allegheny",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PBZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -582,7 +649,7 @@
       "wfo": "PBZ",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-16T13:56:57Z"
+      "generated_utc": "2026-10-17T12:57:02Z"
     },
     "primary_links": [
       {

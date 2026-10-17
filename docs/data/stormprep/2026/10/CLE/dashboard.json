@@ -6,7 +6,7 @@
     "wfo": "CLE",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-16T13:55:56Z",
+    "generated_utc": "2026-10-17T12:56:14Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,22 +17,26 @@
     "year": 2026,
     "month": 10,
     "wfo": "CLE",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
-      "marine": 3,
-      "thunderstorm_wind": 2
+      "marine": 4,
+      "thunderstorm_wind": 3,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "MARINE TSTM WIND": 3,
-      "TSTM WND GST": 2
+      "MARINE TSTM WIND": 4,
+      "TSTM WND DMG": 1,
+      "TSTM WND GST": 2,
+      "WATERSPOUT": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CLE&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +48,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=CLE&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -142,6 +147,28 @@
       "standard_time_display": "2026-10-16 07:40 EST",
       "standard_time_zone": "EST",
       "wfo": "CLE",
+      "report_type": "MARINE TSTM WIND",
+      "event_category": "marine",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "5 NW Cleveland",
+      "county": "LEZ146",
+      "state": "OH",
+      "source": "Buoy",
+      "remark": "Corrects previous tstm wnd gst report from 5 NW Cleveland. Station 45176 - Cleveland Intake Crib Buoy.",
+      "lat": 41.55,
+      "lon": -81.77,
+      "ugc": "LEZ146",
+      "ugc_name": "Avon Point to Willowick OH",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610161240",
+      "standard_time_display": "2026-10-16 07:40 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
       "report_type": "TSTM WND GST",
       "event_category": "thunderstorm_wind",
       "magnitude": 40.0,
@@ -156,6 +183,72 @@
       "ugc": "LEZ146",
       "ugc_name": "Avon Point to Willowick OH",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610162134",
+      "standard_time_display": "2026-10-16 16:34 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NNW Lorain",
+      "county": "LEZ145",
+      "state": "OH",
+      "source": "Public",
+      "remark": "Video of a waterspout offshore Lakeview Beach.",
+      "lat": 41.5,
+      "lon": -82.23,
+      "ugc": "LEZ145",
+      "ugc_name": "Vermilion to Avon Point OH",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610162143",
+      "standard_time_display": "2026-10-16 16:43 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NNW Lorain",
+      "county": "LEZ145",
+      "state": "OH",
+      "source": "Public",
+      "remark": "Webcam image of a waterspout on Lake Erie offshore the Lorain County lighthouse.",
+      "lat": 41.5,
+      "lon": -82.21,
+      "ugc": "LEZ145",
+      "ugc_name": "Vermilion to Avon Point OH",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CLE-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610162200",
+      "standard_time_display": "2026-10-16 17:00 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CLE",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Sheffield Lake",
+      "county": "Lorain",
+      "state": "OH",
+      "source": "911 Call Center",
+      "remark": "Reports of tree and property damage.",
+      "lat": 41.49,
+      "lon": -82.1,
+      "ugc": "OHC093",
+      "ugc_name": "Lorain",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CLE&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -164,7 +257,7 @@
       "wfo": "CLE",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-16T13:55:57Z"
+      "generated_utc": "2026-10-17T12:56:14Z"
     },
     "primary_links": [
       {

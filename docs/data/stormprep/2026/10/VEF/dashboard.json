@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-16T13:57:21Z",
+    "generated_utc": "2026-10-17T12:57:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,17 @@
     "year": 2026,
     "month": 10,
     "wfo": "VEF",
-    "total_candidate_reports": 53,
-    "mapped_candidate_reports": 53,
+    "total_candidate_reports": 55,
+    "mapped_candidate_reports": 55,
     "candidate_report_counts": {
       "flooding": 42,
       "other": 2,
-      "thunderstorm_wind": 9
+      "thunderstorm_wind": 11
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 42,
-      "NON-TSTM WND GST": 6,
+      "NON-TSTM WND DMG": 1,
+      "NON-TSTM WND GST": 7,
       "RAIN": 2,
       "TSTM WND DMG": 1,
       "TSTM WND GST": 2
@@ -1216,6 +1217,50 @@
       "ugc": "AZC015",
       "ugc_name": "Mohave",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-54",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610160600",
+      "standard_time_display": "2026-10-15 22:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 70.0,
+      "magnitude_qualifier": null,
+      "city": "Chloride",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Trained Spotter",
+      "remark": "Strong gradient winds resulted in a wind gust of 70 mph near Chloride AZ.",
+      "lat": 35.41,
+      "lon": -114.2,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-55",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610160900",
+      "standard_time_display": "2026-10-16 01:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 S Chloride",
+      "county": "Mohave",
+      "state": "AZ",
+      "source": "Emergency Mngr",
+      "remark": "Several power poles downed near Mineral Park due to strong gradient winds.",
+      "lat": 35.33,
+      "lon": -114.2,
+      "ugc": "AZC015",
+      "ugc_name": "Mohave",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1224,7 +1269,7 @@
       "wfo": "VEF",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-16T13:57:21Z"
+      "generated_utc": "2026-10-17T12:57:23Z"
     },
     "primary_links": [
       {
