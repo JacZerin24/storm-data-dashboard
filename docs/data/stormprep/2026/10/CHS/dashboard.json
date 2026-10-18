@@ -6,7 +6,7 @@
     "wfo": "CHS",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-17T12:56:13Z",
+    "generated_utc": "2026-10-18T13:14:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 10,
     "wfo": "CHS",
-    "total_candidate_reports": 79,
-    "mapped_candidate_reports": 79,
+    "total_candidate_reports": 81,
+    "mapped_candidate_reports": 81,
     "candidate_report_counts": {
       "flooding": 36,
       "marine": 6,
       "other": 22,
+      "thunderstorm_wind": 2,
       "tornado": 15
     },
     "candidate_report_type_counts": {
       "COASTAL FLOOD": 13,
       "FLASH FLOOD": 23,
       "MARINE TSTM WIND": 6,
+      "NON-TSTM WND GST": 2,
       "RAIN": 22,
       "TORNADO": 15
     },
@@ -1791,6 +1793,50 @@
       "ugc": "SCC019",
       "ugc_name": "Charleston",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-80",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610171705",
+      "standard_time_display": "2026-10-17 12:05 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 40.0,
+      "magnitude_qualifier": null,
+      "city": "2 ESE Charleston",
+      "county": "AMZ340",
+      "state": "SC",
+      "source": "Mesonet",
+      "remark": "Shutes Folly measured a 35 kt wind gust.",
+      "lat": 32.77,
+      "lon": -79.91,
+      "ugc": "AMZ340",
+      "ugc_name": "Charleston Harbor",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-CHS-81",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610171713",
+      "standard_time_display": "2026-10-17 12:13 EST",
+      "standard_time_zone": "EST",
+      "wfo": "CHS",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 43.0,
+      "magnitude_qualifier": null,
+      "city": "2 ENE Tybee Island",
+      "county": "AMZ362",
+      "state": "GA",
+      "source": "Mesonet",
+      "remark": "Savannah Entrance Light measured a 37 kt wind gust.",
+      "lat": 32.01,
+      "lon": -80.81,
+      "ugc": "AMZ362",
+      "ugc_name": "Coastal waters from Edisto Beach SC to Savannah GA out 20 NM",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=CHS&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1799,7 +1845,7 @@
       "wfo": "CHS",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-17T12:56:13Z"
+      "generated_utc": "2026-10-18T13:14:13Z"
     },
     "primary_links": [
       {
