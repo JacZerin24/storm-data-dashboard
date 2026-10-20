@@ -7,7 +7,7 @@
     "wfo": "TWC",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-19T16:27:14Z",
+    "generated_utc": "2026-10-20T14:18:03Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -2144,6 +2144,58 @@
         "coordinates": [
           -110.95,
           32.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-83",
+      "properties": {
+        "report_id": "iem-lsr-TWC-83",
+        "report_type": "HAIL",
+        "event_category": "hail",
+        "valid_utc": "202610192157",
+        "standard_time_display": "2026-10-19 14:57 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "18 N Pirtleville",
+        "state": "AZ",
+        "magnitude": 1.25,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Half Dollar 1.25 inch diameter hail. No damage reported."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.62,
+          31.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-TWC-84",
+      "properties": {
+        "report_id": "iem-lsr-TWC-84",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610192230",
+        "standard_time_display": "2026-10-19 15:30 MST",
+        "wfo": "TWC",
+        "county_or_zone": "Cochise",
+        "city": "46 NE Douglas",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Portal Rd closed at mile marker 7 due to downed power lines. Caused power outage to 500 customers."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.06,
+          31.88
         ]
       }
     }
