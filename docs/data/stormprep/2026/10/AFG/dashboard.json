@@ -6,7 +6,7 @@
     "wfo": "AFG",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-20T14:16:28Z",
+    "generated_utc": "2026-10-21T14:27:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "AFG",
-    "total_candidate_reports": 5,
-    "mapped_candidate_reports": 5,
+    "total_candidate_reports": 7,
+    "mapped_candidate_reports": 7,
     "candidate_report_counts": {
-      "thunderstorm_wind": 5
+      "thunderstorm_wind": 5,
+      "winter": 2
     },
     "candidate_report_type_counts": {
-      "NON-TSTM WND GST": 5
+      "NON-TSTM WND GST": 5,
+      "SNOW": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -154,6 +156,50 @@
       "ugc": "AKC185",
       "ugc_name": "North Slope",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFG-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610201715",
+      "standard_time_display": "2026-10-20 08:15 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFG",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 4.5,
+      "magnitude_qualifier": null,
+      "city": "Tok",
+      "county": "Southeast Fairbanks",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "Here at my observer site in Tok we have gotten 4.5 of snow since last evening at 8 pm_ when the snowfall first began. It is fine grained snow coming down fairly steadily and now fairly heavily. It was fairly thin and sparse last evening but is now heavier. - Katy in Tok.",
+      "lat": 63.15,
+      "lon": -143.01,
+      "ugc": "AKC240",
+      "ugc_name": "Southeast Fairbanks",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AFG-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610201850",
+      "standard_time_display": "2026-10-20 09:50 AKST",
+      "standard_time_zone": "AKST",
+      "wfo": "AFG",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 6.0,
+      "magnitude_qualifier": null,
+      "city": "Robertson River",
+      "county": "Southeast Fairbanks",
+      "state": "AK",
+      "source": "Trained Spotter",
+      "remark": "Moderate to heavy snowfall_ 6 in by 10:50 am_ snowfall rates of about 1.5 to 2 in per hour. Current temp around 30 F with a light wind.",
+      "lat": 63.45,
+      "lon": -143.83,
+      "ugc": "AKC240",
+      "ugc_name": "Southeast Fairbanks",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFG&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -162,7 +208,7 @@
       "wfo": "AFG",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-20T14:16:28Z"
+      "generated_utc": "2026-10-21T14:27:38Z"
     },
     "primary_links": [
       {
