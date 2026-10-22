@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-21T14:27:35Z",
+    "generated_utc": "2026-10-22T14:29:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,15 @@
     "year": 2026,
     "month": 10,
     "wfo": "ABQ",
-    "total_candidate_reports": 16,
-    "mapped_candidate_reports": 16,
+    "total_candidate_reports": 17,
+    "mapped_candidate_reports": 17,
     "candidate_report_counts": {
-      "flooding": 2,
+      "flooding": 3,
       "thunderstorm_wind": 14
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
-      "FLOOD": 1,
+      "FLOOD": 2,
       "NON-TSTM WND GST": 13,
       "TSTM WND GST": 1
     },
@@ -400,6 +400,28 @@
       "ugc": "NMC027",
       "ugc_name": "Lincoln",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-17",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610221320",
+      "standard_time_display": "2026-10-22 06:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "10 NNE Milan",
+      "county": "McKinley",
+      "state": "NM",
+      "source": "Fire Dept/Rescue",
+      "remark": "Flowing water of unknown depth over highway 605 at MM 10. Video from Fire/Rescue in Slack.",
+      "lat": 35.32,
+      "lon": -107.82,
+      "ugc": "NMC031",
+      "ugc_name": "McKinley",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -408,7 +430,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-21T14:27:35Z"
+      "generated_utc": "2026-10-22T14:29:13Z"
     },
     "primary_links": [
       {

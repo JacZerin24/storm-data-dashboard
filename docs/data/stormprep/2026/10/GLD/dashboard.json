@@ -6,7 +6,7 @@
     "wfo": "GLD",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-21T14:28:09Z",
+    "generated_utc": "2026-10-22T14:29:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,16 @@
     "year": 2026,
     "month": 10,
     "wfo": "GLD",
-    "total_candidate_reports": 52,
-    "mapped_candidate_reports": 52,
+    "total_candidate_reports": 53,
+    "mapped_candidate_reports": 53,
     "candidate_report_counts": {
       "fire_smoke": 1,
       "flooding": 11,
-      "other": 40
+      "other": 41
     },
     "candidate_report_type_counts": {
       "FLOOD": 11,
-      "FOG": 10,
+      "FOG": 11,
       "RAIN": 30,
       "WILDFIRE": 1
     },
@@ -1193,6 +1193,28 @@
       "ugc": "NEC145",
       "ugc_name": "Red Willow",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GLD-53",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610221115",
+      "standard_time_display": "2026-10-22 05:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "GLD",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.0,
+      "magnitude_qualifier": null,
+      "city": "1 NNW Norton",
+      "county": "Norton",
+      "state": "KS",
+      "source": "AWOS",
+      "remark": "AWOS station KNRN Norton.",
+      "lat": 39.85,
+      "lon": -99.9,
+      "ugc": "KSC137",
+      "ugc_name": "Norton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GLD&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1201,7 +1223,7 @@
       "wfo": "GLD",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-21T14:28:09Z"
+      "generated_utc": "2026-10-22T14:29:48Z"
     },
     "primary_links": [
       {
