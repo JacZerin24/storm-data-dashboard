@@ -6,7 +6,7 @@
     "wfo": "JAX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-22T14:30:01Z",
+    "generated_utc": "2026-10-23T14:13:18Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,9 +17,10 @@
     "year": 2026,
     "month": 10,
     "wfo": "JAX",
-    "total_candidate_reports": 69,
-    "mapped_candidate_reports": 69,
+    "total_candidate_reports": 70,
+    "mapped_candidate_reports": 70,
     "candidate_report_counts": {
+      "fire_smoke": 1,
       "flooding": 28,
       "other": 21,
       "thunderstorm_wind": 17,
@@ -33,7 +34,8 @@
       "NON-TSTM WND GST": 15,
       "RAIN": 21,
       "TSTM WND GST": 1,
-      "WATERSPOUT": 3
+      "WATERSPOUT": 3,
+      "WILDFIRE": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1574,6 +1576,28 @@
       "ugc": "FLC109",
       "ugc_name": "St. Johns",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-JAX-70",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610222128",
+      "standard_time_display": "2026-10-22 16:28 EST",
+      "standard_time_zone": "EST",
+      "wfo": "JAX",
+      "report_type": "WILDFIRE",
+      "event_category": "fire_smoke",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 SW Belmont",
+      "county": "Hamilton",
+      "state": "FL",
+      "source": "911 Call Center",
+      "remark": "Delayed report - The Hamilton County Warning Point reports a 200 acre wildfire near Jasper that is 200 acres with 35% containment. This incident has been named the \"Bee Haven Wildfire\".",
+      "lat": 30.43,
+      "lon": -82.8,
+      "ugc": "FLC047",
+      "ugc_name": "Hamilton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=JAX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1582,7 +1606,7 @@
       "wfo": "JAX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-22T14:30:02Z"
+      "generated_utc": "2026-10-23T14:13:18Z"
     },
     "primary_links": [
       {

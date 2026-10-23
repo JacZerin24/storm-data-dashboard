@@ -7,12 +7,143 @@
     "wfo": "BOI",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-22T14:29:23Z",
+    "generated_utc": "2026-10-23T14:12:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BOI&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOI-1",
+      "properties": {
+        "report_id": "iem-lsr-BOI-1",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610222144",
+        "standard_time_display": "2026-10-22 13:44 PST",
+        "wfo": "BOI",
+        "county_or_zone": "Elmore",
+        "city": "10 SW Hill City",
+        "state": "ID",
+        "magnitude": 57.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.15,
+          43.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOI-2",
+      "properties": {
+        "report_id": "iem-lsr-BOI-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610222200",
+        "standard_time_display": "2026-10-22 14:00 PST",
+        "wfo": "BOI",
+        "county_or_zone": "Gooding",
+        "city": "13 N Gooding",
+        "state": "ID",
+        "magnitude": 52.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.66,
+          43.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOI-3",
+      "properties": {
+        "report_id": "iem-lsr-BOI-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610222227",
+        "standard_time_display": "2026-10-22 14:27 PST",
+        "wfo": "BOI",
+        "county_or_zone": "Gooding",
+        "city": "4 E Hagerman",
+        "state": "ID",
+        "magnitude": 50.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.82,
+          42.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOI-4",
+      "properties": {
+        "report_id": "iem-lsr-BOI-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610222257",
+        "standard_time_display": "2026-10-22 14:57 PST",
+        "wfo": "BOI",
+        "county_or_zone": "Camas",
+        "city": "14 SE Atlanta",
+        "state": "ID",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "SAWTOOTH PORTABLE #3 RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.89,
+          43.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BOI-5",
+      "properties": {
+        "report_id": "iem-lsr-BOI-5",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202610222339",
+        "standard_time_display": "2026-10-22 15:39 PST",
+        "wfo": "BOI",
+        "county_or_zone": "Camas",
+        "city": "18 N Soldier",
+        "state": "ID",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Fleck Summit RAWS."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9,
+          43.62
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "APX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-22T14:29:19Z",
+    "generated_utc": "2026-10-23T14:12:35Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,16 @@
     "year": 2026,
     "month": 10,
     "wfo": "APX",
-    "total_candidate_reports": 87,
-    "mapped_candidate_reports": 87,
+    "total_candidate_reports": 88,
+    "mapped_candidate_reports": 88,
     "candidate_report_counts": {
       "hail": 1,
       "marine": 3,
-      "other": 23,
+      "other": 24,
       "thunderstorm_wind": 60
     },
     "candidate_report_type_counts": {
+      "FOG": 1,
       "HAIL": 1,
       "MARINE TSTM WIND": 3,
       "NON-TSTM WND GST": 56,
@@ -1965,6 +1966,28 @@
       "ugc": "MIC033",
       "ugc_name": "Chippewa",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-88",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610230138",
+      "standard_time_display": "2026-10-22 20:38 EST",
+      "standard_time_zone": "EST",
+      "wfo": "APX",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "2 SW Cheboygan",
+      "county": "Cheboygan",
+      "state": "MI",
+      "source": "Trained Spotter",
+      "remark": "Spotter reported quarter of a mile visibility at the intersection of Townline Rd and Vfw Rd.",
+      "lat": 45.61,
+      "lon": -84.49,
+      "ugc": "MIC031",
+      "ugc_name": "Cheboygan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1973,7 +1996,7 @@
       "wfo": "APX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-22T14:29:20Z"
+      "generated_utc": "2026-10-23T14:12:36Z"
     },
     "primary_links": [
       {

@@ -3,19 +3,21 @@
   "year": 2026,
   "month": 10,
   "wfo": "FGZ",
-  "total_candidate_reports": 37,
-  "mapped_candidate_reports": 37,
+  "total_candidate_reports": 71,
+  "mapped_candidate_reports": 71,
   "candidate_report_counts": {
-    "flooding": 4,
-    "hail": 17,
-    "thunderstorm_wind": 16
+    "flooding": 27,
+    "hail": 26,
+    "thunderstorm_wind": 17,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "FLASH FLOOD": 3,
-    "FLOOD": 1,
-    "HAIL": 17,
+    "FLASH FLOOD": 25,
+    "FLOOD": 2,
+    "FUNNEL CLOUD": 1,
+    "HAIL": 26,
     "NON-TSTM WND GST": 11,
-    "TSTM WND DMG": 2,
+    "TSTM WND DMG": 3,
     "TSTM WND GST": 3
   },
   "nws_api_alert_count": 0,
@@ -23,6 +25,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FGZ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }
