@@ -6,7 +6,7 @@
     "wfo": "VEF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-23T14:14:06Z",
+    "generated_utc": "2026-10-24T13:19:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 10,
     "wfo": "VEF",
-    "total_candidate_reports": 57,
-    "mapped_candidate_reports": 57,
+    "total_candidate_reports": 60,
+    "mapped_candidate_reports": 60,
     "candidate_report_counts": {
       "flooding": 44,
+      "hail": 1,
       "other": 2,
-      "thunderstorm_wind": 11
+      "thunderstorm_wind": 13
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 44,
+      "HAIL": 1,
       "NON-TSTM WND DMG": 1,
       "NON-TSTM WND GST": 7,
       "RAIN": 2,
       "TSTM WND DMG": 1,
-      "TSTM WND GST": 2
+      "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -1305,6 +1307,72 @@
       "ugc": "CAC027",
       "ugc_name": "Inyo",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-58",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610220500",
+      "standard_time_display": "2026-10-21 21:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.75,
+      "magnitude_qualifier": null,
+      "city": "4 NW Mesquite",
+      "county": "Clark",
+      "state": "NV",
+      "source": "Utility Company",
+      "remark": null,
+      "lat": 36.83,
+      "lon": -114.12,
+      "ugc": "NVC003",
+      "ugc_name": "Clark",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-59",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610222204",
+      "standard_time_display": "2026-10-22 14:04 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 SE Yermo",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "ASOS/AWOS",
+      "remark": "Barstow-Daggett ASOS gusted to 58 mph at 104 PM PDT due to a nearby thunderstorm.",
+      "lat": 34.85,
+      "lon": -116.79,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-VEF-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610222204",
+      "standard_time_display": "2026-10-22 14:04 PST",
+      "standard_time_zone": "PST",
+      "wfo": "VEF",
+      "report_type": "TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 SE Yermo",
+      "county": "San Bernardino",
+      "state": "CA",
+      "source": "Utility Company",
+      "remark": "Barstow-Daggett ASOS gusted to 58 mph at 104 PM PDT due to a nearby thunderstorm.",
+      "lat": 34.85,
+      "lon": -116.79,
+      "ugc": "CAC071",
+      "ugc_name": "San Bernardino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=VEF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1313,7 +1381,7 @@
       "wfo": "VEF",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-23T14:14:06Z"
+      "generated_utc": "2026-10-24T13:19:13Z"
     },
     "primary_links": [
       {
