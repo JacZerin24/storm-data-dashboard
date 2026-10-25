@@ -6,7 +6,7 @@
     "wfo": "PUB",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-24T13:18:58Z",
+    "generated_utc": "2026-10-25T13:42:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,20 @@
     "year": 2026,
     "month": 10,
     "wfo": "PUB",
-    "total_candidate_reports": 387,
-    "mapped_candidate_reports": 387,
+    "total_candidate_reports": 389,
+    "mapped_candidate_reports": 389,
     "candidate_report_counts": {
-      "flooding": 6,
+      "flooding": 7,
       "other": 374,
-      "thunderstorm_wind": 7
+      "thunderstorm_wind": 7,
+      "winter": 1
     },
     "candidate_report_type_counts": {
+      "FLASH FLOOD": 1,
       "FLOOD": 6,
       "NON-TSTM WND GST": 1,
       "RAIN": 374,
+      "SNOW": 1,
       "TSTM WND GST": 6
     },
     "nws_api_alert_count": 0,
@@ -8563,6 +8566,50 @@
       "ugc": "COC105",
       "ugc_name": "Rio Grande",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-388",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610250023",
+      "standard_time_display": "2026-10-24 17:23 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "6 NE Colorado City",
+      "county": "Pueblo",
+      "state": "CO",
+      "source": "Emergency Manager",
+      "remark": "EM reports multiple cars have slide off Interstate 25 between mile markers 68 and 80 due to heavy rainfall and water on the highway.",
+      "lat": 37.99,
+      "lon": -104.77,
+      "ugc": "COC101",
+      "ugc_name": "Pueblo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PUB-389",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610250638",
+      "standard_time_display": "2026-10-24 23:38 MST",
+      "standard_time_zone": "MST",
+      "wfo": "PUB",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 2.2,
+      "magnitude_qualifier": null,
+      "city": "2 NE Leadville",
+      "county": "Lake",
+      "state": "CO",
+      "source": "Trained Spotter",
+      "remark": "SWE of 0.29 inches. 24 hour totals for October 24th.",
+      "lat": 39.27,
+      "lon": -106.27,
+      "ugc": "COC065",
+      "ugc_name": "Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -8571,7 +8618,7 @@
       "wfo": "PUB",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-24T13:18:58Z"
+      "generated_utc": "2026-10-25T13:42:23Z"
     },
     "primary_links": [
       {

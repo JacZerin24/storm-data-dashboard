@@ -7,7 +7,7 @@
     "wfo": "HNX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-24T13:18:18Z",
+    "generated_utc": "2026-10-25T13:41:52Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -1234,6 +1234,58 @@
         "coordinates": [
           -118.73,
           35.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HNX-48",
+      "properties": {
+        "report_id": "iem-lsr-HNX-48",
+        "report_type": "FOG",
+        "event_category": "other",
+        "valid_utc": "202610241440",
+        "standard_time_display": "2026-10-24 06:40 PST",
+        "wfo": "HNX",
+        "county_or_zone": "Kings",
+        "city": "6 W Goshen",
+        "state": "CA",
+        "magnitude": 0.25,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "NWS Employee reports patchy dense fog along CA Route 198 with minimum visibility less than one quarter mile."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.53,
+          36.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-HNX-49",
+      "properties": {
+        "report_id": "iem-lsr-HNX-49",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202610241730",
+        "standard_time_display": "2026-10-24 09:30 PST",
+        "wfo": "HNX",
+        "county_or_zone": "Kern",
+        "city": "3 N Lamont",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "Kern County Public Works reports Hermosa Road is closed between SR-184 and Malaga Road due to debris in road from flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9,
+          35.31
         ]
       }
     }
