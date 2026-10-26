@@ -6,7 +6,7 @@
     "wfo": "HNX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-25T13:41:52Z",
+    "generated_utc": "2026-10-26T16:06:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,19 +17,19 @@
     "year": 2026,
     "month": 10,
     "wfo": "HNX",
-    "total_candidate_reports": 49,
-    "mapped_candidate_reports": 49,
+    "total_candidate_reports": 50,
+    "mapped_candidate_reports": 50,
     "candidate_report_counts": {
       "flooding": 12,
       "hail": 1,
-      "other": 11,
+      "other": 12,
       "thunderstorm_wind": 24,
       "winter": 1
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 1,
       "FLOOD": 12,
-      "FOG": 1,
+      "FOG": 2,
       "HAIL": 1,
       "LANDSLIDE": 1,
       "LIGHTNING": 1,
@@ -1134,6 +1134,28 @@
       "ugc": "CAC029",
       "ugc_name": "Kern",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-50",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610251455",
+      "standard_time_display": "2026-10-25 06:55 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "FOG",
+      "event_category": "other",
+      "magnitude": 0.25,
+      "magnitude_qualifier": null,
+      "city": "4 E Hanford",
+      "county": "Kings",
+      "state": "CA",
+      "source": "NWS Employee",
+      "remark": "NWS Employee reports patchy dense fog along CA Route 198 with minimum visibility less than one quarter mile.",
+      "lat": 36.33,
+      "lon": -119.58,
+      "ugc": "CAC031",
+      "ugc_name": "Kings",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1142,7 +1164,7 @@
       "wfo": "HNX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-25T13:41:52Z"
+      "generated_utc": "2026-10-26T16:06:23Z"
     },
     "primary_links": [
       {

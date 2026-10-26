@@ -3,18 +3,20 @@
   "year": 2026,
   "month": 10,
   "wfo": "ABQ",
-  "total_candidate_reports": 55,
-  "mapped_candidate_reports": 55,
+  "total_candidate_reports": 66,
+  "mapped_candidate_reports": 66,
   "candidate_report_counts": {
-    "flooding": 26,
-    "hail": 11,
-    "thunderstorm_wind": 18
+    "flooding": 32,
+    "hail": 14,
+    "thunderstorm_wind": 18,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
-    "FLASH FLOOD": 18,
-    "FLOOD": 8,
-    "HAIL": 11,
+    "FLASH FLOOD": 20,
+    "FLOOD": 12,
+    "HAIL": 14,
     "NON-TSTM WND GST": 14,
+    "TORNADO": 2,
     "TSTM WND DMG": 1,
     "TSTM WND GST": 3
   },
@@ -23,6 +25,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABQ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

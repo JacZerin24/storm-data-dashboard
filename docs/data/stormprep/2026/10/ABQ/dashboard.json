@@ -6,7 +6,7 @@
     "wfo": "ABQ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-25T13:41:19Z",
+    "generated_utc": "2026-10-26T16:05:46Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 10,
     "wfo": "ABQ",
-    "total_candidate_reports": 55,
-    "mapped_candidate_reports": 55,
+    "total_candidate_reports": 66,
+    "mapped_candidate_reports": 66,
     "candidate_report_counts": {
-      "flooding": 26,
-      "hail": 11,
-      "thunderstorm_wind": 18
+      "flooding": 32,
+      "hail": 14,
+      "thunderstorm_wind": 18,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 18,
-      "FLOOD": 8,
-      "HAIL": 11,
+      "FLASH FLOOD": 20,
+      "FLOOD": 12,
+      "HAIL": 14,
       "NON-TSTM WND GST": 14,
+      "TORNADO": 2,
       "TSTM WND DMG": 1,
       "TSTM WND GST": 3
     },
@@ -37,7 +39,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABQ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +52,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=ABQ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -803,6 +807,50 @@
     {
       "report_id": "iem-lsr-ABQ-35",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610231700",
+      "standard_time_display": "2026-10-23 10:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 SW Bloomfield",
+      "county": "San Juan",
+      "state": "NM",
+      "source": "Emergency Manager",
+      "remark": "Bridge on 371 into Bloomfield closed due to water on the bridge from San Juan River.",
+      "lat": 36.7,
+      "lon": -107.99,
+      "ugc": "NMC045",
+      "ugc_name": "San Juan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610231703",
+      "standard_time_display": "2026-10-23 10:03 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Aztec",
+      "county": "San Juan",
+      "state": "NM",
+      "source": "Emergency Manager",
+      "remark": "West Chaco Bridge over Animas River in Aztec overtopped and closed.",
+      "lat": 36.83,
+      "lon": -108.0,
+      "ugc": "NMC045",
+      "ugc_name": "San Juan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-37",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610231732",
       "standard_time_display": "2026-10-23 10:32 MST",
       "standard_time_zone": "MST",
@@ -823,7 +871,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-36",
+      "report_id": "iem-lsr-ABQ-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610231920",
       "standard_time_display": "2026-10-23 12:20 MST",
@@ -845,7 +893,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-37",
+      "report_id": "iem-lsr-ABQ-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610231923",
       "standard_time_display": "2026-10-23 12:23 MST",
@@ -867,7 +915,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-38",
+      "report_id": "iem-lsr-ABQ-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232140",
       "standard_time_display": "2026-10-23 14:40 MST",
@@ -889,7 +937,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-39",
+      "report_id": "iem-lsr-ABQ-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232230",
       "standard_time_display": "2026-10-23 15:30 MST",
@@ -911,7 +959,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-40",
+      "report_id": "iem-lsr-ABQ-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232245",
       "standard_time_display": "2026-10-23 15:45 MST",
@@ -933,7 +981,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-41",
+      "report_id": "iem-lsr-ABQ-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240030",
       "standard_time_display": "2026-10-23 17:30 MST",
@@ -955,7 +1003,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-42",
+      "report_id": "iem-lsr-ABQ-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610241655",
       "standard_time_display": "2026-10-24 09:55 MST",
@@ -977,7 +1025,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-43",
+      "report_id": "iem-lsr-ABQ-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610241759",
       "standard_time_display": "2026-10-24 10:59 MST",
@@ -999,7 +1047,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-44",
+      "report_id": "iem-lsr-ABQ-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610241800",
       "standard_time_display": "2026-10-24 11:00 MST",
@@ -1021,7 +1069,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-45",
+      "report_id": "iem-lsr-ABQ-47",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610241813",
+      "standard_time_display": "2026-10-24 11:13 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Fruitland",
+      "county": "San Juan",
+      "state": "NM",
+      "source": "Emergency Manager",
+      "remark": "N36 closed from junction of NM 371 on. Mud and Boulders in road.",
+      "lat": 36.73,
+      "lon": -108.43,
+      "ugc": "NMC045",
+      "ugc_name": "San Juan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-48",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610241818",
+      "standard_time_display": "2026-10-24 11:18 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 S Navajo Dam",
+      "county": "Rio Arriba",
+      "state": "NM",
+      "source": "Emergency Manager",
+      "remark": "NM 539 closed due to flooding.",
+      "lat": 36.77,
+      "lon": -107.61,
+      "ugc": "NMC039",
+      "ugc_name": "Rio Arriba",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242301",
       "standard_time_display": "2026-10-24 16:01 MST",
@@ -1043,7 +1135,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-46",
+      "report_id": "iem-lsr-ABQ-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242302",
       "standard_time_display": "2026-10-24 16:02 MST",
@@ -1065,7 +1157,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-47",
+      "report_id": "iem-lsr-ABQ-51",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610242315",
+      "standard_time_display": "2026-10-24 16:15 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NE Alto",
+      "county": "Lincoln",
+      "state": "NM",
+      "source": "Public",
+      "remark": "Minor damage to a house_ trees down_ garage door blown in_ and shed damaged.",
+      "lat": 33.42,
+      "lon": -105.64,
+      "ugc": "NMC027",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-52",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242317",
       "standard_time_display": "2026-10-24 16:17 MST",
@@ -1087,7 +1201,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-48",
+      "report_id": "iem-lsr-ABQ-53",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242330",
       "standard_time_display": "2026-10-24 16:30 MST",
@@ -1109,7 +1223,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-49",
+      "report_id": "iem-lsr-ABQ-54",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242350",
       "standard_time_display": "2026-10-24 16:50 MST",
@@ -1131,7 +1245,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-50",
+      "report_id": "iem-lsr-ABQ-55",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242357",
       "standard_time_display": "2026-10-24 16:57 MST",
@@ -1153,7 +1267,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-51",
+      "report_id": "iem-lsr-ABQ-56",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250026",
       "standard_time_display": "2026-10-24 17:26 MST",
@@ -1175,7 +1289,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-52",
+      "report_id": "iem-lsr-ABQ-57",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250050",
       "standard_time_display": "2026-10-24 17:50 MST",
@@ -1197,7 +1311,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-53",
+      "report_id": "iem-lsr-ABQ-58",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250057",
       "standard_time_display": "2026-10-24 17:57 MST",
@@ -1219,7 +1333,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-54",
+      "report_id": "iem-lsr-ABQ-59",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610250100",
+      "standard_time_display": "2026-10-24 18:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 E Agua Fria",
+      "county": "Santa Fe",
+      "state": "NM",
+      "source": "NWS Storm Survey",
+      "remark": "A tornado developed in the Via Caballero neighborhood in the south central portion of Santa Fe just north of I-25. The tornado traveled northward for approximately 1.4 miles_ terminating near the College of Santa Fe. Much of the damage was along Rancho Siringo and Camino Chueco Roads. Damage included broken power poles_ uprooted or damaged trees_ damage to roofs. Ten homes sustained damaged. This tornado has been given a preliminary rating of EF-1_ pending additional information.",
+      "lat": 35.63,
+      "lon": -105.97,
+      "ugc": "NMC049",
+      "ugc_name": "Santa Fe",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-60",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610250105",
+      "standard_time_display": "2026-10-24 18:05 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "1 SW Santa Fe",
+      "county": "Santa Fe",
+      "state": "NM",
+      "source": "CoCoRaHS",
+      "remark": "Dime to quarter size hail.",
+      "lat": 35.67,
+      "lon": -105.97,
+      "ugc": "NMC049",
+      "ugc_name": "Santa Fe",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-61",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250110",
       "standard_time_display": "2026-10-24 18:10 MST",
@@ -1241,7 +1399,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-ABQ-55",
+      "report_id": "iem-lsr-ABQ-62",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250145",
       "standard_time_display": "2026-10-24 18:45 MST",
@@ -1261,6 +1419,94 @@
       "ugc": "NMC049",
       "ugc_name": "Santa Fe",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-63",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610260120",
+      "standard_time_display": "2026-10-25 18:20 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.25,
+      "magnitude_qualifier": null,
+      "city": "6 SW Ancho",
+      "county": "Lincoln",
+      "state": "NM",
+      "source": "Trained Spotter",
+      "remark": "Quarter to half dollar size hail.",
+      "lat": 33.89,
+      "lon": -105.82,
+      "ugc": "NMC027",
+      "ugc_name": "Lincoln",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-64",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610260346",
+      "standard_time_display": "2026-10-25 20:46 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 E Bernardo",
+      "county": "Socorro",
+      "state": "NM",
+      "source": "Department of Hig",
+      "remark": "NM DOT reported U.S. Highway 60 closed at MM 166 just east of Bernardo due to flooding in both directions.",
+      "lat": 34.42,
+      "lon": -106.82,
+      "ugc": "NMC053",
+      "ugc_name": "Socorro",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-65",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610260349",
+      "standard_time_display": "2026-10-25 20:49 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 0.75,
+      "magnitude_qualifier": null,
+      "city": "10 NW Bitter Lake Wildl",
+      "county": "Chaves",
+      "state": "NM",
+      "source": "Trained Spotter",
+      "remark": "Penny hail along U.S. 285 at MM121.",
+      "lat": 33.56,
+      "lon": -104.52,
+      "ugc": "NMC005",
+      "ugc_name": "Chaves",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ABQ-66",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610260403",
+      "standard_time_display": "2026-10-25 21:03 MST",
+      "standard_time_zone": "MST",
+      "wfo": "ABQ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 N Two Rivers Dam",
+      "county": "Chaves",
+      "state": "NM",
+      "source": "Department of Hig",
+      "remark": "NM DOT reported U.S. Hwy 70 closed 7 miles west of Roswell due to standing water over the roadway.",
+      "lat": 33.39,
+      "lon": -104.7,
+      "ugc": "NMC005",
+      "ugc_name": "Chaves",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ABQ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1269,7 +1515,7 @@
       "wfo": "ABQ",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-25T13:41:19Z"
+      "generated_utc": "2026-10-26T16:05:47Z"
     },
     "primary_links": [
       {
