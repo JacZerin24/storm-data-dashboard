@@ -6,7 +6,7 @@
     "wfo": "EPZ",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-26T16:06:10Z",
+    "generated_utc": "2026-10-27T15:19:30Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,20 @@
     "year": 2026,
     "month": 10,
     "wfo": "EPZ",
-    "total_candidate_reports": 49,
-    "mapped_candidate_reports": 49,
+    "total_candidate_reports": 52,
+    "mapped_candidate_reports": 52,
     "candidate_report_counts": {
-      "flooding": 11,
+      "flooding": 12,
       "hail": 10,
-      "thunderstorm_wind": 28
+      "thunderstorm_wind": 28,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 11,
+      "FLASH FLOOD": 12,
       "HAIL": 10,
       "NON-TSTM WND DMG": 14,
       "NON-TSTM WND GST": 3,
+      "TORNADO": 2,
       "TSTM WND DMG": 2,
       "TSTM WND GST": 9
     },
@@ -37,7 +39,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EPZ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -49,7 +52,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EPZ&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -451,6 +455,28 @@
     {
       "report_id": "iem-lsr-EPZ-19",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610192350",
+      "standard_time_display": "2026-10-19 16:50 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "8 W Deming",
+      "county": "Luna",
+      "state": "NM",
+      "source": "Emergency Manager",
+      "remark": "Emergency manager and law enforcement reported a brief tornado touchdown west of Deming. No damage was reported. The tornado occurred on BLM land. No survey was conducted. A rating of EFU was given to this tornado.",
+      "lat": 32.24,
+      "lon": -107.88,
+      "ugc": "NMC029",
+      "ugc_name": "Luna",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-20",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610200010",
       "standard_time_display": "2026-10-19 17:10 MST",
       "standard_time_zone": "MST",
@@ -471,7 +497,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-20",
+      "report_id": "iem-lsr-EPZ-21",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610200310",
       "standard_time_display": "2026-10-19 20:10 MST",
@@ -493,7 +519,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-21",
+      "report_id": "iem-lsr-EPZ-22",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610201905",
+      "standard_time_display": "2026-10-20 12:05 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "16 S Animas",
+      "county": "Hidalgo",
+      "state": "NM",
+      "source": "Public",
+      "remark": "Videos via social media show a brief landspout that occurred south of Animas. A rating of EFO was given for this event. No reports of damage since this was in a remote part of the state.",
+      "lat": 31.72,
+      "lon": -108.79,
+      "ugc": "NMC023",
+      "ugc_name": "Hidalgo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-23",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610222330",
       "standard_time_display": "2026-10-22 16:30 MST",
@@ -515,7 +563,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-22",
+      "report_id": "iem-lsr-EPZ-24",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610222336",
       "standard_time_display": "2026-10-22 16:36 MST",
@@ -537,7 +585,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-23",
+      "report_id": "iem-lsr-EPZ-25",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610222350",
       "standard_time_display": "2026-10-22 16:50 MST",
@@ -559,7 +607,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-24",
+      "report_id": "iem-lsr-EPZ-26",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232320",
       "standard_time_display": "2026-10-23 16:20 MST",
@@ -581,7 +629,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-25",
+      "report_id": "iem-lsr-EPZ-27",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232345",
       "standard_time_display": "2026-10-23 16:45 MST",
@@ -603,7 +651,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-26",
+      "report_id": "iem-lsr-EPZ-28",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610232355",
       "standard_time_display": "2026-10-23 16:55 MST",
@@ -625,7 +673,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-27",
+      "report_id": "iem-lsr-EPZ-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240000",
       "standard_time_display": "2026-10-23 17:00 MST",
@@ -647,7 +695,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-28",
+      "report_id": "iem-lsr-EPZ-30",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240000",
       "standard_time_display": "2026-10-23 17:00 MST",
@@ -669,7 +717,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-29",
+      "report_id": "iem-lsr-EPZ-31",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240000",
       "standard_time_display": "2026-10-23 17:00 MST",
@@ -691,7 +739,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-30",
+      "report_id": "iem-lsr-EPZ-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240001",
       "standard_time_display": "2026-10-23 17:01 MST",
@@ -713,7 +761,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-31",
+      "report_id": "iem-lsr-EPZ-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240014",
       "standard_time_display": "2026-10-23 17:14 MST",
@@ -735,7 +783,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-32",
+      "report_id": "iem-lsr-EPZ-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240023",
       "standard_time_display": "2026-10-23 17:23 MST",
@@ -757,7 +805,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-33",
+      "report_id": "iem-lsr-EPZ-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610240028",
       "standard_time_display": "2026-10-23 17:28 MST",
@@ -779,7 +827,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-34",
+      "report_id": "iem-lsr-EPZ-36",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242238",
       "standard_time_display": "2026-10-24 15:38 MST",
@@ -801,7 +849,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-35",
+      "report_id": "iem-lsr-EPZ-37",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242310",
       "standard_time_display": "2026-10-24 16:10 MST",
@@ -823,7 +871,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-36",
+      "report_id": "iem-lsr-EPZ-38",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242325",
       "standard_time_display": "2026-10-24 16:25 MST",
@@ -845,7 +893,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-37",
+      "report_id": "iem-lsr-EPZ-39",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242334",
       "standard_time_display": "2026-10-24 16:34 MST",
@@ -867,7 +915,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-38",
+      "report_id": "iem-lsr-EPZ-40",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242344",
       "standard_time_display": "2026-10-24 16:44 MST",
@@ -889,7 +937,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-39",
+      "report_id": "iem-lsr-EPZ-41",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610242350",
       "standard_time_display": "2026-10-24 16:50 MST",
@@ -911,7 +959,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-40",
+      "report_id": "iem-lsr-EPZ-42",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250000",
       "standard_time_display": "2026-10-24 17:00 MST",
@@ -933,7 +981,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-41",
+      "report_id": "iem-lsr-EPZ-43",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250005",
       "standard_time_display": "2026-10-24 17:05 MST",
@@ -955,7 +1003,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-42",
+      "report_id": "iem-lsr-EPZ-44",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250015",
       "standard_time_display": "2026-10-24 17:15 MST",
@@ -977,7 +1025,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-43",
+      "report_id": "iem-lsr-EPZ-45",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250030",
       "standard_time_display": "2026-10-24 17:30 MST",
@@ -999,7 +1047,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-44",
+      "report_id": "iem-lsr-EPZ-46",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610250045",
       "standard_time_display": "2026-10-24 17:45 MST",
@@ -1021,7 +1069,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-45",
+      "report_id": "iem-lsr-EPZ-47",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610260549",
       "standard_time_display": "2026-10-25 22:49 MST",
@@ -1043,7 +1091,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-46",
+      "report_id": "iem-lsr-EPZ-48",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610260615",
       "standard_time_display": "2026-10-25 23:15 MST",
@@ -1065,7 +1113,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-47",
+      "report_id": "iem-lsr-EPZ-49",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610260618",
       "standard_time_display": "2026-10-25 23:18 MST",
@@ -1087,7 +1135,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-48",
+      "report_id": "iem-lsr-EPZ-50",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610260619",
       "standard_time_display": "2026-10-25 23:19 MST",
@@ -1109,7 +1157,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EPZ-49",
+      "report_id": "iem-lsr-EPZ-51",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610260630",
       "standard_time_display": "2026-10-25 23:30 MST",
@@ -1129,6 +1177,28 @@
       "ugc": "TXC141",
       "ugc_name": "El Paso",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EPZ-52",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610262300",
+      "standard_time_display": "2026-10-26 16:00 MST",
+      "standard_time_zone": "MST",
+      "wfo": "EPZ",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 E Horizon City",
+      "county": "El Paso",
+      "state": "TX",
+      "source": "Emergency Manager",
+      "remark": "9 homes evacuated due to flooding caused by suspected dam breach.",
+      "lat": 31.68,
+      "lon": -106.1,
+      "ugc": "TXC141",
+      "ugc_name": "El Paso",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EPZ&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -1137,7 +1207,7 @@
       "wfo": "EPZ",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-26T16:06:11Z"
+      "generated_utc": "2026-10-27T15:19:31Z"
     },
     "primary_links": [
       {

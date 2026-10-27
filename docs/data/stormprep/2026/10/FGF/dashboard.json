@@ -6,7 +6,7 @@
     "wfo": "FGF",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-26T16:06:12Z",
+    "generated_utc": "2026-10-27T15:19:33Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 10,
     "wfo": "FGF",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "winter": 1
+    },
+    "candidate_report_type_counts": {
+      "SNOW": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=FGF&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-FGF-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610271100",
+      "standard_time_display": "2026-10-27 05:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "FGF",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 1.1,
+      "magnitude_qualifier": null,
+      "city": "5 N Luverne",
+      "county": "Steele",
+      "state": "ND",
+      "source": "Emergency Manager",
+      "remark": "measured on snow board. 0.11 liquid.",
+      "lat": 47.32,
+      "lon": -97.9,
+      "ugc": "NDC091",
+      "ugc_name": "Steele",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FGF&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "FGF",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-26T16:06:13Z"
+      "generated_utc": "2026-10-27T15:19:33Z"
     },
     "primary_links": [
       {
