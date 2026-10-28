@@ -6,7 +6,7 @@
     "wfo": "LKN",
     "start_utc": "2026-08-01T00:00:00Z",
     "end_utc": "2026-09-01T00:00:00Z",
-    "generated_utc": "2026-10-27T15:22:41Z",
+    "generated_utc": "2026-10-28T16:02:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,15 @@
     "year": 2026,
     "month": 8,
     "wfo": "LKN",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
       "flooding": 2,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 9
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 2,
+      "NON-TSTM WND GST": 5,
       "TSTM WND GST": 4
     },
     "nws_api_alert_count": 0,
@@ -48,6 +49,28 @@
     {
       "report_id": "iem-lsr-LKN-1",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608100041",
+      "standard_time_display": "2026-08-09 16:41 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 61.0,
+      "magnitude_qualifier": null,
+      "city": "13 S West Wendover",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Station (SPGN2) Spring Gulch_ elevation 5470 ft.",
+      "lat": 40.59,
+      "lon": -114.2,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-2",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608132108",
       "standard_time_display": "2026-08-13 13:08 PST",
       "standard_time_zone": "PST",
@@ -68,7 +91,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LKN-2",
+      "report_id": "iem-lsr-LKN-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608132206",
+      "standard_time_display": "2026-08-13 14:06 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "8 E Tonopah",
+      "county": "Nye",
+      "state": "NV",
+      "source": "ASOS/AWOS",
+      "remark": "Station KTPH_ Tonopah Airport_ elevation 5426 ft.",
+      "lat": 38.06,
+      "lon": -117.09,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608132300",
+      "standard_time_display": "2026-08-13 15:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 59.0,
+      "magnitude_qualifier": null,
+      "city": "42 SE Manhattan",
+      "county": "Nye",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Station CMP26_ Warm Springs Summit_ elevation 7550 ft.",
+      "lat": 38.19,
+      "lon": -116.42,
+      "ugc": "NVC023",
+      "ugc_name": "Nye",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608212003",
       "standard_time_display": "2026-08-21 12:03 PST",
@@ -90,7 +157,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LKN-3",
+      "report_id": "iem-lsr-LKN-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608240442",
       "standard_time_display": "2026-08-23 20:42 PST",
@@ -112,7 +179,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LKN-4",
+      "report_id": "iem-lsr-LKN-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608242349",
+      "standard_time_display": "2026-08-24 15:49 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 60.0,
+      "magnitude_qualifier": null,
+      "city": "2 SW Elko",
+      "county": "Elko",
+      "state": "NV",
+      "source": "ASOS/AWOS",
+      "remark": "Station KEKO_ Elko Regional Airport_ elevation 5052 ft.",
+      "lat": 40.82,
+      "lon": -115.79,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608242356",
       "standard_time_display": "2026-08-24 15:56 PST",
@@ -134,7 +223,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LKN-5",
+      "report_id": "iem-lsr-LKN-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202608250442",
+      "standard_time_display": "2026-08-24 20:42 PST",
+      "standard_time_zone": "PST",
+      "wfo": "LKN",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "12 SW Columbia Basin Sn",
+      "county": "Elko",
+      "state": "NV",
+      "source": "Mesonet",
+      "remark": "Station LONN2_ Long Hollow_ elevation 5820 ft.",
+      "lat": 41.54,
+      "lon": -116.22,
+      "ugc": "NVC007",
+      "ugc_name": "Elko",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-LKN-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608282132",
       "standard_time_display": "2026-08-28 13:32 PST",
@@ -156,7 +267,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LKN&sts=2026-08-01T00%3A00%3A00Z&ets=2026-09-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-LKN-6",
+      "report_id": "iem-lsr-LKN-11",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202608290646",
       "standard_time_display": "2026-08-28 22:46 PST",
@@ -184,7 +295,7 @@
       "wfo": "LKN",
       "start_utc": "2026-08-01T00:00:00Z",
       "end_utc": "2026-09-01T00:00:00Z",
-      "generated_utc": "2026-10-27T15:22:41Z"
+      "generated_utc": "2026-10-28T16:02:24Z"
     },
     "primary_links": [
       {
