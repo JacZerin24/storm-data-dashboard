@@ -6,7 +6,7 @@
     "wfo": "MTR",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-28T15:59:34Z",
+    "generated_utc": "2026-10-29T16:04:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,13 @@
     "year": 2026,
     "month": 10,
     "wfo": "MTR",
-    "total_candidate_reports": 6,
-    "mapped_candidate_reports": 6,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
-      "flooding": 6
+      "flooding": 9
     },
     "candidate_report_type_counts": {
-      "COASTAL FLOOD": 6
+      "COASTAL FLOOD": 9
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -136,6 +136,28 @@
     {
       "report_id": "iem-lsr-MTR-5",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610271917",
+      "standard_time_display": "2026-10-27 11:17 PST",
+      "standard_time_zone": "PST",
+      "wfo": "MTR",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Corte Madera",
+      "county": "Marin",
+      "state": "CA",
+      "source": "NWS Employee",
+      "remark": "Numerous flooded streets and some flooding of residential structures across Corte Madera due to high tides.",
+      "lat": 37.92,
+      "lon": -122.5,
+      "ugc": "CAC041",
+      "ugc_name": "Marin",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-6",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610272000",
       "standard_time_display": "2026-10-27 12:00 PST",
       "standard_time_zone": "PST",
@@ -156,7 +178,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MTR-6",
+      "report_id": "iem-lsr-MTR-7",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610272015",
+      "standard_time_display": "2026-10-27 12:15 PST",
+      "standard_time_zone": "PST",
+      "wfo": "MTR",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 E East Palo Alto",
+      "county": "Santa Clara",
+      "state": "CA",
+      "source": "Broadcast Media",
+      "remark": "Television video showed walking paths within the Baylands Nature Preserve flooding as high tide came in. Person interviewed by the station stated that he was surprised by how quickly the area flooded.",
+      "lat": 37.46,
+      "lon": -122.11,
+      "ugc": "CAC085",
+      "ugc_name": "Santa Clara",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610272115",
       "standard_time_display": "2026-10-27 13:15 PST",
@@ -176,6 +220,28 @@
       "ugc": "CAC041",
       "ugc_name": "Marin",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MTR-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610281840",
+      "standard_time_display": "2026-10-28 10:40 PST",
+      "standard_time_zone": "PST",
+      "wfo": "MTR",
+      "report_type": "COASTAL FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 NW Castroville",
+      "county": "Monterey",
+      "state": "CA",
+      "source": "NWS Employee",
+      "remark": "Water was reported over the path from Sandholdt Road south to the parking lot for Sandholdt Beach and the Sandholdt Lot Trail.",
+      "lat": 36.8,
+      "lon": -121.79,
+      "ugc": "CAC053",
+      "ugc_name": "Monterey",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MTR&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -184,7 +250,7 @@
       "wfo": "MTR",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-28T15:59:35Z"
+      "generated_utc": "2026-10-29T16:04:38Z"
     },
     "primary_links": [
       {
