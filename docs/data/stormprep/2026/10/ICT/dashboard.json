@@ -6,7 +6,7 @@
     "wfo": "ICT",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-30T15:53:07Z",
+    "generated_utc": "2026-10-31T15:18:13Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,21 +17,21 @@
     "year": 2026,
     "month": 10,
     "wfo": "ICT",
-    "total_candidate_reports": 89,
-    "mapped_candidate_reports": 89,
+    "total_candidate_reports": 91,
+    "mapped_candidate_reports": 91,
     "candidate_report_counts": {
       "flooding": 15,
-      "hail": 2,
+      "hail": 3,
       "other": 66,
       "thunderstorm_wind": 5,
-      "tornado": 1
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 1,
       "FLOOD": 14,
-      "HAIL": 2,
+      "HAIL": 3,
       "RAIN": 66,
-      "TORNADO": 1,
+      "TORNADO": 2,
       "TSTM WND DMG": 3,
       "TSTM WND GST": 2
     },
@@ -1996,6 +1996,28 @@
     {
       "report_id": "iem-lsr-ICT-89",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610300055",
+      "standard_time_display": "2026-10-29 18:55 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "HAIL",
+      "event_category": "hail",
+      "magnitude": 1.0,
+      "magnitude_qualifier": null,
+      "city": "Ellinwood",
+      "county": "Barton",
+      "state": "KS",
+      "source": "Public",
+      "remark": "Delayed report_ received through mPING.",
+      "lat": 38.36,
+      "lon": -98.58,
+      "ugc": "KSC009",
+      "ugc_name": "Barton",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-90",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610300115",
       "standard_time_display": "2026-10-29 19:15 CST",
       "standard_time_zone": "CST",
@@ -2014,6 +2036,28 @@
       "ugc": "KSC009",
       "ugc_name": "Barton",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-ICT-91",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610301845",
+      "standard_time_display": "2026-10-30 12:45 CST",
+      "standard_time_zone": "CST",
+      "wfo": "ICT",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NE Marion",
+      "county": "Marion",
+      "state": "KS",
+      "source": "Broadcast Media",
+      "remark": "Delayed report. A brief touchdown was reported by broadcast media_ as well as several social media reports_ one of which included video evidence. Time and especially location estimated from radar.",
+      "lat": 38.38,
+      "lon": -96.93,
+      "ugc": "KSC115",
+      "ugc_name": "Marion",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=ICT&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -2022,7 +2066,7 @@
       "wfo": "ICT",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-30T15:53:07Z"
+      "generated_utc": "2026-10-31T15:18:13Z"
     },
     "primary_links": [
       {

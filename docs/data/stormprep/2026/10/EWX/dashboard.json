@@ -6,7 +6,7 @@
     "wfo": "EWX",
     "start_utc": "2026-10-01T00:00:00Z",
     "end_utc": "2026-11-01T00:00:00Z",
-    "generated_utc": "2026-10-30T15:52:51Z",
+    "generated_utc": "2026-10-31T15:17:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,18 +17,18 @@
     "year": 2026,
     "month": 10,
     "wfo": "EWX",
-    "total_candidate_reports": 31,
-    "mapped_candidate_reports": 31,
+    "total_candidate_reports": 35,
+    "mapped_candidate_reports": 35,
     "candidate_report_counts": {
       "flooding": 19,
       "thunderstorm_wind": 7,
-      "tornado": 5
+      "tornado": 9
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 10,
       "FLOOD": 9,
       "NON-TSTM WND GST": 7,
-      "TORNADO": 5
+      "TORNADO": 9
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -638,6 +638,28 @@
       "city": "14 W Uvalde",
       "county": "Uvalde",
       "state": "TX",
+      "source": "NWS Storm Survey",
+      "remark": "Video evidence confirms a tornado touched down just north of U.S. 90 and east of Cline. The tornado remained over open ranch land_ producing EF-0 damage to vegetation.",
+      "lat": 29.24,
+      "lon": -100.02,
+      "ugc": "TXC463",
+      "ugc_name": "Uvalde",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-28",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610292304",
+      "standard_time_display": "2026-10-29 17:04 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "14 W Uvalde",
+      "county": "Uvalde",
+      "state": "TX",
       "source": "Public",
       "remark": "Video of a tornado just north of the intersection of US 90 and RM 1022 in western Uvalde County. Time estimated via radar.",
       "lat": 29.24,
@@ -647,7 +669,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EWX-28",
+      "report_id": "iem-lsr-EWX-29",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610292325",
       "standard_time_display": "2026-10-29 17:25 CST",
@@ -669,7 +691,51 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EWX-29",
+      "report_id": "iem-lsr-EWX-30",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610292325",
+      "standard_time_display": "2026-10-29 17:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "15 S Montell",
+      "county": "Uvalde",
+      "state": "TX",
+      "source": "NWS Storm Survey",
+      "remark": "Tornado was estimated from radar velocity and observed Tornadic Debris Signature. Based on satellite imagery_ the tornado remained over open ranch land_ and EF-0 damage was likely contained to vegetation.",
+      "lat": 29.32,
+      "lon": -100.08,
+      "ugc": "TXC463",
+      "ugc_name": "Uvalde",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-31",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610292352",
+      "standard_time_display": "2026-10-29 17:52 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "13 SW Montell",
+      "county": "Kinney",
+      "state": "TX",
+      "source": "NWS Employee",
+      "remark": "Tornado was estimated from radar velocity and observed Tornadic Debris Signature. Based on satellite imagery_ the tornado remained over open ranch land_ and EF-0 damage was likely contained to vegetation.",
+      "lat": 29.44,
+      "lon": -100.19,
+      "ugc": "TXC271",
+      "ugc_name": "Kinney",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-32",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610292354",
       "standard_time_display": "2026-10-29 17:54 CST",
@@ -691,7 +757,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EWX-30",
+      "report_id": "iem-lsr-EWX-33",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610292354",
       "standard_time_display": "2026-10-29 17:54 CST",
@@ -713,7 +779,29 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EWX-31",
+      "report_id": "iem-lsr-EWX-34",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202610292354",
+      "standard_time_display": "2026-10-29 17:54 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EWX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NE Alamo Village",
+      "county": "Kinney",
+      "state": "TX",
+      "source": "NWS Employee",
+      "remark": "Tornado was estimated from radar velocity and observed Tornadic Debris Signature. Based on satellite imagery_ the tornado remained over open ranch land_ and EF-0 damage was likely contained to vegetation.",
+      "lat": 29.46,
+      "lon": -100.33,
+      "ugc": "TXC271",
+      "ugc_name": "Kinney",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EWX&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EWX-35",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202610292354",
       "standard_time_display": "2026-10-29 17:54 CST",
@@ -741,7 +829,7 @@
       "wfo": "EWX",
       "start_utc": "2026-10-01T00:00:00Z",
       "end_utc": "2026-11-01T00:00:00Z",
-      "generated_utc": "2026-10-30T15:52:52Z"
+      "generated_utc": "2026-10-31T15:17:58Z"
     },
     "primary_links": [
       {
