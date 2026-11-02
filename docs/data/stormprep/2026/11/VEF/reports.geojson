@@ -7,7 +7,7 @@
     "wfo": "VEF",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-01T15:59:55Z",
+    "generated_utc": "2026-11-02T19:28:12Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -38,6 +38,58 @@
         "coordinates": [
           -115.23,
           36.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-2",
+      "properties": {
+        "report_id": "iem-lsr-VEF-2",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611012150",
+        "standard_time_display": "2026-11-01 13:50 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Clark",
+        "city": "1 SW Mountains Edge",
+        "state": "NV",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "NV Energy site Enterprise Sierra Cliffs gusted to 60 mph in convective shower."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3,
+          36.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-VEF-3",
+      "properties": {
+        "report_id": "iem-lsr-VEF-3",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611012156",
+        "standard_time_display": "2026-11-01 13:56 PST",
+        "wfo": "VEF",
+        "county_or_zone": "Clark",
+        "city": "3 S The Strip",
+        "state": "NV",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "KLAS reports peak gust to 52 knots with convective showers."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.16,
+          36.07
         ]
       }
     }

@@ -7,12 +7,299 @@
     "wfo": "MLB",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-01T15:59:25Z",
+    "generated_utc": "2026-11-02T19:27:37Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MLB&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-1",
+      "properties": {
+        "report_id": "iem-lsr-MLB-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011636",
+        "standard_time_display": "2026-11-01 11:36 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Okeechobee",
+        "city": "1 N Okeechobee",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Law enforcement reports portions of US 441 in Okeechobee city impassable due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83,
+          27.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-2",
+      "properties": {
+        "report_id": "iem-lsr-MLB-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011636",
+        "standard_time_display": "2026-11-01 11:36 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Okeechobee",
+        "city": "1 W Okeechobee",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Law enforcement reports portions of SR 70 in Okeechobee City impassable due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.85,
+          27.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-3",
+      "properties": {
+        "report_id": "iem-lsr-MLB-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011636",
+        "standard_time_display": "2026-11-01 11:36 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Okeechobee",
+        "city": "Okeechobee",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Law enforcement reports flood water entering buildings near the intersection of SW Park St and SW 4th Ave."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83,
+          27.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-4",
+      "properties": {
+        "report_id": "iem-lsr-MLB-4",
+        "report_type": "TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611020452",
+        "standard_time_display": "2026-11-01 23:52 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 SE Floridana Beach",
+        "state": "FL",
+        "magnitude": 43.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The WeatherFlow station at Melbourne Beach Barrier Island Sanctuary measured a peak wind gust of 43MPH/37KT from the east at 11:52 PM. Earlier_ a gust to 41MPH/36KT occurred at 11:27 PM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.47,
+          27.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-5",
+      "properties": {
+        "report_id": "iem-lsr-MLB-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020833",
+        "standard_time_display": "2026-11-02 03:33 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "1 NE Palm Bay",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Standing water on roads near August St SE & Emerson Dr SE in Palm Bay."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.65,
+          28.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-6",
+      "properties": {
+        "report_id": "iem-lsr-MLB-6",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020900",
+        "standard_time_display": "2026-11-02 04:00 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 W West Melbourne",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Employee",
+        "event_narrative": "Horizon View Ave is flooded. Water depth is nearly halfway up car tires."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.71,
+          28.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-7",
+      "properties": {
+        "report_id": "iem-lsr-MLB-7",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020916",
+        "standard_time_display": "2026-11-02 04:16 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "2 W Palm Bay",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Palm Bay PD reports flooding at Jupiter and White in Palm Bay. Also reports flooding at Garbelmann and Gawain as well as multiple intersections along Emerson."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7,
+          28.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-8",
+      "properties": {
+        "report_id": "iem-lsr-MLB-8",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020956",
+        "standard_time_display": "2026-11-02 04:56 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "4 SW West Melbourne",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo on social media shows approximately 6-8\" of standing water on a road near Emerson Dr NW and Jupiter Blvd NW in Palm Bay."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7,
+          28.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-9",
+      "properties": {
+        "report_id": "iem-lsr-MLB-9",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611021146",
+        "standard_time_display": "2026-11-02 06:46 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 NW Melbourne Village",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Law Enforcement",
+        "event_narrative": "Melbourne PD has reported a road closure near Sarno Rd & Eau Gallie Blvd due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.69,
+          28.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-10",
+      "properties": {
+        "report_id": "iem-lsr-MLB-10",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611021206",
+        "standard_time_display": "2026-11-02 07:06 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "3 NE Palm Bay",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Trained spotter reported flooding near Nebraska St NE & Rome Ave NE. Two vehicles are stalled in the water."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.63,
+          28.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MLB-11",
+      "properties": {
+        "report_id": "iem-lsr-MLB-11",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611021351",
+        "standard_time_display": "2026-11-02 08:51 EST",
+        "wfo": "MLB",
+        "county_or_zone": "Brevard",
+        "city": "West Melbourne",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Media reports a road closure at at Helen St & Minton Rd due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.67,
+          28.08
+        ]
+      }
+    }
+  ]
 }

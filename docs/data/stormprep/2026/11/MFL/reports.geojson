@@ -7,12 +7,117 @@
     "wfo": "MFL",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-01T15:59:22Z",
+    "generated_utc": "2026-11-02T19:27:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MFL&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-1",
+      "properties": {
+        "report_id": "iem-lsr-MFL-1",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011700",
+        "standard_time_display": "2026-11-01 12:00 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Miami-Dade",
+        "city": "1 W Perrine",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Broadcast media reported street flooding in Palmetto Bay from persistent showers and thunderstorms. Nearby rainfall observations indicated a little over 4 inches of rain fell during the late morning and midday time frame."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.33,
+          25.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-2",
+      "properties": {
+        "report_id": "iem-lsr-MFL-2",
+        "report_type": "MARINE TSTM WIND",
+        "event_category": "marine",
+        "valid_utc": "202611011742",
+        "standard_time_display": "2026-11-01 12:42 EST",
+        "wfo": "MFL",
+        "county_or_zone": "AMZ610",
+        "city": "8 E Lakeport",
+        "state": "FL",
+        "magnitude": 48.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "West End Lake Okeechobee Mesonet measured 41 kts or 48 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.01,
+          26.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-3",
+      "properties": {
+        "report_id": "iem-lsr-MFL-3",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020040",
+        "standard_time_display": "2026-11-01 19:40 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Palm Beach",
+        "city": "3 N Haverhill",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Picture received via social media of water at the doors of a home in the area of Military Trail and Shenandoah Drive in West Palm Beach."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.11,
+          26.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-MFL-4",
+      "properties": {
+        "report_id": "iem-lsr-MFL-4",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020105",
+        "standard_time_display": "2026-11-01 20:05 EST",
+        "wfo": "MFL",
+        "county_or_zone": "Palm Beach",
+        "city": "3 SW Palm Beach Gardens",
+        "state": "FL",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Off-duty emergency manager reports water entering homes in the area of Northlake Blvd and the Florida Turnpike in Palm Beach Gardens."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.13,
+          26.81
+        ]
+      }
+    }
+  ]
 }

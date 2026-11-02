@@ -7,12 +7,65 @@
     "wfo": "LCH",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-01T15:59:13Z",
+    "generated_utc": "2026-11-02T19:27:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LCH&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LCH-1",
+      "properties": {
+        "report_id": "iem-lsr-LCH-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611010904",
+        "standard_time_display": "2026-11-01 03:04 CST",
+        "wfo": "LCH",
+        "county_or_zone": "Evangeline",
+        "city": "5 NE Pine Prairie",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Photo received of water approaching homes in Bayou Chicot. Video of an impassible roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.35,
+          30.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LCH-2",
+      "properties": {
+        "report_id": "iem-lsr-LCH-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011246",
+        "standard_time_display": "2026-11-01 06:46 CST",
+        "wfo": "LCH",
+        "county_or_zone": "Evangeline",
+        "city": "5 E Pine Prairie",
+        "state": "LA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Social media video shows Stage Coach Rd impassable at Bayou Chicot with water flowing over roadway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.34,
+          30.81
+        ]
+      }
+    }
+  ]
 }
