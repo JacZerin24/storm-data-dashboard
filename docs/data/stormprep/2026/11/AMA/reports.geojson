@@ -7,7 +7,7 @@
     "wfo": "AMA",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:26:37Z",
+    "generated_utc": "2026-11-03T16:59:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -20,6 +20,32 @@
       "id": "iem-lsr-AMA-1",
       "properties": {
         "report_id": "iem-lsr-AMA-1",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202611020459",
+        "standard_time_display": "2026-11-01 21:59 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Cimarron",
+        "city": "Keyes",
+        "state": "OK",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "NWS Storm Survey",
+        "event_narrative": "A tornado carved a narrow southwest-to-northeast path through Keyes_ beginning near Phillips Avenue and dissipating past Monroe Avenue. Along the way_ it shifted an anchored mobile home_ hurled an empty grain silo roughly 100 yards_ and snapped utility poles and trees. The most severe destruction occurred near Polk Street_ collapsing an old pool hall and tearing the roof and an exterior wall off an adjacent building. Because the majority of the structural damage impacted older_ less sturdy buildings_ the tornado received a lower rating. Tornado is rated EF1 with max winds rated around 100 mph."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.26,
+          36.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-2",
+      "properties": {
+        "report_id": "iem-lsr-AMA-2",
         "report_type": "TSTM WND GST",
         "event_category": "thunderstorm_wind",
         "valid_utc": "202611020610",
@@ -38,6 +64,110 @@
         "coordinates": [
           -101.96,
           35.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-3",
+      "properties": {
+        "report_id": "iem-lsr-AMA-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611021958",
+        "standard_time_display": "2026-11-02 13:58 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Potter",
+        "city": "6 E Amarillo",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.72,
+          35.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-4",
+      "properties": {
+        "report_id": "iem-lsr-AMA-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611022340",
+        "standard_time_display": "2026-11-02 16:40 MST",
+        "wfo": "AMA",
+        "county_or_zone": "Sherman",
+        "city": "4 W Stratford",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.13,
+          36.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-5",
+      "properties": {
+        "report_id": "iem-lsr-AMA-5",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611030109",
+        "standard_time_display": "2026-11-02 19:09 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Moore",
+        "city": "3 SE Dumas",
+        "state": "TX",
+        "magnitude": 64.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "The initial severe wind gust at the mesonet site occurred at 1904 CST. The peak gust of 64 mph occurred at 1909 CST. Severe wind gust continued intermittently until 1925 CST."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.92,
+          35.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AMA-6",
+      "properties": {
+        "report_id": "iem-lsr-AMA-6",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611030144",
+        "standard_time_display": "2026-11-02 19:44 CST",
+        "wfo": "AMA",
+        "county_or_zone": "Moore",
+        "city": "2 W Fritch",
+        "state": "TX",
+        "magnitude": 58.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.62,
+          35.65
         ]
       }
     }

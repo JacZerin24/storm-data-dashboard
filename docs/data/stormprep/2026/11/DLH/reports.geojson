@@ -7,12 +7,65 @@
     "wfo": "DLH",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:26:54Z",
+    "generated_utc": "2026-11-03T17:00:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-1",
+      "properties": {
+        "report_id": "iem-lsr-DLH-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030525",
+        "standard_time_display": "2026-11-02 23:25 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Lake",
+        "city": "Two Harbors",
+        "state": "MN",
+        "magnitude": 1.67,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Trained spotter LK121. Rainfall amount so far today through 1125 PM CDT. The period of the Rain report was 18 hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.67,
+          47.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DLH-2",
+      "properties": {
+        "report_id": "iem-lsr-DLH-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611031235",
+        "standard_time_display": "2026-11-03 06:35 CST",
+        "wfo": "DLH",
+        "county_or_zone": "Itasca",
+        "city": "12 N Grand Rapids",
+        "state": "MN",
+        "magnitude": 2.62,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Light rain was still occurring at the time of report."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.52,
+          47.4
+        ]
+      }
+    }
+  ]
 }

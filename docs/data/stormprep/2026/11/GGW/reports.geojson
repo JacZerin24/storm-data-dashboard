@@ -7,12 +7,143 @@
     "wfo": "GGW",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:27:05Z",
+    "generated_utc": "2026-11-03T17:00:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GGW&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-1",
+      "properties": {
+        "report_id": "iem-lsr-GGW-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030336",
+        "standard_time_display": "2026-11-02 20:36 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Wibaux",
+        "city": "11 SE Burns",
+        "state": "MT",
+        "magnitude": 1.87,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Report from Montana Mesonet station Cottonwood (CTTM8)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.25,
+          47.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-2",
+      "properties": {
+        "report_id": "iem-lsr-GGW-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030339",
+        "standard_time_display": "2026-11-02 20:39 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Dawson",
+        "city": "14 S Glendive",
+        "state": "MT",
+        "magnitude": 1.86,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Report from Montana Mesonet station Cedar Creek GA (CDCM8)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.62,
+          46.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-3",
+      "properties": {
+        "report_id": "iem-lsr-GGW-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030344",
+        "standard_time_display": "2026-11-02 20:44 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Dawson",
+        "city": "Lindsay",
+        "state": "MT",
+        "magnitude": 1.65,
+        "magnitude_units": null,
+        "source": "Co-Op Observer",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15,
+          47.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-4",
+      "properties": {
+        "report_id": "iem-lsr-GGW-4",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030345",
+        "standard_time_display": "2026-11-02 20:45 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Dawson",
+        "city": "Hoyt",
+        "state": "MT",
+        "magnitude": 1.61,
+        "magnitude_units": null,
+        "source": "Co-Op Observer",
+        "event_narrative": "Through 7 am this morning."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.86,
+          46.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GGW-5",
+      "properties": {
+        "report_id": "iem-lsr-GGW-5",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030349",
+        "standard_time_display": "2026-11-02 20:49 MST",
+        "wfo": "GGW",
+        "county_or_zone": "Dawson",
+        "city": "5 NE Hoyt",
+        "state": "MT",
+        "magnitude": 1.55,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79,
+          46.98
+        ]
+      }
+    }
+  ]
 }

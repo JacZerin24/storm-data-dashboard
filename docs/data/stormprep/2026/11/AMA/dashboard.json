@@ -6,7 +6,7 @@
     "wfo": "AMA",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:26:37Z",
+    "generated_utc": "2026-11-03T16:59:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,15 @@
     "year": 2026,
     "month": 11,
     "wfo": "AMA",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 5,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
+      "NON-TSTM WND GST": 4,
+      "TORNADO": 1,
       "TSTM WND GST": 1
     },
     "nws_api_alert_count": 0,
@@ -30,7 +33,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,11 +46,34 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=AMA&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
       "report_id": "iem-lsr-AMA-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611020459",
+      "standard_time_display": "2026-11-01 21:59 MST",
+      "standard_time_zone": "MST",
+      "wfo": "AMA",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Keyes",
+      "county": "Cimarron",
+      "state": "OK",
+      "source": "NWS Storm Survey",
+      "remark": "A tornado carved a narrow southwest-to-northeast path through Keyes_ beginning near Phillips Avenue and dissipating past Monroe Avenue. Along the way_ it shifted an anchored mobile home_ hurled an empty grain silo roughly 100 yards_ and snapped utility poles and trees. The most severe destruction occurred near Polk Street_ collapsing an old pool hall and tearing the roof and an exterior wall off an adjacent building. Because the majority of the structural damage impacted older_ less sturdy buildings_ the tornado received a lower rating. Tornado is rated EF1 with max winds rated around 100 mph.",
+      "lat": 36.81,
+      "lon": -102.26,
+      "ugc": "OKC025",
+      "ugc_name": "Cimarron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-2",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611020610",
       "standard_time_display": "2026-11-02 00:10 CST",
@@ -66,6 +93,94 @@
       "ugc": "TXC341",
       "ugc_name": "Moore",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611021958",
+      "standard_time_display": "2026-11-02 13:58 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "6 E Amarillo",
+      "county": "Potter",
+      "state": "TX",
+      "source": "ASOS/AWOS",
+      "remark": "&&",
+      "lat": 35.22,
+      "lon": -101.72,
+      "ugc": "TXC375",
+      "ugc_name": "Potter",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611022340",
+      "standard_time_display": "2026-11-02 16:40 MST",
+      "standard_time_zone": "MST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "4 W Stratford",
+      "county": "Sherman",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "&&",
+      "lat": 36.36,
+      "lon": -102.13,
+      "ugc": "TXC421",
+      "ugc_name": "Sherman",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611030109",
+      "standard_time_display": "2026-11-02 19:09 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 64.0,
+      "magnitude_qualifier": null,
+      "city": "3 SE Dumas",
+      "county": "Moore",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "The initial severe wind gust at the mesonet site occurred at 1904 CST. The peak gust of 64 mph occurred at 1909 CST. Severe wind gust continued intermittently until 1925 CST.",
+      "lat": 35.83,
+      "lon": -101.92,
+      "ugc": "TXC341",
+      "ugc_name": "Moore",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-AMA-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611030144",
+      "standard_time_display": "2026-11-02 19:44 CST",
+      "standard_time_zone": "CST",
+      "wfo": "AMA",
+      "report_type": "NON-TSTM WND GST",
+      "event_category": "thunderstorm_wind",
+      "magnitude": 58.0,
+      "magnitude_qualifier": null,
+      "city": "2 W Fritch",
+      "county": "Moore",
+      "state": "TX",
+      "source": "Mesonet",
+      "remark": "&&",
+      "lat": 35.65,
+      "lon": -101.62,
+      "ugc": "TXC341",
+      "ugc_name": "Moore",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AMA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +189,7 @@
       "wfo": "AMA",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-02T19:26:37Z"
+      "generated_utc": "2026-11-03T17:00:00Z"
     },
     "primary_links": [
       {

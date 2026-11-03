@@ -7,12 +7,39 @@
     "wfo": "DVN",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:26:57Z",
+    "generated_utc": "2026-11-03T17:00:32Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DVN&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-DVN-1",
+      "properties": {
+        "report_id": "iem-lsr-DVN-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611030915",
+        "standard_time_display": "2026-11-03 03:15 CST",
+        "wfo": "DVN",
+        "county_or_zone": "Linn",
+        "city": "2 N Cedar Rapids",
+        "state": "IA",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.66,
+          42.01
+        ]
+      }
+    }
+  ]
 }

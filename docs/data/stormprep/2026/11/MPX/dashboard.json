@@ -6,7 +6,7 @@
     "wfo": "MPX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:27:39Z",
+    "generated_utc": "2026-11-03T17:01:08Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 11,
     "wfo": "MPX",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "other": 1
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,37 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MPX&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-MPX-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611031249",
+      "standard_time_display": "2026-11-03 06:49 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MPX",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.6,
+      "magnitude_qualifier": null,
+      "city": "3 S Evansville",
+      "county": "Douglas",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "&&",
+      "lat": 45.96,
+      "lon": -95.69,
+      "ugc": "MNC041",
+      "ugc_name": "Douglas",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MPX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "MPX",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-02T19:27:39Z"
+      "generated_utc": "2026-11-03T17:01:09Z"
     },
     "primary_links": [
       {

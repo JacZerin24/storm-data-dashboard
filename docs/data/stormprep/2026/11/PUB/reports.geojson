@@ -7,12 +7,117 @@
     "wfo": "PUB",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:27:55Z",
+    "generated_utc": "2026-11-03T17:01:22Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PUB&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-1",
+      "properties": {
+        "report_id": "iem-lsr-PUB-1",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020500",
+        "standard_time_display": "2026-11-01 22:00 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Mineral",
+        "city": "8 NE Wolf Creek Pass",
+        "state": "CO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Major flooding occurred along the South Fork Rio Grande river at the location. Two houses were lost to the flood waters."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.74,
+          37.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-2",
+      "properties": {
+        "report_id": "iem-lsr-PUB-2",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611021611",
+        "standard_time_display": "2026-11-02 09:11 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Mineral",
+        "city": "1 SE Wolf Creek Pass",
+        "state": "CO",
+        "magnitude": 13.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "48 hour storm total snow of 13 inches at Wolf Creek Ski area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.79,
+          37.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-3",
+      "properties": {
+        "report_id": "iem-lsr-PUB-3",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611022256",
+        "standard_time_display": "2026-11-02 15:56 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Prowers",
+        "city": "12 NE Two Buttes",
+        "state": "CO",
+        "magnitude": 1.8,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Rain fell in about 15 minutes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.25,
+          37.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-4",
+      "properties": {
+        "report_id": "iem-lsr-PUB-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611030343",
+        "standard_time_display": "2026-11-02 20:43 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Baca",
+        "city": "9 S Springfield",
+        "state": "CO",
+        "magnitude": 61.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "KSPD measured wind gust."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.62,
+          37.28
+        ]
+      }
+    }
+  ]
 }

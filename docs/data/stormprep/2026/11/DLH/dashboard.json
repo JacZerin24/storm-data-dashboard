@@ -6,7 +6,7 @@
     "wfo": "DLH",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-02T19:26:54Z",
+    "generated_utc": "2026-11-03T17:00:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,14 @@
     "year": 2026,
     "month": 11,
     "wfo": "DLH",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
+    "candidate_report_counts": {
+      "other": 2
+    },
+    "candidate_report_type_counts": {
+      "RAIN": 2
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +44,59 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=DLH&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-DLH-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611030525",
+      "standard_time_display": "2026-11-02 23:25 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.67,
+      "magnitude_qualifier": null,
+      "city": "Two Harbors",
+      "county": "Lake",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "Trained spotter LK121. Rainfall amount so far today through 1125 PM CDT. The period of the Rain report was 18 hours.",
+      "lat": 47.03,
+      "lon": -91.67,
+      "ugc": "MNC075",
+      "ugc_name": "Lake",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-DLH-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611031235",
+      "standard_time_display": "2026-11-03 06:35 CST",
+      "standard_time_zone": "CST",
+      "wfo": "DLH",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 2.62,
+      "magnitude_qualifier": null,
+      "city": "12 N Grand Rapids",
+      "county": "Itasca",
+      "state": "MN",
+      "source": "Trained Spotter",
+      "remark": "Light rain was still occurring at the time of report.",
+      "lat": 47.4,
+      "lon": -93.52,
+      "ugc": "MNC061",
+      "ugc_name": "Itasca",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=DLH&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "DLH",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-02T19:26:55Z"
+      "generated_utc": "2026-11-03T17:00:29Z"
     },
     "primary_links": [
       {
