@@ -7,12 +7,221 @@
     "wfo": "PSR",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-03T17:01:21Z",
+    "generated_utc": "2026-11-04T17:11:53Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PSR&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-1",
+      "properties": {
+        "report_id": "iem-lsr-PSR-1",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011612",
+        "standard_time_display": "2026-11-01 09:12 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "5 E Carefree",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "*** DELAYED REPORT *** At 9:12 AM MCDOT reported Bartlett Dam Rd was closed from Cave Creek Rd to N Lake Rd due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83,
+          33.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-2",
+      "properties": {
+        "report_id": "iem-lsr-PSR-2",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611011836",
+        "standard_time_display": "2026-11-01 11:36 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Pinal",
+        "city": "2 N Florence Junction",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "*** DELAYED REPORT *** Silver King Rd close from El Camino Viejo to Jay St due to flooding from Queen Creek Wash."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.33,
+          33.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-3",
+      "properties": {
+        "report_id": "iem-lsr-PSR-3",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611012000",
+        "standard_time_display": "2026-11-01 13:00 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "2 SE Scottsdale",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "*** DELAYED REPORT *** Roads closed around El Dorado Park in Scottsdale due to flooding from Indian Bend Wash."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91,
+          33.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-4",
+      "properties": {
+        "report_id": "iem-lsr-PSR-4",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611012323",
+        "standard_time_display": "2026-11-01 16:23 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "3 NW Mesa",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "*** DELAYED REPORT *** Road closed due to flooding at E McKellips Rd and Longmore Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87,
+          33.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-5",
+      "properties": {
+        "report_id": "iem-lsr-PSR-5",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020116",
+        "standard_time_display": "2026-11-01 18:16 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "3 NW Mesa",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "*** DELAYED REPORT *** McKellips Rd closed between Alma School Rd and SR 202 due to flooding along the Salt River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.85,
+          33.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-6",
+      "properties": {
+        "report_id": "iem-lsr-PSR-6",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020252",
+        "standard_time_display": "2026-11-01 19:52 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Gila",
+        "city": "13 N Miami",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "*** DELAYED REPORT *** Section of SR288 closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.95,
+          33.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-7",
+      "properties": {
+        "report_id": "iem-lsr-PSR-7",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020347",
+        "standard_time_display": "2026-11-01 20:47 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "15 N Tonopah",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "*** DELAYED REPORT *** Intersection of Vulture Mine Rd and Aquila Rd closed due to flooding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.88,
+          33.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PSR-8",
+      "properties": {
+        "report_id": "iem-lsr-PSR-8",
+        "report_type": "FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611020416",
+        "standard_time_display": "2026-11-01 21:16 MST",
+        "wfo": "PSR",
+        "county_or_zone": "Maricopa",
+        "city": "9 NE Tonopah",
+        "state": "AZ",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "County Official",
+        "event_narrative": "*** DELAYED REPORT *** Wickenburg Rd closed at MP 17 due to flooding along the CAP canal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.82,
+          33.59
+        ]
+      }
+    }
+  ]
 }

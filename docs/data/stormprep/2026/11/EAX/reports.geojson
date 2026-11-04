@@ -7,12 +7,39 @@
     "wfo": "EAX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-03T17:00:33Z",
+    "generated_utc": "2026-11-04T17:10:58Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EAX-1",
+      "properties": {
+        "report_id": "iem-lsr-EAX-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611031610",
+        "standard_time_display": "2026-11-03 10:10 CST",
+        "wfo": "EAX",
+        "county_or_zone": "Randolph",
+        "city": "4 S Renick",
+        "state": "MO",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Emergency Manager",
+        "event_narrative": "Barn damaged and trees topped."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          39.29
+        ]
+      }
+    }
+  ]
 }

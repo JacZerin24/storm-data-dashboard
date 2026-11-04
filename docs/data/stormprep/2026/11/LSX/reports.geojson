@@ -7,12 +7,65 @@
     "wfo": "LSX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-03T17:00:59Z",
+    "generated_utc": "2026-11-04T17:11:28Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LSX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LSX-1",
+      "properties": {
+        "report_id": "iem-lsr-LSX-1",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611040249",
+        "standard_time_display": "2026-11-03 20:49 CST",
+        "wfo": "LSX",
+        "county_or_zone": "St. Louis",
+        "city": "2 SE Fenton",
+        "state": "MO",
+        "magnitude": 1.18,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": "Since midnight."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.44,
+          38.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LSX-2",
+      "properties": {
+        "report_id": "iem-lsr-LSX-2",
+        "report_type": "RAIN",
+        "event_category": "other",
+        "valid_utc": "202611040430",
+        "standard_time_display": "2026-11-03 22:30 CST",
+        "wfo": "LSX",
+        "county_or_zone": "St. Louis",
+        "city": "1 E Jennings",
+        "state": "MO",
+        "magnitude": 1.21,
+        "magnitude_units": null,
+        "source": "Trained Spotter",
+        "event_narrative": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25,
+          38.72
+        ]
+      }
+    }
+  ]
 }

@@ -7,12 +7,65 @@
     "wfo": "FSD",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-03T17:00:38Z",
+    "generated_utc": "2026-11-04T17:11:03Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=FSD&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-1",
+      "properties": {
+        "report_id": "iem-lsr-FSD-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611022058",
+        "standard_time_display": "2026-11-02 14:58 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Lake",
+        "city": "1 SW Madison",
+        "state": "SD",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Roof damage to an industrial building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13,
+          44.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-FSD-2",
+      "properties": {
+        "report_id": "iem-lsr-FSD-2",
+        "report_type": "TORNADO",
+        "event_category": "tornado",
+        "valid_utc": "202611022108",
+        "standard_time_display": "2026-11-02 15:08 CST",
+        "wfo": "FSD",
+        "county_or_zone": "Lake",
+        "city": "6 S Nunda",
+        "state": "SD",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Brief touchdown."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.05,
+          44.08
+        ]
+      }
+    }
+  ]
 }
