@@ -6,7 +6,7 @@
     "wfo": "TSA",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-04T17:12:08Z",
+    "generated_utc": "2026-11-05T17:22:29Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,14 @@
     "year": 2026,
     "month": 11,
     "wfo": "TSA",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 5,
+    "mapped_candidate_reports": 5,
     "candidate_report_counts": {
       "thunderstorm_wind": 2,
-      "tornado": 2
+      "tornado": 3
     },
     "candidate_report_type_counts": {
-      "TORNADO": 2,
+      "TORNADO": 3,
       "TSTM WND DMG": 2
     },
     "nws_api_alert_count": 0,
@@ -136,6 +136,28 @@
       "ugc": "OKC023",
       "ugc_name": "Choctaw",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-TSA-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611030816",
+      "standard_time_display": "2026-11-03 02:16 CST",
+      "standard_time_zone": "CST",
+      "wfo": "TSA",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 NW Cedarville",
+      "county": "Crawford",
+      "state": "AR",
+      "source": "NWS Storm Survey",
+      "remark": "A tornado uprooted numerous trees_ snapped the trunks of a couple trees_ and snapped numerous large tree limbs. The tornado produced a tornadic debris signature from the KSRX WSR-88D_ and was rated EF-1 based on the damage it produced.",
+      "lat": 35.58,
+      "lon": -94.4,
+      "ugc": "ARC033",
+      "ugc_name": "Crawford",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=TSA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -144,7 +166,7 @@
       "wfo": "TSA",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-04T17:12:08Z"
+      "generated_utc": "2026-11-05T17:22:30Z"
     },
     "primary_links": [
       {
