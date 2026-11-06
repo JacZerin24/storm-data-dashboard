@@ -6,7 +6,7 @@
     "wfo": "KEY",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-05T17:21:40Z",
+    "generated_utc": "2026-11-06T16:44:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,16 +17,21 @@
     "year": 2026,
     "month": 11,
     "wfo": "KEY",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 1,
+    "mapped_candidate_reports": 1,
+    "candidate_report_counts": {
+      "tornado": 1
+    },
+    "candidate_report_type_counts": {
+      "WATERSPOUT": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=KEY&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -38,16 +43,40 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=KEY&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-KEY-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611052219",
+      "standard_time_display": "2026-11-05 17:19 EST",
+      "standard_time_zone": "EST",
+      "wfo": "KEY",
+      "report_type": "WATERSPOUT",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 SW Key West",
+      "county": "GMZ044",
+      "state": "FL",
+      "source": "Public",
+      "remark": "A member of the public reported a waterspout that had occurred around 5:19 PM EST via social media. The waterspout was associated with a cloud line_ and occurred to the southwest of Higgs Beach. The photo with the report showed a very skinny condensation funnel that extended approximately 1/4 of the way to the surface from the cloud base at a 45-degree angle. There was no spray ring visible. The waterspout was reported to have lasted a few minutes.",
+      "lat": 24.51,
+      "lon": -81.81,
+      "ugc": "GMZ044",
+      "ugc_name": "Hawk Channel from west end of Seven Mile Bridge to Halfmoon Shoal out to the reef",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=KEY&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "KEY",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-05T17:21:40Z"
+      "generated_utc": "2026-11-06T16:44:35Z"
     },
     "primary_links": [
       {
