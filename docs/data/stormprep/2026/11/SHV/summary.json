@@ -3,14 +3,16 @@
   "year": 2026,
   "month": 11,
   "wfo": "SHV",
-  "total_candidate_reports": 7,
-  "mapped_candidate_reports": 7,
+  "total_candidate_reports": 9,
+  "mapped_candidate_reports": 9,
   "candidate_report_counts": {
     "flooding": 3,
-    "thunderstorm_wind": 4
+    "thunderstorm_wind": 4,
+    "tornado": 2
   },
   "candidate_report_type_counts": {
     "FLASH FLOOD": 3,
+    "TORNADO": 2,
     "TSTM WND DMG": 4
   },
   "nws_api_alert_count": 0,
@@ -18,6 +20,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SHV&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

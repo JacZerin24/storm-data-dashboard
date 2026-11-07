@@ -7,12 +7,65 @@
     "wfo": "RAH",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-06T16:45:05Z",
+    "generated_utc": "2026-11-07T15:39:38Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=RAH&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-1",
+      "properties": {
+        "report_id": "iem-lsr-RAH-1",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611061606",
+        "standard_time_display": "2026-11-06 11:06 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Wake",
+        "city": "3 N Cary",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Streamgage on NW Cary Parkway near Nowell Blvd reached moderate flood stage of 5.1 ft."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.78,
+          35.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-RAH-2",
+      "properties": {
+        "report_id": "iem-lsr-RAH-2",
+        "report_type": "FLASH FLOOD",
+        "event_category": "flooding",
+        "valid_utc": "202611061618",
+        "standard_time_display": "2026-11-06 11:18 EST",
+        "wfo": "RAH",
+        "county_or_zone": "Wake",
+        "city": "4 E Cary",
+        "state": "NC",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Two vehicles stuck in flood waters on 600 block of Nowell Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.73,
+          35.79
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "SHV",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-06T16:45:10Z",
+    "generated_utc": "2026-11-07T15:39:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 11,
     "wfo": "SHV",
-    "total_candidate_reports": 7,
-    "mapped_candidate_reports": 7,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
       "flooding": 3,
-      "thunderstorm_wind": 4
+      "thunderstorm_wind": 4,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
       "FLASH FLOOD": 3,
+      "TORNADO": 2,
       "TSTM WND DMG": 4
     },
     "nws_api_alert_count": 0,
@@ -32,7 +34,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SHV&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +47,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=SHV&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -72,6 +76,50 @@
     {
       "report_id": "iem-lsr-SHV-2",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611031617",
+      "standard_time_display": "2026-11-03 10:17 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SHV",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 E Oil City",
+      "county": "Caddo",
+      "state": "LA",
+      "source": "NWS Storm Survey",
+      "remark": "This EF-0 tornado_ with peak winds of 75 mph and a peak width of 50 yards_ began near the Texas and Louisiana border to the west of Mooringsport_ LA on Parish Road 136 between the Black Bayou and Highway 49. The tornado did mainly tree damage along the roughly one and three-quarter mile track length_ ending just to the west of Interstate 49 in Caddo Parish_ LA. The period of the Tornado report was 1 minute.",
+      "lat": 32.73,
+      "lon": -93.91,
+      "ugc": "LAC017",
+      "ugc_name": "Caddo",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SHV-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611031721",
+      "standard_time_display": "2026-11-03 11:21 CST",
+      "standard_time_zone": "CST",
+      "wfo": "SHV",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "7 W Keachi",
+      "county": "De Soto",
+      "state": "LA",
+      "source": "Public",
+      "remark": "An EF-0 tornado_ with peak winds of 75 mph and a peak width of 150 yards_ began just south of Holmes Road in far northwestern DeSoto Parish in a rural and wooded area. It then continued northeastward in a predominantly rural area_ crossing into far southwestern Caddo Parish and ending just west of Four Forks Road and south of the Four Forks community. Despite the radar showing a few tornadic debris signatures_ the damage was confined to relatively light tree damage with no tree snaps or uproots. The period of the Tornado report was 6 minutes.",
+      "lat": 32.18,
+      "lon": -94.03,
+      "ugc": "LAC031",
+      "ugc_name": "De Soto",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-SHV-4",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031815",
       "standard_time_display": "2026-11-03 12:15 CST",
       "standard_time_zone": "CST",
@@ -92,7 +140,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-3",
+      "report_id": "iem-lsr-SHV-5",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031831",
       "standard_time_display": "2026-11-03 12:31 CST",
@@ -114,7 +162,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-4",
+      "report_id": "iem-lsr-SHV-6",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031848",
       "standard_time_display": "2026-11-03 12:48 CST",
@@ -136,7 +184,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-5",
+      "report_id": "iem-lsr-SHV-7",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031850",
       "standard_time_display": "2026-11-03 12:50 CST",
@@ -158,7 +206,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-6",
+      "report_id": "iem-lsr-SHV-8",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031908",
       "standard_time_display": "2026-11-03 13:08 CST",
@@ -180,7 +228,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=SHV&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-SHV-7",
+      "report_id": "iem-lsr-SHV-9",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611031920",
       "standard_time_display": "2026-11-03 13:20 CST",
@@ -208,7 +256,7 @@
       "wfo": "SHV",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-06T16:45:11Z"
+      "generated_utc": "2026-11-07T15:39:45Z"
     },
     "primary_links": [
       {
