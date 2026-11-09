@@ -6,7 +6,7 @@
     "wfo": "BRO",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-08T15:56:17Z",
+    "generated_utc": "2026-11-09T19:45:23Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,10 +17,15 @@
     "year": 2026,
     "month": 11,
     "wfo": "BRO",
-    "total_candidate_reports": 0,
-    "mapped_candidate_reports": 0,
-    "candidate_report_counts": {},
-    "candidate_report_type_counts": {},
+    "total_candidate_reports": 3,
+    "mapped_candidate_reports": 3,
+    "candidate_report_counts": {
+      "flooding": 3
+    },
+    "candidate_report_type_counts": {
+      "FLASH FLOOD": 2,
+      "FLOOD": 1
+    },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
     "tornado_track_count": 0,
@@ -40,14 +45,81 @@
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BRO&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ],
-  "candidate_reports": [],
+  "candidate_reports": [
+    {
+      "report_id": "iem-lsr-BRO-1",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611081700",
+      "standard_time_display": "2026-11-08 11:00 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Brownsville",
+      "county": "Cameron",
+      "state": "TX",
+      "source": "NWS Employee",
+      "remark": "Report accompanied by video of flooded streets relayed by NWS employee in downtown Brownsville at the intersection of 12th St near Polk/Taylor.",
+      "lat": 25.9,
+      "lon": -97.5,
+      "ugc": "TXC061",
+      "ugc_name": "Cameron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BRO-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611081715",
+      "standard_time_display": "2026-11-08 11:15 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 SW Brownsville",
+      "county": "Cameron",
+      "state": "TX",
+      "source": "NWS Employee",
+      "remark": "Report accompanied by video of flooded streets relayed by NWS employee in downtown Brownsville at the intersection of 12th St near Polk/Taylor.",
+      "lat": 25.9,
+      "lon": -97.5,
+      "ugc": "TXC061",
+      "ugc_name": "Cameron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-BRO-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611081840",
+      "standard_time_display": "2026-11-08 12:40 CST",
+      "standard_time_zone": "CST",
+      "wfo": "BRO",
+      "report_type": "FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 N Rancho Viejo",
+      "county": "Cameron",
+      "state": "TX",
+      "source": "Trained Spotter",
+      "remark": "CoCoRaHS observer (CMR-01) reported 4.05 inches of rainfall in Rancho Viejo from this morning. Photos showed flooded golf courses and low-lying areas.",
+      "lat": 26.04,
+      "lon": -97.56,
+      "ugc": "TXC061",
+      "ugc_name": "Cameron",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BRO&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    }
+  ],
   "product_collections": {
     "metadata": {
       "schema_version": "0.2.4",
       "wfo": "BRO",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-08T15:56:17Z"
+      "generated_utc": "2026-11-09T19:45:23Z"
     },
     "primary_links": [
       {
