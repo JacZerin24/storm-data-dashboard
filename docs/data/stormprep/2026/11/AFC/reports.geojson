@@ -7,12 +7,169 @@
     "wfo": "AFC",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-10T16:59:56Z",
+    "generated_utc": "2026-11-11T17:03:55Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=AFC&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-1",
+      "properties": {
+        "report_id": "iem-lsr-AFC-1",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611101032",
+        "standard_time_display": "2026-11-10 01:32 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "Cordova",
+        "state": "AK",
+        "magnitude": 92.0,
+        "magnitude_units": null,
+        "source": "C-MAN Station",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.77,
+          60.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-2",
+      "properties": {
+        "report_id": "iem-lsr-AFC-2",
+        "report_type": "FREEZING RAIN",
+        "event_category": "other",
+        "valid_utc": "202611101500",
+        "standard_time_display": "2026-11-10 06:00 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "Glenn Hwy Weigh Station",
+        "state": "AK",
+        "magnitude": 0.0001,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Public report of a jack-knifed rig near Glenn Highway weigh station. News media reports that by 9 AM_ Anchorage Police Department had received 22 car crash reports_ including one that resulted in non-life-threatening injuries."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6,
+          61.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-3",
+      "properties": {
+        "report_id": "iem-lsr-AFC-3",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611101545",
+        "standard_time_display": "2026-11-10 06:45 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Anchorage",
+        "city": "4 W Whittier",
+        "state": "AK",
+        "magnitude": 60.0,
+        "magnitude_units": null,
+        "source": "ASOS/AWOS",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.83,
+          60.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-4",
+      "properties": {
+        "report_id": "iem-lsr-AFC-4",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611101642",
+        "standard_time_display": "2026-11-10 07:42 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "PKZ723",
+        "city": "Whittier",
+        "state": "AK",
+        "magnitude": 62.0,
+        "magnitude_units": null,
+        "source": "C-MAN Station",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.68,
+          60.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-5",
+      "properties": {
+        "report_id": "iem-lsr-AFC-5",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611102005",
+        "standard_time_display": "2026-11-10 11:05 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "5 NE Thompson Pass",
+        "state": "AK",
+        "magnitude": 32.0,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "28 to 32 inches of snow reported between mile markers 30-35 on the Richardson Highway."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.63,
+          61.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-AFC-6",
+      "properties": {
+        "report_id": "iem-lsr-AFC-6",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611102007",
+        "standard_time_display": "2026-11-10 11:07 AKST",
+        "wfo": "AFC",
+        "county_or_zone": "Chugach",
+        "city": "Thompson Pass",
+        "state": "AK",
+        "magnitude": 24.0,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "24 inches of snow reported between miles markers 24 and 29 on the Richardson Highway. Winds of 50 mph caused blowing snow and limited visibilities_ especially between 10 PM and 3 AM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.71,
+          61.16
+        ]
+      }
+    }
+  ]
 }
