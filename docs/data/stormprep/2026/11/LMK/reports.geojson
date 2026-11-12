@@ -7,12 +7,65 @@
     "wfo": "LMK",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-11T17:04:49Z",
+    "generated_utc": "2026-11-12T17:33:05Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=LMK&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LMK-1",
+      "properties": {
+        "report_id": "iem-lsr-LMK-1",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611120109",
+        "standard_time_display": "2026-11-11 19:09 CST",
+        "wfo": "LMK",
+        "county_or_zone": "Breckinridge",
+        "city": "3 NE Mcquady",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down in roadway at S Hwy 261 and Jack Monarch Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.48,
+          37.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-LMK-2",
+      "properties": {
+        "report_id": "iem-lsr-LMK-2",
+        "report_type": "TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611120317",
+        "standard_time_display": "2026-11-11 21:17 CST",
+        "wfo": "LMK",
+        "county_or_zone": "Barren",
+        "city": "3 SE Lecta",
+        "state": "KY",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "911 Call Center",
+        "event_narrative": "Tree down in roadway blocking both lanes near Bluff Springs Rd and New Salem Rd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.82,
+          36.98
+        ]
+      }
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     "wfo": "PHI",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-11T17:05:11Z",
+    "generated_utc": "2026-11-12T17:33:24Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,16 @@
     "year": 2026,
     "month": 11,
     "wfo": "PHI",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 11,
+    "mapped_candidate_reports": 11,
     "candidate_report_counts": {
-      "flooding": 8
+      "flooding": 10,
+      "other": 1
     },
     "candidate_report_type_counts": {
-      "FLASH FLOOD": 6,
-      "FLOOD": 2
+      "FLASH FLOOD": 8,
+      "FLOOD": 2,
+      "RAIN": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -221,6 +223,72 @@
       "ugc": "ANZ451",
       "ugc_name": "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 NM",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611121701",
+      "standard_time_display": "2026-11-12 12:01 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "RAIN",
+      "event_category": "other",
+      "magnitude": 1.27,
+      "magnitude_qualifier": null,
+      "city": "1 NW Port Monmouth",
+      "county": "Monmouth",
+      "state": "NJ",
+      "source": "Mesonet",
+      "remark": "&&",
+      "lat": 40.44,
+      "lon": -74.11,
+      "ugc": "NJC025",
+      "ugc_name": "Monmouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611121721",
+      "standard_time_display": "2026-11-12 12:21 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "1 NW Middletown Twp",
+      "county": "Monmouth",
+      "state": "NJ",
+      "source": "Department of Hig",
+      "remark": "Flooding on NJ 35 Southbound At CR 50/New Monmouth Rd (Middletown Twp)_ All lanes closed.",
+      "lat": 40.4,
+      "lon": -74.11,
+      "ugc": "NJC025",
+      "ugc_name": "Monmouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-PHI-11",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611121723",
+      "standard_time_display": "2026-11-12 12:23 EST",
+      "standard_time_zone": "EST",
+      "wfo": "PHI",
+      "report_type": "FLASH FLOOD",
+      "event_category": "flooding",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "Middletown Twp",
+      "county": "Monmouth",
+      "state": "NJ",
+      "source": "Department of Hig",
+      "remark": "Flooding on NJ 35 Northbound South of Kings Highway/Tindall Rd (Middletown Twp)_ All lanes closed.",
+      "lat": 40.39,
+      "lon": -74.1,
+      "ugc": "NJC025",
+      "ugc_name": "Monmouth",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PHI&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -229,7 +297,7 @@
       "wfo": "PHI",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-11T17:05:12Z"
+      "generated_utc": "2026-11-12T17:33:25Z"
     },
     "primary_links": [
       {

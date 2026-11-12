@@ -7,12 +7,117 @@
     "wfo": "PQR",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-11T17:05:15Z",
+    "generated_utc": "2026-11-12T17:33:27Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=PQR&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PQR-1",
+      "properties": {
+        "report_id": "iem-lsr-PQR-1",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202611081640",
+        "standard_time_display": "2026-11-08 08:40 PST",
+        "wfo": "PQR",
+        "county_or_zone": "PZZ273",
+        "city": "23 W Yaquina Head",
+        "state": "OR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Official NWS Obse",
+        "event_narrative": "Buoy 50 hit 24 ft at 17 seconds at 1640z on 11/8 with seas peaking at 27 ft at 16 seconds at 1910z on 11/8 with the last high surf warning observation being 25 ft at 17 seconds at 1940z on 11/8."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.53,
+          44.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PQR-2",
+      "properties": {
+        "report_id": "iem-lsr-PQR-2",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202611081800",
+        "standard_time_display": "2026-11-08 10:00 PST",
+        "wfo": "PQR",
+        "county_or_zone": "PZZ252",
+        "city": "2 W Garibaldi",
+        "state": "OR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "*** 1 INJ *** Time estimated. KOIN news had video of people getting hit by large wave sweeping over rocks into the parking lot at the north jetty of Tillamook Bay. The article mentioned that people were taken to a hospital to be treated for injuries_ but they did not specify how many people were injured."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.96,
+          45.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PQR-3",
+      "properties": {
+        "report_id": "iem-lsr-PQR-3",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202611081800",
+        "standard_time_display": "2026-11-08 10:00 PST",
+        "wfo": "PQR",
+        "county_or_zone": "Clatsop",
+        "city": "Cannon Beach",
+        "state": "OR",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Broadcast Media",
+        "event_narrative": "Time estimated. Youtube video of family getting caught in large wave at Cannon Beach access point and parents running through the water to grab their child who had been caught by the wave."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.96,
+          45.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PQR-4",
+      "properties": {
+        "report_id": "iem-lsr-PQR-4",
+        "report_type": "HIGH SURF",
+        "event_category": "marine",
+        "valid_utc": "202611081840",
+        "standard_time_display": "2026-11-08 10:40 PST",
+        "wfo": "PQR",
+        "county_or_zone": "PZZ271",
+        "city": "22 W Cape Disappointmen",
+        "state": "WA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Buoy 29 hit 25 ft at 16 seconds 1740z on 11/8."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.51,
+          46.15
+        ]
+      }
+    }
+  ]
 }
