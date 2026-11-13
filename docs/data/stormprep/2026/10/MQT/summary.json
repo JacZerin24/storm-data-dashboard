@@ -3,21 +3,22 @@
   "year": 2026,
   "month": 10,
   "wfo": "MQT",
-  "total_candidate_reports": 32,
-  "mapped_candidate_reports": 32,
+  "total_candidate_reports": 144,
+  "mapped_candidate_reports": 144,
   "candidate_report_counts": {
-    "hail": 4,
-    "thunderstorm_wind": 28
+    "hail": 5,
+    "other": 52,
+    "thunderstorm_wind": 87
   },
   "candidate_report_type_counts": {
-    "HAIL": 4,
-    "NON-TSTM WND GST": 28
+    "HAIL": 5,
+    "NON-TSTM WND GST": 87,
+    "RAIN": 52
   },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MQT&start=2026-10-01T00%3A00%3A00Z&end=2026-11-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ]
 }

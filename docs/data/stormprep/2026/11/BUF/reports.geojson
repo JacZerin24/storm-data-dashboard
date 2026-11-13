@@ -7,12 +7,65 @@
     "wfo": "BUF",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-12T17:32:29Z",
+    "generated_utc": "2026-11-13T17:09:34Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=BUF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-1",
+      "properties": {
+        "report_id": "iem-lsr-BUF-1",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131100",
+        "standard_time_display": "2026-11-13 06:00 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Lewis",
+        "city": "2 NW Constableville",
+        "state": "NY",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.45,
+          43.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-BUF-2",
+      "properties": {
+        "report_id": "iem-lsr-BUF-2",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131200",
+        "standard_time_display": "2026-11-13 07:00 EST",
+        "wfo": "BUF",
+        "county_or_zone": "Lewis",
+        "city": "3 NW Boonville",
+        "state": "NY",
+        "magnitude": 1.6,
+        "magnitude_units": null,
+        "source": "Co-Op Observer",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.37,
+          43.52
+        ]
+      }
+    }
+  ]
 }

@@ -7,12 +7,169 @@
     "wfo": "GSP",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-12T17:32:50Z",
+    "generated_utc": "2026-11-13T17:09:57Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
     "tornado_track_policy": "Tornado tracks must come from DAT. NCEI begin/end coordinates are not used as a tornado track substitute.",
     "source": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GSP&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-1",
+      "properties": {
+        "report_id": "iem-lsr-GSP-1",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131130",
+        "standard_time_display": "2026-11-13 06:30 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Avery",
+        "city": "3 W Minneapolis",
+        "state": "NC",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Report from social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.04,
+          36.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-2",
+      "properties": {
+        "report_id": "iem-lsr-GSP-2",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131200",
+        "standard_time_display": "2026-11-13 07:00 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Mitchell",
+        "city": "1.3 ESE Buladean",
+        "state": "NC",
+        "magnitude": 0.2,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "NCML15."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.17,
+          36.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-3",
+      "properties": {
+        "report_id": "iem-lsr-GSP-3",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131200",
+        "standard_time_display": "2026-11-13 07:00 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Mitchell",
+        "city": "5 N Bakersville",
+        "state": "NC",
+        "magnitude": 0.5,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "NCML01."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.16,
+          36.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-4",
+      "properties": {
+        "report_id": "iem-lsr-GSP-4",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131200",
+        "standard_time_display": "2026-11-13 07:00 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Yancey",
+        "city": "6 SSW Burnsville",
+        "state": "NC",
+        "magnitude": 1.0,
+        "magnitude_units": null,
+        "source": "CoCoRaHS",
+        "event_narrative": "NCYN13."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.34,
+          35.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-5",
+      "properties": {
+        "report_id": "iem-lsr-GSP-5",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131230",
+        "standard_time_display": "2026-11-13 07:30 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Avery",
+        "city": "Beech Mountain",
+        "state": "NC",
+        "magnitude": 3.2,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "&&"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.87,
+          36.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-GSP-6",
+      "properties": {
+        "report_id": "iem-lsr-GSP-6",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611131300",
+        "standard_time_display": "2026-11-13 08:00 EST",
+        "wfo": "GSP",
+        "county_or_zone": "Avery",
+        "city": "3 S Grandfather Mountai",
+        "state": "NC",
+        "magnitude": 2.0,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Report from social media."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85,
+          36.05
+        ]
+      }
+    }
+  ]
 }

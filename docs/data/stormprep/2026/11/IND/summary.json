@@ -3,14 +3,16 @@
   "year": 2026,
   "month": 11,
   "wfo": "IND",
-  "total_candidate_reports": 3,
-  "mapped_candidate_reports": 3,
+  "total_candidate_reports": 6,
+  "mapped_candidate_reports": 6,
   "candidate_report_counts": {
-    "hail": 2,
-    "thunderstorm_wind": 1
+    "hail": 4,
+    "thunderstorm_wind": 1,
+    "tornado": 1
   },
   "candidate_report_type_counts": {
-    "HAIL": 2,
+    "HAIL": 4,
+    "TORNADO": 1,
     "TSTM WND DMG": 1
   },
   "nws_api_alert_count": 0,
@@ -18,6 +20,7 @@
   "tornado_track_count": 0,
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=IND&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ]
 }

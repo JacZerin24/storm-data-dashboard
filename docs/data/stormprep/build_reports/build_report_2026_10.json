@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-11-12T17:34:53Z",
+  "generated_utc": "2026-11-13T17:12:33Z",
   "year": 2026,
   "month": 10,
   "total_wfos": 125,
-  "successful_wfos": 124,
-  "failed_wfos": 1,
+  "successful_wfos": 125,
+  "failed_wfos": 0,
   "results": [
     {
       "wfo": "ABQ",
@@ -596,10 +596,10 @@
     },
     {
       "wfo": "MQT",
-      "returncode": 1,
-      "ok": false,
-      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv\n",
-      "stderr_tail": "dashboard/storm-data-dashboard/scripts/build_month.py\", line 527, in <module>\n    main()\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 485, in main\n    reports, lsr_url, lsr_warning = fetch_lsr_reports(wfo, start, end)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/storm-data-dashboard/storm-data-dashboard/scripts/build_month.py\", line 202, in fetch_lsr_reports\n    df = pd.read_csv(io.StringIO(text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1866, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 429, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 3061, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 297, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 1041, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 1182, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 1149, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 1170, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 4400, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 16 fields in line 36, saw 17\n\n"
+      "returncode": 0,
+      "ok": true,
+      "stdout_tail": "Fetching LSRs from https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MQT&sts=2026-10-01T00%3A00%3A00Z&ets=2026-11-01T00%3A00%3A00Z&fmt=csv\nNWS API alerts skipped because this month is outside the recent alert-history window. Use warning/product archive links instead.\nWrote docs/data/stormprep/2026/10/MQT/dashboard.json\nWrote docs/data/stormprep/2026/10/MQT/reports.geojson\nWrote docs/data/stormprep/2026/10/MQT/products.json\nWrote docs/data/stormprep/2026/10/MQT/warnings.geojson\nWrote docs/data/stormprep/2026/10/MQT/tornado_tracks.geojson\nWrote docs/data/stormprep/2026/10/MQT/summary.json\nWrote docs/data/index.json\nDone.\n",
+      "stderr_tail": ""
     },
     {
       "wfo": "MRX",

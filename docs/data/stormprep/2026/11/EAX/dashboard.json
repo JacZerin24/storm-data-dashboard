@@ -6,7 +6,7 @@
     "wfo": "EAX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-12T17:32:39Z",
+    "generated_utc": "2026-11-13T17:09:45Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,12 +17,14 @@
     "year": 2026,
     "month": 11,
     "wfo": "EAX",
-    "total_candidate_reports": 1,
-    "mapped_candidate_reports": 1,
+    "total_candidate_reports": 2,
+    "mapped_candidate_reports": 2,
     "candidate_report_counts": {
-      "thunderstorm_wind": 1
+      "thunderstorm_wind": 1,
+      "tornado": 1
     },
     "candidate_report_type_counts": {
+      "TORNADO": 1,
       "TSTM WND DMG": 1
     },
     "nws_api_alert_count": 0,
@@ -30,7 +32,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EAX&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -42,7 +45,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=EAX&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -66,6 +70,28 @@
       "ugc": "MOC175",
       "ugc_name": "Randolph",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EAX-2",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611031642",
+      "standard_time_display": "2026-11-03 10:42 CST",
+      "standard_time_zone": "CST",
+      "wfo": "EAX",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 S Renick",
+      "county": "Randolph",
+      "state": "MO",
+      "source": "NWS Storm Survey",
+      "remark": "NWS Storm Survey found damage consistent with a brief tornado west of Clark in rural southern Randolph County around 10:42 am on Tuesday_ November 3rd. The tornado began near the intersection of Route B and County Road 2690_ moving to the north northeast where it damaged a farmstead along 2690_ inflicting damage to trees and farm outbuildings. The tornado ended near the intersection of County Roads 2690 and D234. The max estimated wind speeds were around 90 mph. The tornado traveled around 1 mile in length_ was 50 yards in width_ and was on the ground for around 2 minutes.",
+      "lat": 39.28,
+      "lon": -92.4,
+      "ugc": "MOC175",
+      "ugc_name": "Randolph",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EAX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -74,7 +100,7 @@
       "wfo": "EAX",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-12T17:32:40Z"
+      "generated_utc": "2026-11-13T17:09:46Z"
     },
     "primary_links": [
       {

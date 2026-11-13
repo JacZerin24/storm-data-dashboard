@@ -6,7 +6,7 @@
     "wfo": "GYX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-12T17:32:51Z",
+    "generated_utc": "2026-11-13T17:09:59Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 11,
     "wfo": "GYX",
-    "total_candidate_reports": 4,
-    "mapped_candidate_reports": 4,
+    "total_candidate_reports": 6,
+    "mapped_candidate_reports": 6,
     "candidate_report_counts": {
-      "other": 4
+      "other": 4,
+      "winter": 2
     },
     "candidate_report_type_counts": {
-      "RAIN": 4
+      "RAIN": 4,
+      "SNOW": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -132,6 +134,50 @@
       "ugc": "MEC013",
       "ugc_name": "Knox",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-5",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611131218",
+      "standard_time_display": "2026-11-13 07:18 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "2 W Peterborough",
+      "county": "Cheshire",
+      "state": "NH",
+      "source": "Trained Spotter",
+      "remark": "Storm total thus far_ still snowing lightly.",
+      "lat": 42.89,
+      "lon": -72.01,
+      "ugc": "NHC005",
+      "ugc_name": "Cheshire",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-GYX-6",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611131657",
+      "standard_time_display": "2026-11-13 11:57 EST",
+      "standard_time_zone": "EST",
+      "wfo": "GYX",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 1.5,
+      "magnitude_qualifier": null,
+      "city": "2 SW Unity",
+      "county": "Sullivan",
+      "state": "NH",
+      "source": "Trained Spotter",
+      "remark": "&&",
+      "lat": 43.28,
+      "lon": -72.3,
+      "ugc": "NHC019",
+      "ugc_name": "Sullivan",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=GYX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -140,7 +186,7 @@
       "wfo": "GYX",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-12T17:32:52Z"
+      "generated_utc": "2026-11-13T17:09:59Z"
     },
     "primary_links": [
       {

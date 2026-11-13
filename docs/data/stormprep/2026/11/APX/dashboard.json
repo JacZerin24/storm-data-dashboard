@@ -6,7 +6,7 @@
     "wfo": "APX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-12T17:32:22Z",
+    "generated_utc": "2026-11-13T17:09:26Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,13 +17,15 @@
     "year": 2026,
     "month": 11,
     "wfo": "APX",
-    "total_candidate_reports": 2,
-    "mapped_candidate_reports": 2,
+    "total_candidate_reports": 4,
+    "mapped_candidate_reports": 4,
     "candidate_report_counts": {
-      "thunderstorm_wind": 2
+      "thunderstorm_wind": 2,
+      "winter": 2
     },
     "candidate_report_type_counts": {
-      "NON-TSTM WND GST": 2
+      "NON-TSTM WND GST": 2,
+      "SNOW": 2
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -88,6 +90,50 @@
       "ugc": "MIC089",
       "ugc_name": "Leelanau",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-3",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611131244",
+      "standard_time_display": "2026-11-13 06:44 CST",
+      "standard_time_zone": "CST",
+      "wfo": "APX",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 1.6,
+      "magnitude_qualifier": null,
+      "city": "6.1 SW Traverse City",
+      "county": "Grand Traverse",
+      "state": "MI",
+      "source": "CoCoRaHS",
+      "remark": "Observation from CoCoRaHS observer 6.1 SW Traverse City.",
+      "lat": 44.69,
+      "lon": -85.69,
+      "ugc": "MIC055",
+      "ugc_name": "Grand Traverse",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-APX-4",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611131312",
+      "standard_time_display": "2026-11-13 07:12 CST",
+      "standard_time_zone": "CST",
+      "wfo": "APX",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 3.8,
+      "magnitude_qualifier": null,
+      "city": "2 SW Greilickville",
+      "county": "Leelanau",
+      "state": "MI",
+      "source": "Broadcast Media",
+      "remark": "Total observed at 7&4 News studios located in Leelanau County atop the ridge west of Traverse City.",
+      "lat": 44.78,
+      "lon": -85.68,
+      "ugc": "MIC089",
+      "ugc_name": "Leelanau",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=APX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -96,7 +142,7 @@
       "wfo": "APX",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-12T17:32:23Z"
+      "generated_utc": "2026-11-13T17:09:27Z"
     },
     "primary_links": [
       {
