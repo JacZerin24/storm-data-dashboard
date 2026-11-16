@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-15T16:19:01Z",
+    "generated_utc": "2026-11-16T19:32:39Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,14 +17,17 @@
     "year": 2026,
     "month": 11,
     "wfo": "MAF",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 10,
+    "mapped_candidate_reports": 10,
     "candidate_report_counts": {
-      "thunderstorm_wind": 8
+      "thunderstorm_wind": 8,
+      "tornado": 2
     },
     "candidate_report_type_counts": {
+      "FUNNEL CLOUD": 1,
       "NON-TSTM WND DMG": 1,
       "NON-TSTM WND GST": 5,
+      "TORNADO": 1,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -32,7 +35,8 @@
     "tornado_track_count": 0,
     "source_warnings": [
       "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+      "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+      "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
     ]
   },
   "sources": {
@@ -44,7 +48,8 @@
   },
   "source_warnings": [
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=MAF&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
-    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
+    "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only.",
+    "Tornado candidate reports were found, but DAT tornado tracks were not available for this build."
   ],
   "candidate_reports": [
     {
@@ -182,6 +187,50 @@
     {
       "report_id": "iem-lsr-MAF-7",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611142359",
+      "standard_time_display": "2026-11-14 16:59 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "FUNNEL CLOUD",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 W Sand",
+      "county": "Gaines",
+      "state": "TX",
+      "source": "Public",
+      "remark": "Social media pictures and video show a short lived funnel cloud developed and dissipated over eastern Gaines County. Gaines County EM has not received reports of damage in the area.",
+      "lat": 32.72,
+      "lon": -102.25,
+      "ugc": "TXC165",
+      "ugc_name": "Gaines",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-8",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611142359",
+      "standard_time_display": "2026-11-14 16:59 MST",
+      "standard_time_zone": "MST",
+      "wfo": "MAF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "5 NW Sand",
+      "county": "Gaines",
+      "state": "TX",
+      "source": "Broadcast Media",
+      "remark": "Broadcast media reports a tornado east of Seminole around 6 PM CST.",
+      "lat": 32.73,
+      "lon": -102.25,
+      "ugc": "TXC165",
+      "ugc_name": "Gaines",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-9",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611150220",
       "standard_time_display": "2026-11-14 20:20 CST",
       "standard_time_zone": "CST",
@@ -202,7 +251,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-8",
+      "report_id": "iem-lsr-MAF-10",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611150308",
       "standard_time_display": "2026-11-14 21:08 CST",
@@ -230,7 +279,7 @@
       "wfo": "MAF",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-15T16:19:02Z"
+      "generated_utc": "2026-11-16T19:32:39Z"
     },
     "primary_links": [
       {
