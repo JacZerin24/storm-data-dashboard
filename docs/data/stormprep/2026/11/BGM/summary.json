@@ -3,15 +3,20 @@
   "year": 2026,
   "month": 11,
   "wfo": "BGM",
-  "total_candidate_reports": 0,
-  "mapped_candidate_reports": 0,
-  "candidate_report_counts": {},
-  "candidate_report_type_counts": {},
+  "total_candidate_reports": 84,
+  "mapped_candidate_reports": 84,
+  "candidate_report_counts": {
+    "other": 1,
+    "winter": 83
+  },
+  "candidate_report_type_counts": {
+    "RAIN": 1,
+    "SNOW": 83
+  },
   "nws_api_alert_count": 0,
   "nws_api_alert_type_counts": {},
   "tornado_track_count": 0,
   "source_warnings": [
-    "LSR fetch failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
     "NWS alerts fetch failed: 400 Client Error: Bad Request for url: https://api.weather.gov/alerts?office=BGM&start=2026-11-01T00%3A00%3A00Z&end=2026-12-01T00%3A00%3A00Z",
     "DAT tornado track source is not configured for this build. Tornado dots are candidate reports only."
   ]

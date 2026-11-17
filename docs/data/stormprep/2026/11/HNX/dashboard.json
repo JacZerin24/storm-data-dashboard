@@ -6,7 +6,7 @@
     "wfo": "HNX",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-16T19:32:22Z",
+    "generated_utc": "2026-11-17T18:30:48Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,15 +17,17 @@
     "year": 2026,
     "month": 11,
     "wfo": "HNX",
-    "total_candidate_reports": 8,
-    "mapped_candidate_reports": 8,
+    "total_candidate_reports": 9,
+    "mapped_candidate_reports": 9,
     "candidate_report_counts": {
-      "other": 8
+      "other": 8,
+      "winter": 1
     },
     "candidate_report_type_counts": {
       "DEBRIS FLOW": 3,
       "FOG": 4,
-      "RAIN": 1
+      "RAIN": 1,
+      "SNOW": 1
     },
     "nws_api_alert_count": 0,
     "nws_api_alert_type_counts": {},
@@ -222,6 +224,28 @@
       "ugc": "CAC107",
       "ugc_name": "Tulare",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-HNX-9",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611162210",
+      "standard_time_display": "2026-11-16 14:10 PST",
+      "standard_time_zone": "PST",
+      "wfo": "HNX",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 0.0001,
+      "magnitude_qualifier": null,
+      "city": "1 SW Wawona",
+      "county": "Mariposa",
+      "state": "CA",
+      "source": "Park/Forest Servi",
+      "remark": "Yosemite range reports light snowfall below 5_000 feet elevation at Wawona along Highway 41.",
+      "lat": 37.54,
+      "lon": -119.66,
+      "ugc": "CAC043",
+      "ugc_name": "Mariposa",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HNX&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -230,7 +254,7 @@
       "wfo": "HNX",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-16T19:32:22Z"
+      "generated_utc": "2026-11-17T18:30:48Z"
     },
     "primary_links": [
       {
