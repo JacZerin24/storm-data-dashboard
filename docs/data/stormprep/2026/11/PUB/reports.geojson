@@ -7,7 +7,7 @@
     "wfo": "PUB",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-17T18:31:23Z",
+    "generated_utc": "2026-11-18T18:01:19Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -220,6 +220,58 @@
         "coordinates": [
           -106.79,
           37.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-9",
+      "properties": {
+        "report_id": "iem-lsr-PUB-9",
+        "report_type": "NON-TSTM WND GST",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611180705",
+        "standard_time_display": "2026-11-18 00:05 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Huerfano",
+        "city": "9 N Walsenburg",
+        "state": "CO",
+        "magnitude": 69.0,
+        "magnitude_units": null,
+        "source": "Mesonet",
+        "event_narrative": "Site CO030."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.84,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-PUB-10",
+      "properties": {
+        "report_id": "iem-lsr-PUB-10",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611180750",
+        "standard_time_display": "2026-11-18 00:50 MST",
+        "wfo": "PUB",
+        "county_or_zone": "Lake",
+        "city": "2 NE Leadville",
+        "state": "CO",
+        "magnitude": 1.5,
+        "magnitude_units": null,
+        "source": "Co-Op Observer",
+        "event_narrative": "SWE 0.08 inches."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.27,
+          39.27
         ]
       }
     }

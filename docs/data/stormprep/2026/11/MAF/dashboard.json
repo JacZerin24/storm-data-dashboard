@@ -6,7 +6,7 @@
     "wfo": "MAF",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-17T18:31:04Z",
+    "generated_utc": "2026-11-18T18:00:56Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,17 +17,18 @@
     "year": 2026,
     "month": 11,
     "wfo": "MAF",
-    "total_candidate_reports": 10,
-    "mapped_candidate_reports": 10,
+    "total_candidate_reports": 12,
+    "mapped_candidate_reports": 12,
     "candidate_report_counts": {
-      "thunderstorm_wind": 8,
-      "tornado": 2
+      "thunderstorm_wind": 9,
+      "tornado": 3
     },
     "candidate_report_type_counts": {
       "FUNNEL CLOUD": 1,
       "NON-TSTM WND DMG": 1,
       "NON-TSTM WND GST": 5,
-      "TORNADO": 1,
+      "TORNADO": 2,
+      "TSTM WND DMG": 1,
       "TSTM WND GST": 2
     },
     "nws_api_alert_count": 0,
@@ -231,6 +232,50 @@
     {
       "report_id": "iem-lsr-MAF-9",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611150033",
+      "standard_time_display": "2026-11-14 18:33 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "TORNADO",
+      "event_category": "tornado",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NW Lamesa",
+      "county": "Dawson",
+      "state": "TX",
+      "source": "Emergency Manager",
+      "remark": "A brief tornado destroyed a metal outbuilding and some fencing west of Highway 137 and south of County Road 14. A tree was snapped and a couple of trailers were tossed. The tornado lasted approximately a minute.",
+      "lat": 32.79,
+      "lon": -101.99,
+      "ugc": "TXC115",
+      "ugc_name": "Dawson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-10",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611150034",
+      "standard_time_display": "2026-11-14 18:34 CST",
+      "standard_time_zone": "CST",
+      "wfo": "MAF",
+      "report_type": "TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "4 NW Lamesa",
+      "county": "Dawson",
+      "state": "TX",
+      "source": "Emergency Manager",
+      "remark": "4 power poles were snapped near the bottom by thunderstorm winds. The maximum gust was estimated to be around 105 mph. The time of occurrence is estimated from radar.",
+      "lat": 32.79,
+      "lon": -101.99,
+      "ugc": "TXC115",
+      "ugc_name": "Dawson",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-MAF-11",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611150220",
       "standard_time_display": "2026-11-14 20:20 CST",
       "standard_time_zone": "CST",
@@ -251,7 +296,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=MAF&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-MAF-10",
+      "report_id": "iem-lsr-MAF-12",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611150308",
       "standard_time_display": "2026-11-14 21:08 CST",
@@ -279,7 +324,7 @@
       "wfo": "MAF",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-17T18:31:04Z"
+      "generated_utc": "2026-11-18T18:00:57Z"
     },
     "primary_links": [
       {
