@@ -6,7 +6,7 @@
     "wfo": "EKA",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-18T18:00:13Z",
+    "generated_utc": "2026-11-19T18:12:54Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -17,20 +17,22 @@
     "year": 2026,
     "month": 11,
     "wfo": "EKA",
-    "total_candidate_reports": 33,
-    "mapped_candidate_reports": 33,
+    "total_candidate_reports": 36,
+    "mapped_candidate_reports": 36,
     "candidate_report_counts": {
       "hail": 5,
       "marine": 7,
       "other": 4,
-      "thunderstorm_wind": 16,
-      "tornado": 1
+      "thunderstorm_wind": 18,
+      "tornado": 1,
+      "winter": 1
     },
     "candidate_report_type_counts": {
       "HAIL": 5,
       "HIGH SURF": 7,
       "LANDSLIDE": 4,
-      "NON-TSTM WND DMG": 15,
+      "NON-TSTM WND DMG": 17,
+      "SNOW": 1,
       "TSTM WND DMG": 1,
       "WATERSPOUT": 1
     },
@@ -741,6 +743,28 @@
     {
       "report_id": "iem-lsr-EKA-32",
       "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611181500",
+      "standard_time_display": "2026-11-18 07:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "EKA",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "2 W Blue Lake",
+      "county": "Humboldt",
+      "state": "CA",
+      "source": "Public",
+      "remark": "Large tree down on the 12000 block of West End Road.",
+      "lat": 40.88,
+      "lon": -124.02,
+      "ugc": "CAC023",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-33",
+      "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611181558",
       "standard_time_display": "2026-11-18 07:58 PST",
       "standard_time_zone": "PST",
@@ -761,7 +785,7 @@
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     },
     {
-      "report_id": "iem-lsr-EKA-33",
+      "report_id": "iem-lsr-EKA-34",
       "source_dataset": "IEM Local Storm Reports archive",
       "valid_utc": "202611181637",
       "standard_time_display": "2026-11-18 08:37 PST",
@@ -781,6 +805,50 @@
       "ugc": "CAC033",
       "ugc_name": "Lake",
       "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-35",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611181900",
+      "standard_time_display": "2026-11-18 11:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "EKA",
+      "report_type": "NON-TSTM WND DMG",
+      "event_category": "thunderstorm_wind",
+      "magnitude": null,
+      "magnitude_qualifier": null,
+      "city": "3 SE Leggett",
+      "county": "Mendocino",
+      "state": "CA",
+      "source": "Department of Hig",
+      "remark": "Tree down blocking Highway 271 south of Leggett.",
+      "lat": 39.84,
+      "lon": -123.69,
+      "ugc": "CAC045",
+      "ugc_name": "Mendocino",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "report_id": "iem-lsr-EKA-36",
+      "source_dataset": "IEM Local Storm Reports archive",
+      "valid_utc": "202611182300",
+      "standard_time_display": "2026-11-18 15:00 PST",
+      "standard_time_zone": "PST",
+      "wfo": "EKA",
+      "report_type": "SNOW",
+      "event_category": "winter",
+      "magnitude": 6.0,
+      "magnitude_qualifier": null,
+      "city": "3 W Willow Creek",
+      "county": "Humboldt",
+      "state": "CA",
+      "source": "Department of Hig",
+      "remark": "Location and time estimated_ report from Public Works. Elevation between 4_000 and 5_000 feet.",
+      "lat": 40.87,
+      "lon": -123.73,
+      "ugc": "CAC023",
+      "ugc_name": "Humboldt",
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=EKA&sts=2026-11-01T00%3A00%3A00Z&ets=2026-12-01T00%3A00%3A00Z&fmt=csv"
     }
   ],
   "product_collections": {
@@ -789,7 +857,7 @@
       "wfo": "EKA",
       "start_utc": "2026-11-01T00:00:00Z",
       "end_utc": "2026-12-01T00:00:00Z",
-      "generated_utc": "2026-11-18T18:00:15Z"
+      "generated_utc": "2026-11-19T18:12:55Z"
     },
     "primary_links": [
       {

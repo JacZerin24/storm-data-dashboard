@@ -7,7 +7,7 @@
     "wfo": "EKA",
     "start_utc": "2026-11-01T00:00:00Z",
     "end_utc": "2026-12-01T00:00:00Z",
-    "generated_utc": "2026-11-18T18:00:13Z",
+    "generated_utc": "2026-11-19T18:12:54Z",
     "mode": "storm_data_prep",
     "public_release_status": "public-source-derived",
     "time_note": "Storm Data entry times should be reviewed in local Standard Time (ST), not daylight time. Candidate reports include standard_time_display.",
@@ -826,6 +826,32 @@
       "id": "iem-lsr-EKA-32",
       "properties": {
         "report_id": "iem-lsr-EKA-32",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611181500",
+        "standard_time_display": "2026-11-18 07:00 PST",
+        "wfo": "EKA",
+        "county_or_zone": "Humboldt",
+        "city": "2 W Blue Lake",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Public",
+        "event_narrative": "Large tree down on the 12000 block of West End Road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.02,
+          40.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EKA-33",
+      "properties": {
+        "report_id": "iem-lsr-EKA-33",
         "report_type": "LANDSLIDE",
         "event_category": "other",
         "valid_utc": "202611181558",
@@ -849,9 +875,9 @@
     },
     {
       "type": "Feature",
-      "id": "iem-lsr-EKA-33",
+      "id": "iem-lsr-EKA-34",
       "properties": {
-        "report_id": "iem-lsr-EKA-33",
+        "report_id": "iem-lsr-EKA-34",
         "report_type": "LANDSLIDE",
         "event_category": "other",
         "valid_utc": "202611181637",
@@ -870,6 +896,58 @@
         "coordinates": [
           -122.61,
           39.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EKA-35",
+      "properties": {
+        "report_id": "iem-lsr-EKA-35",
+        "report_type": "NON-TSTM WND DMG",
+        "event_category": "thunderstorm_wind",
+        "valid_utc": "202611181900",
+        "standard_time_display": "2026-11-18 11:00 PST",
+        "wfo": "EKA",
+        "county_or_zone": "Mendocino",
+        "city": "3 SE Leggett",
+        "state": "CA",
+        "magnitude": null,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "Tree down blocking Highway 271 south of Leggett."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.69,
+          39.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iem-lsr-EKA-36",
+      "properties": {
+        "report_id": "iem-lsr-EKA-36",
+        "report_type": "SNOW",
+        "event_category": "winter",
+        "valid_utc": "202611182300",
+        "standard_time_display": "2026-11-18 15:00 PST",
+        "wfo": "EKA",
+        "county_or_zone": "Humboldt",
+        "city": "3 W Willow Creek",
+        "state": "CA",
+        "magnitude": 6.0,
+        "magnitude_units": null,
+        "source": "Department of Hig",
+        "event_narrative": "Location and time estimated_ report from Public Works. Elevation between 4_000 and 5_000 feet."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.73,
+          40.87
         ]
       }
     }
